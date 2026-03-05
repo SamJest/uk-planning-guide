@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="google-site-verification" content="qh5BmkBGE2X8BwYjPbm0J2FPGphO0fIxdx2JF7LDmK8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UK Planning Permission Guidance</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GXRZWRNWD7');
+</script>
+
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#2563eb">
+
+<style>
+
+/* VARIABLES */
+
+:root{
+--bg:#f7f8fa;
+--card:#ffffff;
+--text:#0f172a;
+--muted:#64748b;
+--accent:#2563eb;
+--border:#e2e8f0;
+--radius:14px;
+--maxwidth:1100px;
+}
+
+/* GLOBAL */
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.65;
+-webkit-font-smoothing:antialiased;
+}
+
+/* LINKS */
+
+a{
+color:var(--accent);
+text-decoration:none;
+transition:all .15s ease;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+/* HEADER */
+
+header{
+background:white;
+border-bottom:1px solid var(--border);
+padding:18px 24px;
+position:sticky;
+top:0;
+z-index:20;
+backdrop-filter:blur(6px);
+}
+
+.nav-container{
+max-width:var(--maxwidth);
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.brand{
+font-weight:700;
+font-size:20px;
+letter-spacing:-0.3px;
+}
+
+.brand a{
+color:var(--text);
+}
+
+nav a{
+margin-left:24px;
+font-size:14px;
+color:var(--muted);
+}
+
+nav a:hover{
+color:var(--text);
+}
+
+/* MAIN CONTAINER */
+
+.container{
+max-width:var(--maxwidth);
+margin:40px auto;
+padding:0 24px;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(180deg,#ffffff,#f8fafc);
+padding:40px;
+border-radius:var(--radius);
+border:1px solid var(--border);
+margin-bottom:28px;
+}
+
+/* CARDS */
+
+.card{
+background:var(--card);
+padding:28px;
+border-radius:var(--radius);
+border:1px solid var(--border);
+box-shadow:0 6px 24px rgba(15,23,42,0.06);
+margin-bottom:28px;
+transition:all .25s ease;
+}
+
+.card:hover{
+box-shadow:0 12px 30px rgba(15,23,42,0.09);
+transform:translateY(-2px);
+}
+
+/* TYPOGRAPHY */
+
+h1{
+font-size:34px;
+margin-bottom:12px;
+letter-spacing:-0.5px;
+}
+
+h2{
+font-size:22px;
+margin-bottom:12px;
+margin-top:0;
+}
+
+h3{
+font-size:18px;
+margin-top:0;
+margin-bottom:8px;
+}
+
+p{
+margin:0 0 16px 0;
+color:var(--muted);
+}
+
+ul{
+padding-left:18px;
+margin:0;
+}
+
+li{
+margin-bottom:6px;
+}
+
+/* BADGES */
+
+.badge{
+display:inline-block;
+background:#eef2ff;
+color:var(--accent);
+padding:6px 12px;
+border-radius:999px;
+font-size:13px;
+margin-bottom:16px;
+font-weight:500;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+gap:20px;
+}
+
+@media(min-width:768px){
+
+.grid-2{
+grid-template-columns:repeat(2,1fr);
+}
+
+.grid-3{
+grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+/* BREADCRUMBS */
+
+.breadcrumb{
+font-size:13px;
+margin-bottom:18px;
+color:var(--muted);
+}
+
+.breadcrumb a{
+color:var(--muted);
+}
+
+.breadcrumb a:hover{
+color:var(--text);
+}
+
+/* BUTTON STYLE LINKS */
+
+.button{
+display:inline-block;
+background:var(--accent);
+color:white;
+padding:10px 18px;
+border-radius:8px;
+font-size:14px;
+font-weight:500;
+margin-top:8px;
+}
+
+.button:hover{
+opacity:.9;
+text-decoration:none;
+}
+
+/* LAST UPDATED */
+
+.last-updated{
+font-size:13px;
+opacity:0.7;
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+border-top:1px solid var(--border);
+padding:40px 24px;
+text-align:center;
+font-size:13px;
+color:var(--muted);
+margin-top:60px;
+background:white;
+}
+
+.footer-inner{
+max-width:var(--maxwidth);
+margin:auto;
+}
+
+.footer-links{
+margin-top:14px;
+}
+
+.footer-links a{
+margin:0 10px;
+font-size:13px;
+color:var(--muted);
+}
+
+.footer-links a:hover{
+color:var(--text);
+}
+
+/* PRINT */
+
+@media print{
+
+header,footer,nav{
+display:none;
+}
+
+.container{
+margin:0;
+}
+
+.card{
+box-shadow:none;
+border:none;
+}
+
+}
+
+/* SMALL DEVICES */
+
+@media(max-width:600px){
+
+nav{
+display:none;
+}
+
+.container{
+margin:24px auto;
+}
+
+}
+
+</style>
+
+<link rel="canonical" href="https://ukplanningguide.co.uk/" />
+<meta name="description" content="Planning permission guidance for loft conversions, extensions, garden rooms and other home improvement projects across UK councils." />
+
+</head>
+
+<body>
+
+<header>
+
+<div class="nav-container">
+
+<div class="brand">
+<a href="/">UKPlanningGuide</a>
+</div>
+
+<nav>
+
+<a href="/">Home</a>
+
+<a href="/garden-rooms/">
+Garden Rooms
+</a>
+
+<a href="/loft-conversions/">
+Loft Conversions
+</a>
+
+<a href="/house-extensions/">
+Extensions
+</a>
+
+<a href="/councils/">
+Councils
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<div class="container">
+
+<div class="card hero">
+
+<div class="badge">UK Planning Guidance</div>
+
+<h1>UK Planning Permission Guidance for Home Improvements</h1>
+
+<p>
+UK Planning Guide provides clear guidance on planning permission rules for
+common home improvement projects including loft conversions, extensions,
+garden rooms and outbuildings.
+</p>
+
+<p>
+Our structured guidance explains national permitted development rules and
+links to official council planning resources so homeowners can understand
+planning requirements before starting a project.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Planning Guidance by Project Type</h2>
+
+<p>
+Explore planning permission guidance for the most common types of home
+improvement projects.
+</p>
+
+</div>
+
+
+
+<div class="grid grid-2">
+
+
+<a class="card" href="/garden-rooms/">
+<h3>Garden Room</h3>
+<p>Permitted development rules, height limits and local restrictions for garden rooms and outbuildings.</p>
+</a>
+
+<a class="card" href="/loft-conversions/">
+<h3>Loft Conversion</h3>
+<p>Permitted development rules, volume limits and local planning restrictions for loft conversions.</p>
+</a>
+
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Browse Planning Rules by Area</h2>
+
+<p>
+Planning rules can vary between councils due to local planning policies,
+conservation areas and Article 4 directions. Select a region below to
+browse local planning guidance.
+</p>
+
+<div class="grid grid-2">
+
+<a href="/greater-london/">Greater London</a>
+<a href="/kent/">Kent</a>
+<a href="/surrey/">Surrey</a>
+<a href="/essex/">Essex</a>
+<a href="/greater-manchester/">Greater Manchester</a>
+<a href="/west-midlands/">West Midlands</a>
+<a href="/west-yorkshire/">West Yorkshire</a>
+<a href="/merseyside/">Merseyside</a>
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Planning Guidance by Location</h2>
+
+<p>
+Planning rules can vary between councils due to local planning policies,
+conservation areas and Article 4 directions. Our location pages summarise
+council-specific considerations alongside national planning guidance.
+</p>
+
+<p>
+Select a project type above to view planning guidance organised by region
+and council area.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Understanding UK Planning Permission</h2>
+
+<p>
+Many home improvement projects fall under permitted development rights,
+meaning planning permission may not be required if specific size and design
+limits are followed.
+</p>
+
+<p>
+However, planning permission may still be required where properties are
+located in conservation areas, where Article 4 directions apply, or where
+developments exceed permitted development limits.
+</p>
+
+<p>
+UK Planning Guide summarises these rules to help homeowners understand the
+key planning considerations before starting a project.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Popular Planning Permission Guides</h2>
+
+<p>
+Browse some commonly searched planning permission guidance
+pages across UK council areas.
+</p>
+
+<ul class="link-list">
+
+
+<li>
+<a href="/garden-rooms/greater-london/barking-and-dagenham/">
+Garden Room
+in Barking and Dagenham
+</a>
+</li>
+
+<li>
+<a href="/loft-conversions/greater-london/barking-and-dagenham/">
+Loft Conversion
+in Barking and Dagenham
+</a>
+</li>
+
+<li>
+<a href="/garden-rooms/greater-london/barnet/">
+Garden Room
+in Barnet
+</a>
+</li>
+
+<li>
+<a href="/loft-conversions/greater-london/barnet/">
+Loft Conversion
+in Barnet
+</a>
+</li>
+
+
+</ul>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Why Use UK Planning Guide?</h2>
+
+<p>
+Council planning websites often present guidance across multiple documents
+and technical planning policies. UK Planning Guide organises planning
+information into clear summaries so homeowners can quickly understand the
+rules that apply to their project.
+</p>
+
+<p>
+Each page references official planning resources including council planning
+portals, conservation area guidance and Article 4 direction information.
+</p>
+
+<p>
+Our goal is to provide structured, easy-to-understand guidance that helps
+homeowners plan projects correctly before construction begins.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<div class="footer-inner">
+
+<div>
+© 2026 UKPlanningGuide
+</div>
+
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="/councils/">Councils</a>
+</div>
+
+<p>
+Information based on official council planning guidance.  
+Content is provided for general guidance only and does not constitute legal advice.
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
