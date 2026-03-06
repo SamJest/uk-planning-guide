@@ -21,6 +21,25 @@
   gtag('config', 'G-GXRZWRNWD7');
 </script>
 
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<header class="site-header">
+  <div class="container">
+
+<a href="/" class="site-logo">
+<img src="/images/uk-planning-guide-logo.png"
+alt="UK Planning Guide – UK Planning Permission Guidance"
+width="320"
+height="80">
+</a>
+
+  </div>
+</header>
+
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#2563eb">
 
@@ -76,6 +95,12 @@ position:sticky;
 top:0;
 z-index:20;
 backdrop-filter:blur(6px);
+}
+
+.site-logo img{
+height:60px;
+width:auto;
+display:block;
 }
 
 .nav-container{
@@ -384,18 +409,14 @@ loft conversion in Haringey
 may require planning permission.
 </p>
 
-<label>Structure height (metres)</label> <input type="number" id="pp-height" step="0.1">
+<label>Structure height (metres)</label>
+<input type="number" id="pp-height" step="0.1">
 
-<label>Distance from boundary (metres)</label> <input type="number" id="pp-boundary" step="0.1">
+<label>Distance from boundary (metres)</label>
+<input type="number" id="pp-boundary" step="0.1">
 
-<label>Is the property in a conservation area?</label> <select id="pp-conservation">
-
-<option value="no">No</option>
-<option value="yes">Yes</option>
-</select>
-
-<label>Is the property listed?</label> <select id="pp-listed">
-
+<label>Is the property in a conservation area?</label>
+<select id="pp-conservation">
 <option value="no">No</option>
 <option value="yes">Yes</option>
 </select>
@@ -419,32 +440,19 @@ parseFloat(document.getElementById("pp-boundary").value);
 const conservation =
 document.getElementById("pp-conservation").value;
 
-const listed =
-document.getElementById("pp-listed").value;
+let result="";
 
-let result = "";
-
-if(listed === "yes"){
-result =
-"Planning permission will normally be required for works affecting a listed building.";
+if(conservation==="yes"){
+result="Planning permission may be required in conservation areas depending on the development.";
 }
-
-else if(conservation === "yes"){
-result =
-"Planning permission may be required in conservation areas depending on the development.";
+else if(boundary<=2 && height>2.5){
+result="Planning permission may be required because structures within 2 metres of a boundary are usually limited to 2.5 metres in height.";
 }
-
-else if(boundary <= 2 && height > 2.5){
-result =
-"Planning permission may be required because structures within 2 metres of a boundary are usually limited to 2.5 metres in height.";
-}
-
 else{
-result =
-"The development may fall under permitted development rules, but always confirm with the local planning authority.";
+result="The development may fall under permitted development rules, but always confirm with the local planning authority.";
 }
 
-document.getElementById("pp-result").innerText = result;
+document.getElementById("pp-result").innerText=result;
 
 }
 
@@ -506,6 +514,27 @@ document.getElementById("planning-result").innerText = result;
 }
 
 </script>
+
+
+
+<div class="card">
+
+<h2>Loft Conversion Planning Application Checklist – Haringey</h2>
+
+<button onclick="window.print()">Print Checklist</button>
+
+<ul>
+<li>□ Check whether planning permission is required</li>
+<li>□ Confirm permitted development eligibility</li>
+<li>□ Check conservation area restrictions</li>
+<li>□ Check if Article 4 directions apply</li>
+<li>□ Prepare architectural drawings</li>
+<li>□ Confirm building regulations requirements</li>
+<li>□ Consider neighbour impact and privacy</li>
+<li>□ Review recent planning decisions in Haringey</li>
+</ul>
+
+</div>
 
 
 

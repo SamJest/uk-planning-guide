@@ -21,6 +21,25 @@
   gtag('config', 'G-GXRZWRNWD7');
 </script>
 
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<header class="site-header">
+  <div class="container">
+
+<a href="/" class="site-logo">
+<img src="/images/uk-planning-guide-logo.png"
+alt="UK Planning Guide – UK Planning Permission Guidance"
+width="320"
+height="80">
+</a>
+
+  </div>
+</header>
+
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#2563eb">
 
@@ -76,6 +95,12 @@ position:sticky;
 top:0;
 z-index:20;
 backdrop-filter:blur(6px);
+}
+
+.site-logo img{
+height:60px;
+width:auto;
+display:block;
 }
 
 .nav-container{
@@ -316,7 +341,7 @@ margin:24px auto;
 </style>
 
 <link rel="canonical" href="https://ukplanningguide.co.uk/garden-rooms/" />
-<meta name="description" content="Permitted development rules, height limits and local restrictions for garden rooms and outbuildings." />
+<meta name="description" content="Garden Room Planning Permission planning guidance across UK councils." />
 
 </head>
 
@@ -359,22 +384,465 @@ Councils
 <div class="container">
 
 
+
 <h1>Garden Room Planning Permission</h1>
 
 <p>
-Planning permission guidance for garden room planning permission
-across councils in England.
+Browse planning permission guidance for garden room planning permission
+across UK councils. Use the search and filters below to find your area.
 </p>
 
-<ul>
+<div class="card">
 
-<li>
-<a href="/garden-rooms/greater-london/">
-Greater London
+<div style="display:grid;gap:12px;margin-bottom:18px">
+
+<input id="townSearch"
+placeholder="Search councils or boroughs…"
+style="width:100%;padding:12px;border-radius:8px;border:1px solid #ddd">
+
+<select id="countyFilter"
+style="padding:10px;border-radius:8px;border:1px solid #ddd">
+
+<option value="">All Counties</option>
+
+<option value="greater-london">Greater London</option>
+
+</select>
+
+<select id="sortSelect"
+style="padding:10px;border-radius:8px;border:1px solid #ddd">
+
+<option value="az">Sort A–Z</option>
+<option value="za">Sort Z–A</option>
+<option value="popular">Popular First</option>
+
+</select>
+
+</div>
+
+<div class="grid grid-3" id="townGrid">
+
+ <a class="card town-link"
+data-name="barking and dagenham"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/barking-and-dagenham/">
+
+<h3>Barking and Dagenham</h3>
+
+<p>Garden Room planning guidance</p>
+
 </a>
-</li>
+ <a class="card town-link"
+data-name="barnet"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/barnet/">
 
-</ul>
+<h3>Barnet</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="bexley"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/bexley/">
+
+<h3>Bexley</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="brent"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/brent/">
+
+<h3>Brent</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="bromley"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/bromley/">
+
+<h3>Bromley</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="camden"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/camden/">
+
+<h3>Camden</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="city of london"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/city-of-london/">
+
+<h3>City of London</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="croydon"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/croydon/">
+
+<h3>Croydon</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="ealing"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/ealing/">
+
+<h3>Ealing</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="enfield"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/enfield/">
+
+<h3>Enfield</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="greenwich"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/greenwich/">
+
+<h3>Greenwich</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="hackney"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/hackney/">
+
+<h3>Hackney</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="hammersmith and fulham"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/hammersmith-and-fulham/">
+
+<h3>Hammersmith and Fulham</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="haringey"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/haringey/">
+
+<h3>Haringey</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="harrow"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/harrow/">
+
+<h3>Harrow</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="havering"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/havering/">
+
+<h3>Havering</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="hillingdon"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/hillingdon/">
+
+<h3>Hillingdon</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="hounslow"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/hounslow/">
+
+<h3>Hounslow</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="islington"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/islington/">
+
+<h3>Islington</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="kensington and chelsea"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/kensington-and-chelsea/">
+
+<h3>Kensington and Chelsea</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="kingston upon thames"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/kingston-upon-thames/">
+
+<h3>Kingston upon Thames</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="lambeth"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/lambeth/">
+
+<h3>Lambeth</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="lewisham"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/lewisham/">
+
+<h3>Lewisham</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="merton"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/merton/">
+
+<h3>Merton</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="newham"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/newham/">
+
+<h3>Newham</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="redbridge"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/redbridge/">
+
+<h3>Redbridge</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="richmond upon thames"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/richmond-upon-thames/">
+
+<h3>Richmond upon Thames</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="southwark"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/southwark/">
+
+<h3>Southwark</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="sutton"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/sutton/">
+
+<h3>Sutton</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="tower hamlets"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/tower-hamlets/">
+
+<h3>Tower Hamlets</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="waltham forest"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/waltham-forest/">
+
+<h3>Waltham Forest</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="wandsworth"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/wandsworth/">
+
+<h3>Wandsworth</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+ <a class="card town-link"
+data-name="westminster"
+data-county="greater-london"
+data-pop="0"
+href="/garden-rooms/greater-london/westminster/">
+
+<h3>Westminster</h3>
+
+<p>Garden Room planning guidance</p>
+
+</a>
+
+
+</div>
+
+</div>
+
+<script>
+
+const searchInput=document.getElementById("townSearch");
+const countyFilter=document.getElementById("countyFilter");
+const sortSelect=document.getElementById("sortSelect");
+const grid=document.getElementById("townGrid");
+
+function updateFilters(){
+
+const q=searchInput.value.toLowerCase();
+const county=countyFilter.value;
+
+let cards=[...document.querySelectorAll(".town-link")];
+
+cards.forEach(function(card){
+
+const name=card.dataset.name;
+const c=card.dataset.county;
+
+let visible=true;
+
+if(q && !name.includes(q)) visible=false;
+if(county && county!==c) visible=false;
+
+card.style.display=visible?"":"none";
+
+});
+
+cards=cards.filter(c=>c.style.display!=="none");
+
+if(sortSelect.value==="az"){
+cards.sort((a,b)=>a.dataset.name.localeCompare(b.dataset.name));
+}
+
+if(sortSelect.value==="za"){
+cards.sort((a,b)=>b.dataset.name.localeCompare(a.dataset.name));
+}
+
+if(sortSelect.value==="popular"){
+cards.sort((a,b)=>b.dataset.pop-a.dataset.pop);
+}
+
+cards.forEach(c=>grid.appendChild(c));
+
+}
+
+searchInput.addEventListener("input",updateFilters);
+countyFilter.addEventListener("change",updateFilters);
+sortSelect.addEventListener("change",updateFilters);
+
+</script>
+
 
 
 </div>
