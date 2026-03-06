@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="google-site-verification" content="qh5BmkBGE2X8BwYjPbm0J2FPGphO0fIxdx2JF7LDmK8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dormer Extension Boundary Rules in Islington</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GXRZWRNWD7');
+</script>
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<header class="site-header">
+  <div class="container">
+
+<a href="/" class="site-logo">
+<img src="/images/uk-planning-guide-logo.png"
+alt="UK Planning Guide – UK Planning Permission Guidance"
+width="320"
+height="80">
+</a>
+
+  </div>
+</header>
+
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#2563eb">
+
+<style>
+
+/* VARIABLES */
+
+:root{
+--bg:#f7f8fa;
+--card:#ffffff;
+--text:#0f172a;
+--muted:#64748b;
+--accent:#2563eb;
+--border:#e2e8f0;
+--radius:14px;
+--maxwidth:1100px;
+}
+
+/* GLOBAL */
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.65;
+-webkit-font-smoothing:antialiased;
+}
+
+/* LINKS */
+
+a{
+color:var(--accent);
+text-decoration:none;
+transition:all .15s ease;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+/* HEADER */
+
+header{
+background:white;
+border-bottom:1px solid var(--border);
+padding:18px 24px;
+position:sticky;
+top:0;
+z-index:20;
+backdrop-filter:blur(6px);
+}
+
+.site-logo img{
+height:100px;
+width:auto;
+display:block;
+}
+
+.nav-container{
+max-width:var(--maxwidth);
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.brand{
+font-weight:700;
+font-size:20px;
+letter-spacing:-0.3px;
+}
+
+.brand a{
+color:var(--text);
+}
+
+nav a{
+margin-left:24px;
+font-size:14px;
+color:var(--muted);
+}
+
+nav a:hover{
+color:var(--text);
+}
+
+/* MAIN CONTAINER */
+
+.container{
+max-width:var(--maxwidth);
+margin:40px auto;
+padding:0 24px;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(180deg,#ffffff,#f8fafc);
+padding:40px;
+border-radius:var(--radius);
+border:1px solid var(--border);
+margin-bottom:28px;
+}
+
+/* CARDS */
+
+.card{
+background:var(--card);
+padding:28px;
+border-radius:var(--radius);
+border:1px solid var(--border);
+box-shadow:0 6px 24px rgba(15,23,42,0.06);
+margin-bottom:28px;
+transition:all .25s ease;
+}
+
+.card:hover{
+box-shadow:0 12px 30px rgba(15,23,42,0.09);
+transform:translateY(-2px);
+}
+
+/* TYPOGRAPHY */
+
+h1{
+font-size:34px;
+margin-bottom:12px;
+letter-spacing:-0.5px;
+}
+
+h2{
+font-size:22px;
+margin-bottom:12px;
+margin-top:0;
+}
+
+h3{
+font-size:18px;
+margin-top:0;
+margin-bottom:8px;
+}
+
+p{
+margin:0 0 16px 0;
+color:var(--muted);
+}
+
+ul{
+padding-left:18px;
+margin:0;
+}
+
+li{
+margin-bottom:6px;
+}
+
+/* BADGES */
+
+.badge{
+display:inline-block;
+background:#eef2ff;
+color:var(--accent);
+padding:6px 12px;
+border-radius:999px;
+font-size:13px;
+margin-bottom:16px;
+font-weight:500;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+gap:20px;
+}
+
+@media(min-width:768px){
+
+.grid-2{
+grid-template-columns:repeat(2,1fr);
+}
+
+.grid-3{
+grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+/* BREADCRUMBS */
+
+.breadcrumb{
+font-size:13px;
+margin-bottom:18px;
+color:var(--muted);
+}
+
+.breadcrumb a{
+color:var(--muted);
+}
+
+.breadcrumb a:hover{
+color:var(--text);
+}
+
+/* BUTTON STYLE LINKS */
+
+.button{
+display:inline-block;
+background:var(--accent);
+color:white;
+padding:10px 18px;
+border-radius:8px;
+font-size:14px;
+font-weight:500;
+margin-top:8px;
+}
+
+.button:hover{
+opacity:.9;
+text-decoration:none;
+}
+
+/* LAST UPDATED */
+
+.last-updated{
+font-size:13px;
+opacity:0.7;
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+border-top:1px solid var(--border);
+padding:40px 24px;
+text-align:center;
+font-size:13px;
+color:var(--muted);
+margin-top:60px;
+background:white;
+}
+
+.footer-inner{
+max-width:var(--maxwidth);
+margin:auto;
+}
+
+.footer-links{
+margin-top:14px;
+}
+
+.footer-links a{
+margin:0 10px;
+font-size:13px;
+color:var(--muted);
+}
+
+.footer-links a:hover{
+color:var(--text);
+}
+
+/* PRINT */
+
+@media print{
+
+header,footer,nav{
+display:none;
+}
+
+.container{
+margin:0;
+}
+
+.card{
+box-shadow:none;
+border:none;
+}
+
+}
+
+/* SMALL DEVICES */
+
+@media(max-width:600px){
+
+nav{
+display:none;
+}
+
+.container{
+margin:24px auto;
+}
+
+}
+
+</style>
+
+<link rel="canonical" href="https://ukplanningguide.co.uk/dormer-extensions/greater-london/islington/boundary-rules/" />
+<meta name="description" content="Dormer Extension boundary rules rules in Islington." />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close to a boundary can a dormer extension be built?","acceptedAnswer":{"@type":"Answer","text":"A dormer extension can usually be built close to a boundary, but the height is typically limited to 2.5 metres if the structure is within 2 metres of the boundary."}},{"@type":"Question","name":"Do boundary rules affect permitted development rights?","acceptedAnswer":{"@type":"Answer","text":"Yes. The location of the structure relative to boundaries determines which height limits apply under permitted development rules."}},{"@type":"Question","name":"Do neighbours need to approve a dormer extension?","acceptedAnswer":{"@type":"Answer","text":"Neighbour approval is not usually required under permitted development, but developments must still comply with planning rules and building regulations."}}]}</script>
+</head>
+
+<body>
+
+<header>
+
+<div class="nav-container">
+
+<div class="brand">
+<a href="/">UKPlanningGuide</a>
+</div>
+
+<nav>
+
+<a href="/">Home</a>
+
+<a href="/garden-rooms/">
+Garden Rooms
+</a>
+
+<a href="/loft-conversions/">
+Loft Conversions
+</a>
+
+<a href="/house-extensions/">
+Extensions
+</a>
+
+<a href="/councils/">
+Councils
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<div class="container">
+
+
+
+<h1>Dormer Extension Boundary Rules in Islington</h1>
+
+<p>
+Understanding boundary rules is important when planning
+a dormer extension in Islington.
+</p>
+
+
+
+<div class="card">
+
+<h2>Boundary Distance Calculator</h2>
+
+<label>Distance from boundary (metres)</label>
+<input id="boundary-distance" type="number" step="0.1">
+
+<button onclick="checkBoundary()">Check Height Limit</button>
+
+<p id="boundary-result"></p>
+
+</div>
+
+<script>
+
+function checkBoundary(){
+
+const d =
+parseFloat(document.getElementById("boundary-distance").value);
+
+let result="";
+
+if(d<=2){
+result="Structures within 2 metres of a boundary are normally limited to 2.5 metres in height.";
+}
+else{
+result="Structures further than 2 metres from the boundary may be taller depending on roof type.";
+}
+
+document.getElementById("boundary-result").innerText=result;
+
+}
+
+</script>
+
+
+
+<div class="card">
+
+<h2>Boundary Distance Guide</h2>
+
+<p>
+Boundary rules determine whether a dormer extension
+can be built without planning permission.
+</p>
+
+<ul>
+<li>Within 2m of a boundary → max height usually 2.5m</li>
+<li>Further than 2m from boundary → taller structures may be allowed</li>
+<li>Design and roof shape may also affect permitted development rules</li>
+</ul>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Local Planning Context in Islington</h2>
+
+<p>
+Planning rules affecting dormer extension developments
+in Islington may vary depending on local planning policies,
+conservation areas and Article 4 directions.
+</p>
+
+<p>
+The local planning authority covering Islington may apply
+additional controls in certain neighbourhoods to protect
+historic character or residential amenity.
+</p>
+
+<p>
+Homeowners planning a dormer extension project in
+Islington should review local council planning guidance
+before starting work.
+</p>
+
+</div>
+
+<div class="card"><h2>Frequently Asked Questions</h2>
+<h3>How close to a boundary can a dormer extension be built?</h3>
+<p>A dormer extension can usually be built close to a boundary, but the height is typically limited to 2.5 metres if the structure is within 2 metres of the boundary.</p>
+
+<h3>Do boundary rules affect permitted development rights?</h3>
+<p>Yes. The location of the structure relative to boundaries determines which height limits apply under permitted development rules.</p>
+
+<h3>Do neighbours need to approve a dormer extension?</h3>
+<p>Neighbour approval is not usually required under permitted development, but developments must still comply with planning rules and building regulations.</p>
+</div>
+
+<div class="card">
+
+<h2>More Dormer Extension Planning Guidance in Islington</h2>
+
+<ul>
+
+<li>
+<a href="/dormer-extensions/greater-london/islington/planning-permission/">
+Dormer Extension Planning Permission
+</a>
+</li>
+
+<li>
+<a href="/dormer-extensions/greater-london/islington/height-limits/">
+Dormer Extension Height Limits
+</a>
+</li>
+
+<li>
+<a href="/dormer-extensions/greater-london/islington/boundary-rules/">
+Dormer Extension Boundary Rules
+</a>
+</li>
+
+<li>
+<a href="/dormer-extensions/greater-london/islington/conservation-areas/">
+Dormer Extension Conservation Areas
+</a>
+</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Dormer Extension Planning Guide for Islington</h2>
+
+<p>
+For a full overview of planning rules affecting
+dormer extension projects in Islington,
+including permitted development guidance, local planning
+restrictions and council resources, see the main guide below.
+</p>
+
+<p>
+<a href="/dormer-extensions/greater-london/islington/">
+View the full Dormer Extension planning guide for Islington
+</a>
+</p>
+
+</div>
+
+
+
+</div>
+
+<footer>
+
+<div class="footer-inner">
+
+<div>
+© 2026 UKPlanningGuide
+</div>
+
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="/councils/">Councils</a>
+</div>
+
+<p>
+Information based on official council planning guidance.  
+Content is provided for general guidance only and does not constitute legal advice.
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
