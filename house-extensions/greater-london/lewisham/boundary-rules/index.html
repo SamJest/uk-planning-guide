@@ -341,8 +341,41 @@ margin:24px auto;
 </style>
 
 <link rel="canonical" href="https://ukplanningguide.co.uk/house-extensions/greater-london/lewisham/boundary-rules/" />
-<meta name="description" content="House Extension boundary rules rules in Lewisham." />
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How close to a boundary can a house extension be built?","acceptedAnswer":{"@type":"Answer","text":"A house extension can usually be built close to a boundary, but the height is typically limited to 2.5 metres if the structure is within 2 metres of the boundary."}},{"@type":"Question","name":"Do boundary rules affect permitted development rights?","acceptedAnswer":{"@type":"Answer","text":"Yes. The location of the structure relative to boundaries determines which height limits apply under permitted development rules."}},{"@type":"Question","name":"Do neighbours need to approve a house extension?","acceptedAnswer":{"@type":"Answer","text":"Neighbour approval is not usually required under permitted development, but developments must still comply with planning rules and building regulations."}}]}</script>
+<meta name="description" content="Boundary Rules guidance for house extension projects in Lewisham, Greater London." />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need planning permission?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many developments fall under permitted development rights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can councils restrict permitted development?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Article 4 directions can remove permitted development rights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do conservation areas affect planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, additional planning restrictions may apply."
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 
 <body>
@@ -385,137 +418,122 @@ Councils
 
 
 
+
+<div class="breadcrumb">
+<a href="/">Home</a> ›
+<a href="/house-extensions/">House Extension</a> ›
+<a href="/house-extensions/greater-london/">Greater London</a> ›
+<a href="/house-extensions/greater-london/lewisham/">Lewisham</a> ›
+Boundary Rules
+</div>
+
+
+<div class="card hero">
+
+<div class="badge">Planning Guidance</div>
+
 <h1>House Extension Boundary Rules in Lewisham</h1>
 
 <p>
-Understanding boundary rules is important when planning
-a house extension in Lewisham.
+This guide explains boundary rules affecting
+house extension projects in Lewisham, Greater London.
 </p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Key Planning Rules</h2>
+
+<table style="width:100%;border-collapse:collapse">
+
+<tr><td><strong>Maximum Height</strong></td><td>4m pitched roof / 3m flat roof</td></tr>
+<tr><td><strong>Eaves Height</strong></td><td>Maximum 2.5m</td></tr>
+<tr><td><strong>Boundary Rule</strong></td><td>2m distance required for full height</td></tr>
+<tr><td><strong>Coverage Limit</strong></td><td>50% of total land around house</td></tr>
+
+</table>
+
+</div>
 
 
 
 <div class="card">
 
-<h2>Boundary Distance Calculator</h2>
+<h2>Boundary Rules for House Extension Projects</h2>
 
-<label>Distance from boundary (metres)</label>
-<input id="boundary-distance" type="number" step="0.1">
+<p>
+Understanding boundary rules is important when planning a
+house extension project in Lewisham. National planning rules
+set limits on size, height and location of developments that
+may be built under permitted development rights.
+</p>
 
-<button onclick="checkBoundary()">Check Height Limit</button>
-
-<p id="boundary-result"></p>
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
 
 </div>
+
+
+
+<div class="card">
+
+<h2>Boundary Distance Checker</h2>
+
+<label>Distance from boundary (metres)</label>
+
+<input id="dist" type="number">
+
+<button onclick="checkBoundary()" class="button">Check Rule</button>
+
+<p id="boundaryResult"></p>
 
 <script>
 
 function checkBoundary(){
 
-const d =
-parseFloat(document.getElementById("boundary-distance").value);
+let d = document.getElementById("dist").value;
 
-let result="";
+if(d < 2){
 
-if(d<=2){
-result="Structures within 2 metres of a boundary are normally limited to 2.5 metres in height.";
+document.getElementById("boundaryResult").innerText =
+"Height normally limited to 2.5m within 2m of boundary";
+
+}else{
+
+document.getElementById("boundaryResult").innerText =
+"Standard height limits usually apply";
+
 }
-else{
-result="Structures further than 2 metres from the boundary may be taller depending on roof type.";
-}
-
-document.getElementById("boundary-result").innerText=result;
 
 }
 
 </script>
 
+</div>
+
+
+<div class='card'><h2>Frequently Asked Questions</h2><h3>Do I need planning permission?</h3><p>Many developments fall under permitted development rights.</p><h3>Can councils restrict permitted development?</h3><p>Yes, Article 4 directions can remove permitted development rights.</p><h3>Do conservation areas affect planning?</h3><p>Yes, additional planning restrictions may apply.</p></div>
 
 
 <div class="card">
 
-<h2>Boundary Distance Guide</h2>
-
-<p>
-Boundary rules determine whether a house extension
-can be built without planning permission.
-</p>
+<h2>Planning Checklist</h2>
 
 <ul>
-<li>Within 2m of a boundary → max height usually 2.5m</li>
-<li>Further than 2m from boundary → taller structures may be allowed</li>
-<li>Design and roof shape may also affect permitted development rules</li>
+<li>Check permitted development limits</li>
+<li>Check conservation area restrictions</li>
+<li>Check Article 4 directions</li>
+<li>Confirm building regulations requirements</li>
 </ul>
 
-</div>
-
-
-
-<div class="card">
-
-<h2>Local Planning Context in Lewisham</h2>
-
-<p>
-Planning rules affecting house extension developments
-in Lewisham may vary depending on local planning policies,
-conservation areas and Article 4 directions.
-</p>
-
-<p>
-The local planning authority covering Lewisham may apply
-additional controls in certain neighbourhoods to protect
-historic character or residential amenity.
-</p>
-
-<p>
-Homeowners planning a house extension project in
-Lewisham should review local council planning guidance
-before starting work.
-</p>
-
-</div>
-
-<div class="card"><h2>Frequently Asked Questions</h2>
-<h3>How close to a boundary can a house extension be built?</h3>
-<p>A house extension can usually be built close to a boundary, but the height is typically limited to 2.5 metres if the structure is within 2 metres of the boundary.</p>
-
-<h3>Do boundary rules affect permitted development rights?</h3>
-<p>Yes. The location of the structure relative to boundaries determines which height limits apply under permitted development rules.</p>
-
-<h3>Do neighbours need to approve a house extension?</h3>
-<p>Neighbour approval is not usually required under permitted development, but developments must still comply with planning rules and building regulations.</p>
-</div>
-
-<div class="card">
-
-<h2>More House Extension Planning Guidance in Lewisham</h2>
-
-<ul>
-
-<li>
-<a href="/house-extensions/greater-london/lewisham/planning-permission/">
-House Extension Planning Permission
-</a>
-</li>
-
-<li>
-<a href="/house-extensions/greater-london/lewisham/height-limits/">
-House Extension Height Limits
-</a>
-</li>
-
-<li>
-<a href="/house-extensions/greater-london/lewisham/boundary-rules/">
-House Extension Boundary Rules
-</a>
-</li>
-
-<li>
-<a href="/house-extensions/greater-london/lewisham/conservation-areas/">
-House Extension Conservation Areas
-</a>
-</li>
-
-</ul>
+<button onclick="window.print()" class="button">
+Print this checklist
+</button>
 
 </div>
 
@@ -523,22 +541,23 @@ House Extension Conservation Areas
 
 <div class="card">
 
-<h2>House Extension Planning Guide for Lewisham</h2>
+<h2>Related Planning Topics</h2>
 
-<p>
-For a full overview of planning rules affecting
-house extension projects in Lewisham,
-including permitted development guidance, local planning
-restrictions and council resources, see the main guide below.
-</p>
+<div class="grid grid-3">
 
-<p>
-<a href="/house-extensions/greater-london/lewisham/">
-View the full House Extension planning guide for Lewisham
-</a>
-</p>
+<a href="/house-extensions/greater-london/lewisham/planning-permission/">Planning Permission</a>
+<a href="/house-extensions/greater-london/lewisham/height-limits/">Height Limits</a>
+<a href="/house-extensions/greater-london/lewisham/boundary-rules/">Boundary Rules</a>
+<a href="/house-extensions/greater-london/lewisham/conservation-areas/">Conservation Areas</a>
 
 </div>
+
+</div>
+
+
+<p class="last-updated">
+Last updated March 2026
+</p>
 
 
 

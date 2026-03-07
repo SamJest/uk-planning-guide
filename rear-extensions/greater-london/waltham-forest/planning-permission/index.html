@@ -341,8 +341,41 @@ margin:24px auto;
 </style>
 
 <link rel="canonical" href="https://ukplanningguide.co.uk/rear-extensions/greater-london/waltham-forest/planning-permission/" />
-<meta name="description" content="Rear Extension planning permission rules in Waltham Forest." />
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need planning permission for a rear extension in Waltham Forest?","acceptedAnswer":{"@type":"Answer","text":"Many rear extension projects fall under permitted development rules, but planning permission may be required if the structure exceeds height limits, is located in a conservation area, or if permitted development rights have been removed."}},{"@type":"Question","name":"What size rear extension can be built without planning permission?","acceptedAnswer":{"@type":"Answer","text":"Outbuildings such as rear extensions must normally remain within permitted development limits relating to height, location within the garden and total coverage of land around the property."}},{"@type":"Question","name":"Does being near a boundary affect planning permission?","acceptedAnswer":{"@type":"Answer","text":"Yes. Structures located within 2 metres of a boundary usually have a maximum height limit of 2.5 metres under permitted development rules."}}]}</script>
+<meta name="description" content="Planning Permission guidance for rear extension projects in Waltham Forest, Greater London." />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need planning permission?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many developments fall under permitted development rights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can councils restrict permitted development?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Article 4 directions can remove permitted development rights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do conservation areas affect planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, additional planning restrictions may apply."
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 
 <body>
@@ -385,220 +418,127 @@ Councils
 
 
 
+
+<div class="breadcrumb">
+<a href="/">Home</a> ›
+<a href="/rear-extensions/">Rear Extension</a> ›
+<a href="/rear-extensions/greater-london/">Greater London</a> ›
+<a href="/rear-extensions/greater-london/waltham-forest/">Waltham Forest</a> ›
+Planning Permission
+</div>
+
+
+<div class="card hero">
+
+<div class="badge">Planning Guidance</div>
+
 <h1>Rear Extension Planning Permission in Waltham Forest</h1>
 
 <p>
-Understanding planning permission is important when planning
-a rear extension in Waltham Forest.
+This guide explains planning permission affecting
+rear extension projects in Waltham Forest, Greater London.
 </p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Key Planning Rules</h2>
+
+<table style="width:100%;border-collapse:collapse">
+
+<tr><td><strong>Maximum Height</strong></td><td>4m pitched roof / 3m flat roof</td></tr>
+<tr><td><strong>Eaves Height</strong></td><td>Maximum 2.5m</td></tr>
+<tr><td><strong>Boundary Rule</strong></td><td>2m distance required for full height</td></tr>
+<tr><td><strong>Coverage Limit</strong></td><td>50% of total land around house</td></tr>
+
+</table>
+
+</div>
 
 
 
 <div class="card">
 
-<h2>Do I Need Planning Permission?</h2>
+<h2>Planning Permission for Rear Extension Projects</h2>
 
 <p>
-Use this quick checker to estimate whether a
-rear extension in Waltham Forest
-may require planning permission.
+Understanding planning permission is important when planning a
+rear extension project in Waltham Forest. National planning rules
+set limits on size, height and location of developments that
+may be built under permitted development rights.
 </p>
 
-<label>Structure height (metres)</label>
-<input type="number" id="pp-height" step="0.1">
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
 
-<label>Distance from boundary (metres)</label>
-<input type="number" id="pp-boundary" step="0.1">
+</div>
 
-<label>Is the property in a conservation area?</label>
-<select id="pp-conservation">
-<option value="no">No</option>
-<option value="yes">Yes</option>
+
+
+<div class="card">
+
+<h2>Permitted Development Checker</h2>
+
+<p>Select project size:</p>
+
+<select id="pdSize">
+
+<option value="small">Small Outbuilding</option>
+<option value="large">Large Outbuilding</option>
+
 </select>
 
-<button onclick="checkPermission()">Check Planning Requirement</button>
+<button onclick="pdCheck()" class="button">Check Requirement</button>
 
-<p id="pp-result"></p>
-
-</div>
+<p id="pdResult"></p>
 
 <script>
 
-function checkPermission(){
+function pdCheck(){
 
-const height =
-parseFloat(document.getElementById("pp-height").value);
+let v = document.getElementById("pdSize").value;
 
-const boundary =
-parseFloat(document.getElementById("pp-boundary").value);
+if(v=="small"){
 
-const conservation =
-document.getElementById("pp-conservation").value;
+document.getElementById("pdResult").innerText =
+"Likely permitted development if within limits.";
 
-let result="";
+}else{
 
-if(conservation==="yes"){
-result="Planning permission may be required in conservation areas depending on the development.";
+document.getElementById("pdResult").innerText =
+"Planning permission may be required.";
+
 }
-else if(boundary<=2 && height>2.5){
-result="Planning permission may be required because structures within 2 metres of a boundary are usually limited to 2.5 metres in height.";
-}
-else{
-result="The development may fall under permitted development rules, but always confirm with the local planning authority.";
-}
-
-document.getElementById("pp-result").innerText=result;
 
 }
 
 </script>
 
-
-
-<div class="card">
-
-<h2>Do I Need Planning Permission?</h2>
-
-<p>
-Answer these quick questions to estimate whether a
-rear extension in Waltham Forest
-may require planning permission.
-</p>
-
-<label>
-<input type="checkbox" id="height">
-Over 2.5m tall
-</label>
-
-<label>
-<input type="checkbox" id="boundary">
-Within 2m of a boundary
-</label>
-
-<label>
-<input type="checkbox" id="conservation">
-Property in a conservation area
-</label>
-
-<button onclick="checkPlanning()">Check</button>
-
-<p id="planning-result"></p>
-
 </div>
 
-<script>
 
-function checkPlanning(){
-
-const height =
-document.getElementById("height").checked;
-
-const conservation =
-document.getElementById("conservation").checked;
-
-let result =
-"This project may fall under permitted development.";
-
-if(height || conservation){
-result =
-"Planning permission may be required depending on the proposal.";
-}
-
-document.getElementById("planning-result").innerText = result;
-
-}
-
-</script>
-
+<div class='card'><h2>Frequently Asked Questions</h2><h3>Do I need planning permission?</h3><p>Many developments fall under permitted development rights.</p><h3>Can councils restrict permitted development?</h3><p>Yes, Article 4 directions can remove permitted development rights.</p><h3>Do conservation areas affect planning?</h3><p>Yes, additional planning restrictions may apply.</p></div>
 
 
 <div class="card">
 
-<h2>Rear Extension Planning Application Checklist – Waltham Forest</h2>
-
-<button onclick="window.print()">Print Checklist</button>
+<h2>Planning Checklist</h2>
 
 <ul>
-<li>□ Check whether planning permission is required</li>
-<li>□ Confirm permitted development eligibility</li>
-<li>□ Check conservation area restrictions</li>
-<li>□ Check if Article 4 directions apply</li>
-<li>□ Prepare architectural drawings</li>
-<li>□ Confirm building regulations requirements</li>
-<li>□ Consider neighbour impact and privacy</li>
-<li>□ Review recent planning decisions in Waltham Forest</li>
+<li>Check permitted development limits</li>
+<li>Check conservation area restrictions</li>
+<li>Check Article 4 directions</li>
+<li>Confirm building regulations requirements</li>
 </ul>
 
-</div>
-
-
-
-<div class="card">
-
-<h2>Local Planning Context in Waltham Forest</h2>
-
-<p>
-Planning rules affecting rear extension developments
-in Waltham Forest may vary depending on local planning policies,
-conservation areas and Article 4 directions.
-</p>
-
-<p>
-The local planning authority covering Waltham Forest may apply
-additional controls in certain neighbourhoods to protect
-historic character or residential amenity.
-</p>
-
-<p>
-Homeowners planning a rear extension project in
-Waltham Forest should review local council planning guidance
-before starting work.
-</p>
-
-</div>
-
-<div class="card"><h2>Frequently Asked Questions</h2>
-<h3>Do I need planning permission for a rear extension in Waltham Forest?</h3>
-<p>Many rear extension projects fall under permitted development rules, but planning permission may be required if the structure exceeds height limits, is located in a conservation area, or if permitted development rights have been removed.</p>
-
-<h3>What size rear extension can be built without planning permission?</h3>
-<p>Outbuildings such as rear extensions must normally remain within permitted development limits relating to height, location within the garden and total coverage of land around the property.</p>
-
-<h3>Does being near a boundary affect planning permission?</h3>
-<p>Yes. Structures located within 2 metres of a boundary usually have a maximum height limit of 2.5 metres under permitted development rules.</p>
-</div>
-
-<div class="card">
-
-<h2>More Rear Extension Planning Guidance in Waltham Forest</h2>
-
-<ul>
-
-<li>
-<a href="/rear-extensions/greater-london/waltham-forest/planning-permission/">
-Rear Extension Planning Permission
-</a>
-</li>
-
-<li>
-<a href="/rear-extensions/greater-london/waltham-forest/height-limits/">
-Rear Extension Height Limits
-</a>
-</li>
-
-<li>
-<a href="/rear-extensions/greater-london/waltham-forest/boundary-rules/">
-Rear Extension Boundary Rules
-</a>
-</li>
-
-<li>
-<a href="/rear-extensions/greater-london/waltham-forest/conservation-areas/">
-Rear Extension Conservation Areas
-</a>
-</li>
-
-</ul>
+<button onclick="window.print()" class="button">
+Print this checklist
+</button>
 
 </div>
 
@@ -606,22 +546,23 @@ Rear Extension Conservation Areas
 
 <div class="card">
 
-<h2>Rear Extension Planning Guide for Waltham Forest</h2>
+<h2>Related Planning Topics</h2>
 
-<p>
-For a full overview of planning rules affecting
-rear extension projects in Waltham Forest,
-including permitted development guidance, local planning
-restrictions and council resources, see the main guide below.
-</p>
+<div class="grid grid-3">
 
-<p>
-<a href="/rear-extensions/greater-london/waltham-forest/">
-View the full Rear Extension planning guide for Waltham Forest
-</a>
-</p>
+<a href="/rear-extensions/greater-london/waltham-forest/planning-permission/">Planning Permission</a>
+<a href="/rear-extensions/greater-london/waltham-forest/height-limits/">Height Limits</a>
+<a href="/rear-extensions/greater-london/waltham-forest/boundary-rules/">Boundary Rules</a>
+<a href="/rear-extensions/greater-london/waltham-forest/conservation-areas/">Conservation Areas</a>
 
 </div>
+
+</div>
+
+
+<p class="last-updated">
+Last updated March 2026
+</p>
 
 
 
