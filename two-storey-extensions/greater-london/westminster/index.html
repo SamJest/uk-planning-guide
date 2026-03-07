@@ -14,11 +14,10 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GXRZWRNWD7');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GXRZWRNWD7');
 </script>
 
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -26,19 +25,6 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-
-<header class="site-header">
-  <div class="container">
-
-<a href="/" class="site-logo">
-<img src="/images/uk-planning-guide-logo.png"
-alt="UK Planning Guide – UK Planning Permission Guidance"
-width="320"
-height="80">
-</a>
-
-  </div>
-</header>
 
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#2563eb">
@@ -90,17 +76,11 @@ text-decoration:underline;
 header{
 background:white;
 border-bottom:1px solid var(--border);
-padding:18px 24px;
+padding:16px 24px;
 position:sticky;
 top:0;
 z-index:20;
 backdrop-filter:blur(6px);
-}
-
-.site-logo img{
-height:100px;
-width:auto;
-display:block;
 }
 
 .nav-container{
@@ -111,15 +91,21 @@ justify-content:space-between;
 align-items:center;
 }
 
-.brand{
-font-weight:700;
-font-size:20px;
-letter-spacing:-0.3px;
+/* LOGO */
+
+.site-logo{
+display:flex;
+align-items:center;
 }
 
-.brand a{
-color:var(--text);
+.site-logo img{
+height:56px;
+width:auto;
+max-height:56px;
+display:block;
 }
+
+/* NAV */
 
 nav a{
 margin-left:24px;
@@ -350,9 +336,10 @@ margin:24px auto;
 
 <div class="nav-container">
 
-<div class="brand">
-<a href="/">UKPlanningGuide</a>
-</div>
+<a href="/" class="site-logo">
+<img src="/images/uk-planning-guide-logo.png"
+alt="UK Planning Guide – UK Planning Permission Guidance">
+</a>
 
 <nav>
 
@@ -506,20 +493,8 @@ Porch in Westminster
 
 
 <li>
-<a href="/two-storey-extensions/greater-london/bromley/">
-Two Storey Extension in Bromley
-</a>
-</li>
-
-<li>
-<a href="/two-storey-extensions/greater-london/newham/">
-Two Storey Extension in Newham
-</a>
-</li>
-
-<li>
-<a href="/two-storey-extensions/greater-london/islington/">
-Two Storey Extension in Islington
+<a href="/two-storey-extensions/greater-london/kingston-upon-thames/">
+Two Storey Extension in Kingston upon Thames
 </a>
 </li>
 
@@ -530,8 +505,26 @@ Two Storey Extension in Haringey
 </li>
 
 <li>
-<a href="/two-storey-extensions/greater-london/harrow/">
-Two Storey Extension in Harrow
+<a href="/two-storey-extensions/greater-london/croydon/">
+Two Storey Extension in Croydon
+</a>
+</li>
+
+<li>
+<a href="/two-storey-extensions/greater-london/hackney/">
+Two Storey Extension in Hackney
+</a>
+</li>
+
+<li>
+<a href="/two-storey-extensions/greater-london/redbridge/">
+Two Storey Extension in Redbridge
+</a>
+</li>
+
+<li>
+<a href="/two-storey-extensions/greater-london/merton/">
+Two Storey Extension in Merton
 </a>
 </li>
 
