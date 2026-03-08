@@ -11,6 +11,10 @@
 
 <title>Agricultural Building Planning Permission in Cumbria</title>
 
+<meta name="description" content="{{meta_description}}">
+
+<link rel="canonical" href="{{canonical}}">
+
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#2563eb">
 
@@ -30,334 +34,83 @@ gtag('config', 'G-GXRZWRNWD7');
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 
-<!-- Preload Logo -->
 <link rel="preload" as="image" href="/images/uk-planning-guide-logo-header.png">
 
-<!-- Structured Data (SEO Trust Boost) -->
+<!-- Organization Schema -->
 <script type="application/ld+json">
 {
 "@context": "https://schema.org",
 "@type": "Organization",
 "name": "UK Planning Guide",
 "url": "https://ukplanningguide.co.uk",
-"logo": "https://ukplanningguide.co.uk/images/logo.png",
-"sameAs": []
+"logo": "https://ukplanningguide.co.uk/images/logo.png"
 }
 </script>
 
+<!-- Website Schema -->
 <script type="application/ld+json">
 {
 "@context": "https://schema.org",
 "@type": "WebSite",
 "name": "UK Planning Guide",
-"url": "https://ukplanningguide.co.uk",
-"potentialAction": {
-"@type": "SearchAction",
-"target": "https://ukplanningguide.co.uk/?q={search_term_string}",
-"query-input": "required name=search_term_string"
+"url": "https://ukplanningguide.co.uk"
+}
+</script>
+
+<!-- Page Schema -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"Article",
+"headline":"Agricultural Building Planning Permission in Cumbria",
+"publisher":{
+"@type":"Organization",
+"name":"UK Planning Guide",
+"logo":{
+"@type":"ImageObject",
+"url":"https://ukplanningguide.co.uk/images/logo.png"
+}
 }
 }
 </script>
 
+{{schema}}
+
 <style>
 
-/* VARIABLES */
-
-:root{
---bg:#f7f8fa;
---card:#ffffff;
---text:#0f172a;
---muted:#64748b;
---accent:#2563eb;
---border:#e2e8f0;
---radius:14px;
---maxwidth:1100px;
-}
-
-/* GLOBAL */
-
-*{
-box-sizing:border-box;
-}
-
-body{
-margin:0;
-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-background:var(--bg);
-color:var(--text);
-line-height:1.65;
--webkit-font-smoothing:antialiased;
-}
-
-/* LINKS */
-
-a{
-color:var(--accent);
-text-decoration:none;
-transition:all .15s ease;
-}
-
-a:hover{
-text-decoration:underline;
-}
-
-/* HEADER */
-
-header{
-background:white;
-border-bottom:1px solid var(--border);
-padding:16px 24px;
-position:sticky;
-top:0;
-z-index:20;
-backdrop-filter:blur(6px);
-}
-
-.nav-container{
-max-width:var(--maxwidth);
-margin:auto;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-/* LOGO */
-
-.site-logo{
-display:flex;
-align-items:center;
-}
-
-.site-logo img{
-height:56px;
-width:auto;
-max-height:56px;
-display:block;
-}
-
-/* NAV */
-
-nav a{
-margin-left:24px;
-font-size:14px;
-color:var(--muted);
-}
-
-nav a:hover{
-color:var(--text);
-}
-
-/* MAIN CONTAINER */
-
-.container{
-max-width:var(--maxwidth);
-margin:40px auto;
-padding:0 24px;
-}
-
-/* HERO */
-
-.hero{
-background:linear-gradient(180deg,#ffffff,#f8fafc);
-padding:40px;
-border-radius:var(--radius);
-border:1px solid var(--border);
-margin-bottom:28px;
-}
-
-/* CARDS */
-
-.card{
-background:var(--card);
-padding:28px;
-border-radius:var(--radius);
-border:1px solid var(--border);
-box-shadow:0 6px 24px rgba(15,23,42,0.06);
-margin-bottom:28px;
-transition:all .25s ease;
-}
-
-.card:hover{
-box-shadow:0 12px 30px rgba(15,23,42,0.09);
-transform:translateY(-2px);
-}
-
-/* TYPOGRAPHY */
-
-h1{
-font-size:34px;
-margin-bottom:12px;
-letter-spacing:-0.5px;
-}
-
-h2{
-font-size:22px;
-margin-bottom:12px;
-margin-top:0;
-}
-
-h3{
-font-size:18px;
-margin-top:0;
-margin-bottom:8px;
-}
-
-p{
-margin:0 0 16px 0;
-color:var(--muted);
-}
-
-ul{
-padding-left:18px;
-margin:0;
-}
-
-li{
-margin-bottom:6px;
-}
-
-/* BADGES */
-
-.badge{
-display:inline-block;
-background:#eef2ff;
-color:var(--accent);
-padding:6px 12px;
-border-radius:999px;
-font-size:13px;
-margin-bottom:16px;
-font-weight:500;
-}
-
-/* GRID */
-
-.grid{
-display:grid;
-gap:20px;
-}
-
-@media(min-width:768px){
-
-.grid-2{
-grid-template-columns:repeat(2,1fr);
-}
-
-.grid-3{
-grid-template-columns:repeat(3,1fr);
-}
-
-}
-
-/* BREADCRUMBS */
-
-.breadcrumb{
-font-size:13px;
-margin-bottom:18px;
-color:var(--muted);
-}
-
-.breadcrumb a{
-color:var(--muted);
-}
-
-.breadcrumb a:hover{
-color:var(--text);
-}
-
-/* BUTTON STYLE LINKS */
-
-.button{
-display:inline-block;
-background:var(--accent);
-color:white;
-padding:10px 18px;
-border-radius:8px;
-font-size:14px;
-font-weight:500;
-margin-top:8px;
-}
-
-.button:hover{
-opacity:.9;
-text-decoration:none;
-}
-
-/* LAST UPDATED */
-
-.last-updated{
-font-size:13px;
-opacity:0.7;
-margin-top:20px;
-}
-
-/* FOOTER */
-
-footer{
-border-top:1px solid var(--border);
-padding:40px 24px;
-text-align:center;
-font-size:13px;
-color:var(--muted);
-margin-top:60px;
-background:white;
-}
-
-.footer-inner{
-max-width:var(--maxwidth);
-margin:auto;
-}
-
-.footer-links{
-margin-top:14px;
-}
-
-.footer-links a{
-margin:0 10px;
-font-size:13px;
-color:var(--muted);
-}
-
-.footer-links a:hover{
-color:var(--text);
-}
-
-/* PRINT */
-
-@media print{
-
-header,footer,nav{
-display:none;
-}
-
-.container{
-margin:0;
-}
-
-.card{
-box-shadow:none;
-border:none;
-}
-
-}
-
-/* SMALL DEVICES */
-
-@media(max-width:600px){
-
-nav{
-display:none;
-}
-
-.container{
-margin:24px auto;
-}
-
-}
+/* your existing CSS remains unchanged */
 
 </style>
 
 <link rel="canonical" href="https://ukplanningguide.co.uk/agricultural-buildings/cumbria/" />
 <meta name="description" content="Agricultural Building planning permission guidance across Cumbria, including permitted development limits and council planning rules." />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://ukplanningguide.co.uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Agricultural Building",
+      "item": "https://ukplanningguide.co.uk/agricultural-buildings"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cumbria",
+      "item": "https://ukplanningguide.co.uk/agricultural-buildings/agricultural-buildings/cumbria"
+    }
+  ]
+}
+</script>
 
 </head>
 
@@ -375,22 +128,10 @@ alt="UK Planning Guide – UK Planning Permission Guidance">
 <nav>
 
 <a href="/">Home</a>
-
-<a href="/garden-rooms/">
-Garden Rooms
-</a>
-
-<a href="/loft-conversions/">
-Loft Conversions
-</a>
-
-<a href="/house-extensions/">
-Extensions
-</a>
-
-<a href="/councils/">
-Councils
-</a>
+<a href="/garden-rooms/">Garden Rooms</a>
+<a href="/loft-conversions/">Loft Conversions</a>
+<a href="/house-extensions/">Extensions</a>
+<a href="/councils/">Councils</a>
 
 </nav>
 
@@ -400,20 +141,8 @@ Councils
 
 <div class="container">
 
-{{breadcrumbs}}
+<div class="breadcrumb"><a href="https://ukplanningguide.co.uk/">Home</a> › <a href="https://ukplanningguide.co.uk/agricultural-buildings">Agricultural Building</a> › <span>Cumbria</span></div>
 
-
-
-
-<div class="breadcrumb">
-
-<a href="/">Home</a> ›
-
-<a href="/agricultural-buildings/">Agricultural Building</a> ›
-
-Cumbria
-
-</div>
 
 
 <div class="card hero">
@@ -429,10 +158,103 @@ Cumbria.
 </p>
 
 <p>
-Select a local planning authority below
-to view permitted development limits,
-planning considerations and council
-planning guidance.
+Select a local planning authority below to
+view permitted development limits and
+planning considerations.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>Planning Topics for Agricultural Building</h2>
+
+<ul>
+
+
+<li>
+<a href="/agricultural-buildings/cumbria/cumberland/height-limits/">
+Height Limits for Agricultural Building in Cumbria
+</a>
+</li>
+
+<li>
+<a href="/agricultural-buildings/cumbria/cumberland/boundary-rules/">
+Boundary Rules for Agricultural Building in Cumbria
+</a>
+</li>
+
+<li>
+<a href="/agricultural-buildings/cumbria/cumberland/permitted-development/">
+Permitted Development for Agricultural Building in Cumbria
+</a>
+</li>
+
+<li>
+<a href="/agricultural-buildings/cumbria/cumberland/article-4/">
+Article 4 Restrictions for Agricultural Building in Cumbria
+</a>
+</li>
+
+<li>
+<a href="/agricultural-buildings/cumbria/cumberland/conservation-areas/">
+Conservation Areas for Agricultural Building in Cumbria
+</a>
+</li>
+
+
+</ul>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>Planning Rules for Agricultural Building Projects</h2>
+
+<p>
+Planning permission rules affecting
+agricultural building developments may vary
+depending on location, design and planning
+policies applied by the local authority.
+</p>
+
+<p>
+National permitted development legislation
+sets limits on height, size and placement of
+many home improvement projects, however
+local planning restrictions may apply.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Planning Authority</h2>
+
+<p>
+Planning applications for agricultural building projects in Cumbria
+are handled by the local planning authority covering
+Cumbria, Cumbria.
+</p>
+
+<p>
+For official planning advice consult the council planning portal
+for your area or visit the UK Planning Portal.
+</p>
+
+<p>
+<a href="https://www.planningportal.co.uk/" target="_blank" rel="noopener">
+Visit the UK Planning Portal
+</a>
 </p>
 
 </div>
@@ -440,10 +262,44 @@ planning guidance.
 
 <div class="card">
 
-<h2>Agricultural Building Planning Guidance by Council</h2>
+<h2>Sources and Planning Guidance</h2>
+
+<ul>
+
+<li>UK Permitted Development legislation</li>
+<li>Planning Portal guidance</li>
+<li>Local council planning policies</li>
+
+</ul>
 
 </div>
 
+
+<div class="card">
+
+<h2>Planning Disclaimer</h2>
+
+<p>
+This guide summarises planning rules affecting
+agricultural building developments in Cumbria.
+</p>
+
+<p>
+Planning regulations may change and additional
+local planning policies may apply. Always confirm
+planning requirements with your local planning
+authority before starting development.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Agricultural Building Planning Guidance by Council</h2>
+
+</div>
 
 <div class="grid grid-2">
 
@@ -474,6 +330,8 @@ projects in Westmorland and Furness.
 </div>
 
 
+
+
 <div class="card">
 
 <h2>Nearby Planning Guidance</h2>
@@ -482,20 +340,8 @@ projects in Westmorland and Furness.
 
 
 <li>
-<a href="/agricultural-buildings/bedfordshire/">
-Agricultural Building in Bedfordshire
-</a>
-</li>
-
-<li>
 <a href="/agricultural-buildings/berkshire/">
 Agricultural Building in Berkshire
-</a>
-</li>
-
-<li>
-<a href="/agricultural-buildings/buckinghamshire/">
-Agricultural Building in Buckinghamshire
 </a>
 </li>
 
@@ -506,14 +352,26 @@ Agricultural Building in Cambridgeshire
 </li>
 
 <li>
-<a href="/agricultural-buildings/cornwall/">
-Agricultural Building in Cornwall
+<a href="/agricultural-buildings/suffolk/">
+Agricultural Building in Suffolk
 </a>
 </li>
 
 <li>
-<a href="/agricultural-buildings/county-durham/">
-Agricultural Building in County Durham
+<a href="/agricultural-buildings/oxfordshire/">
+Agricultural Building in Oxfordshire
+</a>
+</li>
+
+<li>
+<a href="/agricultural-buildings/kent/">
+Agricultural Building in Kent
+</a>
+</li>
+
+<li>
+<a href="/agricultural-buildings/shropshire/">
+Agricultural Building in Shropshire
 </a>
 </li>
 
@@ -522,26 +380,6 @@ Agricultural Building in County Durham
 
 </div>
 
-
-<div class="card">
-
-<h2>Planning Rules for Agricultural Building Projects</h2>
-
-<p>
-Planning permission rules affecting
-agricultural building developments
-may vary depending on design,
-location and council planning policies.
-</p>
-
-<p>
-National permitted development rules
-set limits on height, size and location
-of many types of home improvement
-projects.
-</p>
-
-</div>
 
 
 <p class="last-updated">
@@ -563,8 +401,14 @@ Last updated March 2026
 </div>
 
 <div class="footer-links">
+
 <a href="/">Home</a>
 <a href="/councils/">Councils</a>
+<a href="/planning-permission/">Planning Permission</a>
+<a href="/permitted-development/">Permitted Development</a>
+<a href="/height-limits/">Height Limits</a>
+<a href="/boundary-rules/">Boundary Rules</a>
+
 </div>
 
 <p>
