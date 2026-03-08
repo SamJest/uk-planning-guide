@@ -78,7 +78,301 @@ gtag('config', 'G-GXRZWRNWD7');
 
 <style>
 
-/* your existing CSS remains unchanged */
+/* ================================
+GLOBAL DESIGN SYSTEM
+================================ */
+
+:root{
+--primary:#2563eb;
+--primary-dark:#1d4ed8;
+--bg:#f5f7fb;
+--card:#ffffff;
+--text:#0f172a;
+--muted:#64748b;
+--border:#e5e7eb;
+--radius:12px;
+--shadow-sm:0 2px 6px rgba(0,0,0,.05);
+--shadow-md:0 6px 18px rgba(0,0,0,.08);
+--shadow-lg:0 10px 30px rgba(0,0,0,.12);
+}
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.6;
+}
+
+/* ================================
+LAYOUT
+================================ */
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:24px;
+}
+
+/* ================================
+TYPOGRAPHY
+================================ */
+
+h1{
+font-size:36px;
+margin-bottom:16px;
+}
+
+h2{
+font-size:24px;
+margin-bottom:12px;
+}
+
+h3{
+font-size:18px;
+margin-bottom:10px;
+}
+
+p{
+margin-bottom:14px;
+color:#334155;
+}
+
+a{
+color:var(--primary);
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+/* ================================
+HEADER / NAV
+================================ */
+
+header{
+background:white;
+border-bottom:1px solid var(--border);
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.nav-container{
+max-width:1200px;
+margin:auto;
+padding:14px 20px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.site-logo img{
+height:46px;
+}
+
+nav a{
+margin-left:22px;
+font-weight:600;
+color:#334155;
+}
+
+nav a:hover{
+color:var(--primary);
+}
+
+/* ================================
+BREADCRUMBS
+================================ */
+
+.breadcrumb{
+font-size:14px;
+color:var(--muted);
+margin-bottom:20px;
+}
+
+.breadcrumb a{
+color:var(--muted);
+}
+
+/* ================================
+GRID SYSTEM
+================================ */
+
+.grid{
+display:grid;
+gap:24px;
+margin:20px 0;
+}
+
+.grid-2{
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+}
+
+.grid-3{
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.grid-4{
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+}
+
+/* ================================
+CARDS
+================================ */
+
+.card{
+background:var(--card);
+padding:28px;
+border-radius:var(--radius);
+box-shadow:var(--shadow-sm);
+border:1px solid var(--border);
+}
+
+.card:hover{
+box-shadow:var(--shadow-md);
+}
+
+/* ================================
+HERO
+================================ */
+
+.hero{
+text-align:center;
+padding:48px 40px;
+background:linear-gradient(180deg,#ffffff 0%,#f8fafc 100%);
+}
+
+/* ================================
+BADGES
+================================ */
+
+.badge{
+display:inline-block;
+background:var(--primary);
+color:white;
+font-size:13px;
+padding:6px 12px;
+border-radius:6px;
+margin-bottom:16px;
+font-weight:600;
+}
+
+/* ================================
+PROJECT CARDS
+================================ */
+
+.project-card{
+display:block;
+color:inherit;
+transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.project-card:hover{
+transform:translateY(-4px);
+box-shadow:var(--shadow-lg);
+}
+
+.project-card h2{
+font-size:20px;
+margin-bottom:8px;
+}
+
+/* ================================
+BUTTONS
+================================ */
+
+.button{
+display:inline-block;
+padding:10px 16px;
+background:var(--primary);
+color:white;
+border-radius:8px;
+font-weight:600;
+margin-top:10px;
+}
+
+.button:hover{
+background:var(--primary-dark);
+text-decoration:none;
+}
+
+/* ================================
+TABLES
+================================ */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:12px;
+}
+
+td{
+padding:10px;
+border-bottom:1px solid var(--border);
+}
+
+/* ================================
+FORMS
+================================ */
+
+input,select{
+width:100%;
+padding:10px;
+border-radius:8px;
+border:1px solid var(--border);
+margin-bottom:12px;
+}
+
+/* ================================
+FOOTER
+================================ */
+
+footer{
+margin-top:60px;
+background:#0f172a;
+color:#cbd5f5;
+}
+
+.footer-inner{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+.footer-links{
+margin:12px 0;
+}
+
+.footer-links a{
+color:#cbd5f5;
+margin-right:16px;
+}
+
+/* ================================
+MOBILE
+================================ */
+
+@media(max-width:700px){
+
+nav{
+display:none;
+}
+
+.hero{
+padding:36px 24px;
+}
+
+h1{
+font-size:28px;
+}
+
+}
 
 </style>
 
@@ -171,6 +465,94 @@ planning considerations.
 
 <div class="card">
 
+<h2>Side Extension Planning Guidance by Council</h2>
+
+</div>
+
+<div class="grid grid-2">
+
+
+<a class="card project-card" href="/side-extensions/cornwall/cornwall/">
+
+<h2>Side Extension in Cornwall</h2>
+
+<p>
+Planning permission guidance for side extension
+projects in Cornwall.
+</p>
+
+</a>
+
+<a class="card project-card" href="/side-extensions/cornwall/isles-of-scilly/">
+
+<h2>Side Extension in Isles of Scilly</h2>
+
+<p>
+Planning permission guidance for side extension
+projects in Isles of Scilly.
+</p>
+
+</a>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>Nearby Planning Guidance</h2>
+
+<ul>
+
+
+<li>
+<a href="/side-extensions/yorkshire/">
+Side Extension in Yorkshire
+</a>
+</li>
+
+<li>
+<a href="/side-extensions/wiltshire/">
+Side Extension in Wiltshire
+</a>
+</li>
+
+<li>
+<a href="/side-extensions/northumberland/">
+Side Extension in Northumberland
+</a>
+</li>
+
+<li>
+<a href="/side-extensions/buckinghamshire/">
+Side Extension in Buckinghamshire
+</a>
+</li>
+
+<li>
+<a href="/side-extensions/county-durham/">
+Side Extension in County Durham
+</a>
+</li>
+
+<li>
+<a href="/side-extensions/somerset/">
+Side Extension in Somerset
+</a>
+</li>
+
+
+</ul>
+
+</div>
+
+
+
+
+<div class="card">
+
 <h2>Planning Rules for Side Extension Projects</h2>
 
 <p>
@@ -247,94 +629,6 @@ authority before starting development.
 </p>
 
 </div>
-
-
-
-<div class="card">
-
-<h2>Nearby Planning Guidance</h2>
-
-<ul>
-
-
-<li>
-<a href="/side-extensions/cumbria/">
-Side Extension in Cumbria
-</a>
-</li>
-
-<li>
-<a href="/side-extensions/devon/">
-Side Extension in Devon
-</a>
-</li>
-
-<li>
-<a href="/side-extensions/somerset/">
-Side Extension in Somerset
-</a>
-</li>
-
-<li>
-<a href="/side-extensions/lincolnshire/">
-Side Extension in Lincolnshire
-</a>
-</li>
-
-<li>
-<a href="/side-extensions/leicestershire/">
-Side Extension in Leicestershire
-</a>
-</li>
-
-<li>
-<a href="/side-extensions/wiltshire/">
-Side Extension in Wiltshire
-</a>
-</li>
-
-
-</ul>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h2>Side Extension Planning Guidance by Council</h2>
-
-</div>
-
-<div class="grid grid-2">
-
-
-<a class="card project-card" href="/side-extensions/cornwall/cornwall/">
-
-<h2>Side Extension in Cornwall</h2>
-
-<p>
-Planning permission guidance for side extension
-projects in Cornwall.
-</p>
-
-</a>
-
-<a class="card project-card" href="/side-extensions/cornwall/isles-of-scilly/">
-
-<h2>Side Extension in Isles of Scilly</h2>
-
-<p>
-Planning permission guidance for side extension
-projects in Isles of Scilly.
-</p>
-
-</a>
-
-
-</div>
-
 
 
 
