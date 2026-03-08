@@ -18,7 +18,6 @@
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#2563eb">
 
-<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -27,7 +26,6 @@ gtag('js', new Date());
 gtag('config', 'G-GXRZWRNWD7');
 </script>
 
-<!-- Icons -->
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -36,7 +34,6 @@ gtag('config', 'G-GXRZWRNWD7');
 
 <link rel="preload" as="image" href="/images/uk-planning-guide-logo-header.png">
 
-<!-- Organization Schema -->
 <script type="application/ld+json">
 {
 "@context": "https://schema.org",
@@ -47,7 +44,6 @@ gtag('config', 'G-GXRZWRNWD7');
 }
 </script>
 
-<!-- Website Schema -->
 <script type="application/ld+json">
 {
 "@context": "https://schema.org",
@@ -57,7 +53,6 @@ gtag('config', 'G-GXRZWRNWD7');
 }
 </script>
 
-<!-- Page Schema -->
 <script type="application/ld+json">
 {
 "@context":"https://schema.org",
@@ -78,9 +73,9 @@ gtag('config', 'G-GXRZWRNWD7');
 
 <style>
 
-/* ================================
+/* ===============================
 GLOBAL DESIGN SYSTEM
-================================ */
+=============================== */
 
 :root{
 --primary:#2563eb;
@@ -106,11 +101,12 @@ font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 background:var(--bg);
 color:var(--text);
 line-height:1.6;
+-webkit-font-smoothing:antialiased;
 }
 
-/* ================================
+/* ===============================
 LAYOUT
-================================ */
+=============================== */
 
 .container{
 max-width:1200px;
@@ -118,13 +114,14 @@ margin:auto;
 padding:24px;
 }
 
-/* ================================
+/* ===============================
 TYPOGRAPHY
-================================ */
+=============================== */
 
 h1{
 font-size:36px;
 margin-bottom:16px;
+line-height:1.25;
 }
 
 h2{
@@ -151,9 +148,9 @@ a:hover{
 text-decoration:underline;
 }
 
-/* ================================
-HEADER / NAV
-================================ */
+/* ===============================
+HEADER
+=============================== */
 
 header{
 background:white;
@@ -176,6 +173,11 @@ justify-content:space-between;
 height:46px;
 }
 
+nav{
+display:flex;
+align-items:center;
+}
+
 nav a{
 margin-left:22px;
 font-weight:600;
@@ -186,9 +188,9 @@ nav a:hover{
 color:var(--primary);
 }
 
-/* ================================
+/* ===============================
 BREADCRUMBS
-================================ */
+=============================== */
 
 .breadcrumb{
 font-size:14px;
@@ -200,9 +202,9 @@ margin-bottom:20px;
 color:var(--muted);
 }
 
-/* ================================
+/* ===============================
 GRID SYSTEM
-================================ */
+=============================== */
 
 .grid{
 display:grid;
@@ -215,42 +217,45 @@ grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 }
 
 .grid-3{
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
 }
 
 .grid-4{
 grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
 }
 
-/* ================================
+/* ===============================
 CARDS
-================================ */
+=============================== */
 
 .card{
 background:var(--card);
-padding:28px;
+padding:26px;
 border-radius:var(--radius);
 box-shadow:var(--shadow-sm);
 border:1px solid var(--border);
+display:flex;
+flex-direction:column;
+justify-content:space-between;
 }
 
 .card:hover{
 box-shadow:var(--shadow-md);
 }
 
-/* ================================
+/* ===============================
 HERO
-================================ */
+=============================== */
 
 .hero{
 text-align:center;
-padding:48px 40px;
+padding:46px 40px;
 background:linear-gradient(180deg,#ffffff 0%,#f8fafc 100%);
 }
 
-/* ================================
+/* ===============================
 BADGES
-================================ */
+=============================== */
 
 .badge{
 display:inline-block;
@@ -263,9 +268,29 @@ margin-bottom:16px;
 font-weight:600;
 }
 
-/* ================================
-PROJECT CARDS
-================================ */
+/* ===============================
+BUTTONS
+=============================== */
+
+.button{
+display:inline-block;
+padding:10px 16px;
+background:var(--primary);
+color:white;
+border-radius:8px;
+font-weight:600;
+margin-top:10px;
+transition:all .2s ease;
+}
+
+.button:hover{
+background:var(--primary-dark);
+text-decoration:none;
+}
+
+/* ===============================
+PROJECT / TOWN CARDS
+=============================== */
 
 .project-card{
 display:block;
@@ -283,43 +308,38 @@ font-size:20px;
 margin-bottom:8px;
 }
 
-/* ================================
-BUTTONS
-================================ */
-
-.button{
-display:inline-block;
-padding:10px 16px;
-background:var(--primary);
-color:white;
-border-radius:8px;
-font-weight:600;
-margin-top:10px;
+.town-card h3{
+margin-bottom:6px;
+word-break:break-word;
 }
 
-.button:hover{
-background:var(--primary-dark);
-text-decoration:none;
-}
-
-/* ================================
+/* ===============================
 TABLES
-================================ */
+=============================== */
 
 table{
 width:100%;
 border-collapse:collapse;
-margin-top:12px;
+margin-top:14px;
+background:white;
+border-radius:var(--radius);
+overflow:hidden;
 }
 
-td{
-padding:10px;
+td,th{
+padding:12px;
 border-bottom:1px solid var(--border);
+text-align:left;
 }
 
-/* ================================
+th{
+background:#f8fafc;
+font-weight:600;
+}
+
+/* ===============================
 FORMS
-================================ */
+=============================== */
 
 input,select{
 width:100%;
@@ -327,11 +347,12 @@ padding:10px;
 border-radius:8px;
 border:1px solid var(--border);
 margin-bottom:12px;
+font-size:15px;
 }
 
-/* ================================
+/* ===============================
 FOOTER
-================================ */
+=============================== */
 
 footer{
 margin-top:60px;
@@ -354,9 +375,9 @@ color:#cbd5f5;
 margin-right:16px;
 }
 
-/* ================================
+/* ===============================
 MOBILE
-================================ */
+=============================== */
 
 @media(max-width:700px){
 
@@ -370,6 +391,10 @@ padding:36px 24px;
 
 h1{
 font-size:28px;
+}
+
+.container{
+padding:18px;
 }
 
 }
@@ -465,6 +490,51 @@ requirements for common home improvement projects.
 
 <div class="card">
 
+<h2>Nearby Planning Authorities</h2>
+
+<ul>
+
+
+<li>
+<a href="/councils/slough/">
+Planning Permission in Slough
+</a>
+</li>
+
+<li>
+<a href="/councils/reading/">
+Planning Permission in Reading
+</a>
+</li>
+
+<li>
+<a href="/councils/windsor-and-maidenhead/">
+Planning Permission in Windsor and Maidenhead
+</a>
+</li>
+
+<li>
+<a href="/councils/bracknell-forest/">
+Planning Permission in Bracknell Forest
+</a>
+</li>
+
+<li>
+<a href="/councils/wokingham/">
+Planning Permission in Wokingham
+</a>
+</li>
+
+
+</ul>
+
+</div>
+
+
+
+
+<div class="card">
+
 <h2>Common Planning Topics in West Berkshire</h2>
 
 <ul>
@@ -507,104 +577,22 @@ Conservation Areas in West Berkshire
 
 
 
-<div class="card">
-
-<h2>Planning Authority</h2>
-
-<p>
-Planning applications for garden room projects in West Berkshire
-are handled by the local planning authority covering
-West Berkshire, Berkshire.
-</p>
-
-<p>
-For official planning advice consult the council planning portal
-for your area or visit the UK Planning Portal.
-</p>
-
-<p>
-<a href="https://www.planningportal.co.uk/" target="_blank" rel="noopener">
-Visit the UK Planning Portal
-</a>
-</p>
-
-</div>
-
 
 <div class="card">
 
-<h2>Sources and Planning Guidance</h2>
-
-<ul>
-
-<li>UK Permitted Development legislation</li>
-<li>Planning Portal guidance</li>
-<li>Local council planning policies</li>
-
-</ul>
-
-</div>
-
-
-<div class="card">
-
-<h2>Planning Disclaimer</h2>
+<h2>Understanding Planning Permission in West Berkshire</h2>
 
 <p>
-This guide summarises planning rules affecting
-garden room developments in West Berkshire.
+Planning permission rules in West Berkshire follow national
+permitted development legislation alongside policies
+set by the local planning authority.
 </p>
 
 <p>
-Planning regulations may change and additional
-local planning policies may apply. Always confirm
-planning requirements with your local planning
-authority before starting development.
+Additional restrictions may apply in conservation areas,
+listed buildings or where Article 4 directions remove
+permitted development rights.
 </p>
-
-</div>
-
-
-
-<div class="card">
-
-<h2>Nearby Planning Authorities</h2>
-
-<ul>
-
-
-<li>
-<a href="/councils/reading/">
-Planning Permission in Reading
-</a>
-</li>
-
-<li>
-<a href="/councils/windsor-and-maidenhead/">
-Planning Permission in Windsor and Maidenhead
-</a>
-</li>
-
-<li>
-<a href="/councils/bracknell-forest/">
-Planning Permission in Bracknell Forest
-</a>
-</li>
-
-<li>
-<a href="/councils/wokingham/">
-Planning Permission in Wokingham
-</a>
-</li>
-
-<li>
-<a href="/councils/slough/">
-Planning Permission in Slough
-</a>
-</li>
-
-
-</ul>
 
 </div>
 
@@ -867,25 +855,62 @@ projects in West Berkshire.
 
 
 
-
 <div class="card">
 
-<h2>Understanding Planning Permission in West Berkshire</h2>
+<h2>Planning Authority</h2>
 
 <p>
-Planning permission rules in West Berkshire follow national
-permitted development legislation alongside policies
-set by the local planning authority.
+Planning applications for garden room projects in West Berkshire
+are handled by the local planning authority covering
+West Berkshire, Berkshire.
 </p>
 
 <p>
-Additional restrictions may apply in conservation areas,
-listed buildings or where Article 4 directions remove
-permitted development rights.
+For official planning advice consult the council planning portal
+for your area or visit the UK Planning Portal.
+</p>
+
+<p>
+<a href="https://www.planningportal.co.uk/" target="_blank" rel="noopener">
+Visit the UK Planning Portal
+</a>
 </p>
 
 </div>
 
+
+<div class="card">
+
+<h2>Sources and Planning Guidance</h2>
+
+<ul>
+
+<li>UK Permitted Development legislation</li>
+<li>Planning Portal guidance</li>
+<li>Local council planning policies</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>Planning Disclaimer</h2>
+
+<p>
+This guide summarises planning rules affecting
+garden room developments in West Berkshire.
+</p>
+
+<p>
+Planning regulations may change and additional
+local planning policies may apply. Always confirm
+planning requirements with your local planning
+authority before starting development.
+</p>
+
+</div>
 
 
 <p class="last-updated">

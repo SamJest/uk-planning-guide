@@ -18,7 +18,6 @@
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#2563eb">
 
-<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -27,7 +26,6 @@ gtag('js', new Date());
 gtag('config', 'G-GXRZWRNWD7');
 </script>
 
-<!-- Icons -->
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -36,7 +34,6 @@ gtag('config', 'G-GXRZWRNWD7');
 
 <link rel="preload" as="image" href="/images/uk-planning-guide-logo-header.png">
 
-<!-- Organization Schema -->
 <script type="application/ld+json">
 {
 "@context": "https://schema.org",
@@ -47,7 +44,6 @@ gtag('config', 'G-GXRZWRNWD7');
 }
 </script>
 
-<!-- Website Schema -->
 <script type="application/ld+json">
 {
 "@context": "https://schema.org",
@@ -57,7 +53,6 @@ gtag('config', 'G-GXRZWRNWD7');
 }
 </script>
 
-<!-- Page Schema -->
 <script type="application/ld+json">
 {
 "@context":"https://schema.org",
@@ -78,9 +73,9 @@ gtag('config', 'G-GXRZWRNWD7');
 
 <style>
 
-/* ================================
+/* ===============================
 GLOBAL DESIGN SYSTEM
-================================ */
+=============================== */
 
 :root{
 --primary:#2563eb;
@@ -106,11 +101,12 @@ font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 background:var(--bg);
 color:var(--text);
 line-height:1.6;
+-webkit-font-smoothing:antialiased;
 }
 
-/* ================================
+/* ===============================
 LAYOUT
-================================ */
+=============================== */
 
 .container{
 max-width:1200px;
@@ -118,13 +114,14 @@ margin:auto;
 padding:24px;
 }
 
-/* ================================
+/* ===============================
 TYPOGRAPHY
-================================ */
+=============================== */
 
 h1{
 font-size:36px;
 margin-bottom:16px;
+line-height:1.25;
 }
 
 h2{
@@ -151,9 +148,9 @@ a:hover{
 text-decoration:underline;
 }
 
-/* ================================
-HEADER / NAV
-================================ */
+/* ===============================
+HEADER
+=============================== */
 
 header{
 background:white;
@@ -176,6 +173,11 @@ justify-content:space-between;
 height:46px;
 }
 
+nav{
+display:flex;
+align-items:center;
+}
+
 nav a{
 margin-left:22px;
 font-weight:600;
@@ -186,9 +188,9 @@ nav a:hover{
 color:var(--primary);
 }
 
-/* ================================
+/* ===============================
 BREADCRUMBS
-================================ */
+=============================== */
 
 .breadcrumb{
 font-size:14px;
@@ -200,9 +202,9 @@ margin-bottom:20px;
 color:var(--muted);
 }
 
-/* ================================
+/* ===============================
 GRID SYSTEM
-================================ */
+=============================== */
 
 .grid{
 display:grid;
@@ -215,42 +217,45 @@ grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 }
 
 .grid-3{
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
 }
 
 .grid-4{
 grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
 }
 
-/* ================================
+/* ===============================
 CARDS
-================================ */
+=============================== */
 
 .card{
 background:var(--card);
-padding:28px;
+padding:26px;
 border-radius:var(--radius);
 box-shadow:var(--shadow-sm);
 border:1px solid var(--border);
+display:flex;
+flex-direction:column;
+justify-content:space-between;
 }
 
 .card:hover{
 box-shadow:var(--shadow-md);
 }
 
-/* ================================
+/* ===============================
 HERO
-================================ */
+=============================== */
 
 .hero{
 text-align:center;
-padding:48px 40px;
+padding:46px 40px;
 background:linear-gradient(180deg,#ffffff 0%,#f8fafc 100%);
 }
 
-/* ================================
+/* ===============================
 BADGES
-================================ */
+=============================== */
 
 .badge{
 display:inline-block;
@@ -263,9 +268,29 @@ margin-bottom:16px;
 font-weight:600;
 }
 
-/* ================================
-PROJECT CARDS
-================================ */
+/* ===============================
+BUTTONS
+=============================== */
+
+.button{
+display:inline-block;
+padding:10px 16px;
+background:var(--primary);
+color:white;
+border-radius:8px;
+font-weight:600;
+margin-top:10px;
+transition:all .2s ease;
+}
+
+.button:hover{
+background:var(--primary-dark);
+text-decoration:none;
+}
+
+/* ===============================
+PROJECT / TOWN CARDS
+=============================== */
 
 .project-card{
 display:block;
@@ -283,43 +308,38 @@ font-size:20px;
 margin-bottom:8px;
 }
 
-/* ================================
-BUTTONS
-================================ */
-
-.button{
-display:inline-block;
-padding:10px 16px;
-background:var(--primary);
-color:white;
-border-radius:8px;
-font-weight:600;
-margin-top:10px;
+.town-card h3{
+margin-bottom:6px;
+word-break:break-word;
 }
 
-.button:hover{
-background:var(--primary-dark);
-text-decoration:none;
-}
-
-/* ================================
+/* ===============================
 TABLES
-================================ */
+=============================== */
 
 table{
 width:100%;
 border-collapse:collapse;
-margin-top:12px;
+margin-top:14px;
+background:white;
+border-radius:var(--radius);
+overflow:hidden;
 }
 
-td{
-padding:10px;
+td,th{
+padding:12px;
 border-bottom:1px solid var(--border);
+text-align:left;
 }
 
-/* ================================
+th{
+background:#f8fafc;
+font-weight:600;
+}
+
+/* ===============================
 FORMS
-================================ */
+=============================== */
 
 input,select{
 width:100%;
@@ -327,11 +347,12 @@ padding:10px;
 border-radius:8px;
 border:1px solid var(--border);
 margin-bottom:12px;
+font-size:15px;
 }
 
-/* ================================
+/* ===============================
 FOOTER
-================================ */
+=============================== */
 
 footer{
 margin-top:60px;
@@ -354,9 +375,9 @@ color:#cbd5f5;
 margin-right:16px;
 }
 
-/* ================================
+/* ===============================
 MOBILE
-================================ */
+=============================== */
 
 @media(max-width:700px){
 
@@ -370,6 +391,10 @@ padding:36px 24px;
 
 h1{
 font-size:28px;
+}
+
+.container{
+padding:18px;
 }
 
 }
@@ -465,6 +490,57 @@ planning considerations.
 
 <div class="card">
 
+<h2>Nearby Planning Guidance</h2>
+
+<ul>
+
+
+<li>
+<a href="/porches/lincolnshire/">
+Porch in Lincolnshire
+</a>
+</li>
+
+<li>
+<a href="/porches/tyne-and-wear/">
+Porch in Tyne And Wear
+</a>
+</li>
+
+<li>
+<a href="/porches/oxfordshire/">
+Porch in Oxfordshire
+</a>
+</li>
+
+<li>
+<a href="/porches/bedfordshire/">
+Porch in Bedfordshire
+</a>
+</li>
+
+<li>
+<a href="/porches/essex/">
+Porch in Essex
+</a>
+</li>
+
+<li>
+<a href="/porches/hertfordshire/">
+Porch in Hertfordshire
+</a>
+</li>
+
+
+</ul>
+
+</div>
+
+
+
+
+<div class="card">
+
 <h2>Planning Topics for Porch</h2>
 
 <ul>
@@ -510,80 +586,6 @@ Conservation Areas for Porch in Northamptonshire
 
 <div class="card">
 
-<h2>Nearby Planning Guidance</h2>
-
-<ul>
-
-
-<li>
-<a href="/porches/bedfordshire/">
-Porch in Bedfordshire
-</a>
-</li>
-
-<li>
-<a href="/porches/cumbria/">
-Porch in Cumbria
-</a>
-</li>
-
-<li>
-<a href="/porches/surrey/">
-Porch in Surrey
-</a>
-</li>
-
-<li>
-<a href="/porches/yorkshire/">
-Porch in Yorkshire
-</a>
-</li>
-
-<li>
-<a href="/porches/wiltshire/">
-Porch in Wiltshire
-</a>
-</li>
-
-<li>
-<a href="/porches/devon/">
-Porch in Devon
-</a>
-</li>
-
-
-</ul>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h2>Planning Rules for Porch Projects</h2>
-
-<p>
-Planning permission rules affecting
-porch developments may vary
-depending on location, design and planning
-policies applied by the local authority.
-</p>
-
-<p>
-National permitted development legislation
-sets limits on height, size and placement of
-many home improvement projects, however
-local planning restrictions may apply.
-</p>
-
-</div>
-
-
-
-
-<div class="card">
-
 <h2>Porch Planning Guidance by Council</h2>
 
 </div>
@@ -613,6 +615,29 @@ projects in West Northamptonshire.
 
 </a>
 
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>Planning Rules for Porch Projects</h2>
+
+<p>
+Planning permission rules affecting
+porch developments may vary
+depending on location, design and planning
+policies applied by the local authority.
+</p>
+
+<p>
+National permitted development legislation
+sets limits on height, size and placement of
+many home improvement projects, however
+local planning restrictions may apply.
+</p>
 
 </div>
 
