@@ -525,6 +525,11 @@ garage conversion projects in Rushmoor, Hampshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Natural England advised the Joint Strategic Partnership Board that residential development within five kilometres of the SPA may result in harm to these bird species, contrary to protected species legislation. This means that we can only grant planning permission for new residential development where there would be no likelihood of significant impact on the SPA, taking into account proposed mitigation or avoidance measures.</p>
 </div>
@@ -575,57 +580,53 @@ garage conversion projects in Rushmoor, Hampshire.
 
 <div class="card">
 
-<h2>Nearby Planning Guidance</h2>
+<h2>Permitted Development Checker</h2>
 
-<div class="grid grid-3">
+<p>Estimate whether planning permission may be required.</p>
 
-<a href="/garage-conversions/hampshire/basingstoke-and-deane/">
-Basingstoke And Deane
-</a>
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
 
-<a href="/garage-conversions/hampshire/east-hampshire/">
-East Hampshire
-</a>
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
 
-<a href="/garage-conversions/hampshire/eastleigh/">
-Eastleigh
-</a>
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
 
-<a href="/garage-conversions/hampshire/fareham/">
-Fareham
-</a>
+<p id="pdResult"></p>
 
-<a href="/garage-conversions/hampshire/gosport/">
-Gosport
-</a>
+<script>
 
-<a href="/garage-conversions/hampshire/hart/">
-Hart
-</a>
+function pdCheck(){
 
-</div>
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
 
-</div>
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
 
+if(boundary < 2 && height > 2.5){
 
-<div class="card">
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
 
-<h2>Planning Permission for Garage Conversion Projects</h2>
+}else if(height > 4){
 
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
 
-<p>
-Understanding planning permission is important when planning a
-garage conversion project in Rushmoor. National planning rules
-set limits on size, height and location of developments that
-may be built under permitted development rights.
-</p>
+}else{
 
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
 
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
+}
+
+}
+
+</script>
 
 </div>
 
@@ -696,53 +697,56 @@ specific development details.
 
 <div class="card">
 
-<h2>Permitted Development Checker</h2>
+<h2>Nearby Planning Guidance</h2>
 
-<p>Estimate whether planning permission may be required.</p>
+<div class="grid grid-3">
 
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
+<a href="/garage-conversions/hampshire/basingstoke-and-deane/">
+Basingstoke And Deane
+</a>
 
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
+<a href="/garage-conversions/hampshire/east-hampshire/">
+East Hampshire
+</a>
 
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+<a href="/garage-conversions/hampshire/eastleigh/">
+Eastleigh
+</a>
 
-<p id="pdResult"></p>
+<a href="/garage-conversions/hampshire/fareham/">
+Fareham
+</a>
 
-<script>
+<a href="/garage-conversions/hampshire/gosport/">
+Gosport
+</a>
 
-function pdCheck(){
+<a href="/garage-conversions/hampshire/hart/">
+Hart
+</a>
 
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
+</div>
 
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
+</div>
 
-if(boundary < 2 && height > 2.5){
 
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+<div class="card">
 
-}else if(height > 4){
+<h2>Planning Permission for Garage Conversion Projects</h2>
 
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
 
-}else{
+<p>
+If you are planning a garage conversion project in Rushmoor,
+it is important to understand planning restrictions relating
+to planning permission.
+</p>
 
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
 
-}
-
-}
-
-</script>
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
 
 </div>
 

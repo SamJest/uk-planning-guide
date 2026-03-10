@@ -525,6 +525,11 @@ garden room projects in Leeds, Yorkshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>The number of storeys in the building as determined in accordance with regulation 6 of the Higher-Risk Buildings</p>
 </div>
@@ -571,109 +576,6 @@ garden room projects in Leeds, Yorkshire.
 
 </div>
 
-
-
-
-<div class="card">
-
-<h2>Printable Planning Checklist</h2>
-
-<p>
-You can print this page and use the checklist below
-when planning your development project.
-</p>
-
-<ul>
-
-<li>Check permitted development height limits</li>
-<li>Confirm boundary distance requirements</li>
-<li>Review conservation area restrictions</li>
-<li>Verify listed building status if applicable</li>
-<li>Consult your local planning authority if unsure</li>
-
-</ul>
-
-<p>
-Planning rules may vary depending on location and
-specific development details.
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h2>Planning Permission for Garden Room Projects</h2>
-
-
-<p>
-Planning rules relating to planning permission may affect
-whether a garden room project in Leeds requires
-planning permission or qualifies under permitted development.
-</p>
-
-
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<h2>Permitted Development Checker</h2>
-
-<p>Estimate whether planning permission may be required.</p>
-
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
-
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
-
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
-
-<p id="pdResult"></p>
-
-<script>
-
-function pdCheck(){
-
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
-
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
-
-if(boundary < 2 && height > 2.5){
-
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
-
-}else if(height > 4){
-
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
-
-}else{
-
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
-
-}
-
-}
-
-</script>
-
-</div>
 
 
 <div class="card">
@@ -761,6 +663,109 @@ Hull
 </a>
 
 </div>
+
+</div>
+
+
+<div class="card">
+
+<h2>Planning Permission for Garden Room Projects</h2>
+
+
+<p>
+Planning rules relating to planning permission may affect
+whether a garden room project in Leeds requires
+planning permission or qualifies under permitted development.
+</p>
+
+
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Printable Planning Checklist</h2>
+
+<p>
+You can print this page and use the checklist below
+when planning your development project.
+</p>
+
+<ul>
+
+<li>Check permitted development height limits</li>
+<li>Confirm boundary distance requirements</li>
+<li>Review conservation area restrictions</li>
+<li>Verify listed building status if applicable</li>
+<li>Consult your local planning authority if unsure</li>
+
+</ul>
+
+<p>
+Planning rules may vary depending on location and
+specific development details.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Permitted Development Checker</h2>
+
+<p>Estimate whether planning permission may be required.</p>
+
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
+
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
+
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+
+<p id="pdResult"></p>
+
+<script>
+
+function pdCheck(){
+
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
+
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
+
+if(boundary < 2 && height > 2.5){
+
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+
+}else if(height > 4){
+
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
+
+}else{
+
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
+
+}
+
+}
+
+</script>
 
 </div>
 

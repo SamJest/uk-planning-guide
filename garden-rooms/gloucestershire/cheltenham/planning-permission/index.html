@@ -525,6 +525,11 @@ garden room projects in Cheltenham, Gloucestershire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -573,71 +578,55 @@ garden room projects in Cheltenham, Gloucestershire.
 
 
 
-
 <div class="card">
 
-<h2>Printable Planning Checklist</h2>
+<h2>Permitted Development Checker</h2>
 
-<p>
-You can print this page and use the checklist below
-when planning your development project.
-</p>
+<p>Estimate whether planning permission may be required.</p>
 
-<ul>
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
 
-<li>Check permitted development height limits</li>
-<li>Confirm boundary distance requirements</li>
-<li>Review conservation area restrictions</li>
-<li>Verify listed building status if applicable</li>
-<li>Consult your local planning authority if unsure</li>
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
 
-</ul>
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
 
-<p>
-Planning rules may vary depending on location and
-specific development details.
-</p>
+<p id="pdResult"></p>
 
-</div>
+<script>
 
+function pdCheck(){
 
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
 
-<div class="card">
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
 
-<h2>Planning Permission for Garden Room Projects</h2>
+if(boundary < 2 && height > 2.5){
 
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
 
-<p>
-If you are planning a garden room project in Cheltenham,
-it is important to understand planning restrictions relating
-to planning permission.
-</p>
+}else if(height > 4){
 
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
 
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
+}else{
 
-</div>
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
 
+}
 
-<div class="card">
+}
 
-<h2>Garden Room Planning Rules in Cheltenham vs National Permitted Development</h2>
-
-<p>
-UK permitted development legislation allows many garden room
-projects without planning permission provided certain limits
-are followed.
-</p>
-
-<p>
-However local planning authorities such as those covering
-Cheltenham may impose additional planning controls through
-conservation area policies or Article 4 directions.
-</p>
+</script>
 
 </div>
 
@@ -710,53 +699,69 @@ Tewkesbury
 
 <div class="card">
 
-<h2>Permitted Development Checker</h2>
+<h2>Planning Permission for Garden Room Projects</h2>
 
-<p>Estimate whether planning permission may be required.</p>
 
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
+<p>
+If you are planning a garden room project in Cheltenham,
+it is important to understand planning restrictions relating
+to planning permission.
+</p>
 
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
 
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
 
-<p id="pdResult"></p>
+</div>
 
-<script>
 
-function pdCheck(){
 
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
+<div class="card">
 
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
+<h2>Printable Planning Checklist</h2>
 
-if(boundary < 2 && height > 2.5){
+<p>
+You can print this page and use the checklist below
+when planning your development project.
+</p>
 
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+<ul>
 
-}else if(height > 4){
+<li>Check permitted development height limits</li>
+<li>Confirm boundary distance requirements</li>
+<li>Review conservation area restrictions</li>
+<li>Verify listed building status if applicable</li>
+<li>Consult your local planning authority if unsure</li>
 
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
+</ul>
 
-}else{
+<p>
+Planning rules may vary depending on location and
+specific development details.
+</p>
 
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
+</div>
 
-}
 
-}
 
-</script>
+<div class="card">
+
+<h2>Garden Room Planning Rules in Cheltenham vs National Permitted Development</h2>
+
+<p>
+UK permitted development legislation allows many garden room
+projects without planning permission provided certain limits
+are followed.
+</p>
+
+<p>
+However local planning authorities such as those covering
+Cheltenham may impose additional planning controls through
+conservation area policies or Article 4 directions.
+</p>
 
 </div>
 

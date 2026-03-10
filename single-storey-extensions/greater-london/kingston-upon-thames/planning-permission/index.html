@@ -525,6 +525,11 @@ single storey extension projects in Kingston upon Thames, Greater London.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -573,58 +578,55 @@ single storey extension projects in Kingston upon Thames, Greater London.
 
 
 
-
 <div class="card">
 
-<h2>Related Planning Topics</h2>
+<h2>Permitted Development Checker</h2>
 
-<div class="grid grid-3">
+<p>Estimate whether planning permission may be required.</p>
 
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
 
-<a href="/single-storey-extensions/greater-london/kingston-upon-thames/planning-permission/">
-Planning Permission
-</a>
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
 
-<a href="/single-storey-extensions/greater-london/kingston-upon-thames/height-limits/">
-Height Limits
-</a>
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
 
-<a href="/single-storey-extensions/greater-london/kingston-upon-thames/boundary-rules/">
-Boundary Rules
-</a>
+<p id="pdResult"></p>
 
-<a href="/single-storey-extensions/greater-london/kingston-upon-thames/permitted-development/">
-Permitted Development
-</a>
+<script>
 
-<a href="/single-storey-extensions/greater-london/kingston-upon-thames/conservation-areas/">
-Conservation Areas
-</a>
+function pdCheck(){
 
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
 
-</div>
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
 
-</div>
+if(boundary < 2 && height > 2.5){
 
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
 
+}else if(height > 4){
 
-<div class="card">
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
 
-<h2>Planning Permission for Single Storey Extension Projects</h2>
+}else{
 
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
 
-<p>
-Planning rules relating to planning permission may affect
-whether a single storey extension project in Kingston upon Thames requires
-planning permission or qualifies under permitted development.
-</p>
+}
 
+}
 
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
+</script>
 
 </div>
 
@@ -677,55 +679,58 @@ conservation area policies or Article 4 directions.
 </div>
 
 
+
 <div class="card">
 
-<h2>Permitted Development Checker</h2>
+<h2>Related Planning Topics</h2>
 
-<p>Estimate whether planning permission may be required.</p>
+<div class="grid grid-3">
 
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
 
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
+<a href="/single-storey-extensions/greater-london/kingston-upon-thames/planning-permission/">
+Planning Permission
+</a>
 
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+<a href="/single-storey-extensions/greater-london/kingston-upon-thames/height-limits/">
+Height Limits
+</a>
 
-<p id="pdResult"></p>
+<a href="/single-storey-extensions/greater-london/kingston-upon-thames/boundary-rules/">
+Boundary Rules
+</a>
 
-<script>
+<a href="/single-storey-extensions/greater-london/kingston-upon-thames/permitted-development/">
+Permitted Development
+</a>
 
-function pdCheck(){
+<a href="/single-storey-extensions/greater-london/kingston-upon-thames/conservation-areas/">
+Conservation Areas
+</a>
 
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
 
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
+</div>
 
-if(boundary < 2 && height > 2.5){
+</div>
 
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
 
-}else if(height > 4){
 
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
+<div class="card">
 
-}else{
+<h2>Planning Permission for Single Storey Extension Projects</h2>
 
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
 
-}
+<p>
+If you are planning a single storey extension project in Kingston upon Thames,
+it is important to understand planning restrictions relating
+to planning permission.
+</p>
 
-}
 
-</script>
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
 
 </div>
 

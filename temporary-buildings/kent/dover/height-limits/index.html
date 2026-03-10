@@ -525,6 +525,11 @@ temporary building projects in Dover, Kent.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>numerical, wherever possible, which provide specific, detailed parameters for the design of new</p>
 </div>
@@ -570,6 +575,132 @@ temporary building projects in Dover, Kent.
 
 </div>
 
+
+
+
+<div class="card">
+
+<h2>Related Planning Topics</h2>
+
+<div class="grid grid-3">
+
+
+<a href="/temporary-buildings/kent/dover/planning-permission/">
+Planning Permission
+</a>
+
+<a href="/temporary-buildings/kent/dover/height-limits/">
+Height Limits
+</a>
+
+<a href="/temporary-buildings/kent/dover/boundary-rules/">
+Boundary Rules
+</a>
+
+<a href="/temporary-buildings/kent/dover/permitted-development/">
+Permitted Development
+</a>
+
+<a href="/temporary-buildings/kent/dover/conservation-areas/">
+Conservation Areas
+</a>
+
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Nearby Planning Guidance</h2>
+
+<div class="grid grid-3">
+
+<a href="/temporary-buildings/kent/ashford/">
+Ashford
+</a>
+
+<a href="/temporary-buildings/kent/canterbury/">
+Canterbury
+</a>
+
+<a href="/temporary-buildings/kent/dartford/">
+Dartford
+</a>
+
+<a href="/temporary-buildings/kent/folkestone-and-hythe/">
+Folkestone And Hythe
+</a>
+
+<a href="/temporary-buildings/kent/gravesham/">
+Gravesham
+</a>
+
+<a href="/temporary-buildings/kent/maidstone/">
+Maidstone
+</a>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>Outbuilding Height Calculator</h2>
+
+<p>Estimate the maximum height allowed under permitted development rules.</p>
+
+<label>Distance from boundary (metres)</label>
+<input id="boundary" type="number" step="0.1">
+
+<label>Roof type</label>
+<select id="roofType">
+<option value="flat">Flat roof</option>
+<option value="pitched">Pitched roof</option>
+</select>
+
+<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
+
+<p id="heightResult"></p>
+
+<script>
+
+function calcHeight(){
+
+let boundary = parseFloat(document.getElementById("boundary").value);
+let roof = document.getElementById("roofType").value;
+
+if(isNaN(boundary)){
+document.getElementById("heightResult").innerText =
+"Please enter the distance from the boundary.";
+return;
+}
+
+if(boundary < 2){
+
+document.getElementById("heightResult").innerText =
+"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
+
+}else{
+
+if(roof === "pitched"){
+document.getElementById("heightResult").innerText =
+"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
+}else{
+document.getElementById("heightResult").innerText =
+"Flat roof outbuildings are normally limited to 3 metres height.";
+}
+
+}
+
+}
+
+</script>
+
+</div>
 
 
 <div class="card">
@@ -639,132 +770,6 @@ specific development details.
 
 </div>
 
-
-
-
-<div class="card">
-
-<h2>Related Planning Topics</h2>
-
-<div class="grid grid-3">
-
-
-<a href="/temporary-buildings/kent/dover/planning-permission/">
-Planning Permission
-</a>
-
-<a href="/temporary-buildings/kent/dover/height-limits/">
-Height Limits
-</a>
-
-<a href="/temporary-buildings/kent/dover/boundary-rules/">
-Boundary Rules
-</a>
-
-<a href="/temporary-buildings/kent/dover/permitted-development/">
-Permitted Development
-</a>
-
-<a href="/temporary-buildings/kent/dover/conservation-areas/">
-Conservation Areas
-</a>
-
-
-</div>
-
-</div>
-
-
-
-<div class="card">
-
-<h2>Outbuilding Height Calculator</h2>
-
-<p>Estimate the maximum height allowed under permitted development rules.</p>
-
-<label>Distance from boundary (metres)</label>
-<input id="boundary" type="number" step="0.1">
-
-<label>Roof type</label>
-<select id="roofType">
-<option value="flat">Flat roof</option>
-<option value="pitched">Pitched roof</option>
-</select>
-
-<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
-
-<p id="heightResult"></p>
-
-<script>
-
-function calcHeight(){
-
-let boundary = parseFloat(document.getElementById("boundary").value);
-let roof = document.getElementById("roofType").value;
-
-if(isNaN(boundary)){
-document.getElementById("heightResult").innerText =
-"Please enter the distance from the boundary.";
-return;
-}
-
-if(boundary < 2){
-
-document.getElementById("heightResult").innerText =
-"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
-
-}else{
-
-if(roof === "pitched"){
-document.getElementById("heightResult").innerText =
-"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
-}else{
-document.getElementById("heightResult").innerText =
-"Flat roof outbuildings are normally limited to 3 metres height.";
-}
-
-}
-
-}
-
-</script>
-
-</div>
-
-
-<div class="card">
-
-<h2>Nearby Planning Guidance</h2>
-
-<div class="grid grid-3">
-
-<a href="/temporary-buildings/kent/ashford/">
-Ashford
-</a>
-
-<a href="/temporary-buildings/kent/canterbury/">
-Canterbury
-</a>
-
-<a href="/temporary-buildings/kent/dartford/">
-Dartford
-</a>
-
-<a href="/temporary-buildings/kent/folkestone-and-hythe/">
-Folkestone And Hythe
-</a>
-
-<a href="/temporary-buildings/kent/gravesham/">
-Gravesham
-</a>
-
-<a href="/temporary-buildings/kent/maidstone/">
-Maidstone
-</a>
-
-</div>
-
-</div>
 
 
 

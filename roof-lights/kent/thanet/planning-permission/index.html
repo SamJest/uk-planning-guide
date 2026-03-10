@@ -525,6 +525,11 @@ rooflight projects in Thanet, Kent.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -604,74 +609,35 @@ specific development details.
 
 <div class="card">
 
-<h2>Permitted Development Checker</h2>
+<h2>Nearby Planning Guidance</h2>
 
-<p>Estimate whether planning permission may be required.</p>
+<div class="grid grid-3">
 
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
+<a href="/roof-lights/kent/ashford/">
+Ashford
+</a>
 
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
+<a href="/roof-lights/kent/canterbury/">
+Canterbury
+</a>
 
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+<a href="/roof-lights/kent/dartford/">
+Dartford
+</a>
 
-<p id="pdResult"></p>
+<a href="/roof-lights/kent/dover/">
+Dover
+</a>
 
-<script>
+<a href="/roof-lights/kent/folkestone-and-hythe/">
+Folkestone And Hythe
+</a>
 
-function pdCheck(){
-
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
-
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
-
-if(boundary < 2 && height > 2.5){
-
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
-
-}else if(height > 4){
-
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
-
-}else{
-
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
-
-}
-
-}
-
-</script>
+<a href="/roof-lights/kent/gravesham/">
+Gravesham
+</a>
 
 </div>
-
-
-<div class="card">
-
-<h2>Planning Permission for Rooflight Projects</h2>
-
-
-<p>
-Planning rules relating to planning permission may affect
-whether a rooflight project in Thanet requires
-planning permission or qualifies under permitted development.
-</p>
-
-
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
 
 </div>
 
@@ -732,35 +698,75 @@ Conservation Areas
 
 <div class="card">
 
-<h2>Nearby Planning Guidance</h2>
+<h2>Permitted Development Checker</h2>
 
-<div class="grid grid-3">
+<p>Estimate whether planning permission may be required.</p>
 
-<a href="/roof-lights/kent/ashford/">
-Ashford
-</a>
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
 
-<a href="/roof-lights/kent/canterbury/">
-Canterbury
-</a>
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
 
-<a href="/roof-lights/kent/dartford/">
-Dartford
-</a>
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
 
-<a href="/roof-lights/kent/dover/">
-Dover
-</a>
+<p id="pdResult"></p>
 
-<a href="/roof-lights/kent/folkestone-and-hythe/">
-Folkestone And Hythe
-</a>
+<script>
 
-<a href="/roof-lights/kent/gravesham/">
-Gravesham
-</a>
+function pdCheck(){
+
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
+
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
+
+if(boundary < 2 && height > 2.5){
+
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+
+}else if(height > 4){
+
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
+
+}else{
+
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
+
+}
+
+}
+
+</script>
 
 </div>
+
+
+<div class="card">
+
+<h2>Planning Permission for Rooflight Projects</h2>
+
+
+<p>
+Understanding planning permission is important when planning a
+rooflight project in Thanet. National planning rules
+set limits on size, height and location of developments that
+may be built under permitted development rights.
+</p>
+
+
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
 
 </div>
 

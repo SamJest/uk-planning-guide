@@ -525,6 +525,11 @@ change of use projects in North Hertfordshire, Hertfordshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -571,6 +576,59 @@ change of use projects in North Hertfordshire, Hertfordshire.
 
 </div>
 
+
+
+<div class="card">
+
+<h2>Permitted Development Checker</h2>
+
+<p>Estimate whether planning permission may be required.</p>
+
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
+
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
+
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+
+<p id="pdResult"></p>
+
+<script>
+
+function pdCheck(){
+
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
+
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
+
+if(boundary < 2 && height > 2.5){
+
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+
+}else if(height > 4){
+
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
+
+}else{
+
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
+
+}
+
+}
+
+</script>
+
+</div>
 
 
 <div class="card">
@@ -643,80 +701,6 @@ Conservation Areas
 
 
 
-<div class="card">
-
-<h2>Planning Permission for Change of Use Projects</h2>
-
-
-<p>
-Planning rules relating to planning permission may affect
-whether a change of use project in North Hertfordshire requires
-planning permission or qualifies under permitted development.
-</p>
-
-
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<h2>Permitted Development Checker</h2>
-
-<p>Estimate whether planning permission may be required.</p>
-
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
-
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
-
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
-
-<p id="pdResult"></p>
-
-<script>
-
-function pdCheck(){
-
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
-
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
-
-if(boundary < 2 && height > 2.5){
-
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
-
-}else if(height > 4){
-
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
-
-}else{
-
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
-
-}
-
-}
-
-</script>
-
-</div>
-
-
 
 <div class="card">
 
@@ -744,6 +728,27 @@ specific development details.
 
 </div>
 
+
+
+<div class="card">
+
+<h2>Planning Permission for Change of Use Projects</h2>
+
+
+<p>
+If you are planning a change of use project in North Hertfordshire,
+it is important to understand planning restrictions relating
+to planning permission.
+</p>
+
+
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
+
+</div>
 
 
 <div class="card">

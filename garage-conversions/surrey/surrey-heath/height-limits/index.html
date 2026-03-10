@@ -525,6 +525,11 @@ garage conversion projects in Surrey Heath, Surrey.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -603,35 +608,56 @@ specific development details.
 
 <div class="card">
 
-<h2>Nearby Planning Guidance</h2>
+<h2>Outbuilding Height Calculator</h2>
 
-<div class="grid grid-3">
+<p>Estimate the maximum height allowed under permitted development rules.</p>
 
-<a href="/garage-conversions/surrey/elmbridge/">
-Elmbridge
-</a>
+<label>Distance from boundary (metres)</label>
+<input id="boundary" type="number" step="0.1">
 
-<a href="/garage-conversions/surrey/epsom-and-ewell/">
-Epsom And Ewell
-</a>
+<label>Roof type</label>
+<select id="roofType">
+<option value="flat">Flat roof</option>
+<option value="pitched">Pitched roof</option>
+</select>
 
-<a href="/garage-conversions/surrey/guildford/">
-Guildford
-</a>
+<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
 
-<a href="/garage-conversions/surrey/mole-valley/">
-Mole Valley
-</a>
+<p id="heightResult"></p>
 
-<a href="/garage-conversions/surrey/reigate-and-banstead/">
-Reigate And Banstead
-</a>
+<script>
 
-<a href="/garage-conversions/surrey/runnymede/">
-Runnymede
-</a>
+function calcHeight(){
 
-</div>
+let boundary = parseFloat(document.getElementById("boundary").value);
+let roof = document.getElementById("roofType").value;
+
+if(isNaN(boundary)){
+document.getElementById("heightResult").innerText =
+"Please enter the distance from the boundary.";
+return;
+}
+
+if(boundary < 2){
+
+document.getElementById("heightResult").innerText =
+"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
+
+}else{
+
+if(roof === "pitched"){
+document.getElementById("heightResult").innerText =
+"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
+}else{
+document.getElementById("heightResult").innerText =
+"Flat roof outbuildings are normally limited to 3 metres height.";
+}
+
+}
+
+}
+
+</script>
 
 </div>
 
@@ -642,10 +668,9 @@ Runnymede
 
 
 <p>
-Understanding height limits is important when planning a
-garage conversion project in Surrey Heath. National planning rules
-set limits on size, height and location of developments that
-may be built under permitted development rights.
+If you are planning a garage conversion project in Surrey Heath,
+it is important to understand planning restrictions relating
+to height limits.
 </p>
 
 
@@ -714,56 +739,35 @@ Conservation Areas
 
 <div class="card">
 
-<h2>Outbuilding Height Calculator</h2>
+<h2>Nearby Planning Guidance</h2>
 
-<p>Estimate the maximum height allowed under permitted development rules.</p>
+<div class="grid grid-3">
 
-<label>Distance from boundary (metres)</label>
-<input id="boundary" type="number" step="0.1">
+<a href="/garage-conversions/surrey/elmbridge/">
+Elmbridge
+</a>
 
-<label>Roof type</label>
-<select id="roofType">
-<option value="flat">Flat roof</option>
-<option value="pitched">Pitched roof</option>
-</select>
+<a href="/garage-conversions/surrey/epsom-and-ewell/">
+Epsom And Ewell
+</a>
 
-<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
+<a href="/garage-conversions/surrey/guildford/">
+Guildford
+</a>
 
-<p id="heightResult"></p>
+<a href="/garage-conversions/surrey/mole-valley/">
+Mole Valley
+</a>
 
-<script>
+<a href="/garage-conversions/surrey/reigate-and-banstead/">
+Reigate And Banstead
+</a>
 
-function calcHeight(){
+<a href="/garage-conversions/surrey/runnymede/">
+Runnymede
+</a>
 
-let boundary = parseFloat(document.getElementById("boundary").value);
-let roof = document.getElementById("roofType").value;
-
-if(isNaN(boundary)){
-document.getElementById("heightResult").innerText =
-"Please enter the distance from the boundary.";
-return;
-}
-
-if(boundary < 2){
-
-document.getElementById("heightResult").innerText =
-"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
-
-}else{
-
-if(roof === "pitched"){
-document.getElementById("heightResult").innerText =
-"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
-}else{
-document.getElementById("heightResult").innerText =
-"Flat roof outbuildings are normally limited to 3 metres height.";
-}
-
-}
-
-}
-
-</script>
+</div>
 
 </div>
 

@@ -525,6 +525,11 @@ side extension projects in Tamworth, Staffordshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -574,56 +579,75 @@ side extension projects in Tamworth, Staffordshire.
 
 <div class="card">
 
-<h2>Outbuilding Height Calculator</h2>
+<h2>Nearby Planning Guidance</h2>
 
-<p>Estimate the maximum height allowed under permitted development rules.</p>
+<div class="grid grid-3">
 
-<label>Distance from boundary (metres)</label>
-<input id="boundary" type="number" step="0.1">
+<a href="/side-extensions/staffordshire/cannock-chase/">
+Cannock Chase
+</a>
 
-<label>Roof type</label>
-<select id="roofType">
-<option value="flat">Flat roof</option>
-<option value="pitched">Pitched roof</option>
-</select>
+<a href="/side-extensions/staffordshire/east-staffordshire/">
+East Staffordshire
+</a>
 
-<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
+<a href="/side-extensions/staffordshire/lichfield/">
+Lichfield
+</a>
 
-<p id="heightResult"></p>
+<a href="/side-extensions/staffordshire/newcastle-under-lyme/">
+Newcastle Under Lyme
+</a>
 
-<script>
+<a href="/side-extensions/staffordshire/south-staffordshire/">
+South Staffordshire
+</a>
 
-function calcHeight(){
+<a href="/side-extensions/staffordshire/stafford/">
+Stafford
+</a>
 
-let boundary = parseFloat(document.getElementById("boundary").value);
-let roof = document.getElementById("roofType").value;
+</div>
 
-if(isNaN(boundary)){
-document.getElementById("heightResult").innerText =
-"Please enter the distance from the boundary.";
-return;
-}
+</div>
 
-if(boundary < 2){
 
-document.getElementById("heightResult").innerText =
-"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
+<div class="card">
 
-}else{
+<h2>Height Limits for Side Extension Projects</h2>
 
-if(roof === "pitched"){
-document.getElementById("heightResult").innerText =
-"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
-}else{
-document.getElementById("heightResult").innerText =
-"Flat roof outbuildings are normally limited to 3 metres height.";
-}
 
-}
+<p>
+If you are planning a side extension project in Tamworth,
+it is important to understand planning restrictions relating
+to height limits.
+</p>
 
-}
 
-</script>
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Side Extension Planning Rules in Tamworth vs National Permitted Development</h2>
+
+<p>
+UK permitted development legislation allows many side extension
+projects without planning permission provided certain limits
+are followed.
+</p>
+
+<p>
+However local planning authorities such as those covering
+Tamworth may impose additional planning controls through
+conservation area policies or Article 4 directions.
+</p>
 
 </div>
 
@@ -694,75 +718,56 @@ specific development details.
 
 <div class="card">
 
-<h2>Side Extension Planning Rules in Tamworth vs National Permitted Development</h2>
+<h2>Outbuilding Height Calculator</h2>
 
-<p>
-UK permitted development legislation allows many side extension
-projects without planning permission provided certain limits
-are followed.
-</p>
+<p>Estimate the maximum height allowed under permitted development rules.</p>
 
-<p>
-However local planning authorities such as those covering
-Tamworth may impose additional planning controls through
-conservation area policies or Article 4 directions.
-</p>
+<label>Distance from boundary (metres)</label>
+<input id="boundary" type="number" step="0.1">
 
-</div>
+<label>Roof type</label>
+<select id="roofType">
+<option value="flat">Flat roof</option>
+<option value="pitched">Pitched roof</option>
+</select>
 
+<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
 
-<div class="card">
+<p id="heightResult"></p>
 
-<h2>Height Limits for Side Extension Projects</h2>
+<script>
 
+function calcHeight(){
 
-<p>
-Planning rules relating to height limits may affect
-whether a side extension project in Tamworth requires
-planning permission or qualifies under permitted development.
-</p>
+let boundary = parseFloat(document.getElementById("boundary").value);
+let roof = document.getElementById("roofType").value;
 
+if(isNaN(boundary)){
+document.getElementById("heightResult").innerText =
+"Please enter the distance from the boundary.";
+return;
+}
 
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
+if(boundary < 2){
 
-</div>
+document.getElementById("heightResult").innerText =
+"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
 
+}else{
 
-<div class="card">
+if(roof === "pitched"){
+document.getElementById("heightResult").innerText =
+"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
+}else{
+document.getElementById("heightResult").innerText =
+"Flat roof outbuildings are normally limited to 3 metres height.";
+}
 
-<h2>Nearby Planning Guidance</h2>
+}
 
-<div class="grid grid-3">
+}
 
-<a href="/side-extensions/staffordshire/cannock-chase/">
-Cannock Chase
-</a>
-
-<a href="/side-extensions/staffordshire/east-staffordshire/">
-East Staffordshire
-</a>
-
-<a href="/side-extensions/staffordshire/lichfield/">
-Lichfield
-</a>
-
-<a href="/side-extensions/staffordshire/newcastle-under-lyme/">
-Newcastle Under Lyme
-</a>
-
-<a href="/side-extensions/staffordshire/south-staffordshire/">
-South Staffordshire
-</a>
-
-<a href="/side-extensions/staffordshire/stafford/">
-Stafford
-</a>
-
-</div>
+</script>
 
 </div>
 

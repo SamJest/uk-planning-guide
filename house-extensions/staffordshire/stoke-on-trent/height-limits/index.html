@@ -525,6 +525,11 @@ house extension projects in Stoke-on-Trent, Staffordshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -572,6 +577,62 @@ house extension projects in Stoke-on-Trent, Staffordshire.
 
 
 
+<div class="card">
+
+<h2>Outbuilding Height Calculator</h2>
+
+<p>Estimate the maximum height allowed under permitted development rules.</p>
+
+<label>Distance from boundary (metres)</label>
+<input id="boundary" type="number" step="0.1">
+
+<label>Roof type</label>
+<select id="roofType">
+<option value="flat">Flat roof</option>
+<option value="pitched">Pitched roof</option>
+</select>
+
+<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
+
+<p id="heightResult"></p>
+
+<script>
+
+function calcHeight(){
+
+let boundary = parseFloat(document.getElementById("boundary").value);
+let roof = document.getElementById("roofType").value;
+
+if(isNaN(boundary)){
+document.getElementById("heightResult").innerText =
+"Please enter the distance from the boundary.";
+return;
+}
+
+if(boundary < 2){
+
+document.getElementById("heightResult").innerText =
+"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
+
+}else{
+
+if(roof === "pitched"){
+document.getElementById("heightResult").innerText =
+"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
+}else{
+document.getElementById("heightResult").innerText =
+"Flat roof outbuildings are normally limited to 3 metres height.";
+}
+
+}
+
+}
+
+</script>
+
+</div>
+
+
 
 <div class="card">
 
@@ -599,62 +660,6 @@ specific development details.
 
 </div>
 
-
-
-<div class="card">
-
-<h2>Nearby Planning Guidance</h2>
-
-<div class="grid grid-3">
-
-<a href="/house-extensions/staffordshire/cannock-chase/">
-Cannock Chase
-</a>
-
-<a href="/house-extensions/staffordshire/east-staffordshire/">
-East Staffordshire
-</a>
-
-<a href="/house-extensions/staffordshire/lichfield/">
-Lichfield
-</a>
-
-<a href="/house-extensions/staffordshire/newcastle-under-lyme/">
-Newcastle Under Lyme
-</a>
-
-<a href="/house-extensions/staffordshire/south-staffordshire/">
-South Staffordshire
-</a>
-
-<a href="/house-extensions/staffordshire/stafford/">
-Stafford
-</a>
-
-</div>
-
-</div>
-
-
-<div class="card">
-
-<h2>Height Limits for House Extension Projects</h2>
-
-
-<p>
-Planning rules relating to height limits may affect
-whether a house extension project in Stoke-on-Trent requires
-planning permission or qualifies under permitted development.
-</p>
-
-
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
-
-</div>
 
 
 
@@ -713,56 +718,56 @@ conservation area policies or Article 4 directions.
 
 <div class="card">
 
-<h2>Outbuilding Height Calculator</h2>
+<h2>Height Limits for House Extension Projects</h2>
 
-<p>Estimate the maximum height allowed under permitted development rules.</p>
 
-<label>Distance from boundary (metres)</label>
-<input id="boundary" type="number" step="0.1">
+<p>
+Planning rules relating to height limits may affect
+whether a house extension project in Stoke-on-Trent requires
+planning permission or qualifies under permitted development.
+</p>
 
-<label>Roof type</label>
-<select id="roofType">
-<option value="flat">Flat roof</option>
-<option value="pitched">Pitched roof</option>
-</select>
 
-<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
 
-<p id="heightResult"></p>
+</div>
 
-<script>
 
-function calcHeight(){
+<div class="card">
 
-let boundary = parseFloat(document.getElementById("boundary").value);
-let roof = document.getElementById("roofType").value;
+<h2>Nearby Planning Guidance</h2>
 
-if(isNaN(boundary)){
-document.getElementById("heightResult").innerText =
-"Please enter the distance from the boundary.";
-return;
-}
+<div class="grid grid-3">
 
-if(boundary < 2){
+<a href="/house-extensions/staffordshire/cannock-chase/">
+Cannock Chase
+</a>
 
-document.getElementById("heightResult").innerText =
-"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
+<a href="/house-extensions/staffordshire/east-staffordshire/">
+East Staffordshire
+</a>
 
-}else{
+<a href="/house-extensions/staffordshire/lichfield/">
+Lichfield
+</a>
 
-if(roof === "pitched"){
-document.getElementById("heightResult").innerText =
-"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
-}else{
-document.getElementById("heightResult").innerText =
-"Flat roof outbuildings are normally limited to 3 metres height.";
-}
+<a href="/house-extensions/staffordshire/newcastle-under-lyme/">
+Newcastle Under Lyme
+</a>
 
-}
+<a href="/house-extensions/staffordshire/south-staffordshire/">
+South Staffordshire
+</a>
 
-}
+<a href="/house-extensions/staffordshire/stafford/">
+Stafford
+</a>
 
-</script>
+</div>
 
 </div>
 

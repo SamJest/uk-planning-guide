@@ -525,6 +525,11 @@ change of use projects in Fareham, Hampshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>If the replacement mast is more than 30 metres in height, or 25 metres in height in a</p>
 </div>
@@ -573,47 +578,6 @@ change of use projects in Fareham, Hampshire.
 
 
 
-<div class="card">
-
-<h2>Change of Use Planning Rules in Fareham vs National Permitted Development</h2>
-
-<p>
-UK permitted development legislation allows many change of use
-projects without planning permission provided certain limits
-are followed.
-</p>
-
-<p>
-However local planning authorities such as those covering
-Fareham may impose additional planning controls through
-conservation area policies or Article 4 directions.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<h2>Planning Permission for Change of Use Projects</h2>
-
-
-<p>
-Understanding planning permission is important when planning a
-change of use project in Fareham. National planning rules
-set limits on size, height and location of developments that
-may be built under permitted development rights.
-</p>
-
-
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
-
-</div>
-
-
 
 <div class="card">
 
@@ -651,53 +615,19 @@ Conservation Areas
 
 <div class="card">
 
-<h2>Permitted Development Checker</h2>
+<h2>Change of Use Planning Rules in Fareham vs National Permitted Development</h2>
 
-<p>Estimate whether planning permission may be required.</p>
+<p>
+UK permitted development legislation allows many change of use
+projects without planning permission provided certain limits
+are followed.
+</p>
 
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
-
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
-
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
-
-<p id="pdResult"></p>
-
-<script>
-
-function pdCheck(){
-
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
-
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
-
-if(boundary < 2 && height > 2.5){
-
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
-
-}else if(height > 4){
-
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
-
-}else{
-
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
-
-}
-
-}
-
-</script>
+<p>
+However local planning authorities such as those covering
+Fareham may impose additional planning controls through
+conservation area policies or Article 4 directions.
+</p>
 
 </div>
 
@@ -762,6 +692,80 @@ Havant
 </a>
 
 </div>
+
+</div>
+
+
+<div class="card">
+
+<h2>Planning Permission for Change of Use Projects</h2>
+
+
+<p>
+Planning rules relating to planning permission may affect
+whether a change of use project in Fareham requires
+planning permission or qualifies under permitted development.
+</p>
+
+
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Permitted Development Checker</h2>
+
+<p>Estimate whether planning permission may be required.</p>
+
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
+
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
+
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+
+<p id="pdResult"></p>
+
+<script>
+
+function pdCheck(){
+
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
+
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
+
+if(boundary < 2 && height > 2.5){
+
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+
+}else if(height > 4){
+
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
+
+}else{
+
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
+
+}
+
+}
+
+</script>
 
 </div>
 

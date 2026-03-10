@@ -525,6 +525,11 @@ two storey extension projects in Islington, Greater London.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -575,35 +580,53 @@ two storey extension projects in Islington, Greater London.
 
 <div class="card">
 
-<h2>Nearby Planning Guidance</h2>
+<h2>Permitted Development Checker</h2>
 
-<div class="grid grid-3">
+<p>Estimate whether planning permission may be required.</p>
 
-<a href="/two-storey-extensions/greater-london/barking-and-dagenham/">
-Barking And Dagenham
-</a>
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
 
-<a href="/two-storey-extensions/greater-london/barnet/">
-Barnet
-</a>
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
 
-<a href="/two-storey-extensions/greater-london/bexley/">
-Bexley
-</a>
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
 
-<a href="/two-storey-extensions/greater-london/brent/">
-Brent
-</a>
+<p id="pdResult"></p>
 
-<a href="/two-storey-extensions/greater-london/bromley/">
-Bromley
-</a>
+<script>
 
-<a href="/two-storey-extensions/greater-london/camden/">
-Camden
-</a>
+function pdCheck(){
 
-</div>
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
+
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
+
+if(boundary < 2 && height > 2.5){
+
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+
+}else if(height > 4){
+
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
+
+}else{
+
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
+
+}
+
+}
+
+</script>
 
 </div>
 
@@ -697,10 +720,9 @@ conservation area policies or Article 4 directions.
 
 
 <p>
-Understanding planning permission is important when planning a
-two storey extension project in Islington. National planning rules
-set limits on size, height and location of developments that
-may be built under permitted development rights.
+If you are planning a two storey extension project in Islington,
+it is important to understand planning restrictions relating
+to planning permission.
 </p>
 
 
@@ -715,53 +737,35 @@ is required.
 
 <div class="card">
 
-<h2>Permitted Development Checker</h2>
+<h2>Nearby Planning Guidance</h2>
 
-<p>Estimate whether planning permission may be required.</p>
+<div class="grid grid-3">
 
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
+<a href="/two-storey-extensions/greater-london/barking-and-dagenham/">
+Barking And Dagenham
+</a>
 
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
+<a href="/two-storey-extensions/greater-london/barnet/">
+Barnet
+</a>
 
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+<a href="/two-storey-extensions/greater-london/bexley/">
+Bexley
+</a>
 
-<p id="pdResult"></p>
+<a href="/two-storey-extensions/greater-london/brent/">
+Brent
+</a>
 
-<script>
+<a href="/two-storey-extensions/greater-london/bromley/">
+Bromley
+</a>
 
-function pdCheck(){
+<a href="/two-storey-extensions/greater-london/camden/">
+Camden
+</a>
 
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
-
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
-
-if(boundary < 2 && height > 2.5){
-
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
-
-}else if(height > 4){
-
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
-
-}else{
-
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
-
-}
-
-}
-
-</script>
+</div>
 
 </div>
 

@@ -525,6 +525,11 @@ basement conversion projects in Lewisham, Greater London.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>the volume of the air source heat pump’s outdoor compressor unit (including housing) must not exceed 0.6 cubic metres</p>
 </div>
@@ -574,6 +579,62 @@ basement conversion projects in Lewisham, Greater London.
 
 <div class="card">
 
+<h2>Height Limits for Basement Conversion Projects</h2>
+
+
+<p>
+If you are planning a basement conversion project in Lewisham,
+it is important to understand planning restrictions relating
+to height limits.
+</p>
+
+
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Nearby Planning Guidance</h2>
+
+<div class="grid grid-3">
+
+<a href="/basement-conversions/greater-london/barking-and-dagenham/">
+Barking And Dagenham
+</a>
+
+<a href="/basement-conversions/greater-london/barnet/">
+Barnet
+</a>
+
+<a href="/basement-conversions/greater-london/bexley/">
+Bexley
+</a>
+
+<a href="/basement-conversions/greater-london/brent/">
+Brent
+</a>
+
+<a href="/basement-conversions/greater-london/bromley/">
+Bromley
+</a>
+
+<a href="/basement-conversions/greater-london/camden/">
+Camden
+</a>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
 <h2>Basement Conversion Planning Rules in Lewisham vs National Permitted Development</h2>
 
 <p>
@@ -587,6 +648,62 @@ However local planning authorities such as those covering
 Lewisham may impose additional planning controls through
 conservation area policies or Article 4 directions.
 </p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Outbuilding Height Calculator</h2>
+
+<p>Estimate the maximum height allowed under permitted development rules.</p>
+
+<label>Distance from boundary (metres)</label>
+<input id="boundary" type="number" step="0.1">
+
+<label>Roof type</label>
+<select id="roofType">
+<option value="flat">Flat roof</option>
+<option value="pitched">Pitched roof</option>
+</select>
+
+<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
+
+<p id="heightResult"></p>
+
+<script>
+
+function calcHeight(){
+
+let boundary = parseFloat(document.getElementById("boundary").value);
+let roof = document.getElementById("roofType").value;
+
+if(isNaN(boundary)){
+document.getElementById("heightResult").innerText =
+"Please enter the distance from the boundary.";
+return;
+}
+
+if(boundary < 2){
+
+document.getElementById("heightResult").innerText =
+"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
+
+}else{
+
+if(roof === "pitched"){
+document.getElementById("heightResult").innerText =
+"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
+}else{
+document.getElementById("heightResult").innerText =
+"Flat roof outbuildings are normally limited to 3 metres height.";
+}
+
+}
+
+}
+
+</script>
 
 </div>
 
@@ -653,118 +770,6 @@ specific development details.
 
 </div>
 
-
-
-<div class="card">
-
-<h2>Nearby Planning Guidance</h2>
-
-<div class="grid grid-3">
-
-<a href="/basement-conversions/greater-london/barking-and-dagenham/">
-Barking And Dagenham
-</a>
-
-<a href="/basement-conversions/greater-london/barnet/">
-Barnet
-</a>
-
-<a href="/basement-conversions/greater-london/bexley/">
-Bexley
-</a>
-
-<a href="/basement-conversions/greater-london/brent/">
-Brent
-</a>
-
-<a href="/basement-conversions/greater-london/bromley/">
-Bromley
-</a>
-
-<a href="/basement-conversions/greater-london/camden/">
-Camden
-</a>
-
-</div>
-
-</div>
-
-
-<div class="card">
-
-<h2>Outbuilding Height Calculator</h2>
-
-<p>Estimate the maximum height allowed under permitted development rules.</p>
-
-<label>Distance from boundary (metres)</label>
-<input id="boundary" type="number" step="0.1">
-
-<label>Roof type</label>
-<select id="roofType">
-<option value="flat">Flat roof</option>
-<option value="pitched">Pitched roof</option>
-</select>
-
-<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
-
-<p id="heightResult"></p>
-
-<script>
-
-function calcHeight(){
-
-let boundary = parseFloat(document.getElementById("boundary").value);
-let roof = document.getElementById("roofType").value;
-
-if(isNaN(boundary)){
-document.getElementById("heightResult").innerText =
-"Please enter the distance from the boundary.";
-return;
-}
-
-if(boundary < 2){
-
-document.getElementById("heightResult").innerText =
-"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
-
-}else{
-
-if(roof === "pitched"){
-document.getElementById("heightResult").innerText =
-"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
-}else{
-document.getElementById("heightResult").innerText =
-"Flat roof outbuildings are normally limited to 3 metres height.";
-}
-
-}
-
-}
-
-</script>
-
-</div>
-
-
-<div class="card">
-
-<h2>Height Limits for Basement Conversion Projects</h2>
-
-
-<p>
-Planning rules relating to height limits may affect
-whether a basement conversion project in Lewisham requires
-planning permission or qualifies under permitted development.
-</p>
-
-
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
-
-</div>
 
 
 

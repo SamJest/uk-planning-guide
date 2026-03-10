@@ -525,6 +525,11 @@ wraparound extension projects in Welwyn Hatfield, Hertfordshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -574,56 +579,75 @@ wraparound extension projects in Welwyn Hatfield, Hertfordshire.
 
 <div class="card">
 
-<h2>Outbuilding Height Calculator</h2>
+<h2>Height Limits for Wraparound Extension Projects</h2>
 
-<p>Estimate the maximum height allowed under permitted development rules.</p>
 
-<label>Distance from boundary (metres)</label>
-<input id="boundary" type="number" step="0.1">
+<p>
+Planning rules relating to height limits may affect
+whether a wraparound extension project in Welwyn Hatfield requires
+planning permission or qualifies under permitted development.
+</p>
 
-<label>Roof type</label>
-<select id="roofType">
-<option value="flat">Flat roof</option>
-<option value="pitched">Pitched roof</option>
-</select>
 
-<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
+<p>
+Local planning policies, conservation areas and Article 4
+directions may also affect whether planning permission
+is required.
+</p>
 
-<p id="heightResult"></p>
+</div>
 
-<script>
 
-function calcHeight(){
+<div class="card">
 
-let boundary = parseFloat(document.getElementById("boundary").value);
-let roof = document.getElementById("roofType").value;
+<h2>Nearby Planning Guidance</h2>
 
-if(isNaN(boundary)){
-document.getElementById("heightResult").innerText =
-"Please enter the distance from the boundary.";
-return;
-}
+<div class="grid grid-3">
 
-if(boundary < 2){
+<a href="/wraparound-extensions/hertfordshire/broxbourne/">
+Broxbourne
+</a>
 
-document.getElementById("heightResult").innerText =
-"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
+<a href="/wraparound-extensions/hertfordshire/dacorum/">
+Dacorum
+</a>
 
-}else{
+<a href="/wraparound-extensions/hertfordshire/east-hertfordshire/">
+East Hertfordshire
+</a>
 
-if(roof === "pitched"){
-document.getElementById("heightResult").innerText =
-"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
-}else{
-document.getElementById("heightResult").innerText =
-"Flat roof outbuildings are normally limited to 3 metres height.";
-}
+<a href="/wraparound-extensions/hertfordshire/hertsmere/">
+Hertsmere
+</a>
 
-}
+<a href="/wraparound-extensions/hertfordshire/north-hertfordshire/">
+North Hertfordshire
+</a>
 
-}
+<a href="/wraparound-extensions/hertfordshire/st-albans/">
+St Albans
+</a>
 
-</script>
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>Wraparound Extension Planning Rules in Welwyn Hatfield vs National Permitted Development</h2>
+
+<p>
+UK permitted development legislation allows many wraparound extension
+projects without planning permission provided certain limits
+are followed.
+</p>
+
+<p>
+However local planning authorities such as those covering
+Welwyn Hatfield may impose additional planning controls through
+conservation area policies or Article 4 directions.
+</p>
 
 </div>
 
@@ -694,75 +718,56 @@ specific development details.
 
 <div class="card">
 
-<h2>Height Limits for Wraparound Extension Projects</h2>
+<h2>Outbuilding Height Calculator</h2>
 
+<p>Estimate the maximum height allowed under permitted development rules.</p>
 
-<p>
-If you are planning a wraparound extension project in Welwyn Hatfield,
-it is important to understand planning restrictions relating
-to height limits.
-</p>
+<label>Distance from boundary (metres)</label>
+<input id="boundary" type="number" step="0.1">
 
+<label>Roof type</label>
+<select id="roofType">
+<option value="flat">Flat roof</option>
+<option value="pitched">Pitched roof</option>
+</select>
 
-<p>
-Local planning policies, conservation areas and Article 4
-directions may also affect whether planning permission
-is required.
-</p>
+<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
 
-</div>
+<p id="heightResult"></p>
 
+<script>
 
-<div class="card">
+function calcHeight(){
 
-<h2>Wraparound Extension Planning Rules in Welwyn Hatfield vs National Permitted Development</h2>
+let boundary = parseFloat(document.getElementById("boundary").value);
+let roof = document.getElementById("roofType").value;
 
-<p>
-UK permitted development legislation allows many wraparound extension
-projects without planning permission provided certain limits
-are followed.
-</p>
+if(isNaN(boundary)){
+document.getElementById("heightResult").innerText =
+"Please enter the distance from the boundary.";
+return;
+}
 
-<p>
-However local planning authorities such as those covering
-Welwyn Hatfield may impose additional planning controls through
-conservation area policies or Article 4 directions.
-</p>
+if(boundary < 2){
 
-</div>
+document.getElementById("heightResult").innerText =
+"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
 
+}else{
 
-<div class="card">
+if(roof === "pitched"){
+document.getElementById("heightResult").innerText =
+"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
+}else{
+document.getElementById("heightResult").innerText =
+"Flat roof outbuildings are normally limited to 3 metres height.";
+}
 
-<h2>Nearby Planning Guidance</h2>
+}
 
-<div class="grid grid-3">
+}
 
-<a href="/wraparound-extensions/hertfordshire/broxbourne/">
-Broxbourne
-</a>
-
-<a href="/wraparound-extensions/hertfordshire/dacorum/">
-Dacorum
-</a>
-
-<a href="/wraparound-extensions/hertfordshire/east-hertfordshire/">
-East Hertfordshire
-</a>
-
-<a href="/wraparound-extensions/hertfordshire/hertsmere/">
-Hertsmere
-</a>
-
-<a href="/wraparound-extensions/hertfordshire/north-hertfordshire/">
-North Hertfordshire
-</a>
-
-<a href="/wraparound-extensions/hertfordshire/st-albans/">
-St Albans
-</a>
-
-</div>
+</script>
 
 </div>
 

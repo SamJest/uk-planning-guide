@@ -525,6 +525,11 @@ single storey extension projects in South Norfolk, Norfolk.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -642,6 +647,62 @@ Conservation Areas
 
 
 
+<div class="card">
+
+<h2>Outbuilding Height Calculator</h2>
+
+<p>Estimate the maximum height allowed under permitted development rules.</p>
+
+<label>Distance from boundary (metres)</label>
+<input id="boundary" type="number" step="0.1">
+
+<label>Roof type</label>
+<select id="roofType">
+<option value="flat">Flat roof</option>
+<option value="pitched">Pitched roof</option>
+</select>
+
+<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
+
+<p id="heightResult"></p>
+
+<script>
+
+function calcHeight(){
+
+let boundary = parseFloat(document.getElementById("boundary").value);
+let roof = document.getElementById("roofType").value;
+
+if(isNaN(boundary)){
+document.getElementById("heightResult").innerText =
+"Please enter the distance from the boundary.";
+return;
+}
+
+if(boundary < 2){
+
+document.getElementById("heightResult").innerText =
+"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
+
+}else{
+
+if(roof === "pitched"){
+document.getElementById("heightResult").innerText =
+"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
+}else{
+document.getElementById("heightResult").innerText =
+"Flat roof outbuildings are normally limited to 3 metres height.";
+}
+
+}
+
+}
+
+</script>
+
+</div>
+
+
 
 <div class="card">
 
@@ -696,9 +757,9 @@ conservation area policies or Article 4 directions.
 
 
 <p>
-Planning rules relating to height limits may affect
-whether a single storey extension project in South Norfolk requires
-planning permission or qualifies under permitted development.
+If you are planning a single storey extension project in South Norfolk,
+it is important to understand planning restrictions relating
+to height limits.
 </p>
 
 
@@ -707,62 +768,6 @@ Local planning policies, conservation areas and Article 4
 directions may also affect whether planning permission
 is required.
 </p>
-
-</div>
-
-
-<div class="card">
-
-<h2>Outbuilding Height Calculator</h2>
-
-<p>Estimate the maximum height allowed under permitted development rules.</p>
-
-<label>Distance from boundary (metres)</label>
-<input id="boundary" type="number" step="0.1">
-
-<label>Roof type</label>
-<select id="roofType">
-<option value="flat">Flat roof</option>
-<option value="pitched">Pitched roof</option>
-</select>
-
-<button onclick="calcHeight()" class="button">Calculate Height Limit</button>
-
-<p id="heightResult"></p>
-
-<script>
-
-function calcHeight(){
-
-let boundary = parseFloat(document.getElementById("boundary").value);
-let roof = document.getElementById("roofType").value;
-
-if(isNaN(boundary)){
-document.getElementById("heightResult").innerText =
-"Please enter the distance from the boundary.";
-return;
-}
-
-if(boundary < 2){
-
-document.getElementById("heightResult").innerText =
-"Maximum height normally limited to 2.5 metres if within 2 metres of a boundary.";
-
-}else{
-
-if(roof === "pitched"){
-document.getElementById("heightResult").innerText =
-"Pitched roof outbuildings may be up to 4 metres high under permitted development.";
-}else{
-document.getElementById("heightResult").innerText =
-"Flat roof outbuildings are normally limited to 3 metres height.";
-}
-
-}
-
-}
-
-</script>
 
 </div>
 

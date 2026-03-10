@@ -525,6 +525,11 @@ two storey extension projects in Doncaster, Yorkshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -575,54 +580,53 @@ two storey extension projects in Doncaster, Yorkshire.
 
 <div class="card">
 
-<h2>Nearby Planning Guidance</h2>
+<h2>Permitted Development Checker</h2>
 
-<div class="grid grid-3">
+<p>Estimate whether planning permission may be required.</p>
 
-<a href="/two-storey-extensions/yorkshire/barnsley/">
-Barnsley
-</a>
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
 
-<a href="/two-storey-extensions/yorkshire/bradford/">
-Bradford
-</a>
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
 
-<a href="/two-storey-extensions/yorkshire/calderdale/">
-Calderdale
-</a>
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
 
-<a href="/two-storey-extensions/yorkshire/east-riding-of-yorkshire/">
-East Riding Of Yorkshire
-</a>
+<p id="pdResult"></p>
 
-<a href="/two-storey-extensions/yorkshire/hull/">
-Hull
-</a>
+<script>
 
-<a href="/two-storey-extensions/yorkshire/kirklees/">
-Kirklees
-</a>
+function pdCheck(){
 
-</div>
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
 
-</div>
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
 
+if(boundary < 2 && height > 2.5){
 
-<div class="card">
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
 
-<h2>Two Storey Extension Planning Rules in Doncaster vs National Permitted Development</h2>
+}else if(height > 4){
 
-<p>
-UK permitted development legislation allows many two storey extension
-projects without planning permission provided certain limits
-are followed.
-</p>
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
 
-<p>
-However local planning authorities such as those covering
-Doncaster may impose additional planning controls through
-conservation area policies or Article 4 directions.
-</p>
+}else{
+
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
+
+}
+
+}
+
+</script>
 
 </div>
 
@@ -693,53 +697,54 @@ specific development details.
 
 <div class="card">
 
-<h2>Permitted Development Checker</h2>
+<h2>Two Storey Extension Planning Rules in Doncaster vs National Permitted Development</h2>
 
-<p>Estimate whether planning permission may be required.</p>
+<p>
+UK permitted development legislation allows many two storey extension
+projects without planning permission provided certain limits
+are followed.
+</p>
 
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
+<p>
+However local planning authorities such as those covering
+Doncaster may impose additional planning controls through
+conservation area policies or Article 4 directions.
+</p>
 
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
+</div>
 
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
 
-<p id="pdResult"></p>
+<div class="card">
 
-<script>
+<h2>Nearby Planning Guidance</h2>
 
-function pdCheck(){
+<div class="grid grid-3">
 
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
+<a href="/two-storey-extensions/yorkshire/barnsley/">
+Barnsley
+</a>
 
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
+<a href="/two-storey-extensions/yorkshire/bradford/">
+Bradford
+</a>
 
-if(boundary < 2 && height > 2.5){
+<a href="/two-storey-extensions/yorkshire/calderdale/">
+Calderdale
+</a>
 
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+<a href="/two-storey-extensions/yorkshire/east-riding-of-yorkshire/">
+East Riding Of Yorkshire
+</a>
 
-}else if(height > 4){
+<a href="/two-storey-extensions/yorkshire/hull/">
+Hull
+</a>
 
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
+<a href="/two-storey-extensions/yorkshire/kirklees/">
+Kirklees
+</a>
 
-}else{
-
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
-
-}
-
-}
-
-</script>
+</div>
 
 </div>
 
@@ -750,9 +755,10 @@ document.getElementById("pdResult").innerText =
 
 
 <p>
-Planning rules relating to planning permission may affect
-whether a two storey extension project in Doncaster requires
-planning permission or qualifies under permitted development.
+Understanding planning permission is important when planning a
+two storey extension project in Doncaster. National planning rules
+set limits on size, height and location of developments that
+may be built under permitted development rights.
 </p>
 
 

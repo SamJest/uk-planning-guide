@@ -525,6 +525,11 @@ house extension projects in East Cambridgeshire, Cambridgeshire.
 
 
 <div class="card">
+<h2>Permitted Development</h2>
+<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+</div>
+
+<div class="card">
 <h2>Height Rules</h2>
 <p>Development must comply with national permitted development height limits.</p>
 </div>
@@ -575,31 +580,53 @@ house extension projects in East Cambridgeshire, Cambridgeshire.
 
 <div class="card">
 
-<h2>Nearby Planning Guidance</h2>
+<h2>Permitted Development Checker</h2>
 
-<div class="grid grid-3">
+<p>Estimate whether planning permission may be required.</p>
 
-<a href="/house-extensions/cambridgeshire/cambridge/">
-Cambridge
-</a>
+<label>Distance from boundary (metres)</label>
+<input id="boundaryCheck" type="number" step="0.1">
 
-<a href="/house-extensions/cambridgeshire/fenland/">
-Fenland
-</a>
+<label>Planned building height (metres)</label>
+<input id="heightCheck" type="number" step="0.1">
 
-<a href="/house-extensions/cambridgeshire/huntingdonshire/">
-Huntingdonshire
-</a>
+<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
 
-<a href="/house-extensions/cambridgeshire/peterborough/">
-Peterborough
-</a>
+<p id="pdResult"></p>
 
-<a href="/house-extensions/cambridgeshire/south-cambridgeshire/">
-South Cambridgeshire
-</a>
+<script>
 
-</div>
+function pdCheck(){
+
+let boundary = parseFloat(document.getElementById("boundaryCheck").value);
+let height = parseFloat(document.getElementById("heightCheck").value);
+
+if(isNaN(boundary) || isNaN(height)){
+document.getElementById("pdResult").innerText =
+"Please enter both boundary distance and height.";
+return;
+}
+
+if(boundary < 2 && height > 2.5){
+
+document.getElementById("pdResult").innerText =
+"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
+
+}else if(height > 4){
+
+document.getElementById("pdResult").innerText =
+"This height likely exceeds permitted development limits.";
+
+}else{
+
+document.getElementById("pdResult").innerText =
+"This project may fall within permitted development limits.";
+
+}
+
+}
+
+</script>
 
 </div>
 
@@ -710,53 +737,31 @@ conservation area policies or Article 4 directions.
 
 <div class="card">
 
-<h2>Permitted Development Checker</h2>
+<h2>Nearby Planning Guidance</h2>
 
-<p>Estimate whether planning permission may be required.</p>
+<div class="grid grid-3">
 
-<label>Distance from boundary (metres)</label>
-<input id="boundaryCheck" type="number" step="0.1">
+<a href="/house-extensions/cambridgeshire/cambridge/">
+Cambridge
+</a>
 
-<label>Planned building height (metres)</label>
-<input id="heightCheck" type="number" step="0.1">
+<a href="/house-extensions/cambridgeshire/fenland/">
+Fenland
+</a>
 
-<button onclick="pdCheck()" class="button">Check Planning Requirement</button>
+<a href="/house-extensions/cambridgeshire/huntingdonshire/">
+Huntingdonshire
+</a>
 
-<p id="pdResult"></p>
+<a href="/house-extensions/cambridgeshire/peterborough/">
+Peterborough
+</a>
 
-<script>
+<a href="/house-extensions/cambridgeshire/south-cambridgeshire/">
+South Cambridgeshire
+</a>
 
-function pdCheck(){
-
-let boundary = parseFloat(document.getElementById("boundaryCheck").value);
-let height = parseFloat(document.getElementById("heightCheck").value);
-
-if(isNaN(boundary) || isNaN(height)){
-document.getElementById("pdResult").innerText =
-"Please enter both boundary distance and height.";
-return;
-}
-
-if(boundary < 2 && height > 2.5){
-
-document.getElementById("pdResult").innerText =
-"This project may require planning permission because buildings within 2 metres of a boundary are normally limited to 2.5 metres height.";
-
-}else if(height > 4){
-
-document.getElementById("pdResult").innerText =
-"This height likely exceeds permitted development limits.";
-
-}else{
-
-document.getElementById("pdResult").innerText =
-"This project may fall within permitted development limits.";
-
-}
-
-}
-
-</script>
+</div>
 
 </div>
 
