@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GXRZWRNWD7');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Permitted Development Calculator: quick planning tool</title>
+<meta name="description" content="Estimate whether a common home project may fit within permitted development rules.">
+<link rel="canonical" href="https://ukplanningguide.co.uk/tools/permitted-development-calculator/">
+<link rel="icon" href="/assets/favicon.ico?v=20260327" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260327">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=20260327">
+<link rel="shortcut icon" href="/assets/favicon.ico?v=20260327">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
+<link rel="manifest" href="/assets/site.webmanifest?v=20260327">
+<meta name="theme-color" content="#f3eee5">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Permitted Development Calculator: quick planning tool", "url": "https://ukplanningguide.co.uk/tools/permitted-development-calculator/", "description": "Estimate whether a common home project may fit within permitted development rules.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://ukplanningguide.co.uk/tools/"}, {"@type": "ListItem", "position": 3, "name": "Permitted Development Calculator", "item": "https://ukplanningguide.co.uk/tools/permitted-development-calculator/"}]}]}</script>
+<style>
+:root{
+--ink:#1f2937;
+--ink-soft:#4b5563;
+--ink-faint:#6b7280;
+--surface:#fffdfa;
+--surface-strong:#ffffff;
+--surface-warm:#f7f1e8;
+--surface-tint:#eef5f0;
+--accent:#1f6f5f;
+--accent-strong:#155649;
+--accent-soft:#dff1ea;
+--accent-text:#11453b;
+--highlight:#b7791f;
+--border:rgba(31,41,55,.12);
+--border-strong:rgba(31,41,55,.18);
+--shadow:0 20px 45px rgba(31,41,55,.08);
+--shadow-soft:0 10px 24px rgba(31,41,55,.05);
+--radius-lg:26px;
+--radius-md:18px;
+--radius-sm:12px;
+--container:1180px;
+--header-height:82px;
+}
+
+*{box-sizing:border-box;}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:"Avenir Next","Segoe UI",Tahoma,sans-serif;
+background:
+radial-gradient(circle at top left,rgba(183,121,31,.08),transparent 28%),
+radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 30%),
+linear-gradient(180deg,#f9f5ee 0%,#f4efe7 42%,#faf8f3 100%);
+color:var(--ink);
+line-height:1.68;
+}
+
+a{
+color:var(--accent);
+text-decoration:none;
+transition:color .18s ease, transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
+}
+
+a:hover{
+color:var(--accent-strong);
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+header{
+position:sticky;
+top:0;
+z-index:100;
+background:rgba(249,245,238,.88);
+backdrop-filter:blur(18px);
+border-bottom:1px solid rgba(31,41,55,.08);
+}
+
+.nav-container{
+max-width:var(--container);
+margin:0 auto;
+padding:14px 24px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+}
+
+.site-logo{
+display:flex;
+align-items:center;
+gap:10px;
+min-width:0;
+}
+
+.site-logo img{
+display:block;
+height:auto;
+max-height:40px;
+width:auto;
+max-width:min(100%,320px);
+object-fit:contain;
+aspect-ratio:320 / 40;
+flex:0 0 auto;
+}
+
+.main-nav{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+justify-content:flex-end;
+align-items:center;
+}
+
+.main-nav a{
+padding:8px 12px;
+border-radius:999px;
+font-size:14px;
+font-weight:700;
+letter-spacing:.01em;
+color:var(--ink);
+}
+
+.main-nav a:hover{
+background:rgba(31,111,95,.08);
+color:var(--accent-strong);
+}
+
+.main-nav a:focus-visible,
+.nav-toggle:focus-visible{
+outline:3px solid rgba(31,111,95,.22);
+outline-offset:2px;
+}
+
+.nav-toggle{
+display:none;
+align-items:center;
+justify-content:center;
+min-width:44px;
+min-height:44px;
+padding:10px 14px;
+border-radius:999px;
+border:1px solid rgba(31,41,55,.12);
+background:rgba(255,255,255,.82);
+color:var(--ink);
+box-shadow:none;
+}
+
+.nav-toggle span{
+display:block;
+width:18px;
+height:2px;
+border-radius:999px;
+background:currentColor;
+box-shadow:0 6px 0 currentColor,0 -6px 0 currentColor;
+}
+
+.container{
+max-width:var(--container);
+margin:0 auto;
+padding:30px 24px 54px;
+}
+
+.breadcrumbs{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+margin:0 0 18px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.breadcrumbs a{
+display:inline-flex;
+align-items:center;
+color:var(--ink-soft);
+}
+
+.breadcrumbs a::after{
+content:"/";
+margin-left:8px;
+color:rgba(75,85,99,.45);
+}
+
+.page-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:0 0 22px;
+padding:13px 16px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(255,255,255,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.page-trust-strip strong{
+color:var(--ink);
+font-size:13px;
+}
+
+.page-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:10px;
+}
+
+.page-trust-strip span:not(:last-child)::after{
+content:"";
+width:4px;
+height:4px;
+border-radius:999px;
+background:rgba(31,111,95,.35);
+}
+
+section,
+.card{
+position:relative;
+margin-bottom:24px;
+padding:28px;
+background:rgba(255,255,255,.9);
+border:1px solid var(--border);
+border-radius:var(--radius-lg);
+box-shadow:var(--shadow);
+overflow:hidden;
+}
+
+section::before,
+.card::before{
+content:"";
+position:absolute;
+inset:0 auto auto 0;
+width:100%;
+height:1px;
+background:linear-gradient(90deg,rgba(31,111,95,.24),rgba(183,121,31,.18),transparent);
+}
+
+.hero{
+padding:40px 34px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(243,237,227,.92)),
+linear-gradient(135deg,rgba(31,111,95,.08),transparent 58%);
+border-color:rgba(31,111,95,.14);
+}
+
+.hero-logo{
+display:block;
+width:min(290px,72%);
+height:auto;
+margin-bottom:20px;
+}
+
+.hero-ctas{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:20px;
+}
+
+.badge,
+.eyebrow{
+display:inline-flex;
+align-items:center;
+gap:8px;
+margin-bottom:14px;
+padding:7px 12px;
+border-radius:999px;
+background:var(--accent-soft);
+color:var(--accent-text);
+font-size:12px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+}
+
+h1,
+h2,
+h3{
+margin:0 0 10px;
+font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+font-weight:700;
+letter-spacing:-.02em;
+color:#15212d;
+}
+
+h1{
+font-size:clamp(2.3rem,5vw,3.65rem);
+line-height:1.05;
+max-width:14ch;
+}
+
+h2{
+font-size:clamp(1.65rem,3.2vw,2.2rem);
+line-height:1.12;
+}
+
+h3{
+font-size:1.2rem;
+line-height:1.2;
+}
+
+p,
+li,
+td,
+th,
+label,
+summary{
+color:var(--ink-soft);
+}
+
+p{
+margin:0 0 14px;
+max-width:72ch;
+}
+
+ul,
+ol{
+margin:0;
+padding-left:22px;
+}
+
+li + li{
+margin-top:8px;
+}
+
+strong{
+color:var(--ink);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:8px;
+overflow:hidden;
+border-radius:18px;
+}
+
+th,
+td{
+padding:14px 16px;
+border:1px solid rgba(31,41,55,.10);
+text-align:left;
+vertical-align:top;
+background:rgba(255,255,255,.78);
+}
+
+th{
+background:rgba(31,111,95,.08);
+color:var(--ink);
+font-weight:700;
+}
+
+details{
+margin-top:14px;
+padding:16px 18px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:var(--radius-md);
+}
+
+summary{
+font-weight:700;
+cursor:pointer;
+color:var(--ink);
+}
+
+button,
+.button,
+.btn,
+.cta{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+padding:12px 18px;
+border:1px solid transparent;
+border-radius:999px;
+background:var(--accent);
+color:#fff;
+font-size:15px;
+font-weight:700;
+cursor:pointer;
+box-shadow:0 12px 22px rgba(31,111,95,.16);
+transition:background-color .18s ease,color .18s ease,transform .18s ease,box-shadow .18s ease,border-color .18s ease,opacity .18s ease;
+}
+
+.button:hover,
+.btn:hover,
+.cta:hover,
+button:hover{
+background:var(--accent-strong);
+color:#fff;
+transform:translateY(-1px);
+}
+
+.button:active,
+.btn:active,
+.cta:active,
+button:active{
+transform:translateY(0);
+box-shadow:0 8px 16px rgba(31,111,95,.14);
+}
+
+.button-secondary,
+.btn-secondary,
+.card .button-secondary{
+background:transparent;
+color:var(--accent-strong);
+border-color:rgba(31,111,95,.20);
+box-shadow:none;
+}
+
+.button-secondary:hover,
+.btn-secondary:hover,
+.card .button-secondary:hover{
+background:rgba(31,111,95,.08);
+}
+
+.grid,
+.card-grid,
+.project-grid,
+.county-grid,
+.link-grid,
+.town-grid{
+display:grid;
+gap:18px;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+}
+
+.grid-tight{
+display:grid;
+gap:14px;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+}
+
+.split-grid{
+display:grid;
+gap:18px;
+grid-template-columns:1.2fr .8fr;
+align-items:start;
+}
+
+.card,
+a.card,
+a.scenario-card,
+a.scenario-nav{
+display:block;
+}
+
+a.card,
+a.scenario-card{
+color:inherit;
+}
+
+a.card:hover,
+a.scenario-card:hover{
+transform:translateY(-2px);
+border-color:rgba(31,111,95,.22);
+box-shadow:0 22px 40px rgba(31,41,55,.10);
+}
+
+.card p:last-child,
+section p:last-child{
+margin-bottom:0;
+}
+
+.hero h1 + p{
+font-size:1.08rem;
+max-width:62ch;
+}
+
+.quick-summary,
+.tool-summary,
+.last-updated,
+.section-lead,
+.card-kicker{
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.last-updated{
+display:inline-flex;
+align-items:center;
+padding:10px 14px;
+background:rgba(255,255,255,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.answer-grid,
+.info-columns{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:20px;
+}
+
+.answer-card,
+.info-card,
+.mini-card,
+.tool-card,
+.callout,
+.scenario-nav,
+.scenario-pill{
+padding:20px;
+background:rgba(255,255,255,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:var(--radius-md);
+box-shadow:var(--shadow-soft);
+}
+
+.answer-card h3,
+.info-card h3,
+.mini-card h3,
+.tool-card h2{
+margin-bottom:8px;
+}
+
+.checklist,
+.signal-list{
+list-style:none;
+padding:0;
+}
+
+.checklist li,
+.signal-list li{
+position:relative;
+padding-left:18px;
+}
+
+.checklist li::before,
+.signal-list li::before{
+content:"";
+position:absolute;
+left:0;
+top:.72em;
+width:7px;
+height:7px;
+border-radius:999px;
+background:var(--highlight);
+transform:translateY(-50%);
+}
+
+.link-grid a,
+.related-links a,
+.scenario-navigation a{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:14px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+font-weight:600;
+}
+
+.link-grid a::after,
+.related-links a::after,
+.scenario-navigation a::after{
+content:"View";
+font-size:12px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--accent);
+}
+
+.link-grid a:hover,
+.related-links a:hover,
+.scenario-navigation a:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+}
+
+.scenario-navigation{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.scenario-nav.active{
+background:rgba(223,241,234,.9);
+border-color:rgba(31,111,95,.28);
+}
+
+.tool-cta,
+.cta-band,
+.notice{
+padding:24px;
+background:linear-gradient(135deg,rgba(223,241,234,.96),rgba(247,241,232,.96));
+border:1px solid rgba(31,111,95,.12);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.tool-cta p,
+.cta-band p,
+.notice p{
+max-width:64ch;
+}
+
+.hero-microcopy,
+.section-caption{
+font-size:15px;
+color:var(--ink-faint);
+}
+
+.inline-badges{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:14px 0 0;
+}
+
+.inline-badges span{
+display:inline-flex;
+align-items:center;
+padding:8px 12px;
+border-radius:999px;
+background:rgba(31,111,95,.08);
+color:var(--accent-text);
+font-size:13px;
+font-weight:700;
+}
+
+.tool-grid{
+display:grid;
+gap:14px;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+align-items:end;
+margin-top:16px;
+}
+
+.tool-grid > div{
+display:flex;
+flex-direction:column;
+gap:6px;
+}
+
+.rule-list{
+margin-top:14px;
+}
+
+.rule-verification{
+margin-top:14px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.rule-exceptions{
+margin-top:16px;
+padding:14px 16px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+}
+
+.tool-card button,
+#planning-decision-tool button{
+margin-top:16px;
+}
+
+label{
+display:block;
+margin-bottom:6px;
+font-weight:700;
+color:var(--ink);
+}
+
+input,
+select,
+textarea{
+width:100%;
+min-height:44px;
+padding:12px 14px;
+font:inherit;
+color:var(--ink);
+background:#fff;
+border:1px solid rgba(31,41,55,.14);
+border-radius:14px;
+outline:none;
+transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+border-color:rgba(31,111,95,.48);
+box-shadow:0 0 0 4px rgba(31,111,95,.10);
+}
+
+.tool-result{
+margin-top:18px;
+padding:18px 20px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+scroll-margin-top:calc(var(--header-height) + 18px);
+transition:opacity .3s ease, transform .3s ease;
+}
+
+.tool-result[data-result-ready="true"],
+.decision-result{
+opacity:0;
+transform:translateY(10px);
+}
+
+.tool-result.tool-result-visible,
+.decision-result.tool-result-visible{
+opacity:1;
+transform:translateY(0);
+}
+
+.tool-related-links,
+.tool-result-links{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.tool-result-link{
+display:block;
+padding:16px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+color:inherit;
+box-shadow:var(--shadow-soft);
+}
+
+.tool-result-link strong{
+display:block;
+margin-bottom:6px;
+}
+
+.tool-result-link:hover{
+transform:translateY(-1px);
+border-color:rgba(31,111,95,.24);
+box-shadow:0 18px 30px rgba(31,41,55,.08);
+}
+
+.tool-next-step{
+margin-top:16px;
+padding:18px 20px;
+background:linear-gradient(135deg,rgba(223,241,234,.88),rgba(255,255,255,.94));
+border:1px solid rgba(31,111,95,.14);
+border-radius:20px;
+}
+
+.tool-next-step-copy{
+font-size:14px;
+color:var(--ink-faint);
+margin-bottom:10px;
+}
+
+.ad-slot{
+display:grid;
+gap:12px;
+padding:18px 20px;
+background:rgba(243,237,227,.58);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow-soft);
+}
+
+.ad-slot-label{
+display:inline-flex;
+align-items:center;
+width:max-content;
+padding:6px 10px;
+border-radius:999px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+font-size:11px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--ink-faint);
+}
+
+.ad-slot-body{
+display:grid;
+gap:6px;
+}
+
+.ad-slot-body strong{
+font-size:1rem;
+}
+
+.result-capture{
+display:grid;
+gap:14px;
+margin-top:16px;
+padding:18px 20px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow-soft);
+}
+
+.result-capture-copy{
+display:grid;
+gap:6px;
+}
+
+.result-capture-row{
+display:grid;
+gap:10px;
+grid-template-columns:minmax(0,1fr) auto;
+align-items:start;
+}
+
+.result-capture-form button{
+min-height:44px;
+white-space:nowrap;
+}
+
+.result-capture-note{
+font-size:13px;
+color:var(--ink-faint);
+}
+
+.tool-loading-state{
+display:grid;
+gap:12px;
+padding:20px;
+background:linear-gradient(135deg,rgba(223,241,234,.88),rgba(255,255,255,.95));
+border:1px solid rgba(31,111,95,.14);
+border-radius:18px;
+}
+
+.tool-loading-bar{
+position:relative;
+height:8px;
+overflow:hidden;
+border-radius:999px;
+background:rgba(31,41,55,.08);
+}
+
+.tool-loading-bar::after{
+content:"";
+position:absolute;
+inset:0 auto 0 -38%;
+width:38%;
+border-radius:999px;
+background:linear-gradient(90deg,rgba(31,111,95,.1),rgba(31,111,95,.72),rgba(31,111,95,.1));
+animation:toolLoadingSweep 1s linear infinite;
+}
+
+@keyframes toolLoadingSweep{
+from{transform:translateX(0);}
+to{transform:translateX(360%);}
+}
+
+.faq-item + .faq-item{
+margin-top:18px;
+padding-top:18px;
+border-top:1px solid rgba(31,41,55,.08);
+}
+
+.footer-shell{
+padding:36px 24px 44px;
+border-top:1px solid rgba(31,41,55,.08);
+background:linear-gradient(180deg,rgba(250,248,243,.92),rgba(242,236,226,.98));
+}
+
+.footer-inner{
+max-width:var(--container);
+margin:0 auto;
+color:var(--ink-soft);
+}
+
+.footer-grid{
+display:grid;
+gap:22px;
+grid-template-columns:1.4fr .8fr .8fr .9fr;
+margin-bottom:20px;
+}
+
+.footer-links a{
+display:block;
+margin-bottom:10px;
+color:var(--ink-soft);
+}
+
+.footer-links a:hover{
+color:var(--accent-strong);
+}
+
+.footer-note,
+.footer-meta{
+max-width:72ch;
+font-size:14px;
+}
+
+.footer-meta{
+display:flex;
+flex-wrap:wrap;
+gap:14px;
+padding-top:16px;
+border-top:1px solid rgba(31,41,55,.08);
+}
+
+@media (max-width:960px){
+.split-grid,
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding:34px 26px;
+}
+
+h1{
+max-width:none;
+}
+}
+
+@media (max-width:768px){
+.container{
+padding:16px 16px 40px;
+}
+
+.nav-container{
+position:relative;
+padding:10px 16px;
+align-items:center;
+flex-direction:row;
+justify-content:space-between;
+gap:10px;
+}
+
+.nav-toggle{
+display:inline-flex;
+}
+
+.main-nav{
+display:none;
+position:absolute;
+top:calc(100% + 8px);
+left:16px;
+right:16px;
+flex-direction:column;
+gap:8px;
+padding:12px;
+background:rgba(249,245,238,.98);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow);
+}
+
+header[data-menu-open="true"] .main-nav{
+display:flex;
+}
+
+.main-nav a{
+display:flex;
+width:100%;
+justify-content:flex-start;
+padding:12px 14px;
+font-size:14px;
+background:rgba(255,255,255,.78);
+border:1px solid rgba(31,41,55,.06);
+}
+
+.site-logo{
+width:auto;
+min-height:32px;
+}
+
+.site-logo img{
+max-height:32px;
+max-width:min(68vw,220px);
+}
+
+.breadcrumbs{
+margin-bottom:12px;
+font-size:13px;
+}
+
+.page-trust-strip{
+margin-bottom:16px;
+padding:12px 14px;
+border-radius:18px;
+gap:8px;
+}
+
+.page-trust-strip span{
+gap:8px;
+}
+
+.page-trust-strip span:not(:last-child)::after{
+display:none;
+}
+
+section,
+.card{
+padding:20px;
+border-radius:22px;
+}
+
+.page-trust-strip{
+border-radius:18px;
+}
+
+.tool-grid,
+.grid,
+.card-grid,
+.answer-grid,
+.info-columns,
+.tool-result-links,
+.tool-related-links,
+.result-capture-row{
+grid-template-columns:1fr !important;
+}
+
+.tool-card > button,
+.tool-card .cta,
+.tool-card .btn,
+.tool-card .button,
+.result-capture-form button{
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="nav-container">
+<a href="/" class="site-logo" aria-label="UK Planning Guide home">
+<img src="/assets/images/logo-header.png" alt="UK Planning Guide" loading="eager" decoding="async">
+</a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+<span></span>
+</button>
+<nav class="main-nav" id="primary-nav" aria-label="Primary">
+<a href="/tools/">Tools</a>
+<a href="/planning-faq/">FAQ</a>
+<a href="/councils/">Councils</a>
+<a href="/about/">About</a>
+<a href="/methodology/">Methodology</a>
+</nav>
+</div>
+</header>
+
+<main class="container">
+<nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><a href="/tools/">Tools</a><span>Permitted Development Calculator</span></nav>
+
+<div class="page-trust-strip"><strong>Updated March 2026</strong><span>Built from national planning rules and local authority context</span><span>Use formal checks if the proposal is close to a limit or affected by special controls</span></div>
+<section class="hero">
+<span class="badge">Planning tool</span>
+<h1>Permitted Development Calculator</h1>
+<p>Use this tool as a fast planning triage step before you rely on local council guidance, drawings or formal advice. It is designed to tell you what usually applies, what can change the answer and what to open next.</p>
+
+</section>
+
+<aside class="ad-slot" data-ad-slot="top" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Planning-ready sponsor space</strong>
+    <p>Reserved for a light-touch partner message, quote tool, or relevant service without crowding the main tool content.</p>
+  </div>
+</aside>
+
+
+<section class="tool-calculator" data-tool-page="permitted-development-calculator">
+<span class="eyebrow">Interactive check</span>
+<h2>Run The Quick Check</h2>
+
+
+<div class="tool-card pd-calculator-card" data-tool-root="permitted-development-calculator" data-tool-kind="form">
+<style>
+.pd-calculator-card{padding:0;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(247,241,232,.94)),linear-gradient(135deg,rgba(31,111,95,.06),transparent 58%);border-color:rgba(31,111,95,.16);}
+.pd-calculator-shell{display:grid;gap:20px;padding:30px;}
+.pd-calculator-header{display:grid;gap:14px;padding:0 0 6px;}
+.pd-calculator-header h2{margin-bottom:0;}
+.pd-calculator-kicker{display:inline-flex;align-items:center;width:max-content;padding:8px 12px;border-radius:999px;background:rgba(31,111,95,.10);color:var(--accent-text);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+.pd-calculator-trust{display:grid;gap:6px;padding:14px 15px;background:rgba(223,241,234,.54);border:1px solid rgba(31,111,95,.12);border-radius:16px;}
+.pd-calculator-trust strong{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.pd-calculator-trust span{font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.pd-calculator-body{display:grid;gap:18px;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:start;}
+.pd-calculator-panel,.pd-calculator-result-panel{min-width:0;padding:22px;background:rgba(255,255,255,.84);border:1px solid rgba(31,41,55,.08);border-radius:22px;box-shadow:var(--shadow-soft);}
+.pd-calculator-panel{display:grid;gap:18px;}
+.pd-calculator-step-intro{display:grid;gap:8px;padding:16px 18px;background:linear-gradient(135deg,rgba(247,241,232,.74),rgba(255,255,255,.94));border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.pd-calculator-step-intro strong{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.pd-calculator-step-intro p{margin:0;color:var(--ink-soft);}
+.pd-calculator-fields{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));}
+.pd-calculator-field{min-width:0;}
+.pd-calculator-field label{display:block;margin-bottom:8px;font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);}
+.pd-calculator-field input,.pd-calculator-field select{min-width:0;}
+.pd-calculator-actions{display:flex;justify-content:flex-start;gap:12px;margin-top:2px;padding-top:4px;}
+.pd-calculator-actions button{margin:0;min-height:50px;padding:14px 20px;font-weight:800;box-shadow:0 14px 26px rgba(31,111,95,.14);}
+.pd-calculator-result-panel{display:grid;gap:14px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));}
+.pd-calculator-result-eyebrow{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.pd-calculator-result-panel h3{margin-bottom:2px;overflow-wrap:anywhere;}
+.pd-calculator-result-panel p{max-width:none;}
+.pd-calculator-result-panel .tool-result{margin-top:0;padding:0;background:none;border:0;border-radius:0;box-shadow:none;}
+.pd-calculator-result-panel .tool-result[data-result-ready="true"]{opacity:1;transform:none;}
+.pd-calculator-empty{padding:18px 20px;background:rgba(247,241,232,.72);border:1px solid rgba(31,41,55,.08);border-radius:18px;}
+.pd-calculator-summary{font-size:14px;line-height:1.6;color:var(--ink-faint);}
+.pd-calculator-result-copy{display:grid;gap:14px;padding:2px 0 0;}
+.pd-calculator-result-copy h3{font-size:1.3rem;line-height:1.15;}
+.pd-calculator-result-copy p{line-height:1.65;}
+.pd-calculator-result-copy ul{margin:0;padding-left:18px;}
+.pd-follow-up{display:grid;gap:14px;margin-top:6px;}
+.pd-follow-up-card{display:grid;gap:14px;padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));border:1px solid rgba(31,41,55,.08);border-radius:20px;box-shadow:var(--shadow-soft);}
+.pd-follow-up-heading{display:grid;gap:6px;}
+.pd-follow-up-heading h3,.pd-follow-up-heading p{margin:0;}
+.pd-follow-up-heading p{line-height:1.6;color:var(--ink-soft);}
+.pd-follow-up-kicker{display:inline-flex;align-items:center;width:max-content;padding:7px 10px;border-radius:999px;background:rgba(31,111,95,.10);color:var(--accent-text);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+.pd-follow-up-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.pd-follow-up-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.94);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.pd-follow-up-link strong{display:block;margin-bottom:6px;}
+.pd-follow-up-link span{display:block;font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.pd-email-capture{display:grid;gap:10px;grid-template-columns:minmax(0,1fr) auto;align-items:center;}
+.pd-email-input{width:100%;min-width:0;min-height:50px;padding:13px 15px;border:1px solid rgba(31,41,55,.14);border-radius:16px;background:#fff;color:var(--ink);}
+.pd-email-button{min-height:50px;padding:14px 20px;}
+.pd-email-note{grid-column:1 / -1;margin:0;font-size:13px;line-height:1.55;color:var(--ink-faint);}
+.pd-inline-note{padding:14px 15px;background:rgba(223,241,234,.54);border:1px solid rgba(31,111,95,.12);border-radius:16px;font-size:14px;line-height:1.58;color:var(--ink-soft);}
+@media (max-width:960px){.pd-calculator-shell{padding:22px;}.pd-calculator-body{grid-template-columns:1fr;}}
+@media (max-width:767px){.pd-calculator-shell{padding:18px;gap:14px;}.pd-calculator-header{padding:0;}.pd-calculator-header h2{font-size:clamp(1.5rem,7vw,2rem);line-height:1.08;}.pd-calculator-panel,.pd-calculator-result-panel,.pd-follow-up-card{padding:18px;border-radius:20px;}.pd-calculator-step-intro{padding:15px 16px;}.pd-calculator-fields{grid-template-columns:1fr;gap:12px;}.pd-calculator-actions{display:grid;gap:10px;}.pd-calculator-actions button,.pd-email-button{width:100%;min-height:52px;}.pd-calculator-empty{padding:16px;}.pd-calculator-result-panel .tool-result-links,.pd-follow-up-grid{grid-template-columns:1fr !important;}.pd-email-capture{grid-template-columns:1fr;}}
+@media (max-width:420px){.pd-calculator-shell{padding:16px;}.pd-calculator-panel,.pd-calculator-result-panel,.pd-calculator-step-intro,.pd-calculator-trust,.pd-follow-up-card{padding:16px;}.pd-calculator-kicker{font-size:11px;}.pd-calculator-summary,.pd-calculator-result-copy p,.pd-calculator-trust span,.pd-inline-note,.pd-email-note,.pd-follow-up-link span{font-size:14px;}}
+</style>
+<div class="pd-calculator-shell">
+<div class="pd-calculator-header">
+<span class="pd-calculator-kicker">Permitted development</span>
+<h2>Permitted Development Calculator</h2>
+<p class="tool-summary">Use this self-check to see whether a common home project still looks comfortably inside the usual permitted development envelope.</p>
+<div class="pd-calculator-trust"><strong>UK planning baseline</strong><span>Based on common UK permitted development rules. Always confirm the exact measurements, restrictions and local council position before relying on the result.</span></div>
+</div>
+
+<div class="pd-calculator-body">
+<div class="pd-calculator-panel">
+<div class="pd-calculator-step-intro">
+<strong>Project details</strong>
+<p>Enter the core measurements first, then run the check to see whether the project still looks comfortably inside the usual permitted development range.</p>
+</div>
+<div class="pd-calculator-fields">
+<div class="pd-calculator-field">
+<label for="propertyType">Property Type</label>
+<select id="propertyType">
+  <option value="detached">Detached</option>
+  <option value="semi">Semi-detached</option>
+  <option value="terrace">Terrace</option>
+  <option value="flat">Flat</option>
+</select>
+</div>
+
+<div class="pd-calculator-field">
+<label for="extensionType">Extension Type</label>
+<select id="extensionType">
+  <option value="rear">Rear Extension</option>
+  <option value="side">Side Extension</option>
+  <option value="loft">Loft Conversion</option>
+</select>
+</div>
+
+<div class="pd-calculator-field">
+<label for="depth">Extension Depth (m)</label>
+<input type="number" id="depth" step="0.1">
+</div>
+
+<div class="pd-calculator-field">
+<label for="height">Height (m)</label>
+<input type="number" id="height" step="0.1">
+</div>
+
+<div class="pd-calculator-field">
+<label for="boundary">Distance to Boundary (m)</label>
+<input type="number" id="boundary" step="0.1">
+</div>
+
+<div class="pd-calculator-field">
+<label for="conservation">Conservation Area?</label>
+<select id="conservation">
+  <option value="no">No</option>
+  <option value="yes">Yes</option>
+</select>
+</div>
+
+<div class="pd-calculator-field">
+<label for="previous">Previous Extensions?</label>
+<select id="previous">
+  <option value="no">No</option>
+  <option value="yes">Yes</option>
+</select>
+</div>
+</div>
+
+<div class="pd-calculator-actions">
+<button type="button" id="pd-check-button">Check</button>
+</div>
+</div>
+
+<div class="pd-calculator-result-panel">
+<span class="pd-calculator-result-eyebrow">Your result</span>
+<h3>Result</h3>
+<p class="pd-calculator-summary">The tool keeps the same calculator logic as before and updates this panel after each check.</p>
+<div id="result" class="tool-result" aria-live="polite">
+<div class="pd-calculator-empty">
+<p>Choose the project details above, then run the check to see the first-pass result.</p>
+</div>
+</div>
+</div>
+</div>
+<noscript>
+<p class="tool-summary">JavaScript is required for the instant result. If scripts are unavailable, use <a href="/tools/planning-decision-tool/">the planning decision engine</a> or open the detailed planning guides directly.</p>
+</noscript>
+</div>
+
+<script>
+function logPDToolEvent(type, detail) {
+    if (typeof console !== "undefined" && console && typeof console.log === "function") {
+        console.log("[permitted-development-calculator]", type, detail || "");
+    }
+}
+
+function escapeHtml(value) {
+    return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+function buildResultLinks(type, status) {
+    const links = [
+        { href: "/permitted-development/", title: "Read the permitted development guide", description: "Check the baseline rights behind this calculator result." },
+        { href: "/planning-permission/", title: "Review the planning permission route", description: "Open the formal route guide if the project is starting to look borderline." },
+        { href: "/tools/planning-decision-tool/", title: "Run the full planning decision tool", description: "Use the deeper route check when your dimensions or site context need more nuance." },
+    ];
+
+    if (type === "rear" || type === "side") {
+        links.unshift({ href: "/house-extensions/", title: "Compare house extension planning rules", description: "Open the extension guide for depth, height and siting rules." });
+    } else if (type === "loft") {
+        links.unshift({ href: "/loft-conversions/", title: "Check loft conversion planning rules", description: "Use the loft guide for roof changes, dormers and visibility checks." });
+    }
+
+    if (status !== "Likely permitted development") {
+        links.push({ href: "/councils/", title: "Check local authority planning context", description: "Use the council layer when conservation area or local restrictions could change the answer." });
+    }
+
+    return links.slice(0, 4)
+        .map((item) => "<a class='tool-result-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description) + "</span></a>")
+        .join("");
+}
+
+function showPDLoading() {
+    const result = document.getElementById("result");
+    result.removeAttribute("data-result-ready");
+    result.classList.remove("tool-result-visible");
+    result.innerHTML =
+        "<div class='tool-loading-state'><div class='tool-loading-bar'></div><h3>Checking the common permitted development triggers...</h3><p>This short pause is only UI polish while the structured result is assembled.</p></div>";
+}
+
+function renderPDResult(status, resultText, nextStep, linksHtml) {
+    const result = document.getElementById("result");
+    result.setAttribute("data-result-ready", "true");
+    result.innerHTML =
+        "<div class='pd-calculator-result-copy'><h3>" + escapeHtml(status) + "</h3><p>" + resultText + "</p><p><strong>Next step:</strong> " + escapeHtml(nextStep) + "</p><div class='tool-result-links'>" + linksHtml + "</div>" + renderPDPostResultExtras(status) + "</div>";
+}
+
+function renderPDPostResultExtras(status) {
+    return "<section class='pd-follow-up'><div class='pd-follow-up-card'><div class='pd-follow-up-heading'><span class='pd-follow-up-kicker'>Next steps</span><h3>Keep the project moving</h3><p>Use the next best action below to confirm the answer, localise it, or move into a deeper planning check.</p></div><div class='pd-follow-up-grid'><a class='pd-follow-up-link' href='/permitted-development/'><strong>View full guide</strong><span>Open the longer permitted development guide behind this result.</span></a><a class='pd-follow-up-link' href='/councils/'><strong>Check rules in your area</strong><span>Compare your local authority planning layer before relying on the answer.</span></a><a class='pd-follow-up-link' href='/tools/planning-decision-tool/'><strong>Use another tool</strong><span>Run the full planning checker when the project needs a deeper route review.</span></a></div></div><div class='pd-follow-up-card'><div class='pd-follow-up-heading'><span class='pd-follow-up-kicker'>Related tools</span><h3>Keep checking from another angle</h3><p>These follow-on tools help you pressure-test the same project without starting your research again.</p></div><div class='pd-follow-up-grid'><a class='pd-follow-up-link' href='/tools/planning-decision-tool/'><strong>Planning checker</strong><span>Use the main rule-based checker for a fuller planning route answer.</span></a><a class='pd-follow-up-link' href='/tools/planning-route-planner/'><strong>Route planner</strong><span>Compare the likely planning path when the answer feels mixed.</span></a><a class='pd-follow-up-link' href='/tools/project-requirements-generator/'><strong>Project requirements</strong><span>Build a practical checklist of documents and follow-on checks.</span></a></div></div><div class='pd-follow-up-card'><div class='pd-follow-up-heading'><span class='pd-follow-up-kicker'>Save this result</span><h3>Want this result emailed to you?</h3><p>This is a lightweight placeholder for now. Save it on this device so you can come back to the same result later.</p></div><div class='pd-email-capture' data-pd-email-capture='permitted-development-calculator' data-result-label='" + escapeHtml(status) + "'><input type='email' class='pd-email-input' placeholder='name@example.com' inputmode='email' autocomplete='email' aria-label='Email address for this result'><button type='button' class='pd-email-button cta' onclick='window.__ukpgSavePDResult && window.__ukpgSavePDResult(this)'>Save on this device</button><p class='pd-email-note'>No backend is connected yet. This only stores the email locally on this device.</p></div></div><div class='pd-inline-note'>This is a guide based on UK planning rules. Always confirm with your local council.</div></section>";
+}
+
+window.__ukpgSavePDResult = function (button) {
+    try {
+        const wrapper = button && button.closest("[data-pd-email-capture]");
+        if (!wrapper) {
+            return;
+        }
+        const input = wrapper.querySelector(".pd-email-input");
+        const note = wrapper.querySelector(".pd-email-note");
+        const email = input ? String(input.value || "").trim() : "";
+        if (!email || email.indexOf("@") === -1) {
+            if (note) {
+                note.textContent = "Enter a valid email to save this result on this device.";
+            }
+            return;
+        }
+        window.localStorage.setItem("ukpg-tool-email:permitted-development-calculator", JSON.stringify({
+            email: email,
+            resultLabel: wrapper.getAttribute("data-result-label") || "Permitted development result",
+            savedAt: new Date().toISOString()
+        }));
+        if (note) {
+            note.textContent = "Saved on this device only. A real email send can plug into this later.";
+        }
+    } catch (error) {
+        const wrapper = button && button.closest("[data-pd-email-capture]");
+        const note = wrapper ? wrapper.querySelector(".pd-email-note") : null;
+        if (note) {
+            note.textContent = "This browser blocked local storage, so the placeholder save could not be stored.";
+        }
+    }
+};
+
+function runPDCheck() {
+    const property = document.getElementById("propertyType").value;
+    const type = document.getElementById("extensionType").value;
+    const depth = parseFloat(document.getElementById("depth").value || 0);
+    const height = parseFloat(document.getElementById("height").value || 0);
+    const boundary = parseFloat(document.getElementById("boundary").value || 0);
+    const conservation = document.getElementById("conservation").value;
+    const previous = document.getElementById("previous").value;
+
+    logPDToolEvent("submit", {
+        property,
+        type,
+        depth,
+        height,
+        boundary,
+        conservation,
+        previous,
+    });
+
+    let issues = [];
+
+    if (property === "flat") {
+        issues.push("Flats do not benefit from the usual householder permitted development rights.");
+    }
+
+    if (conservation === "yes") {
+        issues.push("Conservation areas can tighten controls or remove some permitted development rights.");
+    }
+
+    if (previous === "yes") {
+        issues.push("Previous extensions can reduce or remove the remaining permitted development allowance.");
+    }
+
+    if (type === "rear") {
+        if (property === "detached" && depth > 4) {
+            issues.push("A detached house rear extension over 4m depth usually needs a closer check.");
+        }
+        if ((property === "semi" || property === "terrace") && depth > 3) {
+            issues.push("A semi-detached or terraced rear extension over 3m depth usually needs a closer check.");
+        }
+    }
+
+    if (type === "side") {
+        issues.push("Side extensions often need planning permission or at least a much closer local review.");
+    }
+
+    if (height > 4) {
+        issues.push("The height looks above the usual 4m threshold.");
+    }
+
+    if (boundary < 2 && height > 3) {
+        issues.push("If the building is within 2m of a boundary, the usual 3m height check becomes important.");
+    }
+
+    let status = "";
+    let result = "";
+    let nextStep = "";
+
+    if (issues.length === 0) {
+        status = "Likely permitted development";
+        result = "Your project appears to fit within the common permitted development checks used in this tool.";
+        nextStep = "Now confirm the exact measurements, local restrictions and any previous extensions before relying on the result.";
+    } else if (issues.length <= 2) {
+        status = "Check required";
+        result = issues.join("<br>");
+        nextStep = "Open the matching project guide and compare the local authority layer before moving forward.";
+    } else {
+        status = "Likely requires planning permission";
+        result = issues.join("<br>");
+        nextStep = "Treat the formal planning route as likely unless more detailed local guidance shows a cleaner answer.";
+    }
+
+    renderPDResult(status, result, nextStep, buildResultLinks(type, status));
+
+    logPDToolEvent("result", {
+        status: status,
+        issues: issues,
+    });
+}
+
+function initPDCalculator() {
+    const button = document.getElementById("pd-check-button");
+    if (!button || button.dataset.bound === "true") {
+        return;
+    }
+
+    button.dataset.bound = "true";
+    button.addEventListener("click", function () {
+        logPDToolEvent("click", { action: "run-check" });
+        showPDLoading();
+        window.setTimeout(runPDCheck, 520);
+    });
+}
+
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initPDCalculator);
+} else {
+    initPDCalculator();
+}
+</script>
+
+</section>
+
+
+<section class="tool-explanation">
+<span class="eyebrow">How to use the result</span>
+<h2>What This Tool Is Good For</h2>
+<div class="answer-grid">
+
+<div class="answer-card">
+<h3>Best use case</h3>
+<p>Permitted Development Calculator helps homeowners sense-check the planning route before they commit to drawings, applications or contractor quotes.</p>
+</div>
+<div class="answer-card">
+<h3>What can still change the answer</h3>
+<p>Exact measurements, local designations, site history and the detailed project design can all shift the final planning route.</p>
+</div>
+<div class="answer-card">
+<h3>Best next step</h3>
+<p>Use the result to choose the right project guide, local authority page or rule hub rather than treating the tool as the last word.</p>
+</div>
+
+</div>
+</section>
+
+
+<section class="tool-search-intents">
+<span class="eyebrow">Good search matches</span>
+<h2>Questions This Tool Is Best At Narrowing</h2>
+<ul class="checklist"><li>Could this project be permitted development?</li><li>Does this proposal still fit the simpler planning route?</li><li>What usually pushes a scheme out of PD?</li></ul>
+</section>
+
+<aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Relevant planning partner placement</strong>
+    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+  </div>
+</aside>
+
+
+<section class="planning-context">
+<span class="eyebrow">Context and caveats</span>
+<h2>How This Tool Fits Into The Wider Planning Process</h2>
+<p>Permitted Development Calculator is intended as a quick planning aid based on common UK planning considerations and permitted development limits.</p>
+<p>Use it to narrow the question, then move into project guides, local authority pages or formal confirmation if the scheme is close to a limit.</p>
+</section>
+
+
+<section class="tool-faq-links">
+<span class="eyebrow">Good follow-up reads</span>
+<h2>FAQ Pages Worth Opening After The Tool</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/lawful-development-certificate/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>When A Lawful Development Certificate Is Worth It</h3>
+<p>Useful when the scheme may be permitted development but you want formal proof before building.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/what-counts-as-the-original-house/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>What Counts As The Original House?</h3>
+<p>Helpful when previous additions may affect how much allowance is left.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+
+<section class="tool-guidance-links">
+<span class="eyebrow">Where to go after the tool</span>
+<h2>Detailed Guidance Worth Opening Next</h2>
+<div class="grid">
+<a class="card" href="/planning-permission/">
+<div class="card-kicker">Next page</div>
+<h3>Planning Permission</h3>
+<p>Open the detailed guidance once the tool has narrowed the real planning question.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/permitted-development/">
+<div class="card-kicker">Next page</div>
+<h3>Permitted Development</h3>
+<p>Open the detailed guidance once the tool has narrowed the real planning question.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/depth-limits/">
+<div class="card-kicker">Next page</div>
+<h3>Depth Limits</h3>
+<p>Open the detailed guidance once the tool has narrowed the real planning question.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/height-limits/">
+<div class="card-kicker">Next page</div>
+<h3>Height Limits</h3>
+<p>Open the detailed guidance once the tool has narrowed the real planning question.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/boundary-rules/">
+<div class="card-kicker">Next page</div>
+<h3>Boundary Rules</h3>
+<p>Open the detailed guidance once the tool has narrowed the real planning question.</p>
+<span class="cta">Open guide</span>
+</a>
+</div>
+</section>
+
+
+<section class="related-tools">
+<span class="eyebrow">Useful companion tools</span>
+<h2>Related Planning Tools</h2>
+<div class="grid">
+<a class="card" href="/tools/planning-decision-tool/">
+<div class="card-kicker">Related tool</div>
+<h3>Do I Need Planning Permission?</h3>
+<p>Work through a structured project check to see whether the scheme looks likely permitted development, may need planning permission, or depends on local constraints.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/what-can-i-build-explorer/">
+<div class="card-kicker">Related tool</div>
+<h3>What Can I Build? Explorer</h3>
+<p>Explore the home project types that are most likely to fit your property before you dive into detailed planning checks.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/planning-rejection-risk-analyzer/">
+<div class="card-kicker">Related tool</div>
+<h3>Planning Rejection Risk Analyzer</h3>
+<p>Analyse the main refusal risks for a home project, including scale, neighbour impact, design character and local policy constraints.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/project-requirements-generator/">
+<div class="card-kicker">Related tool</div>
+<h3>Project Requirements Generator</h3>
+<p>Build a practical planning prep pack covering requirements, documents and next checks for a home project.</p>
+<span class="cta">Open tool</span>
+</a>
+</div>
+</section>
+
+
+<section class="trust">
+<span class="eyebrow">Trust and method</span>
+<h2>Use These Tools Properly</h2>
+<div class="info-columns">
+<div class="mini-card">
+<h3>What they are for</h3>
+<ul class="checklist">
+<li>Reducing uncertainty at the start of the process.</li>
+<li>Helping you pick the right next page quickly.</li>
+<li>Spotting when the answer probably needs escalation.</li>
+</ul>
+</div>
+<div class="mini-card">
+<h3>What they do not replace</h3>
+<ul class="checklist">
+<li>Formal confirmation for borderline schemes.</li>
+<li>Local authority checks where special controls apply.</li>
+<li>Detailed professional advice for complex cases.</li>
+</ul>
+</div>
+<div class="mini-card">
+<h3>Useful trust pages</h3>
+<p><a href="/methodology/">Methodology</a></p>
+<p><a href="/planning-faq/">Planning FAQ</a></p>
+</div>
+</div>
+</section>
+
+<aside class="ad-slot" data-ad-slot="bottom" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Useful follow-on placement</strong>
+    <p>Best for a subtle post-read advert, referral, or monetized resource once the main content has already done its job.</p>
+  </div>
+</aside>
+
+<div class='last-updated'>Updated March 2026</div>
+</main>
+
+<footer class="footer-shell">
+<div class="footer-inner">
+<div class="footer-grid">
+<div>
+<strong>UK Planning Guide</strong>
+<p class="footer-note">Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications.</p>
+</div>
+<div class="footer-links">
+<strong>Start Here</strong>
+<a href="/tools/">Use the planning tools</a>
+<a href="/house-extensions/">Browse project guides</a>
+<a href="/councils/">Compare local authorities</a>
+</div>
+<div class="footer-links">
+<strong>Useful Next Reads</strong>
+<a href="/planning-faq/">Planning FAQ</a>
+<a href="/planning-permission/">Planning permission hub</a>
+<a href="/permitted-development/">Permitted development hub</a>
+</div>
+<div class="footer-links">
+<strong>Trust</strong>
+<a href="/about/">What this site is for</a>
+<a href="/methodology/">How guidance is built</a>
+</div>
+</div>
+<div class="footer-meta">
+<span>&copy; 2026 UKPlanningGuide</span>
+<span>Built from national planning rules, local authority context and page-specific guidance.</span>
+<span>General guidance only, not legal advice.</span>
+</div>
+</div>
+</footer>
+<div class="tool-ui-templates" hidden aria-hidden="true"><template id="ukpg-ad-slot-template"><aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Relevant planning partner placement</strong>
+    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+  </div>
+</aside>
+</template><template id="ukpg-result-capture-template"><section class="result-capture" aria-label="Save or share result">
+  <div class="result-capture-copy">
+    <strong>Get your result link emailed to you</strong>
+    <p>Save this planning result so you can reopen it later or share it with someone helping on the project.</p>
+  </div>
+  <form class="result-capture-form" action="#" method="post" novalidate>
+    <label for="__RESULT_CAPTURE_ID__">Email address</label>
+    <div class="result-capture-row">
+      <input id="__RESULT_CAPTURE_ID__" name="email" type="email" inputmode="email" autocomplete="email" placeholder="name@example.com">
+      <button type="submit">Email my result</button>
+    </div>
+    <p class="result-capture-note">Demo-ready UI only. Connect this to your email workflow when you are ready.</p>
+  </form>
+</section>
+</template></div>
+<script>
+(function () {
+  if (typeof document === "undefined" || typeof document.querySelector !== "function") {
+    return;
+  }
+
+  const header = document.querySelector("header");
+  const navToggle = document.querySelector(".nav-toggle");
+  const mainNav = document.getElementById("primary-nav");
+
+  function setMenu(open) {
+    if (!header || !navToggle || !mainNav) {
+      return;
+    }
+    header.setAttribute("data-menu-open", open ? "true" : "false");
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+
+  if (navToggle && header) {
+    navToggle.addEventListener("click", function () {
+      const open = header.getAttribute("data-menu-open") === "true";
+      setMenu(!open);
+    });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 768) {
+        setMenu(false);
+      }
+    });
+
+    mainNav && mainNav.addEventListener("click", function (event) {
+      if (event.target.closest("a") && window.innerWidth <= 768) {
+        setMenu(false);
+      }
+    });
+  }
+
+  function cloneTemplate(id) {
+    const template = document.getElementById(id);
+    if (!template) {
+      return null;
+    }
+    return template.content.firstElementChild ? template.content.firstElementChild.cloneNode(true) : null;
+  }
+
+  function ensureCapture(resultNode, root) {
+    if (!resultNode || resultNode.nextElementSibling && resultNode.nextElementSibling.classList.contains("result-capture")) {
+      return;
+    }
+    const capture = cloneTemplate("ukpg-result-capture-template");
+    if (!capture) {
+      return;
+    }
+    const captureId = "result-capture-" + ((root && root.getAttribute("data-tool-root")) || "tool");
+    const label = capture.querySelector("label");
+    const input = capture.querySelector("input");
+    if (label) {
+      label.setAttribute("for", captureId);
+    }
+    if (input) {
+      input.id = captureId;
+    }
+    const form = capture.querySelector("form");
+    if (form) {
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        form.classList.add("is-submitted");
+      });
+    }
+    resultNode.insertAdjacentElement("afterend", capture);
+  }
+
+  function ensureNextStep(resultNode) {
+    if (!resultNode || resultNode.querySelector(".tool-next-step")) {
+      return;
+    }
+    const primaryLink = resultNode.querySelector(".decision-result-link, .tool-result-link, .explorer-link.primary, .explorer-inline-links a");
+    if (!primaryLink) {
+      return;
+    }
+    const titleNode = primaryLink.querySelector("strong");
+    const title = (titleNode ? titleNode.textContent : primaryLink.textContent || "").trim();
+    if (!title) {
+      return;
+    }
+    const card = document.createElement("div");
+    card.className = "tool-next-step";
+    card.innerHTML = "<span class='eyebrow'>Suggested next step</span><div class='tool-next-step-copy'>Open the most useful follow-on page while the result is still fresh.</div>";
+    card.appendChild(primaryLink.cloneNode(true));
+    const strong = card.querySelector("strong");
+    if (strong) {
+      strong.textContent = title;
+    }
+    resultNode.appendChild(card);
+  }
+
+  function revealResult(resultNode) {
+    if (!resultNode || resultNode.dataset.resultEnhanced === "true") {
+      return;
+    }
+    resultNode.dataset.resultEnhanced = "true";
+    requestAnimationFrame(function () {
+      resultNode.classList.add("tool-result-visible");
+      window.setTimeout(function () {
+        resultNode.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 120);
+    });
+  }
+
+  function isInHiddenToolShell(node) {
+    const shell = node && node.closest ? node.closest("[data-tool-shell]") : null;
+    if (!shell || typeof window.getComputedStyle !== "function") {
+      return false;
+    }
+    const style = window.getComputedStyle(shell);
+    return style.display === "none" || style.visibility === "hidden";
+  }
+
+  function enhanceResultNode(resultNode) {
+    if (!resultNode || isInHiddenToolShell(resultNode)) {
+      return;
+    }
+    const root = resultNode.closest("[data-tool-root]") || resultNode.closest(".tool-card");
+    ensureNextStep(resultNode);
+    ensureCapture(resultNode, root);
+    revealResult(resultNode);
+  }
+
+  function scanResults(scope) {
+    const root = scope && scope.querySelectorAll ? scope : document;
+    root.querySelectorAll(".decision-result, .tool-result[data-result-ready='true']").forEach(enhanceResultNode);
+  }
+
+  if (typeof MutationObserver !== "function") {
+    scanResults(document);
+    return;
+  }
+
+  const observer = new MutationObserver(function (mutations) {
+    mutations.forEach(function (mutation) {
+      if (mutation.type === "attributes" && mutation.target instanceof HTMLElement) {
+        if (mutation.target.matches(".tool-result[data-result-ready='true']")) {
+          enhanceResultNode(mutation.target);
+        }
+        return;
+      }
+      mutation.addedNodes.forEach(function (node) {
+        if (!(node instanceof HTMLElement)) {
+          return;
+        }
+        if (node.matches(".decision-result, .tool-result[data-result-ready='true']")) {
+          enhanceResultNode(node);
+          return;
+        }
+        scanResults(node);
+      });
+    });
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["data-result-ready"] });
+  scanResults(document);
+})();
+</script>
+</body>
+</html>

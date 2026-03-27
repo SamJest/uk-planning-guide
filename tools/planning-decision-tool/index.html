@@ -1,0 +1,2530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GXRZWRNWD7');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Do I Need Planning Permission? Decision Engine: quick planning check</title>
+<meta name="description" content="Use the Planning Decision Engine to check whether a home project looks likely permitted development, needs planning permission, or depends on local...">
+<link rel="canonical" href="https://ukplanningguide.co.uk/tools/planning-decision-tool/">
+<link rel="icon" href="/assets/favicon.ico?v=20260327" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260327">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=20260327">
+<link rel="shortcut icon" href="/assets/favicon.ico?v=20260327">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
+<link rel="manifest" href="/assets/site.webmanifest?v=20260327">
+<meta name="theme-color" content="#f3eee5">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Do I Need Planning Permission? Decision Engine: quick planning check", "url": "https://ukplanningguide.co.uk/tools/planning-decision-tool/", "description": "Use the Planning Decision Engine to check whether a home project looks likely permitted development, needs planning permission, or depends on local...", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://ukplanningguide.co.uk/tools/"}, {"@type": "ListItem", "position": 3, "name": "Do I Need Planning Permission?", "item": "https://ukplanningguide.co.uk/tools/planning-decision-tool/"}]}]}</script>
+<style>
+:root{
+--ink:#1f2937;
+--ink-soft:#4b5563;
+--ink-faint:#6b7280;
+--surface:#fffdfa;
+--surface-strong:#ffffff;
+--surface-warm:#f7f1e8;
+--surface-tint:#eef5f0;
+--accent:#1f6f5f;
+--accent-strong:#155649;
+--accent-soft:#dff1ea;
+--accent-text:#11453b;
+--highlight:#b7791f;
+--border:rgba(31,41,55,.12);
+--border-strong:rgba(31,41,55,.18);
+--shadow:0 20px 45px rgba(31,41,55,.08);
+--shadow-soft:0 10px 24px rgba(31,41,55,.05);
+--radius-lg:26px;
+--radius-md:18px;
+--radius-sm:12px;
+--container:1180px;
+--header-height:82px;
+}
+
+*{box-sizing:border-box;}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:"Avenir Next","Segoe UI",Tahoma,sans-serif;
+background:
+radial-gradient(circle at top left,rgba(183,121,31,.08),transparent 28%),
+radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 30%),
+linear-gradient(180deg,#f9f5ee 0%,#f4efe7 42%,#faf8f3 100%);
+color:var(--ink);
+line-height:1.68;
+}
+
+a{
+color:var(--accent);
+text-decoration:none;
+transition:color .18s ease, transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
+}
+
+a:hover{
+color:var(--accent-strong);
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+header{
+position:sticky;
+top:0;
+z-index:100;
+background:rgba(249,245,238,.88);
+backdrop-filter:blur(18px);
+border-bottom:1px solid rgba(31,41,55,.08);
+}
+
+.nav-container{
+max-width:var(--container);
+margin:0 auto;
+padding:14px 24px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+}
+
+.site-logo{
+display:flex;
+align-items:center;
+gap:10px;
+min-width:0;
+}
+
+.site-logo img{
+display:block;
+height:auto;
+max-height:40px;
+width:auto;
+max-width:min(100%,320px);
+object-fit:contain;
+aspect-ratio:320 / 40;
+flex:0 0 auto;
+}
+
+.main-nav{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+justify-content:flex-end;
+align-items:center;
+}
+
+.main-nav a{
+padding:8px 12px;
+border-radius:999px;
+font-size:14px;
+font-weight:700;
+letter-spacing:.01em;
+color:var(--ink);
+}
+
+.main-nav a:hover{
+background:rgba(31,111,95,.08);
+color:var(--accent-strong);
+}
+
+.main-nav a:focus-visible,
+.nav-toggle:focus-visible{
+outline:3px solid rgba(31,111,95,.22);
+outline-offset:2px;
+}
+
+.nav-toggle{
+display:none;
+align-items:center;
+justify-content:center;
+min-width:44px;
+min-height:44px;
+padding:10px 14px;
+border-radius:999px;
+border:1px solid rgba(31,41,55,.12);
+background:rgba(255,255,255,.82);
+color:var(--ink);
+box-shadow:none;
+}
+
+.nav-toggle span{
+display:block;
+width:18px;
+height:2px;
+border-radius:999px;
+background:currentColor;
+box-shadow:0 6px 0 currentColor,0 -6px 0 currentColor;
+}
+
+.container{
+max-width:var(--container);
+margin:0 auto;
+padding:30px 24px 54px;
+}
+
+.breadcrumbs{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+margin:0 0 18px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.breadcrumbs a{
+display:inline-flex;
+align-items:center;
+color:var(--ink-soft);
+}
+
+.breadcrumbs a::after{
+content:"/";
+margin-left:8px;
+color:rgba(75,85,99,.45);
+}
+
+.page-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:0 0 22px;
+padding:13px 16px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(255,255,255,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.page-trust-strip strong{
+color:var(--ink);
+font-size:13px;
+}
+
+.page-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:10px;
+}
+
+.page-trust-strip span:not(:last-child)::after{
+content:"";
+width:4px;
+height:4px;
+border-radius:999px;
+background:rgba(31,111,95,.35);
+}
+
+section,
+.card{
+position:relative;
+margin-bottom:24px;
+padding:28px;
+background:rgba(255,255,255,.9);
+border:1px solid var(--border);
+border-radius:var(--radius-lg);
+box-shadow:var(--shadow);
+overflow:hidden;
+}
+
+section::before,
+.card::before{
+content:"";
+position:absolute;
+inset:0 auto auto 0;
+width:100%;
+height:1px;
+background:linear-gradient(90deg,rgba(31,111,95,.24),rgba(183,121,31,.18),transparent);
+}
+
+.hero{
+padding:40px 34px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(243,237,227,.92)),
+linear-gradient(135deg,rgba(31,111,95,.08),transparent 58%);
+border-color:rgba(31,111,95,.14);
+}
+
+.hero-logo{
+display:block;
+width:min(290px,72%);
+height:auto;
+margin-bottom:20px;
+}
+
+.hero-ctas{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:20px;
+}
+
+.badge,
+.eyebrow{
+display:inline-flex;
+align-items:center;
+gap:8px;
+margin-bottom:14px;
+padding:7px 12px;
+border-radius:999px;
+background:var(--accent-soft);
+color:var(--accent-text);
+font-size:12px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+}
+
+h1,
+h2,
+h3{
+margin:0 0 10px;
+font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+font-weight:700;
+letter-spacing:-.02em;
+color:#15212d;
+}
+
+h1{
+font-size:clamp(2.3rem,5vw,3.65rem);
+line-height:1.05;
+max-width:14ch;
+}
+
+h2{
+font-size:clamp(1.65rem,3.2vw,2.2rem);
+line-height:1.12;
+}
+
+h3{
+font-size:1.2rem;
+line-height:1.2;
+}
+
+p,
+li,
+td,
+th,
+label,
+summary{
+color:var(--ink-soft);
+}
+
+p{
+margin:0 0 14px;
+max-width:72ch;
+}
+
+ul,
+ol{
+margin:0;
+padding-left:22px;
+}
+
+li + li{
+margin-top:8px;
+}
+
+strong{
+color:var(--ink);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:8px;
+overflow:hidden;
+border-radius:18px;
+}
+
+th,
+td{
+padding:14px 16px;
+border:1px solid rgba(31,41,55,.10);
+text-align:left;
+vertical-align:top;
+background:rgba(255,255,255,.78);
+}
+
+th{
+background:rgba(31,111,95,.08);
+color:var(--ink);
+font-weight:700;
+}
+
+details{
+margin-top:14px;
+padding:16px 18px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:var(--radius-md);
+}
+
+summary{
+font-weight:700;
+cursor:pointer;
+color:var(--ink);
+}
+
+button,
+.button,
+.btn,
+.cta{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+padding:12px 18px;
+border:1px solid transparent;
+border-radius:999px;
+background:var(--accent);
+color:#fff;
+font-size:15px;
+font-weight:700;
+cursor:pointer;
+box-shadow:0 12px 22px rgba(31,111,95,.16);
+transition:background-color .18s ease,color .18s ease,transform .18s ease,box-shadow .18s ease,border-color .18s ease,opacity .18s ease;
+}
+
+.button:hover,
+.btn:hover,
+.cta:hover,
+button:hover{
+background:var(--accent-strong);
+color:#fff;
+transform:translateY(-1px);
+}
+
+.button:active,
+.btn:active,
+.cta:active,
+button:active{
+transform:translateY(0);
+box-shadow:0 8px 16px rgba(31,111,95,.14);
+}
+
+.button-secondary,
+.btn-secondary,
+.card .button-secondary{
+background:transparent;
+color:var(--accent-strong);
+border-color:rgba(31,111,95,.20);
+box-shadow:none;
+}
+
+.button-secondary:hover,
+.btn-secondary:hover,
+.card .button-secondary:hover{
+background:rgba(31,111,95,.08);
+}
+
+.grid,
+.card-grid,
+.project-grid,
+.county-grid,
+.link-grid,
+.town-grid{
+display:grid;
+gap:18px;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+}
+
+.grid-tight{
+display:grid;
+gap:14px;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+}
+
+.split-grid{
+display:grid;
+gap:18px;
+grid-template-columns:1.2fr .8fr;
+align-items:start;
+}
+
+.card,
+a.card,
+a.scenario-card,
+a.scenario-nav{
+display:block;
+}
+
+a.card,
+a.scenario-card{
+color:inherit;
+}
+
+a.card:hover,
+a.scenario-card:hover{
+transform:translateY(-2px);
+border-color:rgba(31,111,95,.22);
+box-shadow:0 22px 40px rgba(31,41,55,.10);
+}
+
+.card p:last-child,
+section p:last-child{
+margin-bottom:0;
+}
+
+.hero h1 + p{
+font-size:1.08rem;
+max-width:62ch;
+}
+
+.quick-summary,
+.tool-summary,
+.last-updated,
+.section-lead,
+.card-kicker{
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.last-updated{
+display:inline-flex;
+align-items:center;
+padding:10px 14px;
+background:rgba(255,255,255,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.answer-grid,
+.info-columns{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:20px;
+}
+
+.answer-card,
+.info-card,
+.mini-card,
+.tool-card,
+.callout,
+.scenario-nav,
+.scenario-pill{
+padding:20px;
+background:rgba(255,255,255,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:var(--radius-md);
+box-shadow:var(--shadow-soft);
+}
+
+.answer-card h3,
+.info-card h3,
+.mini-card h3,
+.tool-card h2{
+margin-bottom:8px;
+}
+
+.checklist,
+.signal-list{
+list-style:none;
+padding:0;
+}
+
+.checklist li,
+.signal-list li{
+position:relative;
+padding-left:18px;
+}
+
+.checklist li::before,
+.signal-list li::before{
+content:"";
+position:absolute;
+left:0;
+top:.72em;
+width:7px;
+height:7px;
+border-radius:999px;
+background:var(--highlight);
+transform:translateY(-50%);
+}
+
+.link-grid a,
+.related-links a,
+.scenario-navigation a{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:14px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+font-weight:600;
+}
+
+.link-grid a::after,
+.related-links a::after,
+.scenario-navigation a::after{
+content:"View";
+font-size:12px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--accent);
+}
+
+.link-grid a:hover,
+.related-links a:hover,
+.scenario-navigation a:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+}
+
+.scenario-navigation{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.scenario-nav.active{
+background:rgba(223,241,234,.9);
+border-color:rgba(31,111,95,.28);
+}
+
+.tool-cta,
+.cta-band,
+.notice{
+padding:24px;
+background:linear-gradient(135deg,rgba(223,241,234,.96),rgba(247,241,232,.96));
+border:1px solid rgba(31,111,95,.12);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.tool-cta p,
+.cta-band p,
+.notice p{
+max-width:64ch;
+}
+
+.hero-microcopy,
+.section-caption{
+font-size:15px;
+color:var(--ink-faint);
+}
+
+.inline-badges{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:14px 0 0;
+}
+
+.inline-badges span{
+display:inline-flex;
+align-items:center;
+padding:8px 12px;
+border-radius:999px;
+background:rgba(31,111,95,.08);
+color:var(--accent-text);
+font-size:13px;
+font-weight:700;
+}
+
+.tool-grid{
+display:grid;
+gap:14px;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+align-items:end;
+margin-top:16px;
+}
+
+.tool-grid > div{
+display:flex;
+flex-direction:column;
+gap:6px;
+}
+
+.rule-list{
+margin-top:14px;
+}
+
+.rule-verification{
+margin-top:14px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.rule-exceptions{
+margin-top:16px;
+padding:14px 16px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+}
+
+.tool-card button,
+#planning-decision-tool button{
+margin-top:16px;
+}
+
+label{
+display:block;
+margin-bottom:6px;
+font-weight:700;
+color:var(--ink);
+}
+
+input,
+select,
+textarea{
+width:100%;
+min-height:44px;
+padding:12px 14px;
+font:inherit;
+color:var(--ink);
+background:#fff;
+border:1px solid rgba(31,41,55,.14);
+border-radius:14px;
+outline:none;
+transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+border-color:rgba(31,111,95,.48);
+box-shadow:0 0 0 4px rgba(31,111,95,.10);
+}
+
+.tool-result{
+margin-top:18px;
+padding:18px 20px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+scroll-margin-top:calc(var(--header-height) + 18px);
+transition:opacity .3s ease, transform .3s ease;
+}
+
+.tool-result[data-result-ready="true"],
+.decision-result{
+opacity:0;
+transform:translateY(10px);
+}
+
+.tool-result.tool-result-visible,
+.decision-result.tool-result-visible{
+opacity:1;
+transform:translateY(0);
+}
+
+.tool-related-links,
+.tool-result-links{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.tool-result-link{
+display:block;
+padding:16px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+color:inherit;
+box-shadow:var(--shadow-soft);
+}
+
+.tool-result-link strong{
+display:block;
+margin-bottom:6px;
+}
+
+.tool-result-link:hover{
+transform:translateY(-1px);
+border-color:rgba(31,111,95,.24);
+box-shadow:0 18px 30px rgba(31,41,55,.08);
+}
+
+.tool-next-step{
+margin-top:16px;
+padding:18px 20px;
+background:linear-gradient(135deg,rgba(223,241,234,.88),rgba(255,255,255,.94));
+border:1px solid rgba(31,111,95,.14);
+border-radius:20px;
+}
+
+.tool-next-step-copy{
+font-size:14px;
+color:var(--ink-faint);
+margin-bottom:10px;
+}
+
+.ad-slot{
+display:grid;
+gap:12px;
+padding:18px 20px;
+background:rgba(243,237,227,.58);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow-soft);
+}
+
+.ad-slot-label{
+display:inline-flex;
+align-items:center;
+width:max-content;
+padding:6px 10px;
+border-radius:999px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+font-size:11px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--ink-faint);
+}
+
+.ad-slot-body{
+display:grid;
+gap:6px;
+}
+
+.ad-slot-body strong{
+font-size:1rem;
+}
+
+.result-capture{
+display:grid;
+gap:14px;
+margin-top:16px;
+padding:18px 20px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow-soft);
+}
+
+.result-capture-copy{
+display:grid;
+gap:6px;
+}
+
+.result-capture-row{
+display:grid;
+gap:10px;
+grid-template-columns:minmax(0,1fr) auto;
+align-items:start;
+}
+
+.result-capture-form button{
+min-height:44px;
+white-space:nowrap;
+}
+
+.result-capture-note{
+font-size:13px;
+color:var(--ink-faint);
+}
+
+.tool-loading-state{
+display:grid;
+gap:12px;
+padding:20px;
+background:linear-gradient(135deg,rgba(223,241,234,.88),rgba(255,255,255,.95));
+border:1px solid rgba(31,111,95,.14);
+border-radius:18px;
+}
+
+.tool-loading-bar{
+position:relative;
+height:8px;
+overflow:hidden;
+border-radius:999px;
+background:rgba(31,41,55,.08);
+}
+
+.tool-loading-bar::after{
+content:"";
+position:absolute;
+inset:0 auto 0 -38%;
+width:38%;
+border-radius:999px;
+background:linear-gradient(90deg,rgba(31,111,95,.1),rgba(31,111,95,.72),rgba(31,111,95,.1));
+animation:toolLoadingSweep 1s linear infinite;
+}
+
+@keyframes toolLoadingSweep{
+from{transform:translateX(0);}
+to{transform:translateX(360%);}
+}
+
+.faq-item + .faq-item{
+margin-top:18px;
+padding-top:18px;
+border-top:1px solid rgba(31,41,55,.08);
+}
+
+.footer-shell{
+padding:36px 24px 44px;
+border-top:1px solid rgba(31,41,55,.08);
+background:linear-gradient(180deg,rgba(250,248,243,.92),rgba(242,236,226,.98));
+}
+
+.footer-inner{
+max-width:var(--container);
+margin:0 auto;
+color:var(--ink-soft);
+}
+
+.footer-grid{
+display:grid;
+gap:22px;
+grid-template-columns:1.4fr .8fr .8fr .9fr;
+margin-bottom:20px;
+}
+
+.footer-links a{
+display:block;
+margin-bottom:10px;
+color:var(--ink-soft);
+}
+
+.footer-links a:hover{
+color:var(--accent-strong);
+}
+
+.footer-note,
+.footer-meta{
+max-width:72ch;
+font-size:14px;
+}
+
+.footer-meta{
+display:flex;
+flex-wrap:wrap;
+gap:14px;
+padding-top:16px;
+border-top:1px solid rgba(31,41,55,.08);
+}
+
+@media (max-width:960px){
+.split-grid,
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding:34px 26px;
+}
+
+h1{
+max-width:none;
+}
+}
+
+@media (max-width:768px){
+.container{
+padding:16px 16px 40px;
+}
+
+.nav-container{
+position:relative;
+padding:10px 16px;
+align-items:center;
+flex-direction:row;
+justify-content:space-between;
+gap:10px;
+}
+
+.nav-toggle{
+display:inline-flex;
+}
+
+.main-nav{
+display:none;
+position:absolute;
+top:calc(100% + 8px);
+left:16px;
+right:16px;
+flex-direction:column;
+gap:8px;
+padding:12px;
+background:rgba(249,245,238,.98);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow);
+}
+
+header[data-menu-open="true"] .main-nav{
+display:flex;
+}
+
+.main-nav a{
+display:flex;
+width:100%;
+justify-content:flex-start;
+padding:12px 14px;
+font-size:14px;
+background:rgba(255,255,255,.78);
+border:1px solid rgba(31,41,55,.06);
+}
+
+.site-logo{
+width:auto;
+min-height:32px;
+}
+
+.site-logo img{
+max-height:32px;
+max-width:min(68vw,220px);
+}
+
+.breadcrumbs{
+margin-bottom:12px;
+font-size:13px;
+}
+
+.page-trust-strip{
+margin-bottom:16px;
+padding:12px 14px;
+border-radius:18px;
+gap:8px;
+}
+
+.page-trust-strip span{
+gap:8px;
+}
+
+.page-trust-strip span:not(:last-child)::after{
+display:none;
+}
+
+section,
+.card{
+padding:20px;
+border-radius:22px;
+}
+
+.page-trust-strip{
+border-radius:18px;
+}
+
+.tool-grid,
+.grid,
+.card-grid,
+.answer-grid,
+.info-columns,
+.tool-result-links,
+.tool-related-links,
+.result-capture-row{
+grid-template-columns:1fr !important;
+}
+
+.tool-card > button,
+.tool-card .cta,
+.tool-card .btn,
+.tool-card .button,
+.result-capture-form button{
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="nav-container">
+<a href="/" class="site-logo" aria-label="UK Planning Guide home">
+<img src="/assets/images/logo-header.png" alt="UK Planning Guide" loading="eager" decoding="async">
+</a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+<span></span>
+</button>
+<nav class="main-nav" id="primary-nav" aria-label="Primary">
+<a href="/tools/">Tools</a>
+<a href="/planning-faq/">FAQ</a>
+<a href="/councils/">Councils</a>
+<a href="/about/">About</a>
+<a href="/methodology/">Methodology</a>
+</nav>
+</div>
+</header>
+
+<main class="container">
+<nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><a href="/tools/">Tools</a><span>Do I Need Planning Permission?</span></nav>
+
+<div class="page-trust-strip"><strong>Updated March 2026</strong><span>Built from national planning rules and local authority context</span><span>Use formal checks if the proposal is close to a limit or affected by special controls</span></div>
+<section class="hero">
+<span class="badge">Planning tool</span>
+<h1>Do I Need Planning Permission?</h1>
+<p>Use the Planning Decision Engine to sense-check the route for a home project before you spend money on drawings, applications or contractor quotes. It weighs the project type, property type, scale and local constraints, then points you to the most useful next page.</p>
+<div class='inline-badges'><span>Structured inputs only</span><span>Static rule-based result</span><span>Best for early project triage</span></div>
+</section>
+
+<aside class="ad-slot" data-ad-slot="top" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Planning-ready sponsor space</strong>
+    <p>Reserved for a light-touch partner message, quote tool, or relevant service without crowding the main tool content.</p>
+  </div>
+</aside>
+
+
+<section class="tool-calculator" data-tool-page="planning-decision-tool">
+<span class="eyebrow">Interactive check</span>
+<h2>Run The Planning Decision Engine</h2>
+<p class='section-lead'>Work through the steps, review the answers, then let the tool check the most common planning triggers for your project.</p>
+
+<div class="tool-card decision-engine-card">
+<style>
+
+.decision-engine-card{padding:0;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(247,241,232,.94)),linear-gradient(135deg,rgba(31,111,95,.06),transparent 58%);border-color:rgba(31,111,95,.16);overflow:hidden;}
+.decision-engine{min-width:0;max-width:100%;padding:0;overflow-wrap:normal;word-break:normal;}
+.decision-shell-desktop{display:block;}
+.decision-shell-mobile{display:none;}
+.decision-desktop-shell{padding:30px;}
+.decision-engine-header{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:24px;}
+.decision-engine-header > div{min-width:0;}
+.decision-engine-header h2{margin-bottom:10px;}
+.decision-kicker{display:inline-flex;align-items:center;padding:8px 12px;margin-bottom:12px;border-radius:999px;background:rgba(31,111,95,.10);color:var(--accent-text);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;box-shadow:inset 0 0 0 1px rgba(31,111,95,.08);}
+.decision-header-actions{display:flex;gap:10px;flex:0 1 auto;flex-wrap:wrap;justify-content:flex-end;align-items:flex-start;min-width:0;}
+.decision-trust-note{display:grid;gap:6px;margin-top:14px;padding:14px 15px;background:rgba(223,241,234,.54);border:1px solid rgba(31,111,95,.12);border-radius:16px;}
+.decision-trust-note strong{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.decision-trust-note span{font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-progress{margin-bottom:24px;padding:18px 18px 16px;background:rgba(255,255,255,.82);border:1px solid rgba(31,41,55,.08);border-radius:20px;box-shadow:var(--shadow-soft);overflow:hidden;}
+.decision-progress-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap;margin-bottom:14px;}
+.decision-progress-top strong{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);}
+.decision-progress-top span{font-size:14px;line-height:1.5;color:var(--ink-faint);}
+.decision-progress-bar{height:8px;border-radius:999px;background:rgba(31,41,55,.08);overflow:hidden;margin-bottom:16px;}
+.decision-progress-bar span{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),#2b8a78);transition:width .25s ease;}
+.decision-step-labels{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));}
+.decision-step-label{display:flex;flex-direction:column;gap:5px;min-width:0;padding:11px 13px;border-radius:16px;background:rgba(247,241,232,.76);border:1px solid rgba(31,41,55,.06);transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;}
+.decision-step-label.active{background:rgba(223,241,234,.94);border-color:rgba(31,111,95,.22);box-shadow:0 12px 24px rgba(31,111,95,.10);}
+.decision-step-label.done{background:rgba(31,111,95,.08);}
+.decision-step-number{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-step-name{font-size:14px;font-weight:700;color:var(--ink);}
+.decision-layout{display:grid;gap:18px;grid-template-columns:minmax(0,1.35fr) minmax(0,.85fr);align-items:start;}
+.decision-panel,.decision-sidebar{min-width:0;padding:22px;background:rgba(255,255,255,.84);border:1px solid rgba(31,41,55,.08);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-sidebar{position:sticky;top:92px;}
+.decision-mobile-calculator-shell{display:grid;gap:20px;padding:30px;}
+.decision-mobile-calculator-header{display:grid;gap:14px;padding:0 0 6px;}
+.decision-mobile-calculator-header h2{margin-bottom:0;}
+.decision-mobile-calculator-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start;}
+.decision-mobile-calculator-body{display:grid;gap:18px;}
+.decision-mobile-calculator-panel,.decision-mobile-calculator-summary{min-width:0;padding:22px;background:rgba(255,255,255,.84);border:1px solid rgba(31,41,55,.08);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-mobile-calculator-panel{display:grid;gap:18px;}
+.decision-mobile-calculator-summary{display:grid;gap:14px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));}
+.decision-mobile-calculator-summary h3{margin:0;}
+.decision-mobile-calculator-step-intro{display:grid;gap:8px;padding:16px 18px;background:linear-gradient(135deg,rgba(247,241,232,.74),rgba(255,255,255,.94));border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-mobile-calculator-step-intro strong{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.decision-mobile-calculator-step-intro p{margin:0;color:var(--ink-soft);}
+.decision-step-copy{min-width:0;margin-bottom:20px;padding:18px 18px 16px;background:linear-gradient(135deg,rgba(247,241,232,.68),rgba(255,255,255,.92));border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-step-copy h3{margin-bottom:8px;}
+.decision-question,.decision-result{min-width:0;}
+.decision-question{padding:18px;background:rgba(255,255,255,.62);border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-question h4,.decision-result h3,.decision-panel h3,.decision-sidebar h3{overflow-wrap:anywhere;}
+.decision-question h4{margin-bottom:12px;font-size:1.02rem;}
+.decision-choice-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));}
+.decision-binary-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));margin-top:18px;}
+.decision-question + .decision-question{margin-top:20px;}
+.decision-choice{width:100%;min-width:0;min-height:64px;padding:17px 16px 16px;text-align:left;background:rgba(255,255,255,.94);border:1px solid rgba(31,41,55,.12);border-radius:18px;box-shadow:none;color:var(--ink);transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease, background-color .18s ease;}
+.decision-choice:hover{background:#fff;border-color:rgba(31,111,95,.28);box-shadow:0 14px 26px rgba(31,41,55,.08);}
+.decision-choice:focus-visible,.decision-chip:focus-visible,.decision-result-link:focus-visible,.tool-fallback-link:focus-visible,.explorer-link:focus-visible{outline:3px solid rgba(31,111,95,.18);outline-offset:2px;border-color:rgba(31,111,95,.34);}
+.decision-choice.selected{background:linear-gradient(135deg,rgba(223,241,234,.96),rgba(255,255,255,.98));border-color:rgba(31,111,95,.34);box-shadow:0 16px 28px rgba(31,111,95,.12);}
+.decision-choice strong{display:block;margin-bottom:6px;font-size:15px;line-height:1.32;}
+.decision-choice span{display:block;font-size:13px;line-height:1.58;color:var(--ink-soft);}
+.decision-chip-row{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));}
+.decision-chip{width:100%;min-width:0;min-height:48px;padding:11px 14px;border-radius:999px;background:#fff;border:1px solid rgba(31,41,55,.12);color:var(--ink);font-size:14px;font-weight:700;box-shadow:none;transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;}
+.decision-chip:hover{border-color:rgba(31,111,95,.24);}
+.decision-chip:active,.decision-choice:active,.decision-result-link:active,.tool-fallback-link:active,.explorer-link:active{transform:translateY(0);}
+.decision-chip.selected{background:rgba(223,241,234,.92);border-color:rgba(31,111,95,.28);color:var(--accent-text);box-shadow:0 10px 18px rgba(31,111,95,.10);}
+.decision-question-note{margin-top:10px;font-size:13px;line-height:1.55;color:var(--ink-faint);}
+.decision-review-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));}
+.decision-review-card{min-width:0;padding:15px 16px;background:rgba(247,241,232,.76);border:1px solid rgba(31,41,55,.08);border-radius:18px;}
+.decision-review-card strong{display:block;margin-bottom:4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-nav{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-top:24px;padding-top:18px;border-top:1px solid rgba(31,41,55,.08);flex-wrap:wrap;}
+.decision-nav .cta,.decision-nav .button-secondary{min-height:48px;margin:0;}
+.decision-loading{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:28px 24px;background:linear-gradient(135deg,rgba(223,241,234,.95),rgba(255,255,255,.95));border:1px solid rgba(31,111,95,.16);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-loading-dots{display:inline-flex;gap:8px;}
+.decision-loading-dots span{width:10px;height:10px;border-radius:999px;background:rgba(31,111,95,.28);animation:decisionPulse 1s infinite ease-in-out;}
+.decision-loading-dots span:nth-child(2){animation-delay:.12s;}
+.decision-loading-dots span:nth-child(3){animation-delay:.24s;}
+@keyframes decisionPulse{0%,80%,100%{transform:scale(.8);opacity:.45;}40%{transform:scale(1);opacity:1;}}
+.decision-result{display:grid;gap:18px;}
+.decision-result-banner{position:relative;padding:22px;border-radius:22px;border:1px solid rgba(31,41,55,.08);box-shadow:var(--shadow-soft);}
+.decision-result-banner.good{background:linear-gradient(135deg,rgba(223,241,234,.98),rgba(255,255,255,.95));border-color:rgba(31,111,95,.18);}
+.decision-result-banner.warn{background:linear-gradient(135deg,rgba(255,246,228,.98),rgba(255,255,255,.95));border-color:rgba(183,121,31,.22);}
+.decision-result-banner.danger{background:linear-gradient(135deg,rgba(255,236,233,.98),rgba(255,255,255,.95));border-color:rgba(186,66,55,.22);}
+.decision-result-banner.info{background:linear-gradient(135deg,rgba(234,243,250,.98),rgba(255,255,255,.95));border-color:rgba(69,117,160,.22);}
+.decision-result-banner h3{margin-bottom:10px;font-size:clamp(1.42rem,2.4vw,1.9rem);line-height:1.08;}
+.decision-result-banner p{max-width:60ch;font-size:15px;line-height:1.68;color:var(--ink-soft);}
+.decision-status{display:inline-flex;align-items:center;padding:9px 13px;border-radius:999px;margin-bottom:12px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.88);color:var(--ink);box-shadow:inset 0 0 0 1px rgba(31,41,55,.06),0 10px 18px rgba(31,41,55,.06);}
+.decision-result-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-result-card{min-width:0;padding:18px;background:rgba(255,255,255,.88);border:1px solid rgba(31,41,55,.08);border-radius:18px;box-shadow:var(--shadow-soft);}
+.decision-result-card h3{margin-bottom:8px;}
+.decision-result-card ul{padding-left:18px;}
+.decision-result-links{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-result-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.92);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.decision-result-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.decision-result-link strong{display:block;margin-bottom:6px;}
+.decision-follow-up{display:grid;gap:14px;margin-top:10px;}
+.decision-follow-up-card{display:grid;gap:14px;padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));border:1px solid rgba(31,41,55,.08);border-radius:20px;box-shadow:var(--shadow-soft);}
+.decision-follow-up-heading{display:grid;gap:6px;}
+.decision-follow-up-heading h3{margin-bottom:0;}
+.decision-follow-up-heading p{margin:0;line-height:1.6;color:var(--ink-soft);}
+.decision-follow-up-kicker{display:inline-flex;align-items:center;width:max-content;padding:7px 10px;border-radius:999px;background:rgba(31,111,95,.10);color:var(--accent-text);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+.decision-follow-up-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-follow-up-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.94);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.decision-follow-up-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.decision-follow-up-link strong{display:block;margin-bottom:6px;}
+.decision-follow-up-link span{display:block;font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-email-capture{display:grid;gap:10px;grid-template-columns:minmax(0,1fr) auto;align-items:center;}
+.decision-email-input{width:100%;min-width:0;min-height:50px;padding:13px 15px;border:1px solid rgba(31,41,55,.14);border-radius:16px;background:#fff;color:var(--ink);}
+.decision-email-button{min-height:50px;padding:14px 20px;}
+.decision-email-note{grid-column:1 / -1;margin:0;font-size:13px;line-height:1.55;color:var(--ink-faint);}
+.decision-inline-note{padding:14px 15px;background:rgba(223,241,234,.54);border:1px solid rgba(31,111,95,.12);border-radius:16px;font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-sidebar h3{margin-bottom:10px;}
+.decision-summary-list{display:grid;gap:10px;margin-bottom:18px;}
+.decision-summary-item{min-width:0;padding:12px 14px;background:rgba(247,241,232,.74);border:1px solid rgba(31,41,55,.08);border-radius:16px;}
+.decision-summary-item strong{display:block;margin-bottom:4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-method-note{padding:14px 15px;background:rgba(223,241,234,.62);border:1px solid rgba(31,111,95,.12);border-radius:16px;font-size:14px;color:var(--ink-soft);}
+.tool-fallback{display:grid;gap:14px;padding:22px;background:linear-gradient(135deg,rgba(247,241,232,.9),rgba(255,255,255,.96));border:1px solid rgba(31,41,55,.08);border-radius:22px;}
+.tool-fallback h3{margin-bottom:0;}
+.tool-fallback-links{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.tool-fallback-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.92);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.tool-fallback-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.tool-fallback-link strong{display:block;margin-bottom:6px;}
+.decision-step-number,.decision-step-name,.decision-choice strong,.decision-choice span,.decision-summary-item span,.decision-review-card span,.decision-result-link span,.decision-result-card li,.decision-method-note,.tool-fallback p,.explorer-fit-note,.explorer-status{writing-mode:horizontal-tb;text-orientation:mixed;white-space:normal;word-break:normal;overflow-wrap:anywhere;hyphens:none;}
+@media (max-width:960px){.decision-engine-card{overflow:visible;}.decision-engine{overflow-x:hidden;}.decision-desktop-shell{padding:22px;}.decision-engine-header{flex-direction:column;align-items:stretch;gap:14px;}.decision-header-actions{justify-content:flex-start;}.decision-layout{grid-template-columns:1fr !important;}.decision-sidebar{position:static;max-width:100%;width:100%;margin-top:12px;}.decision-panel,.decision-sidebar{max-width:100%;width:100%;}.decision-step-labels{grid-template-columns:repeat(2,minmax(0,1fr));}.decision-mobile-calculator-shell{padding:22px;}}
+@media (max-width:767px){.decision-shell-desktop{display:none !important;}.decision-shell-mobile{display:block !important;}.decision-mobile-calculator-shell{padding:18px;gap:14px;}.decision-mobile-calculator-actions{display:grid;gap:10px;}.decision-mobile-calculator-actions > *{width:100%;min-height:48px;margin:0;}.decision-mobile-calculator-panel,.decision-mobile-calculator-summary,.decision-follow-up-card{padding:18px;border-radius:20px;}.decision-mobile-calculator-step-intro{padding:15px 16px;}.decision-trust-note{margin-top:12px;}.decision-step-labels{gap:8px;grid-template-columns:1fr !important;}.decision-step-label{display:block;padding:12px 14px;max-width:100%;width:100%;}.decision-step-number,.decision-step-name{display:block;max-width:100%;line-height:1.25;}.decision-choice-grid,.decision-binary-grid,.decision-review-grid,.decision-result-grid,.decision-result-links,.tool-fallback-links,.decision-chip-row,.decision-follow-up-grid{grid-template-columns:1fr !important;}.decision-choice,.decision-review-card,.decision-result-card,.decision-result-link,.decision-summary-item,.tool-fallback-link,.decision-chip,.decision-follow-up-link{max-width:100%;width:100%;}.decision-choice strong,.decision-step-name{font-size:14px;}.decision-nav{display:flex;flex-direction:column;position:static;margin-top:18px;padding-top:16px;background:none;}.decision-nav > *{flex:1 1 auto;width:100%;}.decision-nav span{display:none;}.decision-nav .cta,.decision-nav .button-secondary,.decision-email-button{width:100%;min-height:52px;padding:14px 18px;}.decision-result-banner,.decision-result-card,.decision-result-link,.tool-fallback,.decision-loading,.decision-follow-up-card{padding:18px;}.decision-email-capture{grid-template-columns:1fr;}}
+@media (max-width:420px){.decision-mobile-calculator-shell{padding:16px;}.decision-kicker,.decision-status{font-size:11px;}.decision-choice,.decision-result-link,.tool-fallback-link,.decision-follow-up-link{padding:14px;}.decision-choice span,.decision-method-note,.decision-trust-note span,.decision-inline-note,.decision-email-note,.decision-follow-up-link span{font-size:13px;}.decision-chip{font-size:13px;}.decision-mobile-calculator-panel,.decision-mobile-calculator-summary,.decision-result-banner,.decision-result-card,.tool-fallback,.decision-loading,.decision-mobile-calculator-step-intro,.decision-step-copy,.decision-question,.decision-trust-note,.decision-follow-up-card{padding:16px;}.decision-mobile-calculator-header h2{font-size:clamp(1.38rem,7.6vw,1.82rem);}}
+
+.planning-decision-shell-desktop{display:block;}
+.planning-decision-shell-mobile{display:none;}
+.planning-decision-desktop-shell{padding:30px;}
+.planning-decision-mobile-shell{display:grid;gap:14px;padding:18px;}
+.planning-decision-mobile-header,.planning-decision-mobile-panel,.planning-decision-mobile-summary{padding:18px;background:rgba(255,255,255,.94);border:1px solid rgba(31,41,55,.08);border-radius:22px;box-shadow:var(--shadow-soft);}
+.planning-decision-mobile-header{display:grid;gap:14px;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(247,241,232,.92));}
+.planning-decision-mobile-header h2{margin-bottom:8px;font-size:clamp(1.5rem,7vw,2rem);line-height:1.08;}
+.planning-decision-mobile-actions{display:grid;gap:10px;}
+.planning-decision-mobile-actions > *{width:100%;min-height:48px;margin:0;}
+.planning-decision-mobile-panel{display:grid;gap:18px;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(255,255,255,.9));}
+.planning-decision-mobile-step-intro{display:grid;gap:10px;padding:15px 16px;background:linear-gradient(135deg,rgba(247,241,232,.74),rgba(255,255,255,.96));border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.planning-decision-mobile-step-intro strong{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.planning-decision-mobile-step-intro p{margin:0;color:var(--ink-soft);line-height:1.55;}
+.planning-decision-mobile-summary{display:grid;gap:14px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));}
+.planning-decision-mobile-summary h3{margin:0;}
+.planning-decision-mobile-summary .decision-summary-list{margin-bottom:0;}
+.planning-decision-mobile-shell,.planning-decision-mobile-shell *{box-sizing:border-box;}
+.planning-decision-mobile-shell > *,.planning-decision-mobile-panel > *,.planning-decision-mobile-summary > *,.planning-decision-mobile-shell .decision-result > *{min-width:0;}
+.planning-decision-mobile-shell .decision-step-labels{gap:8px;grid-template-columns:1fr;}
+.planning-decision-mobile-shell .decision-step-label{display:grid;gap:4px;padding:13px 14px;align-content:start;}
+.planning-decision-mobile-shell .decision-step-number,.planning-decision-mobile-shell .decision-step-name{display:block;line-height:1.25;}
+.planning-decision-mobile-shell .decision-choice-grid,.planning-decision-mobile-shell .decision-binary-grid,.planning-decision-mobile-shell .decision-review-grid,.planning-decision-mobile-shell .decision-result-grid,.planning-decision-mobile-shell .decision-result-links,.planning-decision-mobile-shell .decision-chip-row,.planning-decision-mobile-shell .decision-follow-up-grid{grid-template-columns:1fr !important;}
+.planning-decision-mobile-shell .decision-choice,.planning-decision-mobile-shell .decision-review-card,.planning-decision-mobile-shell .decision-result-card,.planning-decision-mobile-shell .decision-result-link,.planning-decision-mobile-shell .decision-summary-item,.planning-decision-mobile-shell .decision-chip,.planning-decision-mobile-shell .decision-follow-up-link{width:100%;max-width:100%;}
+.planning-decision-mobile-shell .decision-nav{display:flex;flex-direction:column;gap:10px;align-items:stretch;}
+.planning-decision-mobile-shell .decision-nav > *{width:100%;flex:1 1 auto;}
+.planning-decision-mobile-shell .decision-nav span{display:none;}
+.planning-decision-mobile-shell .decision-nav .cta,.planning-decision-mobile-shell .decision-nav .button-secondary,.planning-decision-mobile-shell .decision-email-button{width:100%;min-height:52px;padding:14px 18px;}
+.planning-decision-mobile-shell .decision-step-copy,.planning-decision-mobile-shell .decision-question,.planning-decision-mobile-shell .decision-result-banner,.planning-decision-mobile-shell .decision-result-card,.planning-decision-mobile-shell .decision-result-link,.planning-decision-mobile-shell .decision-loading,.planning-decision-mobile-shell .decision-follow-up-card{padding:16px;}
+.planning-decision-mobile-shell .decision-email-capture{grid-template-columns:1fr;}
+.planning-decision-mobile-shell .decision-step-copy,.planning-decision-mobile-shell .decision-question,.planning-decision-mobile-shell .decision-result,.planning-decision-mobile-shell .decision-result-banner,.planning-decision-mobile-shell .decision-result-card,.planning-decision-mobile-shell .decision-result-link,.planning-decision-mobile-shell .decision-summary-item,.planning-decision-mobile-shell .decision-review-card,.planning-decision-mobile-shell .decision-follow-up-card,.planning-decision-mobile-shell .decision-method-note,.planning-decision-mobile-shell .decision-inline-note{overflow:visible;position:static;transform:none;}
+.planning-decision-mobile-shell .decision-step-copy p,.planning-decision-mobile-shell .decision-question p,.planning-decision-mobile-shell .decision-result-banner p,.planning-decision-mobile-shell .decision-result-card p,.planning-decision-mobile-shell .decision-result-card li,.planning-decision-mobile-shell .decision-result-link span,.planning-decision-mobile-shell .decision-summary-item span,.planning-decision-mobile-shell .decision-review-card span,.planning-decision-mobile-shell .decision-follow-up-link span,.planning-decision-mobile-shell .decision-method-note,.planning-decision-mobile-shell .decision-question-note,.planning-decision-mobile-shell .decision-inline-note,.planning-decision-mobile-shell .decision-email-note{display:block;max-width:100%;margin:0;line-height:1.58;white-space:normal;overflow-wrap:anywhere;word-break:normal;}
+.planning-decision-mobile-shell .decision-summary-list,.planning-decision-mobile-shell .decision-result,.planning-decision-mobile-shell .decision-result-grid,.planning-decision-mobile-shell .decision-result-links,.planning-decision-mobile-shell .decision-review-grid,.planning-decision-mobile-shell .decision-follow-up,.planning-decision-mobile-shell .decision-follow-up-grid{display:grid;gap:12px;}
+.planning-decision-mobile-shell .decision-summary-item,.planning-decision-mobile-shell .decision-review-card,.planning-decision-mobile-shell .decision-result-card{display:grid;gap:8px;align-content:start;}
+.planning-decision-mobile-shell .decision-summary-item strong,.planning-decision-mobile-shell .decision-review-card strong,.planning-decision-mobile-shell .decision-result-card h3,.planning-decision-mobile-shell .decision-result-link strong,.planning-decision-mobile-shell .decision-follow-up-link strong{margin:0;line-height:1.32;}
+.planning-decision-mobile-shell .decision-summary-item span,.planning-decision-mobile-shell .decision-review-card span{padding-top:0;}
+.planning-decision-mobile-shell .decision-result-card ul{display:grid;gap:8px;margin:0;padding-left:18px;}
+.planning-decision-mobile-shell .decision-chip-row{align-items:stretch;}
+.planning-decision-mobile-shell .decision-chip{min-height:50px;padding:12px 14px;border-radius:18px;white-space:normal;line-height:1.4;}
+.planning-decision-mobile-shell .decision-choice{display:grid;gap:6px;align-content:start;}
+.planning-decision-mobile-shell .decision-choice strong,.planning-decision-mobile-shell .decision-step-name{font-size:14px;}
+.planning-decision-mobile-shell .decision-result-banner h3{font-size:clamp(1.28rem,6vw,1.72rem);line-height:1.12;}
+.planning-decision-mobile-shell .decision-result-banner p{max-width:none;}
+@media (max-width:767px){.planning-decision-shell-desktop{display:none !important;}.planning-decision-shell-mobile{display:block !important;}
+@media (max-width:960px){.planning-decision-desktop-shell{padding:22px;}
+@media (max-width:420px){.planning-decision-mobile-shell{padding:16px;gap:12px;}.planning-decision-mobile-header,.planning-decision-mobile-panel,.planning-decision-mobile-summary{padding:16px;}.planning-decision-mobile-header h2{font-size:clamp(1.38rem,7.6vw,1.82rem);}.planning-decision-mobile-shell .decision-step-copy,.planning-decision-mobile-shell .decision-question,.planning-decision-mobile-shell .decision-result-banner,.planning-decision-mobile-shell .decision-result-card,.planning-decision-mobile-shell .decision-result-link,.planning-decision-mobile-shell .decision-loading,.planning-decision-mobile-shell .decision-follow-up-card,.planning-decision-mobile-shell .decision-summary-item,.planning-decision-mobile-shell .decision-review-card{padding:14px;}.planning-decision-mobile-shell .decision-choice,.planning-decision-mobile-shell .decision-chip{padding:13px;}.planning-decision-mobile-shell .decision-choice span,.planning-decision-mobile-shell .decision-summary-item span,.planning-decision-mobile-shell .decision-review-card span,.planning-decision-mobile-shell .decision-result-link span,.planning-decision-mobile-shell .decision-method-note,.planning-decision-mobile-shell .decision-question-note,.planning-decision-mobile-shell .decision-email-note{font-size:13px;line-height:1.55;}
+</style>
+<div id="planning-decision-engine" class="decision-engine" data-tool-root="planning-decision-tool" data-tool-kind="structured"></div>
+<noscript>
+<div class="tool-fallback" data-tool-fallback="true">
+<h3>Interactive check loading</h3>
+<p>If the guided questions do not appear, use the permitted development calculator or open the main planning guidance while JavaScript is unavailable.</p>
+<div class='tool-fallback-links'>
+<a class="tool-fallback-link" href="/tools/permitted-development-calculator/">
+<strong>Permitted Development Calculator</strong>
+<span>Use the simpler form-based calculator for a first pass.</span>
+</a>
+
+<a class="tool-fallback-link" href="/planning-permission/">
+<strong>Planning Permission</strong>
+<span>Open the main route guide if the project already feels borderline.</span>
+</a>
+</div>
+</div>
+</noscript>
+<script>
+(function () {
+  const CONFIG = {"property_types": [{"value": "house", "label": "House", "hint": "Detached, semi-detached or terraced house."}, {"value": "bungalow", "label": "Bungalow", "hint": "Single-storey house using the same householder route in many cases."}, {"value": "flat", "label": "Flat or maisonette", "hint": "External changes are usually on a tighter planning route than houses."}, {"value": "other", "label": "Other or not sure", "hint": "Use this when the building type is unusual or the rights are unclear."}], "constraint_options": [{"value": "conservation", "label": "Conservation area", "hint": "Design and heritage controls can tighten the normal route."}, {"value": "listed", "label": "Listed building", "hint": "Listed building consent and planning controls often change the answer."}, {"value": "article4", "label": "Article 4 direction", "hint": "Some councils remove permitted development rights in specific areas."}, {"value": "unsure", "label": "Not sure about local constraints", "hint": "Use this if you have not checked designations yet."}], "previous_work_options": [{"value": "no", "label": "No major additions", "hint": "The original house has not already been extended or enlarged in a way that matters here."}, {"value": "yes", "label": "Yes or not sure", "hint": "Previous additions can use up allowances that these quicker answers rely on."}], "projects": [{"id": "rear-extension", "label": "Rear extension", "description": "Best for single-storey or two-storey rear additions to a house.", "guide_href": "/rear-extensions/", "guide_title": "Rear Extension Guide", "primary_question": {"id": "size_band", "label": "How deep is the extension roughly?", "options": [{"value": "modest", "label": "Modest depth", "hint": "Up to about 3m on an attached house or 4m on a detached house."}, {"value": "borderline", "label": "Around the limit", "hint": "Close to the usual rear extension depth limit."}, {"value": "large", "label": "Clearly beyond it", "hint": "Pushing well past the normal depth used for a simple answer."}]}, "secondary_question": {"id": "form_band", "label": "How tall is it?", "options": [{"value": "single-modest", "label": "Single-storey and modest", "hint": "Typical eaves and ridge height for a standard rear extension."}, {"value": "single-tall", "label": "Single-storey but tall", "hint": "A high roof, vaulted form or otherwise close to a height limit."}, {"value": "two-storey", "label": "Two-storey", "hint": "The extension includes a full upper floor."}]}, "binary_questions": [{"id": "near_boundary", "label": "Does any high part sit close to a boundary?", "help": "Being within about 2 metres of a boundary can make the height check much more important."}], "common_changes": ["Exact depth from the original rear wall.", "Overall height and eaves height near a boundary.", "Previous extensions already added to the house.", "Conservation area, Article 4 or listed building controls."], "next_checks": ["Measure the extension from the original rear wall, not the latest addition.", "Check the overall height and whether any high section is within about 2 metres of a boundary.", "Open the rear extension guide if the scheme is close to a limit."], "related_pages": [{"title": "House Extensions", "href": "/house-extensions/", "description": "Broader guidance when the extension design is still changing."}, {"title": "Boundary Rules", "href": "/boundary-rules/", "description": "Useful when the side gap or neighbour relationship is driving the uncertainty."}]}, {"id": "side-extension", "label": "Side extension", "description": "Useful for side additions where width, height and front position matter.", "guide_href": "/side-extensions/", "guide_title": "Side Extension Guide", "primary_question": {"id": "size_band", "label": "How wide is the extension compared with the original house?", "options": [{"value": "narrow", "label": "Clearly narrow", "hint": "It looks comfortably less than half the width of the original house."}, {"value": "borderline", "label": "Around half width", "hint": "Close to the point where side extensions often become borderline."}, {"value": "wide", "label": "Quite wide", "hint": "It looks wider than half the original house."}]}, "secondary_question": {"id": "form_band", "label": "How tall is it?", "options": [{"value": "single-modest", "label": "Single-storey and modest", "hint": "A conventional single-storey side extension."}, {"value": "single-tall", "label": "Single-storey but tall", "hint": "Height or roof form feels close to a limit."}, {"value": "two-storey", "label": "Two-storey", "hint": "A full two-storey side extension."}]}, "binary_questions": [{"id": "forward_of_house", "label": "Does it project in front of the main front wall?", "help": "Being forward of the principal elevation often changes the route."}, {"id": "near_boundary", "label": "Is the taller edge close to a boundary?", "help": "This often makes the height and neighbour checks more sensitive."}], "common_changes": ["Whether the extension stays behind the main front wall.", "Whether the width remains clearly under half the original house width.", "Height close to a boundary.", "Local constraints and previous additions."], "next_checks": ["Compare the width against the original house, not the latest altered version.", "Check whether any part projects forward of the principal elevation.", "Open the side extension guide if the design is not obviously narrow and low."], "related_pages": [{"title": "House Extensions", "href": "/house-extensions/", "description": "Helpful when you need the wider extension rules around the project."}, {"title": "Boundary Rules", "href": "/boundary-rules/", "description": "A strong next read when boundary position is the tripwire."}]}, {"id": "loft-conversion", "label": "Loft conversion", "description": "Good for rooflights, dormers and other loft changes on a house.", "guide_href": "/loft-conversions/", "guide_title": "Loft Conversion Guide", "primary_question": {"id": "roof_change", "label": "How big is the roof change?", "options": [{"value": "light", "label": "Light change", "hint": "Rooflights only or a very modest rear change."}, {"value": "moderate", "label": "Noticeable enlargement", "hint": "A rear dormer or similar roof enlargement."}, {"value": "major", "label": "Major reshaping", "hint": "A large roof raise, major dormer or dramatic roof alteration."}]}, "binary_questions": [{"id": "front_facing", "label": "Does a dormer or major roof change face the road?", "help": "Front-facing roof alterations often move the answer away from the simple route."}], "common_changes": ["Whether the roof enlargement faces the highway.", "How much extra roof volume is being added.", "Previous roof additions already carried out.", "Conservation area, Article 4 or listed building controls."], "next_checks": ["Measure the extra roof volume rather than relying on a visual guess.", "Check whether any dormer or roof change sits on the front roof slope.", "Open the loft conversion guide for volume and roof alteration detail."], "related_pages": [{"title": "Roof Alterations", "href": "/roof-alterations/", "description": "Helpful when the question is really about how the roof is changing."}, {"title": "Permitted Development", "href": "/permitted-development/", "description": "Useful for the underlying householder PD baseline."}]}, {"id": "garden-room", "label": "Garden room or outbuilding", "description": "Useful for garden rooms, sheds, studios and detached outbuildings.", "guide_href": "/garden-rooms/", "guide_title": "Garden Room Guide", "primary_question": {"id": "height_band", "label": "How tall is the building roughly?", "options": [{"value": "low", "label": "Comfortably low", "hint": "Clearly below the usual outbuilding height thresholds."}, {"value": "medium", "label": "Around the limit", "hint": "Close to the height where a detailed check matters."}, {"value": "high", "label": "Quite tall", "hint": "Pushing beyond the usual outbuilding height envelope."}]}, "secondary_question": {"id": "use_band", "label": "What is it mainly for?", "options": [{"value": "incidental", "label": "Incidental use", "hint": "Home office, hobbies, storage, gym or similar use alongside the house."}, {"value": "sleeping", "label": "Sleeping or living use", "hint": "Guest room, annexe or anything that starts to work as accommodation."}]}, "binary_questions": [{"id": "near_boundary", "label": "Is it within about 2 metres of a boundary?", "help": "The nearer it is to the boundary, the tighter the height question becomes."}, {"id": "forward_of_house", "label": "Is any part in front of the main house wall?", "help": "Outbuildings in front of the principal elevation are usually a harder route."}], "common_changes": ["Maximum height from natural ground level.", "Whether it is truly incidental to the main house.", "Distance to boundaries and position in front of the house.", "Local constraints and previous outbuildings or additions."], "next_checks": ["Measure the maximum height from the correct ground level.", "Check whether the intended use stays incidental rather than becoming accommodation.", "Open the garden room or outbuildings guide if the building is near a boundary or close to the height limit."], "related_pages": [{"title": "Outbuildings", "href": "/outbuildings/", "description": "Wider guidance for sheds, garages and other detached structures."}, {"title": "Maximum Height", "href": "/maximum-height/", "description": "Helpful when height is the question that keeps changing the answer."}]}, {"id": "porch", "label": "Porch", "description": "Best for a new porch on the front or side of the house.", "guide_href": "/porches/", "guide_title": "Porch Guide", "primary_question": {"id": "footprint_band", "label": "How large is the porch footprint?", "options": [{"value": "small", "label": "Up to about 3m\u00b2", "hint": "Comfortably within the usual small-porch size."}, {"value": "medium", "label": "Around 3 to 4m\u00b2", "hint": "Close to the point where a detailed check matters."}, {"value": "large", "label": "More than about 4m\u00b2", "hint": "Clearly larger than the simplest porch allowance."}]}, "secondary_question": {"id": "height_band", "label": "How tall is the porch?", "options": [{"value": "low", "label": "Up to about 3m", "hint": "Typical porch height."}, {"value": "high", "label": "More than about 3m", "hint": "Height alone may move the project out of the simple route."}]}, "binary_questions": [{"id": "within_two_metres_highway", "label": "Is it within about 2 metres of a highway or front boundary?", "help": "That proximity often changes the answer for porches."}], "common_changes": ["External ground-floor area rather than internal usable space.", "Overall height.", "Distance to a highway or boundary fronting the road.", "Local designations and heritage controls."], "next_checks": ["Measure the external footprint rather than estimating the internal floor area.", "Check the distance from any boundary that fronts a highway.", "Open the porch guide if the design is close to the usual size or height limits."], "related_pages": [{"title": "Planning Permission", "href": "/planning-permission/", "description": "Useful if the porch is larger, taller or in a sensitive location."}, {"title": "Permitted Development", "href": "/permitted-development/", "description": "Helpful for the baseline householder route."}]}, {"id": "garage-conversion", "label": "Garage conversion", "description": "Useful for internal garage conversions and cases with external changes.", "guide_href": "/garage-conversions/", "guide_title": "Garage Conversion Guide", "primary_question": {"id": "change_band", "label": "How much does the outside change?", "options": [{"value": "internal", "label": "Mostly internal", "hint": "No extra footprint and only very modest external alteration."}, {"value": "minor", "label": "Visible but modest", "hint": "New window or door arrangement, but no extension."}, {"value": "major", "label": "Major external change", "hint": "Extension, large new openings or major frontage redesign."}]}, "secondary_question": {"id": "parking_band", "label": "What happens to parking and access?", "options": [{"value": "retained", "label": "Parking still works", "hint": "There is still practical off-street parking after the conversion."}, {"value": "affected", "label": "Parking becomes a planning issue", "hint": "The conversion may remove or compromise parking or access expectations."}]}, "common_changes": ["Whether the work is really internal only.", "Parking conditions tied to the original permission.", "How much the front elevation changes.", "Local constraints and previous planning conditions."], "next_checks": ["Review the original planning history for any parking or garage-retention conditions.", "Check whether the frontage change is modest or a bigger redesign.", "Open the garage conversion guide if parking or frontage treatment is the main issue."], "related_pages": [{"title": "Permitted Development", "href": "/permitted-development/", "description": "Helpful where the conversion is mostly internal."}, {"title": "Local Authorities", "href": "/councils/", "description": "Useful when parking standards or local design expectations matter."}]}, {"id": "driveway", "label": "Driveway or hard surface", "description": "Useful for new or replacement driveways and front garden parking areas.", "guide_href": "/driveways/", "guide_title": "Driveway Guide", "primary_question": {"id": "surface_band", "label": "How will surface water drain?", "options": [{"value": "permeable", "label": "Permeable or soakaway", "hint": "Water soaks away within the property."}, {"value": "mixed", "label": "Not fully confirmed", "hint": "Drainage solution is mixed or still unclear."}, {"value": "sealed", "label": "Impermeable to the road", "hint": "Water would run to the highway or public sewer without a soakaway solution."}]}, "secondary_question": {"id": "area_band", "label": "How large is the surfaced area?", "options": [{"value": "small", "label": "Around 5m\u00b2 or less", "hint": "A small patch or limited parking bay."}, {"value": "large", "label": "Larger than 5m\u00b2", "hint": "Most front garden parking projects fall into this category."}]}, "binary_questions": [{"id": "front_garden", "label": "Is it mainly on the front garden facing the road?", "help": "Front garden hard surfacing is where the drainage rule matters most."}], "common_changes": ["Whether the surface is permeable or drains within the site.", "Whether the area is larger than around 5 square metres.", "Whether a new dropped kerb is also needed.", "Conservation area or Article 4 controls."], "next_checks": ["Confirm exactly where surface water will drain.", "Separate the driveway surface question from any dropped kerb or highway licence question.", "Open the driveway guide if the area is in the front garden or drainage is not yet clear."], "related_pages": [{"title": "Dropped Kerbs", "href": "/dropped-kerbs/", "description": "Use this if the project also needs a new vehicle access from the road."}, {"title": "Planning Permission", "href": "/planning-permission/", "description": "Helpful where impermeable surfacing or local controls change the route."}]}, {"id": "fences-walls", "label": "Fence, gate or wall", "description": "Useful for boundary walls, fences and gates where height is the key issue.", "guide_href": "/fences-and-walls/", "guide_title": "Fences and Walls Guide", "primary_question": {"id": "height_band", "label": "How tall is the fence, wall or gate?", "options": [{"value": "low", "label": "Low", "hint": "At or below about 1 metre."}, {"value": "medium", "label": "Medium", "hint": "Between about 1 and 2 metres."}, {"value": "high", "label": "High", "hint": "Over about 2 metres."}]}, "secondary_question": {"id": "location_band", "label": "Where is it mainly located?", "options": [{"value": "road", "label": "Fronting a road or footpath", "hint": "This is the stricter height situation."}, {"value": "side-rear", "label": "Side or rear boundary", "hint": "Usually the simpler height threshold."}]}, "common_changes": ["Height measured from the right ground level.", "Whether the boundary fronts a highway used by vehicles or pedestrians.", "Whether the wall or gate sits at the front of the house.", "Conservation area, listed building or local design controls."], "next_checks": ["Measure height from the lowest adjoining ground level, not just from the garden side.", "Check whether the boundary fronts a highway or footpath.", "Open the fence and wall guide if the structure is near or above the common thresholds."], "related_pages": [{"title": "Boundary Rules", "href": "/boundary-rules/", "description": "Helpful if the boundary relationship itself is the blocker."}, {"title": "Planning Permission", "href": "/planning-permission/", "description": "Use this when height or highway position pushes the project out of the simple route."}]}, {"id": "dropped-kerb", "label": "Dropped kerb", "description": "Best for a new vehicle crossover or access across the pavement.", "guide_href": "/dropped-kerbs/", "guide_title": "Dropped Kerb Guide", "primary_question": {"id": "road_band", "label": "What sort of road is it on?", "options": [{"value": "local", "label": "Minor residential road", "hint": "A typical local street without obvious highway complications."}, {"value": "uncertain", "label": "Not sure", "hint": "Road status is not confirmed yet."}, {"value": "classified", "label": "Busier or classified road", "hint": "A road where visibility and planning control are more likely to matter."}]}, "secondary_question": {"id": "access_band", "label": "How straightforward is the frontage?", "options": [{"value": "simple", "label": "Straightforward frontage", "hint": "Plenty of width and no obvious shared-access complication."}, {"value": "awkward", "label": "Shared, tight or awkward", "hint": "Visibility, width or the access arrangement already looks challenging."}]}, "common_changes": ["Road classification and visibility.", "Whether a new parking area or driveway is also part of the project.", "Highway approval requirements alongside planning.", "Conservation area or Article 4 controls."], "next_checks": ["Check the highways route as well as the planning route.", "Confirm the road classification and whether visibility standards are likely to bite.", "Open the dropped kerb guide before assuming the simpler route applies."], "related_pages": [{"title": "Driveways", "href": "/driveways/", "description": "Useful when the crossover is part of a wider front garden parking project."}, {"title": "Local Authorities", "href": "/councils/", "description": "Helpful when local highways or planning expectations are the real blocker."}]}], "default_links": [{"title": "What Can I Build? Explorer", "href": "/tools/what-can-i-build-explorer/", "description": "Use this if you are still deciding which kind of project is worth checking in more detail."}, {"title": "Planning Permission", "href": "/planning-permission/", "description": "The main hub when the answer points toward an application or a closer check."}, {"title": "Permitted Development", "href": "/permitted-development/", "description": "Helpful for the baseline rights behind the simpler route."}, {"title": "Planning Rejection Risk Analyzer", "href": "/tools/planning-rejection-risk-analyzer/", "description": "Use this if the likely route is already clear and you want to stress-test the main refusal risks."}, {"title": "Local Authorities", "href": "/councils/", "description": "Best when local designations or council context could change the answer."}, {"title": "Planning FAQ", "href": "/planning-faq/do-i-need-planning-permission/", "description": "A practical next read when the process itself still feels unclear."}]};
+  const engine = document.getElementById("planning-decision-engine");
+  if (!engine) {
+    return;
+  }
+
+  const STATUS_RANK = { likely_pd: 0, may_need: 1, likely_needs: 2 };
+  const STATUS_COPY = {
+    likely_pd: { label: "Likely permitted development", tone: "good", summary(project) { return "Based on these answers, this " + project.label.toLowerCase() + " still looks like the kind of project that can often stay within the normal householder route."; } },
+    may_need: { label: "May need planning permission", tone: "warn", summary(project) { return "Based on these answers, this " + project.label.toLowerCase() + " is no longer an obvious permitted development case and needs a closer check."; } },
+    likely_needs: { label: "Likely needs planning permission", tone: "danger", summary(project) { return "Based on these answers, this " + project.label.toLowerCase() + " is pushing outside the simpler route in many cases."; } },
+    depends: { label: "Depends on additional local constraints", tone: "info", summary(project) { return "The baseline answer for this " + project.label.toLowerCase() + " is being changed by local designations or missing local detail, so the local layer matters before you rely on it."; } },
+  };
+  const STEP_NAMES = ["Project", "Property", "Details", "Review"];
+  const projectMap = Object.fromEntries(CONFIG.projects.map((project) => [project.id, project]));
+
+  function createState() {
+    return { step: 1, project: "", property: "", previousWork: "", constraints: [], detailAnswers: {}, loading: false, result: null };
+  }
+
+  let state = createState();
+
+  function escapeHtml(value) {
+    return String(value || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+
+  function project() { return projectMap[state.project] || null; }
+  function optionLabel(options, value) { const match = (options || []).find((item) => item.value === value); return match ? match.label : ""; }
+  function answerLabel(question, value) { if (!question) { return value === "yes" ? "Yes" : value === "no" ? "No" : ""; } return optionLabel(question.options || [], value); }
+  function propertyLabel() { return optionLabel(CONFIG.property_types, state.property); }
+  function previousWorkLabel() { return optionLabel(CONFIG.previous_work_options, state.previousWork); }
+  function constraintLabels() { return state.constraints.map((value) => optionLabel(CONFIG.constraint_options, value)).filter(Boolean); }
+  function isHouseholderProject(projectId) { return ["rear-extension", "side-extension", "loft-conversion", "garden-room", "porch", "garage-conversion"].includes(projectId); }
+  function logToolEvent(type, detail) { if (window.console && typeof window.console.log === "function") { window.console.log("[planning-decision-tool]", type, detail || ""); } }
+
+  function requiredForStep(stepNumber) {
+    const currentProject = project();
+    if (stepNumber === 1) { return Boolean(state.project); }
+    if (stepNumber === 2) { return Boolean(state.property && state.previousWork); }
+    if (stepNumber === 3) {
+      if (!currentProject) { return false; }
+      const answers = state.detailAnswers;
+      if (!answers[currentProject.primary_question.id]) { return false; }
+      if (currentProject.secondary_question && !answers[currentProject.secondary_question.id]) { return false; }
+      return (currentProject.binary_questions || []).every((question) => Boolean(answers[question.id]));
+    }
+    if (stepNumber === 4) { return requiredForStep(1) && requiredForStep(2) && requiredForStep(3); }
+    return false;
+  }
+
+
+  const MOBILE_LAYOUT_BREAKPOINT = 767;
+  const compactLayoutQuery = window.matchMedia("(max-width: " + MOBILE_LAYOUT_BREAKPOINT + "px)");
+  let compactLayout = compactLayoutQuery.matches;
+
+  function isCompactLayout() {
+    return compactLayout;
+  }
+
+  function syncCompactLayout(event) {
+    const next = event && typeof event.matches === "boolean"
+      ? event.matches
+      : compactLayoutQuery.matches;
+    if (next !== compactLayout) {
+      compactLayout = next;
+      render();
+    }
+  }
+
+  if (typeof compactLayoutQuery.addEventListener === "function") {
+    compactLayoutQuery.addEventListener("change", syncCompactLayout);
+  } else if (typeof compactLayoutQuery.addListener === "function") {
+    compactLayoutQuery.addListener(syncCompactLayout);
+  }
+
+  function renderProgressLabels(stepNames, currentStep, hasResult) {
+    return stepNames.map((name, index) => {
+      const stepNumber = index + 1;
+      const classes = [
+        "decision-step-label",
+        hasResult ? "done" : "",
+        currentStep === stepNumber && !hasResult ? "active" : "",
+        stepNumber < currentStep || (stepNumber <= stepNames.length && hasResult) ? "done" : "",
+      ].filter(Boolean).join(" ");
+      return "<div class='" + classes + "'><span class='decision-step-number'>Step " + stepNumber + "</span><span class='decision-step-name'>" + escapeHtml(name) + "</span></div>";
+    }).join("");
+  }
+
+  function renderMobileStepChips(stepNames, currentStep, hasResult) {
+    return stepNames.map((name, index) => {
+      const stepNumber = index + 1;
+      const classes = [
+        "decision-mobile-chip",
+        hasResult ? "done" : "",
+        currentStep === stepNumber && !hasResult ? "active" : "",
+        stepNumber < currentStep || hasResult ? "done" : "",
+      ].filter(Boolean).join(" ");
+      return "<span class='" + classes + "' aria-label='" + escapeHtml("Step " + stepNumber + ": " + name) + "'>" + stepNumber + "</span>";
+    }).join("");
+  }
+
+  function renderTrustNote() {
+    return "<div class='decision-trust-note'><strong>UK planning baseline</strong><span>Based on common UK planning and permitted development rules. Always confirm with your local council if the project is close to a limit or affected by local controls.</span></div>";
+  }
+
+  const SHARED_FOLLOW_ON_TOOLS = [
+    { slug: "planning-decision-tool", title: "Planning checker", href: "/tools/planning-decision-tool/", description: "Run the full rule-based planning check for a clearer route answer." },
+    { slug: "permitted-development-calculator", title: "Size calculator", href: "/tools/permitted-development-calculator/", description: "Use the fast dimensions-first calculator for a simpler first pass." },
+    { slug: "planning-route-planner", title: "Route planner", href: "/tools/planning-route-planner/", description: "Compare the likely planning paths when the answer still feels mixed." }
+  ];
+  const RULE_LINK_PREFIXES = [
+    "/planning-permission/",
+    "/permitted-development/",
+    "/height-limits/",
+    "/boundary-rules/",
+    "/conservation-areas/",
+    "/maximum-height/",
+    "/distance-from-boundary/",
+    "/roof-alterations/",
+    "/article-4/",
+    "/listed-buildings/",
+    "/depth-limits/"
+  ];
+
+  function ensureLink(target, item) {
+    if (item && item.href && !target.some((link) => link.href === item.href)) {
+      target.push(item);
+    }
+  }
+
+  function classifyPrimaryLink(item) {
+    const href = item && item.href ? String(item.href) : "";
+    if (!href) {
+      return "other";
+    }
+    if (href.indexOf("/planning-faq/") === 0) {
+      return "faq";
+    }
+    if (href.indexOf("/councils/") === 0 || href === "/councils/") {
+      return "authority";
+    }
+    if (href.indexOf("/tools/") === 0) {
+      return "tool";
+    }
+    if (RULE_LINK_PREFIXES.some((prefix) => href.indexOf(prefix) === 0)) {
+      return "rule";
+    }
+    if (href.indexOf("/") === 0) {
+      return "project";
+    }
+    return "other";
+  }
+
+  function firstLinkByCategory(links, category) {
+    return (links || []).find((item) => classifyPrimaryLink(item) === category) || null;
+  }
+
+  function buildCoreNextLinks(options) {
+    const curated = [];
+    const links = options.links || [];
+
+    ensureLink(curated, options.projectLink || firstLinkByCategory(links, "project"));
+    ensureLink(curated, options.ruleLink || firstLinkByCategory(links, "rule"));
+    ensureLink(curated, options.faqLink || firstLinkByCategory(links, "faq"));
+    ensureLink(
+      curated,
+      options.authorityLink || firstLinkByCategory(links, "authority") || {
+        title: "Local Authorities",
+        href: "/councils/",
+        description: "Compare the local authority layer before relying on the answer.",
+      }
+    );
+
+    return curated.filter(Boolean);
+  }
+
+  function defaultNextTool(currentSlug) {
+    const fallback = currentSlug === "what-can-i-build-explorer"
+      ? { href: "/tools/planning-decision-tool/", title: "Use another tool", description: "Move from project ideas into the full planning checker." }
+      : { href: "/tools/what-can-i-build-explorer/", title: "Use another tool", description: "Open the project explorer to compare other directions for the site." };
+    return fallback;
+  }
+
+  function renderPostResultExtras(options) {
+    const currentSlug = options.toolSlug || "";
+    const resultLabel = options.resultLabel || "Result saved";
+    const nextTool = options.nextTool || defaultNextTool(currentSlug);
+    const guideHref = options.guideHref || "/planning-permission/";
+    const guideTitle = options.guideTitle || "Planning permission guide";
+    const nextSteps = [
+      { title: "View full guide", href: guideHref, description: "Open the longer guide behind this result." },
+      { title: "Check rules in your area", href: "/councils/", description: "Compare the local authority layer before relying on the answer." },
+      nextTool
+    ];
+    const relatedTools = SHARED_FOLLOW_ON_TOOLS.filter((item) => item.slug !== currentSlug).slice(0, 3);
+    return "<section class='decision-follow-up'><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Next steps</span><h3>Keep moving while the result is fresh</h3><p>Use the next best action below to confirm the answer, localise it, or move into a deeper tool.</p></div><div class='decision-follow-up-grid'>" + nextSteps.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description || "Open the next planning step.") + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Related tools</span><h3>Continue with another planning check</h3><p>These follow-on tools help you pressure-test the same project from a different angle without starting your research from scratch.</p></div><div class='decision-follow-up-grid'>" + relatedTools.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description) + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Save this result</span><h3>Want this result emailed to you?</h3><p>This is a lightweight placeholder for now. Save it on this device so you can come back to the same result later.</p></div><div class='decision-email-capture' data-tool-email-capture='" + escapeHtml(currentSlug) + "' data-result-label='" + escapeHtml(resultLabel) + "'><input type='email' class='decision-email-input' placeholder='name@example.com' inputmode='email' autocomplete='email' aria-label='Email address for this result'><button type='button' class='cta decision-email-button' onclick='window.__ukpgSaveToolEmail && window.__ukpgSaveToolEmail(this)'>Save on this device</button><p class='decision-email-note'>No backend is connected yet. This only stores the email locally on this device.</p></div></div><div class='decision-inline-note'>This is a guide based on UK planning rules. Always confirm with your local council.</div></section>";
+  }
+
+  window.__ukpgSaveToolEmail = function (button) {
+    try {
+      const wrapper = button && button.closest("[data-tool-email-capture]");
+      if (!wrapper) {
+        return;
+      }
+      const input = wrapper.querySelector(".decision-email-input");
+      const note = wrapper.querySelector(".decision-email-note");
+      const email = input ? String(input.value || "").trim() : "";
+      if (!email || email.indexOf("@") === -1) {
+        if (note) {
+          note.textContent = "Enter a valid email to save this result on this device.";
+        }
+        return;
+      }
+      const payload = {
+        email: email,
+        resultLabel: wrapper.getAttribute("data-result-label") || "Planning tool result",
+        savedAt: new Date().toISOString()
+      };
+      window.localStorage.setItem("ukpg-tool-email:" + (wrapper.getAttribute("data-tool-email-capture") || "tool"), JSON.stringify(payload));
+      if (note) {
+        note.textContent = "Saved on this device only. A real email send can plug into this later.";
+      }
+    } catch (error) {
+      const wrapper = button && button.closest("[data-tool-email-capture]");
+      const note = wrapper ? wrapper.querySelector(".decision-email-note") : null;
+      if (note) {
+        note.textContent = "This browser blocked local storage, so the placeholder save could not be stored.";
+      }
+    }
+  };
+
+  function renderProgressIntro(options, currentName) {
+    const title = options.hasResult ? "Result ready" : ("Step " + options.currentStep + " of " + options.stepNames.length);
+    const detail = options.hasResult
+      ? "You have a structured outcome with follow-on checks and next pages."
+      : ("Current focus: " + currentName + ". Complete each step to unlock the full result.");
+    return "<div class='decision-progress-top'><strong>" + escapeHtml(title) + "</strong><span>" + escapeHtml(detail) + "</span></div>";
+  }
+
+  function renderDesktopToolShell(options) {
+    const currentName = options.hasResult ? "Result" : (options.stepNames[options.currentStep - 1] || "Review");
+    return "<div class='decision-desktop-shell'><div class='decision-engine-header'><div><span class='decision-kicker'>" + escapeHtml(options.kicker) + "</span><h2>" + escapeHtml(options.heading) + "</h2><p class='tool-summary'>" + escapeHtml(options.intro) + "</p>" + renderTrustNote() + "</div><div class='decision-header-actions'>" + options.actionsHtml + "</div></div><div class='decision-progress'>" + renderProgressIntro(options, currentName) + "<div class='decision-progress-bar'><span style='width:" + options.progress + "%'></span></div><div class='decision-step-labels'>" + renderProgressLabels(options.stepNames, options.currentStep, options.hasResult) + "</div></div><div class='decision-layout'><div class='decision-panel'>" + options.contentHtml + "</div>" + options.sidebarHtml + "</div></div>";
+  }
+
+  function renderMobileToolShell(options) {
+    const currentName = options.hasResult ? "Result" : (options.stepNames[options.currentStep - 1] || "Review");
+    const introLabel = options.hasResult ? "Result ready" : ("Step " + options.currentStep + " of " + options.stepNames.length);
+    const introCopy = options.hasResult
+      ? "Your structured result and follow-on guidance are ready below."
+      : ("Current focus: " + currentName + ". Complete each step to unlock the full result.");
+    const summaryBlock = "<div class='decision-mobile-calculator-summary'><h3>" + escapeHtml(options.summaryTitle || "Your answers") + "</h3><div class='decision-summary-list'>" + options.summaryHtml + "</div>" + (options.noteHtml ? "<div class='decision-method-note'>" + options.noteHtml + "</div>" : "") + "</div>";
+    return "<div class='decision-mobile-calculator-shell'><div class='decision-mobile-calculator-header'><div><span class='decision-kicker'>" + escapeHtml(options.kicker) + "</span><h2>" + escapeHtml(options.heading) + "</h2><p class='tool-summary'>" + escapeHtml(options.intro) + "</p>" + renderTrustNote() + "</div><div class='decision-mobile-calculator-actions'>" + options.actionsHtml + "</div></div><div class='decision-mobile-calculator-body'><div class='decision-mobile-calculator-panel'><div class='decision-mobile-calculator-step-intro'><strong>" + escapeHtml(introLabel) + "</strong><p>" + escapeHtml(introCopy) + "</p><div class='decision-progress-bar'><span style='width:" + options.progress + "%'></span></div><div class='decision-step-labels'>" + renderProgressLabels(options.stepNames, options.currentStep, options.hasResult) + "</div></div>" + options.contentHtml + "</div>" + summaryBlock + "</div></div>";
+  }
+
+  function renderResponsiveToolShellInto(target, options) {
+    if (!target) {
+      return;
+    }
+    const markup = "<div class='decision-shell decision-shell-desktop' data-tool-shell='desktop'>" + renderDesktopToolShell(options) + "</div><div class='decision-shell decision-shell-mobile' data-tool-shell='mobile'>" + renderMobileToolShell(options) + "</div>";
+    target.innerHTML = markup;
+    if (typeof target.setAttribute === "function") {
+      target.setAttribute("data-tool-layout", isCompactLayout() ? "mobile" : "desktop");
+    }
+  }
+
+
+  function pushUnique(target, text) { if (text && !target.includes(text)) { target.push(text); } }
+  function pushLink(result, item) { if (item && item.href && !result.links.some((link) => link.href === item.href)) { result.links.push(item); } }
+  function raiseMinStatus(result, status) { if (STATUS_RANK[status] > STATUS_RANK[result.minStatus]) { result.minStatus = status; } }
+  function hasConstraint(key) { return state.constraints.includes(key); }
+
+  function buildResultBase(currentProject) {
+    const base = {
+      hardNeed: false,
+      localDependency: false,
+      caution: 0,
+      minStatus: "likely_pd",
+      reasons: [],
+      changes: [...(currentProject.common_changes || [])],
+      checks: [...(currentProject.next_checks || [])],
+      links: [],
+    };
+
+    pushLink(base, { title: currentProject.guide_title, href: currentProject.guide_href, description: "Open the main guide for the measurement rules and common tripwires behind this result." });
+    (currentProject.related_pages || []).forEach((item) => pushLink(base, item));
+    (CONFIG.default_links || []).forEach((item) => pushLink(base, item));
+    return base;
+  }
+
+  function applyGlobalChecks(currentProject, result) {
+    if (state.property === "flat") {
+      if (isHouseholderProject(currentProject.id)) {
+        result.hardNeed = true;
+        pushUnique(result.reasons, "Flats and maisonettes usually do not benefit from the normal householder permitted development rights used for this kind of project.");
+      } else {
+        result.caution += 1;
+        raiseMinStatus(result, "may_need");
+        pushUnique(result.reasons, "Flats and maisonettes often have a tighter route than houses, so the simple answer is less reliable.");
+      }
+    }
+
+    if (state.property === "other") {
+      result.localDependency = true;
+      pushUnique(result.reasons, "This tool is tuned to common home projects, so unusual building types need a closer project-specific check.");
+    }
+
+    if (state.previousWork === "yes" && isHouseholderProject(currentProject.id)) {
+      result.caution += 1;
+      raiseMinStatus(result, "may_need");
+      pushUnique(result.reasons, "Previous extensions or roof changes can use up allowances that this quicker answer depends on.");
+    }
+
+    if (hasConstraint("listed")) {
+      result.hardNeed = true;
+      pushUnique(result.reasons, "Listed building controls usually mean the project needs a more formal consent route.");
+      pushLink(result, { title: "Listed Buildings", href: "/listed-buildings/", description: "Use this when heritage controls are likely to override the normal householder route." });
+      pushUnique(result.checks, "Check whether listed building consent is needed alongside planning permission.");
+    }
+
+    if (hasConstraint("conservation")) {
+      result.localDependency = true;
+      pushUnique(result.reasons, "Conservation area controls can tighten what is possible or change how the design is judged.");
+      pushLink(result, { title: "Conservation Areas", href: "/conservation-areas/", description: "Helpful when heritage controls are likely to change the baseline answer." });
+    }
+
+    if (hasConstraint("article4")) {
+      result.localDependency = true;
+      pushUnique(result.reasons, "An Article 4 direction can remove permitted development rights that would normally be available.");
+      pushLink(result, { title: "Article 4 Restrictions", href: "/article-4/", description: "Open this if local directions may remove the normal PD route." });
+    }
+
+    if (hasConstraint("unsure")) {
+      result.localDependency = true;
+      pushUnique(result.reasons, "The answer depends on whether local designations apply, so that local layer needs checking first.");
+      pushUnique(result.checks, "Use the council or local authority page to confirm whether conservation area, Article 4 or heritage controls apply.");
+    }
+  }
+
+  function assessProjectSpecific(currentProject, result) {
+    const answers = state.detailAnswers;
+
+    switch (currentProject.id) {
+      case "rear-extension":
+        if (answers.form_band === "two-storey") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "A two-storey rear extension is a much harder fit for the simple householder route.");
+        }
+        if (answers.size_band === "large") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "The depth looks clearly beyond the usual rear extension limits.");
+        }
+        if (answers.size_band === "borderline") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "The depth looks close to the normal rear extension threshold.");
+        }
+        if (answers.form_band === "single-tall") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "Height can become the deciding factor even on a single-storey rear extension.");
+        }
+        if (answers.near_boundary === "yes") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "Being close to a boundary makes the height check more sensitive.");
+        }
+        break;
+
+      case "side-extension":
+        if (answers.forward_of_house === "yes") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "Projecting forward of the main front wall often moves a side extension out of the simple route.");
+        }
+        if (answers.form_band === "two-storey") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "A two-storey side extension usually needs a more formal planning route.");
+        }
+        if (answers.size_band === "wide") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "The width looks beyond the usual side extension comfort zone.");
+        }
+        if (answers.size_band === "borderline") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "The width looks close to the point where side extensions become borderline.");
+        }
+        if (answers.form_band === "single-tall") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "A taller side extension needs a closer height and design check.");
+        }
+        if (answers.near_boundary === "yes") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "Boundary proximity makes the neighbour and height rules more important.");
+        }
+        break;
+
+      case "loft-conversion":
+        if (answers.roof_change === "major") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "A major roof reshaping project is unlikely to stay inside the simplest loft route.");
+        }
+        if (answers.front_facing === "yes") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "A front-facing dormer or major front roof change often moves the answer toward planning permission.");
+        }
+        if (answers.roof_change === "moderate") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "A noticeable roof enlargement usually needs a more detailed volume and design check.");
+        }
+        break;
+
+      case "garden-room":
+        if (answers.use_band === "sleeping") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "Sleeping or living use makes a garden room much less likely to stay within the simpler outbuilding route.");
+        }
+        if (answers.forward_of_house === "yes") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "An outbuilding in front of the main house wall is usually a harder planning route.");
+        }
+        if (answers.height_band === "high") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "The height looks beyond the usual outbuilding envelope.");
+        }
+        if (answers.height_band === "medium") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "The height looks close to the limit where exact measurement matters.");
+        }
+        if (answers.near_boundary === "yes") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "Being near a boundary makes the height threshold much more important.");
+        }
+        break;
+
+      case "porch":
+        if (answers.footprint_band === "large") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "The porch looks larger than the usual small-porch allowance.");
+        }
+        if (answers.height_band === "high") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "A taller porch often falls outside the simpler route.");
+        }
+        if (answers.within_two_metres_highway === "yes") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "Being within about 2 metres of a highway or front boundary is a common porch tripwire.");
+        }
+        if (answers.footprint_band === "medium") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "The footprint is close enough to the normal limit that the exact area matters.");
+        }
+        break;
+
+      case "garage-conversion":
+        if (answers.change_band === "major") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "Major external change or extra footprint makes a garage conversion much less likely to stay inside the simple route.");
+        }
+        if (answers.change_band === "minor") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "Visible external changes usually need a closer planning check than internal-only conversions.");
+        }
+        if (answers.parking_band === "affected") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "Parking and access can become the planning issue even where the conversion itself looks simple.");
+        }
+        break;
+
+      case "driveway":
+        if (answers.front_garden === "yes" && answers.surface_band === "sealed" && answers.area_band === "large") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "A larger impermeable front garden surface draining toward the road often needs planning permission.");
+        } else if (answers.front_garden === "yes" && (answers.surface_band !== "permeable" || answers.area_band === "large")) {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "Front garden hard surfacing needs a closer drainage check before the answer is safe.");
+        } else if (answers.surface_band === "sealed") {
+          result.caution += 1;
+          raiseMinStatus(result, "may_need");
+          pushUnique(result.reasons, "Impermeable surfacing still needs checking even if the front garden point is less obvious.");
+        }
+        break;
+
+      case "fences-walls":
+        if (answers.location_band === "road" && answers.height_band !== "low") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "Height next to a road or footpath is usually the deciding fence and wall tripwire.");
+        } else if (answers.location_band === "side-rear" && answers.height_band === "high") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "A boundary structure over about 2 metres high often needs planning permission.");
+        }
+        break;
+
+      case "dropped-kerb":
+        raiseMinStatus(result, "may_need");
+        pushUnique(result.reasons, "Dropped kerbs usually involve a highways process even when planning permission is not the only consent route.");
+        if (answers.road_band === "classified") {
+          result.hardNeed = true;
+          pushUnique(result.reasons, "A busier or classified road makes a formal route much more likely.");
+        }
+        if (answers.road_band === "uncertain") {
+          result.caution += 1;
+          pushUnique(result.reasons, "Road status is not clear yet, which makes the planning route harder to call.");
+        }
+        if (answers.access_band === "awkward") {
+          result.caution += 1;
+          pushUnique(result.reasons, "A tight, shared or awkward frontage needs a closer highways and planning review.");
+        }
+        break;
+    }
+  }
+
+  function finalizeResult(currentProject, result) {
+    let status = "likely_pd";
+    if (result.hardNeed) {
+      status = "likely_needs";
+    } else if (result.localDependency) {
+      status = "depends";
+    } else if (result.caution > 0 || result.minStatus !== "likely_pd") {
+      status = "may_need";
+    }
+
+    if (status !== "depends" && STATUS_RANK[result.minStatus] > STATUS_RANK[status]) {
+      status = result.minStatus;
+    }
+
+    if (!result.reasons.length) {
+      pushUnique(result.reasons, "The project details look comfortably inside the common triggers this tool checks first.");
+    }
+
+    return {
+      status,
+      reasons: result.reasons.slice(0, 4),
+      changes: result.changes.slice(0, 4),
+      checks: result.checks.slice(0, 4),
+      links: result.links.slice(0, 6),
+      summary: STATUS_COPY[status].summary(currentProject),
+    };
+  }
+
+  function assess() {
+    const currentProject = project();
+    const result = buildResultBase(currentProject);
+    applyGlobalChecks(currentProject, result);
+    assessProjectSpecific(currentProject, result);
+    return finalizeResult(currentProject, result);
+  }
+
+  function summaryItems() {
+    const currentProject = project();
+    if (!currentProject) {
+      return [];
+    }
+
+    const items = [
+      { label: "Project", value: currentProject.label },
+      { label: "Property", value: propertyLabel() || "Not chosen yet" },
+      { label: "Previous additions", value: previousWorkLabel() || "Not chosen yet" },
+      { label: "Constraints", value: constraintLabels().length ? constraintLabels().join(", ") : "None selected" },
+    ];
+    const answers = state.detailAnswers;
+
+    if (currentProject.primary_question) {
+      items.push({ label: currentProject.primary_question.label, value: answerLabel(currentProject.primary_question, answers[currentProject.primary_question.id]) || "Not chosen yet" });
+    }
+    if (currentProject.secondary_question) {
+      items.push({ label: currentProject.secondary_question.label, value: answerLabel(currentProject.secondary_question, answers[currentProject.secondary_question.id]) || "Not chosen yet" });
+    }
+    (currentProject.binary_questions || []).forEach((question) => {
+      items.push({ label: question.label, value: answers[question.id] === "yes" ? "Yes" : answers[question.id] === "no" ? "No" : "Not chosen yet" });
+    });
+    return items;
+  }
+
+  function renderChoiceGrid(options, selectedValue, action, extraAttributes) {
+    return "<div class='decision-choice-grid'>" + options.map((option) => {
+      const optionValue = option.value || option.id || "";
+      const selected = optionValue === selectedValue ? " selected" : "";
+      return "<button type='button' class='decision-choice" + selected + "' data-action='" + action + "' data-value='" + escapeHtml(optionValue) + "'" + (extraAttributes || "") + "><strong>" + escapeHtml(option.label) + "</strong><span>" + escapeHtml(option.hint || "") + "</span></button>";
+    }).join("") + "</div>";
+  }
+
+  function renderBinaryQuestion(question, currentValue) {
+    return "<div class='decision-question'><h4>" + escapeHtml(question.label) + "</h4>" + renderChoiceGrid([{ value: "yes", label: "Yes", hint: question.help || "Yes." }, { value: "no", label: "No", hint: question.help || "No." }], currentValue, "set-binary", " data-question-id='" + escapeHtml(question.id) + "'") + "</div>";
+  }
+
+  function decisionFaqLink(statusKey) {
+    if (statusKey === "likely_pd" || statusKey === "depends") {
+      return {
+        title: "Lawful Development Certificate Vs Planning Permission",
+        href: "/planning-faq/lawful-development-certificate-vs-planning-permission/",
+        description: "Useful when the route still looks simpler but written proof may be worth securing before work starts.",
+      };
+    }
+    return {
+      title: "Planning Permission Vs Permitted Development",
+      href: "/planning-faq/planning-permission-vs-permitted-development/",
+      description: "Useful when the result sits between the simpler route and a fuller planning application.",
+    };
+  }
+
+  function decisionRuleLink(statusKey) {
+    if (statusKey === "likely_pd") {
+      return {
+        title: "Permitted Development",
+        href: "/permitted-development/",
+        description: "Open the baseline rights behind the simpler route this result is testing.",
+      };
+    }
+    return {
+      title: "Planning Permission",
+      href: "/planning-permission/",
+      description: "Open the formal-route hub when the project is pushing beyond the simpler planning answer.",
+    };
+  }
+
+  function renderStepContent() {
+    const currentProject = project();
+
+    if (state.loading) {
+      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Checking your project details against the rule-based guidance...</h3><p>This is a short UI pause so the result appears in sequence. The answer itself is coming from structured rules, not free-text AI.</p></div>";
+    }
+
+    if (state.result && currentProject) {
+      const status = STATUS_COPY[state.result.status];
+      const primaryLinks = buildCoreNextLinks({
+        links: state.result.links,
+        projectLink: { title: currentProject.guide_title, href: currentProject.guide_href, description: "Open the main project guide behind this route result." },
+        ruleLink: decisionRuleLink(state.result.status),
+        faqLink: decisionFaqLink(state.result.status),
+        authorityLink: {
+          title: "Local Authorities",
+          href: "/councils/",
+          description: state.result.status === "depends"
+            ? "Use the local authority layer because local controls are changing the baseline answer here."
+            : "Use the authority layer if the site is sensitive or the result still feels borderline.",
+        },
+      });
+      return "<div class='decision-result'><div class='decision-result-banner " + status.tone + "'><div class='decision-status'>" + escapeHtml(status.label) + "</div><h3>" + escapeHtml(currentProject.label) + "</h3><p>" + escapeHtml(state.result.summary) + "</p></div><div class='decision-result-grid'><div class='decision-result-card'><h3>Why this result was reached</h3><ul>" + state.result.reasons.map((item) => "<li>" + escapeHtml(item) + "</li>").join("") + "</ul></div><div class='decision-result-card'><h3>What commonly changes the answer</h3><ul>" + state.result.changes.map((item) => "<li>" + escapeHtml(item) + "</li>").join("") + "</ul></div><div class='decision-result-card'><h3>What to check next</h3><ul>" + state.result.checks.map((item) => "<li>" + escapeHtml(item) + "</li>").join("") + "</ul></div></div><div><h3>Best next pages</h3><div class='decision-result-links'>" + primaryLinks.map((item) => "<a class='decision-result-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description || "Open the next guide.") + "</span></a>").join("") + "</div></div>" + renderPostResultExtras({ toolSlug: "planning-decision-tool", guideHref: currentProject.guide_href, guideTitle: currentProject.guide_title, resultLabel: status.label, nextTool: { href: "/tools/planning-rejection-risk-analyzer/", title: "Use another tool", description: "Move into the rejection risk analyzer to pressure-test the same project." } }) + "<div class='decision-nav'><button type='button' class='button-secondary' data-action='edit-result'>Edit answers</button><button type='button' class='button-secondary' data-action='reset'>Start again</button></div></div>";
+    }
+
+    if (state.step === 1) {
+      return "<div class='decision-step-copy'><h3>What kind of project are you checking?</h3><p>Choose the closest project type. The next steps will switch to the measurements and tripwires that matter most for that kind of work.</p></div>" + renderChoiceGrid(CONFIG.projects, state.project, "choose-project") + "<div class='decision-nav'><span></span><button type='button' class='cta' data-action='next' " + (requiredForStep(1) ? "" : "disabled") + ">Continue</button></div>";
+    }
+
+    if (state.step === 2) {
+      return "<div class='decision-step-copy'><h3>Tell the tool about the property</h3><p>These checks matter because the same project can follow a different route on a house, a flat, or a site affected by local controls.</p></div><div class='decision-question'><h4>Property type</h4>" + renderChoiceGrid(CONFIG.property_types, state.property, "choose-property") + "</div><div class='decision-question'><h4>Previous extensions or major roof changes already on the property?</h4>" + renderChoiceGrid(CONFIG.previous_work_options, state.previousWork, "choose-previous-work") + "</div><div class='decision-question'><h4>Special local constraints</h4><div class='decision-chip-row'>" + CONFIG.constraint_options.map((option) => { const selected = state.constraints.includes(option.value) ? " selected" : ""; return "<button type='button' class='decision-chip" + selected + "' data-action='toggle-constraint' data-value='" + escapeHtml(option.value) + "'>" + escapeHtml(option.label) + "</button>"; }).join("") + "</div><div class='decision-question-note'>Select any that already apply. Leave them clear if you know they do not apply.</div></div><div class='decision-nav'><button type='button' class='button-secondary' data-action='prev'>Back</button><button type='button' class='cta' data-action='next' " + (requiredForStep(2) ? "" : "disabled") + ">Continue</button></div>";
+    }
+
+    if (state.step === 3 && currentProject) {
+      const answers = state.detailAnswers;
+      return "<div class='decision-step-copy'><h3>Check the size, form and siting</h3><p>" + escapeHtml(currentProject.description) + " Answer the questions below with the closest structured option rather than a perfect technical measurement.</p></div><div class='decision-question'><h4>" + escapeHtml(currentProject.primary_question.label) + "</h4>" + renderChoiceGrid(currentProject.primary_question.options, answers[currentProject.primary_question.id], "set-detail", " data-question-id='" + escapeHtml(currentProject.primary_question.id) + "'") + "</div>" + (currentProject.secondary_question ? "<div class='decision-question'><h4>" + escapeHtml(currentProject.secondary_question.label) + "</h4>" + renderChoiceGrid(currentProject.secondary_question.options, answers[currentProject.secondary_question.id], "set-detail", " data-question-id='" + escapeHtml(currentProject.secondary_question.id) + "'") + "</div>" : "") + ((currentProject.binary_questions || []).length ? "<div class='decision-binary-grid'>" + currentProject.binary_questions.map((question) => renderBinaryQuestion(question, answers[question.id])).join("") + "</div>" : "") + "<div class='decision-nav'><button type='button' class='button-secondary' data-action='prev'>Back</button><button type='button' class='cta' data-action='next' " + (requiredForStep(3) ? "" : "disabled") + ">Continue</button></div>";
+    }
+
+    if (state.step === 4 && currentProject) {
+      const cards = summaryItems().map((item) => "<div class='decision-review-card'><strong>" + escapeHtml(item.label) + "</strong><span>" + escapeHtml(item.value) + "</span></div>").join("");
+      return "<div class='decision-step-copy'><h3>Review the answers and run the check</h3><p>The result will give a short answer first, explain why the tool landed there, show what usually changes the answer and point you to the best next pages.</p></div><div class='decision-review-grid'>" + cards + "</div><div class='decision-nav'><button type='button' class='button-secondary' data-action='prev'>Back</button><button type='button' class='cta' data-action='run-check' " + (requiredForStep(4) ? "" : "disabled") + ">Check my project</button></div>";
+    }
+
+    return "";
+  }
+
+  function renderSidebarSections() {
+    const items = summaryItems();
+    return {
+      title: "Your answers",
+      summaryHtml: items.length ? items.map((item) => "<div class='decision-summary-item'><strong>" + escapeHtml(item.label) + "</strong><span>" + escapeHtml(item.value) + "</span></div>").join("") : "<div class='decision-summary-item'><strong>Project snapshot</strong><span>Choose a project to start the decision engine.</span></div>",
+      noteHtml: "<strong>How this tool works:</strong> it uses structured rules for common UK planning triggers. It is useful for early triage, but it does not replace formal confirmation where the design is close to a limit or affected by special controls.",
+    };
+  }
+
+  function renderSidebar() {
+    const sections = renderSidebarSections();
+    return "<div class='decision-sidebar'><h3>" + escapeHtml(sections.title) + "</h3><div class='decision-summary-list'>" + sections.summaryHtml + "</div><div class='decision-method-note'>" + sections.noteHtml + "</div></div>";
+  }
+
+  function renderHeaderActions() {
+    return (state.result ? "<button type='button' class='button-secondary' data-action='edit-result'>Edit answers</button>" : "") + "<button type='button' class='button-secondary' data-action='reset'>Start again</button>";
+  }
+
+  function renderPlanningDecisionDesktopShell(options) {
+    const currentName = options.hasResult ? "Result" : (options.stepNames[options.currentStep - 1] || "Review");
+    return "<div class='planning-decision-desktop-shell'><div class='decision-engine-header'><div><span class='decision-kicker'>" + escapeHtml(options.kicker) + "</span><h2>" + escapeHtml(options.heading) + "</h2><p class='tool-summary'>" + escapeHtml(options.intro) + "</p>" + renderTrustNote() + "</div><div class='decision-header-actions'>" + options.actionsHtml + "</div></div><div class='decision-progress'>" + renderProgressIntro(options, currentName) + "<div class='decision-progress-bar'><span style='width:" + options.progress + "%'></span></div><div class='decision-step-labels'>" + renderProgressLabels(options.stepNames, options.currentStep, options.hasResult) + "</div></div><div class='decision-layout'><div class='decision-panel'>" + options.contentHtml + "</div>" + options.sidebarHtml + "</div></div>";
+  }
+
+  function renderPlanningDecisionMobileShell(options) {
+    const currentName = options.hasResult ? "Result" : (options.stepNames[options.currentStep - 1] || "Review");
+    const introLabel = options.hasResult ? "Result ready" : ("Step " + options.currentStep + " of " + options.stepNames.length);
+    const introCopy = options.hasResult
+      ? "Your structured result and follow-on guidance are ready below."
+      : ("Current focus: " + currentName + ". Complete each step to unlock the full result.");
+    return "<div class='planning-decision-mobile-shell'><div class='planning-decision-mobile-header'><div><span class='decision-kicker'>" + escapeHtml(options.kicker) + "</span><h2>" + escapeHtml(options.heading) + "</h2><p class='tool-summary'>" + escapeHtml(options.intro) + "</p>" + renderTrustNote() + "</div><div class='planning-decision-mobile-actions'>" + options.actionsHtml + "</div></div><div class='planning-decision-mobile-panel'><div class='planning-decision-mobile-step-intro'><strong>" + escapeHtml(introLabel) + "</strong><p>" + escapeHtml(introCopy) + "</p><div class='decision-progress-bar'><span style='width:" + options.progress + "%'></span></div><div class='decision-step-labels'>" + renderProgressLabels(options.stepNames, options.currentStep, options.hasResult) + "</div></div>" + options.contentHtml + "</div><div class='planning-decision-mobile-summary'><h3>" + escapeHtml(options.summaryTitle || "Your answers") + "</h3><div class='decision-summary-list'>" + options.summaryHtml + "</div>" + (options.noteHtml ? "<div class='decision-method-note'>" + options.noteHtml + "</div>" : "") + "</div></div>";
+  }
+
+  function render() {
+    const progress = state.result ? 100 : (state.step / STEP_NAMES.length) * 100;
+    const sections = renderSidebarSections();
+    const shellOptions = {
+      kicker: "Planning Decision Engine",
+      heading: "Check whether your project probably needs planning permission",
+      intro: "A guided, rule-based first pass for common home projects. There is no free-text box and no fake AI layer here, just structured answers and instant planning triage.",
+      actionsHtml: renderHeaderActions(),
+      progress,
+      stepNames: STEP_NAMES,
+      currentStep: state.step,
+      hasResult: Boolean(state.result),
+      contentHtml: renderStepContent(),
+      sidebarHtml: renderSidebar(),
+      summaryTitle: sections.title,
+      summaryHtml: sections.summaryHtml,
+      noteHtml: sections.noteHtml,
+      summaryHint: "View answers",
+    };
+    engine.innerHTML = "<div class='planning-decision-shell planning-decision-shell-desktop' data-tool-shell='desktop'>" + renderPlanningDecisionDesktopShell(shellOptions) + "</div><div class='planning-decision-shell planning-decision-shell-mobile' data-tool-shell='mobile'>" + renderPlanningDecisionMobileShell(shellOptions) + "</div>";
+    if (typeof engine.setAttribute === "function") {
+      engine.setAttribute("data-tool-layout", isCompactLayout() ? "mobile" : "desktop");
+    }
+  }
+
+  engine.addEventListener("click", function (event) {
+    const target = event.target.closest("[data-action]");
+    if (!target) {
+      return;
+    }
+
+    const action = target.getAttribute("data-action");
+    const value = target.getAttribute("data-value") || "";
+    const questionId = target.getAttribute("data-question-id") || "";
+
+    if (action === "choose-project") {
+      logToolEvent("click", { action, value });
+      state.project = value;
+      state.detailAnswers = {};
+      state.result = null;
+      render();
+      return;
+    }
+
+    if (action === "choose-property") {
+      logToolEvent("click", { action, value });
+      state.property = value;
+      state.result = null;
+      render();
+      return;
+    }
+
+    if (action === "choose-previous-work") {
+      logToolEvent("click", { action, value });
+      state.previousWork = value;
+      state.result = null;
+      render();
+      return;
+    }
+
+    if (action === "toggle-constraint") {
+      logToolEvent("click", { action, value });
+      state.result = null;
+      if (state.constraints.includes(value)) {
+        state.constraints = state.constraints.filter((item) => item !== value);
+      } else {
+        state.constraints = state.constraints.concat(value);
+      }
+      render();
+      return;
+    }
+
+    if (action === "set-detail" || action === "set-binary") {
+      logToolEvent("click", { action, questionId, value });
+      state.detailAnswers = Object.assign({}, state.detailAnswers, { [questionId]: value });
+      state.result = null;
+      render();
+      return;
+    }
+
+    if (action === "next" && state.step < 4 && requiredForStep(state.step)) {
+      logToolEvent("click", { action, step: state.step });
+      state.step += 1;
+      render();
+      return;
+    }
+
+    if (action === "prev" && state.step > 1) {
+      logToolEvent("click", { action, step: state.step });
+      state.step -= 1;
+      render();
+      return;
+    }
+
+    if (action === "edit-result") {
+      logToolEvent("click", { action });
+      state.result = null;
+      state.loading = false;
+      state.step = 4;
+      render();
+      return;
+    }
+
+    if (action === "reset") {
+      logToolEvent("click", { action });
+      state = createState();
+      render();
+      return;
+    }
+
+    if (action === "run-check" && requiredForStep(4)) {
+      logToolEvent("submit", { action, snapshot: summaryItems() });
+      state.loading = true;
+      state.result = null;
+      render();
+      window.setTimeout(function () {
+        state.loading = false;
+        state.result = assess();
+        logToolEvent("result", state.result);
+        render();
+      }, 680);
+    }
+  });
+
+  render();
+})();
+</script>
+</div>
+
+</section>
+
+
+<section class="tool-explanation">
+<span class="eyebrow">How to use the result</span>
+<h2>What This Tool Is Good For</h2>
+<div class="answer-grid">
+
+<div class="answer-card">
+<h3>What it answers well</h3>
+<p>It gives a practical first steer on whether a project still looks comfortably inside the simpler route or whether planning permission is becoming more likely.</p>
+</div>
+
+<div class="answer-card">
+<h3>What usually changes the answer</h3>
+<p>Property type, local designations, previous additions and measurements close to a threshold are the factors most likely to move the result.</p>
+</div>
+
+<div class="answer-card">
+<h3>What to do with the result</h3>
+<p>Treat the answer as structured triage, then open the matching project guide, planning topic or local authority page before you rely on it.</p>
+</div>
+
+</div>
+</section>
+
+
+<section class="tool-search-intents">
+<span class="eyebrow">Good search matches</span>
+<h2>Questions This Tool Is Best At Narrowing</h2>
+<ul class="checklist"><li>Do I need planning permission for this project?</li><li>Could this still be permitted development?</li><li>Is this a borderline scheme worth checking formally?</li><li>Could local constraints change the normal answer?</li></ul>
+</section>
+
+<aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Relevant planning partner placement</strong>
+    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+  </div>
+</aside>
+
+
+<section class="planning-context">
+<span class="eyebrow">Context and caveats</span>
+<h2>How This Tool Fits Into The Wider Planning Process</h2>
+<p>Do I Need Planning Permission? is intended as a quick planning aid based on common UK planning considerations and permitted development limits.</p>
+<p>Use it to narrow the question, then move into project guides, local authority pages or formal confirmation if the scheme is close to a limit.</p>
+</section>
+
+
+<section class="tool-faq-links">
+<span class="eyebrow">Good follow-up reads</span>
+<h2>FAQ Pages Worth Opening After The Tool</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/planning-permission-vs-permitted-development/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>Planning Permission Vs Permitted Development</h3>
+<p>Read this when the route still sits between the simpler householder answer and a formal application.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/lawful-development-certificate-vs-planning-permission/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>Lawful Development Certificate Vs Planning Permission</h3>
+<p>Useful when the route looks simpler on paper but formal written proof may still be worth it.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/do-i-need-planning-permission/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>Do I Need Planning Permission?</h3>
+<p>Read the broader route guide if you want the same decision explained in plainer language.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+
+<section class="tool-guidance-links">
+<span class="eyebrow">Where to go after the tool</span>
+<h2>Detailed Guidance Worth Opening Next</h2>
+<div class="grid">
+<a class="card" href="/planning-permission/">
+<div class="card-kicker">Next page</div>
+<h3>Planning Permission</h3>
+<p>Open this when the engine points toward a formal route or a borderline answer.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/permitted-development/">
+<div class="card-kicker">Next page</div>
+<h3>Permitted Development</h3>
+<p>Use this to understand the baseline rights the engine is checking against.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/house-extensions/">
+<div class="card-kicker">Next page</div>
+<h3>House Extensions</h3>
+<p>Helpful when the project is an extension and the dimensions are driving the uncertainty.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/loft-conversions/">
+<div class="card-kicker">Next page</div>
+<h3>Loft Conversions</h3>
+<p>A strong next read for roof changes, dormers and loft enlargements.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/outbuildings/">
+<div class="card-kicker">Next page</div>
+<h3>Outbuildings</h3>
+<p>Use this for garden rooms, sheds and other detached buildings in the garden.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/councils/">
+<div class="card-kicker">Next page</div>
+<h3>Local Authorities</h3>
+<p>Best when conservation areas, Article 4 or heritage controls may change the normal answer.</p>
+<span class="cta">Open guide</span>
+</a>
+</div>
+</section>
+
+
+<section class="related-tools">
+<span class="eyebrow">Useful companion tools</span>
+<h2>Related Planning Tools</h2>
+<div class="grid">
+<a class="card" href="/tools/what-can-i-build-explorer/">
+<div class="card-kicker">Related tool</div>
+<h3>What Can I Build? Explorer</h3>
+<p>Explore the home project types that are most likely to fit your property before you dive into detailed planning checks.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/permitted-development-calculator/">
+<div class="card-kicker">Related tool</div>
+<h3>Permitted Development Calculator</h3>
+<p>Estimate whether a common home project may fit within permitted development rules.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/planning-rejection-risk-analyzer/">
+<div class="card-kicker">Related tool</div>
+<h3>Planning Rejection Risk Analyzer</h3>
+<p>Analyse the main refusal risks for a home project, including scale, neighbour impact, design character and local policy constraints.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/project-requirements-generator/">
+<div class="card-kicker">Related tool</div>
+<h3>Project Requirements Generator</h3>
+<p>Build a practical planning prep pack covering requirements, documents and next checks for a home project.</p>
+<span class="cta">Open tool</span>
+</a>
+</div>
+</section>
+
+
+<section class="trust">
+<span class="eyebrow">Trust and method</span>
+<h2>Use These Tools Properly</h2>
+<div class="info-columns">
+<div class="mini-card">
+<h3>What they are for</h3>
+<ul class="checklist">
+<li>Reducing uncertainty at the start of the process.</li>
+<li>Helping you pick the right next page quickly.</li>
+<li>Spotting when the answer probably needs escalation.</li>
+</ul>
+</div>
+<div class="mini-card">
+<h3>What they do not replace</h3>
+<ul class="checklist">
+<li>Formal confirmation for borderline schemes.</li>
+<li>Local authority checks where special controls apply.</li>
+<li>Detailed professional advice for complex cases.</li>
+</ul>
+</div>
+<div class="mini-card">
+<h3>Useful trust pages</h3>
+<p><a href="/methodology/">Methodology</a></p>
+<p><a href="/planning-faq/">Planning FAQ</a></p>
+</div>
+</div>
+</section>
+
+<aside class="ad-slot" data-ad-slot="bottom" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Useful follow-on placement</strong>
+    <p>Best for a subtle post-read advert, referral, or monetized resource once the main content has already done its job.</p>
+  </div>
+</aside>
+
+<div class='last-updated'>Updated March 2026</div>
+</main>
+
+<footer class="footer-shell">
+<div class="footer-inner">
+<div class="footer-grid">
+<div>
+<strong>UK Planning Guide</strong>
+<p class="footer-note">Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications.</p>
+</div>
+<div class="footer-links">
+<strong>Start Here</strong>
+<a href="/tools/">Use the planning tools</a>
+<a href="/house-extensions/">Browse project guides</a>
+<a href="/councils/">Compare local authorities</a>
+</div>
+<div class="footer-links">
+<strong>Useful Next Reads</strong>
+<a href="/planning-faq/">Planning FAQ</a>
+<a href="/planning-permission/">Planning permission hub</a>
+<a href="/permitted-development/">Permitted development hub</a>
+</div>
+<div class="footer-links">
+<strong>Trust</strong>
+<a href="/about/">What this site is for</a>
+<a href="/methodology/">How guidance is built</a>
+</div>
+</div>
+<div class="footer-meta">
+<span>&copy; 2026 UKPlanningGuide</span>
+<span>Built from national planning rules, local authority context and page-specific guidance.</span>
+<span>General guidance only, not legal advice.</span>
+</div>
+</div>
+</footer>
+<div class="tool-ui-templates" hidden aria-hidden="true"><template id="ukpg-ad-slot-template"><aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Relevant planning partner placement</strong>
+    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+  </div>
+</aside>
+</template><template id="ukpg-result-capture-template"><section class="result-capture" aria-label="Save or share result">
+  <div class="result-capture-copy">
+    <strong>Get your result link emailed to you</strong>
+    <p>Save this planning result so you can reopen it later or share it with someone helping on the project.</p>
+  </div>
+  <form class="result-capture-form" action="#" method="post" novalidate>
+    <label for="__RESULT_CAPTURE_ID__">Email address</label>
+    <div class="result-capture-row">
+      <input id="__RESULT_CAPTURE_ID__" name="email" type="email" inputmode="email" autocomplete="email" placeholder="name@example.com">
+      <button type="submit">Email my result</button>
+    </div>
+    <p class="result-capture-note">Demo-ready UI only. Connect this to your email workflow when you are ready.</p>
+  </form>
+</section>
+</template></div>
+<script>
+(function () {
+  if (typeof document === "undefined" || typeof document.querySelector !== "function") {
+    return;
+  }
+
+  const header = document.querySelector("header");
+  const navToggle = document.querySelector(".nav-toggle");
+  const mainNav = document.getElementById("primary-nav");
+
+  function setMenu(open) {
+    if (!header || !navToggle || !mainNav) {
+      return;
+    }
+    header.setAttribute("data-menu-open", open ? "true" : "false");
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+
+  if (navToggle && header) {
+    navToggle.addEventListener("click", function () {
+      const open = header.getAttribute("data-menu-open") === "true";
+      setMenu(!open);
+    });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 768) {
+        setMenu(false);
+      }
+    });
+
+    mainNav && mainNav.addEventListener("click", function (event) {
+      if (event.target.closest("a") && window.innerWidth <= 768) {
+        setMenu(false);
+      }
+    });
+  }
+
+  function cloneTemplate(id) {
+    const template = document.getElementById(id);
+    if (!template) {
+      return null;
+    }
+    return template.content.firstElementChild ? template.content.firstElementChild.cloneNode(true) : null;
+  }
+
+  function ensureCapture(resultNode, root) {
+    if (!resultNode || resultNode.nextElementSibling && resultNode.nextElementSibling.classList.contains("result-capture")) {
+      return;
+    }
+    const capture = cloneTemplate("ukpg-result-capture-template");
+    if (!capture) {
+      return;
+    }
+    const captureId = "result-capture-" + ((root && root.getAttribute("data-tool-root")) || "tool");
+    const label = capture.querySelector("label");
+    const input = capture.querySelector("input");
+    if (label) {
+      label.setAttribute("for", captureId);
+    }
+    if (input) {
+      input.id = captureId;
+    }
+    const form = capture.querySelector("form");
+    if (form) {
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        form.classList.add("is-submitted");
+      });
+    }
+    resultNode.insertAdjacentElement("afterend", capture);
+  }
+
+  function ensureNextStep(resultNode) {
+    if (!resultNode || resultNode.querySelector(".tool-next-step")) {
+      return;
+    }
+    const primaryLink = resultNode.querySelector(".decision-result-link, .tool-result-link, .explorer-link.primary, .explorer-inline-links a");
+    if (!primaryLink) {
+      return;
+    }
+    const titleNode = primaryLink.querySelector("strong");
+    const title = (titleNode ? titleNode.textContent : primaryLink.textContent || "").trim();
+    if (!title) {
+      return;
+    }
+    const card = document.createElement("div");
+    card.className = "tool-next-step";
+    card.innerHTML = "<span class='eyebrow'>Suggested next step</span><div class='tool-next-step-copy'>Open the most useful follow-on page while the result is still fresh.</div>";
+    card.appendChild(primaryLink.cloneNode(true));
+    const strong = card.querySelector("strong");
+    if (strong) {
+      strong.textContent = title;
+    }
+    resultNode.appendChild(card);
+  }
+
+  function revealResult(resultNode) {
+    if (!resultNode || resultNode.dataset.resultEnhanced === "true") {
+      return;
+    }
+    resultNode.dataset.resultEnhanced = "true";
+    requestAnimationFrame(function () {
+      resultNode.classList.add("tool-result-visible");
+      window.setTimeout(function () {
+        resultNode.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 120);
+    });
+  }
+
+  function isInHiddenToolShell(node) {
+    const shell = node && node.closest ? node.closest("[data-tool-shell]") : null;
+    if (!shell || typeof window.getComputedStyle !== "function") {
+      return false;
+    }
+    const style = window.getComputedStyle(shell);
+    return style.display === "none" || style.visibility === "hidden";
+  }
+
+  function enhanceResultNode(resultNode) {
+    if (!resultNode || isInHiddenToolShell(resultNode)) {
+      return;
+    }
+    const root = resultNode.closest("[data-tool-root]") || resultNode.closest(".tool-card");
+    ensureNextStep(resultNode);
+    ensureCapture(resultNode, root);
+    revealResult(resultNode);
+  }
+
+  function scanResults(scope) {
+    const root = scope && scope.querySelectorAll ? scope : document;
+    root.querySelectorAll(".decision-result, .tool-result[data-result-ready='true']").forEach(enhanceResultNode);
+  }
+
+  if (typeof MutationObserver !== "function") {
+    scanResults(document);
+    return;
+  }
+
+  const observer = new MutationObserver(function (mutations) {
+    mutations.forEach(function (mutation) {
+      if (mutation.type === "attributes" && mutation.target instanceof HTMLElement) {
+        if (mutation.target.matches(".tool-result[data-result-ready='true']")) {
+          enhanceResultNode(mutation.target);
+        }
+        return;
+      }
+      mutation.addedNodes.forEach(function (node) {
+        if (!(node instanceof HTMLElement)) {
+          return;
+        }
+        if (node.matches(".decision-result, .tool-result[data-result-ready='true']")) {
+          enhanceResultNode(node);
+          return;
+        }
+        scanResults(node);
+      });
+    });
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["data-result-ready"] });
+  scanResults(document);
+})();
+</script>
+</body>
+</html>

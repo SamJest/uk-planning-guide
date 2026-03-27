@@ -1,0 +1,2119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GXRZWRNWD7');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planning Route Planner: approval route tool</title>
+<meta name="description" content="Use the Planning Route Planner to map the approval route most likely to matter, including mixed routes such as planning, listed building or highway...">
+<link rel="canonical" href="https://ukplanningguide.co.uk/tools/planning-route-planner/">
+<link rel="icon" href="/assets/favicon.ico?v=20260327" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260327">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=20260327">
+<link rel="shortcut icon" href="/assets/favicon.ico?v=20260327">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
+<link rel="manifest" href="/assets/site.webmanifest?v=20260327">
+<meta name="theme-color" content="#f3eee5">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Planning Route Planner: approval route tool", "url": "https://ukplanningguide.co.uk/tools/planning-route-planner/", "description": "Use the Planning Route Planner to map the approval route most likely to matter, including mixed routes such as planning, listed building or highway...", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://ukplanningguide.co.uk/tools/"}, {"@type": "ListItem", "position": 3, "name": "Planning Route Planner", "item": "https://ukplanningguide.co.uk/tools/planning-route-planner/"}]}]}</script>
+<style>
+:root{
+--ink:#1f2937;
+--ink-soft:#4b5563;
+--ink-faint:#6b7280;
+--surface:#fffdfa;
+--surface-strong:#ffffff;
+--surface-warm:#f7f1e8;
+--surface-tint:#eef5f0;
+--accent:#1f6f5f;
+--accent-strong:#155649;
+--accent-soft:#dff1ea;
+--accent-text:#11453b;
+--highlight:#b7791f;
+--border:rgba(31,41,55,.12);
+--border-strong:rgba(31,41,55,.18);
+--shadow:0 20px 45px rgba(31,41,55,.08);
+--shadow-soft:0 10px 24px rgba(31,41,55,.05);
+--radius-lg:26px;
+--radius-md:18px;
+--radius-sm:12px;
+--container:1180px;
+--header-height:82px;
+}
+
+*{box-sizing:border-box;}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:"Avenir Next","Segoe UI",Tahoma,sans-serif;
+background:
+radial-gradient(circle at top left,rgba(183,121,31,.08),transparent 28%),
+radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 30%),
+linear-gradient(180deg,#f9f5ee 0%,#f4efe7 42%,#faf8f3 100%);
+color:var(--ink);
+line-height:1.68;
+}
+
+a{
+color:var(--accent);
+text-decoration:none;
+transition:color .18s ease, transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
+}
+
+a:hover{
+color:var(--accent-strong);
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+header{
+position:sticky;
+top:0;
+z-index:100;
+background:rgba(249,245,238,.88);
+backdrop-filter:blur(18px);
+border-bottom:1px solid rgba(31,41,55,.08);
+}
+
+.nav-container{
+max-width:var(--container);
+margin:0 auto;
+padding:14px 24px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+}
+
+.site-logo{
+display:flex;
+align-items:center;
+gap:10px;
+min-width:0;
+}
+
+.site-logo img{
+display:block;
+height:auto;
+max-height:40px;
+width:auto;
+max-width:min(100%,320px);
+object-fit:contain;
+aspect-ratio:320 / 40;
+flex:0 0 auto;
+}
+
+.main-nav{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+justify-content:flex-end;
+align-items:center;
+}
+
+.main-nav a{
+padding:8px 12px;
+border-radius:999px;
+font-size:14px;
+font-weight:700;
+letter-spacing:.01em;
+color:var(--ink);
+}
+
+.main-nav a:hover{
+background:rgba(31,111,95,.08);
+color:var(--accent-strong);
+}
+
+.main-nav a:focus-visible,
+.nav-toggle:focus-visible{
+outline:3px solid rgba(31,111,95,.22);
+outline-offset:2px;
+}
+
+.nav-toggle{
+display:none;
+align-items:center;
+justify-content:center;
+min-width:44px;
+min-height:44px;
+padding:10px 14px;
+border-radius:999px;
+border:1px solid rgba(31,41,55,.12);
+background:rgba(255,255,255,.82);
+color:var(--ink);
+box-shadow:none;
+}
+
+.nav-toggle span{
+display:block;
+width:18px;
+height:2px;
+border-radius:999px;
+background:currentColor;
+box-shadow:0 6px 0 currentColor,0 -6px 0 currentColor;
+}
+
+.container{
+max-width:var(--container);
+margin:0 auto;
+padding:30px 24px 54px;
+}
+
+.breadcrumbs{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+margin:0 0 18px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.breadcrumbs a{
+display:inline-flex;
+align-items:center;
+color:var(--ink-soft);
+}
+
+.breadcrumbs a::after{
+content:"/";
+margin-left:8px;
+color:rgba(75,85,99,.45);
+}
+
+.page-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:0 0 22px;
+padding:13px 16px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(255,255,255,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.page-trust-strip strong{
+color:var(--ink);
+font-size:13px;
+}
+
+.page-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:10px;
+}
+
+.page-trust-strip span:not(:last-child)::after{
+content:"";
+width:4px;
+height:4px;
+border-radius:999px;
+background:rgba(31,111,95,.35);
+}
+
+section,
+.card{
+position:relative;
+margin-bottom:24px;
+padding:28px;
+background:rgba(255,255,255,.9);
+border:1px solid var(--border);
+border-radius:var(--radius-lg);
+box-shadow:var(--shadow);
+overflow:hidden;
+}
+
+section::before,
+.card::before{
+content:"";
+position:absolute;
+inset:0 auto auto 0;
+width:100%;
+height:1px;
+background:linear-gradient(90deg,rgba(31,111,95,.24),rgba(183,121,31,.18),transparent);
+}
+
+.hero{
+padding:40px 34px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(243,237,227,.92)),
+linear-gradient(135deg,rgba(31,111,95,.08),transparent 58%);
+border-color:rgba(31,111,95,.14);
+}
+
+.hero-logo{
+display:block;
+width:min(290px,72%);
+height:auto;
+margin-bottom:20px;
+}
+
+.hero-ctas{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:20px;
+}
+
+.badge,
+.eyebrow{
+display:inline-flex;
+align-items:center;
+gap:8px;
+margin-bottom:14px;
+padding:7px 12px;
+border-radius:999px;
+background:var(--accent-soft);
+color:var(--accent-text);
+font-size:12px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+}
+
+h1,
+h2,
+h3{
+margin:0 0 10px;
+font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+font-weight:700;
+letter-spacing:-.02em;
+color:#15212d;
+}
+
+h1{
+font-size:clamp(2.3rem,5vw,3.65rem);
+line-height:1.05;
+max-width:14ch;
+}
+
+h2{
+font-size:clamp(1.65rem,3.2vw,2.2rem);
+line-height:1.12;
+}
+
+h3{
+font-size:1.2rem;
+line-height:1.2;
+}
+
+p,
+li,
+td,
+th,
+label,
+summary{
+color:var(--ink-soft);
+}
+
+p{
+margin:0 0 14px;
+max-width:72ch;
+}
+
+ul,
+ol{
+margin:0;
+padding-left:22px;
+}
+
+li + li{
+margin-top:8px;
+}
+
+strong{
+color:var(--ink);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:8px;
+overflow:hidden;
+border-radius:18px;
+}
+
+th,
+td{
+padding:14px 16px;
+border:1px solid rgba(31,41,55,.10);
+text-align:left;
+vertical-align:top;
+background:rgba(255,255,255,.78);
+}
+
+th{
+background:rgba(31,111,95,.08);
+color:var(--ink);
+font-weight:700;
+}
+
+details{
+margin-top:14px;
+padding:16px 18px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:var(--radius-md);
+}
+
+summary{
+font-weight:700;
+cursor:pointer;
+color:var(--ink);
+}
+
+button,
+.button,
+.btn,
+.cta{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+padding:12px 18px;
+border:1px solid transparent;
+border-radius:999px;
+background:var(--accent);
+color:#fff;
+font-size:15px;
+font-weight:700;
+cursor:pointer;
+box-shadow:0 12px 22px rgba(31,111,95,.16);
+transition:background-color .18s ease,color .18s ease,transform .18s ease,box-shadow .18s ease,border-color .18s ease,opacity .18s ease;
+}
+
+.button:hover,
+.btn:hover,
+.cta:hover,
+button:hover{
+background:var(--accent-strong);
+color:#fff;
+transform:translateY(-1px);
+}
+
+.button:active,
+.btn:active,
+.cta:active,
+button:active{
+transform:translateY(0);
+box-shadow:0 8px 16px rgba(31,111,95,.14);
+}
+
+.button-secondary,
+.btn-secondary,
+.card .button-secondary{
+background:transparent;
+color:var(--accent-strong);
+border-color:rgba(31,111,95,.20);
+box-shadow:none;
+}
+
+.button-secondary:hover,
+.btn-secondary:hover,
+.card .button-secondary:hover{
+background:rgba(31,111,95,.08);
+}
+
+.grid,
+.card-grid,
+.project-grid,
+.county-grid,
+.link-grid,
+.town-grid{
+display:grid;
+gap:18px;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+}
+
+.grid-tight{
+display:grid;
+gap:14px;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+}
+
+.split-grid{
+display:grid;
+gap:18px;
+grid-template-columns:1.2fr .8fr;
+align-items:start;
+}
+
+.card,
+a.card,
+a.scenario-card,
+a.scenario-nav{
+display:block;
+}
+
+a.card,
+a.scenario-card{
+color:inherit;
+}
+
+a.card:hover,
+a.scenario-card:hover{
+transform:translateY(-2px);
+border-color:rgba(31,111,95,.22);
+box-shadow:0 22px 40px rgba(31,41,55,.10);
+}
+
+.card p:last-child,
+section p:last-child{
+margin-bottom:0;
+}
+
+.hero h1 + p{
+font-size:1.08rem;
+max-width:62ch;
+}
+
+.quick-summary,
+.tool-summary,
+.last-updated,
+.section-lead,
+.card-kicker{
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.last-updated{
+display:inline-flex;
+align-items:center;
+padding:10px 14px;
+background:rgba(255,255,255,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.answer-grid,
+.info-columns{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:20px;
+}
+
+.answer-card,
+.info-card,
+.mini-card,
+.tool-card,
+.callout,
+.scenario-nav,
+.scenario-pill{
+padding:20px;
+background:rgba(255,255,255,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:var(--radius-md);
+box-shadow:var(--shadow-soft);
+}
+
+.answer-card h3,
+.info-card h3,
+.mini-card h3,
+.tool-card h2{
+margin-bottom:8px;
+}
+
+.checklist,
+.signal-list{
+list-style:none;
+padding:0;
+}
+
+.checklist li,
+.signal-list li{
+position:relative;
+padding-left:18px;
+}
+
+.checklist li::before,
+.signal-list li::before{
+content:"";
+position:absolute;
+left:0;
+top:.72em;
+width:7px;
+height:7px;
+border-radius:999px;
+background:var(--highlight);
+transform:translateY(-50%);
+}
+
+.link-grid a,
+.related-links a,
+.scenario-navigation a{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:14px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+font-weight:600;
+}
+
+.link-grid a::after,
+.related-links a::after,
+.scenario-navigation a::after{
+content:"View";
+font-size:12px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--accent);
+}
+
+.link-grid a:hover,
+.related-links a:hover,
+.scenario-navigation a:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+}
+
+.scenario-navigation{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.scenario-nav.active{
+background:rgba(223,241,234,.9);
+border-color:rgba(31,111,95,.28);
+}
+
+.tool-cta,
+.cta-band,
+.notice{
+padding:24px;
+background:linear-gradient(135deg,rgba(223,241,234,.96),rgba(247,241,232,.96));
+border:1px solid rgba(31,111,95,.12);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.tool-cta p,
+.cta-band p,
+.notice p{
+max-width:64ch;
+}
+
+.hero-microcopy,
+.section-caption{
+font-size:15px;
+color:var(--ink-faint);
+}
+
+.inline-badges{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:14px 0 0;
+}
+
+.inline-badges span{
+display:inline-flex;
+align-items:center;
+padding:8px 12px;
+border-radius:999px;
+background:rgba(31,111,95,.08);
+color:var(--accent-text);
+font-size:13px;
+font-weight:700;
+}
+
+.tool-grid{
+display:grid;
+gap:14px;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+align-items:end;
+margin-top:16px;
+}
+
+.tool-grid > div{
+display:flex;
+flex-direction:column;
+gap:6px;
+}
+
+.rule-list{
+margin-top:14px;
+}
+
+.rule-verification{
+margin-top:14px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.rule-exceptions{
+margin-top:16px;
+padding:14px 16px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+}
+
+.tool-card button,
+#planning-decision-tool button{
+margin-top:16px;
+}
+
+label{
+display:block;
+margin-bottom:6px;
+font-weight:700;
+color:var(--ink);
+}
+
+input,
+select,
+textarea{
+width:100%;
+min-height:44px;
+padding:12px 14px;
+font:inherit;
+color:var(--ink);
+background:#fff;
+border:1px solid rgba(31,41,55,.14);
+border-radius:14px;
+outline:none;
+transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+border-color:rgba(31,111,95,.48);
+box-shadow:0 0 0 4px rgba(31,111,95,.10);
+}
+
+.tool-result{
+margin-top:18px;
+padding:18px 20px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+scroll-margin-top:calc(var(--header-height) + 18px);
+transition:opacity .3s ease, transform .3s ease;
+}
+
+.tool-result[data-result-ready="true"],
+.decision-result{
+opacity:0;
+transform:translateY(10px);
+}
+
+.tool-result.tool-result-visible,
+.decision-result.tool-result-visible{
+opacity:1;
+transform:translateY(0);
+}
+
+.tool-related-links,
+.tool-result-links{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.tool-result-link{
+display:block;
+padding:16px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+color:inherit;
+box-shadow:var(--shadow-soft);
+}
+
+.tool-result-link strong{
+display:block;
+margin-bottom:6px;
+}
+
+.tool-result-link:hover{
+transform:translateY(-1px);
+border-color:rgba(31,111,95,.24);
+box-shadow:0 18px 30px rgba(31,41,55,.08);
+}
+
+.tool-next-step{
+margin-top:16px;
+padding:18px 20px;
+background:linear-gradient(135deg,rgba(223,241,234,.88),rgba(255,255,255,.94));
+border:1px solid rgba(31,111,95,.14);
+border-radius:20px;
+}
+
+.tool-next-step-copy{
+font-size:14px;
+color:var(--ink-faint);
+margin-bottom:10px;
+}
+
+.ad-slot{
+display:grid;
+gap:12px;
+padding:18px 20px;
+background:rgba(243,237,227,.58);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow-soft);
+}
+
+.ad-slot-label{
+display:inline-flex;
+align-items:center;
+width:max-content;
+padding:6px 10px;
+border-radius:999px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+font-size:11px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--ink-faint);
+}
+
+.ad-slot-body{
+display:grid;
+gap:6px;
+}
+
+.ad-slot-body strong{
+font-size:1rem;
+}
+
+.result-capture{
+display:grid;
+gap:14px;
+margin-top:16px;
+padding:18px 20px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow-soft);
+}
+
+.result-capture-copy{
+display:grid;
+gap:6px;
+}
+
+.result-capture-row{
+display:grid;
+gap:10px;
+grid-template-columns:minmax(0,1fr) auto;
+align-items:start;
+}
+
+.result-capture-form button{
+min-height:44px;
+white-space:nowrap;
+}
+
+.result-capture-note{
+font-size:13px;
+color:var(--ink-faint);
+}
+
+.tool-loading-state{
+display:grid;
+gap:12px;
+padding:20px;
+background:linear-gradient(135deg,rgba(223,241,234,.88),rgba(255,255,255,.95));
+border:1px solid rgba(31,111,95,.14);
+border-radius:18px;
+}
+
+.tool-loading-bar{
+position:relative;
+height:8px;
+overflow:hidden;
+border-radius:999px;
+background:rgba(31,41,55,.08);
+}
+
+.tool-loading-bar::after{
+content:"";
+position:absolute;
+inset:0 auto 0 -38%;
+width:38%;
+border-radius:999px;
+background:linear-gradient(90deg,rgba(31,111,95,.1),rgba(31,111,95,.72),rgba(31,111,95,.1));
+animation:toolLoadingSweep 1s linear infinite;
+}
+
+@keyframes toolLoadingSweep{
+from{transform:translateX(0);}
+to{transform:translateX(360%);}
+}
+
+.faq-item + .faq-item{
+margin-top:18px;
+padding-top:18px;
+border-top:1px solid rgba(31,41,55,.08);
+}
+
+.footer-shell{
+padding:36px 24px 44px;
+border-top:1px solid rgba(31,41,55,.08);
+background:linear-gradient(180deg,rgba(250,248,243,.92),rgba(242,236,226,.98));
+}
+
+.footer-inner{
+max-width:var(--container);
+margin:0 auto;
+color:var(--ink-soft);
+}
+
+.footer-grid{
+display:grid;
+gap:22px;
+grid-template-columns:1.4fr .8fr .8fr .9fr;
+margin-bottom:20px;
+}
+
+.footer-links a{
+display:block;
+margin-bottom:10px;
+color:var(--ink-soft);
+}
+
+.footer-links a:hover{
+color:var(--accent-strong);
+}
+
+.footer-note,
+.footer-meta{
+max-width:72ch;
+font-size:14px;
+}
+
+.footer-meta{
+display:flex;
+flex-wrap:wrap;
+gap:14px;
+padding-top:16px;
+border-top:1px solid rgba(31,41,55,.08);
+}
+
+@media (max-width:960px){
+.split-grid,
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding:34px 26px;
+}
+
+h1{
+max-width:none;
+}
+}
+
+@media (max-width:768px){
+.container{
+padding:16px 16px 40px;
+}
+
+.nav-container{
+position:relative;
+padding:10px 16px;
+align-items:center;
+flex-direction:row;
+justify-content:space-between;
+gap:10px;
+}
+
+.nav-toggle{
+display:inline-flex;
+}
+
+.main-nav{
+display:none;
+position:absolute;
+top:calc(100% + 8px);
+left:16px;
+right:16px;
+flex-direction:column;
+gap:8px;
+padding:12px;
+background:rgba(249,245,238,.98);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow);
+}
+
+header[data-menu-open="true"] .main-nav{
+display:flex;
+}
+
+.main-nav a{
+display:flex;
+width:100%;
+justify-content:flex-start;
+padding:12px 14px;
+font-size:14px;
+background:rgba(255,255,255,.78);
+border:1px solid rgba(31,41,55,.06);
+}
+
+.site-logo{
+width:auto;
+min-height:32px;
+}
+
+.site-logo img{
+max-height:32px;
+max-width:min(68vw,220px);
+}
+
+.breadcrumbs{
+margin-bottom:12px;
+font-size:13px;
+}
+
+.page-trust-strip{
+margin-bottom:16px;
+padding:12px 14px;
+border-radius:18px;
+gap:8px;
+}
+
+.page-trust-strip span{
+gap:8px;
+}
+
+.page-trust-strip span:not(:last-child)::after{
+display:none;
+}
+
+section,
+.card{
+padding:20px;
+border-radius:22px;
+}
+
+.page-trust-strip{
+border-radius:18px;
+}
+
+.tool-grid,
+.grid,
+.card-grid,
+.answer-grid,
+.info-columns,
+.tool-result-links,
+.tool-related-links,
+.result-capture-row{
+grid-template-columns:1fr !important;
+}
+
+.tool-card > button,
+.tool-card .cta,
+.tool-card .btn,
+.tool-card .button,
+.result-capture-form button{
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="nav-container">
+<a href="/" class="site-logo" aria-label="UK Planning Guide home">
+<img src="/assets/images/logo-header.png" alt="UK Planning Guide" loading="eager" decoding="async">
+</a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+<span></span>
+</button>
+<nav class="main-nav" id="primary-nav" aria-label="Primary">
+<a href="/tools/">Tools</a>
+<a href="/planning-faq/">FAQ</a>
+<a href="/councils/">Councils</a>
+<a href="/about/">About</a>
+<a href="/methodology/">Methodology</a>
+</nav>
+</div>
+</header>
+
+<main class="container">
+<nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><a href="/tools/">Tools</a><span>Planning Route Planner</span></nav>
+
+<div class="page-trust-strip"><strong>Updated March 2026</strong><span>Built from national planning rules and local authority context</span><span>Use formal checks if the proposal is close to a limit or affected by special controls</span></div>
+<section class="hero">
+<span class="badge">Planning tool</span>
+<h1>Planning Route Planner</h1>
+<p>Use this tool when you need to decide which approval path to prepare for before you sink time into the wrong route. It is designed to map whether the live answer still looks like permitted development, a formal application, a parallel consent or a mixed path that needs checking.</p>
+<div class='inline-badges'><span>Route-first output</span><span>Static rule logic</span><span>Built for early approval planning</span></div>
+</section>
+
+<aside class="ad-slot" data-ad-slot="top" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Planning-ready sponsor space</strong>
+    <p>Reserved for a light-touch partner message, quote tool, or relevant service without crowding the main tool content.</p>
+  </div>
+</aside>
+
+
+<section class="tool-calculator" data-tool-page="planning-route-planner">
+<span class="eyebrow">Interactive check</span>
+<h2>Plan The Approval Route</h2>
+<p class='section-lead'>Answer the structured questions, then let the tool map the approval route and supporting checks most likely to matter.</p>
+
+<div class="tool-card decision-engine-card">
+<style>
+
+.decision-engine-card{padding:0;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(247,241,232,.94)),linear-gradient(135deg,rgba(31,111,95,.06),transparent 58%);border-color:rgba(31,111,95,.16);overflow:hidden;}
+.decision-engine{min-width:0;max-width:100%;padding:0;overflow-wrap:normal;word-break:normal;}
+.decision-shell-desktop{display:block;}
+.decision-shell-mobile{display:none;}
+.decision-desktop-shell{padding:30px;}
+.decision-engine-header{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:24px;}
+.decision-engine-header > div{min-width:0;}
+.decision-engine-header h2{margin-bottom:10px;}
+.decision-kicker{display:inline-flex;align-items:center;padding:8px 12px;margin-bottom:12px;border-radius:999px;background:rgba(31,111,95,.10);color:var(--accent-text);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;box-shadow:inset 0 0 0 1px rgba(31,111,95,.08);}
+.decision-header-actions{display:flex;gap:10px;flex:0 1 auto;flex-wrap:wrap;justify-content:flex-end;align-items:flex-start;min-width:0;}
+.decision-trust-note{display:grid;gap:6px;margin-top:14px;padding:14px 15px;background:rgba(223,241,234,.54);border:1px solid rgba(31,111,95,.12);border-radius:16px;}
+.decision-trust-note strong{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.decision-trust-note span{font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-progress{margin-bottom:24px;padding:18px 18px 16px;background:rgba(255,255,255,.82);border:1px solid rgba(31,41,55,.08);border-radius:20px;box-shadow:var(--shadow-soft);overflow:hidden;}
+.decision-progress-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap;margin-bottom:14px;}
+.decision-progress-top strong{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);}
+.decision-progress-top span{font-size:14px;line-height:1.5;color:var(--ink-faint);}
+.decision-progress-bar{height:8px;border-radius:999px;background:rgba(31,41,55,.08);overflow:hidden;margin-bottom:16px;}
+.decision-progress-bar span{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),#2b8a78);transition:width .25s ease;}
+.decision-step-labels{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));}
+.decision-step-label{display:flex;flex-direction:column;gap:5px;min-width:0;padding:11px 13px;border-radius:16px;background:rgba(247,241,232,.76);border:1px solid rgba(31,41,55,.06);transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;}
+.decision-step-label.active{background:rgba(223,241,234,.94);border-color:rgba(31,111,95,.22);box-shadow:0 12px 24px rgba(31,111,95,.10);}
+.decision-step-label.done{background:rgba(31,111,95,.08);}
+.decision-step-number{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-step-name{font-size:14px;font-weight:700;color:var(--ink);}
+.decision-layout{display:grid;gap:18px;grid-template-columns:minmax(0,1.35fr) minmax(0,.85fr);align-items:start;}
+.decision-panel,.decision-sidebar{min-width:0;padding:22px;background:rgba(255,255,255,.84);border:1px solid rgba(31,41,55,.08);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-sidebar{position:sticky;top:92px;}
+.decision-mobile-calculator-shell{display:grid;gap:20px;padding:30px;}
+.decision-mobile-calculator-header{display:grid;gap:14px;padding:0 0 6px;}
+.decision-mobile-calculator-header h2{margin-bottom:0;}
+.decision-mobile-calculator-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start;}
+.decision-mobile-calculator-body{display:grid;gap:18px;}
+.decision-mobile-calculator-panel,.decision-mobile-calculator-summary{min-width:0;padding:22px;background:rgba(255,255,255,.84);border:1px solid rgba(31,41,55,.08);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-mobile-calculator-panel{display:grid;gap:18px;}
+.decision-mobile-calculator-summary{display:grid;gap:14px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));}
+.decision-mobile-calculator-summary h3{margin:0;}
+.decision-mobile-calculator-step-intro{display:grid;gap:8px;padding:16px 18px;background:linear-gradient(135deg,rgba(247,241,232,.74),rgba(255,255,255,.94));border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-mobile-calculator-step-intro strong{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.decision-mobile-calculator-step-intro p{margin:0;color:var(--ink-soft);}
+.decision-step-copy{min-width:0;margin-bottom:20px;padding:18px 18px 16px;background:linear-gradient(135deg,rgba(247,241,232,.68),rgba(255,255,255,.92));border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-step-copy h3{margin-bottom:8px;}
+.decision-question,.decision-result{min-width:0;}
+.decision-question{padding:18px;background:rgba(255,255,255,.62);border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-question h4,.decision-result h3,.decision-panel h3,.decision-sidebar h3{overflow-wrap:anywhere;}
+.decision-question h4{margin-bottom:12px;font-size:1.02rem;}
+.decision-choice-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));}
+.decision-binary-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));margin-top:18px;}
+.decision-question + .decision-question{margin-top:20px;}
+.decision-choice{width:100%;min-width:0;min-height:64px;padding:17px 16px 16px;text-align:left;background:rgba(255,255,255,.94);border:1px solid rgba(31,41,55,.12);border-radius:18px;box-shadow:none;color:var(--ink);transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease, background-color .18s ease;}
+.decision-choice:hover{background:#fff;border-color:rgba(31,111,95,.28);box-shadow:0 14px 26px rgba(31,41,55,.08);}
+.decision-choice:focus-visible,.decision-chip:focus-visible,.decision-result-link:focus-visible,.tool-fallback-link:focus-visible,.explorer-link:focus-visible{outline:3px solid rgba(31,111,95,.18);outline-offset:2px;border-color:rgba(31,111,95,.34);}
+.decision-choice.selected{background:linear-gradient(135deg,rgba(223,241,234,.96),rgba(255,255,255,.98));border-color:rgba(31,111,95,.34);box-shadow:0 16px 28px rgba(31,111,95,.12);}
+.decision-choice strong{display:block;margin-bottom:6px;font-size:15px;line-height:1.32;}
+.decision-choice span{display:block;font-size:13px;line-height:1.58;color:var(--ink-soft);}
+.decision-chip-row{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));}
+.decision-chip{width:100%;min-width:0;min-height:48px;padding:11px 14px;border-radius:999px;background:#fff;border:1px solid rgba(31,41,55,.12);color:var(--ink);font-size:14px;font-weight:700;box-shadow:none;transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;}
+.decision-chip:hover{border-color:rgba(31,111,95,.24);}
+.decision-chip:active,.decision-choice:active,.decision-result-link:active,.tool-fallback-link:active,.explorer-link:active{transform:translateY(0);}
+.decision-chip.selected{background:rgba(223,241,234,.92);border-color:rgba(31,111,95,.28);color:var(--accent-text);box-shadow:0 10px 18px rgba(31,111,95,.10);}
+.decision-question-note{margin-top:10px;font-size:13px;line-height:1.55;color:var(--ink-faint);}
+.decision-review-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));}
+.decision-review-card{min-width:0;padding:15px 16px;background:rgba(247,241,232,.76);border:1px solid rgba(31,41,55,.08);border-radius:18px;}
+.decision-review-card strong{display:block;margin-bottom:4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-nav{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-top:24px;padding-top:18px;border-top:1px solid rgba(31,41,55,.08);flex-wrap:wrap;}
+.decision-nav .cta,.decision-nav .button-secondary{min-height:48px;margin:0;}
+.decision-loading{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:28px 24px;background:linear-gradient(135deg,rgba(223,241,234,.95),rgba(255,255,255,.95));border:1px solid rgba(31,111,95,.16);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-loading-dots{display:inline-flex;gap:8px;}
+.decision-loading-dots span{width:10px;height:10px;border-radius:999px;background:rgba(31,111,95,.28);animation:decisionPulse 1s infinite ease-in-out;}
+.decision-loading-dots span:nth-child(2){animation-delay:.12s;}
+.decision-loading-dots span:nth-child(3){animation-delay:.24s;}
+@keyframes decisionPulse{0%,80%,100%{transform:scale(.8);opacity:.45;}40%{transform:scale(1);opacity:1;}}
+.decision-result{display:grid;gap:18px;}
+.decision-result-banner{position:relative;padding:22px;border-radius:22px;border:1px solid rgba(31,41,55,.08);box-shadow:var(--shadow-soft);}
+.decision-result-banner.good{background:linear-gradient(135deg,rgba(223,241,234,.98),rgba(255,255,255,.95));border-color:rgba(31,111,95,.18);}
+.decision-result-banner.warn{background:linear-gradient(135deg,rgba(255,246,228,.98),rgba(255,255,255,.95));border-color:rgba(183,121,31,.22);}
+.decision-result-banner.danger{background:linear-gradient(135deg,rgba(255,236,233,.98),rgba(255,255,255,.95));border-color:rgba(186,66,55,.22);}
+.decision-result-banner.info{background:linear-gradient(135deg,rgba(234,243,250,.98),rgba(255,255,255,.95));border-color:rgba(69,117,160,.22);}
+.decision-result-banner h3{margin-bottom:10px;font-size:clamp(1.42rem,2.4vw,1.9rem);line-height:1.08;}
+.decision-result-banner p{max-width:60ch;font-size:15px;line-height:1.68;color:var(--ink-soft);}
+.decision-status{display:inline-flex;align-items:center;padding:9px 13px;border-radius:999px;margin-bottom:12px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.88);color:var(--ink);box-shadow:inset 0 0 0 1px rgba(31,41,55,.06),0 10px 18px rgba(31,41,55,.06);}
+.decision-result-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-result-card{min-width:0;padding:18px;background:rgba(255,255,255,.88);border:1px solid rgba(31,41,55,.08);border-radius:18px;box-shadow:var(--shadow-soft);}
+.decision-result-card h3{margin-bottom:8px;}
+.decision-result-card ul{padding-left:18px;}
+.decision-result-links{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-result-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.92);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.decision-result-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.decision-result-link strong{display:block;margin-bottom:6px;}
+.decision-follow-up{display:grid;gap:14px;margin-top:10px;}
+.decision-follow-up-card{display:grid;gap:14px;padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));border:1px solid rgba(31,41,55,.08);border-radius:20px;box-shadow:var(--shadow-soft);}
+.decision-follow-up-heading{display:grid;gap:6px;}
+.decision-follow-up-heading h3{margin-bottom:0;}
+.decision-follow-up-heading p{margin:0;line-height:1.6;color:var(--ink-soft);}
+.decision-follow-up-kicker{display:inline-flex;align-items:center;width:max-content;padding:7px 10px;border-radius:999px;background:rgba(31,111,95,.10);color:var(--accent-text);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+.decision-follow-up-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-follow-up-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.94);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.decision-follow-up-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.decision-follow-up-link strong{display:block;margin-bottom:6px;}
+.decision-follow-up-link span{display:block;font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-email-capture{display:grid;gap:10px;grid-template-columns:minmax(0,1fr) auto;align-items:center;}
+.decision-email-input{width:100%;min-width:0;min-height:50px;padding:13px 15px;border:1px solid rgba(31,41,55,.14);border-radius:16px;background:#fff;color:var(--ink);}
+.decision-email-button{min-height:50px;padding:14px 20px;}
+.decision-email-note{grid-column:1 / -1;margin:0;font-size:13px;line-height:1.55;color:var(--ink-faint);}
+.decision-inline-note{padding:14px 15px;background:rgba(223,241,234,.54);border:1px solid rgba(31,111,95,.12);border-radius:16px;font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-sidebar h3{margin-bottom:10px;}
+.decision-summary-list{display:grid;gap:10px;margin-bottom:18px;}
+.decision-summary-item{min-width:0;padding:12px 14px;background:rgba(247,241,232,.74);border:1px solid rgba(31,41,55,.08);border-radius:16px;}
+.decision-summary-item strong{display:block;margin-bottom:4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-method-note{padding:14px 15px;background:rgba(223,241,234,.62);border:1px solid rgba(31,111,95,.12);border-radius:16px;font-size:14px;color:var(--ink-soft);}
+.tool-fallback{display:grid;gap:14px;padding:22px;background:linear-gradient(135deg,rgba(247,241,232,.9),rgba(255,255,255,.96));border:1px solid rgba(31,41,55,.08);border-radius:22px;}
+.tool-fallback h3{margin-bottom:0;}
+.tool-fallback-links{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.tool-fallback-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.92);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.tool-fallback-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.tool-fallback-link strong{display:block;margin-bottom:6px;}
+.decision-step-number,.decision-step-name,.decision-choice strong,.decision-choice span,.decision-summary-item span,.decision-review-card span,.decision-result-link span,.decision-result-card li,.decision-method-note,.tool-fallback p,.explorer-fit-note,.explorer-status{writing-mode:horizontal-tb;text-orientation:mixed;white-space:normal;word-break:normal;overflow-wrap:anywhere;hyphens:none;}
+@media (max-width:960px){.decision-engine-card{overflow:visible;}.decision-engine{overflow-x:hidden;}.decision-desktop-shell{padding:22px;}.decision-engine-header{flex-direction:column;align-items:stretch;gap:14px;}.decision-header-actions{justify-content:flex-start;}.decision-layout{grid-template-columns:1fr !important;}.decision-sidebar{position:static;max-width:100%;width:100%;margin-top:12px;}.decision-panel,.decision-sidebar{max-width:100%;width:100%;}.decision-step-labels{grid-template-columns:repeat(2,minmax(0,1fr));}.decision-mobile-calculator-shell{padding:22px;}}
+@media (max-width:767px){.decision-shell-desktop{display:none !important;}.decision-shell-mobile{display:block !important;}.decision-mobile-calculator-shell{padding:18px;gap:14px;}.decision-mobile-calculator-actions{display:grid;gap:10px;}.decision-mobile-calculator-actions > *{width:100%;min-height:48px;margin:0;}.decision-mobile-calculator-panel,.decision-mobile-calculator-summary,.decision-follow-up-card{padding:18px;border-radius:20px;}.decision-mobile-calculator-step-intro{padding:15px 16px;}.decision-trust-note{margin-top:12px;}.decision-step-labels{gap:8px;grid-template-columns:1fr !important;}.decision-step-label{display:block;padding:12px 14px;max-width:100%;width:100%;}.decision-step-number,.decision-step-name{display:block;max-width:100%;line-height:1.25;}.decision-choice-grid,.decision-binary-grid,.decision-review-grid,.decision-result-grid,.decision-result-links,.tool-fallback-links,.decision-chip-row,.decision-follow-up-grid{grid-template-columns:1fr !important;}.decision-choice,.decision-review-card,.decision-result-card,.decision-result-link,.decision-summary-item,.tool-fallback-link,.decision-chip,.decision-follow-up-link{max-width:100%;width:100%;}.decision-choice strong,.decision-step-name{font-size:14px;}.decision-nav{display:flex;flex-direction:column;position:static;margin-top:18px;padding-top:16px;background:none;}.decision-nav > *{flex:1 1 auto;width:100%;}.decision-nav span{display:none;}.decision-nav .cta,.decision-nav .button-secondary,.decision-email-button{width:100%;min-height:52px;padding:14px 18px;}.decision-result-banner,.decision-result-card,.decision-result-link,.tool-fallback,.decision-loading,.decision-follow-up-card{padding:18px;}.decision-email-capture{grid-template-columns:1fr;}}
+@media (max-width:420px){.decision-mobile-calculator-shell{padding:16px;}.decision-kicker,.decision-status{font-size:11px;}.decision-choice,.decision-result-link,.tool-fallback-link,.decision-follow-up-link{padding:14px;}.decision-choice span,.decision-method-note,.decision-trust-note span,.decision-inline-note,.decision-email-note,.decision-follow-up-link span{font-size:13px;}.decision-chip{font-size:13px;}.decision-mobile-calculator-panel,.decision-mobile-calculator-summary,.decision-result-banner,.decision-result-card,.tool-fallback,.decision-loading,.decision-mobile-calculator-step-intro,.decision-step-copy,.decision-question,.decision-trust-note,.decision-follow-up-card{padding:16px;}.decision-mobile-calculator-header h2{font-size:clamp(1.38rem,7.6vw,1.82rem);}}
+
+</style>
+<div id="custom-tool-planning-route-planner" class="decision-engine" data-tool-root="planning-route-planner" data-tool-kind="scenario"></div>
+<noscript>
+<div class="tool-fallback" data-tool-fallback="true">
+<h3>Interactive tool loading</h3>
+<p>If the interactive tool does not appear, open the full planning guidance or use one of the linked tools while JavaScript is unavailable.</p>
+<div class='tool-fallback-links'>
+<a class="tool-fallback-link" href="/tools/planning-decision-tool/">
+<strong>Planning Decision Engine</strong>
+<span>Helpful when the overall route still feels unclear even after this planner.</span>
+</a>
+
+<a class="tool-fallback-link" href="/planning-faq/do-i-need-planning-permission/">
+<strong>Do I Need Planning Permission?</strong>
+<span>Useful when the process question is still the main blocker.</span>
+</a>
+</div>
+</div>
+</noscript>
+<script>
+(function () {
+  const CONFIG = {"slug": "planning-route-planner", "title": "Planning Route Planner", "intro": "Use this tool to map the approval route most likely to matter before you spend time on the wrong application path. It is built to show whether the live route looks like permitted development, a formal application, a parallel consent or a mixed route that still needs checking.", "status_copy": {"clear": {"label": "Simpler route still plausible", "tone": "good", "summary": "The answers still leave room for a simpler route, but the supporting checks are worth lining up before you rely on it."}, "warn": {"label": "Mixed route signals", "tone": "warn", "summary": "The project is no longer an obvious one-route answer, so it is sensible to keep both the simpler and formal paths in view."}, "danger": {"label": "Formal route likely", "tone": "danger", "summary": "The answers point toward a fuller application or parallel-consent path, so that should be treated as the safer baseline for planning."}}, "section_labels": {"primary": "Likely approval routes", "secondary": "Checks that often sit alongside the route", "next": "What to do next"}, "baseline_reason": "Nothing here clearly rules out the simpler route yet, but the route still needs the supporting checks below.", "primary_items": ["Start with the route that fits the project today, not the one you hope will fit later."], "secondary_items": ["Building regulations can still run alongside planning rather than replacing it."], "next_checks": ["Use the route output to decide which guide, consent or council check to open next.", "Treat mixed-route answers as a prompt for clearer measurements and planning history review.", "Use a lawful development certificate only when the underlying permitted-development case still looks credible."], "links": [{"title": "Planning Decision Engine", "href": "/tools/planning-decision-tool/", "description": "Helpful when the overall route still feels unclear even after this planner."}, {"title": "Do I Need Planning Permission?", "href": "/planning-faq/do-i-need-planning-permission/", "description": "Useful when the process question is still the main blocker."}], "questions": [{"id": "project", "step_label": "Project", "label": "What kind of route are you planning for?", "help": "Choose the nearest project so the planner can bias toward the usual route families for that work.", "options": [{"value": "extension", "label": "Extension", "hint": "Rear, side or wraparound householder extension.", "impact": "clear", "primary_add": ["A householder or permitted-development route is usually the first route to test for a house extension."], "links_add": [{"title": "House Extensions", "href": "/house-extensions/", "description": "Use this once you know the route still revolves around an extension."}]}, {"value": "loft", "label": "Loft or roof project", "hint": "Loft conversion, dormer or rooflight style project.", "impact": "clear", "primary_add": ["A loft or roof-change route is usually the first route to test, with front-facing changes checked carefully."], "links_add": [{"title": "Loft Conversions", "href": "/loft-conversions/", "description": "Open this if the route still revolves around the roof change."}]}, {"value": "outbuilding", "label": "Garden room or outbuilding", "hint": "Detached building or annexe-style project.", "impact": "warn", "reason": "Detached-building routes often split quickly between incidental use, annexe questions and formal permission.", "primary_add": ["An outbuilding permitted-development route may be live, but use and height often decide it."], "links_add": [{"title": "Outbuildings", "href": "/outbuildings/", "description": "Useful for the detached-building route."}]}, {"value": "garage", "label": "Garage conversion", "hint": "Mostly internal conversion with possible frontage change.", "impact": "warn", "reason": "Garage conversions often look simple until parking history or frontage change becomes part of the route.", "primary_add": ["A simpler route may still be possible, but planning history and frontage treatment need checking."], "links_add": [{"title": "Garage Conversions", "href": "/garage-conversions/", "description": "Open this if parking and frontage treatment are the main route questions."}]}, {"value": "driveway", "label": "Driveway or dropped kerb", "hint": "Frontage parking, hardstanding or highway-access work.", "impact": "danger", "reason": "Driveway and access projects often involve planning, drainage and highways rather than a single simple route.", "primary_add": ["A mixed planning, drainage and highway-consent route is realistic for frontage access work."], "links_add": [{"title": "Driveways", "href": "/driveways/", "description": "Helpful when drainage and frontage rules are central."}, {"title": "Dropped Kerbs", "href": "/dropped-kerbs/", "description": "Use this when highway access is part of the route."}]}]}, {"id": "property", "step_label": "Property", "label": "What kind of property is involved?", "help": "This is often the first thing that changes the route from simple to formal.", "options": [{"value": "house", "label": "House", "hint": "Detached, semi-detached, terraced or bungalow.", "impact": "clear"}, {"value": "flat", "label": "Flat or maisonette", "hint": "External work often follows a tighter route.", "impact": "danger", "reason": "Flats and maisonettes often move the route toward formal permission rather than the normal householder shortcut.", "primary_add": ["Treat a formal planning route as more likely than a simple householder shortcut."], "secondary_add": ["Any estate, lease or freeholder controls that could run alongside planning."]}, {"value": "other", "label": "Other or not sure", "hint": "Use this for mixed or unusual cases.", "impact": "warn", "reason": "Where the property type is unclear, the safer assumption is that the route needs more checking."}]}, {"id": "baseline", "step_label": "Baseline", "label": "How much does the proposal rely on normal permitted development rights?", "help": "This usually decides whether the route planner should lean simple or formal.", "options": [{"value": "strong_pd", "label": "Quite heavily", "hint": "The proposal only works if the simpler route holds up.", "impact": "warn", "reason": "Where the project depends heavily on permitted development, the supporting checks become much more important.", "primary_add": ["A lawful development certificate may be worth considering if certainty matters later."], "secondary_add": ["The exact measurements and planning history that support the permitted-development case."], "links_add": [{"title": "Permitted Development", "href": "/permitted-development/", "description": "Open this for the baseline rights behind the simpler route."}]}, {"value": "mixed", "label": "It could go either way", "hint": "You are keeping both PD and application routes in view.", "impact": "warn", "reason": "A mixed-route answer is usually a sign to keep the formal path in view rather than over-commit to the shortcut.", "primary_add": ["Keep both the simpler route and a formal application route in view until measurements and constraints are clearer."]}, {"value": "formal", "label": "Not much", "hint": "You already expect a fuller or formal route.", "impact": "danger", "reason": "If the project already looks formal, the safer baseline is to plan for that route from the start.", "primary_add": ["Treat a formal planning route as the safer baseline rather than a fallback."], "secondary_add": ["A fuller design pack and supporting drawings for the likely application route."]}]}, {"id": "parallel", "step_label": "Parallel", "label": "Which extra approval or parallel consent feels most likely?", "help": "Pick the one most likely to run alongside the main planning route.", "options": [{"value": "none", "label": "None obvious", "hint": "No extra consent route is known yet.", "impact": "clear"}, {"value": "listed", "label": "Listed building consent", "hint": "Historic fabric or listed-building status is involved.", "impact": "danger", "reason": "Listed building consent often sits alongside or above the normal planning route.", "primary_add": ["Listed building consent may sit alongside planning rather than being optional."], "secondary_add": ["A clearer description of the affected historic fabric and visible change."], "links_add": [{"title": "Listed Buildings", "href": "/listed-buildings/", "description": "Open this when listed-building consent may be part of the route."}]}, {"value": "highway", "label": "Highway or access approval", "hint": "A dropped kerb, access change or visibility issue is involved.", "impact": "danger", "reason": "A highway-access issue often means the route is not just planning permission on its own.", "primary_add": ["Highway approval may be part of the live route, not just planning."], "secondary_add": ["A frontage or access sketch showing visibility and vehicle movement."], "links_add": [{"title": "Dropped Kerbs", "href": "/dropped-kerbs/", "description": "Useful when highway approval is likely to matter."}]}, {"value": "prior_approval", "label": "Prior approval", "hint": "The project may sit on a prior-approval style route.", "impact": "warn", "reason": "Prior approval is a distinct route and should not be treated as the same thing as a clean PD answer.", "primary_add": ["A prior approval route may be the live process rather than a simple permitted-development answer."]}]}, {"id": "sensitivity", "step_label": "Sensitivity", "label": "How sensitive is the site context?", "help": "Sensitive sites usually move the route away from the simplest answer.", "options": [{"value": "none", "label": "No known sensitivity", "hint": "No special local control is known.", "impact": "clear"}, {"value": "unsure", "label": "Not checked yet", "hint": "You still need the local layer.", "impact": "warn", "reason": "An unconfirmed local sensitivity check is enough to keep the formal route in view."}, {"value": "article4", "label": "Article 4 or local policy restriction", "hint": "A local restriction is already known.", "impact": "danger", "reason": "A local policy restriction can remove the simpler route entirely.", "primary_add": ["A local policy restriction may remove the simpler route and push the scheme toward formal permission."], "links_add": [{"title": "Article 4 Restrictions", "href": "/article-4/", "description": "Open this when local policy may override the shortcut."}]}, {"value": "heritage", "label": "Heritage-sensitive site", "hint": "Conservation area or listed-building issues are in play.", "impact": "danger", "reason": "Heritage sensitivity often means the formal route is the safer planning baseline.", "primary_add": ["Heritage sensitivity means the formal route should stay on the table even if the project looks modest."], "links_add": [{"title": "Conservation Areas", "href": "/conservation-areas/", "description": "Helpful when heritage context could tighten the route."}]}]}]};
+  const engine = document.getElementById("custom-tool-planning-route-planner");
+  if (!engine) {
+    return;
+  }
+
+  const STEP_NAMES = CONFIG.questions.map((question) => question.step_label).concat("Review");
+  const IMPACT_SCORE = { clear: 0, warn: 1, danger: 2 };
+
+  function createState() {
+    return { step: 1, answers: {}, loading: false, result: null };
+  }
+
+  let state = createState();
+
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function questionByStep(stepNumber) {
+    return CONFIG.questions[stepNumber - 1] || null;
+  }
+
+  function optionFor(question, value) {
+    return (question.options || []).find((item) => item.value === value) || null;
+  }
+
+  function logToolEvent(type, detail) {
+    if (window.console && typeof window.console.log === "function") {
+      window.console.log("[custom-tool:" + CONFIG.slug + "]", type, detail || "");
+    }
+  }
+
+  function answerLabel(question, value) {
+    const option = optionFor(question, value);
+    return option ? option.label : "Not chosen yet";
+  }
+
+  function requiredForStep(stepNumber) {
+    if (stepNumber <= CONFIG.questions.length) {
+      const question = questionByStep(stepNumber);
+      return Boolean(question && state.answers[question.id]);
+    }
+    return CONFIG.questions.every((question) => Boolean(state.answers[question.id]));
+  }
+
+
+  const MOBILE_LAYOUT_BREAKPOINT = 767;
+  const compactLayoutQuery = window.matchMedia("(max-width: " + MOBILE_LAYOUT_BREAKPOINT + "px)");
+  let compactLayout = compactLayoutQuery.matches;
+
+  function isCompactLayout() {
+    return compactLayout;
+  }
+
+  function syncCompactLayout(event) {
+    const next = event && typeof event.matches === "boolean"
+      ? event.matches
+      : compactLayoutQuery.matches;
+    if (next !== compactLayout) {
+      compactLayout = next;
+      render();
+    }
+  }
+
+  if (typeof compactLayoutQuery.addEventListener === "function") {
+    compactLayoutQuery.addEventListener("change", syncCompactLayout);
+  } else if (typeof compactLayoutQuery.addListener === "function") {
+    compactLayoutQuery.addListener(syncCompactLayout);
+  }
+
+  function renderProgressLabels(stepNames, currentStep, hasResult) {
+    return stepNames.map((name, index) => {
+      const stepNumber = index + 1;
+      const classes = [
+        "decision-step-label",
+        hasResult ? "done" : "",
+        currentStep === stepNumber && !hasResult ? "active" : "",
+        stepNumber < currentStep || (stepNumber <= stepNames.length && hasResult) ? "done" : "",
+      ].filter(Boolean).join(" ");
+      return "<div class='" + classes + "'><span class='decision-step-number'>Step " + stepNumber + "</span><span class='decision-step-name'>" + escapeHtml(name) + "</span></div>";
+    }).join("");
+  }
+
+  function renderMobileStepChips(stepNames, currentStep, hasResult) {
+    return stepNames.map((name, index) => {
+      const stepNumber = index + 1;
+      const classes = [
+        "decision-mobile-chip",
+        hasResult ? "done" : "",
+        currentStep === stepNumber && !hasResult ? "active" : "",
+        stepNumber < currentStep || hasResult ? "done" : "",
+      ].filter(Boolean).join(" ");
+      return "<span class='" + classes + "' aria-label='" + escapeHtml("Step " + stepNumber + ": " + name) + "'>" + stepNumber + "</span>";
+    }).join("");
+  }
+
+  function renderTrustNote() {
+    return "<div class='decision-trust-note'><strong>UK planning baseline</strong><span>Based on common UK planning and permitted development rules. Always confirm with your local council if the project is close to a limit or affected by local controls.</span></div>";
+  }
+
+  const SHARED_FOLLOW_ON_TOOLS = [
+    { slug: "planning-decision-tool", title: "Planning checker", href: "/tools/planning-decision-tool/", description: "Run the full rule-based planning check for a clearer route answer." },
+    { slug: "permitted-development-calculator", title: "Size calculator", href: "/tools/permitted-development-calculator/", description: "Use the fast dimensions-first calculator for a simpler first pass." },
+    { slug: "planning-route-planner", title: "Route planner", href: "/tools/planning-route-planner/", description: "Compare the likely planning paths when the answer still feels mixed." }
+  ];
+  const RULE_LINK_PREFIXES = [
+    "/planning-permission/",
+    "/permitted-development/",
+    "/height-limits/",
+    "/boundary-rules/",
+    "/conservation-areas/",
+    "/maximum-height/",
+    "/distance-from-boundary/",
+    "/roof-alterations/",
+    "/article-4/",
+    "/listed-buildings/",
+    "/depth-limits/"
+  ];
+
+  function ensureLink(target, item) {
+    if (item && item.href && !target.some((link) => link.href === item.href)) {
+      target.push(item);
+    }
+  }
+
+  function classifyPrimaryLink(item) {
+    const href = item && item.href ? String(item.href) : "";
+    if (!href) {
+      return "other";
+    }
+    if (href.indexOf("/planning-faq/") === 0) {
+      return "faq";
+    }
+    if (href.indexOf("/councils/") === 0 || href === "/councils/") {
+      return "authority";
+    }
+    if (href.indexOf("/tools/") === 0) {
+      return "tool";
+    }
+    if (RULE_LINK_PREFIXES.some((prefix) => href.indexOf(prefix) === 0)) {
+      return "rule";
+    }
+    if (href.indexOf("/") === 0) {
+      return "project";
+    }
+    return "other";
+  }
+
+  function firstLinkByCategory(links, category) {
+    return (links || []).find((item) => classifyPrimaryLink(item) === category) || null;
+  }
+
+  function buildCoreNextLinks(options) {
+    const curated = [];
+    const links = options.links || [];
+
+    ensureLink(curated, options.projectLink || firstLinkByCategory(links, "project"));
+    ensureLink(curated, options.ruleLink || firstLinkByCategory(links, "rule"));
+    ensureLink(curated, options.faqLink || firstLinkByCategory(links, "faq"));
+    ensureLink(
+      curated,
+      options.authorityLink || firstLinkByCategory(links, "authority") || {
+        title: "Local Authorities",
+        href: "/councils/",
+        description: "Compare the local authority layer before relying on the answer.",
+      }
+    );
+
+    return curated.filter(Boolean);
+  }
+
+  function defaultNextTool(currentSlug) {
+    const fallback = currentSlug === "what-can-i-build-explorer"
+      ? { href: "/tools/planning-decision-tool/", title: "Use another tool", description: "Move from project ideas into the full planning checker." }
+      : { href: "/tools/what-can-i-build-explorer/", title: "Use another tool", description: "Open the project explorer to compare other directions for the site." };
+    return fallback;
+  }
+
+  function renderPostResultExtras(options) {
+    const currentSlug = options.toolSlug || "";
+    const resultLabel = options.resultLabel || "Result saved";
+    const nextTool = options.nextTool || defaultNextTool(currentSlug);
+    const guideHref = options.guideHref || "/planning-permission/";
+    const guideTitle = options.guideTitle || "Planning permission guide";
+    const nextSteps = [
+      { title: "View full guide", href: guideHref, description: "Open the longer guide behind this result." },
+      { title: "Check rules in your area", href: "/councils/", description: "Compare the local authority layer before relying on the answer." },
+      nextTool
+    ];
+    const relatedTools = SHARED_FOLLOW_ON_TOOLS.filter((item) => item.slug !== currentSlug).slice(0, 3);
+    return "<section class='decision-follow-up'><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Next steps</span><h3>Keep moving while the result is fresh</h3><p>Use the next best action below to confirm the answer, localise it, or move into a deeper tool.</p></div><div class='decision-follow-up-grid'>" + nextSteps.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description || "Open the next planning step.") + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Related tools</span><h3>Continue with another planning check</h3><p>These follow-on tools help you pressure-test the same project from a different angle without starting your research from scratch.</p></div><div class='decision-follow-up-grid'>" + relatedTools.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description) + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Save this result</span><h3>Want this result emailed to you?</h3><p>This is a lightweight placeholder for now. Save it on this device so you can come back to the same result later.</p></div><div class='decision-email-capture' data-tool-email-capture='" + escapeHtml(currentSlug) + "' data-result-label='" + escapeHtml(resultLabel) + "'><input type='email' class='decision-email-input' placeholder='name@example.com' inputmode='email' autocomplete='email' aria-label='Email address for this result'><button type='button' class='cta decision-email-button' onclick='window.__ukpgSaveToolEmail && window.__ukpgSaveToolEmail(this)'>Save on this device</button><p class='decision-email-note'>No backend is connected yet. This only stores the email locally on this device.</p></div></div><div class='decision-inline-note'>This is a guide based on UK planning rules. Always confirm with your local council.</div></section>";
+  }
+
+  window.__ukpgSaveToolEmail = function (button) {
+    try {
+      const wrapper = button && button.closest("[data-tool-email-capture]");
+      if (!wrapper) {
+        return;
+      }
+      const input = wrapper.querySelector(".decision-email-input");
+      const note = wrapper.querySelector(".decision-email-note");
+      const email = input ? String(input.value || "").trim() : "";
+      if (!email || email.indexOf("@") === -1) {
+        if (note) {
+          note.textContent = "Enter a valid email to save this result on this device.";
+        }
+        return;
+      }
+      const payload = {
+        email: email,
+        resultLabel: wrapper.getAttribute("data-result-label") || "Planning tool result",
+        savedAt: new Date().toISOString()
+      };
+      window.localStorage.setItem("ukpg-tool-email:" + (wrapper.getAttribute("data-tool-email-capture") || "tool"), JSON.stringify(payload));
+      if (note) {
+        note.textContent = "Saved on this device only. A real email send can plug into this later.";
+      }
+    } catch (error) {
+      const wrapper = button && button.closest("[data-tool-email-capture]");
+      const note = wrapper ? wrapper.querySelector(".decision-email-note") : null;
+      if (note) {
+        note.textContent = "This browser blocked local storage, so the placeholder save could not be stored.";
+      }
+    }
+  };
+
+  function renderProgressIntro(options, currentName) {
+    const title = options.hasResult ? "Result ready" : ("Step " + options.currentStep + " of " + options.stepNames.length);
+    const detail = options.hasResult
+      ? "You have a structured outcome with follow-on checks and next pages."
+      : ("Current focus: " + currentName + ". Complete each step to unlock the full result.");
+    return "<div class='decision-progress-top'><strong>" + escapeHtml(title) + "</strong><span>" + escapeHtml(detail) + "</span></div>";
+  }
+
+  function renderDesktopToolShell(options) {
+    const currentName = options.hasResult ? "Result" : (options.stepNames[options.currentStep - 1] || "Review");
+    return "<div class='decision-desktop-shell'><div class='decision-engine-header'><div><span class='decision-kicker'>" + escapeHtml(options.kicker) + "</span><h2>" + escapeHtml(options.heading) + "</h2><p class='tool-summary'>" + escapeHtml(options.intro) + "</p>" + renderTrustNote() + "</div><div class='decision-header-actions'>" + options.actionsHtml + "</div></div><div class='decision-progress'>" + renderProgressIntro(options, currentName) + "<div class='decision-progress-bar'><span style='width:" + options.progress + "%'></span></div><div class='decision-step-labels'>" + renderProgressLabels(options.stepNames, options.currentStep, options.hasResult) + "</div></div><div class='decision-layout'><div class='decision-panel'>" + options.contentHtml + "</div>" + options.sidebarHtml + "</div></div>";
+  }
+
+  function renderMobileToolShell(options) {
+    const currentName = options.hasResult ? "Result" : (options.stepNames[options.currentStep - 1] || "Review");
+    const introLabel = options.hasResult ? "Result ready" : ("Step " + options.currentStep + " of " + options.stepNames.length);
+    const introCopy = options.hasResult
+      ? "Your structured result and follow-on guidance are ready below."
+      : ("Current focus: " + currentName + ". Complete each step to unlock the full result.");
+    const summaryBlock = "<div class='decision-mobile-calculator-summary'><h3>" + escapeHtml(options.summaryTitle || "Your answers") + "</h3><div class='decision-summary-list'>" + options.summaryHtml + "</div>" + (options.noteHtml ? "<div class='decision-method-note'>" + options.noteHtml + "</div>" : "") + "</div>";
+    return "<div class='decision-mobile-calculator-shell'><div class='decision-mobile-calculator-header'><div><span class='decision-kicker'>" + escapeHtml(options.kicker) + "</span><h2>" + escapeHtml(options.heading) + "</h2><p class='tool-summary'>" + escapeHtml(options.intro) + "</p>" + renderTrustNote() + "</div><div class='decision-mobile-calculator-actions'>" + options.actionsHtml + "</div></div><div class='decision-mobile-calculator-body'><div class='decision-mobile-calculator-panel'><div class='decision-mobile-calculator-step-intro'><strong>" + escapeHtml(introLabel) + "</strong><p>" + escapeHtml(introCopy) + "</p><div class='decision-progress-bar'><span style='width:" + options.progress + "%'></span></div><div class='decision-step-labels'>" + renderProgressLabels(options.stepNames, options.currentStep, options.hasResult) + "</div></div>" + options.contentHtml + "</div>" + summaryBlock + "</div></div>";
+  }
+
+  function renderResponsiveToolShellInto(target, options) {
+    if (!target) {
+      return;
+    }
+    const markup = "<div class='decision-shell decision-shell-desktop' data-tool-shell='desktop'>" + renderDesktopToolShell(options) + "</div><div class='decision-shell decision-shell-mobile' data-tool-shell='mobile'>" + renderMobileToolShell(options) + "</div>";
+    target.innerHTML = markup;
+    if (typeof target.setAttribute === "function") {
+      target.setAttribute("data-tool-layout", isCompactLayout() ? "mobile" : "desktop");
+    }
+  }
+
+
+  function pushUnique(target, value) {
+    if (value && !target.includes(value)) {
+      target.push(value);
+    }
+  }
+
+  function extendUnique(target, values) {
+    (values || []).forEach((value) => pushUnique(target, value));
+  }
+
+  function assess() {
+    let highestImpact = "clear";
+    let warnCount = 0;
+    const reasons = [];
+    const primaryItems = [].concat(CONFIG.primary_items || []);
+    const secondaryItems = [].concat(CONFIG.secondary_items || []);
+    const nextChecks = [].concat(CONFIG.next_checks || []);
+    const links = [].concat(CONFIG.links || []);
+
+    CONFIG.questions.forEach((question) => {
+      const option = optionFor(question, state.answers[question.id]);
+      if (!option) {
+        return;
+      }
+
+      if (IMPACT_SCORE[option.impact] > IMPACT_SCORE[highestImpact]) {
+        highestImpact = option.impact;
+      }
+      if (option.impact === "warn") {
+        warnCount += 1;
+      }
+      if (option.impact !== "clear") {
+        pushUnique(reasons, option.reason);
+      }
+
+      extendUnique(primaryItems, option.primary_add);
+      extendUnique(secondaryItems, option.secondary_add);
+      extendUnique(nextChecks, option.next_add);
+      (option.links_add || []).forEach((item) => {
+        if (!item || !item.href || links.some((existing) => existing.href === item.href)) {
+          return;
+        }
+        links.push(item);
+      });
+    });
+
+    if (highestImpact !== "danger" && warnCount >= 2) {
+      highestImpact = "danger";
+      pushUnique(reasons, "Several borderline answers are stacking up, which is usually enough to move this tool toward the fuller route.");
+    }
+
+    if (!reasons.length) {
+      pushUnique(reasons, CONFIG.baseline_reason);
+    }
+
+    return {
+      status: highestImpact,
+      summary: CONFIG.status_copy[highestImpact].summary,
+      reasons: reasons.slice(0, 4),
+      primary_items: primaryItems.slice(0, 5),
+      secondary_items: secondaryItems.slice(0, 5),
+      next_checks: nextChecks.slice(0, 4),
+      links: links.slice(0, 4),
+    };
+  }
+
+  function summaryItems() {
+    return CONFIG.questions.map((question) => ({ label: question.label, value: answerLabel(question, state.answers[question.id]) }));
+  }
+
+  function renderChoiceGrid(question) {
+    return "<div class='decision-choice-grid'>" + question.options.map((option) => {
+      const selected = state.answers[question.id] === option.value ? " selected" : "";
+      return "<button type='button' class='decision-choice" + selected + "' data-action='set-answer' data-question-id='" + escapeHtml(question.id) + "' data-value='" + escapeHtml(option.value) + "'><strong>" + escapeHtml(option.label) + "</strong><span>" + escapeHtml(option.hint || "") + "</span></button>";
+    }).join("") + "</div>";
+  }
+
+  function renderQuestionStep(question) {
+    return "<div class='decision-step-copy'><h3>" + escapeHtml(question.label) + "</h3><p>" + escapeHtml(question.help || CONFIG.intro) + "</p></div><div class='decision-question'>" + renderChoiceGrid(question) + "</div><div class='decision-nav'><button type='button' class='button-secondary' data-action='prev'" + (state.step === 1 ? " disabled" : "") + ">Back</button><button type='button' class='cta' data-action='next' " + (requiredForStep(state.step) ? "" : "disabled") + ">Continue</button></div>";
+  }
+
+  function renderReview() {
+    const cards = summaryItems().map((item) => "<div class='decision-review-card'><strong>" + escapeHtml(item.label) + "</strong><span>" + escapeHtml(item.value) + "</span></div>").join("");
+    return "<div class='decision-step-copy'><h3>Review the answers and build the output</h3><p>" + escapeHtml(CONFIG.intro) + "</p></div><div class='decision-review-grid'>" + cards + "</div><div class='decision-nav'><button type='button' class='button-secondary' data-action='prev'>Back</button><button type='button' class='cta' data-action='run-check' " + (requiredForStep(CONFIG.questions.length + 1) ? "" : "disabled") + ">Build result</button></div>";
+  }
+
+  function renderResult() {
+    const result = state.result;
+    const status = CONFIG.status_copy[result.status];
+    const labels = CONFIG.section_labels || {};
+    return "<div class='decision-result'><div class='decision-result-banner " + status.tone + "'><div class='decision-status'>" + escapeHtml(status.label) + "</div><h3>" + escapeHtml(CONFIG.title) + "</h3><p>" + escapeHtml(result.summary) + "</p></div><div class='decision-result-grid'><div class='decision-result-card'><h3>" + escapeHtml(labels.primary || "Key output") + "</h3><ul>" + result.primary_items.map((item) => "<li>" + escapeHtml(item) + "</li>").join("") + "</ul></div><div class='decision-result-card'><h3>" + escapeHtml(labels.secondary || "Supporting detail") + "</h3><ul>" + result.secondary_items.map((item) => "<li>" + escapeHtml(item) + "</li>").join("") + "</ul></div><div class='decision-result-card'><h3>" + escapeHtml(labels.next || "What to do next") + "</h3><ul>" + result.next_checks.map((item) => "<li>" + escapeHtml(item) + "</li>").join("") + "</ul></div></div><div class='decision-result-card'><h3>Why the tool landed here</h3><ul>" + result.reasons.map((item) => "<li>" + escapeHtml(item) + "</li>").join("") + "</ul></div><div><h3>Useful next pages</h3><div class='decision-result-links'>" + result.links.map((item) => "<a class='decision-result-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description || "Open the next guide.") + "</span></a>").join("") + "</div></div>" + renderPostResultExtras({ toolSlug: CONFIG.slug, guideHref: (result.links[0] && result.links[0].href) || "/planning-permission/", guideTitle: (result.links[0] && result.links[0].title) || "Planning permission guide", resultLabel: status.label }) + "<div class='decision-nav'><button type='button' class='button-secondary' data-action='edit-result'>Edit answers</button><button type='button' class='button-secondary' data-action='reset'>Start again</button></div></div>";
+  }
+
+  function renderSidebarSections() {
+    return {
+      title: "Your answers",
+      summaryHtml: summaryItems().map((item) => "<div class='decision-summary-item'><strong>" + escapeHtml(item.label) + "</strong><span>" + escapeHtml(item.value) + "</span></div>").join(""),
+      noteHtml: "<strong>How this tool works:</strong> it is a structured static-site tool with no backend or live data fetch. The output is deterministic and only depends on the choices you make here.",
+    };
+  }
+
+  function renderSidebar() {
+    const sections = renderSidebarSections();
+    return "<aside class='decision-sidebar'><h3>" + escapeHtml(sections.title) + "</h3><div class='decision-summary-list'>" + sections.summaryHtml + "</div><div class='decision-method-note'>" + sections.noteHtml + "</div></aside>";
+  }
+
+  function renderHeaderActions() {
+    return (state.result ? "<button type='button' class='button-secondary' data-action='edit-result'>Edit answers</button>" : "") + "<button type='button' class='button-secondary' data-action='reset'>Start again</button>";
+  }
+
+  function renderStepContent() {
+    if (state.loading) {
+      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Building the result...</h3><p>This short pause is only UI polish while the rule-based output is assembled.</p></div>";
+    }
+    if (state.result) {
+      return renderResult();
+    }
+    if (state.step <= CONFIG.questions.length) {
+      return renderQuestionStep(questionByStep(state.step));
+    }
+    return renderReview();
+  }
+
+  function render() {
+    const progress = state.result ? 100 : (state.step / STEP_NAMES.length) * 100;
+    const sections = renderSidebarSections();
+    renderResponsiveToolShellInto(engine, {
+      kicker: CONFIG.title,
+      heading: "Run the interactive check",
+      intro: CONFIG.intro,
+      actionsHtml: renderHeaderActions(),
+      progress,
+      stepNames: STEP_NAMES,
+      currentStep: state.step,
+      hasResult: Boolean(state.result),
+      contentHtml: renderStepContent(),
+      sidebarHtml: renderSidebar(),
+      summaryTitle: sections.title,
+      summaryHtml: sections.summaryHtml,
+      noteHtml: sections.noteHtml,
+      summaryHint: "View snapshot",
+    });
+  }
+
+  engine.addEventListener("click", function (event) {
+    const target = event.target.closest("[data-action]");
+    if (!target) {
+      return;
+    }
+    const action = target.getAttribute("data-action");
+    const value = target.getAttribute("data-value") || "";
+    const questionId = target.getAttribute("data-question-id") || "";
+
+    if (action === "set-answer") {
+      logToolEvent("click", { action, questionId, value });
+      state.answers = Object.assign({}, state.answers, { [questionId]: value });
+      state.result = null;
+      render();
+      return;
+    }
+    if (action === "next" && state.step < STEP_NAMES.length && requiredForStep(state.step)) {
+      logToolEvent("click", { action, step: state.step });
+      state.step += 1;
+      render();
+      return;
+    }
+    if (action === "prev" && state.step > 1) {
+      logToolEvent("click", { action, step: state.step });
+      state.step -= 1;
+      render();
+      return;
+    }
+    if (action === "run-check" && requiredForStep(STEP_NAMES.length)) {
+      logToolEvent("submit", { action, snapshot: summaryItems() });
+      state.loading = true;
+      state.result = null;
+      render();
+      window.setTimeout(function () {
+        state.loading = false;
+        state.result = assess();
+        logToolEvent("result", state.result);
+        render();
+      }, 450);
+      return;
+    }
+    if (action === "edit-result") {
+      logToolEvent("click", { action });
+      state.result = null;
+      state.loading = false;
+      state.step = STEP_NAMES.length;
+      render();
+      return;
+    }
+    if (action === "reset") {
+      logToolEvent("click", { action });
+      state = createState();
+      render();
+    }
+  });
+
+  render();
+})();
+</script>
+</div>
+
+</section>
+
+
+<section class="tool-explanation">
+<span class="eyebrow">How to use the result</span>
+<h2>What This Tool Is Good For</h2>
+<div class="answer-grid">
+
+<div class="answer-card">
+<h3>What it answers well</h3>
+<p>It helps you stop treating every project as a one-route question when the real answer may involve planning plus listed building consent, highways approval or a mixed fallback path.</p>
+</div>
+
+<div class="answer-card">
+<h3>Why it is useful early</h3>
+<p>It gives you a stronger steer on which route to prepare for before you invest in the wrong evidence or application assumptions.</p>
+</div>
+
+<div class="answer-card">
+<h3>Best next move</h3>
+<p>Use the route output to choose the right guide or council check, then confirm the detail with measured drawings and planning history where needed.</p>
+</div>
+
+</div>
+</section>
+
+
+<section class="tool-search-intents">
+<span class="eyebrow">Good search matches</span>
+<h2>Questions This Tool Is Best At Narrowing</h2>
+<ul class="checklist"><li>What approval route do I need?</li><li>Is this planning permission, prior approval or another consent?</li><li>Could this project need mixed approvals?</li></ul>
+</section>
+
+<aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Relevant planning partner placement</strong>
+    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+  </div>
+</aside>
+
+
+<section class="planning-context">
+<span class="eyebrow">Context and caveats</span>
+<h2>How This Tool Fits Into The Wider Planning Process</h2>
+<p>Planning Route Planner is intended as a quick planning aid based on common UK planning considerations and permitted development limits.</p>
+<p>Use it to narrow the question, then move into project guides, local authority pages or formal confirmation if the scheme is close to a limit.</p>
+</section>
+
+
+<section class="tool-faq-links">
+<span class="eyebrow">Good follow-up reads</span>
+<h2>FAQ Pages Worth Opening After The Tool</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/prior-approval-vs-planning-permission/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>Prior Approval Vs Planning Permission</h3>
+<p>Useful when the route is not cleanly one thing or the other and the distinction matters before you prepare evidence.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/article-4-directions/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>Article 4 Directions Explained</h3>
+<p>Helpful when local policy might be the reason the route is stricter than expected.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+
+<section class="tool-guidance-links">
+<span class="eyebrow">Where to go after the tool</span>
+<h2>Detailed Guidance Worth Opening Next</h2>
+<div class="grid">
+<a class="card" href="/permitted-development/">
+<div class="card-kicker">Next page</div>
+<h3>Permitted Development</h3>
+<p>Helpful when the simpler route still looks plausible.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/planning-permission/">
+<div class="card-kicker">Next page</div>
+<h3>Planning Permission</h3>
+<p>Open this when the route is leaning more formal.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/article-4/">
+<div class="card-kicker">Next page</div>
+<h3>Article 4 Restrictions</h3>
+<p>Useful when local policy could override the shortcut.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/listed-buildings/">
+<div class="card-kicker">Next page</div>
+<h3>Listed Buildings</h3>
+<p>Helpful when listed building consent may run alongside planning.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/dropped-kerbs/">
+<div class="card-kicker">Next page</div>
+<h3>Dropped Kerbs</h3>
+<p>Open this when highway approval may be part of the route.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/tools/project-requirements-generator/">
+<div class="card-kicker">Next page</div>
+<h3>Project Requirements Generator</h3>
+<p>Use this next to turn the route into a practical prep pack.</p>
+<span class="cta">Open guide</span>
+</a>
+</div>
+</section>
+
+
+<section class="related-tools">
+<span class="eyebrow">Useful companion tools</span>
+<h2>Related Planning Tools</h2>
+<div class="grid">
+<a class="card" href="/tools/planning-decision-tool/">
+<div class="card-kicker">Related tool</div>
+<h3>Do I Need Planning Permission?</h3>
+<p>Work through a structured project check to see whether the scheme looks likely permitted development, may need planning permission, or depends on local constraints.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/what-can-i-build-explorer/">
+<div class="card-kicker">Related tool</div>
+<h3>What Can I Build? Explorer</h3>
+<p>Explore the home project types that are most likely to fit your property before you dive into detailed planning checks.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/permitted-development-calculator/">
+<div class="card-kicker">Related tool</div>
+<h3>Permitted Development Calculator</h3>
+<p>Estimate whether a common home project may fit within permitted development rules.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/planning-rejection-risk-analyzer/">
+<div class="card-kicker">Related tool</div>
+<h3>Planning Rejection Risk Analyzer</h3>
+<p>Analyse the main refusal risks for a home project, including scale, neighbour impact, design character and local policy constraints.</p>
+<span class="cta">Open tool</span>
+</a>
+</div>
+</section>
+
+
+<section class="trust">
+<span class="eyebrow">Trust and method</span>
+<h2>Use These Tools Properly</h2>
+<div class="info-columns">
+<div class="mini-card">
+<h3>What they are for</h3>
+<ul class="checklist">
+<li>Reducing uncertainty at the start of the process.</li>
+<li>Helping you pick the right next page quickly.</li>
+<li>Spotting when the answer probably needs escalation.</li>
+</ul>
+</div>
+<div class="mini-card">
+<h3>What they do not replace</h3>
+<ul class="checklist">
+<li>Formal confirmation for borderline schemes.</li>
+<li>Local authority checks where special controls apply.</li>
+<li>Detailed professional advice for complex cases.</li>
+</ul>
+</div>
+<div class="mini-card">
+<h3>Useful trust pages</h3>
+<p><a href="/methodology/">Methodology</a></p>
+<p><a href="/planning-faq/">Planning FAQ</a></p>
+</div>
+</div>
+</section>
+
+<aside class="ad-slot" data-ad-slot="bottom" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Useful follow-on placement</strong>
+    <p>Best for a subtle post-read advert, referral, or monetized resource once the main content has already done its job.</p>
+  </div>
+</aside>
+
+<div class='last-updated'>Updated March 2026</div>
+</main>
+
+<footer class="footer-shell">
+<div class="footer-inner">
+<div class="footer-grid">
+<div>
+<strong>UK Planning Guide</strong>
+<p class="footer-note">Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications.</p>
+</div>
+<div class="footer-links">
+<strong>Start Here</strong>
+<a href="/tools/">Use the planning tools</a>
+<a href="/house-extensions/">Browse project guides</a>
+<a href="/councils/">Compare local authorities</a>
+</div>
+<div class="footer-links">
+<strong>Useful Next Reads</strong>
+<a href="/planning-faq/">Planning FAQ</a>
+<a href="/planning-permission/">Planning permission hub</a>
+<a href="/permitted-development/">Permitted development hub</a>
+</div>
+<div class="footer-links">
+<strong>Trust</strong>
+<a href="/about/">What this site is for</a>
+<a href="/methodology/">How guidance is built</a>
+</div>
+</div>
+<div class="footer-meta">
+<span>&copy; 2026 UKPlanningGuide</span>
+<span>Built from national planning rules, local authority context and page-specific guidance.</span>
+<span>General guidance only, not legal advice.</span>
+</div>
+</div>
+</footer>
+<div class="tool-ui-templates" hidden aria-hidden="true"><template id="ukpg-ad-slot-template"><aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Relevant planning partner placement</strong>
+    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+  </div>
+</aside>
+</template><template id="ukpg-result-capture-template"><section class="result-capture" aria-label="Save or share result">
+  <div class="result-capture-copy">
+    <strong>Get your result link emailed to you</strong>
+    <p>Save this planning result so you can reopen it later or share it with someone helping on the project.</p>
+  </div>
+  <form class="result-capture-form" action="#" method="post" novalidate>
+    <label for="__RESULT_CAPTURE_ID__">Email address</label>
+    <div class="result-capture-row">
+      <input id="__RESULT_CAPTURE_ID__" name="email" type="email" inputmode="email" autocomplete="email" placeholder="name@example.com">
+      <button type="submit">Email my result</button>
+    </div>
+    <p class="result-capture-note">Demo-ready UI only. Connect this to your email workflow when you are ready.</p>
+  </form>
+</section>
+</template></div>
+<script>
+(function () {
+  if (typeof document === "undefined" || typeof document.querySelector !== "function") {
+    return;
+  }
+
+  const header = document.querySelector("header");
+  const navToggle = document.querySelector(".nav-toggle");
+  const mainNav = document.getElementById("primary-nav");
+
+  function setMenu(open) {
+    if (!header || !navToggle || !mainNav) {
+      return;
+    }
+    header.setAttribute("data-menu-open", open ? "true" : "false");
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+
+  if (navToggle && header) {
+    navToggle.addEventListener("click", function () {
+      const open = header.getAttribute("data-menu-open") === "true";
+      setMenu(!open);
+    });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 768) {
+        setMenu(false);
+      }
+    });
+
+    mainNav && mainNav.addEventListener("click", function (event) {
+      if (event.target.closest("a") && window.innerWidth <= 768) {
+        setMenu(false);
+      }
+    });
+  }
+
+  function cloneTemplate(id) {
+    const template = document.getElementById(id);
+    if (!template) {
+      return null;
+    }
+    return template.content.firstElementChild ? template.content.firstElementChild.cloneNode(true) : null;
+  }
+
+  function ensureCapture(resultNode, root) {
+    if (!resultNode || resultNode.nextElementSibling && resultNode.nextElementSibling.classList.contains("result-capture")) {
+      return;
+    }
+    const capture = cloneTemplate("ukpg-result-capture-template");
+    if (!capture) {
+      return;
+    }
+    const captureId = "result-capture-" + ((root && root.getAttribute("data-tool-root")) || "tool");
+    const label = capture.querySelector("label");
+    const input = capture.querySelector("input");
+    if (label) {
+      label.setAttribute("for", captureId);
+    }
+    if (input) {
+      input.id = captureId;
+    }
+    const form = capture.querySelector("form");
+    if (form) {
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        form.classList.add("is-submitted");
+      });
+    }
+    resultNode.insertAdjacentElement("afterend", capture);
+  }
+
+  function ensureNextStep(resultNode) {
+    if (!resultNode || resultNode.querySelector(".tool-next-step")) {
+      return;
+    }
+    const primaryLink = resultNode.querySelector(".decision-result-link, .tool-result-link, .explorer-link.primary, .explorer-inline-links a");
+    if (!primaryLink) {
+      return;
+    }
+    const titleNode = primaryLink.querySelector("strong");
+    const title = (titleNode ? titleNode.textContent : primaryLink.textContent || "").trim();
+    if (!title) {
+      return;
+    }
+    const card = document.createElement("div");
+    card.className = "tool-next-step";
+    card.innerHTML = "<span class='eyebrow'>Suggested next step</span><div class='tool-next-step-copy'>Open the most useful follow-on page while the result is still fresh.</div>";
+    card.appendChild(primaryLink.cloneNode(true));
+    const strong = card.querySelector("strong");
+    if (strong) {
+      strong.textContent = title;
+    }
+    resultNode.appendChild(card);
+  }
+
+  function revealResult(resultNode) {
+    if (!resultNode || resultNode.dataset.resultEnhanced === "true") {
+      return;
+    }
+    resultNode.dataset.resultEnhanced = "true";
+    requestAnimationFrame(function () {
+      resultNode.classList.add("tool-result-visible");
+      window.setTimeout(function () {
+        resultNode.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 120);
+    });
+  }
+
+  function isInHiddenToolShell(node) {
+    const shell = node && node.closest ? node.closest("[data-tool-shell]") : null;
+    if (!shell || typeof window.getComputedStyle !== "function") {
+      return false;
+    }
+    const style = window.getComputedStyle(shell);
+    return style.display === "none" || style.visibility === "hidden";
+  }
+
+  function enhanceResultNode(resultNode) {
+    if (!resultNode || isInHiddenToolShell(resultNode)) {
+      return;
+    }
+    const root = resultNode.closest("[data-tool-root]") || resultNode.closest(".tool-card");
+    ensureNextStep(resultNode);
+    ensureCapture(resultNode, root);
+    revealResult(resultNode);
+  }
+
+  function scanResults(scope) {
+    const root = scope && scope.querySelectorAll ? scope : document;
+    root.querySelectorAll(".decision-result, .tool-result[data-result-ready='true']").forEach(enhanceResultNode);
+  }
+
+  if (typeof MutationObserver !== "function") {
+    scanResults(document);
+    return;
+  }
+
+  const observer = new MutationObserver(function (mutations) {
+    mutations.forEach(function (mutation) {
+      if (mutation.type === "attributes" && mutation.target instanceof HTMLElement) {
+        if (mutation.target.matches(".tool-result[data-result-ready='true']")) {
+          enhanceResultNode(mutation.target);
+        }
+        return;
+      }
+      mutation.addedNodes.forEach(function (node) {
+        if (!(node instanceof HTMLElement)) {
+          return;
+        }
+        if (node.matches(".decision-result, .tool-result[data-result-ready='true']")) {
+          enhanceResultNode(node);
+          return;
+        }
+        scanResults(node);
+      });
+    });
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["data-result-ready"] });
+  scanResults(document);
+})();
+</script>
+</body>
+</html>
