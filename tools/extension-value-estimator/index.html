@@ -1,0 +1,2325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GXRZWRNWD7');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Extension Value Estimator: planning-aware uplift tool</title>
+<meta name="description" content="Use the Extension Value Estimator to estimate likely property value uplift from common extension-led projects with planning-aware confidence bands.">
+<link rel="canonical" href="https://ukplanningguide.co.uk/tools/extension-value-estimator/">
+<link rel="icon" href="/assets/favicon.ico?v=20260327" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260327">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=20260327">
+<link rel="shortcut icon" href="/assets/favicon.ico?v=20260327">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
+<link rel="manifest" href="/assets/site.webmanifest?v=20260327">
+<meta name="theme-color" content="#f3eee5">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Extension Value Estimator: planning-aware uplift tool", "url": "https://ukplanningguide.co.uk/tools/extension-value-estimator/", "description": "Use the Extension Value Estimator to estimate likely property value uplift from common extension-led projects with planning-aware confidence bands.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://ukplanningguide.co.uk/tools/"}, {"@type": "ListItem", "position": 3, "name": "Extension Value Estimator", "item": "https://ukplanningguide.co.uk/tools/extension-value-estimator/"}]}]}</script>
+<style>
+:root{
+--ink:#1f2937;
+--ink-soft:#4b5563;
+--ink-faint:#6b7280;
+--surface:#fffdfa;
+--surface-strong:#ffffff;
+--surface-warm:#f7f1e8;
+--surface-tint:#eef5f0;
+--accent:#1f6f5f;
+--accent-strong:#155649;
+--accent-soft:#dff1ea;
+--accent-text:#11453b;
+--highlight:#b7791f;
+--border:rgba(31,41,55,.12);
+--border-strong:rgba(31,41,55,.18);
+--shadow:0 20px 45px rgba(31,41,55,.08);
+--shadow-soft:0 10px 24px rgba(31,41,55,.05);
+--radius-lg:26px;
+--radius-md:18px;
+--radius-sm:12px;
+--container:1180px;
+--header-height:82px;
+}
+
+*{box-sizing:border-box;}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:"Avenir Next","Segoe UI",Tahoma,sans-serif;
+background:
+radial-gradient(circle at top left,rgba(183,121,31,.08),transparent 28%),
+radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 30%),
+linear-gradient(180deg,#f9f5ee 0%,#f4efe7 42%,#faf8f3 100%);
+color:var(--ink);
+line-height:1.68;
+}
+
+a{
+color:var(--accent);
+text-decoration:none;
+transition:color .18s ease, transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
+}
+
+a:hover{
+color:var(--accent-strong);
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+header{
+position:sticky;
+top:0;
+z-index:100;
+background:rgba(249,245,238,.88);
+backdrop-filter:blur(18px);
+border-bottom:1px solid rgba(31,41,55,.08);
+}
+
+.nav-container{
+max-width:var(--container);
+margin:0 auto;
+padding:14px 24px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+}
+
+.site-logo{
+display:flex;
+align-items:center;
+gap:10px;
+min-width:0;
+}
+
+.site-logo img{
+display:block;
+height:auto;
+max-height:40px;
+width:auto;
+max-width:min(100%,320px);
+object-fit:contain;
+aspect-ratio:320 / 40;
+flex:0 0 auto;
+}
+
+.main-nav{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+justify-content:flex-end;
+align-items:center;
+}
+
+.main-nav a{
+padding:8px 12px;
+border-radius:999px;
+font-size:14px;
+font-weight:700;
+letter-spacing:.01em;
+color:var(--ink);
+}
+
+.main-nav a:hover{
+background:rgba(31,111,95,.08);
+color:var(--accent-strong);
+}
+
+.main-nav a:focus-visible,
+.nav-toggle:focus-visible{
+outline:3px solid rgba(31,111,95,.22);
+outline-offset:2px;
+}
+
+.nav-toggle{
+display:none;
+align-items:center;
+justify-content:center;
+min-width:44px;
+min-height:44px;
+padding:10px 14px;
+border-radius:999px;
+border:1px solid rgba(31,41,55,.12);
+background:rgba(255,255,255,.82);
+color:var(--ink);
+box-shadow:none;
+}
+
+.nav-toggle span{
+display:block;
+width:18px;
+height:2px;
+border-radius:999px;
+background:currentColor;
+box-shadow:0 6px 0 currentColor,0 -6px 0 currentColor;
+}
+
+.container{
+max-width:var(--container);
+margin:0 auto;
+padding:30px 24px 54px;
+}
+
+.breadcrumbs{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+margin:0 0 18px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.breadcrumbs a{
+display:inline-flex;
+align-items:center;
+color:var(--ink-soft);
+}
+
+.breadcrumbs a::after{
+content:"/";
+margin-left:8px;
+color:rgba(75,85,99,.45);
+}
+
+.page-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:0 0 22px;
+padding:13px 16px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(255,255,255,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.page-trust-strip strong{
+color:var(--ink);
+font-size:13px;
+}
+
+.page-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:10px;
+}
+
+.page-trust-strip span:not(:last-child)::after{
+content:"";
+width:4px;
+height:4px;
+border-radius:999px;
+background:rgba(31,111,95,.35);
+}
+
+section,
+.card{
+position:relative;
+margin-bottom:24px;
+padding:28px;
+background:rgba(255,255,255,.9);
+border:1px solid var(--border);
+border-radius:var(--radius-lg);
+box-shadow:var(--shadow);
+overflow:hidden;
+}
+
+section::before,
+.card::before{
+content:"";
+position:absolute;
+inset:0 auto auto 0;
+width:100%;
+height:1px;
+background:linear-gradient(90deg,rgba(31,111,95,.24),rgba(183,121,31,.18),transparent);
+}
+
+.hero{
+padding:40px 34px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(243,237,227,.92)),
+linear-gradient(135deg,rgba(31,111,95,.08),transparent 58%);
+border-color:rgba(31,111,95,.14);
+}
+
+.hero-logo{
+display:block;
+width:min(290px,72%);
+height:auto;
+margin-bottom:20px;
+}
+
+.hero-ctas{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:20px;
+}
+
+.badge,
+.eyebrow{
+display:inline-flex;
+align-items:center;
+gap:8px;
+margin-bottom:14px;
+padding:7px 12px;
+border-radius:999px;
+background:var(--accent-soft);
+color:var(--accent-text);
+font-size:12px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+}
+
+h1,
+h2,
+h3{
+margin:0 0 10px;
+font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+font-weight:700;
+letter-spacing:-.02em;
+color:#15212d;
+}
+
+h1{
+font-size:clamp(2.3rem,5vw,3.65rem);
+line-height:1.05;
+max-width:14ch;
+}
+
+h2{
+font-size:clamp(1.65rem,3.2vw,2.2rem);
+line-height:1.12;
+}
+
+h3{
+font-size:1.2rem;
+line-height:1.2;
+}
+
+p,
+li,
+td,
+th,
+label,
+summary{
+color:var(--ink-soft);
+}
+
+p{
+margin:0 0 14px;
+max-width:72ch;
+}
+
+ul,
+ol{
+margin:0;
+padding-left:22px;
+}
+
+li + li{
+margin-top:8px;
+}
+
+strong{
+color:var(--ink);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:8px;
+overflow:hidden;
+border-radius:18px;
+}
+
+th,
+td{
+padding:14px 16px;
+border:1px solid rgba(31,41,55,.10);
+text-align:left;
+vertical-align:top;
+background:rgba(255,255,255,.78);
+}
+
+th{
+background:rgba(31,111,95,.08);
+color:var(--ink);
+font-weight:700;
+}
+
+details{
+margin-top:14px;
+padding:16px 18px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:var(--radius-md);
+}
+
+summary{
+font-weight:700;
+cursor:pointer;
+color:var(--ink);
+}
+
+button,
+.button,
+.btn,
+.cta{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+padding:12px 18px;
+border:1px solid transparent;
+border-radius:999px;
+background:var(--accent);
+color:#fff;
+font-size:15px;
+font-weight:700;
+cursor:pointer;
+box-shadow:0 12px 22px rgba(31,111,95,.16);
+transition:background-color .18s ease,color .18s ease,transform .18s ease,box-shadow .18s ease,border-color .18s ease,opacity .18s ease;
+}
+
+.button:hover,
+.btn:hover,
+.cta:hover,
+button:hover{
+background:var(--accent-strong);
+color:#fff;
+transform:translateY(-1px);
+}
+
+.button:active,
+.btn:active,
+.cta:active,
+button:active{
+transform:translateY(0);
+box-shadow:0 8px 16px rgba(31,111,95,.14);
+}
+
+.button-secondary,
+.btn-secondary,
+.card .button-secondary{
+background:transparent;
+color:var(--accent-strong);
+border-color:rgba(31,111,95,.20);
+box-shadow:none;
+}
+
+.button-secondary:hover,
+.btn-secondary:hover,
+.card .button-secondary:hover{
+background:rgba(31,111,95,.08);
+}
+
+.grid,
+.card-grid,
+.project-grid,
+.county-grid,
+.link-grid,
+.town-grid{
+display:grid;
+gap:18px;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+}
+
+.grid-tight{
+display:grid;
+gap:14px;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+}
+
+.split-grid{
+display:grid;
+gap:18px;
+grid-template-columns:1.2fr .8fr;
+align-items:start;
+}
+
+.card,
+a.card,
+a.scenario-card,
+a.scenario-nav{
+display:block;
+}
+
+a.card,
+a.scenario-card{
+color:inherit;
+}
+
+a.card:hover,
+a.scenario-card:hover{
+transform:translateY(-2px);
+border-color:rgba(31,111,95,.22);
+box-shadow:0 22px 40px rgba(31,41,55,.10);
+}
+
+.card p:last-child,
+section p:last-child{
+margin-bottom:0;
+}
+
+.hero h1 + p{
+font-size:1.08rem;
+max-width:62ch;
+}
+
+.quick-summary,
+.tool-summary,
+.last-updated,
+.section-lead,
+.card-kicker{
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.last-updated{
+display:inline-flex;
+align-items:center;
+padding:10px 14px;
+background:rgba(255,255,255,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.answer-grid,
+.info-columns{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:20px;
+}
+
+.answer-card,
+.info-card,
+.mini-card,
+.tool-card,
+.callout,
+.scenario-nav,
+.scenario-pill{
+padding:20px;
+background:rgba(255,255,255,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:var(--radius-md);
+box-shadow:var(--shadow-soft);
+}
+
+.answer-card h3,
+.info-card h3,
+.mini-card h3,
+.tool-card h2{
+margin-bottom:8px;
+}
+
+.checklist,
+.signal-list{
+list-style:none;
+padding:0;
+}
+
+.checklist li,
+.signal-list li{
+position:relative;
+padding-left:18px;
+}
+
+.checklist li::before,
+.signal-list li::before{
+content:"";
+position:absolute;
+left:0;
+top:.72em;
+width:7px;
+height:7px;
+border-radius:999px;
+background:var(--highlight);
+transform:translateY(-50%);
+}
+
+.link-grid a,
+.related-links a,
+.scenario-navigation a{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:14px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+font-weight:600;
+}
+
+.link-grid a::after,
+.related-links a::after,
+.scenario-navigation a::after{
+content:"View";
+font-size:12px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--accent);
+}
+
+.link-grid a:hover,
+.related-links a:hover,
+.scenario-navigation a:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+}
+
+.scenario-navigation{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.scenario-nav.active{
+background:rgba(223,241,234,.9);
+border-color:rgba(31,111,95,.28);
+}
+
+.tool-cta,
+.cta-band,
+.notice{
+padding:24px;
+background:linear-gradient(135deg,rgba(223,241,234,.96),rgba(247,241,232,.96));
+border:1px solid rgba(31,111,95,.12);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.tool-cta p,
+.cta-band p,
+.notice p{
+max-width:64ch;
+}
+
+.hero-microcopy,
+.section-caption{
+font-size:15px;
+color:var(--ink-faint);
+}
+
+.inline-badges{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:14px 0 0;
+}
+
+.inline-badges span{
+display:inline-flex;
+align-items:center;
+padding:8px 12px;
+border-radius:999px;
+background:rgba(31,111,95,.08);
+color:var(--accent-text);
+font-size:13px;
+font-weight:700;
+}
+
+.tool-grid{
+display:grid;
+gap:14px;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+align-items:end;
+margin-top:16px;
+}
+
+.tool-grid > div{
+display:flex;
+flex-direction:column;
+gap:6px;
+}
+
+.rule-list{
+margin-top:14px;
+}
+
+.rule-verification{
+margin-top:14px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.rule-exceptions{
+margin-top:16px;
+padding:14px 16px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+}
+
+.tool-card button,
+#planning-decision-tool button{
+margin-top:16px;
+}
+
+label{
+display:block;
+margin-bottom:6px;
+font-weight:700;
+color:var(--ink);
+}
+
+input,
+select,
+textarea{
+width:100%;
+min-height:44px;
+padding:12px 14px;
+font:inherit;
+color:var(--ink);
+background:#fff;
+border:1px solid rgba(31,41,55,.14);
+border-radius:14px;
+outline:none;
+transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+border-color:rgba(31,111,95,.48);
+box-shadow:0 0 0 4px rgba(31,111,95,.10);
+}
+
+.tool-result{
+margin-top:18px;
+padding:18px 20px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+scroll-margin-top:calc(var(--header-height) + 18px);
+transition:opacity .3s ease, transform .3s ease;
+}
+
+.tool-result[data-result-ready="true"],
+.decision-result{
+opacity:0;
+transform:translateY(10px);
+}
+
+.tool-result.tool-result-visible,
+.decision-result.tool-result-visible{
+opacity:1;
+transform:translateY(0);
+}
+
+.tool-related-links,
+.tool-result-links{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.tool-result-link{
+display:block;
+padding:16px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+color:inherit;
+box-shadow:var(--shadow-soft);
+}
+
+.tool-result-link strong{
+display:block;
+margin-bottom:6px;
+}
+
+.tool-result-link:hover{
+transform:translateY(-1px);
+border-color:rgba(31,111,95,.24);
+box-shadow:0 18px 30px rgba(31,41,55,.08);
+}
+
+.tool-next-step{
+margin-top:16px;
+padding:18px 20px;
+background:linear-gradient(135deg,rgba(223,241,234,.88),rgba(255,255,255,.94));
+border:1px solid rgba(31,111,95,.14);
+border-radius:20px;
+}
+
+.tool-next-step-copy{
+font-size:14px;
+color:var(--ink-faint);
+margin-bottom:10px;
+}
+
+.ad-slot{
+display:grid;
+gap:12px;
+padding:18px 20px;
+background:rgba(243,237,227,.58);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow-soft);
+}
+
+.ad-slot-label{
+display:inline-flex;
+align-items:center;
+width:max-content;
+padding:6px 10px;
+border-radius:999px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+font-size:11px;
+font-weight:800;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--ink-faint);
+}
+
+.ad-slot-body{
+display:grid;
+gap:6px;
+}
+
+.ad-slot-body strong{
+font-size:1rem;
+}
+
+.result-capture{
+display:grid;
+gap:14px;
+margin-top:16px;
+padding:18px 20px;
+background:rgba(255,255,255,.88);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow-soft);
+}
+
+.result-capture-copy{
+display:grid;
+gap:6px;
+}
+
+.result-capture-row{
+display:grid;
+gap:10px;
+grid-template-columns:minmax(0,1fr) auto;
+align-items:start;
+}
+
+.result-capture-form button{
+min-height:44px;
+white-space:nowrap;
+}
+
+.result-capture-note{
+font-size:13px;
+color:var(--ink-faint);
+}
+
+.tool-loading-state{
+display:grid;
+gap:12px;
+padding:20px;
+background:linear-gradient(135deg,rgba(223,241,234,.88),rgba(255,255,255,.95));
+border:1px solid rgba(31,111,95,.14);
+border-radius:18px;
+}
+
+.tool-loading-bar{
+position:relative;
+height:8px;
+overflow:hidden;
+border-radius:999px;
+background:rgba(31,41,55,.08);
+}
+
+.tool-loading-bar::after{
+content:"";
+position:absolute;
+inset:0 auto 0 -38%;
+width:38%;
+border-radius:999px;
+background:linear-gradient(90deg,rgba(31,111,95,.1),rgba(31,111,95,.72),rgba(31,111,95,.1));
+animation:toolLoadingSweep 1s linear infinite;
+}
+
+@keyframes toolLoadingSweep{
+from{transform:translateX(0);}
+to{transform:translateX(360%);}
+}
+
+.faq-item + .faq-item{
+margin-top:18px;
+padding-top:18px;
+border-top:1px solid rgba(31,41,55,.08);
+}
+
+.footer-shell{
+padding:36px 24px 44px;
+border-top:1px solid rgba(31,41,55,.08);
+background:linear-gradient(180deg,rgba(250,248,243,.92),rgba(242,236,226,.98));
+}
+
+.footer-inner{
+max-width:var(--container);
+margin:0 auto;
+color:var(--ink-soft);
+}
+
+.footer-grid{
+display:grid;
+gap:22px;
+grid-template-columns:1.4fr .8fr .8fr .9fr;
+margin-bottom:20px;
+}
+
+.footer-links a{
+display:block;
+margin-bottom:10px;
+color:var(--ink-soft);
+}
+
+.footer-links a:hover{
+color:var(--accent-strong);
+}
+
+.footer-note,
+.footer-meta{
+max-width:72ch;
+font-size:14px;
+}
+
+.footer-meta{
+display:flex;
+flex-wrap:wrap;
+gap:14px;
+padding-top:16px;
+border-top:1px solid rgba(31,41,55,.08);
+}
+
+@media (max-width:960px){
+.split-grid,
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding:34px 26px;
+}
+
+h1{
+max-width:none;
+}
+}
+
+@media (max-width:768px){
+.container{
+padding:16px 16px 40px;
+}
+
+.nav-container{
+position:relative;
+padding:10px 16px;
+align-items:center;
+flex-direction:row;
+justify-content:space-between;
+gap:10px;
+}
+
+.nav-toggle{
+display:inline-flex;
+}
+
+.main-nav{
+display:none;
+position:absolute;
+top:calc(100% + 8px);
+left:16px;
+right:16px;
+flex-direction:column;
+gap:8px;
+padding:12px;
+background:rgba(249,245,238,.98);
+border:1px solid rgba(31,41,55,.08);
+border-radius:20px;
+box-shadow:var(--shadow);
+}
+
+header[data-menu-open="true"] .main-nav{
+display:flex;
+}
+
+.main-nav a{
+display:flex;
+width:100%;
+justify-content:flex-start;
+padding:12px 14px;
+font-size:14px;
+background:rgba(255,255,255,.78);
+border:1px solid rgba(31,41,55,.06);
+}
+
+.site-logo{
+width:auto;
+min-height:32px;
+}
+
+.site-logo img{
+max-height:32px;
+max-width:min(68vw,220px);
+}
+
+.breadcrumbs{
+margin-bottom:12px;
+font-size:13px;
+}
+
+.page-trust-strip{
+margin-bottom:16px;
+padding:12px 14px;
+border-radius:18px;
+gap:8px;
+}
+
+.page-trust-strip span{
+gap:8px;
+}
+
+.page-trust-strip span:not(:last-child)::after{
+display:none;
+}
+
+section,
+.card{
+padding:20px;
+border-radius:22px;
+}
+
+.page-trust-strip{
+border-radius:18px;
+}
+
+.tool-grid,
+.grid,
+.card-grid,
+.answer-grid,
+.info-columns,
+.tool-result-links,
+.tool-related-links,
+.result-capture-row{
+grid-template-columns:1fr !important;
+}
+
+.tool-card > button,
+.tool-card .cta,
+.tool-card .btn,
+.tool-card .button,
+.result-capture-form button{
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="nav-container">
+<a href="/" class="site-logo" aria-label="UK Planning Guide home">
+<img src="/assets/images/logo-header.png" alt="UK Planning Guide" loading="eager" decoding="async">
+</a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+<span></span>
+</button>
+<nav class="main-nav" id="primary-nav" aria-label="Primary">
+<a href="/tools/">Tools</a>
+<a href="/planning-faq/">FAQ</a>
+<a href="/councils/">Councils</a>
+<a href="/about/">About</a>
+<a href="/methodology/">Methodology</a>
+</nav>
+</div>
+</header>
+
+<main class="container">
+<nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><a href="/tools/">Tools</a><span>Extension Value Estimator</span></nav>
+
+<div class="page-trust-strip"><strong>Updated March 2026</strong><span>Built from national planning rules and local authority context</span><span>Use formal checks if the proposal is close to a limit or affected by special controls</span></div>
+<section class="hero">
+<span class="badge">Planning tool</span>
+<h1>Extension Value Estimator</h1>
+<p>Use this tool when the planning route and likely value uplift need to be looked at together. It gives a cautious range for value added based on project type, added space, finish and planning confidence, then points you to the pages most worth opening next.</p>
+<div class='inline-badges'><span>Planning-aware value guide</span><span>Static rule-based range</span><span>Not a formal valuation</span></div>
+</section>
+
+<aside class="ad-slot" data-ad-slot="top" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Planning-ready sponsor space</strong>
+    <p>Reserved for a light-touch partner message, quote tool, or relevant service without crowding the main tool content.</p>
+  </div>
+</aside>
+
+
+<section class="tool-calculator" data-tool-page="extension-value-estimator">
+<span class="eyebrow">Interactive check</span>
+<h2>Estimate The Likely Value Uplift</h2>
+<p class='section-lead'>Enter the current property value, choose the project type, add the likely floor area and finish level, then let the tool estimate a guided uplift range.</p>
+
+<div class="tool-card decision-engine-card">
+<style>
+
+.decision-engine-card{padding:0;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(247,241,232,.94)),linear-gradient(135deg,rgba(31,111,95,.06),transparent 58%);border-color:rgba(31,111,95,.16);overflow:hidden;}
+.decision-engine{min-width:0;max-width:100%;padding:0;overflow-wrap:normal;word-break:normal;}
+.decision-shell-desktop{display:block;}
+.decision-shell-mobile{display:none;}
+.decision-desktop-shell{padding:30px;}
+.decision-engine-header{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:24px;}
+.decision-engine-header > div{min-width:0;}
+.decision-engine-header h2{margin-bottom:10px;}
+.decision-kicker{display:inline-flex;align-items:center;padding:8px 12px;margin-bottom:12px;border-radius:999px;background:rgba(31,111,95,.10);color:var(--accent-text);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;box-shadow:inset 0 0 0 1px rgba(31,111,95,.08);}
+.decision-header-actions{display:flex;gap:10px;flex:0 1 auto;flex-wrap:wrap;justify-content:flex-end;align-items:flex-start;min-width:0;}
+.decision-trust-note{display:grid;gap:6px;margin-top:14px;padding:14px 15px;background:rgba(223,241,234,.54);border:1px solid rgba(31,111,95,.12);border-radius:16px;}
+.decision-trust-note strong{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.decision-trust-note span{font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-progress{margin-bottom:24px;padding:18px 18px 16px;background:rgba(255,255,255,.82);border:1px solid rgba(31,41,55,.08);border-radius:20px;box-shadow:var(--shadow-soft);overflow:hidden;}
+.decision-progress-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap;margin-bottom:14px;}
+.decision-progress-top strong{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);}
+.decision-progress-top span{font-size:14px;line-height:1.5;color:var(--ink-faint);}
+.decision-progress-bar{height:8px;border-radius:999px;background:rgba(31,41,55,.08);overflow:hidden;margin-bottom:16px;}
+.decision-progress-bar span{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),#2b8a78);transition:width .25s ease;}
+.decision-step-labels{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));}
+.decision-step-label{display:flex;flex-direction:column;gap:5px;min-width:0;padding:11px 13px;border-radius:16px;background:rgba(247,241,232,.76);border:1px solid rgba(31,41,55,.06);transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;}
+.decision-step-label.active{background:rgba(223,241,234,.94);border-color:rgba(31,111,95,.22);box-shadow:0 12px 24px rgba(31,111,95,.10);}
+.decision-step-label.done{background:rgba(31,111,95,.08);}
+.decision-step-number{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-step-name{font-size:14px;font-weight:700;color:var(--ink);}
+.decision-layout{display:grid;gap:18px;grid-template-columns:minmax(0,1.35fr) minmax(0,.85fr);align-items:start;}
+.decision-panel,.decision-sidebar{min-width:0;padding:22px;background:rgba(255,255,255,.84);border:1px solid rgba(31,41,55,.08);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-sidebar{position:sticky;top:92px;}
+.decision-mobile-calculator-shell{display:grid;gap:20px;padding:30px;}
+.decision-mobile-calculator-header{display:grid;gap:14px;padding:0 0 6px;}
+.decision-mobile-calculator-header h2{margin-bottom:0;}
+.decision-mobile-calculator-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start;}
+.decision-mobile-calculator-body{display:grid;gap:18px;}
+.decision-mobile-calculator-panel,.decision-mobile-calculator-summary{min-width:0;padding:22px;background:rgba(255,255,255,.84);border:1px solid rgba(31,41,55,.08);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-mobile-calculator-panel{display:grid;gap:18px;}
+.decision-mobile-calculator-summary{display:grid;gap:14px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));}
+.decision-mobile-calculator-summary h3{margin:0;}
+.decision-mobile-calculator-step-intro{display:grid;gap:8px;padding:16px 18px;background:linear-gradient(135deg,rgba(247,241,232,.74),rgba(255,255,255,.94));border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-mobile-calculator-step-intro strong{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);}
+.decision-mobile-calculator-step-intro p{margin:0;color:var(--ink-soft);}
+.decision-step-copy{min-width:0;margin-bottom:20px;padding:18px 18px 16px;background:linear-gradient(135deg,rgba(247,241,232,.68),rgba(255,255,255,.92));border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-step-copy h3{margin-bottom:8px;}
+.decision-question,.decision-result{min-width:0;}
+.decision-question{padding:18px;background:rgba(255,255,255,.62);border:1px solid rgba(31,41,55,.06);border-radius:18px;}
+.decision-question h4,.decision-result h3,.decision-panel h3,.decision-sidebar h3{overflow-wrap:anywhere;}
+.decision-question h4{margin-bottom:12px;font-size:1.02rem;}
+.decision-choice-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));}
+.decision-binary-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));margin-top:18px;}
+.decision-question + .decision-question{margin-top:20px;}
+.decision-choice{width:100%;min-width:0;min-height:64px;padding:17px 16px 16px;text-align:left;background:rgba(255,255,255,.94);border:1px solid rgba(31,41,55,.12);border-radius:18px;box-shadow:none;color:var(--ink);transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease, background-color .18s ease;}
+.decision-choice:hover{background:#fff;border-color:rgba(31,111,95,.28);box-shadow:0 14px 26px rgba(31,41,55,.08);}
+.decision-choice:focus-visible,.decision-chip:focus-visible,.decision-result-link:focus-visible,.tool-fallback-link:focus-visible,.explorer-link:focus-visible{outline:3px solid rgba(31,111,95,.18);outline-offset:2px;border-color:rgba(31,111,95,.34);}
+.decision-choice.selected{background:linear-gradient(135deg,rgba(223,241,234,.96),rgba(255,255,255,.98));border-color:rgba(31,111,95,.34);box-shadow:0 16px 28px rgba(31,111,95,.12);}
+.decision-choice strong{display:block;margin-bottom:6px;font-size:15px;line-height:1.32;}
+.decision-choice span{display:block;font-size:13px;line-height:1.58;color:var(--ink-soft);}
+.decision-chip-row{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));}
+.decision-chip{width:100%;min-width:0;min-height:48px;padding:11px 14px;border-radius:999px;background:#fff;border:1px solid rgba(31,41,55,.12);color:var(--ink);font-size:14px;font-weight:700;box-shadow:none;transition:border-color .18s ease, box-shadow .18s ease, background-color .18s ease;}
+.decision-chip:hover{border-color:rgba(31,111,95,.24);}
+.decision-chip:active,.decision-choice:active,.decision-result-link:active,.tool-fallback-link:active,.explorer-link:active{transform:translateY(0);}
+.decision-chip.selected{background:rgba(223,241,234,.92);border-color:rgba(31,111,95,.28);color:var(--accent-text);box-shadow:0 10px 18px rgba(31,111,95,.10);}
+.decision-question-note{margin-top:10px;font-size:13px;line-height:1.55;color:var(--ink-faint);}
+.decision-review-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));}
+.decision-review-card{min-width:0;padding:15px 16px;background:rgba(247,241,232,.76);border:1px solid rgba(31,41,55,.08);border-radius:18px;}
+.decision-review-card strong{display:block;margin-bottom:4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-nav{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-top:24px;padding-top:18px;border-top:1px solid rgba(31,41,55,.08);flex-wrap:wrap;}
+.decision-nav .cta,.decision-nav .button-secondary{min-height:48px;margin:0;}
+.decision-loading{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:28px 24px;background:linear-gradient(135deg,rgba(223,241,234,.95),rgba(255,255,255,.95));border:1px solid rgba(31,111,95,.16);border-radius:22px;box-shadow:var(--shadow-soft);}
+.decision-loading-dots{display:inline-flex;gap:8px;}
+.decision-loading-dots span{width:10px;height:10px;border-radius:999px;background:rgba(31,111,95,.28);animation:decisionPulse 1s infinite ease-in-out;}
+.decision-loading-dots span:nth-child(2){animation-delay:.12s;}
+.decision-loading-dots span:nth-child(3){animation-delay:.24s;}
+@keyframes decisionPulse{0%,80%,100%{transform:scale(.8);opacity:.45;}40%{transform:scale(1);opacity:1;}}
+.decision-result{display:grid;gap:18px;}
+.decision-result-banner{position:relative;padding:22px;border-radius:22px;border:1px solid rgba(31,41,55,.08);box-shadow:var(--shadow-soft);}
+.decision-result-banner.good{background:linear-gradient(135deg,rgba(223,241,234,.98),rgba(255,255,255,.95));border-color:rgba(31,111,95,.18);}
+.decision-result-banner.warn{background:linear-gradient(135deg,rgba(255,246,228,.98),rgba(255,255,255,.95));border-color:rgba(183,121,31,.22);}
+.decision-result-banner.danger{background:linear-gradient(135deg,rgba(255,236,233,.98),rgba(255,255,255,.95));border-color:rgba(186,66,55,.22);}
+.decision-result-banner.info{background:linear-gradient(135deg,rgba(234,243,250,.98),rgba(255,255,255,.95));border-color:rgba(69,117,160,.22);}
+.decision-result-banner h3{margin-bottom:10px;font-size:clamp(1.42rem,2.4vw,1.9rem);line-height:1.08;}
+.decision-result-banner p{max-width:60ch;font-size:15px;line-height:1.68;color:var(--ink-soft);}
+.decision-status{display:inline-flex;align-items:center;padding:9px 13px;border-radius:999px;margin-bottom:12px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.88);color:var(--ink);box-shadow:inset 0 0 0 1px rgba(31,41,55,.06),0 10px 18px rgba(31,41,55,.06);}
+.decision-result-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-result-card{min-width:0;padding:18px;background:rgba(255,255,255,.88);border:1px solid rgba(31,41,55,.08);border-radius:18px;box-shadow:var(--shadow-soft);}
+.decision-result-card h3{margin-bottom:8px;}
+.decision-result-card ul{padding-left:18px;}
+.decision-result-links{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-result-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.92);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.decision-result-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.decision-result-link strong{display:block;margin-bottom:6px;}
+.decision-follow-up{display:grid;gap:14px;margin-top:10px;}
+.decision-follow-up-card{display:grid;gap:14px;padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,241,232,.86));border:1px solid rgba(31,41,55,.08);border-radius:20px;box-shadow:var(--shadow-soft);}
+.decision-follow-up-heading{display:grid;gap:6px;}
+.decision-follow-up-heading h3{margin-bottom:0;}
+.decision-follow-up-heading p{margin:0;line-height:1.6;color:var(--ink-soft);}
+.decision-follow-up-kicker{display:inline-flex;align-items:center;width:max-content;padding:7px 10px;border-radius:999px;background:rgba(31,111,95,.10);color:var(--accent-text);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+.decision-follow-up-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.decision-follow-up-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.94);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.decision-follow-up-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.decision-follow-up-link strong{display:block;margin-bottom:6px;}
+.decision-follow-up-link span{display:block;font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-email-capture{display:grid;gap:10px;grid-template-columns:minmax(0,1fr) auto;align-items:center;}
+.decision-email-input{width:100%;min-width:0;min-height:50px;padding:13px 15px;border:1px solid rgba(31,41,55,.14);border-radius:16px;background:#fff;color:var(--ink);}
+.decision-email-button{min-height:50px;padding:14px 20px;}
+.decision-email-note{grid-column:1 / -1;margin:0;font-size:13px;line-height:1.55;color:var(--ink-faint);}
+.decision-inline-note{padding:14px 15px;background:rgba(223,241,234,.54);border:1px solid rgba(31,111,95,.12);border-radius:16px;font-size:14px;line-height:1.58;color:var(--ink-soft);}
+.decision-sidebar h3{margin-bottom:10px;}
+.decision-summary-list{display:grid;gap:10px;margin-bottom:18px;}
+.decision-summary-item{min-width:0;padding:12px 14px;background:rgba(247,241,232,.74);border:1px solid rgba(31,41,55,.08);border-radius:16px;}
+.decision-summary-item strong{display:block;margin-bottom:4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);}
+.decision-method-note{padding:14px 15px;background:rgba(223,241,234,.62);border:1px solid rgba(31,111,95,.12);border-radius:16px;font-size:14px;color:var(--ink-soft);}
+.tool-fallback{display:grid;gap:14px;padding:22px;background:linear-gradient(135deg,rgba(247,241,232,.9),rgba(255,255,255,.96));border:1px solid rgba(31,41,55,.08);border-radius:22px;}
+.tool-fallback h3{margin-bottom:0;}
+.tool-fallback-links{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));}
+.tool-fallback-link{display:block;min-width:0;padding:16px;background:rgba(255,255,255,.92);border:1px solid rgba(31,41,55,.08);border-radius:18px;color:inherit;box-shadow:var(--shadow-soft);}
+.tool-fallback-link:hover{border-color:rgba(31,111,95,.22);box-shadow:0 18px 30px rgba(31,41,55,.08);transform:translateY(-1px);}
+.tool-fallback-link strong{display:block;margin-bottom:6px;}
+.decision-step-number,.decision-step-name,.decision-choice strong,.decision-choice span,.decision-summary-item span,.decision-review-card span,.decision-result-link span,.decision-result-card li,.decision-method-note,.tool-fallback p,.explorer-fit-note,.explorer-status{writing-mode:horizontal-tb;text-orientation:mixed;white-space:normal;word-break:normal;overflow-wrap:anywhere;hyphens:none;}
+@media (max-width:960px){.decision-engine-card{overflow:visible;}.decision-engine{overflow-x:hidden;}.decision-desktop-shell{padding:22px;}.decision-engine-header{flex-direction:column;align-items:stretch;gap:14px;}.decision-header-actions{justify-content:flex-start;}.decision-layout{grid-template-columns:1fr !important;}.decision-sidebar{position:static;max-width:100%;width:100%;margin-top:12px;}.decision-panel,.decision-sidebar{max-width:100%;width:100%;}.decision-step-labels{grid-template-columns:repeat(2,minmax(0,1fr));}.decision-mobile-calculator-shell{padding:22px;}}
+@media (max-width:767px){.decision-shell-desktop{display:none !important;}.decision-shell-mobile{display:block !important;}.decision-mobile-calculator-shell{padding:18px;gap:14px;}.decision-mobile-calculator-actions{display:grid;gap:10px;}.decision-mobile-calculator-actions > *{width:100%;min-height:48px;margin:0;}.decision-mobile-calculator-panel,.decision-mobile-calculator-summary,.decision-follow-up-card{padding:18px;border-radius:20px;}.decision-mobile-calculator-step-intro{padding:15px 16px;}.decision-trust-note{margin-top:12px;}.decision-step-labels{gap:8px;grid-template-columns:1fr !important;}.decision-step-label{display:block;padding:12px 14px;max-width:100%;width:100%;}.decision-step-number,.decision-step-name{display:block;max-width:100%;line-height:1.25;}.decision-choice-grid,.decision-binary-grid,.decision-review-grid,.decision-result-grid,.decision-result-links,.tool-fallback-links,.decision-chip-row,.decision-follow-up-grid{grid-template-columns:1fr !important;}.decision-choice,.decision-review-card,.decision-result-card,.decision-result-link,.decision-summary-item,.tool-fallback-link,.decision-chip,.decision-follow-up-link{max-width:100%;width:100%;}.decision-choice strong,.decision-step-name{font-size:14px;}.decision-nav{display:flex;flex-direction:column;position:static;margin-top:18px;padding-top:16px;background:none;}.decision-nav > *{flex:1 1 auto;width:100%;}.decision-nav span{display:none;}.decision-nav .cta,.decision-nav .button-secondary,.decision-email-button{width:100%;min-height:52px;padding:14px 18px;}.decision-result-banner,.decision-result-card,.decision-result-link,.tool-fallback,.decision-loading,.decision-follow-up-card{padding:18px;}.decision-email-capture{grid-template-columns:1fr;}}
+@media (max-width:420px){.decision-mobile-calculator-shell{padding:16px;}.decision-kicker,.decision-status{font-size:11px;}.decision-choice,.decision-result-link,.tool-fallback-link,.decision-follow-up-link{padding:14px;}.decision-choice span,.decision-method-note,.decision-trust-note span,.decision-inline-note,.decision-email-note,.decision-follow-up-link span{font-size:13px;}.decision-chip{font-size:13px;}.decision-mobile-calculator-panel,.decision-mobile-calculator-summary,.decision-result-banner,.decision-result-card,.tool-fallback,.decision-loading,.decision-mobile-calculator-step-intro,.decision-step-copy,.decision-question,.decision-trust-note,.decision-follow-up-card{padding:16px;}.decision-mobile-calculator-header h2{font-size:clamp(1.38rem,7.6vw,1.82rem);}}
+
+#extension-value-estimator .decision-question input[type="number"]{
+width:100%;
+padding:14px 16px;
+border:1px solid rgba(31,41,55,.12);
+border-radius:18px;
+background:rgba(255,255,255,.94);
+font:inherit;
+color:var(--ink);
+box-shadow:var(--shadow-soft);
+}
+#extension-value-estimator .decision-question-note{
+margin-top:8px;
+font-size:13px;
+color:var(--ink-faint);
+}
+#extension-value-estimator .decision-question-error{
+margin-top:8px;
+font-size:13px;
+font-weight:600;
+color:#8b2e2e;
+}
+#extension-value-estimator .value-estimator-metrics{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:12px;
+margin:18px 0;
+}
+#extension-value-estimator .value-estimator-metric{
+padding:16px;
+border-radius:18px;
+background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(247,241,232,.9));
+border:1px solid rgba(31,41,55,.08);
+box-shadow:var(--shadow-soft);
+display:grid;
+gap:6px;
+}
+#extension-value-estimator .value-estimator-metric strong{
+font-size:13px;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--accent-text);
+}
+#extension-value-estimator .value-estimator-metric span{
+font-size:1.25rem;
+font-weight:700;
+color:var(--ink);
+}
+@media (max-width:767px){
+#extension-value-estimator .value-estimator-metrics{grid-template-columns:1fr;}
+}
+</style>
+<div id="extension-value-estimator" class="decision-engine" data-tool-root="extension-value-estimator" data-tool-kind="structured"></div>
+<noscript>
+<div class="tool-fallback" data-tool-fallback="true">
+<h3>Interactive estimator loading</h3>
+<p>If the interactive estimator does not appear, open the value guidance pages or the planning tools while JavaScript is unavailable.</p>
+<div class='tool-fallback-links'>
+<a class="tool-fallback-link" href="/planning-faq/does-an-extension-add-value-to-a-house/">
+<strong>Does An Extension Add Value To A House?</strong>
+<span>Read the main value explainer.</span>
+</a>
+
+<a class="tool-fallback-link" href="/tools/planning-decision-tool/">
+<strong>Planning Decision Tool</strong>
+<span>Check the route if planning certainty is still the main blocker.</span>
+</a>
+</div>
+</div>
+</noscript>
+<script>
+(function () {
+  const CONFIG = {"slug": "extension-value-estimator", "title": "Extension Value Estimator", "numeric_limits": {"current_value_min": 50000, "current_value_max": 10000000, "added_area_min": 5, "added_area_max": 200, "build_cost_min": 0, "build_cost_max": 5000000}, "project_types": [{"value": "single-storey-rear-extension", "label": "Single-storey rear extension", "guide_title": "Single Storey Extensions", "guide_href": "/single-storey-extensions/", "base_low": 0.05, "base_high": 0.08}, {"value": "rear-extension", "label": "Rear extension", "guide_title": "Rear Extensions", "guide_href": "/rear-extensions/", "base_low": 0.055, "base_high": 0.09}, {"value": "side-extension", "label": "Side extension", "guide_title": "Side Extensions", "guide_href": "/side-extensions/", "base_low": 0.045, "base_high": 0.075}, {"value": "wraparound-extension", "label": "Wraparound extension", "guide_title": "Wraparound Extensions", "guide_href": "/wraparound-extensions/", "base_low": 0.07, "base_high": 0.11}, {"value": "two-storey-extension", "label": "Two-storey extension", "guide_title": "Two Storey Extensions", "guide_href": "/two-storey-extensions/", "base_low": 0.075, "base_high": 0.12}, {"value": "loft-conversion", "label": "Loft conversion", "guide_title": "Loft Conversions", "guide_href": "/loft-conversions/", "base_low": 0.09, "base_high": 0.15}], "size_bands": [{"max_sqm": 15, "label": "Small addition", "low_adjust": -0.01, "high_adjust": -0.005}, {"max_sqm": 30, "label": "Typical addition", "low_adjust": 0.0, "high_adjust": 0.0}, {"max_sqm": 50, "label": "Large addition", "low_adjust": 0.01, "high_adjust": 0.015}, {"max_sqm": 999, "label": "Very large addition", "low_adjust": 0.015, "high_adjust": 0.025}], "property_types": [{"value": "detached", "label": "Detached house", "low_adjust": 0.01, "high_adjust": 0.015}, {"value": "semi-detached", "label": "Semi-detached house", "low_adjust": 0.005, "high_adjust": 0.01}, {"value": "terraced", "label": "Terraced house", "low_adjust": 0.0, "high_adjust": 0.005}, {"value": "bungalow", "label": "Bungalow", "low_adjust": 0.005, "high_adjust": 0.01}], "bedroom_gains": [{"value": "none", "label": "No extra bedroom", "low_adjust": 0.0, "high_adjust": 0.0}, {"value": "one", "label": "Adds one bedroom", "low_adjust": 0.015, "high_adjust": 0.025}, {"value": "two-plus", "label": "Adds two or more bedrooms", "low_adjust": 0.025, "high_adjust": 0.04}], "finish_levels": [{"value": "basic", "label": "Basic finish", "low_adjust": -0.01, "high_adjust": -0.005}, {"value": "standard", "label": "Standard finish", "low_adjust": 0.0, "high_adjust": 0.0}, {"value": "premium", "label": "Premium finish", "low_adjust": 0.01, "high_adjust": 0.02}], "planning_route_confidence": [{"value": "clearer", "label": "Planning route looks fairly clear", "confidence_label": "Usable estimate", "confidence_tone": "good", "low_adjust": 0.0, "high_adjust": 0.0, "summary": "The planning route looks clearer, so the value range can lean a little more usable as an early guide."}, {"value": "borderline", "label": "Route still feels borderline", "confidence_label": "Early guide", "confidence_tone": "warn", "low_adjust": -0.005, "high_adjust": 0.005, "summary": "The planning route is still borderline, so the range should be treated as a guide rather than something precise enough to price a deal around."}, {"value": "uncertain", "label": "Planning route still uncertain", "confidence_label": "Lower confidence", "confidence_tone": "danger", "low_adjust": -0.01, "high_adjust": 0.01, "summary": "Planning uncertainty is still high, so the value range should be read cautiously until the route is confirmed."}], "metric_labels": {"sqm_value_label": "Estimated uplift per sqm", "roi_none_label": "Value-only view"}, "roi_bands": [{"max_ratio": 0.75, "label": "Weak value-to-cost signal", "summary": "The value added looks light compared with the estimated spend, so design quality and over-improvement risk matter a lot."}, {"max_ratio": 1.1, "label": "Balanced value-to-cost signal", "summary": "The likely uplift looks broadly in line with the estimated spend, which is common for mainstream extension projects."}, {"max_ratio": 99, "label": "Stronger value-to-cost signal", "summary": "The likely uplift looks stronger relative to the estimated spend, though build quality and the local market can still change the outcome."}], "result_commentary": {"high_cost": "The entered build cost is high relative to the likely uplift range, so this looks more like a lifestyle-led project than a clear financial win unless design quality or market strength is unusually strong.", "strong_value": "The likely uplift looks healthier against the entered spend, but the result still depends on good design execution and the planning route staying credible.", "bedroom_gain": "Adding a bedroom is often one of the biggest reasons the uplift band improves, especially for loft and two-storey projects.", "over_improvement": "Large or premium projects can still over-improve a property if the local market will not reward the extra spend fully."}};
+  const engine = document.getElementById("extension-value-estimator");
+  if (!engine) {
+    return;
+  }
+
+  const STEP_NAMES = ["Project", "Property", "Route", "Review"];
+  const projectMap = Object.fromEntries(CONFIG.project_types.map((item) => [item.value, item]));
+  const propertyMap = Object.fromEntries(CONFIG.property_types.map((item) => [item.value, item]));
+  const bedroomMap = Object.fromEntries(CONFIG.bedroom_gains.map((item) => [item.value, item]));
+  const finishMap = Object.fromEntries(CONFIG.finish_levels.map((item) => [item.value, item]));
+  const routeMap = Object.fromEntries(CONFIG.planning_route_confidence.map((item) => [item.value, item]));
+
+  function createState() {
+    return {
+      step: 1,
+      projectType: "",
+      currentValue: "450000",
+      addedArea: "25",
+      propertyType: "",
+      bedroomGain: "",
+      finishLevel: "",
+      planningRouteConfidence: "",
+      buildCost: "",
+      errors: {},
+      loading: false,
+      result: null
+    };
+  }
+
+  let state = createState();
+
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function logToolEvent(type, detail) {
+    if (window.console && typeof window.console.log === "function") {
+      window.console.log("[extension-value-estimator]", type, detail || "");
+    }
+  }
+
+  function currency(value) {
+    return new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP", maximumFractionDigits: 0 }).format(value || 0);
+  }
+
+  function percent(value) {
+    return (Math.round((value || 0) * 1000) / 10).toFixed(1) + "%";
+  }
+
+  function numberValue(raw) {
+    const value = Number(raw);
+    return Number.isFinite(value) ? value : 0;
+  }
+
+  function clamp(value, minValue, maxValue) {
+    if (!Number.isFinite(value)) {
+      return minValue;
+    }
+    return Math.min(Math.max(value, minValue), maxValue);
+  }
+
+  function limit(name) {
+    return CONFIG.numeric_limits[name];
+  }
+
+  function formattedInteger(value) {
+    return new Intl.NumberFormat("en-GB", { maximumFractionDigits: 0 }).format(value || 0);
+  }
+
+  function project() { return projectMap[state.projectType] || null; }
+  function route() { return routeMap[state.planningRouteConfidence] || null; }
+
+  function sizeBand(area) {
+    return (CONFIG.size_bands || []).find((item) => area <= item.max_sqm) || CONFIG.size_bands[CONFIG.size_bands.length - 1];
+  }
+
+  function requiredForStep(stepNumber) {
+    if (stepNumber === 1) {
+      return Boolean(state.projectType && numberValue(state.addedArea) > 0);
+    }
+    if (stepNumber === 2) {
+      return Boolean(numberValue(state.currentValue) > 0 && state.propertyType && state.bedroomGain);
+    }
+    if (stepNumber === 3) {
+      return Boolean(state.finishLevel && state.planningRouteConfidence);
+    }
+    if (stepNumber === 4) {
+      return requiredForStep(1) && requiredForStep(2) && requiredForStep(3);
+    }
+    return false;
+  }
+
+  function validateStep(stepNumber) {
+    const nextErrors = {};
+    if (stepNumber === 1 || stepNumber === 4) {
+      const area = numberValue(state.addedArea);
+      if (!state.projectType) {
+        nextErrors.projectType = "Choose the project type first.";
+      }
+      if (area < limit("added_area_min") || area > limit("added_area_max")) {
+        nextErrors.addedArea = "Use a rough added area between " + formattedInteger(limit("added_area_min")) + " and " + formattedInteger(limit("added_area_max")) + " sqm.";
+      }
+    }
+    if (stepNumber === 2 || stepNumber === 4) {
+      const currentValue = numberValue(state.currentValue);
+      if (currentValue < limit("current_value_min") || currentValue > limit("current_value_max")) {
+        nextErrors.currentValue = "Enter a current value between " + currency(limit("current_value_min")) + " and " + currency(limit("current_value_max")) + ".";
+      }
+      if (!state.propertyType) {
+        nextErrors.propertyType = "Choose the property type.";
+      }
+      if (!state.bedroomGain) {
+        nextErrors.bedroomGain = "Choose the bedroom impact.";
+      }
+    }
+    if (stepNumber === 3 || stepNumber === 4) {
+      const buildCost = numberValue(state.buildCost);
+      if (!state.finishLevel) {
+        nextErrors.finishLevel = "Choose the finish level.";
+      }
+      if (!state.planningRouteConfidence) {
+        nextErrors.planningRouteConfidence = "Choose the planning confidence level.";
+      }
+      if (state.buildCost && (buildCost < limit("build_cost_min") || buildCost > limit("build_cost_max"))) {
+        nextErrors.buildCost = "If you enter build cost, keep it between " + currency(limit("build_cost_min")) + " and " + currency(limit("build_cost_max")) + ".";
+      }
+    }
+    state.errors = nextErrors;
+    return Object.keys(nextErrors).length === 0;
+  }
+
+
+  const MOBILE_LAYOUT_BREAKPOINT = 767;
+  const compactLayoutQuery = window.matchMedia("(max-width: " + MOBILE_LAYOUT_BREAKPOINT + "px)");
+  let compactLayout = compactLayoutQuery.matches;
+
+  function isCompactLayout() {
+    return compactLayout;
+  }
+
+  function syncCompactLayout(event) {
+    const next = event && typeof event.matches === "boolean"
+      ? event.matches
+      : compactLayoutQuery.matches;
+    if (next !== compactLayout) {
+      compactLayout = next;
+      render();
+    }
+  }
+
+  if (typeof compactLayoutQuery.addEventListener === "function") {
+    compactLayoutQuery.addEventListener("change", syncCompactLayout);
+  } else if (typeof compactLayoutQuery.addListener === "function") {
+    compactLayoutQuery.addListener(syncCompactLayout);
+  }
+
+  function renderProgressLabels(stepNames, currentStep, hasResult) {
+    return stepNames.map((name, index) => {
+      const stepNumber = index + 1;
+      const classes = [
+        "decision-step-label",
+        hasResult ? "done" : "",
+        currentStep === stepNumber && !hasResult ? "active" : "",
+        stepNumber < currentStep || (stepNumber <= stepNames.length && hasResult) ? "done" : "",
+      ].filter(Boolean).join(" ");
+      return "<div class='" + classes + "'><span class='decision-step-number'>Step " + stepNumber + "</span><span class='decision-step-name'>" + escapeHtml(name) + "</span></div>";
+    }).join("");
+  }
+
+  function renderMobileStepChips(stepNames, currentStep, hasResult) {
+    return stepNames.map((name, index) => {
+      const stepNumber = index + 1;
+      const classes = [
+        "decision-mobile-chip",
+        hasResult ? "done" : "",
+        currentStep === stepNumber && !hasResult ? "active" : "",
+        stepNumber < currentStep || hasResult ? "done" : "",
+      ].filter(Boolean).join(" ");
+      return "<span class='" + classes + "' aria-label='" + escapeHtml("Step " + stepNumber + ": " + name) + "'>" + stepNumber + "</span>";
+    }).join("");
+  }
+
+  function renderTrustNote() {
+    return "<div class='decision-trust-note'><strong>UK planning baseline</strong><span>Based on common UK planning and permitted development rules. Always confirm with your local council if the project is close to a limit or affected by local controls.</span></div>";
+  }
+
+  const SHARED_FOLLOW_ON_TOOLS = [
+    { slug: "planning-decision-tool", title: "Planning checker", href: "/tools/planning-decision-tool/", description: "Run the full rule-based planning check for a clearer route answer." },
+    { slug: "permitted-development-calculator", title: "Size calculator", href: "/tools/permitted-development-calculator/", description: "Use the fast dimensions-first calculator for a simpler first pass." },
+    { slug: "planning-route-planner", title: "Route planner", href: "/tools/planning-route-planner/", description: "Compare the likely planning paths when the answer still feels mixed." }
+  ];
+  const RULE_LINK_PREFIXES = [
+    "/planning-permission/",
+    "/permitted-development/",
+    "/height-limits/",
+    "/boundary-rules/",
+    "/conservation-areas/",
+    "/maximum-height/",
+    "/distance-from-boundary/",
+    "/roof-alterations/",
+    "/article-4/",
+    "/listed-buildings/",
+    "/depth-limits/"
+  ];
+
+  function ensureLink(target, item) {
+    if (item && item.href && !target.some((link) => link.href === item.href)) {
+      target.push(item);
+    }
+  }
+
+  function classifyPrimaryLink(item) {
+    const href = item && item.href ? String(item.href) : "";
+    if (!href) {
+      return "other";
+    }
+    if (href.indexOf("/planning-faq/") === 0) {
+      return "faq";
+    }
+    if (href.indexOf("/councils/") === 0 || href === "/councils/") {
+      return "authority";
+    }
+    if (href.indexOf("/tools/") === 0) {
+      return "tool";
+    }
+    if (RULE_LINK_PREFIXES.some((prefix) => href.indexOf(prefix) === 0)) {
+      return "rule";
+    }
+    if (href.indexOf("/") === 0) {
+      return "project";
+    }
+    return "other";
+  }
+
+  function firstLinkByCategory(links, category) {
+    return (links || []).find((item) => classifyPrimaryLink(item) === category) || null;
+  }
+
+  function buildCoreNextLinks(options) {
+    const curated = [];
+    const links = options.links || [];
+
+    ensureLink(curated, options.projectLink || firstLinkByCategory(links, "project"));
+    ensureLink(curated, options.ruleLink || firstLinkByCategory(links, "rule"));
+    ensureLink(curated, options.faqLink || firstLinkByCategory(links, "faq"));
+    ensureLink(
+      curated,
+      options.authorityLink || firstLinkByCategory(links, "authority") || {
+        title: "Local Authorities",
+        href: "/councils/",
+        description: "Compare the local authority layer before relying on the answer.",
+      }
+    );
+
+    return curated.filter(Boolean);
+  }
+
+  function defaultNextTool(currentSlug) {
+    const fallback = currentSlug === "what-can-i-build-explorer"
+      ? { href: "/tools/planning-decision-tool/", title: "Use another tool", description: "Move from project ideas into the full planning checker." }
+      : { href: "/tools/what-can-i-build-explorer/", title: "Use another tool", description: "Open the project explorer to compare other directions for the site." };
+    return fallback;
+  }
+
+  function renderPostResultExtras(options) {
+    const currentSlug = options.toolSlug || "";
+    const resultLabel = options.resultLabel || "Result saved";
+    const nextTool = options.nextTool || defaultNextTool(currentSlug);
+    const guideHref = options.guideHref || "/planning-permission/";
+    const guideTitle = options.guideTitle || "Planning permission guide";
+    const nextSteps = [
+      { title: "View full guide", href: guideHref, description: "Open the longer guide behind this result." },
+      { title: "Check rules in your area", href: "/councils/", description: "Compare the local authority layer before relying on the answer." },
+      nextTool
+    ];
+    const relatedTools = SHARED_FOLLOW_ON_TOOLS.filter((item) => item.slug !== currentSlug).slice(0, 3);
+    return "<section class='decision-follow-up'><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Next steps</span><h3>Keep moving while the result is fresh</h3><p>Use the next best action below to confirm the answer, localise it, or move into a deeper tool.</p></div><div class='decision-follow-up-grid'>" + nextSteps.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description || "Open the next planning step.") + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Related tools</span><h3>Continue with another planning check</h3><p>These follow-on tools help you pressure-test the same project from a different angle without starting your research from scratch.</p></div><div class='decision-follow-up-grid'>" + relatedTools.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description) + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Save this result</span><h3>Want this result emailed to you?</h3><p>This is a lightweight placeholder for now. Save it on this device so you can come back to the same result later.</p></div><div class='decision-email-capture' data-tool-email-capture='" + escapeHtml(currentSlug) + "' data-result-label='" + escapeHtml(resultLabel) + "'><input type='email' class='decision-email-input' placeholder='name@example.com' inputmode='email' autocomplete='email' aria-label='Email address for this result'><button type='button' class='cta decision-email-button' onclick='window.__ukpgSaveToolEmail && window.__ukpgSaveToolEmail(this)'>Save on this device</button><p class='decision-email-note'>No backend is connected yet. This only stores the email locally on this device.</p></div></div><div class='decision-inline-note'>This is a guide based on UK planning rules. Always confirm with your local council.</div></section>";
+  }
+
+  window.__ukpgSaveToolEmail = function (button) {
+    try {
+      const wrapper = button && button.closest("[data-tool-email-capture]");
+      if (!wrapper) {
+        return;
+      }
+      const input = wrapper.querySelector(".decision-email-input");
+      const note = wrapper.querySelector(".decision-email-note");
+      const email = input ? String(input.value || "").trim() : "";
+      if (!email || email.indexOf("@") === -1) {
+        if (note) {
+          note.textContent = "Enter a valid email to save this result on this device.";
+        }
+        return;
+      }
+      const payload = {
+        email: email,
+        resultLabel: wrapper.getAttribute("data-result-label") || "Planning tool result",
+        savedAt: new Date().toISOString()
+      };
+      window.localStorage.setItem("ukpg-tool-email:" + (wrapper.getAttribute("data-tool-email-capture") || "tool"), JSON.stringify(payload));
+      if (note) {
+        note.textContent = "Saved on this device only. A real email send can plug into this later.";
+      }
+    } catch (error) {
+      const wrapper = button && button.closest("[data-tool-email-capture]");
+      const note = wrapper ? wrapper.querySelector(".decision-email-note") : null;
+      if (note) {
+        note.textContent = "This browser blocked local storage, so the placeholder save could not be stored.";
+      }
+    }
+  };
+
+  function renderProgressIntro(options, currentName) {
+    const title = options.hasResult ? "Result ready" : ("Step " + options.currentStep + " of " + options.stepNames.length);
+    const detail = options.hasResult
+      ? "You have a structured outcome with follow-on checks and next pages."
+      : ("Current focus: " + currentName + ". Complete each step to unlock the full result.");
+    return "<div class='decision-progress-top'><strong>" + escapeHtml(title) + "</strong><span>" + escapeHtml(detail) + "</span></div>";
+  }
+
+  function renderDesktopToolShell(options) {
+    const currentName = options.hasResult ? "Result" : (options.stepNames[options.currentStep - 1] || "Review");
+    return "<div class='decision-desktop-shell'><div class='decision-engine-header'><div><span class='decision-kicker'>" + escapeHtml(options.kicker) + "</span><h2>" + escapeHtml(options.heading) + "</h2><p class='tool-summary'>" + escapeHtml(options.intro) + "</p>" + renderTrustNote() + "</div><div class='decision-header-actions'>" + options.actionsHtml + "</div></div><div class='decision-progress'>" + renderProgressIntro(options, currentName) + "<div class='decision-progress-bar'><span style='width:" + options.progress + "%'></span></div><div class='decision-step-labels'>" + renderProgressLabels(options.stepNames, options.currentStep, options.hasResult) + "</div></div><div class='decision-layout'><div class='decision-panel'>" + options.contentHtml + "</div>" + options.sidebarHtml + "</div></div>";
+  }
+
+  function renderMobileToolShell(options) {
+    const currentName = options.hasResult ? "Result" : (options.stepNames[options.currentStep - 1] || "Review");
+    const introLabel = options.hasResult ? "Result ready" : ("Step " + options.currentStep + " of " + options.stepNames.length);
+    const introCopy = options.hasResult
+      ? "Your structured result and follow-on guidance are ready below."
+      : ("Current focus: " + currentName + ". Complete each step to unlock the full result.");
+    const summaryBlock = "<div class='decision-mobile-calculator-summary'><h3>" + escapeHtml(options.summaryTitle || "Your answers") + "</h3><div class='decision-summary-list'>" + options.summaryHtml + "</div>" + (options.noteHtml ? "<div class='decision-method-note'>" + options.noteHtml + "</div>" : "") + "</div>";
+    return "<div class='decision-mobile-calculator-shell'><div class='decision-mobile-calculator-header'><div><span class='decision-kicker'>" + escapeHtml(options.kicker) + "</span><h2>" + escapeHtml(options.heading) + "</h2><p class='tool-summary'>" + escapeHtml(options.intro) + "</p>" + renderTrustNote() + "</div><div class='decision-mobile-calculator-actions'>" + options.actionsHtml + "</div></div><div class='decision-mobile-calculator-body'><div class='decision-mobile-calculator-panel'><div class='decision-mobile-calculator-step-intro'><strong>" + escapeHtml(introLabel) + "</strong><p>" + escapeHtml(introCopy) + "</p><div class='decision-progress-bar'><span style='width:" + options.progress + "%'></span></div><div class='decision-step-labels'>" + renderProgressLabels(options.stepNames, options.currentStep, options.hasResult) + "</div></div>" + options.contentHtml + "</div>" + summaryBlock + "</div></div>";
+  }
+
+  function renderResponsiveToolShellInto(target, options) {
+    if (!target) {
+      return;
+    }
+    const markup = "<div class='decision-shell decision-shell-desktop' data-tool-shell='desktop'>" + renderDesktopToolShell(options) + "</div><div class='decision-shell decision-shell-mobile' data-tool-shell='mobile'>" + renderMobileToolShell(options) + "</div>";
+    target.innerHTML = markup;
+    if (typeof target.setAttribute === "function") {
+      target.setAttribute("data-tool-layout", isCompactLayout() ? "mobile" : "desktop");
+    }
+  }
+
+
+  function summaryItems() {
+    return [
+      { label: "Project type", value: project() ? project().label : "Not chosen yet" },
+      { label: "Current value", value: numberValue(state.currentValue) > 0 ? currency(numberValue(state.currentValue)) : "Not entered yet" },
+      { label: "Added area", value: numberValue(state.addedArea) > 0 ? numberValue(state.addedArea) + " sqm" : "Not entered yet" },
+      { label: "Property type", value: propertyMap[state.propertyType] ? propertyMap[state.propertyType].label : "Not chosen yet" },
+      { label: "Bedroom impact", value: bedroomMap[state.bedroomGain] ? bedroomMap[state.bedroomGain].label : "Not chosen yet" },
+      { label: "Finish level", value: finishMap[state.finishLevel] ? finishMap[state.finishLevel].label : "Not chosen yet" },
+      { label: "Planning route confidence", value: route() ? route().label : "Not chosen yet" },
+      { label: "Estimated build cost", value: numberValue(state.buildCost) > 0 ? currency(numberValue(state.buildCost)) : "Not entered" }
+    ];
+  }
+
+  function renderChoiceGrid(questionId, options, selectedValue) {
+    return "<div class='decision-choice-grid'>" + (options || []).map((option) => {
+      const selected = option.value === selectedValue ? " selected" : "";
+      return "<button type='button' class='decision-choice" + selected + "' data-action='set-answer' data-question-id='" + escapeHtml(questionId) + "' data-value='" + escapeHtml(option.value) + "'><strong>" + escapeHtml(option.label) + "</strong></button>";
+    }).join("") + "</div>";
+  }
+
+  function renderFieldError(fieldId) {
+    return state.errors[fieldId]
+      ? "<div class='decision-question-error'>" + escapeHtml(state.errors[fieldId]) + "</div>"
+      : "";
+  }
+
+  function renderStepOne() {
+    return "<div class='decision-step-copy'><h3>Tell the tool what kind of project you are pricing</h3><p>Choose the project family first, then add the rough amount of new space being created.</p></div><div class='decision-question'><h4>Project type</h4>" + renderChoiceGrid("projectType", CONFIG.project_types, state.projectType) + renderFieldError("projectType") + "</div><div class='decision-question'><h4>Added floor area</h4><input type='number' min='" + escapeHtml(limit("added_area_min")) + "' max='" + escapeHtml(limit("added_area_max")) + "' step='1' data-field-id='addedArea' value='" + escapeHtml(state.addedArea) + "' placeholder='e.g. 25'><div class='decision-question-note'>Enter the rough additional internal floor area in square metres.</div>" + renderFieldError("addedArea") + "</div><div class='decision-nav'><button type='button' class='button-secondary' data-action='prev' disabled>Back</button><button type='button' class='cta' data-action='next' " + (requiredForStep(1) ? "" : "disabled") + ">Continue</button></div>";
+  }
+
+  function renderStepTwo() {
+    return "<div class='decision-step-copy'><h3>Add the property context</h3><p>The current value, property type and bedroom impact do most of the work in the uplift estimate.</p></div><div class='decision-question'><h4>Current estimated property value</h4><input type='number' min='" + escapeHtml(limit("current_value_min")) + "' max='" + escapeHtml(limit("current_value_max")) + "' step='1000' data-field-id='currentValue' value='" + escapeHtml(state.currentValue) + "' placeholder='e.g. 425000'><div class='decision-question-note'>Use a rough current value in pounds. This is only used to convert the uplift percentage into a money range.</div>" + renderFieldError("currentValue") + "</div><div class='decision-question'><h4>Property type</h4>" + renderChoiceGrid("propertyType", CONFIG.property_types, state.propertyType) + renderFieldError("propertyType") + "</div><div class='decision-question'><h4>Bedroom impact</h4>" + renderChoiceGrid("bedroomGain", CONFIG.bedroom_gains, state.bedroomGain) + renderFieldError("bedroomGain") + "</div><div class='decision-nav'><button type='button' class='button-secondary' data-action='prev'>Back</button><button type='button' class='cta' data-action='next' " + (requiredForStep(2) ? "" : "disabled") + ">Continue</button></div>";
+  }
+
+  function renderStepThree() {
+    return "<div class='decision-step-copy'><h3>Finish the estimate settings</h3><p>These final choices shape quality and confidence rather than pretending to be a live market valuation.</p></div><div class='decision-question'><h4>Finish or specification level</h4>" + renderChoiceGrid("finishLevel", CONFIG.finish_levels, state.finishLevel) + renderFieldError("finishLevel") + "</div><div class='decision-question'><h4>Planning route confidence</h4>" + renderChoiceGrid("planningRouteConfidence", CONFIG.planning_route_confidence, state.planningRouteConfidence) + renderFieldError("planningRouteConfidence") + "</div><div class='decision-question'><h4>Estimated build cost (optional)</h4><input type='number' min='" + escapeHtml(limit("build_cost_min")) + "' max='" + escapeHtml(limit("build_cost_max")) + "' step='1000' data-field-id='buildCost' value='" + escapeHtml(state.buildCost) + "' placeholder='e.g. 90000'><div class='decision-question-note'>Optional. If entered, the tool will compare estimated value added against the expected spend.</div>" + renderFieldError("buildCost") + "</div><div class='decision-nav'><button type='button' class='button-secondary' data-action='prev'>Back</button><button type='button' class='cta' data-action='next' " + (requiredForStep(3) ? "" : "disabled") + ">Continue</button></div>";
+  }
+
+  function renderReview() {
+    const cards = summaryItems().map((item) => "<div class='decision-review-card'><strong>" + escapeHtml(item.label) + "</strong><span>" + escapeHtml(item.value) + "</span></div>").join("");
+    return "<div class='decision-step-copy'><h3>Review the inputs and estimate the uplift</h3><p>This is a planning-aware value guide, not a formal valuation. Use it to frame the next question, not to price a deal precisely.</p></div><div class='decision-review-grid'>" + cards + "</div><div class='decision-nav'><button type='button' class='button-secondary' data-action='prev'>Back</button><button type='button' class='cta' data-action='run-check' " + (requiredForStep(4) ? "" : "disabled") + ">Estimate value</button></div>";
+  }
+
+  function roiBand(ratio) {
+    return (CONFIG.roi_bands || []).find((item) => ratio <= item.max_ratio) || CONFIG.roi_bands[CONFIG.roi_bands.length - 1];
+  }
+
+  function assess() {
+    const currentProject = project();
+    const currentRoute = route();
+    const size = sizeBand(numberValue(state.addedArea));
+    const propertyType = propertyMap[state.propertyType] || { low_adjust: 0, high_adjust: 0 };
+    const bedroomGain = bedroomMap[state.bedroomGain] || { low_adjust: 0, high_adjust: 0 };
+    const finishLevel = finishMap[state.finishLevel] || { low_adjust: 0, high_adjust: 0 };
+
+    let lowPct = currentProject.base_low + size.low_adjust + propertyType.low_adjust + bedroomGain.low_adjust + finishLevel.low_adjust + currentRoute.low_adjust;
+    let highPct = currentProject.base_high + size.high_adjust + propertyType.high_adjust + bedroomGain.high_adjust + finishLevel.high_adjust + currentRoute.high_adjust;
+
+    lowPct = Math.max(0.01, lowPct);
+    highPct = Math.max(lowPct + 0.01, highPct);
+
+    const currentValue = numberValue(state.currentValue);
+    const upliftLow = Math.round(currentValue * lowPct);
+    const upliftHigh = Math.round(currentValue * highPct);
+    const newValueLow = currentValue + upliftLow;
+    const newValueHigh = currentValue + upliftHigh;
+    const midpointUplift = Math.round((upliftLow + upliftHigh) / 2);
+    const buildCost = numberValue(state.buildCost);
+    const ratio = buildCost > 0 ? midpointUplift / buildCost : 0;
+    const roi = buildCost > 0 ? roiBand(ratio) : null;
+    const upliftPerSqm = Math.round(midpointUplift / Math.max(1, numberValue(state.addedArea)));
+    const narrativePoints = [];
+
+    if (state.bedroomGain !== "none") {
+      narrativePoints.push(CONFIG.result_commentary.bedroom_gain);
+    }
+    if (buildCost > 0 && upliftHigh < buildCost) {
+      narrativePoints.push(CONFIG.result_commentary.high_cost);
+    } else if (buildCost > 0 && ratio > 1.1) {
+      narrativePoints.push(CONFIG.result_commentary.strong_value);
+    }
+    if (numberValue(state.addedArea) >= 50 || state.finishLevel === "premium") {
+      narrativePoints.push(CONFIG.result_commentary.over_improvement);
+    }
+
+    const planningLink = currentRoute.value === "clearer"
+      ? { title: "Permitted Development", href: "/permitted-development/", description: "Useful when the simpler planning route still looks credible for this project." }
+      : { title: "Planning Permission", href: "/planning-permission/", description: "Use this when the route is no longer obviously simple or still needs a fuller check." };
+    const faqLink = buildCost > 0
+      ? { title: "Extension Cost Vs Value Added", href: "/planning-faq/extension-cost-vs-value-added/", description: "Use this when the real decision is whether the likely uplift justifies the spend." }
+      : { title: "Does An Extension Add Value To A House?", href: "/planning-faq/does-an-extension-add-value-to-a-house/", description: "Read the main guide if you want the value question explained in plainer language." };
+    const extraLink = currentRoute.value === "uncertain"
+      ? { title: "Planning Decision Tool", href: "/tools/planning-decision-tool/", description: "Use the route checker next if planning uncertainty is still the main reason confidence is lower." }
+      : { title: "Local Authorities", href: "/councils/", description: "Open the council layer if local controls could still change how realistic the project feels." };
+
+    return {
+      confidenceLabel: currentRoute.confidence_label,
+      confidenceTone: currentRoute.confidence_tone,
+      confidenceSummary: currentRoute.summary,
+      lowPct: lowPct,
+      highPct: highPct,
+      upliftLow: upliftLow,
+      upliftHigh: upliftHigh,
+      newValueLow: newValueLow,
+      newValueHigh: newValueHigh,
+      sizeLabel: size.label,
+      midpointUplift: midpointUplift,
+      upliftPerSqm: upliftPerSqm,
+      roi: roi,
+      narrativePoints: narrativePoints,
+      projectLink: { title: currentProject.guide_title, href: currentProject.guide_href, description: "Open the matching project guide to see the planning limits and design tripwires behind this estimate." },
+      planningLink: planningLink,
+      faqLink: faqLink,
+      extraLink: extraLink
+    };
+  }
+
+  function renderResult() {
+    const result = state.result;
+    const nextLinks = [result.projectLink, result.planningLink, result.faqLink, result.extraLink];
+    const metrics = [
+      { label: "Estimated uplift", value: currency(result.upliftLow) + " to " + currency(result.upliftHigh) },
+      { label: "Estimated uplift %", value: percent(result.lowPct) + " to " + percent(result.highPct) },
+      { label: "Estimated new value", value: currency(result.newValueLow) + " to " + currency(result.newValueHigh) },
+      { label: CONFIG.metric_labels.sqm_value_label, value: currency(result.upliftPerSqm) },
+      { label: "Confidence", value: result.confidenceLabel }
+    ].map((item) => "<div class='value-estimator-metric'><strong>" + escapeHtml(item.label) + "</strong><span>" + escapeHtml(item.value) + "</span></div>").join("");
+
+    const roiHtml = result.roi
+      ? "<div class='decision-result-card'><h3>Cost versus value added</h3><p><strong>" + escapeHtml(result.roi.label) + ".</strong> " + escapeHtml(result.roi.summary) + "</p><p>Estimated spend entered: " + escapeHtml(currency(numberValue(state.buildCost))) + ".</p></div>"
+      : "<div class='decision-result-card'><h3>Cost versus value added</h3><p><strong>" + escapeHtml(CONFIG.metric_labels.roi_none_label) + ".</strong> No build cost was entered, so this result focuses on likely value uplift only. Add a rough spend estimate if you want a simple ROI-style sense-check.</p></div>";
+    const narrativeHtml = result.narrativePoints.length
+      ? "<div class='decision-result-card'><h3>What stands out most</h3><ul><li>" + result.narrativePoints.map((item) => escapeHtml(item)).join("</li><li>") + "</li></ul></div>"
+      : "";
+
+    return "<div class='decision-result'><div class='decision-result-banner " + escapeHtml(result.confidenceTone) + "'><div class='decision-status'>" + escapeHtml(result.confidenceLabel) + "</div><h3>Extension value estimate</h3><p>" + escapeHtml(result.confidenceSummary) + " This tool does not model local market heat or replace a valuation survey.</p></div><div class='value-estimator-metrics'>" + metrics + "</div><div class='decision-result-grid'><div class='decision-result-card'><h3>How the range was shaped</h3><ul><li>" + escapeHtml(project().label) + " base uplift band.</li><li>" + escapeHtml(result.sizeLabel) + " size profile based on " + numberValue(state.addedArea) + " sqm.</li><li>" + escapeHtml((propertyMap[state.propertyType] || {}).label || "Property type") + " and " + escapeHtml((finishMap[state.finishLevel] || {}).label || "finish level") + " modifiers.</li><li>" + escapeHtml((bedroomMap[state.bedroomGain] || {}).label || "Bedroom impact") + " and planning confidence adjustments.</li></ul></div>" + roiHtml + narrativeHtml + "<div class='decision-result-card'><h3>Important caveats</h3><ul><li>This is an early planning-aware guide, not a formal valuation.</li><li>Local market conditions are not modeled in this version.</li><li>Planning uncertainty lowers confidence even if the upside still looks attractive.</li></ul></div></div><div><h3>Best next pages</h3><div class='decision-result-links'>" + nextLinks.map((item) => "<a class='decision-result-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description) + "</span></a>").join("") + "</div></div>" + renderPostResultExtras({ toolSlug: CONFIG.slug, guideHref: result.projectLink.href, guideTitle: result.projectLink.title, resultLabel: result.confidenceLabel, nextTool: { href: result.extraLink.href, title: result.extraLink.title, description: result.extraLink.description } }) + "<div class='decision-nav'><button type='button' class='button-secondary' data-action='edit-result'>Edit answers</button><button type='button' class='button-secondary' data-action='reset'>Start again</button></div></div>";
+  }
+
+  function renderSidebarSections() {
+    return {
+      title: "Estimator inputs",
+      summaryHtml: summaryItems().map((item) => "<div class='decision-summary-item'><strong>" + escapeHtml(item.label) + "</strong><span>" + escapeHtml(item.value) + "</span></div>").join(""),
+      noteHtml: "<strong>What this tool is:</strong> a deterministic uplift-range guide that combines project type, size, finish and planning confidence. It does not use live market feeds or postcode-level data."
+    };
+  }
+
+  function renderHeaderActions() {
+    return (state.result ? "<button type='button' class='button-secondary' data-action='edit-result'>Edit answers</button>" : "") + "<button type='button' class='button-secondary' data-action='reset'>Start again</button>";
+  }
+
+  function renderStepContent() {
+    if (state.loading) {
+      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Estimating value uplift...</h3><p>This short pause is only UI polish while the range is assembled.</p></div>";
+    }
+    if (state.result) {
+      return renderResult();
+    }
+    if (state.step === 1) { return renderStepOne(); }
+    if (state.step === 2) { return renderStepTwo(); }
+    if (state.step === 3) { return renderStepThree(); }
+    return renderReview();
+  }
+
+  function render() {
+    const sections = renderSidebarSections();
+    const progress = state.result ? 100 : (state.step / STEP_NAMES.length) * 100;
+    renderResponsiveToolShellInto(engine, {
+      kicker: CONFIG.title,
+      heading: "Run the extension value estimate",
+      intro: "Use this planning-aware calculator to estimate the likely value uplift from an extension-style project before you rely on rough rules of thumb alone.",
+      actionsHtml: renderHeaderActions(),
+      progress: progress,
+      stepNames: STEP_NAMES,
+      currentStep: state.step,
+      hasResult: Boolean(state.result),
+      contentHtml: renderStepContent(),
+      sidebarHtml: "<aside class='decision-sidebar'><h3>" + escapeHtml(sections.title) + "</h3><div class='decision-summary-list'>" + sections.summaryHtml + "</div><div class='decision-method-note'>" + sections.noteHtml + "</div></aside>",
+      summaryTitle: sections.title,
+      summaryHtml: sections.summaryHtml,
+      noteHtml: sections.noteHtml,
+      summaryHint: "View inputs"
+    });
+  }
+
+  engine.addEventListener("click", function (event) {
+    const target = event.target.closest("[data-action]");
+    if (!target) {
+      return;
+    }
+    const action = target.getAttribute("data-action");
+    const questionId = target.getAttribute("data-question-id") || "";
+    const value = target.getAttribute("data-value") || "";
+
+    if (action === "set-answer") {
+      logToolEvent("click", { action: action, questionId: questionId, value: value });
+      if (questionId === "projectType") { state.projectType = value; }
+      if (questionId === "propertyType") { state.propertyType = value; }
+      if (questionId === "bedroomGain") { state.bedroomGain = value; }
+      if (questionId === "finishLevel") { state.finishLevel = value; }
+      if (questionId === "planningRouteConfidence") { state.planningRouteConfidence = value; }
+      delete state.errors[questionId];
+      state.result = null;
+      render();
+      return;
+    }
+    if (action === "next" && state.step < STEP_NAMES.length) {
+      if (validateStep(state.step) && requiredForStep(state.step)) {
+        state.step += 1;
+      }
+      render();
+      return;
+    }
+    if (action === "prev" && state.step > 1) {
+      state.step -= 1;
+      render();
+      return;
+    }
+    if (action === "run-check") {
+      if (!validateStep(STEP_NAMES.length) || !requiredForStep(STEP_NAMES.length)) {
+        render();
+        return;
+      }
+      logToolEvent("submit", { action: action, snapshot: summaryItems() });
+      state.loading = true;
+      state.result = null;
+      render();
+      window.setTimeout(function () {
+        state.loading = false;
+        state.result = assess();
+        render();
+      }, 350);
+      return;
+    }
+    if (action === "edit-result") {
+      state.result = null;
+      state.loading = false;
+      state.step = STEP_NAMES.length;
+      render();
+      return;
+    }
+    if (action === "reset") {
+      state = createState();
+      render();
+    }
+  });
+
+  engine.addEventListener("input", function (event) {
+    const target = event.target;
+    if (!target || !target.getAttribute) {
+      return;
+    }
+    const fieldId = target.getAttribute("data-field-id");
+    if (!fieldId) {
+      return;
+    }
+    if (fieldId === "currentValue") { state.currentValue = String(clamp(numberValue(target.value), limit("current_value_min"), limit("current_value_max"))); }
+    if (fieldId === "addedArea") { state.addedArea = String(clamp(numberValue(target.value), limit("added_area_min"), limit("added_area_max"))); }
+    if (fieldId === "buildCost") { state.buildCost = target.value === "" ? "" : String(clamp(numberValue(target.value), limit("build_cost_min"), limit("build_cost_max"))); }
+    delete state.errors[fieldId];
+    state.result = null;
+    render();
+  });
+
+  render();
+})();
+</script>
+</div>
+
+</section>
+
+
+<section class="tool-explanation">
+<span class="eyebrow">How to use the result</span>
+<h2>What This Tool Is Good For</h2>
+<div class="answer-grid">
+
+<div class="answer-card">
+<h3>What it answers well</h3>
+<p>It gives a practical value-added range for common extension-led projects before you rely on rough one-line rules or salesy ROI claims.</p>
+</div>
+
+<div class="answer-card">
+<h3>What changes the estimate most</h3>
+<p>Project type, added area, bedroom gain, finish level and planning certainty do most of the work in the range this tool produces.</p>
+</div>
+
+<div class="answer-card">
+<h3>What it does not do</h3>
+<p>It does not model postcode-level market conditions or replace a valuation survey, estate-agent opinion or lender valuation.</p>
+</div>
+
+</div>
+</section>
+
+
+<section class="tool-search-intents">
+<span class="eyebrow">Good search matches</span>
+<h2>Questions This Tool Is Best At Narrowing</h2>
+<ul class="checklist"><li>How much value does an extension add?</li><li>Is this extension worth it?</li><li>How much value does a loft conversion add?</li><li>Does planning permission affect value uplift?</li><li>How much value does a side extension add?</li><li>Which extension adds the most value?</li></ul>
+</section>
+
+<aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Relevant planning partner placement</strong>
+    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+  </div>
+</aside>
+
+
+<section class="planning-context">
+<span class="eyebrow">Context and caveats</span>
+<h2>How This Tool Fits Into The Wider Planning Process</h2>
+<p>Extension Value Estimator is intended as a quick planning aid based on common UK planning considerations and permitted development limits.</p>
+<p>Use it to narrow the question, then move into project guides, local authority pages or formal confirmation if the scheme is close to a limit.</p>
+</section>
+
+
+<section class="tool-faq-links">
+<span class="eyebrow">Good follow-up reads</span>
+<h2>FAQ Pages Worth Opening After The Tool</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/does-an-extension-add-value-to-a-house/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>Does An Extension Add Value To A House?</h3>
+<p>Read the broader guide if you want the value question explained in plainer language first.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/extension-cost-vs-value-added/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>Extension Cost Vs Value Added</h3>
+<p>Useful when the real question is whether the likely uplift justifies the spend rather than just whether value rises at all.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/which-extension-adds-the-most-value/">
+<div class="card-kicker">FAQ follow-up</div>
+<h3>Which Extension Adds The Most Value?</h3>
+<p>Useful when you are comparing several project routes before committing to one.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+
+<section class="tool-guidance-links">
+<span class="eyebrow">Where to go after the tool</span>
+<h2>Detailed Guidance Worth Opening Next</h2>
+<div class="grid">
+<a class="card" href="/house-extensions/">
+<div class="card-kicker">Next page</div>
+<h3>House Extensions</h3>
+<p>Useful when the value question still depends on the extension route itself.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/loft-conversions/">
+<div class="card-kicker">Next page</div>
+<h3>Loft Conversions</h3>
+<p>Helpful for loft projects, bedroom gain and upper-floor value questions.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/planning-permission/">
+<div class="card-kicker">Next page</div>
+<h3>Planning Permission</h3>
+<p>Open this when planning certainty is still the main thing affecting how realistic the value upside feels.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/permitted-development/">
+<div class="card-kicker">Next page</div>
+<h3>Permitted Development</h3>
+<p>Useful when the simpler route still looks plausible and confidence is part of the value equation.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/two-storey-extensions/">
+<div class="card-kicker">Next page</div>
+<h3>Two Storey Extensions</h3>
+<p>A strong next read where added floor area and bedroom gain are the main sources of uplift.</p>
+<span class="cta">Open guide</span>
+</a>
+
+<a class="card" href="/rear-extensions/">
+<div class="card-kicker">Next page</div>
+<h3>Rear Extensions</h3>
+<p>Helpful when the likely uplift depends on a more mainstream rear extension route.</p>
+<span class="cta">Open guide</span>
+</a>
+</div>
+</section>
+
+
+<section class="related-tools">
+<span class="eyebrow">Useful companion tools</span>
+<h2>Related Planning Tools</h2>
+<div class="grid">
+<a class="card" href="/tools/planning-decision-tool/">
+<div class="card-kicker">Related tool</div>
+<h3>Do I Need Planning Permission?</h3>
+<p>Work through a structured project check to see whether the scheme looks likely permitted development, may need planning permission, or depends on local constraints.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/what-can-i-build-explorer/">
+<div class="card-kicker">Related tool</div>
+<h3>What Can I Build? Explorer</h3>
+<p>Explore the home project types that are most likely to fit your property before you dive into detailed planning checks.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/permitted-development-calculator/">
+<div class="card-kicker">Related tool</div>
+<h3>Permitted Development Calculator</h3>
+<p>Estimate whether a common home project may fit within permitted development rules.</p>
+<span class="cta">Open tool</span>
+</a>
+
+<a class="card" href="/tools/planning-rejection-risk-analyzer/">
+<div class="card-kicker">Related tool</div>
+<h3>Planning Rejection Risk Analyzer</h3>
+<p>Analyse the main refusal risks for a home project, including scale, neighbour impact, design character and local policy constraints.</p>
+<span class="cta">Open tool</span>
+</a>
+</div>
+</section>
+
+
+<section class="trust">
+<span class="eyebrow">Trust and method</span>
+<h2>Use These Tools Properly</h2>
+<div class="info-columns">
+<div class="mini-card">
+<h3>What they are for</h3>
+<ul class="checklist">
+<li>Reducing uncertainty at the start of the process.</li>
+<li>Helping you pick the right next page quickly.</li>
+<li>Spotting when the answer probably needs escalation.</li>
+</ul>
+</div>
+<div class="mini-card">
+<h3>What they do not replace</h3>
+<ul class="checklist">
+<li>Formal confirmation for borderline schemes.</li>
+<li>Local authority checks where special controls apply.</li>
+<li>Detailed professional advice for complex cases.</li>
+</ul>
+</div>
+<div class="mini-card">
+<h3>Useful trust pages</h3>
+<p><a href="/methodology/">Methodology</a></p>
+<p><a href="/planning-faq/">Planning FAQ</a></p>
+</div>
+</div>
+</section>
+
+<aside class="ad-slot" data-ad-slot="bottom" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Useful follow-on placement</strong>
+    <p>Best for a subtle post-read advert, referral, or monetized resource once the main content has already done its job.</p>
+  </div>
+</aside>
+
+<div class='last-updated'>Updated March 2026</div>
+</main>
+
+<footer class="footer-shell">
+<div class="footer-inner">
+<div class="footer-grid">
+<div>
+<strong>UK Planning Guide</strong>
+<p class="footer-note">Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications.</p>
+</div>
+<div class="footer-links">
+<strong>Start Here</strong>
+<a href="/tools/">Use the planning tools</a>
+<a href="/house-extensions/">Browse project guides</a>
+<a href="/councils/">Compare local authorities</a>
+</div>
+<div class="footer-links">
+<strong>Useful Next Reads</strong>
+<a href="/planning-faq/">Planning FAQ</a>
+<a href="/planning-permission/">Planning permission hub</a>
+<a href="/permitted-development/">Permitted development hub</a>
+</div>
+<div class="footer-links">
+<strong>Trust</strong>
+<a href="/about/">What this site is for</a>
+<a href="/methodology/">How guidance is built</a>
+</div>
+</div>
+<div class="footer-meta">
+<span>&copy; 2026 UKPlanningGuide</span>
+<span>Built from national planning rules, local authority context and page-specific guidance.</span>
+<span>General guidance only, not legal advice.</span>
+</div>
+</div>
+</footer>
+<div class="tool-ui-templates" hidden aria-hidden="true"><template id="ukpg-ad-slot-template"><aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
+  <div class="ad-slot-label">Advertisement</div>
+  <div class="ad-slot-body">
+    <strong>Relevant planning partner placement</strong>
+    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+  </div>
+</aside>
+</template><template id="ukpg-result-capture-template"><section class="result-capture" aria-label="Save or share result">
+  <div class="result-capture-copy">
+    <strong>Get your result link emailed to you</strong>
+    <p>Save this planning result so you can reopen it later or share it with someone helping on the project.</p>
+  </div>
+  <form class="result-capture-form" action="#" method="post" novalidate>
+    <label for="__RESULT_CAPTURE_ID__">Email address</label>
+    <div class="result-capture-row">
+      <input id="__RESULT_CAPTURE_ID__" name="email" type="email" inputmode="email" autocomplete="email" placeholder="name@example.com">
+      <button type="submit">Email my result</button>
+    </div>
+    <p class="result-capture-note">Demo-ready UI only. Connect this to your email workflow when you are ready.</p>
+  </form>
+</section>
+</template></div>
+<script>
+(function () {
+  if (typeof document === "undefined" || typeof document.querySelector !== "function") {
+    return;
+  }
+
+  const header = document.querySelector("header");
+  const navToggle = document.querySelector(".nav-toggle");
+  const mainNav = document.getElementById("primary-nav");
+
+  function setMenu(open) {
+    if (!header || !navToggle || !mainNav) {
+      return;
+    }
+    header.setAttribute("data-menu-open", open ? "true" : "false");
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+
+  if (navToggle && header) {
+    navToggle.addEventListener("click", function () {
+      const open = header.getAttribute("data-menu-open") === "true";
+      setMenu(!open);
+    });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 768) {
+        setMenu(false);
+      }
+    });
+
+    mainNav && mainNav.addEventListener("click", function (event) {
+      if (event.target.closest("a") && window.innerWidth <= 768) {
+        setMenu(false);
+      }
+    });
+  }
+
+  function cloneTemplate(id) {
+    const template = document.getElementById(id);
+    if (!template) {
+      return null;
+    }
+    return template.content.firstElementChild ? template.content.firstElementChild.cloneNode(true) : null;
+  }
+
+  function ensureCapture(resultNode, root) {
+    if (!resultNode || resultNode.nextElementSibling && resultNode.nextElementSibling.classList.contains("result-capture")) {
+      return;
+    }
+    const capture = cloneTemplate("ukpg-result-capture-template");
+    if (!capture) {
+      return;
+    }
+    const captureId = "result-capture-" + ((root && root.getAttribute("data-tool-root")) || "tool");
+    const label = capture.querySelector("label");
+    const input = capture.querySelector("input");
+    if (label) {
+      label.setAttribute("for", captureId);
+    }
+    if (input) {
+      input.id = captureId;
+    }
+    const form = capture.querySelector("form");
+    if (form) {
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        form.classList.add("is-submitted");
+      });
+    }
+    resultNode.insertAdjacentElement("afterend", capture);
+  }
+
+  function ensureNextStep(resultNode) {
+    if (!resultNode || resultNode.querySelector(".tool-next-step")) {
+      return;
+    }
+    const primaryLink = resultNode.querySelector(".decision-result-link, .tool-result-link, .explorer-link.primary, .explorer-inline-links a");
+    if (!primaryLink) {
+      return;
+    }
+    const titleNode = primaryLink.querySelector("strong");
+    const title = (titleNode ? titleNode.textContent : primaryLink.textContent || "").trim();
+    if (!title) {
+      return;
+    }
+    const card = document.createElement("div");
+    card.className = "tool-next-step";
+    card.innerHTML = "<span class='eyebrow'>Suggested next step</span><div class='tool-next-step-copy'>Open the most useful follow-on page while the result is still fresh.</div>";
+    card.appendChild(primaryLink.cloneNode(true));
+    const strong = card.querySelector("strong");
+    if (strong) {
+      strong.textContent = title;
+    }
+    resultNode.appendChild(card);
+  }
+
+  function revealResult(resultNode) {
+    if (!resultNode || resultNode.dataset.resultEnhanced === "true") {
+      return;
+    }
+    resultNode.dataset.resultEnhanced = "true";
+    requestAnimationFrame(function () {
+      resultNode.classList.add("tool-result-visible");
+      window.setTimeout(function () {
+        resultNode.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 120);
+    });
+  }
+
+  function isInHiddenToolShell(node) {
+    const shell = node && node.closest ? node.closest("[data-tool-shell]") : null;
+    if (!shell || typeof window.getComputedStyle !== "function") {
+      return false;
+    }
+    const style = window.getComputedStyle(shell);
+    return style.display === "none" || style.visibility === "hidden";
+  }
+
+  function enhanceResultNode(resultNode) {
+    if (!resultNode || isInHiddenToolShell(resultNode)) {
+      return;
+    }
+    const root = resultNode.closest("[data-tool-root]") || resultNode.closest(".tool-card");
+    ensureNextStep(resultNode);
+    ensureCapture(resultNode, root);
+    revealResult(resultNode);
+  }
+
+  function scanResults(scope) {
+    const root = scope && scope.querySelectorAll ? scope : document;
+    root.querySelectorAll(".decision-result, .tool-result[data-result-ready='true']").forEach(enhanceResultNode);
+  }
+
+  if (typeof MutationObserver !== "function") {
+    scanResults(document);
+    return;
+  }
+
+  const observer = new MutationObserver(function (mutations) {
+    mutations.forEach(function (mutation) {
+      if (mutation.type === "attributes" && mutation.target instanceof HTMLElement) {
+        if (mutation.target.matches(".tool-result[data-result-ready='true']")) {
+          enhanceResultNode(mutation.target);
+        }
+        return;
+      }
+      mutation.addedNodes.forEach(function (node) {
+        if (!(node instanceof HTMLElement)) {
+          return;
+        }
+        if (node.matches(".decision-result, .tool-result[data-result-ready='true']")) {
+          enhanceResultNode(node);
+          return;
+        }
+        scanResults(node);
+      });
+    });
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["data-result-ready"] });
+  scanResults(document);
+})();
+</script>
+</body>
+</html>
