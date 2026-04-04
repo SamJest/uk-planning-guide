@@ -240,6 +240,10 @@ box-shadow:var(--shadow);
 overflow:hidden;
 }
 
+section[id]{
+scroll-margin-top:calc(var(--header-height) + 18px);
+}
+
 section::before,
 .card::before{
 content:"";
@@ -581,6 +585,22 @@ font-weight:800;
 letter-spacing:.08em;
 text-transform:uppercase;
 color:var(--accent);
+}
+
+.page-jump-links .link-grid a::after{
+content:"Jump";
+}
+
+.support-disclosure{
+margin-top:18px;
+}
+
+.support-disclosure > summary{
+margin-bottom:0;
+}
+
+.support-disclosure[open] > summary{
+margin-bottom:14px;
 }
 
 .link-grid a:hover,
@@ -1073,7 +1093,21 @@ width:100%;
 </section>
 
 
-<section>
+<section class="page-jump-links">
+<span class="eyebrow">Jump to what matters</span>
+<h2>Read This Area Project Page In The Order That Saves You Time</h2>
+<div class="link-grid">
+<a href="#county-project-summary">Start with the quick answer for outbuildings across Warwickshire</a>
+<a href="#county-project-decision-guide">See when an area comparison is enough and when you should go local</a>
+<a href="#county-project-councils">Open the local authority guides that matter most</a>
+<a href="#county-project-topics">Check the rules most likely to change the answer</a>
+<a href="#county-project-next-steps">Use the strongest next tools and follow-ups</a>
+<a href="#county-project-trust">Read the trust notes if the route still feels borderline</a>
+</div>
+</section>
+
+
+<section id="county-project-summary">
 <span class="eyebrow">Quick area answer</span>
 <h2>What This Area Project Page Is For</h2>
 <div class="answer-grid">
@@ -1093,7 +1127,39 @@ width:100%;
 </section>
 
 
-<section class="council-navigation">
+<section class="decision-guide" id="county-project-decision-guide">
+<span class="eyebrow">Decision guide</span>
+<h2>When This Area Comparison Usually Helps And When You Should Go Straight To A Local Page</h2>
+<div class="answer-grid">
+<div class="answer-card">
+<h3>Usually enough for a first pass when</h3>
+<ul class="checklist">
+<li>You are still comparing councils and have not narrowed the project to one site-specific route yet.</li>
+<li>The uncertainty is about where outbuildings feels more sensitive rather than whether one exact drawing already works.</li>
+<li>You want to understand the likely local pressure points before paying for more detailed design work.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>Go more local when</h3>
+<ul class="checklist">
+<li>One council area, one conservation area or one exact property constraint is already doing most of the work.</li>
+<li>The scheme is close to a height, boundary, roof or visibility limit.</li>
+<li>You need a reliable route decision rather than a comparison-led briefing.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>What usually settles it faster</h3>
+<ul class="checklist">
+<li>Open the matching local project guide for the correct council below.</li>
+<li>Pair it with the rule page that looks most likely to block or change the route.</li>
+<li>If the scheme is borderline, move to measured drawings and written confirmation rather than relying on comparison alone.</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section class="council-navigation" id="county-project-councils">
 <span class="eyebrow">Compare by local authority</span>
 <h2>The Councils To Compare For Outbuildings</h2>
 <div class="card-grid">
@@ -1135,7 +1201,7 @@ width:100%;
 </section>
 
 
-<section class="planning-topics">
+<section class="planning-topics" id="county-project-topics">
 <span class="eyebrow">Rule-first route</span>
 <h2>Outbuildings Topics Worth Checking Across Warwickshire</h2>
 <div class="card-grid">
@@ -1177,7 +1243,7 @@ width:100%;
 </section>
 
 
-<section class="planning-context">
+<section class="planning-context" id="county-project-context">
 <span class="eyebrow">Why area comparison helps</span>
 <h2>How The Same Project Can Feel Different Across One Planning Area</h2>
 <p>Planning rules for outbuildings in Warwickshire still sit on the same national baseline, but the confidence you can place in that baseline changes once local designations, property context and authority interpretation enter the picture.</p>
@@ -1185,7 +1251,7 @@ width:100%;
 </section>
 
 
-<section class="regional-insights">
+<section class="regional-insights" id="county-project-insights">
 <span class="eyebrow">Common area-wide tripwires</span>
 <h2>What Usually Deserves A Closer Look In Warwickshire</h2>
 <ul class="checklist">
@@ -1196,14 +1262,7 @@ width:100%;
 </section>
 
 
-<section class="scenario-links">
-<span class="eyebrow">Useful local follow-ups</span>
-<h2>Rule Pages That Usually Decide The Next Step</h2>
-<div class="link-grid"><a href="/planning-permission/north-warwickshire/">Planning Permission in North Warwickshire</a><a href="/permitted-development/north-warwickshire/">Permitted Development Rights in North Warwickshire</a><a href="/planning-permission/nuneaton-and-bedworth/">Planning Permission in Nuneaton and Bedworth</a><a href="/permitted-development/nuneaton-and-bedworth/">Permitted Development Rights in Nuneaton and Bedworth</a><a href="/planning-permission/rugby/">Planning Permission in Rugby</a><a href="/permitted-development/rugby/">Permitted Development Rights in Rugby</a></div>
-</section>
-
-
-<section class="local-actions">
+<section class="local-actions" id="county-project-next-steps">
 <span class="eyebrow">Strong next actions</span>
 <h2>What To Do If You Still Need A Faster Answer</h2>
 <div class="grid">
@@ -1240,6 +1299,19 @@ width:100%;
 </div>
 </section>
 
+
+<section class="support-stack">
+<span class="eyebrow">Deeper comparison routes</span>
+<h2>More Area Comparisons And Related Follow-Ups</h2>
+<p class="section-lead">Use these only after the local authority route and main next steps above. They are helpful, but they should not compete with the primary answer.</p>
+<details class="support-disclosure">
+<summary>Show more rule comparisons, nearby area hubs and related project alternatives</summary>
+
+<section class="scenario-links">
+<span class="eyebrow">Useful local follow-ups</span>
+<h2>Rule Pages That Usually Decide The Next Step</h2>
+<div class="link-grid"><a href="/planning-permission/north-warwickshire/">Planning Permission in North Warwickshire</a><a href="/permitted-development/north-warwickshire/">Permitted Development Rights in North Warwickshire</a><a href="/planning-permission/nuneaton-and-bedworth/">Planning Permission in Nuneaton and Bedworth</a><a href="/permitted-development/nuneaton-and-bedworth/">Permitted Development Rights in Nuneaton and Bedworth</a><a href="/planning-permission/rugby/">Planning Permission in Rugby</a><a href="/permitted-development/rugby/">Permitted Development Rights in Rugby</a></div>
+</section>
 
 <section class="nearby-counties">
 <span class="eyebrow">Broader comparison</span>
@@ -1303,7 +1375,6 @@ width:100%;
 </div>
 </section>
 
-
 <section class="related-projects">
 <span class="eyebrow">Project alternatives</span>
 <h2>Related Project Hubs If The Brief Has Shifted</h2>
@@ -1352,8 +1423,11 @@ width:100%;
 </div>
 </section>
 
+</details>
+</section>
 
-<section class="trust">
+
+<section class="trust" id="county-project-trust">
 <span class="eyebrow">Trust and methodology</span>
 <h2>How To Use This Area Project Guide Responsibly</h2>
 <p>This page is designed to help you compare outbuildings planning permission guidance across Warwickshire without pretending that one area-level summary can replace a site-specific planning check.</p>

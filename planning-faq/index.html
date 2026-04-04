@@ -240,6 +240,10 @@ box-shadow:var(--shadow);
 overflow:hidden;
 }
 
+section[id]{
+scroll-margin-top:calc(var(--header-height) + 18px);
+}
+
 section::before,
 .card::before{
 content:"";
@@ -581,6 +585,22 @@ font-weight:800;
 letter-spacing:.08em;
 text-transform:uppercase;
 color:var(--accent);
+}
+
+.page-jump-links .link-grid a::after{
+content:"Jump";
+}
+
+.support-disclosure{
+margin-top:18px;
+}
+
+.support-disclosure > summary{
+margin-bottom:0;
+}
+
+.support-disclosure[open] > summary{
+margin-bottom:14px;
 }
 
 .link-grid a:hover,
@@ -1072,7 +1092,17 @@ width:100%;
 <p>Use the FAQ library for process questions, local restriction questions and the planning issues that usually block projects before they start.</p>
 </section>
 
-<section>
+<section class="page-jump-links">
+<span class="eyebrow">Jump to what matters</span>
+<h2>Use The FAQ Library In The Order That Saves You Time</h2>
+<div class="link-grid">
+<a href="#faq-library-summary">Start with the route guide if the question is still broad</a>
+<a href="#faq-library-categories">Browse by planning topic once the issue is clearer</a>
+<a href="#faq-library-next-steps">Use the stronger tools and guides if the answer is no longer simple</a>
+</div>
+</section>
+
+<section id="faq-library-summary">
 <span class="eyebrow">How to use this library</span>
 <h2>Pick The Right Route Faster</h2>
 <div class="answer-grid">
@@ -1091,6 +1121,38 @@ width:100%;
 </div>
 </section>
 
+<section class="decision-guide" id="faq-library-decision-guide">
+<span class="eyebrow">Decision guide</span>
+<h2>When The FAQ Library Is The Right Starting Point And When It Is Not</h2>
+<div class="answer-grid">
+<div class="answer-card">
+<h3>Best starting point when</h3>
+<ul class="checklist">
+<li>You need a fast answer on process, evidence, permissions, restrictions or planning definitions.</li>
+<li>The question is still broad enough that opening a project page first would be guesswork.</li>
+<li>You want a short answer before choosing a more detailed page.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>Go elsewhere first when</h3>
+<ul class="checklist">
+<li>You already know the exact project type and need a local rule-led answer.</li>
+<li>One council, conservation area, listed building or Article 4 issue is clearly the blocker.</li>
+<li>You need a route decision for a live scheme rather than a process explainer.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>What usually settles it faster</h3>
+<ul class="checklist">
+<li>Open the strongest FAQ category below if the issue is still conceptual.</li>
+<li>Move to the planning tool or project guide if the question is already site-led.</li>
+<li>Use the local authority layer when local controls are the real source of uncertainty.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="faq-library-categories">
 
 <section>
 <h2>Starting a Project</h2>
@@ -1339,8 +1401,9 @@ width:100%;
 </div>
 </section>
 
+</section>
 
-<section>
+<section id="faq-library-next-steps">
 <span class="eyebrow">Good next steps</span>
 <h2>Useful Next Steps</h2>
 <div class="grid">

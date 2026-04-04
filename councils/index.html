@@ -240,6 +240,10 @@ box-shadow:var(--shadow);
 overflow:hidden;
 }
 
+section[id]{
+scroll-margin-top:calc(var(--header-height) + 18px);
+}
+
 section::before,
 .card::before{
 content:"";
@@ -581,6 +585,22 @@ font-weight:800;
 letter-spacing:.08em;
 text-transform:uppercase;
 color:var(--accent);
+}
+
+.page-jump-links .link-grid a::after{
+content:"Jump";
+}
+
+.support-disclosure{
+margin-top:18px;
+}
+
+.support-disclosure > summary{
+margin-bottom:0;
+}
+
+.support-disclosure[open] > summary{
+margin-bottom:14px;
 }
 
 .link-grid a:hover,
@@ -1086,7 +1106,46 @@ width:100%;
 </div>
 </section>
 
-<section>
+
+<section class="page-jump-links">
+<span class="eyebrow">Jump to what matters</span>
+<h2>Use This Council Hub In The Order That Saves You Time</h2>
+<div class="link-grid"><a href="#councils-hub-areas">Start with the planning area</a><a href="#councils-hub-popular">Open a live local authority entry point</a><a href="#councils-hub-tools">Pair the local layer with the right tool or method</a></div>
+</section>
+
+
+<section class="decision-guide" id="councils-hub-decision-guide">
+<span class="eyebrow">Decision guide</span>
+<h2>When The Council Hub Is The Right Starting Point And When It Is Not</h2>
+<div class="answer-grid">
+<div class="answer-card">
+<h3>Best when</h3>
+<ul class="checklist">
+<li>The local authority layer is the main uncertainty.</li>
+<li>You want to compare planning areas before choosing one council path.</li>
+<li>Conservation areas, Article 4 or heritage controls may be the real blocker.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>Go elsewhere first when</h3>
+<ul class="checklist">
+<li>You already know the exact project type and need the answer-first local project page.</li>
+<li>The question is still broad enough that a tool or FAQ would narrow it faster.</li>
+<li>You need a site-specific route decision rather than a navigation layer.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>What usually settles it faster</h3>
+<ul class="checklist">
+<li>Pick the planning area first, then the council, then the matching project or rule page.</li>
+<li>Use a tool first if the route is still broad and the local authority is not yet clear.</li>
+<li>Use the local authority page alongside the project guide when local controls may change the answer.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="councils-hub-areas">
 <span class="eyebrow">Area-level navigation</span>
 <h2>Choose The Planning Area First</h2>
 <div class="county-grid">
@@ -1358,7 +1417,7 @@ width:100%;
 </div>
 </section>
 
-<section>
+<section id="councils-hub-popular">
 <h2>Popular Local Authority Entry Points</h2>
 <div class="grid">
 <a class="card" href="/councils/bedford/">
@@ -1447,7 +1506,7 @@ width:100%;
 </div>
 </section>
 
-<section>
+<section id="councils-hub-tools">
 <div class="split-grid">
 <div class="cta-band">
 <span class="eyebrow">Useful alongside council pages</span>

@@ -240,6 +240,10 @@ box-shadow:var(--shadow);
 overflow:hidden;
 }
 
+section[id]{
+scroll-margin-top:calc(var(--header-height) + 18px);
+}
+
 section::before,
 .card::before{
 content:"";
@@ -581,6 +585,22 @@ font-weight:800;
 letter-spacing:.08em;
 text-transform:uppercase;
 color:var(--accent);
+}
+
+.page-jump-links .link-grid a::after{
+content:"Jump";
+}
+
+.support-disclosure{
+margin-top:18px;
+}
+
+.support-disclosure > summary{
+margin-bottom:0;
+}
+
+.support-disclosure[open] > summary{
+margin-bottom:14px;
 }
 
 .link-grid a:hover,
@@ -1073,7 +1093,21 @@ width:100%;
 </section>
 
 
-<section>
+<section class="page-jump-links">
+<span class="eyebrow">Jump to what matters</span>
+<h2>Use This Council Page In The Order That Saves You Time</h2>
+<div class="link-grid">
+<a href="#council-summary">Start with the quick local summary for Bournemouth Christchurch and Poole</a>
+<a href="#council-start">Use the fastest project, topic and tool routes first</a>
+<a href="#projects">Open project guides if the build type is already clear</a>
+<a href="#council-topics">Check the local planning topics if one rule is the blocker</a>
+<a href="#council-process">Use the practical next-step sequence before you spend money</a>
+<a href="#council-trust">Read the trust notes if the route still feels borderline</a>
+</div>
+</section>
+
+
+<section id="council-summary">
 <span class="eyebrow">Quick local summary</span>
 <h2>What Usually Applies In Bournemouth Christchurch and Poole, What Often Changes It, What To Do Next</h2>
 <div class="answer-grid">
@@ -1097,7 +1131,7 @@ width:100%;
 </section>
 
 
-<section class="start-here-local">
+<section class="start-here-local" id="council-start">
 <span class="eyebrow">Start here in this authority</span>
 <h2>The Fastest Routes From A Bournemouth Christchurch and Poole Planning Search</h2>
 <div class="grid">
@@ -1129,7 +1163,7 @@ width:100%;
 </section>
 
 
-<section>
+<section id="council-topics">
 <span class="eyebrow">High-value starting pages</span>
 <h2>Local Guides People Usually Need First</h2>
 <div class="project-grid">
@@ -1297,7 +1331,7 @@ width:100%;
 </section>
 
 
-<section id="planning-process">
+<section id="council-process">
 <span class="eyebrow">Practical next-step flow</span>
 <h2>How To Use This Council Page Before You Build</h2>
 <ol>
@@ -1316,7 +1350,7 @@ width:100%;
 </section>
 
 
-<section>
+<section id="council-trust">
 <span class="eyebrow">Common decision patterns</span>
 <h2>What Usually Triggers A Closer Check In Bournemouth Christchurch and Poole</h2>
 <ul class="checklist">

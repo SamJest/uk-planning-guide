@@ -240,6 +240,10 @@ box-shadow:var(--shadow);
 overflow:hidden;
 }
 
+section[id]{
+scroll-margin-top:calc(var(--header-height) + 18px);
+}
+
 section::before,
 .card::before{
 content:"";
@@ -581,6 +585,22 @@ font-weight:800;
 letter-spacing:.08em;
 text-transform:uppercase;
 color:var(--accent);
+}
+
+.page-jump-links .link-grid a::after{
+content:"Jump";
+}
+
+.support-disclosure{
+margin-top:18px;
+}
+
+.support-disclosure > summary{
+margin-bottom:0;
+}
+
+.support-disclosure[open] > summary{
+margin-bottom:14px;
 }
 
 .link-grid a:hover,
@@ -1081,7 +1101,21 @@ width:100%;
 </section>
 
 
-<section class="county-summary">
+<section class="page-jump-links">
+<span class="eyebrow">Jump to what matters</span>
+<h2>Use This Area Page In The Order That Saves You Time</h2>
+<div class="link-grid">
+<a href="#county-summary">Start with the quick area summary for Wales</a>
+<a href="#county-start">Use the fastest council, topic and tool routes first</a>
+<a href="#county-projects">Open project hubs if the build type is already clear</a>
+<a href="#county-topics">Check the rules that most often change the answer</a>
+<a href="#county-councils">Compare the live local authorities in this area</a>
+<a href="#county-trust">Use the trust notes if the route still feels mixed</a>
+</div>
+</section>
+
+
+<section class="county-summary" id="county-summary">
 <span class="eyebrow">Area overview</span>
 <h2>How To Use The Wales Planning Pages</h2>
 <div class="answer-grid">
@@ -1105,7 +1139,7 @@ width:100%;
 </section>
 
 
-<section class="county-start-here">
+<section class="county-start-here" id="county-start">
 <span class="eyebrow">Start here in this planning area</span>
 <h2>The Fastest Local Routes For Wales Searches</h2>
 <div class="grid">
@@ -1137,7 +1171,39 @@ width:100%;
 </section>
 
 
-<section class="project-block">
+<section class="decision-guide" id="county-decision-guide">
+<span class="eyebrow">Decision guide</span>
+<h2>When This Area Page Is Enough And When You Should Go More Local</h2>
+<div class="answer-grid">
+<div class="answer-card">
+<h3>This page usually works best when</h3>
+<ul class="checklist">
+<li>The search is still broad and you are deciding which council or project page deserves attention first.</li>
+<li>You want to compare the planning area before committing to one local authority route.</li>
+<li>The real blocker is choosing the right next page, not settling the full site-specific answer here.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>Pause and go narrower when</h3>
+<ul class="checklist">
+<li>One specific council area already matters more than the wider county picture.</li>
+<li>A conservation area, Article 4, listed building issue or exact measurement is driving the uncertainty.</li>
+<li>The proposal is financially important enough that a broad area summary is no longer a safe stopping point.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>What usually settles it faster</h3>
+<ul class="checklist">
+<li>Open the matching local authority page from the 25 live council routes below.</li>
+<li>Pair the council page with the exact project guide or topic page that fits the job.</li>
+<li>If the scheme is close to a limit, use drawings and written confirmation rather than relying on comparison alone.</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section class="project-block" id="county-projects">
 <h2>Project Guides People Usually Need First</h2>
 <div class="card-grid">
 <a class="card project-card" href="/agricultural-buildings/wales/">
@@ -1339,7 +1405,7 @@ width:100%;
 </section>
 
 
-<section class="county-topics">
+<section class="county-topics" id="county-topics">
 <span class="eyebrow">Rules that often change the answer</span>
 <h2>Planning Topics That Commonly Decide The Next Step Across Wales</h2>
 <div class="card-grid">
@@ -1388,7 +1454,7 @@ width:100%;
 </section>
 
 
-<section class="council-cards">
+<section class="council-cards" id="county-councils">
 <h2>Choose the Right Local Planning Authority</h2>
 <div class="card-grid">
 <a class="card council-card" href="/councils/isle-of-anglesey/">
@@ -1617,7 +1683,7 @@ width:100%;
 </section>
 
 
-<section class="trust-section">
+<section class="trust-section" id="county-trust">
 <span class="eyebrow">Trust and caveats</span>
 <h2>How To Use This Area Guide Well</h2>
 <p>This guide summarises planning permission guidance across Wales. It helps you reach the right local authority and the right project guide faster, while staying clear about what still needs site-specific confirmation under the Welsh planning system.</p>

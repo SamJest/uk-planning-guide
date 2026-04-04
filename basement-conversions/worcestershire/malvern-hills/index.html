@@ -240,6 +240,10 @@ box-shadow:var(--shadow);
 overflow:hidden;
 }
 
+section[id]{
+scroll-margin-top:calc(var(--header-height) + 18px);
+}
+
 section::before,
 .card::before{
 content:"";
@@ -581,6 +585,22 @@ font-weight:800;
 letter-spacing:.08em;
 text-transform:uppercase;
 color:var(--accent);
+}
+
+.page-jump-links .link-grid a::after{
+content:"Jump";
+}
+
+.support-disclosure{
+margin-top:18px;
+}
+
+.support-disclosure > summary{
+margin-bottom:0;
+}
+
+.support-disclosure[open] > summary{
+margin-bottom:14px;
 }
 
 .link-grid a:hover,
@@ -1074,7 +1094,21 @@ width:100%;
 </section>
 
 
-<section class="local-answer-box">
+<section class="page-jump-links">
+<span class="eyebrow">Jump to what matters</span>
+<h2>Read This Page In The Order That Saves You Time</h2>
+<div class="link-grid">
+<a href="#quick-answer">Start with the quick answer for basement conversion planning permission in Malvern Hills</a>
+<a href="#decision-guide">See when the route usually stays simple and when it does not</a>
+<a href="#process">Use the practical next-step sequence before paying for drawings</a>
+<a href="#faq">Check the common questions people ask before they commit</a>
+<a href="#next-steps">Open the best tool, guide or follow-up page next</a>
+<a href="#trust">Use the trust notes if the project feels close to a limit</a>
+</div>
+</section>
+
+
+<section class="local-answer-box" id="quick-answer">
 <span class="eyebrow">Quick local answer</span>
 <h2>What Usually Applies, What Changes It, What To Check Next</h2>
 <p class="section-lead">Use this section to separate the broad answer from the local checks most likely to change it in Malvern Hills.</p>
@@ -1090,6 +1124,26 @@ width:100%;
 <div class="answer-card">
 <h3>Best next checks</h3>
 <ul class="checklist"><li>Measure the proposal against the controlling limits, then verify the local restrictions before relying on the baseline answer.</li><li>Measure the proposal against the main size, height, roof and boundary limits.</li><li>Check whether conservation areas, listed building controls or Article 4 directions apply in Malvern Hills.</li><li>If the design is close to a threshold, prepare drawings and consider formal written confirmation before work starts.</li><li>Sense-check whether previous additions to the original house have already used up the simpler route.</li></ul>
+</div>
+</div>
+</section>
+
+
+<section class="decision-guide" id="decision-guide">
+<span class="eyebrow">Decision guide</span>
+<h2>When The Answer Usually Stays Simpler And When It Needs A Closer Check</h2>
+<div class="answer-grid">
+<div class="answer-card">
+<h3>Often stays simpler when</h3>
+<ul class="checklist"><li>The proposal stays comfortably inside the usual size, siting and design limits.</li><li>The local restrictions are not doing most of the work in the answer.</li><li>The project is not already close to a threshold that makes formal confirmation worth paying for.</li></ul>
+</div>
+<div class="answer-card">
+<h3>Pause and check when</h3>
+<ul class="checklist"><li>In Malvern Hills, conservation areas, listed buildings can change the route faster than people expect.</li><li>The proposal is close to a limit for size, siting or visual impact.</li><li>The local restrictions may matter more than the national baseline suggests.</li></ul>
+</div>
+<div class="answer-card">
+<h3>Evidence that usually settles it faster</h3>
+<ul class="checklist"><li>Measured drawings showing the part of the basement conversion planning permission most likely to trigger a planning threshold.</li><li>A simple note on previous additions, site history or restrictions that may already change the baseline answer.</li><li>Photos showing boundaries, roof form, frontage visibility or the part of the site most likely to matter locally.</li></ul>
 </div>
 </div>
 </section>
@@ -1228,7 +1282,7 @@ width:100%;
 </section>
 
 
-<section class="planning-process">
+<section class="planning-process" id="process">
 <span class="eyebrow">How to use this page well</span>
 <h2>Before You Spend On Drawings Or An Application</h2>
 <p class="section-lead">This checklist is designed to stop the project from drifting into drawings or applications before the live planning issue is clear.</p>
@@ -1285,7 +1339,7 @@ width:100%;
 </section>
 
 
-<section class="faq-section">
+<section class="faq-section" id="faq">
 <span class="eyebrow">Frequently asked questions</span>
 <h2>Common Local Questions About This Project</h2>
 
@@ -1313,7 +1367,7 @@ width:100%;
 </section>
 
 
-<section class="local-actions">
+<section class="local-actions" id="next-steps">
 <span class="eyebrow">Strong next actions</span>
 <h2>What To Open Next If This Local Guide Still Leaves Doubt</h2>
 <div class="grid">
@@ -1360,9 +1414,12 @@ width:100%;
 </section>
 
 
-<section class="related-topics">
+<section class="related-topics" id="compare">
 <span class="eyebrow">Recommended next pages</span>
 <h2>Open The Next Check That Actually Narrows The Answer</h2>
+<p class="section-lead">The high-priority next actions are already surfaced above. Open this section when you want deeper comparisons, related project types or broader hierarchy links without losing the main answer.</p>
+<details class="support-disclosure">
+<summary>Show more comparisons, related pages and next-step routes</summary>
 
 <div class="card">
 <div class="card-kicker">People also check</div>
@@ -1406,6 +1463,7 @@ width:100%;
 </div>
 </div>
 
+</details>
 </section>
 
 
@@ -1445,7 +1503,7 @@ width:100%;
 </section>
 
 
-<section class="trust-signals">
+<section class="trust-signals" id="trust">
 <span class="eyebrow">Trust and caveats</span>
 <h2>How To Use This Local Guide Responsibly</h2>
 <p>This page combines the English planning system baseline with local authority context for Malvern Hills, Worcestershire. It is meant to shorten the research path and make the next step clearer, not to replace official confirmation where the scheme is close to a limit or affected by special controls.</p>

@@ -240,6 +240,10 @@ box-shadow:var(--shadow);
 overflow:hidden;
 }
 
+section[id]{
+scroll-margin-top:calc(var(--header-height) + 18px);
+}
+
 section::before,
 .card::before{
 content:"";
@@ -581,6 +585,22 @@ font-weight:800;
 letter-spacing:.08em;
 text-transform:uppercase;
 color:var(--accent);
+}
+
+.page-jump-links .link-grid a::after{
+content:"Jump";
+}
+
+.support-disclosure{
+margin-top:18px;
+}
+
+.support-disclosure > summary{
+margin-bottom:0;
+}
+
+.support-disclosure[open] > summary{
+margin-bottom:14px;
 }
 
 .link-grid a:hover,
@@ -1073,7 +1093,22 @@ width:100%;
 </section>
 
 
-<section>
+<section class="page-jump-links">
+<span class="eyebrow">Jump to what matters</span>
+<h2>Read This Answer In The Order That Saves You Time</h2>
+<div class="link-grid">
+<a href="#faq-intent">Check whether this page matches the real planning question first</a>
+<a href="#faq-summary">Start with the short answer and the main things that change it</a>
+<a href="#faq-routes">Open the strongest next route if the issue is getting bigger</a>
+<a href="#faq-detail">Read the fuller guidance only after the answer is narrowed</a>
+<a href="#faq-questions">Use the follow-up questions to resolve edge cases faster</a>
+<a href="#faq-trust">Read the trust notes if the stakes are high or the route feels borderline</a>
+</div>
+</section>
+
+
+
+<section id="faq-intent">
 <span class="eyebrow">Use this page when</span>
 <h2>What This Answer Is Designed To Resolve</h2>
 <div class="answer-grid">
@@ -1093,7 +1128,7 @@ width:100%;
 </section>
 
 
-<section>
+<section id="faq-summary">
 <span class="eyebrow">Answer-first summary</span>
 <h2>What Usually Applies, What Changes It, What To Check Next</h2>
 <div class="answer-grid">
@@ -1113,7 +1148,36 @@ width:100%;
 </section>
 
 
-<section>
+<section class="decision-guide" id="faq-decision-guide">
+<span class="eyebrow">Decision guide</span>
+<h2>When This FAQ Answer Is Usually Enough And When To Escalate</h2>
+<div class="answer-grid">
+<div class="answer-card">
+<h3>Usually enough when</h3>
+<ul class="checklist">
+<li>The question is about process, evidence, timing or one narrow planning definition.</li>
+<li>You need a practical briefing note before opening a project guide or local authority page.</li>
+<li>The proposal is not obviously close to a hard planning threshold.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>Go further when</h3>
+<ul class="checklist">
+<li>One exact project type, council area, conservation area or listed-building issue is already driving the answer.</li>
+<li>The financial or timing consequences are large enough that a summary answer is not a safe stopping point.</li>
+<li>The route still feels mixed after reading the key checks below.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>What usually settles it faster</h3>
+<ul class="checklist"><li>Extensions can add value, but the uplift depends on project type, added floor area, finish quality and whether the work improves how the house is actually used.</li><li>The value gain is usually a range, not a fixed percentage, because over-improvement and weak design can shrink the upside quickly.</li><li>Planning certainty matters because a valuable idea on paper is less useful if the route to build it is still weak or expensive.</li></ul>
+</div>
+</div>
+</section>
+
+
+
+<section id="faq-routes">
 <span class="eyebrow">Best next routes</span>
 <h2>If This Answer Turns Into A Bigger Planning Question</h2>
 <p class="section-lead">These are the next pages most likely to help if the answer needs to turn into a project guide, a local rule check or a more formal route decision.</p>
@@ -1142,6 +1206,7 @@ width:100%;
 </section>
 
 
+<section id="faq-detail">
 
 <section>
 <h2>Why The Answer Is Usually A Range</h2>
@@ -1155,8 +1220,9 @@ width:100%;
 <ul class='checklist'><li>Good layout beats brute size when the market already expects modern living space.</li><li>Extra bedrooms usually matter more than extra square metres alone.</li><li>Over-improvement can limit upside even when the planning route is straightforward.</li></ul>
 </section>
 
+</section>
 
-<section>
+<section id="faq-questions">
 <span class="eyebrow">Quick answers</span>
 <h2>Questions People Usually Ask Next</h2>
 
@@ -1200,7 +1266,7 @@ width:100%;
 
 
 
-<section>
+<section id="faq-trust">
 <span class="eyebrow">Trust and caveats</span>
 <h2>Use This Answer Properly</h2>
 <p>Planning answers change when a proposal is close to a limit, the property has special controls or the site history has already used development allowances. If that sounds like your situation, use this page as a practical briefing note and then verify the final position with the local planning authority or a lawful development certificate.</p>

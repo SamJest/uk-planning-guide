@@ -240,6 +240,10 @@ box-shadow:var(--shadow);
 overflow:hidden;
 }
 
+section[id]{
+scroll-margin-top:calc(var(--header-height) + 18px);
+}
+
 section::before,
 .card::before{
 content:"";
@@ -581,6 +585,22 @@ font-weight:800;
 letter-spacing:.08em;
 text-transform:uppercase;
 color:var(--accent);
+}
+
+.page-jump-links .link-grid a::after{
+content:"Jump";
+}
+
+.support-disclosure{
+margin-top:18px;
+}
+
+.support-disclosure > summary{
+margin-bottom:0;
+}
+
+.support-disclosure[open] > summary{
+margin-bottom:14px;
 }
 
 .link-grid a:hover,
@@ -1086,7 +1106,15 @@ width:100%;
 </div>
 </section>
 
-<section>
+
+<section class="page-jump-links">
+<span class="eyebrow">Jump to what matters</span>
+<h2>Use This Project Hub In The Order That Saves You Time</h2>
+<div class="link-grid"><a href="#project-hub-routes">Start with the fastest routes for loft conversion</a><a href="#project-hub-locals">Open curated local examples first</a><a href="#project-hub-counties">Compare the right planning area</a><a href="#project-hub-topics">Check the rules most likely to change the answer</a></div>
+</section>
+
+
+<section id="project-hub-routes">
 <span class="eyebrow">Start with a fast route</span>
 <h2>Strong Next Steps For Loft Conversion</h2>
 <div class="grid">
@@ -1157,7 +1185,38 @@ width:100%;
 </div>
 </section>
 
-<section>
+<section class="decision-guide" id="project-hub-decision-guide">
+<span class="eyebrow">Decision guide</span>
+<h2>When This Project Hub Is The Right Starting Point And When To Go More Local</h2>
+<div class="answer-grid">
+<div class="answer-card">
+<h3>Best when</h3>
+<ul class="checklist">
+<li>You already know the build type and want the shortest route into the right local pages.</li>
+<li>You need to compare areas before committing to one council path.</li>
+<li>You want to isolate which planning rule is most likely to change the answer.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>Go more local when</h3>
+<ul class="checklist">
+<li>One council area, one conservation issue or one exact site constraint is already the live blocker.</li>
+<li>The project is close to a limit and a generic hub is no longer specific enough.</li>
+<li>You need a route decision, not a navigation layer.</li>
+</ul>
+</div>
+<div class="answer-card">
+<h3>What usually settles it faster</h3>
+<ul class="checklist">
+<li>Open a local project page first if the town is already known.</li>
+<li>Use the area hub if you are still comparing councils.</li>
+<li>Use the topic hub if one planning rule is clearly doing most of the work.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="project-hub-locals">
 <span class="eyebrow">Curated, not auto-filled</span>
 <h2>Useful Local Guides To Start With</h2>
 <p class="section-lead">These examples make it easy to jump straight into an answer-first local page rather than scrolling through a giant directory first.</p>
@@ -1220,7 +1279,7 @@ width:100%;
 </div>
 </section>
 
-<section>
+<section id="project-hub-counties">
 <span class="eyebrow">Compare by area</span>
 <h2>Find The Right Local Authority Layer</h2>
 <p class="section-lead">Area project pages help you compare council coverage in a cleaner way before you commit to one local authority path.</p>
@@ -1493,7 +1552,7 @@ width:100%;
 </div>
 </section>
 
-<section>
+<section id="project-hub-topics">
 <span class="eyebrow">Rules people usually need next</span>
 <h2>Topic Hubs That Matter For This Project Type</h2>
 <div class="grid">
