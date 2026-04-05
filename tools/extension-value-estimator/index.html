@@ -14,6 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Extension Value Estimator: planning-aware uplift tool</title>
 <meta name="description" content="Use the Extension Value Estimator to estimate likely property value uplift from common extension-led projects with planning-aware confidence bands.">
+
 <link rel="canonical" href="https://ukplanningguide.co.uk/tools/extension-value-estimator/">
 <link rel="icon" href="/assets/favicon.ico?v=20260327" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260327">
@@ -631,6 +632,124 @@ border-radius:22px;
 box-shadow:var(--shadow-soft);
 }
 
+.personalised-guidance-cta{
+background:
+linear-gradient(135deg,rgba(255,252,246,.98),rgba(223,241,234,.94)),
+radial-gradient(circle at top right,rgba(183,121,31,.10),transparent 34%);
+border:1px solid rgba(31,111,95,.16);
+}
+
+.personalised-guidance-cta::after{
+content:"";
+position:absolute;
+right:-60px;
+top:-70px;
+width:180px;
+height:180px;
+border-radius:999px;
+background:radial-gradient(circle,rgba(183,121,31,.10),transparent 68%);
+pointer-events:none;
+}
+
+.personalised-guidance-cta-compact{
+padding:22px;
+}
+
+.guidance-actions{
+margin-bottom:16px;
+}
+
+.guidance-cta-grid{
+margin-top:0;
+}
+
+.guidance-disclaimer,
+.guidance-privacy-note,
+.guidance-consent-note{
+position:relative;
+z-index:1;
+font-size:14px;
+max-width:74ch;
+}
+
+.guidance-disclaimer{
+margin-top:18px;
+padding:14px 16px;
+background:rgba(255,255,255,.82);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+color:var(--ink);
+}
+
+.guidance-disclaimer-standalone{
+margin-top:18px;
+}
+
+.guidance-privacy-note a{
+font-weight:700;
+}
+
+.guidance-prompt-block .answer-grid{
+align-items:start;
+}
+
+.guidance-prompt{
+min-height:260px;
+resize:vertical;
+background:rgba(255,255,255,.94);
+font-family:"SFMono-Regular","Consolas","Liberation Mono",monospace;
+font-size:13px;
+line-height:1.55;
+}
+
+.find-help-cta{
+padding:24px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
+radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
+border:1px solid rgba(31,111,95,.14);
+box-shadow:var(--shadow-soft);
+}
+
+.find-help-cta-compact{
+padding:22px;
+}
+
+.find-help-rollout-note,
+.field-help{
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.find-help-form{
+display:grid;
+gap:18px;
+}
+
+.form-grid,
+.steps-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+}
+
+.form-field{
+display:grid;
+gap:8px;
+align-content:start;
+}
+
+.form-field-wide{
+grid-column:1 / -1;
+}
+
+.form-note{
+padding:18px 20px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+}
+
 .tool-cta p,
 .cta-band p,
 .notice p{
@@ -1075,6 +1194,8 @@ width:100%;
 <nav class="main-nav" id="primary-nav" aria-label="Primary">
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
+<a href="/personalised-planning-guidance/">Personalised guidance</a>
+<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1096,8 +1217,8 @@ width:100%;
 <aside class="ad-slot" data-ad-slot="top" aria-label="Advertisement">
   <div class="ad-slot-label">Advertisement</div>
   <div class="ad-slot-body">
-    <strong>Planning-ready sponsor space</strong>
-    <p>Reserved for a light-touch partner message, quote tool, or relevant service without crowding the main tool content.</p>
+    <strong>Selected planning partner</strong>
+    <p>Best used for a genuinely relevant quote tool, referral or service that helps the user move from guidance into action without interrupting the page.</p>
   </div>
 </aside>
 
@@ -1588,7 +1709,7 @@ color:var(--ink);
       nextTool
     ];
     const relatedTools = SHARED_FOLLOW_ON_TOOLS.filter((item) => item.slug !== currentSlug).slice(0, 3);
-    return "<section class='decision-follow-up'><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Next steps</span><h3>Keep moving while the result is fresh</h3><p>Use the next best action below to confirm the answer, localise it, or move into a deeper tool.</p></div><div class='decision-follow-up-grid'>" + nextSteps.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description || "Open the next planning step.") + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Related tools</span><h3>Continue with another planning check</h3><p>These follow-on tools help you pressure-test the same project from a different angle without starting your research from scratch.</p></div><div class='decision-follow-up-grid'>" + relatedTools.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description) + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Save this result</span><h3>Want this result emailed to you?</h3><p>This is a lightweight placeholder for now. Save it on this device so you can come back to the same result later.</p></div><div class='decision-email-capture' data-tool-email-capture='" + escapeHtml(currentSlug) + "' data-result-label='" + escapeHtml(resultLabel) + "'><input type='email' class='decision-email-input' placeholder='name@example.com' inputmode='email' autocomplete='email' aria-label='Email address for this result'><button type='button' class='cta decision-email-button' onclick='window.__ukpgSaveToolEmail && window.__ukpgSaveToolEmail(this)'>Save on this device</button><p class='decision-email-note'>No backend is connected yet. This only stores the email locally on this device.</p></div></div><div class='decision-inline-note'>This is a guide based on UK planning rules. Always confirm with your local council.</div></section>";
+    return "<section class='decision-follow-up'><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Next steps</span><h3>Keep moving while the result is fresh</h3><p>Use the next best action below to confirm the answer, localise it, or move into a deeper tool.</p></div><div class='decision-follow-up-grid'>" + nextSteps.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description || "Open the next planning step.") + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Related tools</span><h3>Continue with another planning check</h3><p>These follow-on tools help you pressure-test the same project from a different angle without starting your research from scratch.</p></div><div class='decision-follow-up-grid'>" + relatedTools.map((item) => "<a class='decision-follow-up-link' href='" + escapeHtml(item.href) + "'><strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description) + "</span></a>").join("") + "</div></div><div class='decision-follow-up-card'><div class='decision-follow-up-heading'><span class='decision-follow-up-kicker'>Save or share</span><h3>Keep a clean record of this result</h3><p>Save the summary on this device, then copy or print the page if you want to share it with someone helping on the project.</p></div><div class='decision-email-capture' data-tool-email-capture='" + escapeHtml(currentSlug) + "' data-result-label='" + escapeHtml(resultLabel) + "'><button type='button' class='cta decision-email-button' onclick='window.__ukpgSaveToolEmail && window.__ukpgSaveToolEmail(this)'>Save result on this device</button><button type='button' class='button-secondary decision-email-button' onclick='window.print()'>Print this result</button><p class='decision-email-note'>Stored only on this device. For sharing, copy the page link from your browser or print this result.</p></div></div><div class='decision-inline-note'>This is a guide based on UK planning rules. Always confirm with your local council.</div></section>";
   }
 
   window.__ukpgSaveToolEmail = function (button) {
@@ -1597,29 +1718,20 @@ color:var(--ink);
       if (!wrapper) {
         return;
       }
-      const input = wrapper.querySelector(".decision-email-input");
       const note = wrapper.querySelector(".decision-email-note");
-      const email = input ? String(input.value || "").trim() : "";
-      if (!email || email.indexOf("@") === -1) {
-        if (note) {
-          note.textContent = "Enter a valid email to save this result on this device.";
-        }
-        return;
-      }
       const payload = {
-        email: email,
         resultLabel: wrapper.getAttribute("data-result-label") || "Planning tool result",
         savedAt: new Date().toISOString()
       };
       window.localStorage.setItem("ukpg-tool-email:" + (wrapper.getAttribute("data-tool-email-capture") || "tool"), JSON.stringify(payload));
       if (note) {
-        note.textContent = "Saved on this device only. A real email send can plug into this later.";
+        note.textContent = "Saved on this device. Bookmark or print the page as well if you want an easy reference outside this browser.";
       }
     } catch (error) {
       const wrapper = button && button.closest("[data-tool-email-capture]");
       const note = wrapper ? wrapper.querySelector(".decision-email-note") : null;
       if (note) {
-        note.textContent = "This browser blocked local storage, so the placeholder save could not be stored.";
+        note.textContent = "This browser blocked local storage, so use a bookmark, copied link or printed page instead.";
       }
     }
   };
@@ -1963,8 +2075,8 @@ color:var(--ink);
 <aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
   <div class="ad-slot-label">Advertisement</div>
   <div class="ad-slot-body">
-    <strong>Relevant planning partner placement</strong>
-    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+    <strong>Useful planning-side resource</strong>
+    <p>Fits a trusted checklist, comparison tool or specialist referral that supports the guidance rather than competing with it.</p>
   </div>
 </aside>
 
@@ -1972,8 +2084,36 @@ color:var(--ink);
 <section class="planning-context">
 <span class="eyebrow">Context and caveats</span>
 <h2>How This Tool Fits Into The Wider Planning Process</h2>
-<p>Extension Value Estimator is intended as a quick planning aid based on common UK planning considerations and permitted development limits.</p>
-<p>Use it to narrow the question, then move into project guides, local authority pages or formal confirmation if the scheme is close to a limit. The route can differ by country, especially once Scotland or Wales are involved.</p>
+<p>Extension Value Estimator is intended as a fast planning triage step based on common UK planning considerations and permitted development limits.</p>
+<p>Use it to narrow the question, then move into project guides, local authority pages or formal confirmation if the scheme is close to a limit. The tool should help you spend money in the right order, not tempt you to stop checking too early.</p>
+</section>
+
+
+<section class="personalised-guidance-cta personalised-guidance-cta-compact" data-guidance-cta="tool-page">
+<span class="eyebrow">Personalised planning guidance</span>
+<h2>Need A More Tailored Steer Than The Tool Result?</h2>
+<p>If extension value estimator has narrowed the question but the answer still depends on your exact site, local authority area or project details, use the email guidance route instead of relying on another broad rule of thumb.</p>
+<div class="hero-ctas guidance-actions">
+<a class="btn" href="mailto:ukplanningguide@gmail.com?subject=Personalised%20planning%20guidance%20enquiry%20-%20Extension%20Value%20Estimator&amp;body=Hello%2C%0A%0AI%20would%20like%20some%20personalised%20planning%20guidance%20on%20this%20project%3A%0AProject%20or%20question%3A%20Extension%20Value%20Estimator%0A%0AProperty%20type%3A%0ACouncil%20/%20local%20authority%20area%3A%0ATown%20or%20location%3A%0AWhat%20I%20want%20to%20build%20or%20change%3A%0AApproximate%20size%20/%20height%20/%20position%3A%0AListed%20building%20/%20conservation%20area%20/%20flat%20/%20maisonette%20details%20if%20relevant%3A%0APrevious%20extensions%20or%20outbuildings%20if%20relevant%3A%0AAnything%20I%20am%20especially%20worried%20about%3A%0A%0AOptional%3A%20anonymous%20themes%20from%20this%20enquiry%20may%20be%20used%20to%20improve%20future%20guides%20and%20FAQs%3A%20Yes%20/%20No" data-guidance-mailto="true">Email your project details</a>
+<a class="btn button-secondary" href="/personalised-planning-guidance/">See how it works</a>
+</div>
+<div class="answer-grid guidance-cta-grid">
+<div class="answer-card">
+<h3>Best for</h3>
+<p>Borderline, location-sensitive or awkwardly specific cases where a broad page is useful, but not quite enough on its own.</p>
+</div>
+<div class="answer-card">
+<h3>What the reply aims to do</h3>
+<p>Best when a broad guide has narrowed the issue but the live answer still depends on the details of your site, design or local authority area.</p>
+</div>
+<div class="answer-card">
+<h3>What to include</h3>
+<p>Property type, council area, location, the change you want to make, approximate dimensions, relevant heritage or flat-related details, previous additions and the main concern.</p>
+</div>
+</div>
+<p class="guidance-disclaimer" data-guidance-disclaimer="true"><strong>Important:</strong> Replies are informational personalised guidance based on the details you provide and publicly available information. They are not formal legal, architectural, surveying or council advice. Site-specific or borderline cases may still need checking with the local authority or a qualified specialist before drawings, applications or contractor spend move ahead.</p>
+<p class="guidance-privacy-note" data-guidance-privacy="true">Your enquiry details are used to respond to your request. Anonymised themes may be used to improve guides, tools, FAQs and site content. Identifiable case details are not published without permission, and sending an enquiry does not sign you up to marketing emails. <a href="/privacy/">Privacy notice</a>.</p>
+<p class="guidance-consent-note">If you want, you can also say that anonymous themes from your enquiry may be used to improve future guides and FAQs. This is optional and does not affect whether you receive a reply.</p>
 </section>
 
 
@@ -2098,7 +2238,7 @@ color:var(--ink);
 <ul class="checklist">
 <li>Reducing uncertainty at the start of the process.</li>
 <li>Helping you pick the right next page quickly.</li>
-<li>Spotting when the answer probably needs escalation.</li>
+<li>Spotting when the answer probably needs escalation before money is committed.</li>
 </ul>
 </div>
 <div class="mini-card">
@@ -2107,11 +2247,16 @@ color:var(--ink);
 <li>Formal confirmation for borderline schemes.</li>
 <li>Local authority checks where special controls apply.</li>
 <li>Country-specific checking where England, Wales or Scotland follow different planning routes.</li>
-<li>Detailed professional advice for complex cases.</li>
+<li>Detailed specialist input for complex cases.</li>
 </ul>
 </div>
 <div class="mini-card">
-<h3>Useful trust pages</h3>
+<h3>When to escalate</h3>
+<ul class="checklist">
+<li>The route only works if the scheme stays inside a tight limit.</li>
+<li>Local controls, listed status or Article 4 may be doing most of the work.</li>
+<li>You need written certainty before drawings, applications or contractor spend.</li>
+</ul>
 <p><a href="/methodology/">Methodology</a></p>
 <p><a href="/planning-faq/">Planning FAQ</a></p>
 </div>
@@ -2121,8 +2266,8 @@ color:var(--ink);
 <aside class="ad-slot" data-ad-slot="bottom" aria-label="Advertisement">
   <div class="ad-slot-label">Advertisement</div>
   <div class="ad-slot-body">
-    <strong>Useful follow-on placement</strong>
-    <p>Best for a subtle post-read advert, referral, or monetized resource once the main content has already done its job.</p>
+    <strong>Practical follow-on resource</strong>
+    <p>Best for a light-touch post-read recommendation once the page has already answered the planning question clearly.</p>
   </div>
 </aside>
 
@@ -2145,6 +2290,8 @@ color:var(--ink);
 <div class="footer-links">
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
+<a href="/personalised-planning-guidance/">Personalised planning guidance</a>
+<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>
@@ -2152,6 +2299,7 @@ color:var(--ink);
 <strong>Trust</strong>
 <a href="/about/">What this site is for</a>
 <a href="/methodology/">How guidance is built</a>
+<a href="/privacy/">Privacy notice</a>
 </div>
 </div>
 <div class="footer-meta">
@@ -2164,23 +2312,20 @@ color:var(--ink);
 <div class="tool-ui-templates" hidden aria-hidden="true"><template id="ukpg-ad-slot-template"><aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
   <div class="ad-slot-label">Advertisement</div>
   <div class="ad-slot-body">
-    <strong>Relevant planning partner placement</strong>
-    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+    <strong>Useful planning-side resource</strong>
+    <p>Fits a trusted checklist, comparison tool or specialist referral that supports the guidance rather than competing with it.</p>
   </div>
 </aside>
 </template><template id="ukpg-result-capture-template"><section class="result-capture" aria-label="Save or share result">
   <div class="result-capture-copy">
-    <strong>Get your result link emailed to you</strong>
-    <p>Save this planning result so you can reopen it later or share it with someone helping on the project.</p>
+    <strong>Keep A Clean Record Of This Page</strong>
+    <p>Use the quick actions below to keep a shareable copy for yourself, a designer, or anyone helping you sense-check the planning route.</p>
   </div>
-  <form class="result-capture-form" action="#" method="post" novalidate>
-    <label for="__RESULT_CAPTURE_ID__">Email address</label>
-    <div class="result-capture-row">
-      <input id="__RESULT_CAPTURE_ID__" name="email" type="email" inputmode="email" autocomplete="email" placeholder="name@example.com">
-      <button type="submit">Email my result</button>
-    </div>
-    <p class="result-capture-note">Demo-ready UI only. Connect this to your email workflow when you are ready.</p>
-  </form>
+  <div class="result-capture-row result-capture-actions">
+    <button type="button" onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.href).then(() => { const note = this.closest('.result-capture').querySelector('.result-capture-note'); if (note) { note.textContent = 'Page link copied. You can paste it into your notes, email or project brief.'; } }); }">Copy page link</button>
+    <button type="button" class="button-secondary" onclick="window.print()">Print this guide</button>
+  </div>
+  <p class="result-capture-note">Bookmark the page if you want to come back later. For borderline schemes, keep the printout with your measurements, site photos and the local checks you still need to verify.</p>
 </section>
 </template></div>
 <script>
@@ -2219,6 +2364,20 @@ color:var(--ink);
       }
     });
   }
+
+  document.querySelectorAll("form[data-static-submit='redirect']").forEach(function (form) {
+    form.addEventListener("submit", function (event) {
+      const successUrl = form.getAttribute("data-success-url") || form.getAttribute("action");
+      if (!successUrl) {
+        return;
+      }
+      event.preventDefault();
+      if (typeof form.reportValidity === "function" && !form.reportValidity()) {
+        return;
+      }
+      window.location.assign(successUrl);
+    });
+  });
 
   function cloneTemplate(id) {
     const template = document.getElementById(id);

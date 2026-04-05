@@ -14,6 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hard Surfacing in Worcestershire: compare councils</title>
 <meta name="description" content="Compare hard surfacing pages across 6 authorities in Worcestershire, then open the strongest local project page or rule page for the site you actually...">
+
 <link rel="canonical" href="https://ukplanningguide.co.uk/hard-surfaces/worcestershire/">
 <link rel="icon" href="/assets/favicon.ico?v=20260327" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260327">
@@ -631,6 +632,124 @@ border-radius:22px;
 box-shadow:var(--shadow-soft);
 }
 
+.personalised-guidance-cta{
+background:
+linear-gradient(135deg,rgba(255,252,246,.98),rgba(223,241,234,.94)),
+radial-gradient(circle at top right,rgba(183,121,31,.10),transparent 34%);
+border:1px solid rgba(31,111,95,.16);
+}
+
+.personalised-guidance-cta::after{
+content:"";
+position:absolute;
+right:-60px;
+top:-70px;
+width:180px;
+height:180px;
+border-radius:999px;
+background:radial-gradient(circle,rgba(183,121,31,.10),transparent 68%);
+pointer-events:none;
+}
+
+.personalised-guidance-cta-compact{
+padding:22px;
+}
+
+.guidance-actions{
+margin-bottom:16px;
+}
+
+.guidance-cta-grid{
+margin-top:0;
+}
+
+.guidance-disclaimer,
+.guidance-privacy-note,
+.guidance-consent-note{
+position:relative;
+z-index:1;
+font-size:14px;
+max-width:74ch;
+}
+
+.guidance-disclaimer{
+margin-top:18px;
+padding:14px 16px;
+background:rgba(255,255,255,.82);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+color:var(--ink);
+}
+
+.guidance-disclaimer-standalone{
+margin-top:18px;
+}
+
+.guidance-privacy-note a{
+font-weight:700;
+}
+
+.guidance-prompt-block .answer-grid{
+align-items:start;
+}
+
+.guidance-prompt{
+min-height:260px;
+resize:vertical;
+background:rgba(255,255,255,.94);
+font-family:"SFMono-Regular","Consolas","Liberation Mono",monospace;
+font-size:13px;
+line-height:1.55;
+}
+
+.find-help-cta{
+padding:24px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
+radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
+border:1px solid rgba(31,111,95,.14);
+box-shadow:var(--shadow-soft);
+}
+
+.find-help-cta-compact{
+padding:22px;
+}
+
+.find-help-rollout-note,
+.field-help{
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.find-help-form{
+display:grid;
+gap:18px;
+}
+
+.form-grid,
+.steps-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+}
+
+.form-field{
+display:grid;
+gap:8px;
+align-content:start;
+}
+
+.form-field-wide{
+grid-column:1 / -1;
+}
+
+.form-note{
+padding:18px 20px;
+background:rgba(247,241,232,.72);
+border:1px solid rgba(31,41,55,.08);
+border-radius:18px;
+}
+
 .tool-cta p,
 .cta-band p,
 .notice p{
@@ -1075,6 +1194,8 @@ width:100%;
 <nav class="main-nav" id="primary-nav" aria-label="Primary">
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
+<a href="/personalised-planning-guidance/">Personalised guidance</a>
+<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1437,7 +1558,7 @@ width:100%;
 <section class="trust" id="county-project-trust">
 <span class="eyebrow">Trust and methodology</span>
 <h2>How To Use This Area Project Guide Responsibly</h2>
-<p>This page is designed to help you compare hard surfacing planning permission guidance across Worcestershire without pretending that one area-level summary can replace a site-specific planning check.</p>
+<p>This page is designed to help you compare hard surfacing planning permission guidance across Worcestershire without pretending that one area-level summary can replace a site-specific planning check. Use it to find the right authority path faster, then verify the live scheme where the local route still looks borderline.</p>
 <div class="info-columns">
 <div class="mini-card">
 <h3>What it is good for</h3>
@@ -1477,6 +1598,8 @@ width:100%;
 <div class="footer-links">
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
+<a href="/personalised-planning-guidance/">Personalised planning guidance</a>
+<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>
@@ -1484,6 +1607,7 @@ width:100%;
 <strong>Trust</strong>
 <a href="/about/">What this site is for</a>
 <a href="/methodology/">How guidance is built</a>
+<a href="/privacy/">Privacy notice</a>
 </div>
 </div>
 <div class="footer-meta">
@@ -1496,23 +1620,20 @@ width:100%;
 <div class="tool-ui-templates" hidden aria-hidden="true"><template id="ukpg-ad-slot-template"><aside class="ad-slot" data-ad-slot="mid" aria-label="Advertisement">
   <div class="ad-slot-label">Advertisement</div>
   <div class="ad-slot-body">
-    <strong>Relevant planning partner placement</strong>
-    <p>Designed for a mid-page sponsor, checklist, or trusted referral that sits alongside the guidance rather than interrupting it.</p>
+    <strong>Useful planning-side resource</strong>
+    <p>Fits a trusted checklist, comparison tool or specialist referral that supports the guidance rather than competing with it.</p>
   </div>
 </aside>
 </template><template id="ukpg-result-capture-template"><section class="result-capture" aria-label="Save or share result">
   <div class="result-capture-copy">
-    <strong>Get your result link emailed to you</strong>
-    <p>Save this planning result so you can reopen it later or share it with someone helping on the project.</p>
+    <strong>Keep A Clean Record Of This Page</strong>
+    <p>Use the quick actions below to keep a shareable copy for yourself, a designer, or anyone helping you sense-check the planning route.</p>
   </div>
-  <form class="result-capture-form" action="#" method="post" novalidate>
-    <label for="__RESULT_CAPTURE_ID__">Email address</label>
-    <div class="result-capture-row">
-      <input id="__RESULT_CAPTURE_ID__" name="email" type="email" inputmode="email" autocomplete="email" placeholder="name@example.com">
-      <button type="submit">Email my result</button>
-    </div>
-    <p class="result-capture-note">Demo-ready UI only. Connect this to your email workflow when you are ready.</p>
-  </form>
+  <div class="result-capture-row result-capture-actions">
+    <button type="button" onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.href).then(() => { const note = this.closest('.result-capture').querySelector('.result-capture-note'); if (note) { note.textContent = 'Page link copied. You can paste it into your notes, email or project brief.'; } }); }">Copy page link</button>
+    <button type="button" class="button-secondary" onclick="window.print()">Print this guide</button>
+  </div>
+  <p class="result-capture-note">Bookmark the page if you want to come back later. For borderline schemes, keep the printout with your measurements, site photos and the local checks you still need to verify.</p>
 </section>
 </template></div>
 <script>
@@ -1551,6 +1672,20 @@ width:100%;
       }
     });
   }
+
+  document.querySelectorAll("form[data-static-submit='redirect']").forEach(function (form) {
+    form.addEventListener("submit", function (event) {
+      const successUrl = form.getAttribute("data-success-url") || form.getAttribute("action");
+      if (!successUrl) {
+        return;
+      }
+      event.preventDefault();
+      if (typeof form.reportValidity === "function" && !form.reportValidity()) {
+        return;
+      }
+      window.location.assign(successUrl);
+    });
+  });
 
   function cloneTemplate(id) {
     const template = document.getElementById(id);
