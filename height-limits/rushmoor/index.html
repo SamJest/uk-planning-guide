@@ -604,6 +604,49 @@ margin-bottom:0;
 margin-bottom:14px;
 }
 
+.official-sources{
+padding:22px;
+background:rgba(255,255,255,.7);
+border:1px solid rgba(31,41,55,.08);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.official-sources-list{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.official-source-link{
+display:flex;
+flex-direction:column;
+gap:6px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+}
+
+.official-source-link strong{
+font-size:15px;
+line-height:1.4;
+}
+
+.official-source-link span{
+font-size:13px;
+color:var(--ink-faint);
+line-height:1.5;
+}
+
+.official-source-link:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+transform:translateY(-1px);
+}
+
 .link-grid a:hover,
 .related-links a:hover,
 .scenario-navigation a:hover{
@@ -702,28 +745,9 @@ font-size:13px;
 line-height:1.55;
 }
 
-.find-help-cta{
-padding:24px;
-background:
-linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
-radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
-border:1px solid rgba(31,111,95,.14);
-box-shadow:var(--shadow-soft);
-}
-
-.find-help-cta-compact{
-padding:22px;
-}
-
-.find-help-rollout-note,
 .field-help{
 font-size:14px;
 color:var(--ink-faint);
-}
-
-.find-help-form{
-display:grid;
-gap:18px;
 }
 
 .form-grid,
@@ -1195,7 +1219,6 @@ width:100%;
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1604,6 +1627,41 @@ the surrounding area.
 </section>
 
 
+<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="scenario" data-official-sources-authority="rushmoor" data-official-sources-count="5">
+<span class="eyebrow">Official sources</span>
+<h2>Official Sources Worth Checking</h2>
+<p class="section-lead">Use these official links to verify the local rule position without turning this page into a directory.</p>
+<div class="official-sources-list">
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent">
+<strong>Planning Portal: householder planning consent</strong>
+<span>Householder guidance | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/">
+<strong>Planning Portal: permitted development rights</strong>
+<span>Permitted development | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/common-projects">
+<strong>Planning Portal: common projects</strong>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission">
+<strong>Planning Portal: do you need planning permission?</strong>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.gov.uk/guidance/before-submitting-an-application">
+<strong>GOV.UK: before submitting an application</strong>
+<span>Pre-application advice | Last reviewed 5 April 2026</span>
+</a>
+
+</div>
+</section>
+
+
 <section class="link-cluster">
 <span class="eyebrow">No dead ends</span>
 <h2>Useful Next Steps From This Rule Page</h2>
@@ -1720,7 +1778,6 @@ the surrounding area.
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised planning guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>

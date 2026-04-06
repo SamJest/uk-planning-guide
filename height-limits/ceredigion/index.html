@@ -604,6 +604,49 @@ margin-bottom:0;
 margin-bottom:14px;
 }
 
+.official-sources{
+padding:22px;
+background:rgba(255,255,255,.7);
+border:1px solid rgba(31,41,55,.08);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.official-sources-list{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.official-source-link{
+display:flex;
+flex-direction:column;
+gap:6px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+}
+
+.official-source-link strong{
+font-size:15px;
+line-height:1.4;
+}
+
+.official-source-link span{
+font-size:13px;
+color:var(--ink-faint);
+line-height:1.5;
+}
+
+.official-source-link:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+transform:translateY(-1px);
+}
+
 .link-grid a:hover,
 .related-links a:hover,
 .scenario-navigation a:hover{
@@ -702,28 +745,9 @@ font-size:13px;
 line-height:1.55;
 }
 
-.find-help-cta{
-padding:24px;
-background:
-linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
-radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
-border:1px solid rgba(31,111,95,.14);
-box-shadow:var(--shadow-soft);
-}
-
-.find-help-cta-compact{
-padding:22px;
-}
-
-.find-help-rollout-note,
 .field-help{
 font-size:14px;
 color:var(--ink-faint);
-}
-
-.find-help-form{
-display:grid;
-gap:18px;
 }
 
 .form-grid,
@@ -1195,7 +1219,6 @@ width:100%;
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1212,7 +1235,7 @@ width:100%;
 <h1>Height Limits In Ceredigion</h1>
 <p>Outbuilding-style projects usually stay simpler when the structure still reads as clearly secondary to the main house. Use this page when height is the rule most likely to change the answer in Ceredigion, not the project type on its own.</p>
 <div class="tool-result">
-<strong>Quick answer:</strong> Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.
+<strong>Quick answer:</strong> Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.
 </div>
 </section>
 
@@ -1263,7 +1286,7 @@ width:100%;
 </div>
 <div class="answer-card">
 <h3>What usually moves the answer</h3>
-<p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 </div>
 <div class="answer-card">
 <h3>What to keep in view</h3>
@@ -1279,11 +1302,11 @@ width:100%;
 <div class="answer-grid">
 <div class="answer-card">
 <h3>Main local rule signal</h3>
-<p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 </div>
 <div class="answer-card">
 <h3>Restrictions worth checking</h3>
-<ul class='checklist'><li><strong>Conservation areas:</strong> Outbuildings in Welsh conservation areas can face tighter control where they are visible or alter setting and character.</li><li><strong>Listed buildings:</strong> Listed buildings and their setting in Wales usually require a more careful heritage review for new outbuildings.</li><li><strong>Article 4 directions:</strong> Article 4 directions in Wales can remove the simpler outbuilding route in selected locations.</li></ul>
+<ul class='checklist'><li><strong>Conservation areas:</strong> In Wales, conservation area controls and any Article 4 direction can remove normal householder permitted development rights for visible external work. Check the planning register before relying on national allowances.</li><li><strong>Listed buildings:</strong> Listed building consent may be needed for internal or external works that affect the character of a listed building or its curtilage structures. Minor-looking changes can still need consent in Wales.</li><li><strong>Article 4 directions:</strong> Article 4 directions in Wales can remove the simpler outbuilding route in selected locations.</li></ul>
 </div>
 <div class="answer-card">
 <h3>Why it matters</h3>
@@ -1321,7 +1344,7 @@ width:100%;
 <a class="card" href="/garden-rooms/wales/ceredigion/">
 <div class="card-kicker">Local project guide</div>
 <h3>Garden Room in Ceredigion</h3>
-<p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 <span class="cta">Open project guide</span>
 </a>
 
@@ -1352,14 +1375,14 @@ width:100%;
 <section class="local-restrictions">
 <span class="eyebrow">Local restriction snapshot</span>
 <h2>Extra Local Checks For Ceredigion</h2>
-<ul class="checklist"><li><strong>Conservation areas:</strong> Outbuildings in Welsh conservation areas can face tighter control where they are visible or alter setting and character.</li><li><strong>Listed buildings:</strong> Listed buildings and their setting in Wales usually require a more careful heritage review for new outbuildings.</li><li><strong>Article 4 directions:</strong> Article 4 directions in Wales can remove the simpler outbuilding route in selected locations.</li></ul>
+<ul class="checklist"><li><strong>Conservation areas:</strong> In Wales, conservation area controls and any Article 4 direction can remove normal householder permitted development rights for visible external work. Check the planning register before relying on national allowances.</li><li><strong>Listed buildings:</strong> Listed building consent may be needed for internal or external works that affect the character of a listed building or its curtilage structures. Minor-looking changes can still need consent in Wales.</li><li><strong>Article 4 directions:</strong> Article 4 directions in Wales can remove the simpler outbuilding route in selected locations.</li></ul>
 </section>
 
 
 <section class="rule-interpretation">
 <span class="eyebrow">Interpretation</span>
 <h2>How to read this rule for garden room planning permission in Ceredigion</h2>
-<p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 <p>For height limits questions in Ceredigion, this rule often decides whether the route stays simple or needs a closer check.</p>
 <p>Small changes in dimensions, siting or roof form can be enough to change the planning route.</p>
 <p>In Ceredigion, this rule is most useful when it pushes you toward a clearer next step rather than a guess.</p>
@@ -1371,7 +1394,7 @@ width:100%;
 
 <h2>Height Rules</h2>
 
-<p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 
 
 <p>
@@ -1396,7 +1419,7 @@ or overshadowing nearby properties.
 
 <h2>Boundary Rules</h2>
 
-<p>Boundary siting and neighbour impact are often the reasons a Welsh garden room needs a closer look.</p>
+<p>The usual 50% curtilage rule applies and extra restrictions apply in protected areas, especially for side-garden positions and buildings more than 20m from the house.</p>
 
 
 <p>
@@ -1433,7 +1456,7 @@ permitted development rights.
 
 <h2>Materials</h2>
 
-<p>Materials should support a domestic incidental use and a sympathetic appearance beside the house.</p>
+<p>Keep the room clearly ancillary to the house. It should not be laid out or used as a self-contained annexe, and the external finish should suit the dwelling and its setting.</p>
 
 
 <p>
@@ -1451,7 +1474,7 @@ the surrounding area.
 
 <h2>Local Planning Restrictions</h2>
 
-<p>Outbuildings in Welsh conservation areas can face tighter control where they are visible or alter setting and character.</p><p>Listed buildings and their setting in Wales usually require a more careful heritage review for new outbuildings.</p>
+<p>In Wales, conservation area controls and any Article 4 direction can remove normal householder permitted development rights for visible external work. Check the planning register before relying on national allowances.</p><p>Listed building consent may be needed for internal or external works that affect the character of a listed building or its curtilage structures. Minor-looking changes can still need consent in Wales.</p>
 
 </div>
 
@@ -1460,7 +1483,7 @@ the surrounding area.
 <span class="eyebrow">Self-check</span>
 <h2>What To Check Before You Rely On This Rule</h2>
 <ul class="checklist">
-<li>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</li>
+<li>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</li>
 <li>Review local controls such as conservation areas, listed buildings before relying on the general rule.</li>
 <li>If the design is close to a limit, prepare measured drawings and consider written confirmation before work starts in Ceredigion.</li>
 </ul>
@@ -1498,28 +1521,28 @@ the surrounding area.
 <a class="card" href="/garden-rooms/wales/ceredigion/">
 <div class="card-kicker">Local project guide</div>
 <h3>Garden Room in Ceredigion</h3>
-<p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/house-extensions/wales/ceredigion/">
 <div class="card-kicker">Local project guide</div>
 <h3>House Extension in Ceredigion</h3>
-<p>Height, eaves and roof form remain core Welsh extension checks, especially near boundaries.</p>
+<p>Single-storey rear and side extensions should not exceed 4m in height. Eaves should not be higher than the eaves of the existing part of the house they project from, and no extension should exceed the existing roof height.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/loft-conversions/wales/ceredigion/">
 <div class="card-kicker">Local project guide</div>
 <h3>Loft Conversion in Ceredigion</h3>
-<p>Overall roof height and the scale of any added volume are central Welsh loft checks.</p>
+<p>No part of the roof enlargement should exceed the highest part of the existing roof.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/outbuildings/wales/ceredigion/">
 <div class="card-kicker">Local project guide</div>
 <h3>Outbuildings in Ceredigion</h3>
-<p>Outbuilding height and eaves relationship are often the first Welsh checks before a domestic building still looks comfortably incidental.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 <span class="cta">Open project guide</span>
 </a>
 </div>
@@ -1576,7 +1599,7 @@ the surrounding area.
 <section class='decision-patterns'>
 <span class="eyebrow">Common tripwires</span>
 <h2>What Usually Makes These Projects Easier Or Harder</h2>
-<p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 <ul class="checklist"><li>Straightforward schemes tend to progress better when the drawings clearly prove compliance with the height limits rule.</li><li>Borderline proposals in Ceredigion often need revision when the first design assumes too much flexibility.</li><li>Where the planning route is uncertain, written confirmation is usually cheaper than redesigning later.</li><li>Outbuilding-style projects usually stay simpler when the structure still reads as clearly secondary to the main house.</li><li>In a smaller authority area, visible design changes and neighbour relationships often stand out faster because the local context is easier to read street by street.</li></ul>
 </section>
 
@@ -1600,8 +1623,8 @@ the surrounding area.
 <section class='faq'>
 <span class="eyebrow">Frequently asked questions</span>
 <h2>Questions People Usually Ask At This Point</h2>
-<div class='faq-item'><h3>How does height limits affect projects in Ceredigion?</h3><p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p></div><div class='faq-item'><h3>Can the answer change because of local restrictions?</h3><p>Yes. Local designations can change the planning route or remove permitted development rights.</p></div><div class='faq-item'><h3>What is the safest next step if the proposal is close to the limit?</h3><p>Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts.</p></div><div class='faq-item'><h3>Where should I click next if height limits is the live issue?</h3><p>Open the matching project guide in Ceredigion, then compare the council page and the planning tools if the route still feels borderline.</p></div>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does height limits affect projects in Ceredigion?", "acceptedAnswer": {"@type": "Answer", "text": "Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building."}}, {"@type": "Question", "name": "Can the answer change because of local restrictions?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Local designations can change the planning route or remove permitted development rights."}}, {"@type": "Question", "name": "What is the safest next step if the proposal is close to the limit?", "acceptedAnswer": {"@type": "Answer", "text": "Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts."}}, {"@type": "Question", "name": "Where should I click next if height limits is the live issue?", "acceptedAnswer": {"@type": "Answer", "text": "Open the matching project guide in Ceredigion, then compare the council page and the planning tools if the route still feels borderline."}}]}</script>
+<div class='faq-item'><h3>How does height limits affect projects in Ceredigion?</h3><p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p></div><div class='faq-item'><h3>Can the answer change because of local restrictions?</h3><p>Yes. Local designations can change the planning route or remove permitted development rights.</p></div><div class='faq-item'><h3>What is the safest next step if the proposal is close to the limit?</h3><p>Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts.</p></div><div class='faq-item'><h3>Where should I click next if height limits is the live issue?</h3><p>Open the matching project guide in Ceredigion, then compare the council page and the planning tools if the route still feels borderline.</p></div>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does height limits affect projects in Ceredigion?", "acceptedAnswer": {"@type": "Answer", "text": "Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m."}}, {"@type": "Question", "name": "Can the answer change because of local restrictions?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Local designations can change the planning route or remove permitted development rights."}}, {"@type": "Question", "name": "What is the safest next step if the proposal is close to the limit?", "acceptedAnswer": {"@type": "Answer", "text": "Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts."}}, {"@type": "Question", "name": "Where should I click next if height limits is the live issue?", "acceptedAnswer": {"@type": "Answer", "text": "Open the matching project guide in Ceredigion, then compare the council page and the planning tools if the route still feels borderline."}}]}</script>
 </section>
 
 
@@ -1609,6 +1632,41 @@ the surrounding area.
 <span class="eyebrow">Related local rule pages</span>
 <h2>Switch To The Rule That Looks More Relevant</h2>
 <div class='scenario-navigation'><a class="scenario-nav " href="/planning-permission/ceredigion/">Planning Permission</a><a class="scenario-nav " href="/permitted-development/ceredigion/">Permitted Development Rights</a><a class="scenario-nav active" href="/height-limits/ceredigion/">Height Limits</a><a class="scenario-nav " href="/boundary-rules/ceredigion/">Boundary Distance Rules</a><a class="scenario-nav " href="/conservation-areas/ceredigion/">Conservation Area Restrictions</a></div>
+</section>
+
+
+<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="scenario" data-official-sources-authority="ceredigion" data-official-sources-count="5">
+<span class="eyebrow">Official sources</span>
+<h2>Official Sources Worth Checking</h2>
+<p class="section-lead">Use these official links to verify the local rule position without turning this page into a directory.</p>
+<div class="official-sources-list">
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/wales/applications/consent-types/householder-planning-consent">
+<strong>Planning Portal Wales: householder planning consent</strong>
+<span>Householder guidance | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/wales/do-you-need-permission/your-responsibilities/planning-permission/permitted-development-rights/">
+<strong>Planning Portal Wales: permitted development rights</strong>
+<span>Permitted development | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/wales/applications">
+<strong>Planning Portal Wales - Planning applications</strong>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/wales/do-you-need-permission">
+<strong>Planning Portal Wales: do you need permission?</strong>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.ceredigion.gov.uk/resident/planning-building-control-and-sustainable-drainage-body-sab/planning-building-control/application-forms/pre-application-guidance-notes/">
+<strong>Pre-Application Guidance Notes</strong>
+<span>Pre-application advice | Last reviewed 5 April 2026</span>
+</a>
+
+</div>
 </section>
 
 
@@ -1728,7 +1786,6 @@ the surrounding area.
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised planning guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>

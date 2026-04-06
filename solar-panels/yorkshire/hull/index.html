@@ -604,6 +604,49 @@ margin-bottom:0;
 margin-bottom:14px;
 }
 
+.official-sources{
+padding:22px;
+background:rgba(255,255,255,.7);
+border:1px solid rgba(31,41,55,.08);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.official-sources-list{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.official-source-link{
+display:flex;
+flex-direction:column;
+gap:6px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+}
+
+.official-source-link strong{
+font-size:15px;
+line-height:1.4;
+}
+
+.official-source-link span{
+font-size:13px;
+color:var(--ink-faint);
+line-height:1.5;
+}
+
+.official-source-link:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+transform:translateY(-1px);
+}
+
 .link-grid a:hover,
 .related-links a:hover,
 .scenario-navigation a:hover{
@@ -702,28 +745,9 @@ font-size:13px;
 line-height:1.55;
 }
 
-.find-help-cta{
-padding:24px;
-background:
-linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
-radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
-border:1px solid rgba(31,111,95,.14);
-box-shadow:var(--shadow-soft);
-}
-
-.find-help-cta-compact{
-padding:22px;
-}
-
-.find-help-rollout-note,
 .field-help{
 font-size:14px;
 color:var(--ink-faint);
-}
-
-.find-help-form{
-display:grid;
-gap:18px;
 }
 
 .form-grid,
@@ -1195,7 +1219,6 @@ width:100%;
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1210,7 +1233,7 @@ width:100%;
 <section class='hero'>
 <span class='badge'>Local Project Guide</span>
 <h1>Solar Panel Planning In Hull</h1>
-<p>Use this page when the broad project route is clear but the live answer now depends on the local authority layer, the measured design and the next verification step.</p>
+<p>In Hull, solar panels are usually easiest to keep off the formal planning permission route when they sit close to the roof or wall, stay visually secondary to the building and avoid awkward heritage or frontage impacts. A roof-mounted array can still raise planning issues if the visible roofline, ancillary kit or nearby heritage setting makes the installation feel more assertive than expected.</p>
 <p>In Hull, conservation areas, listed buildings can change the route more quickly than people expect.</p>
 </section>
 
@@ -1444,7 +1467,7 @@ width:100%;
 <a class="card" href="/planning-faq/do-i-need-planning-permission/">
 <div class="card-kicker">FAQ</div>
 <h3>Read the route-level answer</h3>
-<p>Use the FAQ if the question is still broader than solar panels itself.</p>
+<p>Read the broader route answer if the planning question is still bigger than solar panels itself.</p>
 <span class="cta">Read answer</span>
 </a>
 </div>
@@ -1461,30 +1484,36 @@ width:100%;
 
 
 <section class="faq-section" id="faq">
-<span class="eyebrow">Frequently asked questions</span>
-<h2>Common Local Questions About This Project</h2>
+<span class="eyebrow">Project-specific FAQ</span>
+<h2>Questions People Usually Ask Before They Commit</h2>
+<p class='section-lead'>Keep this block for the project-specific objections and follow-up checks that usually matter once the broad route is understood for solar panel in Hull.</p>
 
 <div class="faq-item">
-<h3>Do I need planning permission for Solar Panel in Hull?</h3>
+<h3>Do I usually need planning permission for Solar Panel in Hull?</h3>
 <p>In Hull, solar panels are usually easiest to keep off the formal planning permission route when they sit close to the roof or wall, stay visually secondary to the building and avoid awkward heritage or frontage impacts. A roof-mounted array can still raise planning issues if the visible roofline, ancillary kit or nearby heritage setting makes the installation feel more assertive than expected.</p>
 </div>
 
 <div class="faq-item">
-<h3>What should I measure first?</h3>
-<p>Start with the part of the design most likely to hit a hard limit, usually height, depth, roof form or how close the proposal sits to the boundary.</p>
+<h3>What most often pushes solar panel out of the simpler route?</h3>
+<p>In Hull, the planning route usually gets harder where solar panels rely on raised frames, extra height, freestanding arrays or associated equipment that makes the installation feel noticeably bulkier. Boundary-facing arrays, side elevations and garden equipment often deserve the earliest visual and neighbour check in Hull.</p>
 </div>
 
 <div class="faq-item">
-<h3>What local issues are most likely to change the answer?</h3>
-<p>Yes. Local designations or policy can still change the planning route even where the broad national rule looks familiar.</p>
+<h3>Do conservation areas, listed buildings or Article 4 change the answer here?</h3>
+<p>Yes. In Hull, local designations such as conservation areas, listed buildings can change the normal answer even where the national baseline looks familiar.</p>
 </div>
 
 <div class="faq-item">
-<h3>What is the safest next step if I am still unsure?</h3>
+<h3>When is it worth checking formally before paying for drawings?</h3>
 <p>If the project is close to a planning threshold, get measured drawings together and consider written confirmation or a lawful development certificate before work starts.</p>
 </div>
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need planning permission for Solar Panel in Hull?", "acceptedAnswer": {"@type": "Answer", "text": "In Hull, solar panels are usually easiest to keep off the formal planning permission route when they sit close to the roof or wall, stay visually secondary to the building and avoid awkward heritage or frontage impacts. A roof-mounted array can still raise planning issues if the visible roofline, ancillary kit or nearby heritage setting makes the installation feel more assertive than expected."}}, {"@type": "Question", "name": "What should I measure first?", "acceptedAnswer": {"@type": "Answer", "text": "Start with the part of the design most likely to hit a hard limit, usually height, depth, roof form or how close the proposal sits to the boundary."}}, {"@type": "Question", "name": "What local issues are most likely to change the answer?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Local designations or policy can still change the planning route even where the broad national rule looks familiar."}}, {"@type": "Question", "name": "What is the safest next step if I am still unsure?", "acceptedAnswer": {"@type": "Answer", "text": "If the project is close to a planning threshold, get measured drawings together and consider written confirmation or a lawful development certificate before work starts."}}]}</script>
+<div class="faq-item">
+<h3>What should I open next if I still have doubts?</h3>
+<p>Open the local council page if restrictions may change the answer, or the planning decision tool if the overall route still feels unclear.</p>
+</div>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I usually need planning permission for Solar Panel in Hull?", "acceptedAnswer": {"@type": "Answer", "text": "In Hull, solar panels are usually easiest to keep off the formal planning permission route when they sit close to the roof or wall, stay visually secondary to the building and avoid awkward heritage or frontage impacts. A roof-mounted array can still raise planning issues if the visible roofline, ancillary kit or nearby heritage setting makes the installation feel more assertive than expected."}}, {"@type": "Question", "name": "What most often pushes solar panel out of the simpler route?", "acceptedAnswer": {"@type": "Answer", "text": "In Hull, the planning route usually gets harder where solar panels rely on raised frames, extra height, freestanding arrays or associated equipment that makes the installation feel noticeably bulkier. Boundary-facing arrays, side elevations and garden equipment often deserve the earliest visual and neighbour check in Hull."}}, {"@type": "Question", "name": "Do conservation areas, listed buildings or Article 4 change the answer here?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. In Hull, local designations such as conservation areas, listed buildings can change the normal answer even where the national baseline looks familiar."}}, {"@type": "Question", "name": "When is it worth checking formally before paying for drawings?", "acceptedAnswer": {"@type": "Answer", "text": "If the project is close to a planning threshold, get measured drawings together and consider written confirmation or a lawful development certificate before work starts."}}, {"@type": "Question", "name": "What should I open next if I still have doubts?", "acceptedAnswer": {"@type": "Answer", "text": "Open the local council page if restrictions may change the answer, or the planning decision tool if the overall route still feels unclear."}}]}</script>
 </section>
 
 
@@ -1522,6 +1551,41 @@ width:100%;
 <p>See the refusal risks most likely to cause trouble before you submit an application.</p>
 <span class="cta">Open analyzer</span>
 </a>
+</div>
+</section>
+
+
+<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="hull" data-official-sources-count="5">
+<span class="eyebrow">Official sources</span>
+<h2>Official Sources Worth Checking</h2>
+<p class="section-lead">Use these official links to verify the local position once the answer above is narrowed.</p>
+<div class="official-sources-list">
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/">
+<strong>Planning Portal: permitted development rights</strong>
+<span>Permitted development | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission">
+<strong>Planning Portal - Do you need permission?</strong>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission">
+<strong>Planning Portal: do you need planning permission?</strong>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.hull.gov.uk/planning-applications/planning-pre-application-advice">
+<strong>Planning pre-application advice</strong>
+<span>Pre-application advice | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.gov.uk/guidance/before-submitting-an-application">
+<strong>GOV.UK: before submitting an application</strong>
+<span>Pre-application advice | Last reviewed 5 April 2026</span>
+</a>
+
 </div>
 </section>
 
@@ -1667,7 +1731,6 @@ width:100%;
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised planning guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>

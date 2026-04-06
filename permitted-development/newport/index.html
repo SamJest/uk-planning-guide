@@ -604,6 +604,49 @@ margin-bottom:0;
 margin-bottom:14px;
 }
 
+.official-sources{
+padding:22px;
+background:rgba(255,255,255,.7);
+border:1px solid rgba(31,41,55,.08);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.official-sources-list{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.official-source-link{
+display:flex;
+flex-direction:column;
+gap:6px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+}
+
+.official-source-link strong{
+font-size:15px;
+line-height:1.4;
+}
+
+.official-source-link span{
+font-size:13px;
+color:var(--ink-faint);
+line-height:1.5;
+}
+
+.official-source-link:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+transform:translateY(-1px);
+}
+
 .link-grid a:hover,
 .related-links a:hover,
 .scenario-navigation a:hover{
@@ -702,28 +745,9 @@ font-size:13px;
 line-height:1.55;
 }
 
-.find-help-cta{
-padding:24px;
-background:
-linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
-radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
-border:1px solid rgba(31,111,95,.14);
-box-shadow:var(--shadow-soft);
-}
-
-.find-help-cta-compact{
-padding:22px;
-}
-
-.find-help-rollout-note,
 .field-help{
 font-size:14px;
 color:var(--ink-faint);
-}
-
-.find-help-form{
-display:grid;
-gap:18px;
 }
 
 .form-grid,
@@ -1195,7 +1219,6 @@ width:100%;
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1212,7 +1235,7 @@ width:100%;
 <h1>Permitted Development In Newport</h1>
 <p>Outbuilding-style projects usually stay simpler when the structure still reads as clearly secondary to the main house. It pulls the local rule signal into one place so you can move from a vague concern to a practical next step more quickly.</p>
 <div class="tool-result">
-<strong>Quick answer:</strong> Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.
+<strong>Quick answer:</strong> A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation.
 </div>
 </section>
 
@@ -1263,7 +1286,7 @@ width:100%;
 </div>
 <div class="answer-card">
 <h3>What usually moves the answer</h3>
-<p>Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.</p>
+<p>A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation.</p>
 </div>
 <div class="answer-card">
 <h3>What to keep in view</h3>
@@ -1279,11 +1302,11 @@ width:100%;
 <div class="answer-grid">
 <div class="answer-card">
 <h3>Main local rule signal</h3>
-<p>Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.</p>
+<p>A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation.</p>
 </div>
 <div class="answer-card">
 <h3>Restrictions worth checking</h3>
-<ul class='checklist'><li><strong>Conservation areas:</strong> Outbuildings in Welsh conservation areas can face tighter control where they are visible or alter setting and character.</li><li><strong>Listed buildings:</strong> Listed buildings and their setting in Wales usually require a more careful heritage review for new outbuildings.</li><li><strong>Article 4 directions:</strong> Article 4 directions in Wales can remove the simpler outbuilding route in selected locations.</li></ul>
+<ul class='checklist'><li><strong>Conservation areas:</strong> In Wales, conservation area controls and any Article 4 direction can remove normal householder permitted development rights for visible external work. Check the planning register before relying on national allowances.</li><li><strong>Listed buildings:</strong> Listed building consent may be needed for internal or external works that affect the character of a listed building or its curtilage structures. Minor-looking changes can still need consent in Wales.</li><li><strong>Article 4 directions:</strong> Article 4 directions in Wales can remove the simpler outbuilding route in selected locations.</li></ul>
 </div>
 <div class="answer-card">
 <h3>Why it matters</h3>
@@ -1321,7 +1344,7 @@ width:100%;
 <a class="card" href="/garden-rooms/wales/newport/">
 <div class="card-kicker">Local project guide</div>
 <h3>Garden Room in Newport</h3>
-<p>Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.</p>
+<p>A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation.</p>
 <span class="cta">Open project guide</span>
 </a>
 
@@ -1352,14 +1375,14 @@ width:100%;
 <section class="local-restrictions">
 <span class="eyebrow">Local restriction snapshot</span>
 <h2>Extra Local Checks For Newport</h2>
-<ul class="checklist"><li><strong>Conservation areas:</strong> Outbuildings in Welsh conservation areas can face tighter control where they are visible or alter setting and character.</li><li><strong>Listed buildings:</strong> Listed buildings and their setting in Wales usually require a more careful heritage review for new outbuildings.</li><li><strong>Article 4 directions:</strong> Article 4 directions in Wales can remove the simpler outbuilding route in selected locations.</li></ul>
+<ul class="checklist"><li><strong>Conservation areas:</strong> In Wales, conservation area controls and any Article 4 direction can remove normal householder permitted development rights for visible external work. Check the planning register before relying on national allowances.</li><li><strong>Listed buildings:</strong> Listed building consent may be needed for internal or external works that affect the character of a listed building or its curtilage structures. Minor-looking changes can still need consent in Wales.</li><li><strong>Article 4 directions:</strong> Article 4 directions in Wales can remove the simpler outbuilding route in selected locations.</li></ul>
 </section>
 
 
 <section class="rule-interpretation">
 <span class="eyebrow">Interpretation</span>
 <h2>What this rule usually means for garden room planning permission in Newport</h2>
-<p>Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.</p>
+<p>A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation.</p>
 <p>If you're planning work in Newport, this rule is often the point where a rough assumption stops being reliable.</p>
 <p>Local context and precise drawings matter more here than broad rules of thumb.</p>
 <p>In Newport, this rule is most useful when it pushes you toward a clearer next step rather than a guess.</p>
@@ -1371,7 +1394,7 @@ width:100%;
 
 <h2>Height Rules</h2>
 
-<p>Garden room height and eaves height are usually the first Welsh planning checks for a domestic garden building.</p>
+<p>Maximum height is 4m for a dual-pitched roof, 3m for any other roof and 2.5m for a flat roof. Eaves should not exceed 2.5m, and any part within 2m of a boundary should not exceed 2.5m.</p>
 
 
 <p>
@@ -1414,7 +1437,7 @@ create excessive loss of light or privacy for neighbouring homes.
 
 <h2>Boundary Rules</h2>
 
-<p>Boundary siting and neighbour impact are often the reasons a Welsh garden room needs a closer look.</p>
+<p>The usual 50% curtilage rule applies and extra restrictions apply in protected areas, especially for side-garden positions and buildings more than 20m from the house.</p>
 
 
 <p>
@@ -1451,7 +1474,7 @@ permitted development rights.
 
 <h2>Materials</h2>
 
-<p>Materials should support a domestic incidental use and a sympathetic appearance beside the house.</p>
+<p>Keep the room clearly ancillary to the house. It should not be laid out or used as a self-contained annexe, and the external finish should suit the dwelling and its setting.</p>
 
 
 <p>
@@ -1469,7 +1492,7 @@ the surrounding area.
 
 <h2>Local Planning Restrictions</h2>
 
-<p>Outbuildings in Welsh conservation areas can face tighter control where they are visible or alter setting and character.</p><p>Listed buildings and their setting in Wales usually require a more careful heritage review for new outbuildings.</p>
+<p>In Wales, conservation area controls and any Article 4 direction can remove normal householder permitted development rights for visible external work. Check the planning register before relying on national allowances.</p><p>Listed building consent may be needed for internal or external works that affect the character of a listed building or its curtilage structures. Minor-looking changes can still need consent in Wales.</p>
 
 </div>
 
@@ -1478,7 +1501,7 @@ the surrounding area.
 <span class="eyebrow">Self-check</span>
 <h2>What To Check Before You Rely On This Rule</h2>
 <ul class="checklist">
-<li>Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.</li>
+<li>A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation.</li>
 <li>Review local controls such as conservation areas, listed buildings before relying on the general rule.</li>
 <li>If the design is close to a limit, prepare measured drawings and consider written confirmation before work starts in Newport.</li>
 </ul>
@@ -1516,28 +1539,28 @@ the surrounding area.
 <a class="card" href="/garden-rooms/wales/newport/">
 <div class="card-kicker">Local project guide</div>
 <h3>Garden Room in Newport</h3>
-<p>Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.</p>
+<p>A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/house-extensions/wales/newport/">
 <div class="card-kicker">Local project guide</div>
 <h3>House Extension in Newport</h3>
-<p>House extensions in Wales can sometimes stay within permitted development, but the Welsh route should be checked carefully for depth, height, road-facing siting and any local restriction before you rely on a simple householder answer.</p>
+<p>House extensions can be permitted development in Wales where they stay within Class A limits on projection, height, eaves, width and highway relationships. Front extensions and prominent side work are much more restricted.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/loft-conversions/wales/newport/">
 <div class="card-kicker">Local project guide</div>
 <h3>Loft Conversion in Newport</h3>
-<p>Loft work in Wales can stay within permitted development in some cases, but roof visibility, dormers and rooflights should be checked against the Welsh rules rather than an England-only answer.</p>
+<p>A loft conversion can be permitted development in Wales where the roof enlargement stays below the existing ridge, avoids the principal roof slope, remains within the roof-space volume limits and does not create a roof terrace or projecting balcony.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/outbuildings/wales/newport/">
 <div class="card-kicker">Local project guide</div>
 <h3>Outbuildings in Newport</h3>
-<p>Outbuildings in Wales can remain within permitted development where they stay clearly incidental to the house, but height, use, boundary position and visual impact still decide whether the route remains straightforward.</p>
+<p>Detached outbuildings such as sheds, workshops and garages can usually be permitted development in Wales where they remain incidental to the house and comply with the national curtilage, siting and height limits.</p>
 <span class="cta">Open project guide</span>
 </a>
 </div>
@@ -1618,8 +1641,8 @@ the surrounding area.
 <section class='faq'>
 <span class="eyebrow">Frequently asked questions</span>
 <h2>Questions People Usually Ask At This Point</h2>
-<div class='faq-item'><h3>How does permitted development rights affect projects in Newport?</h3><p>Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.</p></div><div class='faq-item'><h3>Can the answer change because of local restrictions?</h3><p>Yes. Local designations can change the planning route or remove permitted development rights.</p></div><div class='faq-item'><h3>What is the safest next step if the proposal is close to the limit?</h3><p>Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts.</p></div><div class='faq-item'><h3>Where should I click next if permitted development rights is the live issue?</h3><p>Open the matching project guide in Newport, then compare the council page and the planning tools if the route still feels borderline.</p></div>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does permitted development rights affect projects in Newport?", "acceptedAnswer": {"@type": "Answer", "text": "Garden rooms in Wales can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route."}}, {"@type": "Question", "name": "Can the answer change because of local restrictions?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Local designations can change the planning route or remove permitted development rights."}}, {"@type": "Question", "name": "What is the safest next step if the proposal is close to the limit?", "acceptedAnswer": {"@type": "Answer", "text": "Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts."}}, {"@type": "Question", "name": "Where should I click next if permitted development rights is the live issue?", "acceptedAnswer": {"@type": "Answer", "text": "Open the matching project guide in Newport, then compare the council page and the planning tools if the route still feels borderline."}}]}</script>
+<div class='faq-item'><h3>How does permitted development rights affect projects in Newport?</h3><p>A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation.</p></div><div class='faq-item'><h3>Can the answer change because of local restrictions?</h3><p>Yes. Local designations can change the planning route or remove permitted development rights.</p></div><div class='faq-item'><h3>What is the safest next step if the proposal is close to the limit?</h3><p>Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts.</p></div><div class='faq-item'><h3>Where should I click next if permitted development rights is the live issue?</h3><p>Open the matching project guide in Newport, then compare the council page and the planning tools if the route still feels borderline.</p></div>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does permitted development rights affect projects in Newport?", "acceptedAnswer": {"@type": "Answer", "text": "A garden room can be permitted development in Wales where it remains an incidental garden building, stays within the national outbuilding limits and is not used as separate accommodation."}}, {"@type": "Question", "name": "Can the answer change because of local restrictions?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Local designations can change the planning route or remove permitted development rights."}}, {"@type": "Question", "name": "What is the safest next step if the proposal is close to the limit?", "acceptedAnswer": {"@type": "Answer", "text": "Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts."}}, {"@type": "Question", "name": "Where should I click next if permitted development rights is the live issue?", "acceptedAnswer": {"@type": "Answer", "text": "Open the matching project guide in Newport, then compare the council page and the planning tools if the route still feels borderline."}}]}</script>
 </section>
 
 
@@ -1627,6 +1650,41 @@ the surrounding area.
 <span class="eyebrow">Related local rule pages</span>
 <h2>Switch To The Rule That Looks More Relevant</h2>
 <div class='scenario-navigation'><a class="scenario-nav " href="/planning-permission/newport/">Planning Permission</a><a class="scenario-nav active" href="/permitted-development/newport/">Permitted Development Rights</a><a class="scenario-nav " href="/height-limits/newport/">Height Limits</a><a class="scenario-nav " href="/boundary-rules/newport/">Boundary Distance Rules</a><a class="scenario-nav " href="/conservation-areas/newport/">Conservation Area Restrictions</a></div>
+</section>
+
+
+<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="scenario" data-official-sources-authority="newport" data-official-sources-count="5">
+<span class="eyebrow">Official sources</span>
+<h2>Official Sources Worth Checking</h2>
+<p class="section-lead">Use these official links to verify the local rule position without turning this page into a directory.</p>
+<div class="official-sources-list">
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/wales/do-you-need-permission/your-responsibilities/planning-permission/permitted-development-rights/">
+<strong>Planning Portal Wales: permitted development rights</strong>
+<span>Permitted development | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/wales/applications/consent-types/householder-planning-consent">
+<strong>Planning Portal Wales: householder planning consent</strong>
+<span>Householder guidance | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.newport.gov.uk/planning/planning-permission/planning-applications/make-planning-application">
+<strong>Make a planning application</strong>
+<span>Planning portal | Last reviewed 5 April 2026 | Main Newport application page linking Planning Portal submission and fee updates.</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/wales/do-you-need-permission">
+<strong>Planning Portal Wales: do you need permission?</strong>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.newport.gov.uk/planning/planning-permission/pre-application-advice">
+<strong>Pre-application advice</strong>
+<span>Pre-application advice | Last reviewed 5 April 2026 | Council page for statutory pre-application planning advice.</span>
+</a>
+
+</div>
 </section>
 
 
@@ -1746,7 +1804,6 @@ the surrounding area.
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised planning guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>

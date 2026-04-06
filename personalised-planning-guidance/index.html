@@ -604,6 +604,49 @@ margin-bottom:0;
 margin-bottom:14px;
 }
 
+.official-sources{
+padding:22px;
+background:rgba(255,255,255,.7);
+border:1px solid rgba(31,41,55,.08);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.official-sources-list{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.official-source-link{
+display:flex;
+flex-direction:column;
+gap:6px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+}
+
+.official-source-link strong{
+font-size:15px;
+line-height:1.4;
+}
+
+.official-source-link span{
+font-size:13px;
+color:var(--ink-faint);
+line-height:1.5;
+}
+
+.official-source-link:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+transform:translateY(-1px);
+}
+
 .link-grid a:hover,
 .related-links a:hover,
 .scenario-navigation a:hover{
@@ -702,28 +745,9 @@ font-size:13px;
 line-height:1.55;
 }
 
-.find-help-cta{
-padding:24px;
-background:
-linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
-radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
-border:1px solid rgba(31,111,95,.14);
-box-shadow:var(--shadow-soft);
-}
-
-.find-help-cta-compact{
-padding:22px;
-}
-
-.find-help-rollout-note,
 .field-help{
 font-size:14px;
 color:var(--ink-faint);
-}
-
-.find-help-form{
-display:grid;
-gap:18px;
 }
 
 .form-grid,
@@ -1195,7 +1219,6 @@ width:100%;
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1399,7 +1422,7 @@ Optional: anonymous themes from this enquiry may be used to improve future guide
 
 <div class="answer-card">
 <h3>Useful trust pages</h3>
-<p><a href="/methodology/">Methodology</a></p><p><a href="/privacy/">Privacy notice</a></p><p><a href="/find-help/">Find Help</a></p>
+<p><a href="/methodology/">Methodology</a></p><p><a href="/privacy/">Privacy notice</a></p>
 </div>
 
 </div>
@@ -1453,6 +1476,17 @@ Optional: anonymous themes from this enquiry may be used to improve future guide
 <section class="faq-section" id="guidance-faq">
 <span class="eyebrow">Common questions</span>
 <h2>What People Usually Want To Know Before They Email</h2>
+<p class='section-lead'>Keep this block for the trust, scope and response-time questions that usually come up once the service looks relevant.</p>
+
+<div class="faq-item">
+<h3>What happens after I email?</h3>
+<p>The case details are read and used to frame a practical plain-English reply about the likely route, the local tripwires and the next checks worth making.</p>
+</div>
+
+<div class="faq-item">
+<h3>What details should I include?</h3>
+<p>Send the property type, local authority area, town or location, what you want to build or change, the approximate size or position, any heritage or flat-related constraints, previous additions, and the main thing worrying you.</p>
+</div>
 
 <div class="faq-item">
 <h3>Is this formal advice?</h3>
@@ -1465,20 +1499,11 @@ Optional: anonymous themes from this enquiry may be used to improve future guide
 </div>
 
 <div class="faq-item">
-<h3>What details should I include?</h3>
-<p>Send the property type, local authority area, town or location, what you want to build or change, the approximate size or position, any heritage or flat-related constraints, previous additions, and the main thing worrying you.</p>
+<h3>When should I skip email guidance and go straight to a specialist?</h3>
+<p>Do that when the project is urgent, already at a formal stage, or too high-stakes to leave on an informational steer before formal checking.</p>
 </div>
 
-<div class="faq-item">
-<h3>Will you review my specific case?</h3>
-<p>Yes, in the sense that the reply is shaped around the details you send. That makes it more tailored than a broad guide, while still staying informational rather than formal advice.</p>
-</div>
-
-<div class="faq-item">
-<h3>What happens to my email and details?</h3>
-<p>They are used to respond to the enquiry. Anonymous themes may help improve the site, but identifiable case details are not published without permission and you are not added to marketing emails.</p>
-</div>
-
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What happens after I email?", "acceptedAnswer": {"@type": "Answer", "text": "The case details are read and used to frame a practical plain-English reply about the likely route, the local tripwires and the next checks worth making."}}, {"@type": "Question", "name": "What details should I include?", "acceptedAnswer": {"@type": "Answer", "text": "Send the property type, local authority area, town or location, what you want to build or change, the approximate size or position, any heritage or flat-related constraints, previous additions, and the main thing worrying you."}}, {"@type": "Question", "name": "Is this formal advice?", "acceptedAnswer": {"@type": "Answer", "text": "No. It is informational personalised guidance based on the details you provide and publicly available information, not formal legal, architectural, surveying or council advice."}}, {"@type": "Question", "name": "Can you tell me if I definitely need permission?", "acceptedAnswer": {"@type": "Answer", "text": "No one should promise that from a short email alone. The aim is to give a practical steer on the likely route, the local or property details most likely to change it, and the next checks worth making."}}, {"@type": "Question", "name": "When should I skip email guidance and go straight to a specialist?", "acceptedAnswer": {"@type": "Answer", "text": "Do that when the project is urgent, already at a formal stage, or too high-stakes to leave on an informational steer before formal checking."}}]}</script>
 </section>
 
 
@@ -1530,7 +1555,6 @@ Optional: anonymous themes from this enquiry may be used to improve future guide
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised planning guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>

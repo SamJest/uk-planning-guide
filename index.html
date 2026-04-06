@@ -604,6 +604,49 @@ margin-bottom:0;
 margin-bottom:14px;
 }
 
+.official-sources{
+padding:22px;
+background:rgba(255,255,255,.7);
+border:1px solid rgba(31,41,55,.08);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.official-sources-list{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.official-source-link{
+display:flex;
+flex-direction:column;
+gap:6px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+}
+
+.official-source-link strong{
+font-size:15px;
+line-height:1.4;
+}
+
+.official-source-link span{
+font-size:13px;
+color:var(--ink-faint);
+line-height:1.5;
+}
+
+.official-source-link:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+transform:translateY(-1px);
+}
+
 .link-grid a:hover,
 .related-links a:hover,
 .scenario-navigation a:hover{
@@ -702,28 +745,9 @@ font-size:13px;
 line-height:1.55;
 }
 
-.find-help-cta{
-padding:24px;
-background:
-linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
-radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
-border:1px solid rgba(31,111,95,.14);
-box-shadow:var(--shadow-soft);
-}
-
-.find-help-cta-compact{
-padding:22px;
-}
-
-.find-help-rollout-note,
 .field-help{
 font-size:14px;
 color:var(--ink-faint);
-}
-
-.find-help-form{
-display:grid;
-gap:18px;
 }
 
 .form-grid,
@@ -1195,7 +1219,6 @@ width:100%;
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1341,17 +1364,6 @@ width:100%;
 </section>
 
 
-<section class="find-help-cta find-help-cta-compact" data-find-help-cta="true">
-<span class="eyebrow">Find Help</span>
-<h2>Need a clearer formal-help route?</h2>
-<p>Use Find Help when broad guidance is no longer enough and you want the cleanest route into the right kind of formal or professional support.</p>
-<div class="hero-ctas">
-<a class="btn" href="/find-help/">Open Find Help</a>
-<a class="btn button-secondary" href="/find-help/homeowners/request/">Register your project</a>
-</div>
-<p class="find-help-rollout-note">The vetted local network is still being assembled. Matching will launch in carefully staged categories and areas rather than as a live nationwide marketplace.</p>
-</section>
-
 
 <section>
 <span class="eyebrow">Project-first guidance</span>
@@ -1406,7 +1418,7 @@ width:100%;
 <section>
 <span class="eyebrow">Useful local entry points</span>
 <h2>Curated Local Guides Worth Opening Next</h2>
-<p class="section-lead">Use these when the project is already clear and the live question is whether local restrictions, authority context or a nearby example changes the safer route.</p>
+<p class="section-lead">These guides work best once the project is already clear and you need to see whether local restrictions, authority context or a nearby comparison changes the safer route.</p>
 <div class="grid">
 <a class="card" href="/dormer-extensions/greater-london/barking-and-dagenham/">
 <div class='card-kicker'>Answer-first local page</div>
@@ -1532,56 +1544,56 @@ width:100%;
 <a class="card" href="/bedfordshire/">
 <div class='card-kicker'>Local authority explorer</div>
 <h3>Bedfordshire</h3>
-<p>Browse 3 authority areas in Bedfordshire. Start here when local policy, conservation areas or Article 4 may change the normal route. Includes Bedford, Central Bedfordshire, Luton.</p>
+<p>Browse 3 authority areas in Bedfordshire and see whether local policy, conservation areas or Article 4 make the usual answer less reliable. Includes Bedford, Central Bedfordshire, Luton.</p>
 <span class="cta">Browse area and councils</span>
 </a>
 
 <a class="card" href="/berkshire/">
 <div class='card-kicker'>Local authority explorer</div>
 <h3>Berkshire</h3>
-<p>Browse 6 authority areas in Berkshire. Start here when local policy, conservation areas or Article 4 may change the normal route. Includes Bracknell Forest, Reading, Slough.</p>
+<p>Browse 6 authority areas in Berkshire and see whether local policy, conservation areas or Article 4 make the usual answer less reliable. Includes Bracknell Forest, Reading, Slough.</p>
 <span class="cta">Browse area and councils</span>
 </a>
 
 <a class="card" href="/buckinghamshire/">
 <div class='card-kicker'>Local authority explorer</div>
 <h3>Buckinghamshire</h3>
-<p>Browse 2 authority areas in Buckinghamshire. Start here when local policy, conservation areas or Article 4 may change the normal route. Includes Buckinghamshire, Milton Keynes.</p>
+<p>Browse 2 authority areas in Buckinghamshire and see whether local policy, conservation areas or Article 4 make the usual answer less reliable. Includes Buckinghamshire, Milton Keynes.</p>
 <span class="cta">Browse area and councils</span>
 </a>
 
 <a class="card" href="/cambridgeshire/">
 <div class='card-kicker'>Local authority explorer</div>
 <h3>Cambridgeshire</h3>
-<p>Browse 6 authority areas in Cambridgeshire. Start here when local policy, conservation areas or Article 4 may change the normal route. Includes Cambridge, East Cambridgeshire, Fenland.</p>
+<p>Browse 6 authority areas in Cambridgeshire and see whether local policy, conservation areas or Article 4 make the usual answer less reliable. Includes Cambridge, East Cambridgeshire, Fenland.</p>
 <span class="cta">Browse area and councils</span>
 </a>
 
 <a class="card" href="/cornwall/">
 <div class='card-kicker'>Local authority explorer</div>
 <h3>Cornwall</h3>
-<p>Browse 2 authority areas in Cornwall. Start here when local policy, conservation areas or Article 4 may change the normal route. Includes Cornwall, Isles of Scilly.</p>
+<p>Browse 2 authority areas in Cornwall and see whether local policy, conservation areas or Article 4 make the usual answer less reliable. Includes Cornwall, Isles of Scilly.</p>
 <span class="cta">Browse area and councils</span>
 </a>
 
 <a class="card" href="/county-durham/">
 <div class='card-kicker'>Local authority explorer</div>
 <h3>County Durham</h3>
-<p>Browse 2 authority areas in County Durham. Start here when local policy, conservation areas or Article 4 may change the normal route. Includes Durham, Darlington.</p>
+<p>Browse 2 authority areas in County Durham and see whether local policy, conservation areas or Article 4 make the usual answer less reliable. Includes Durham, Darlington.</p>
 <span class="cta">Browse area and councils</span>
 </a>
 
 <a class="card" href="/cumbria/">
 <div class='card-kicker'>Local authority explorer</div>
 <h3>Cumbria</h3>
-<p>Browse 2 authority areas in Cumbria. Start here when local policy, conservation areas or Article 4 may change the normal route. Includes Cumberland, Westmorland and Furness.</p>
+<p>Browse 2 authority areas in Cumbria and see whether local policy, conservation areas or Article 4 make the usual answer less reliable. Includes Cumberland, Westmorland and Furness.</p>
 <span class="cta">Browse area and councils</span>
 </a>
 
 <a class="card" href="/derbyshire/">
 <div class='card-kicker'>Local authority explorer</div>
 <h3>Derbyshire</h3>
-<p>Browse 9 authority areas in Derbyshire. Start here when local policy, conservation areas or Article 4 may change the normal route. Includes Amber Valley, Bolsover, Chesterfield.</p>
+<p>Browse 9 authority areas in Derbyshire and see whether local policy, conservation areas or Article 4 make the usual answer less reliable. Includes Amber Valley, Bolsover, Chesterfield.</p>
 <span class="cta">Browse area and councils</span>
 </a>
 </div>
@@ -1687,42 +1699,42 @@ width:100%;
 <a class="card" href="/local-search/planning-permission-cheltenham/">
 <div class='card-kicker'>Search-intent shortcut</div>
 <h3>Planning Permission In Cheltenham</h3>
-<p>Use this page when the search is really about planning permission in Cheltenham and you want the shortest route into the right council, project and local rule pages.</p>
+<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
 <span class="cta">Open local route</span>
 </a>
 
 <a class="card" href="/local-search/planning-permission-southwark/">
 <div class='card-kicker'>Search-intent shortcut</div>
 <h3>Planning Permission In Southwark</h3>
-<p>A compact local entry page for people searching for planning permission in Southwark before they know which project guide or rule page they need.</p>
+<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
 <span class="cta">Open local route</span>
 </a>
 
 <a class="card" href="/local-search/planning-permission-newham/">
 <div class='card-kicker'>Search-intent shortcut</div>
 <h3>Planning Permission In Newham</h3>
-<p>A local-intent entry page for Newham planning searches that need to resolve into the right project page, local rule page and council context.</p>
+<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
 <span class="cta">Open local route</span>
 </a>
 
 <a class="card" href="/local-search/westminster-conservation-areas/">
 <div class='card-kicker'>Search-intent shortcut</div>
 <h3>Westminster Conservation Areas And Planning Rules</h3>
-<p>Use this page when conservation area context in Westminster is the real search intent and you need to move quickly into the right local rule and project guidance.</p>
+<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
 <span class="cta">Open local route</span>
 </a>
 
 <a class="card" href="/local-search/two-storey-extensions-sevenoaks/">
 <div class='card-kicker'>Search-intent shortcut</div>
 <h3>Two Storey Extensions In Sevenoaks</h3>
-<p>A compact support page for people searching directly for two storey extension guidance in Sevenoaks before they branch into the detailed local project or rule pages.</p>
+<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
 <span class="cta">Open local route</span>
 </a>
 
 <a class="card" href="/local-search/planning-permission-dorset/">
 <div class='card-kicker'>Search-intent shortcut</div>
 <h3>Planning Permission In Dorset</h3>
-<p>A county-first route for Dorset planning permission searches that need to move into the right authority, project and local-rule pages without landing on a generic hub.</p>
+<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
 <span class="cta">Open local route</span>
 </a>
 </div>
@@ -1928,7 +1940,6 @@ width:100%;
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised planning guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>

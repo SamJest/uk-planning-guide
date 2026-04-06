@@ -604,6 +604,49 @@ margin-bottom:0;
 margin-bottom:14px;
 }
 
+.official-sources{
+padding:22px;
+background:rgba(255,255,255,.7);
+border:1px solid rgba(31,41,55,.08);
+border-radius:22px;
+box-shadow:var(--shadow-soft);
+}
+
+.official-sources-list{
+display:grid;
+gap:12px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+margin-top:16px;
+}
+
+.official-source-link{
+display:flex;
+flex-direction:column;
+gap:6px;
+padding:14px 16px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+color:var(--ink);
+}
+
+.official-source-link strong{
+font-size:15px;
+line-height:1.4;
+}
+
+.official-source-link span{
+font-size:13px;
+color:var(--ink-faint);
+line-height:1.5;
+}
+
+.official-source-link:hover{
+background:rgba(223,241,234,.78);
+border-color:rgba(31,111,95,.20);
+transform:translateY(-1px);
+}
+
 .link-grid a:hover,
 .related-links a:hover,
 .scenario-navigation a:hover{
@@ -702,28 +745,9 @@ font-size:13px;
 line-height:1.55;
 }
 
-.find-help-cta{
-padding:24px;
-background:
-linear-gradient(135deg,rgba(255,255,255,.98),rgba(239,246,241,.94)),
-radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 34%);
-border:1px solid rgba(31,111,95,.14);
-box-shadow:var(--shadow-soft);
-}
-
-.find-help-cta-compact{
-padding:22px;
-}
-
-.find-help-rollout-note,
 .field-help{
 font-size:14px;
 color:var(--ink-faint);
-}
-
-.find-help-form{
-display:grid;
-gap:18px;
 }
 
 .form-grid,
@@ -1195,7 +1219,6 @@ width:100%;
 <a href="/tools/">Tools</a>
 <a href="/planning-faq/">FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/councils/">Councils</a>
 <a href="/about/">About</a>
 <a href="/methodology/">Methodology</a>
@@ -1210,92 +1233,28 @@ width:100%;
 <section class="hero">
 <span class="badge">Special Restrictions</span>
 <h1>Planning Rules In Conservation Areas</h1>
-<p>Use this page when heritage character or streetscape sensitivity may change the normal planning answer.</p>
+<p>Conservation areas are designated because the overall character or appearance of the area is considered special enough to preserve or enhance. Planning decisions therefore place greater weight on design quality, context and visual impact.</p>
+<p>This does not mean every small alteration needs permission, but it does mean the margin for poor design judgement is often smaller.</p>
 </section>
-
-
-<section class="page-jump-links">
-<span class="eyebrow">Jump to what matters</span>
-<h2>Read This Answer In The Order That Saves You Time</h2>
-<div class="link-grid">
-<a href="#faq-intent">Check whether this page matches the real planning question first</a>
-<a href="#faq-summary">Start with the short answer and the main things that change it</a>
-<a href="#faq-routes">Open the strongest next route if the issue is getting bigger</a>
-<a href="#faq-detail">Read the fuller guidance only after the answer is narrowed</a>
-<a href="#faq-questions">Use the follow-up questions to resolve edge cases faster</a>
-<a href="#faq-trust">Read the trust notes if the stakes are high or the route feels borderline</a>
-</div>
-</section>
-
-
-
-<section id="faq-intent">
-<span class="eyebrow">Use this page when</span>
-<h2>What This Answer Is Designed To Resolve</h2>
-<div class="answer-grid">
-<div class="answer-card">
-<h3>Searches this page matches</h3>
-<p>Useful when the real question sounds like <strong>What extra rules apply in conservation areas?</strong> and you want the shortest route to a practical answer.</p>
-</div>
-<div class="answer-card">
-<h3>What it settles fastest</h3>
-<p>Start here when heritage context or street character may affect the proposal.</p>
-</div>
-<div class="answer-card">
-<h3>Checks to keep in view</h3>
-<ul class="checklist"><li>Conservation area status does not ban development, but it often raises the design standard and can narrow permitted development rights.</li><li>Visibility from the street, materials and impact on local character matter more in heritage-sensitive settings.</li><li>Local policy wording and street context can be as important as the national baseline.</li></ul>
-</div>
-</div>
-</section>
-
 
 <section id="faq-summary">
 <span class="eyebrow">Answer-first summary</span>
-<h2>The Short Answer, The Main Tripwires And The Safest Next Move</h2>
+<h2>What Usually Applies, What Changes It And What To Do Next</h2>
 <div class="answer-grid">
 <div class="answer-card">
 <h3>What usually applies</h3>
-<p>Use this page when heritage character or streetscape sensitivity may change the normal planning answer.</p>
+<p>Conservation areas are designated because the overall character or appearance of the area is considered special enough to preserve or enhance. Planning decisions therefore place greater weight on design quality, context and visual impact.</p>
 </div>
 <div class="answer-card">
 <h3>What often changes it</h3>
 <ul class="checklist"><li>Conservation area status does not ban development, but it often raises the design standard and can narrow permitted development rights.</li><li>Visibility from the street, materials and impact on local character matter more in heritage-sensitive settings.</li><li>Local policy wording and street context can be as important as the national baseline.</li></ul>
 </div>
 <div class="answer-card">
-<h3>Best next step</h3>
-<p>Use the detailed sections below as a briefing note, then move into the related guidance if your situation turns on one project type, one local authority or one rule.</p>
+<h3>Safest next step</h3>
+<p>If your case now turns on one exact project, one local authority area or one formal route decision, open Conservation Areas next rather than relying on a broad process answer alone.</p>
 </div>
 </div>
 </section>
-
-
-<section class="decision-guide" id="faq-decision-guide">
-<span class="eyebrow">Decision guide</span>
-<h2>When This FAQ Answer Is Usually Enough And When To Escalate</h2>
-<div class="answer-grid">
-<div class="answer-card">
-<h3>Usually enough when</h3>
-<ul class="checklist">
-<li>The question is about process, evidence, timing or one narrow planning definition.</li>
-<li>You need a practical briefing note before opening a project guide or local authority page.</li>
-<li>The proposal is not obviously close to a hard planning threshold.</li>
-</ul>
-</div>
-<div class="answer-card">
-<h3>Go further when</h3>
-<ul class="checklist">
-<li>One exact project type, council area, conservation area or listed-building issue is already driving the answer.</li>
-<li>The financial or timing consequences are large enough that a summary answer is not a safe stopping point.</li>
-<li>The route still feels mixed after reading the key checks below.</li>
-</ul>
-</div>
-<div class="answer-card">
-<h3>What usually settles it faster</h3>
-<ul class="checklist"><li>Conservation area status does not ban development, but it often raises the design standard and can narrow permitted development rights.</li><li>Visibility from the street, materials and impact on local character matter more in heritage-sensitive settings.</li><li>Local policy wording and street context can be as important as the national baseline.</li></ul>
-</div>
-</div>
-</section>
-
 
 
 <section id="faq-routes">
@@ -1343,9 +1302,10 @@ width:100%;
 
 </section>
 
-<section id="faq-questions">
-<span class="eyebrow">Quick answers</span>
+<section class="faq-section" id="faq-questions">
+<span class="eyebrow">Quick follow-up questions</span>
 <h2>Questions People Usually Ask Next</h2>
+
 
 <div class="faq-item">
 <h3>Does a conservation area automatically remove permitted development rights?</h3>
@@ -1362,8 +1322,8 @@ width:100%;
 <p>Not always exactly, but proposals usually work better when materials and detailing respect the character of the building and area.</p>
 </div>
 
-</section>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does a conservation area automatically remove permitted development rights?", "acceptedAnswer": {"@type": "Answer", "text": "Not automatically in every case, but it often narrows the normal position and makes local checks more important."}}, {"@type": "Question", "name": "Are rear projects easier than front-facing ones?", "acceptedAnswer": {"@type": "Answer", "text": "Often yes, because visibility and streetscape impact usually matter more on principal elevations and prominent locations."}}, {"@type": "Question", "name": "Should I match existing materials exactly?", "acceptedAnswer": {"@type": "Answer", "text": "Not always exactly, but proposals usually work better when materials and detailing respect the character of the building and area."}}]}</script>
+</section>
 
 
 <section class="personalised-guidance-cta personalised-guidance-cta-compact" data-guidance-cta="faq-page">
@@ -1395,30 +1355,11 @@ width:100%;
 
 
 
-<section>
-<span class="eyebrow">How to use this answer</span>
-<h2>When This Page Helps Most And When To Go Further</h2>
-<div class="answer-grid">
-<div class="answer-card">
-<h3>Best when</h3>
-<p>This page works best when the uncertainty is about process, evidence, permissions or one narrow planning definition rather than a full project design.</p>
-</div>
-<div class="answer-card">
-<h3>Go local when</h3>
-<p>Conservation areas, listed status, Article 4 or one specific council are the reasons the answer may change in practice.</p>
-</div>
-<div class="answer-card">
-<h3>Escalate when</h3>
-<p>If the proposal is close to a hard limit or the consequences matter financially, use the matching guide, tool or formal check rather than relying on a summary answer alone.</p>
-</div>
-</div>
-</section>
-
 
 
 <section id="faq-trust">
 <span class="eyebrow">Trust and caveats</span>
-<h2>Use This Answer Properly</h2>
+<h2>Keep The Direct Answer, But Verify The Borderline Cases</h2>
 <p>Planning answers change when a proposal is close to a limit, the property has special controls or the site history has already used development allowances. Use this page as a practical briefing note, not as a final permission decision, and verify the position formally if the financial, timing or design consequences of being wrong are meaningful.</p>
 </section>
 
@@ -1441,7 +1382,6 @@ width:100%;
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
 <a href="/personalised-planning-guidance/">Personalised planning guidance</a>
-<a href="/find-help/">Find Help</a>
 <a href="/planning-permission/">Planning permission hub</a>
 <a href="/permitted-development/">Permitted development hub</a>
 </div>
