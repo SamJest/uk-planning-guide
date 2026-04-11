@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1330,7 +1386,7 @@ width:100%;
 <a class="card project-card" href="/house-extensions/wales/pembrokeshire-coast-national-park/">
 <div class="card-kicker">Best local starting point</div>
 <h3>House Extension in Pembrokeshire Coast National Park</h3>
-<p>House extensions can be permitted development in Wales where they stay within Class A limits on projection, height, eaves, width and highway relationships. Front extensions and prominent side work are much more restricted.</p>
+<p>House extensions can be permitted development in Wales where they stay within Class A limits on projection, height, eaves, width and highway relationships. Front extensions and prominent side work are much more restricted. In a national park setting, design restraint, landscape impact and heritage character are usually given exceptional weight.</p>
 <span class="cta">Check this guide</span>
 </a>
 
@@ -1344,7 +1400,7 @@ width:100%;
 <a class="card project-card" href="/outbuildings/wales/pembrokeshire-coast-national-park/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Outbuildings in Pembrokeshire Coast National Park</h3>
-<p>Within Pembrokeshire Coast National Park, some minor incidental outbuildings may still be permitted development, but the authorityâ€™s planning advice stresses that local checking is advisable before carrying out changes in the Park.</p>
+<p>Welsh permitted development can often cover a detached garage, shed or similar garden building, but only while it remains incidental to the house, sits in the right part of the plot and stays within the national size and height rules. Self-contained living use falls outside that route.</p>
 <span class="cta">Check this guide</span>
 </a>
 </div>

@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1412,7 +1468,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> Temporary buildings placed within conservation areas may require planning permission if their size, appearance, or visibility affects the character of the protected area.</li><li><strong>Listed buildings:</strong> Temporary buildings within the curtilage of a listed building may require listed building consent or planning permission depending on their location and duration.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> Temporary buildings placed within conservation areas may require planning permission if their size, appearance, or visibility affects the character of the protected area.</li><li><strong>Listed buildings:</strong> Temporary buildings within the curtilage of a listed building may require listed building consent or planning permission depending on their location and duration.</li><li><strong>Article 4 directions:</strong> Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site's designation before relying on a simpler route.</li></ul>
             </section>
             
 
@@ -1567,7 +1623,7 @@ width:100%;
 </section>
 
 
-<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="inverclyde" data-official-sources-count="4">
+<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="inverclyde" data-official-sources-count="3">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
 <p class="section-lead">Use these official links to verify the local position once the answer above is narrowed.</p>
@@ -1586,11 +1642,6 @@ width:100%;
 <a class="official-source-link" href="https://www.mygov.scot/planning-permission">
 <strong>mygov.scot: do I need planning permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
-</a>
-
-<a class="official-source-link" href="https://www.inverclyde.gov.uk/planning-and-the-environment/planning-applications/applying-for-planning-permission">
-<strong>Applying for Planning Permission</strong>
-<span>Pre-application advice | Last reviewed 5 April 2026 | Best live authority page found covering pre-application consultation and officer advice before submission.</span>
 </a>
 
 </div>

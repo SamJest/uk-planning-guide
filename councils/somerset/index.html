@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1262,7 +1318,7 @@ width:100%;
 </div>
 <div class="answer-card">
 <h3>What often changes the answer</h3>
-<ul class='checklist'><li><strong>Conservation areas:</strong> Conservation areas are defined under the legislation as "areas of special architectural or historic interest"</li><li><strong>Listed buildings:</strong> A listed building is a building included on the 'List of Buildings of Special Architectural or Historic Interest' created by Historic England.</li><li><strong>Article 4 directions:</strong> An article 4 direction is a direction which enables the local planning authority to withdraw specified permitted development rights across a defined area.</li></ul>
+<ul class='checklist'><li><strong>Conservation areas:</strong> In conservation areas, removing planting or historic front-boundary features to create parking can trigger a closer review even where the surfacing itself seems minor.</li><li><strong>Listed buildings:</strong> If the proposal serves a listed building, removing walls, gates, paving or other curtilage features can trigger listed building consent as well as planning checks.</li><li><strong>Article 4 directions:</strong> Driveway works are not always protected by normal householder rights: Article 4 controls and earlier planning conditions can require an application for surfacing or boundary changes.</li></ul>
 </div>
 <div class="answer-card">
 <h3>Best next step</h3>
@@ -1315,28 +1371,28 @@ width:100%;
 <a class="card project-card" href="/driveways/somerset/somerset/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Driveway in Somerset</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>Start with the local driveway guide for the main planning route and any local restrictions.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/house-extensions/somerset/somerset/">
 <div class="card-kicker">Best local starting point</div>
 <h3>House Extension in Somerset</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>Some house extensions can be permitted development in England under Class A, but the route depends on whether the proposal is rear, side or two storey, how much of the original curtilage remains and whether any local restriction removes PD rights. In villages and open-edge settings, bulk, roof form and how the addition sits in wider views often matter as much as the headline measurements.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/loft-conversions/somerset/somerset/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Loft Conversion in Somerset</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>A loft conversion can fall within Class B permitted development in England if the roof enlargement stays within the volume allowance, does not project beyond the principal roof slope facing a highway and keeps to the Class B conditions. In villages and open-edge settings, bulk, roof form and how the addition sits in wider views often matter as much as the headline measurements.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/outbuildings/somerset/somerset/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Outbuildings in Somerset</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>A detached outbuilding can usually stay within householder permitted development if it is for a purpose incidental to the house, sits behind the principal elevation and meets the Class E height and coverage limits. That route does not cover a separate dwelling or self-contained annexe. This authority also records an Article 4 direction or another local removal of rights, so check the planning history before relying on the simpler route.</p>
 <span class="cta">Check this guide</span>
 </a>
 </div>

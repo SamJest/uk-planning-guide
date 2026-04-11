@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1258,11 +1314,11 @@ width:100%;
 <div class="answer-grid">
 <div class="answer-card">
 <h3>Broad answer</h3>
-<p>The national planning answer is only a starting point in Derby when heritage controls, conservation areas or listed-building issues are doing most of the work.</p>
+<p>The broad planning answer in Derby becomes less reliable when policy, Article 4 or council-specific controls are the real reasons the route may change.</p>
 </div>
 <div class="answer-card">
 <h3>What often changes the answer</h3>
-<ul class='checklist'><li><strong>Conservation areas:</strong> Additional planning restrictions may apply in conservation areas.</li><li><strong>Listed buildings:</strong> Listed building consent is required for works affecting listed buildings.</li></ul>
+<ul class='checklist'><li><strong>Conservation areas:</strong> In conservation areas, removing planting or historic front-boundary features to create parking can trigger a closer review even where the surfacing itself seems minor.</li><li><strong>Listed buildings:</strong> A driveway scheme for a listed building is rarely just a surfacing issue: curtilage walls, entrance piers and historic ground treatment can all need heritage consent.</li><li><strong>Article 4 directions:</strong> Article 4 directions or planning conditions can remove normal householder rights for hard surfacing, frontage parking or boundary alterations.</li></ul>
 </div>
 <div class="answer-card">
 <h3>Best next step</h3>
@@ -1315,28 +1371,28 @@ width:100%;
 <a class="card project-card" href="/driveways/derbyshire/derby/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Driveway in Derby</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>In Derby, most house driveways can proceed without a planning application where the work stays inside the curtilage and front-of-house surfacing over 5 square metres is permeable or drains to a porous area within the site. Forming or widening the access across a verge or footway is separate and can still need highway consent.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/house-extensions/derbyshire/derby/">
 <div class="card-kicker">Best local starting point</div>
 <h3>House Extension in Derby</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>Some house extensions can be permitted development in England under Class A, but the route depends on whether the proposal is rear, side or two storey, how much of the original curtilage remains and whether any local restriction removes PD rights. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/loft-conversions/derbyshire/derby/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Loft Conversion in Derby</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>A loft conversion can fall within Class B permitted development in England if the roof enlargement stays within the volume allowance, does not project beyond the principal roof slope facing a highway and keeps to the Class B conditions. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/outbuildings/derbyshire/derby/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Outbuildings in Derby</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>Householder permitted development can often cover a shed, garage, studio or similar detached building, but only while it remains incidental to the dwellinghouse and stays within the Class E siting, height and 50% coverage limits. It is not a route to separate living accommodation.</p>
 <span class="cta">Check this guide</span>
 </a>
 </div>

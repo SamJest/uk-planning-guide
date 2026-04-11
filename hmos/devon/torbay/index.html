@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1308,18 +1364,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Scale of Intensification</h2>
-                <p>For HMO proposals, the planning issue is usually the intensity of occupation and the effect on the building and area rather than pure building height.</p>
-                <ul class="rule-list"><li>The planning route often changes once a standard dwelling starts operating as shared accommodation.</li><li>The number of occupiers, bedrooms and the overall management pattern all matter.</li><li>External alterations used to support the HMO can create a second layer of planning risk.</li><li>Local policy often matters more than generic rule-of-thumb assumptions.</li></ul>
+                <h2>Use class and occupation intensity</h2>
+                <p>For HMOs in England, the key planning issue is normally the type and intensity of occupation rather than the physical height of the building.</p>
+                <ul class="rule-list"><li>A change from a Class C3 dwellinghouse to a small Class C4 HMO for up to six residents can often rely on permitted development rights under Class L.</li><li>Larger HMOs, or schemes that move beyond the small Class C4 route, normally need planning permission.</li><li>The practical planning question is often whether the use still functions like a small shared house or has intensified into something materially different.</li><li>Physical enlargement of the building can add a separate planning layer on top of the use change.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>HMO planning questions are rarely solved by a single national shortcut. Councils often assess the concentration of shared housing in the area, the effect on amenity, parking, refuse and the quality of accommodation. That means the planning answer usually depends on use intensity and local policy rather than the building envelope alone.</p>
+                <p>The national framework does allow a limited route from an ordinary house to a small HMO, but it is not a blanket shortcut for all shared housing. Once the number of occupiers, pattern of use or scale of supporting works grows, the planning position usually needs much closer checking.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> A change from a standard dwelling to shared occupation often needs a fuller planning and policy review.
+                <strong>When this usually needs a closer check:</strong> If the proposal is not a small Class C4 HMO, or the occupation pattern is materially more intensive, a full planning application is usually the safer assumption.
             </div>
             
             </section>
@@ -1327,18 +1383,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Layout, Amenity Space and Supporting Works</h2>
-                <p>Internal layout, external amenity space and any extension or conversion work linked to the HMO can all affect the planning route.</p>
-                <ul class="rule-list"><li>Councils often look at whether the property can operate as an HMO without over-compressing the site.</li><li>Supporting works such as rear extensions, bin stores or cycle stores may need their own planning review.</li><li>Amenity space, servicing and circulation can all become material planning questions.</li><li>The change of use should usually be assessed alongside the practical works needed to support it.</li></ul>
+                <h2>Layout and supporting works</h2>
+                <p>An HMO proposal is often judged as a whole package, including the use change and the physical works needed to make the property function properly.</p>
+                <ul class="rule-list"><li>Rear extensions, roof rooms, bin stores, cycle stores and internal reconfiguration can all affect the planning route.</li><li>Amenity space, servicing and circulation still matter even where the change of use is the headline issue.</li><li>A scheme that only works because of substantial supporting building works should be reviewed as one joined-up proposal.</li><li>External changes to entrances, frontage layout or parking can make a small HMO proposal more contentious.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>An HMO proposal is often more than a paperwork change. The layout and external works needed to make the building function properly can be part of the planning story, particularly where bin storage, cycle parking, rear additions or garden use intensify the impact of the change. It is usually safest to review the use change and the supporting physical works together.</p>
+                <p>The use class point is only part of the story. Many HMO schemes run into planning difficulty because the supporting physical changes look cramped, awkward or over-engineered for the plot, even where the basic shared-house model might have been possible in principle.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Schemes that rely on substantial supporting works or poor amenity arrangements often need a closer review.
+                <strong>When this usually needs a closer check:</strong> Where an HMO depends on substantial extensions, roof changes or cramped servicing arrangements, the planning route usually needs a fuller review.
             </div>
             
             </section>
@@ -1346,18 +1402,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Neighbour and Street Impact</h2>
-                <p>Neighbour amenity, parking pressure, servicing and the character of the street are recurring planning issues for HMO changes of use.</p>
-                <ul class="rule-list"><li>Noise, comings and goings and refuse management can influence whether the proposal feels acceptable in context.</li><li>Parking pressure and cycle storage often matter in the council assessment.</li><li>The wider concentration of HMOs nearby can become a key local policy question.</li><li>Local Article 4 directions can remove any simpler fallback route.</li></ul>
+                <h2>Neighbour impact, parking and waste</h2>
+                <p>Neighbour amenity is one of the main reasons small HMOs become planning-sensitive, particularly in streets already under pressure from parking, waste and turnover of occupiers.</p>
+                <ul class="rule-list"><li>Councils often look closely at parking demand, cycle storage and refuse arrangements for HMO proposals.</li><li>Neighbour amenity concerns usually centre on intensity of use rather than the building envelope alone.</li><li>Shared housing concentration in the surrounding area can influence the planning outcome.</li><li>The more exposed the frontage and servicing arrangements are, the more likely the proposal is to attract policy scrutiny.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>The planning debate around HMOs is often local rather than purely national. Councils may already have policies or Article 4 directions aimed at managing shared housing concentrations, and they frequently assess neighbour impact and street conditions in detail. This makes local authority context especially important before relying on a generic assumption.</p>
+                <p>Even where a small HMO can in principle sit within the C3-to-C4 permitted development route, local issues such as Article 4 directions, parking pressure and waste management often decide the real-world answer. Boundary and street impact matter because HMOs are usually judged in context, not in isolation.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Article 4 areas, high existing HMO concentrations or sensitive residential streets often trigger a full planning application.
+                <strong>When this usually needs a closer check:</strong> Where the street already has concentration controls, acute parking pressure or poor servicing arrangements, planning permission is commonly needed.
             </div>
             
             </section>
@@ -1365,18 +1421,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Loft Rooms and Additional Storeys</h2>
-                <p>Many HMO schemes involve extra rooms in the roof or reworked upper floors, which can create a linked planning question beyond the use change itself.</p>
-                <ul class="rule-list"><li>Roof conversions or enlarged dormers should be checked separately as physical development.</li><li>Additional bedrooms in the roof can affect both planning route and licensing practicality.</li><li>External roof changes on visible elevations often attract a closer design review.</li><li>The more the proposal combines change of use with enlargement, the more joined-up the planning check needs to be.</li></ul>
+                <h2>Roof rooms and upper-floor intensification</h2>
+                <p>Roof changes linked to an HMO are rarely neutral. Extra bedrooms in the roof often intensify both the planning and amenity picture.</p>
+                <ul class="rule-list"><li>Dormers, rooflights and loft rooms should be assessed alongside the HMO use, not treated as an afterthought.</li><li>A larger occupant number supported by roof conversion can shift the planning judgment materially.</li><li>Upper-floor side windows and roof alterations can add privacy and overlooking issues.</li><li>External roof works still need their own planning route checked even where the use question is the main issue.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>An HMO proposal often becomes more complex where the building is also being enlarged to create extra rooms. At that point the planning authority is usually looking at both the use and the physical development together. Roof alterations, additional storeys or large dormers should therefore be reviewed as a linked planning package rather than as separate assumptions.</p>
+                <p>Many HMO proposals become more complex once roof accommodation is introduced, because the design, overlooking and intensity questions all move together. The safest route is to treat the roof and the use change as one combined planning case.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Roof enlargements tied to an HMO proposal often need a fuller planning review.
+                <strong>When this usually needs a closer check:</strong> Roof-based intensification, especially where it adds bedrooms or overlooking, often needs a closer planning assessment.
             </div>
             
             </section>
@@ -1384,18 +1440,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Frontage Changes and Management Features</h2>
-                <p>Changes to doors, bins, cycle storage, signage or other external features can influence how an HMO proposal is judged in local views.</p>
-                <ul class="rule-list"><li>Prominent frontage changes can make the use shift more visible and therefore more sensitive.</li><li>Bin and cycle storage should be planned as part of the scheme rather than squeezed in later.</li><li>Management features should avoid creating visual clutter around the entrance and front garden.</li><li>The cumulative appearance of small external changes can matter in tighter streets.</li></ul>
+                <h2>Frontage treatment and operational appearance</h2>
+                <p>For HMOs, materials are usually less about cladding and more about whether the frontage, entrances, storage and external arrangements still look domestic and well-managed.</p>
+                <ul class="rule-list"><li>Bin stores, cycle stores and extra door arrangements can all affect how the property reads from the street.</li><li>Poorly integrated frontage changes can make a small HMO look more institutional or over-intensified.</li><li>External alterations should be proportionate to the house rather than making the property read as a separate commercial use.</li><li>A tidy, well-integrated operational layout is usually easier to support than ad hoc external additions.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Even where the core change of use sits mostly inside the building, small external changes often shape the council view of how the HMO will operate. Entrance arrangements, refuse storage, cycle parking and other management details can influence whether the scheme appears well considered or likely to create nuisance. These details are often worth addressing early.</p>
+                <p>The planning concern is often operational appearance: whether the building still sits comfortably in a residential street or starts to look over-managed and over-occupied. Good frontage discipline and sensible storage design can make a major difference.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Poorly integrated frontage or servicing changes can undermine an HMO proposal even where the internal layout is workable.
+                <strong>When this usually needs a closer check:</strong> Prominent bins, awkward cycle compounds or overworked frontages can tip a borderline HMO scheme toward refusal or a need for redesign.
             </div>
             
             </section>
@@ -1404,7 +1460,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> HMO proposals in conservation areas can face an added design and character review, especially where external changes are proposed.</li><li><strong>Listed buildings:</strong> Listed building status can add a separate consent route and tighter control over any physical changes linked to an HMO scheme.</li><li><strong>Article 4 directions:</strong> Article 4 directions are common in some areas for HMO changes of use, so local designation checks matter before relying on any simpler route.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> HMO proposals in conservation areas can face an added design and character review, especially where the scheme includes visible alterations, bins, cycle stores or frontage changes.</li><li><strong>Listed buildings:</strong> Listed building status can add a separate consent route and tighter control over any physical changes linked to an HMO scheme, even where the main issue starts as a use change.</li><li><strong>Article 4 directions:</strong> Article 4 directions are common in some English areas for C3-to-C4 HMO changes of use. Where an Article 4 direction applies, the small-HMO permitted development route falls away and full planning permission is usually needed.</li></ul>
             </section>
             
 
@@ -1566,7 +1622,7 @@ width:100%;
 <div class="official-sources-list">
 
 <a class="official-source-link" href="https://www.torbay.gov.uk/council/policies/planning-policies/local-plan/">
-<strong>Adopted Local Plan (2012â€“2030)</strong>
+<strong>Adopted Local Plan (2012Ã¢â‚¬â€œ2030)</strong>
 <span>Local plan | Last reviewed 5 April 2026</span>
 </a>
 

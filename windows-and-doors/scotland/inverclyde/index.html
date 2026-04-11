@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1316,18 +1372,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>New Openings and Upper-Level Changes</h2>
-                <p>Replacement windows are often simpler than creating new openings or materially changing the size, position or pattern of openings in the wall.</p>
-                <ul class="rule-list"><li>Like-for-like replacement is usually easier than enlarging or relocating openings.</li><li>Upper-level side-facing windows can trigger privacy questions more quickly than front or rear replacements.</li><li>Large new glazed openings can materially change the appearance of the house.</li><li>Projects that alter structural lintels, cills or wall proportions deserve a closer check.</li></ul>
+                <h2>Replacement versus new openings</h2>
+                <p>In England, replacement windows and doors are usually straightforward when they stay close to like-for-like, but new openings or enlarged upper-level windows can change the planning answer quickly.</p>
+                <ul class="rule-list"><li>Repairs, maintenance and minor improvements, such as repainting frames, do not usually need planning permission.</li><li>New windows and doors of a similar appearance to those used in the construction of the house do not usually need planning permission.</li><li>Upper-floor side windows should be obscure-glazed and either non-opening or more than 1.7 metres above the floor level.</li><li>A new bay window is treated as an extension and may need planning permission.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Window and door work often becomes a planning issue when it changes the shape and balance of the elevation rather than simply refreshing what is already there. New openings, substantially taller doors or extensive glazing can all move the proposal beyond routine replacement and into a more design-led planning assessment.</p>
+                <p>The clearest national distinction is between replacement joinery and a more fundamental change to the elevation. Once the project starts changing the size, position or privacy impact of openings, it becomes much less likely to stay on the simplest route.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Creating new openings, especially at upper levels or on visible elevations, often needs a more careful review.
+                <strong>When this usually needs a closer check:</strong> New or enlarged openings, especially at upper level or in side elevations, often need a closer planning check.
             </div>
             
             </section>
@@ -1335,18 +1391,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Projection, Recess and Framing Depth</h2>
-                <p>The visual impact of windows and doors can depend on how deeply they sit in the wall and whether they project noticeably from the existing elevation.</p>
-                <ul class="rule-list"><li>Flush and recessed details are often treated differently from frames that project heavily from the wall.</li><li>Bay-style alterations or enlarged entrance treatments can change the planning route quickly.</li><li>The wider the intervention becomes, the more it reads as an elevation redesign rather than a simple replacement.</li><li>Multiple altered openings on one elevation usually attract more design scrutiny than a single swap.</li></ul>
+                <h2>Projection, reveals and grouped changes</h2>
+                <p>Windows and doors do not have extension-style depth limits, but projection still matters where the work becomes more than a simple replacement.</p>
+                <ul class="rule-list"><li>Frames and detailing that sit close to the existing reveal are usually easier than deeper projecting build-ups.</li><li>Grouped changes across one elevation are more likely to be judged as a redesign than a routine replacement.</li><li>Bay-style build-outs and enlarged entrance features can move the project into extension territory.</li><li>A neat like-for-like swap is usually the safest route where planning sensitivity is a concern.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Although windows and doors do not follow extension-style depth limits, the visual depth of reveals, bays and entrance features still matters. A small joinery change can stay low risk, while a reworked frontage or enlarged opening pattern can alter the character of the house more substantially than expected.</p>
+                <p>A single replacement window may be low risk, but several altered openings on the same frontage can materially change the building’s composition. The more the work changes wall depth, reveal character or the rhythm of openings, the more design scrutiny it attracts.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Bay-style build-outs or grouped opening changes often need a closer planning check.
+                <strong>When this usually needs a closer check:</strong> Projecting bay forms, enlarged entrance treatments or a wholesale reworking of one elevation often need planning permission.
             </div>
             
             </section>
@@ -1354,18 +1410,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Neighbour Privacy and Side Elevation Issues</h2>
-                <p>Openings that look toward neighbours or the highway can raise privacy and appearance questions even where the work feels modest.</p>
-                <ul class="rule-list"><li>Side-facing upper-floor windows are commonly reviewed for overlooking risk.</li><li>Front elevation changes are usually more sensitive than rear alterations.</li><li>Obscure glazing, opening restrictions or design changes can sometimes reduce privacy concerns.</li><li>The more a new door or opening changes how the frontage functions, the more it may need review.</li></ul>
+                <h2>Privacy and side-elevation control</h2>
+                <p>Neighbour privacy is one of the main reasons window projects become planning-sensitive, especially on side elevations and at upper floor level.</p>
+                <ul class="rule-list"><li>Upper-floor side windows should protect privacy through obscure glazing and restricted opening unless they are more than 1.7 metres above floor level.</li><li>New openings looking toward neighbours are more sensitive than replacing existing openings in the same position.</li><li>Front-elevation changes can also be sensitive where they materially alter the street-facing appearance of the house.</li><li>Leaseholders may need separate permission from a landlord, freeholder or management company even where planning permission is not required.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Many window and door proposals turn on where the opening looks rather than how expensive the work is. A new side window at first-floor level can create privacy concerns, while a new front door arrangement can materially alter the appearance of the principal elevation. It is often worth checking privacy and street-scene together.</p>
+                <p>The national rules are relatively tolerant of similar-appearance replacements, but much less so where a new opening creates overlooking or changes how a side elevation works. Privacy is often the quickest route from a routine joinery job to a planning issue.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Upper-level side windows and visually assertive front elevation changes often require a closer assessment.
+                <strong>When this usually needs a closer check:</strong> New side windows, obvious overlooking or a materially altered front elevation usually need a closer review.
             </div>
             
             </section>
@@ -1373,18 +1429,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Rooflights and Roof-Facing Openings</h2>
-                <p>Where the project includes roof-facing windows, rooflights or dormer-style changes, the work should be checked against the separate roof alteration rules as well.</p>
-                <ul class="rule-list"><li>Roof-facing openings are usually more sensitive than standard wall window replacements.</li><li>Rooflights should remain subordinate and carefully sited on visible roof slopes.</li><li>Dormer-style additions or enlarged roof openings can move the project into a different planning category.</li><li>Visible roof changes near heritage designations often need the most caution.</li></ul>
+                <h2>Rooflights and linked roof openings</h2>
+                <p>Roof-facing openings follow a different route from ordinary windows and doors, so a joinery project should not assume that rooflights are covered by the same answer.</p>
+                <ul class="rule-list"><li>Planning Portal treats roof and skylight changes under separate guidance rather than the ordinary windows and doors route.</li><li>A project that includes dormers, rooflights or roof-facing windows should be checked against the roof alteration rules as well.</li><li>Visible roof openings can be more sensitive than wall openings on ordinary householder projects.</li><li>Where both wall joinery and roof openings are changing, assess the whole package rather than separating them artificially.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Many homeowners bundle wall openings and roof openings into one joinery project, but the planning route can differ significantly. Once the proposal affects the roof profile or introduces large openings on prominent slopes, it becomes much more important to treat the job as a roof alteration rather than a straightforward window replacement.</p>
+                <p>Many apparently simple window projects become mixed schemes once a rooflight, dormer or roof-facing opening is added. At that point the safer route is to treat the work as a combined elevation and roof alteration exercise rather than a standard replacement-window job.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Large roof openings, visible rooflights on sensitive elevations or dormer-style changes usually need a closer review.
+                <strong>When this usually needs a closer check:</strong> Rooflights, dormers and any linked roof alteration often need separate checking even if the wall-window part looks straightforward.
             </div>
             
             </section>
@@ -1392,18 +1448,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Materials, Frames and Overall Appearance</h2>
-                <p>Frame thickness, opening style, colour and material can all affect whether the work looks like a simple refresh or a material alteration to the building.</p>
-                <ul class="rule-list"><li>Replacement joinery should suit the age and character of the house.</li><li>Highly contrasting frame colours or profiles can attract a closer design review on visible elevations.</li><li>Heritage-sensitive buildings often need more care over glazing bars, proportions and materials.</li><li>Consistency across the elevation usually works better than a patchwork approach.</li></ul>
+                <h2>Appearance, profile and character</h2>
+                <p>Like-for-like appearance is central to the easier route. Changes in frame depth, opening pattern, glazing bars or material can be more important than householders expect.</p>
+                <ul class="rule-list"><li>The closer the new windows or doors are in appearance to the originals, the easier the planning route usually is.</li><li>Frame profile, glazing pattern, cill depth and door style can all materially affect the elevation.</li><li>Traditional or well-ordered facades are usually less tolerant of ad hoc mixed window styles.</li><li>Secondary glazing is normally simpler than changing the external appearance of the building.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Appearance is often the deciding factor for window and door work, particularly where the building has a strong architectural rhythm or sits in a more sensitive area. The planning question is rarely about the frame product alone; it is about whether the overall change still respects the character of the house and the wider setting.</p>
+                <p>Planning sensitivity often turns on character rather than pure size. A change that preserves the existing pattern can remain low risk, while a different frame proportion, altered glazing bar layout or mixed set of replacements can make the elevation feel noticeably different.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Prominent appearance changes, especially on heritage-sensitive buildings or visible front elevations, often need a closer check.
+                <strong>When this usually needs a closer check:</strong> Visibly different replacement patterns, poor-quality mixed joinery or changes that disrupt the established facade rhythm often need a closer planning check.
             </div>
             
             </section>
@@ -1412,7 +1468,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> Window and door changes in conservation areas often face tighter controls where they affect visible elevations or traditional detailing.</li><li><strong>Listed buildings:</strong> Listed buildings usually need listed building consent for window and door changes, even where the work might feel like a replacement.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> Window and door changes in conservation areas often face tighter control where they affect visible elevations, traditional detailing or the established pattern of openings.</li><li><strong>Listed buildings:</strong> Listed buildings usually need listed building consent for window and door changes, and even apparently simple replacement work should be treated as heritage-sensitive from the outset.</li><li><strong>Article 4 directions:</strong> Article 4 directions commonly remove normal householder rights for replacement windows and doors on selected streets, estates and conservation-area frontages.</li></ul>
             </section>
             
 
@@ -1567,7 +1623,7 @@ width:100%;
 </section>
 
 
-<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="inverclyde" data-official-sources-count="4">
+<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="inverclyde" data-official-sources-count="3">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
 <p class="section-lead">Use these official links to verify the local position once the answer above is narrowed.</p>
@@ -1586,11 +1642,6 @@ width:100%;
 <a class="official-source-link" href="https://www.mygov.scot/planning-permission">
 <strong>mygov.scot: do I need planning permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
-</a>
-
-<a class="official-source-link" href="https://www.inverclyde.gov.uk/planning-and-the-environment/planning-applications/applying-for-planning-permission">
-<strong>Applying for Planning Permission</strong>
-<span>Pre-application advice | Last reviewed 5 April 2026 | Best live authority page found covering pre-application consultation and officer advice before submission.</span>
 </a>
 
 </div>

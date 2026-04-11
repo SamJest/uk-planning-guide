@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1241,11 +1297,11 @@ width:100%;
 <h2>What This FAQ Hub Is Best At Answering</h2>
 <div class="answer-grid">
 <div class="answer-card">
-<h3>What usually belongs here</h3>
+<h3>Best fit</h3>
 <p>Your question is about process, timing, permissions, restrictions or verification rather than one exact build type.</p>
 </div>
 <div class="answer-card">
-<h3>What changes the answer</h3>
+<h3>What usually complicates it</h3>
 <p>Local controls, listed status, conservation areas, Article 4 and borderline measurements often push a broad process question into a project or council page.</p>
 </div>
 <div class="answer-card">
@@ -1499,6 +1555,101 @@ width:100%;
 <div class="card-kicker">Property Value and ROI</div>
 <h3>Is A Loft Conversion Worth It?</h3>
 <p>Loft conversions usually look strongest when they create valuable accommodation from space that was previously underused.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+<section>
+<h2>Garden Rooms and Outbuildings</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/garden-room-planning-permission/">
+<div class="card-kicker">Garden Rooms and Outbuildings</div>
+<h3>Do Garden Rooms Need Planning Permission?</h3>
+<p>Many garden rooms are assessed in the same broad family as outbuildings, which is why people often assume the answer is automatically straightforward.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/garden-room-permitted-development/">
+<div class="card-kicker">Garden Rooms and Outbuildings</div>
+<h3>Garden Room Permitted Development Rules</h3>
+<p>The easier route usually survives when the garden room is plainly secondary to the house, fits comfortably within the plot and does not create a new independent living unit in practice.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+<section>
+<h2>Home Extensions</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/planning-permission-for-extensions/">
+<div class="card-kicker">Home Extensions</div>
+<h3>Planning Permission For Extensions</h3>
+<p>People often jump straight into rear, side or loft detail before settling the broader extension route.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/building-regulations-for-extensions/">
+<div class="card-kicker">Home Extensions</div>
+<h3>Building Regulations For Extensions</h3>
+<p>Extensions change the structure, fabric and performance of a house, so they commonly trigger building regulations even when the planning route stays relatively simple.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+<section>
+<h2>Temporary Buildings</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/temporary-buildings-planning-permission/">
+<div class="card-kicker">Temporary Buildings</div>
+<h3>Do Temporary Buildings Need Planning Permission?</h3>
+<p>People often assume a building becomes easier in planning terms if it can be removed later.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/temporary-buildings-building-regulations/">
+<div class="card-kicker">Temporary Buildings</div>
+<h3>Temporary Buildings And Building Regulations</h3>
+<p>Temporary buildings can still raise safety, structural, fire and access questions, especially when people work in them, sleep in them or rely on them for more than a very short event-based purpose.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/what-counts-as-a-temporary-building/">
+<div class="card-kicker">Temporary Buildings</div>
+<h3>What Counts As A Temporary Building?</h3>
+<p>A building is more likely to look genuinely temporary when there is a credible short-term reason for it, a realistic removal plan and a physical setup that does not embed it deeply into the site.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+<section>
+<h2>Rural and Agricultural</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/agricultural-building-permitted-development/">
+<div class="card-kicker">Rural and Agricultural</div>
+<h3>Agricultural Building Permitted Development</h3>
+<p>Agricultural buildings follow their own planning logic because the route often depends on the operational needs of the holding rather than the normal domestic householder framework.</p>
+<span class="cta">Read answer</span>
+</a>
+
+<a class="card" href="/planning-faq/agricultural-building-conversion-planning-permission/">
+<div class="card-kicker">Rural and Agricultural</div>
+<h3>Agricultural Building Conversion Planning Permission</h3>
+<p>A genuine agricultural building may have one planning route while its conversion has another.</p>
+<span class="cta">Read answer</span>
+</a>
+</div>
+</section>
+
+<section>
+<h2>Access and Driveways</h2>
+<div class="grid">
+<a class="card" href="/planning-faq/dropped-kerb-planning-vs-highways-approval/">
+<div class="card-kicker">Access and Driveways</div>
+<h3>Dropped Kerb Planning Permission Vs Highways Approval</h3>
+<p>People often assume a dropped kerb is just another small domestic alteration.</p>
 <span class="cta">Read answer</span>
 </a>
 </div>

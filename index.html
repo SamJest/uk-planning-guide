@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1692,56 +1748,6 @@ width:100%;
 
 
 <section>
-<span class="eyebrow">Curated local capture</span>
-<h2>High-Intent Local Search Pages That Earn Their Place</h2>
-<p class="section-lead">These pages exist to answer the broad local query quickly, show the main tripwires and hand the user into the strongest authority, project, topic or tool page without feeling like a doorway.</p>
-<div class="grid">
-<a class="card" href="/local-search/planning-permission-cheltenham/">
-<div class='card-kicker'>Search-intent shortcut</div>
-<h3>Planning Permission In Cheltenham</h3>
-<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
-<span class="cta">Open local route</span>
-</a>
-
-<a class="card" href="/local-search/planning-permission-southwark/">
-<div class='card-kicker'>Search-intent shortcut</div>
-<h3>Planning Permission In Southwark</h3>
-<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
-<span class="cta">Open local route</span>
-</a>
-
-<a class="card" href="/local-search/planning-permission-newham/">
-<div class='card-kicker'>Search-intent shortcut</div>
-<h3>Planning Permission In Newham</h3>
-<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
-<span class="cta">Open local route</span>
-</a>
-
-<a class="card" href="/local-search/westminster-conservation-areas/">
-<div class='card-kicker'>Search-intent shortcut</div>
-<h3>Westminster Conservation Areas And Planning Rules</h3>
-<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
-<span class="cta">Open local route</span>
-</a>
-
-<a class="card" href="/local-search/two-storey-extensions-sevenoaks/">
-<div class='card-kicker'>Search-intent shortcut</div>
-<h3>Two Storey Extensions In Sevenoaks</h3>
-<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
-<span class="cta">Open local route</span>
-</a>
-
-<a class="card" href="/local-search/planning-permission-dorset/">
-<div class='card-kicker'>Search-intent shortcut</div>
-<h3>Planning Permission In Dorset</h3>
-<p>See the local route, the main tripwires and the strongest next pages for this search without getting dropped into a generic directory first.</p>
-<span class="cta">Open local route</span>
-</a>
-</div>
-</section>
-
-
-<section>
 <span class="eyebrow">Useful process answers</span>
 <h2>Planning Questions People Ask Before They Spend Money</h2>
 <p class="section-lead">These FAQ pages are best when the uncertainty is about process, permissions, timing or verification rather than one exact build type.</p>
@@ -1883,6 +1889,41 @@ width:100%;
 <div class='card-kicker'>FAQ shortcut</div>
 <h3>Which extension adds the most value?</h3>
 <p>Useful when you are comparing project types rather than just testing one design idea.</p>
+<span class="cta">Read the answer</span>
+</a>
+
+<a class="card" href="/planning-faq/garden-room-planning-permission/">
+<div class='card-kicker'>FAQ shortcut</div>
+<h3>Do garden rooms need planning permission?</h3>
+<p>Start here when the broad planning question is about a garden room rather than a full annexe or extension.</p>
+<span class="cta">Read the answer</span>
+</a>
+
+<a class="card" href="/planning-faq/planning-permission-for-extensions/">
+<div class='card-kicker'>FAQ shortcut</div>
+<h3>Do extensions need planning permission?</h3>
+<p>Useful when the project is clearly an extension but the route is still broad.</p>
+<span class="cta">Read the answer</span>
+</a>
+
+<a class="card" href="/planning-faq/temporary-buildings-planning-permission/">
+<div class='card-kicker'>FAQ shortcut</div>
+<h3>Do temporary buildings need planning permission?</h3>
+<p>Useful when the word temporary is being used as the main reason a structure might be easier.</p>
+<span class="cta">Read the answer</span>
+</a>
+
+<a class="card" href="/planning-faq/agricultural-building-permitted-development/">
+<div class='card-kicker'>FAQ shortcut</div>
+<h3>Can an agricultural building be permitted development?</h3>
+<p>Useful when the real question is whether the simpler agricultural route is even available.</p>
+<span class="cta">Read the answer</span>
+</a>
+
+<a class="card" href="/planning-faq/dropped-kerb-planning-vs-highways-approval/">
+<div class='card-kicker'>FAQ shortcut</div>
+<h3>Do I need planning permission or highways approval for a dropped kerb?</h3>
+<p>Useful when access works are being blocked by confusion about which approval route applies.</p>
 <span class="cta">Read the answer</span>
 </a>
 </div>

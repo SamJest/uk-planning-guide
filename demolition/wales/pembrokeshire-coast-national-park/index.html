@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1273,7 +1329,7 @@ width:100%;
 
 <div class="answer-card">
 <h3>What often changes it locally</h3>
-<ul class="checklist"><li>There is no demolition height right. The main issues are whether prior approval is required and whether the building or its setting has heritage value.</li><li>Temporary hoarding, access changes, scaffolding, highway occupation and disposal of rubble are separate regulatory issues. Demolition that destabilises adjoining land or boundary structures can trigger extra approvals.</li><li>Conservation areas can change the answer in Pembrokeshire Coast National Park.</li></ul>
+<ul class="checklist"><li>There is no demolition height right. The main issues are whether prior approval is required and whether the building or its setting has heritage value.</li><li>Temporary hoarding, access changes, scaffolding, highway occupation and disposal of rubble are separate regulatory issues. Demolition that destabilises adjoining land or boundary structures can trigger extra approvals. In a national park, heritage value and the effect of loss on the wider setting are usually examined very carefully.</li><li>Conservation areas can change the answer in Pembrokeshire Coast National Park.</li></ul>
 </div>
 
 <div class="answer-card">
@@ -1309,7 +1365,7 @@ width:100%;
 <span class="eyebrow">Local rule snapshot</span>
 <h2>The Most Useful Local Notes On One Screen</h2>
 <p>In Wales's national parks, demolition is not something to assume away as minor work. The local planning authority may need prior approval for the method of demolition and site restoration, and heritage or landscape issues often make early discussion essential.</p>
-<ul class='checklist'><li>There is no depth allowance. Partial demolition, retaining plinths or exposed slabs, and the extent of ground reinstatement can all matter in a sensitive landscape.</li><li>There is no demolition height right. The main issues are whether prior approval is required and whether the building or its setting has heritage value.</li><li>Temporary hoarding, access changes, scaffolding, highway occupation and disposal of rubble are separate regulatory issues. Demolition that destabilises adjoining land or boundary structures can trigger extra approvals.</li></ul>
+<ul class='checklist'><li>There is no depth allowance. Partial demolition, retaining plinths or exposed slabs, and the extent of ground reinstatement can all matter in a sensitive landscape.</li><li>There is no demolition height right. The main issues are whether prior approval is required and whether the building or its setting has heritage value.</li><li>Temporary hoarding, access changes, scaffolding, highway occupation and disposal of rubble are separate regulatory issues. Demolition that destabilises adjoining land or boundary structures can trigger extra approvals. In a national park, heritage value and the effect of loss on the wider setting are usually examined very carefully.</li></ul>
 <p class='rule-verification'>Last verified: 2026-04</p>
 </section>
 
@@ -1412,7 +1468,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> Demolition within conservation areas normally requires planning permission because the removal of buildings can significantly affect the character and appearance of the protected area.</li><li><strong>Listed buildings:</strong> Listed buildings cannot be demolished without listed building consent, and unauthorised demolition is considered a serious planning offence.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> Demolition within conservation areas normally requires planning permission because the removal of buildings can significantly affect the character and appearance of the protected area.</li><li><strong>Listed buildings:</strong> Listed buildings cannot be demolished without listed building consent, and unauthorised demolition is considered a serious planning offence.</li><li><strong>Article 4 directions:</strong> Article 4 directions can remove fallback demolition rights in selected locations, so check the site's designation before assuming a prior approval or permitted route still applies.</li></ul>
             </section>
             
 
@@ -1507,7 +1563,7 @@ width:100%;
 
 <div class="faq-item">
 <h3>What most often pushes demolition out of the simpler route?</h3>
-<p>There is no demolition height right. The main issues are whether prior approval is required and whether the building or its setting has heritage value. Temporary hoarding, access changes, scaffolding, highway occupation and disposal of rubble are separate regulatory issues. Demolition that destabilises adjoining land or boundary structures can trigger extra approvals.</p>
+<p>There is no demolition height right. The main issues are whether prior approval is required and whether the building or its setting has heritage value. Temporary hoarding, access changes, scaffolding, highway occupation and disposal of rubble are separate regulatory issues. Demolition that destabilises adjoining land or boundary structures can trigger extra approvals. In a national park, heritage value and the effect of loss on the wider setting are usually examined very carefully.</p>
 </div>
 
 <div class="faq-item">
@@ -1525,7 +1581,7 @@ width:100%;
 <p>Open the local council page if restrictions may change the answer, or the planning decision tool if the overall route still feels unclear.</p>
 </div>
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I usually need planning permission for Demolition in Pembrokeshire Coast National Park?", "acceptedAnswer": {"@type": "Answer", "text": "In Wales's national parks, demolition is not something to assume away as minor work. The local planning authority may need prior approval for the method of demolition and site restoration, and heritage or landscape issues often make early discussion essential."}}, {"@type": "Question", "name": "What most often pushes demolition out of the simpler route?", "acceptedAnswer": {"@type": "Answer", "text": "There is no demolition height right. The main issues are whether prior approval is required and whether the building or its setting has heritage value. Temporary hoarding, access changes, scaffolding, highway occupation and disposal of rubble are separate regulatory issues. Demolition that destabilises adjoining land or boundary structures can trigger extra approvals."}}, {"@type": "Question", "name": "Do conservation areas, listed buildings or Article 4 change the answer here?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. In Pembrokeshire Coast National Park, conservation areas and listed buildings can change the route even where the national baseline looks familiar."}}, {"@type": "Question", "name": "When is it worth checking formally before paying for drawings?", "acceptedAnswer": {"@type": "Answer", "text": "If the project is close to a planning threshold, get measured drawings together and consider written confirmation before work starts."}}, {"@type": "Question", "name": "What should I open next if I still have doubts?", "acceptedAnswer": {"@type": "Answer", "text": "Open the local council page if restrictions may change the answer, or the planning decision tool if the overall route still feels unclear."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I usually need planning permission for Demolition in Pembrokeshire Coast National Park?", "acceptedAnswer": {"@type": "Answer", "text": "In Wales's national parks, demolition is not something to assume away as minor work. The local planning authority may need prior approval for the method of demolition and site restoration, and heritage or landscape issues often make early discussion essential."}}, {"@type": "Question", "name": "What most often pushes demolition out of the simpler route?", "acceptedAnswer": {"@type": "Answer", "text": "There is no demolition height right. The main issues are whether prior approval is required and whether the building or its setting has heritage value. Temporary hoarding, access changes, scaffolding, highway occupation and disposal of rubble are separate regulatory issues. Demolition that destabilises adjoining land or boundary structures can trigger extra approvals. In a national park, heritage value and the effect of loss on the wider setting are usually examined very carefully."}}, {"@type": "Question", "name": "Do conservation areas, listed buildings or Article 4 change the answer here?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. In Pembrokeshire Coast National Park, conservation areas and listed buildings can change the route even where the national baseline looks familiar."}}, {"@type": "Question", "name": "When is it worth checking formally before paying for drawings?", "acceptedAnswer": {"@type": "Answer", "text": "If the project is close to a planning threshold, get measured drawings together and consider written confirmation before work starts."}}, {"@type": "Question", "name": "What should I open next if I still have doubts?", "acceptedAnswer": {"@type": "Answer", "text": "Open the local council page if restrictions may change the answer, or the planning decision tool if the overall route still feels unclear."}}]}</script>
 </section>
 
 

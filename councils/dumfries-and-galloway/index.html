@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1330,21 +1386,21 @@ width:100%;
 <a class="card project-card" href="/house-extensions/scotland/dumfries-and-galloway/">
 <div class="card-kicker">Best local starting point</div>
 <h3>House Extension in Dumfries and Galloway</h3>
-<p>In Scotland the main permitted development routes are a single-storey ground floor extension, a rear ground floor extension of more than one storey and certain roof enlargements. Each route has its own limits and none should be assumed in a conservation area.</p>
+<p>In Scotland the main permitted development routes are a single-storey ground floor extension, a rear ground floor extension of more than one storey and certain roof enlargements. Each route has its own limits and none should be assumed in a conservation area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/loft-conversions/scotland/dumfries-and-galloway/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Loft Conversion in Dumfries and Galloway</h3>
-<p>A loft conversion can be permitted development in Scotland where the roof enlargement stays below the existing roof height, is kept away from the roof edges, avoids front-facing enlargement and stays within the dormer-width and front-boundary limits.</p>
+<p>A loft conversion can be permitted development in Scotland where the roof enlargement stays below the existing roof height, is kept away from the roof edges, avoids front-facing enlargement and stays within the dormer-width and front-boundary limits. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/outbuildings/scotland/dumfries-and-galloway/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Outbuildings in Dumfries and Galloway</h3>
-<p>Detached sheds, garages and similar outbuildings can usually be permitted development in Scotland where they remain ancillary to the house, meet the national siting rules and do not become a separate dwelling.</p>
+<p>Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.</p>
 <span class="cta">Check this guide</span>
 </a>
 </div>

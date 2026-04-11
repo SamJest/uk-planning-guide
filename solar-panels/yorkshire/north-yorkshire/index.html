@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1308,18 +1364,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Panel Height and Overall Projection</h2>
-                <p>Domestic solar panels are often most straightforward when they sit close to the roof or wall and avoid making the building noticeably taller or bulkier.</p>
-                <ul class="rule-list"><li>Panels should generally remain visually secondary to the building.</li><li>Large projecting frames or elevated freestanding arrays usually attract a closer review.</li><li>The more visible the installation is from the street, the more carefully its scale should be considered.</li><li>Associated equipment can matter if it materially changes the apparent height or bulk.</li></ul>
+                <h2>Projection and height limits</h2>
+                <p>Domestic solar panels in England are often permitted development, but the easiest route is where the panels stay tight to the building or sit within the specific stand-alone limits.</p>
+                <ul class="rule-list"><li>On a pitched roof, panels must not rise above the highest part of the roof, excluding the chimney.</li><li>On a pitched roof or wall, panels should project no more than 200mm from the roof slope or wall surface.</li><li>On a flat roof, the highest part of the equipment must be no more than 600mm above the highest part of the roof, excluding the chimney.</li><li>Stand-alone domestic solar equipment must not be higher than 4 metres.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Many domestic solar schemes are treated as low-risk when the panels read as a discreet layer on the existing building. The route becomes harder when frames, mounts or associated equipment make the installation feel more dominant or visually assertive. It is usually safest to think about the combined effect of the panels and the supporting kit, not just the modules themselves.</p>
+                <p>The national solar rules are more exact than many householders expect. Height and projection are clear rule points, so the safest scheme is usually the one that keeps the array close to the roof plane or, for a garden array, comfortably inside the freestanding limits.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Freestanding arrays, oversized frames or highly prominent installations often need a closer planning check.
+                <strong>When this usually needs a closer check:</strong> Raised frames, oversized supports or panels that visibly overtop the roof line often push the proposal outside the standard permitted development route.
             </div>
             
             </section>
@@ -1327,18 +1383,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Roof and Wall Projection</h2>
-                <p>How far solar equipment projects from the building surface can influence whether the installation stays within the simpler route.</p>
-                <ul class="rule-list"><li>Roof-mounted panels usually work best when they sit close to the existing roof plane.</li><li>Wall-mounted equipment should avoid looking bulky or overly prominent.</li><li>Installations that read as a substantial external structure rather than an attached energy measure deserve extra caution.</li><li>Freestanding equipment in the garden is usually more sensitive than a roof-mounted scheme.</li></ul>
+                <h2>Mounting depth and stand-alone array size</h2>
+                <p>Projection depth matters because domestic solar is easiest where the equipment reads as a discreet energy measure rather than a new external structure.</p>
+                <ul class="rule-list"><li>Building-mounted equipment should be sited, so far as practicable, to minimise its effect on the building’s appearance and the amenity of the area.</li><li>Only the first stand-alone solar installation is normally permitted development.</li><li>A stand-alone domestic array should be no more than 9 square metres or 3 metres by 3 metres.</li><li>A stand-alone domestic array should be at least 5 metres from the property boundary.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Projection matters because it affects both appearance and amenity. A slim roof-mounted array can feel routine, while a more visibly mounted or freestanding installation can change how the property reads from public and neighbouring views. When in doubt, assess the installation as part of the building composition rather than as plant alone.</p>
+                <p>Most straightforward home solar projects are still roof-based. Once the scheme depends on a freestanding frame, deeper supports or a large array in the garden, the planning answer gets more sensitive and the national size limits start to matter directly.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Deeply projecting arrays or freestanding structures often need a closer review.
+                <strong>When this usually needs a closer check:</strong> Multiple garden arrays, oversize stand-alone equipment or deep mounting systems often need planning permission.
             </div>
             
             </section>
@@ -1346,18 +1402,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Siting, Garden Arrays and Neighbour Impact</h2>
-                <p>Garden-based solar equipment, side elevations and boundary-facing installations often deserve a more careful amenity and visual-impact check.</p>
-                <ul class="rule-list"><li>Freestanding panels near boundaries can create stronger visual and neighbour impact concerns.</li><li>Installations on visible side elevations often receive more attention than roof planes facing away from the street.</li><li>Associated equipment, screening and access routes can all affect the wider planning picture.</li><li>The more the system changes the appearance of the curtilage, the more cautious the route should be.</li></ul>
+                <h2>Boundaries, highways and heritage land</h2>
+                <p>The most sensitive domestic solar schemes are usually the ones close to highways, boundaries or heritage assets rather than the ones tucked quietly onto a rear roof slope.</p>
+                <ul class="rule-list"><li>Panels must not be installed on a building within the grounds of a listed building or on a scheduled monument site.</li><li>In a conservation area or World Heritage Site, panels must not be fitted to a wall fronting a highway.</li><li>For stand-alone equipment in a conservation area closer to the highway than the nearest part of the house, prior approval is required.</li><li>If stand-alone equipment is in that conservation-area position, it must not be higher than 2 metres.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Boundary and amenity issues are not only about overshadowing; they are also about prominence, reflectivity, screening and how the installation changes the appearance of the site. Freestanding arrays or equipment clustered near edges of the plot often need a broader site review than a simple roof-mounted system.</p>
+                <p>Boundary and highway-facing siting is where domestic solar schemes often become more controversial. A rear or unobtrusive roof slope is usually easier than a visible frontage, and garden arrays on sensitive land need especially careful checking.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Boundary-adjacent arrays or prominent side-facing installations often need a closer check.
+                <strong>When this usually needs a closer check:</strong> Listed-building grounds, scheduled monument land and exposed highway-facing heritage settings usually require a more careful consent route.
             </div>
             
             </section>
@@ -1365,18 +1421,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Roof Siting and Sensitive Roof Slopes</h2>
-                <p>Roof-mounted solar panels are usually judged on how well they follow the roof plane and how visible they are on sensitive elevations.</p>
-                <ul class="rule-list"><li>Panels should usually follow the roof slope rather than appear as a separate raised structure.</li><li>Front-facing or highly visible roof slopes tend to attract the closest review.</li><li>Installations on complex roof forms or near roof edges need more careful design.</li><li>Where the roof itself is heritage-sensitive, the route is usually less straightforward.</li></ul>
+                <h2>Roof-plane discipline</h2>
+                <p>For roof-mounted solar, the planning route is strongest when the panels follow the roof cleanly and avoid creating a new raised structure on top of the house.</p>
+                <ul class="rule-list"><li>Panels on a pitched roof should stay below the roof ridge and close to the roof plane.</li><li>Flat-roof arrays must stay within the 600mm height limit and should remain visually restrained.</li><li>Equipment should be removed as soon as reasonably practicable when no longer needed.</li><li>Prominent roof slopes in conservation areas or World Heritage Sites deserve extra care even where the basic national rule appears workable.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>The easiest solar schemes generally sit flush enough to the roof that they feel integrated rather than improvised. Panels on prominent or historic roof slopes, or installations that need more conspicuous framing, can quickly move out of the simplest route. It is worth assessing visibility from the public realm early.</p>
+                <p>A well-integrated roof array usually reads as part of the building. The route becomes harder where the array needs a steep raised frame, sits on a sensitive roofscape or draws attention to itself more than the building it serves.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Prominent roof slopes, heritage roofs or visually awkward panel layouts often need planning permission.
+                <strong>When this usually needs a closer check:</strong> Highly visible raised frames, poorly integrated flat-roof arrays or heritage-sensitive roof slopes often need a closer planning review.
             </div>
             
             </section>
@@ -1384,18 +1440,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Appearance, Glare and Ancillary Equipment</h2>
-                <p>The visual finish of the array and any associated plant can affect whether the installation remains acceptable in local views.</p>
-                <ul class="rule-list"><li>Panels should be sited and designed to minimise visual clutter where practical.</li><li>Inverters, cabling and other equipment should be handled as part of the design, not as an afterthought.</li><li>Sensitive settings often demand a more restrained appearance strategy.</li><li>The wider energy benefit does not remove the need to consider amenity and character.</li></ul>
+                <h2>Appearance and ancillary equipment</h2>
+                <p>The panels are only part of the planning picture. Inverters, cabling, supports and any screen can all affect the overall visual result.</p>
+                <ul class="rule-list"><li>Treat panels, brackets, conduits and inverters as one design package rather than separate afterthoughts.</li><li>Keep ancillary equipment as discreet as practicable on visible elevations.</li><li>Use simple, tidy mounting arrangements rather than over-engineered supports.</li><li>The best route is usually the least visually assertive one that still achieves the energy goal.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Solar proposals often succeed most easily when the supporting equipment has been considered from the start. Even where panels themselves are acceptable, visible ancillary equipment can make the scheme feel more intrusive than necessary. A tidy design and clear siting logic usually improve the planning position.</p>
+                <p>The national rules focus on height, projection and siting, but councils still judge the overall appearance. A neat integrated installation is usually easier to support than a technically workable scheme that leaves visible kit scattered around the building.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Visually cluttered installations or schemes in sensitive heritage settings often need a closer review.
+                <strong>When this usually needs a closer check:</strong> Messy ancillary equipment, cluttered cabling or industrial-looking frames can weaken what would otherwise be a straightforward domestic solar proposal.
             </div>
             
             </section>
@@ -1404,7 +1460,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> Solar panels in conservation areas often require a closer design review where they affect visible roof slopes, walls or the wider character of the area.</li><li><strong>Listed buildings:</strong> Solar works to listed buildings or buildings in their curtilage usually need a more careful planning and listed building consent check.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> Solar panels in conservation areas need extra care on visible frontages, highway-facing walls and stand-alone installations closer to the highway than the nearest part of the house.</li><li><strong>Listed buildings:</strong> Solar equipment on a listed building, or on a building within the grounds of a listed building, usually needs a more careful heritage-led consent check and is not covered by the normal domestic permitted development route.</li><li><strong>Article 4 directions:</strong> Article 4 directions or site-specific conditions can still remove normal solar permitted development rights on sensitive buildings, roofscapes and controlled estates.</li></ul>
             </section>
             
 
@@ -1585,9 +1641,9 @@ width:100%;
 <span>Pre-application advice | Last reviewed 5 April 2026</span>
 </a>
 
-<a class="official-source-link" href="https://www.gov.uk/guidance/making-an-application">
-<strong>GOV.UK: making a planning application</strong>
-<span>Validation requirements | Last reviewed 5 April 2026</span>
+<a class="official-source-link" href="https://www.northyorks.gov.uk/sites/default/files/2023-07/Application%20validation%20requirements%20-%20accessible_1.pdf">
+<strong>Validation requirements for planning and other applications submitted under the Town and Country Planning Acts</strong>
+<span>Validation requirements | Last reviewed 11 April 2026 | Validation requirements PDF currently linked from North Yorkshire Council&#x27;s minerals, waste and council planning applications page.</span>
 </a>
 
 </div>

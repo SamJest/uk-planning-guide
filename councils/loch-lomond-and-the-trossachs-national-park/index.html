@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1344,7 +1400,7 @@ width:100%;
 <a class="card project-card" href="/outbuildings/scotland/loch-lomond-and-the-trossachs-national-park/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Outbuildings in Loch Lomond and The Trossachs National Park</h3>
-<p>In Loch Lomond and The Trossachs National Park, an ancillary outbuilding may still be permitted development in some cases, but conservation area and heritage controls are much tighter than the Scottish baseline and should be checked before work starts.</p>
+<p>In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.</p>
 <span class="cta">Check this guide</span>
 </a>
 </div>

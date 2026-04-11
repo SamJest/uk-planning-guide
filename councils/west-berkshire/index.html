@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1258,11 +1314,11 @@ width:100%;
 <div class="answer-grid">
 <div class="answer-card">
 <h3>Broad answer</h3>
-<p>The national planning answer is only a starting point in West Berkshire when heritage controls, conservation areas or listed-building issues are doing most of the work.</p>
+<p>The broad planning answer in West Berkshire becomes less reliable when policy, Article 4 or council-specific controls are the real reasons the route may change.</p>
 </div>
 <div class="answer-card">
 <h3>What often changes the answer</h3>
-<ul class='checklist'><li><strong>Conservation areas:</strong> Additional planning restrictions may apply in conservation areas.</li><li><strong>Listed buildings:</strong> Listed building consent is required for works affecting listed buildings.</li></ul>
+<ul class='checklist'><li><strong>Conservation areas:</strong> Conservation area status makes driveway schemes more sensitive where front gardens, walls, railings or traditional paving contribute to the street scene.</li><li><strong>Listed buildings:</strong> If the proposal serves a listed building, removing walls, gates, paving or other curtilage features can trigger listed building consent as well as planning checks.</li><li><strong>Article 4 directions:</strong> A local Article 4 direction or site-specific planning condition can take away the usual driveway and front-garden permitted development route.</li></ul>
 </div>
 <div class="answer-card">
 <h3>Best next step</h3>
@@ -1315,28 +1371,28 @@ width:100%;
 <a class="card project-card" href="/driveways/berkshire/west-berkshire/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Driveway in West Berkshire</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>For homes in West Berkshire, driveway surfacing is often permitted development, but the easy route usually depends on drainage. If the area in front of the house and facing the highway exceeds 5 square metres, it should be permeable or direct run-off to a permeable part of the curtilage, and any dropped kerb is dealt with separately.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/house-extensions/berkshire/west-berkshire/">
 <div class="card-kicker">Best local starting point</div>
 <h3>House Extension in West Berkshire</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>Some house extensions can be permitted development in England under Class A, but the route depends on whether the proposal is rear, side or two storey, how much of the original curtilage remains and whether any local restriction removes PD rights. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/loft-conversions/berkshire/west-berkshire/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Loft Conversion in West Berkshire</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>A loft conversion can fall within Class B permitted development in England if the roof enlargement stays within the volume allowance, does not project beyond the principal roof slope facing a highway and keeps to the Class B conditions. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/outbuildings/berkshire/west-berkshire/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Outbuildings in West Berkshire</h3>
-<p>Most householder development follows national permitted development rules unless local restrictions apply.</p>
+<p>A detached outbuilding can usually stay within householder permitted development if it is for a purpose incidental to the house, sits behind the principal elevation and meets the Class E height and coverage limits. That route does not cover a separate dwelling or self-contained annexe.</p>
 <span class="cta">Check this guide</span>
 </a>
 </div>

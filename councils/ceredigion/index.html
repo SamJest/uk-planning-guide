@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1330,21 +1386,21 @@ width:100%;
 <a class="card project-card" href="/house-extensions/wales/ceredigion/">
 <div class="card-kicker">Best local starting point</div>
 <h3>House Extension in Ceredigion</h3>
-<p>House extensions can be permitted development in Wales where they stay within Class A limits on projection, height, eaves, width and highway relationships. Front extensions and prominent side work are much more restricted.</p>
+<p>House extensions can be permitted development in Wales where they stay within Class A limits on projection, height, eaves, width and highway relationships. Front extensions and prominent side work are much more restricted. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/loft-conversions/wales/ceredigion/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Loft Conversion in Ceredigion</h3>
-<p>A loft conversion can be permitted development in Wales where the roof enlargement stays below the existing ridge, avoids the principal roof slope, remains within the roof-space volume limits and does not create a roof terrace or projecting balcony.</p>
+<p>A loft conversion can be permitted development in Wales where the roof enlargement stays below the existing ridge, avoids the principal roof slope, remains within the roof-space volume limits and does not create a roof terrace or projecting balcony. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.</p>
 <span class="cta">Check this guide</span>
 </a>
 
 <a class="card project-card" href="/outbuildings/wales/ceredigion/">
 <div class="card-kicker">Best local starting point</div>
 <h3>Outbuildings in Ceredigion</h3>
-<p>Detached outbuildings such as sheds, workshops and garages can usually be permitted development in Wales where they remain incidental to the house and comply with the national curtilage, siting and height limits.</p>
+<p>Detached outbuildings such as sheds, workshops and garages can usually be permitted development in Wales where they remain incidental to the house, stay within the curtilage, are not placed forward of the principal elevation and meet the Welsh siting and height limits. That route does not cover separate self-contained living accommodation.</p>
 <span class="cta">Check this guide</span>
 </a>
 </div>

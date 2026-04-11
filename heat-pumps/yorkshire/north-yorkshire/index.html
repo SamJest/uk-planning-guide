@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1308,18 +1364,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Unit Size and Visual Scale</h2>
-                <p>Domestic heat pump units are often easiest to justify when they remain compact, subordinate and clearly domestic in scale.</p>
-                <ul class="rule-list"><li>The unit and any housing should stay proportionate to the building and garden.</li><li>Large enclosures or stacked equipment can make the installation feel more engineered than domestic.</li><li>Visible front or side elevation siting is usually more sensitive than discreet rear locations.</li><li>Associated pipework, housings and screens can affect the planning view as much as the unit itself.</li></ul>
+                <h2>Unit size and siting limits</h2>
+                <p>In England, domestic heat pumps can often stay within permitted development, but the quickest failures are oversize outdoor units, roof siting and visibly prominent highway-facing positions.</p>
+                <ul class="rule-list"><li>Air source heat pump outdoor units must comply with the Microgeneration Certification Scheme planning standard or an equivalent standard.</li><li>The outdoor compressor unit, including any housing, must not exceed 1.5 cubic metres on a house or 0.6 cubic metres for a block of flats.</li><li>For detached houses, the first two air source heat pumps can be permitted development; for other houses or blocks of flats only the first installation is normally covered.</li><li>A compact, clearly domestic installation is usually easier than a bulky enclosure or visibly engineered plant arrangement.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Heat pumps are frequently assessed as part of a wider visual package rather than as a single box on a wall. A modest domestic unit in a discreet location is generally easier than a prominent installation with bulky screening or ancillary kit. Early thought about where the equipment will sit usually pays off.</p>
+                <p>Planning Portal guidance for England is fairly specific on air source heat pumps. Size, number of units and where the equipment sits all matter, so the safest route is to treat the unit, housing and any screen as one combined package rather than judging the box alone.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Bulky, highly visible or heavily screened installations often need a closer planning review.
+                <strong>When this usually needs a closer check:</strong> If the outdoor unit is too large, there is already disqualifying equipment on the property, or the siting is visually prominent, the permitted development route can fall away.
             </div>
             
             </section>
@@ -1327,18 +1383,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Projection from the Building</h2>
-                <p>Projection matters because heat pump units can become visually awkward or intrusive if they sit too prominently on the building or in the garden.</p>
-                <ul class="rule-list"><li>Wall-mounted units should avoid looking like a dominant addition to the elevation.</li><li>Freestanding units should be placed so they do not overtake the usable garden or frontage.</li><li>Supporting pads, housings and service runs should be considered as part of the scheme.</li><li>The simpler and tighter the installation sits to the building, the easier the route usually is.</li></ul>
+                <h2>Projection and positioning</h2>
+                <p>Projection is less about extension-style depth and more about whether the equipment hugs the building in a restrained way or reads as a dominant add-on.</p>
+                <ul class="rule-list"><li>Installations on pitched roofs are not permitted development.</li><li>If installed on a flat roof, all parts of the air source heat pump must be at least one metre from the external edge of that roof.</li><li>Wall-mounted units and exposed pipework should be arranged to minimise their effect on the building’s appearance and the amenity of the area.</li><li>Freestanding units, pads and screens should not overtake the garden or become the dominant element in the space.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Projection is one of the practical design factors that often separates a straightforward heat pump installation from one that feels visually intrusive. A unit that hugs the building in a discreet location will normally cause fewer issues than a more exposed or freestanding arrangement that reads as new plant infrastructure.</p>
+                <p>A heat pump that stays tight to the building in a discreet side or rear position is normally much easier than a layout that depends on roof plant, a wide stand-off frame or a large freestanding screen. The more the installation projects visually, the more likely it is to need a closer planning check.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Prominent wall-mounted units or exposed freestanding plant often need a closer check.
+                <strong>When this usually needs a closer check:</strong> Roof-top plant, deep stand-off mounting, bulky service runs or a freestanding compound can push the proposal outside the simpler route.
             </div>
             
             </section>
@@ -1346,18 +1402,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Noise, Boundaries and Amenity</h2>
-                <p>Boundary position and neighbour amenity are central to heat pump planning checks because noise and vibration can matter as much as appearance.</p>
-                <ul class="rule-list"><li>Units close to neighbouring boundaries usually deserve the earliest review.</li><li>Noise standards and the practical sound environment of the site both matter.</li><li>Rear corners and side passages can look convenient but still create neighbour amenity issues.</li><li>Plant should usually be positioned so maintenance access does not create awkward boundary conflicts.</li></ul>
+                <h2>Amenity, highways and sensitive land</h2>
+                <p>Noise, neighbour amenity and highway-facing siting are the main planning pressure points for domestic heat pumps in England.</p>
+                <ul class="rule-list"><li>The equipment must be sited, so far as practicable, to minimise its effect on the amenity of the area.</li><li>On land in a conservation area or World Heritage Site, an air source heat pump must not be installed on a wall or roof fronting a highway or nearer to a highway than any part of the building.</li><li>Outside those areas, an air source heat pump must not be installed above ground-floor level on a wall fronting a highway.</li><li>Permitted development rights do not apply within the curtilage of a listed building or within a scheduled monument site.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Heat pump proposals often turn on amenity rather than size alone. A unit may look small but still create problems if it sits too close to a neighbour or in an acoustically poor position. The safest route is to think about siting, screening and noise evidence together from the start.</p>
+                <p>For many houses the practical planning question is not whether heat pumps are allowed in principle, but whether the chosen boundary position is too close to neighbours or too exposed to the street. Highway-facing walls and sensitive heritage land tighten the route quickly.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Boundary-adjacent installations or schemes with unresolved noise issues often require a fuller review.
+                <strong>When this usually needs a closer check:</strong> A boundary location that creates obvious amenity pressure, or a siting on listed or scheduled land, usually needs a more careful consent review.
             </div>
             
             </section>
@@ -1365,18 +1421,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Associated Equipment and Building Integration</h2>
-                <p>Most heat pump projects do not alter the roof directly, but associated housings, pipe routes and external equipment should still be designed to integrate cleanly with the building.</p>
-                <ul class="rule-list"><li>Service routes should avoid creating clutter on visible elevations where possible.</li><li>Screens and housings should support the building rather than compete with it.</li><li>Additional plant added later can change the planning route again.</li><li>If the installation forms part of a wider energy retrofit, the combined visual effect should be reviewed.</li></ul>
+                <h2>Roof and elevation constraints</h2>
+                <p>Roof placement is one of the clearest national rule points for air source heat pumps, because pitched-roof siting is not covered by the normal householder permitted development route.</p>
+                <ul class="rule-list"><li>Air source heat pumps are not permitted development on a pitched roof.</li><li>Flat-roof siting is only the easier route where the equipment stays at least one metre from the roof edge and remains visually restrained.</li><li>Highway-facing walls and roofs are more restricted, especially in conservation areas and World Heritage Sites.</li><li>Visible service runs, housings and screens should be designed as part of the same visual package as the unit itself.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>A heat pump rarely sits entirely on its own. Pipe runs, housings and ancillary units can make the overall installation feel more substantial than the core equipment suggests. Considering those parts together usually produces a cleaner planning outcome and fewer retrofit compromises later.</p>
+                <p>Heat pumps usually work best at low level rather than as roof plant. Once the installation starts relying on roof positioning or obvious service routes across prominent elevations, the planning story becomes harder even before local design policies are taken into account.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Highly visible service runs or plant clusters can tip a simple installation into a closer planning check.
+                <strong>When this usually needs a closer check:</strong> Pitched-roof siting, prominent flat-roof plant or exposed service infrastructure often needs a fuller planning review.
             </div>
             
             </section>
@@ -1384,18 +1440,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">National rule baseline</span>
-                <h2>Appearance and Screening</h2>
-                <p>Materials and screening should reduce visual clutter without making the equipment look like a bulky structure in its own right.</p>
-                <ul class="rule-list"><li>The unit and any screen should sit quietly against the house and garden setting.</li><li>Heavy or oversized enclosures can create a new visual problem rather than solving the first one.</li><li>In sensitive locations, colour, finish and sightlines all matter.</li><li>Good screening should balance appearance, airflow and maintenance access.</li></ul>
+                <h2>Appearance, screening and finish</h2>
+                <p>Planning Portal guidance focuses on siting and amenity, but in practice the finish of the unit, screen and pipework still affects whether the scheme reads as tidy domestic equipment or intrusive plant.</p>
+                <ul class="rule-list"><li>Choose modest housings and screens rather than oversized acoustic boxes that create a second visual problem.</li><li>Keep external pipework and trunking neat and grouped where possible.</li><li>Use finishes that sit quietly against the house and garden rather than drawing attention to the installation.</li><li>Remove the equipment as soon as reasonably practicable when it is no longer needed for microgeneration.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Heat pump screening is one of the most common design traps. Too little screening can leave the unit exposed, while too much can make the installation look like a separate built feature. The best outcomes usually come from restrained, well-positioned screening that still allows the equipment to function properly.</p>
+                <p>A well-planned heat pump installation is usually one where the appearance, noise strategy and servicing all line up. The planning route is normally stronger where the screen is proportionate, the pipework is tidy and the whole setup still reads as secondary to the house.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Oversized screens, poor airflow arrangements or highly visible plant often need a closer review.
+                <strong>When this usually needs a closer check:</strong> Clumsy housings, highly visible trunking or a screen that is bigger than the unit it hides can make the proposal harder to defend.
             </div>
             
             </section>
@@ -1404,7 +1460,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> Heat pump installations in conservation areas often face a closer review where the unit or screening is visible from public viewpoints.</li><li><strong>Listed buildings:</strong> Heat pumps on or around listed buildings usually need a more careful planning and listed building consent assessment.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> Heat pumps in conservation areas need extra care where the unit, screen or service runs would face a highway or disrupt the character of a visible elevation.</li><li><strong>Listed buildings:</strong> Heat pump works on or within the curtilage of a listed building usually need a much closer consent check, and the normal air source permitted development route does not apply within the curtilage of a listed building.</li><li><strong>Article 4 directions:</strong> Article 4 directions or site-specific planning conditions can still remove normal microgeneration rights on particular houses, especially in sensitive heritage settings or tightly controlled estates.</li></ul>
             </section>
             
 
@@ -1585,9 +1641,9 @@ width:100%;
 <span>Pre-application advice | Last reviewed 5 April 2026</span>
 </a>
 
-<a class="official-source-link" href="https://www.gov.uk/guidance/making-an-application">
-<strong>GOV.UK: making a planning application</strong>
-<span>Validation requirements | Last reviewed 5 April 2026</span>
+<a class="official-source-link" href="https://www.northyorks.gov.uk/sites/default/files/2023-07/Application%20validation%20requirements%20-%20accessible_1.pdf">
+<strong>Validation requirements for planning and other applications submitted under the Town and Country Planning Acts</strong>
+<span>Validation requirements | Last reviewed 11 April 2026 | Validation requirements PDF currently linked from North Yorkshire Council&#x27;s minerals, waste and council planning applications page.</span>
 </a>
 
 </div>

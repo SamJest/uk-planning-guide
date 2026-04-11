@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1309,7 +1365,7 @@ width:100%;
 <span class="eyebrow">Local rule snapshot</span>
 <h2>The Most Useful Local Notes On One Screen</h2>
 <p>In Wales, demolition of a house, part of a house or an outbuilding is not automatically free from control. The local planning authority may need to approve the method of demolition and site restoration through a prior approval process before work starts, and in tighter urban areas the sequence of works, site safety and treatment of adjoining structures can be critical.</p>
-<ul class='checklist'><li>There is no depth allowance. Partial demolition, faÃ§ade retention and the relationship to adjoining buildings are planning and building-control issues in their own right.</li><li>There is no demolition height allowance. The key issue is whether the proposal falls within the demolition procedures and whether any heritage consent is needed.</li><li>Temporary hoardings, scaffold over sail, highway occupation, rubble removal and support to neighbouring walls are separate regulatory matters. Urban demolition is rarely just a simple knock-down exercise.</li></ul>
+<ul class='checklist'><li>There is no depth allowance. Partial demolition, facade retention and the relationship to adjoining buildings are planning and building-control issues in their own right.</li><li>There is no demolition height allowance. The key issue is whether the proposal falls within the demolition procedures and whether any heritage consent is needed.</li><li>Temporary hoardings, scaffold over sail, highway occupation, rubble removal and support to neighbouring walls are separate regulatory matters. Urban demolition is rarely just a simple knock-down exercise.</li></ul>
 <p class='rule-verification'>Last verified: 2026-04</p>
 </section>
 
@@ -1412,7 +1468,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> Demolition within conservation areas normally requires planning permission because the removal of buildings can significantly affect the character and appearance of the protected area.</li><li><strong>Listed buildings:</strong> Listed buildings cannot be demolished without listed building consent, and unauthorised demolition is considered a serious planning offence.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> Demolition within conservation areas normally requires planning permission because the removal of buildings can significantly affect the character and appearance of the protected area.</li><li><strong>Listed buildings:</strong> Listed buildings cannot be demolished without listed building consent, and unauthorised demolition is considered a serious planning offence.</li><li><strong>Article 4 directions:</strong> Article 4 directions can remove fallback demolition rights in selected locations, so check the site's designation before assuming a prior approval or permitted route still applies.</li></ul>
             </section>
             
 

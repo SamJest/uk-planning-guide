@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1238,23 +1294,25 @@ width:100%;
 </section>
 
 <section id="faq-summary">
-<span class="eyebrow">Answer-first summary</span>
-<h2>What Usually Applies, What Changes It And What To Do Next</h2>
+<span class="eyebrow">Working summary</span>
+<h2>The Short Answer, The Main Qualifiers And The Next Sensible Step</h2>
 <div class="answer-grid">
 <div class="answer-card">
-<h3>What usually applies</h3>
+<h3>Short answer</h3>
 <p>Conservation areas are designated because the overall character or appearance of the area is considered special enough to preserve or enhance.</p>
 </div>
 <div class="answer-card">
-<h3>What often changes it</h3>
+<h3>What could change it</h3>
 <ul class="checklist"><li>Conservation area status does not ban development, but it often raises the design standard and can narrow permitted development rights.</li><li>Visibility from the street, materials and impact on local character matter more in heritage-sensitive settings.</li><li>Local policy wording and street context can be as important as the national baseline.</li></ul>
 </div>
 <div class="answer-card">
 <h3>Safest next step</h3>
-<p>Open Conservation Areas next if the blocker is now specific enough to name clearly.</p>
+<p>Open Conservation Areas next if the question has now narrowed into something more specific.</p>
 </div>
 </div>
 </section>
+
+
 
 
 <section id="faq-routes">

@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1309,7 +1365,7 @@ width:100%;
 <span class="eyebrow">Local rule snapshot</span>
 <h2>The Most Useful Local Notes On One Screen</h2>
 <p>In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.</p>
-<ul class='checklist'><li>There is no depth rule. Partial demolition, faÃ§ade retention and works affecting shared walls or structures are separate planning and structural issues.</li><li>There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.</li><li>Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.</li></ul>
+<ul class='checklist'><li>There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.</li><li>There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.</li><li>Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.</li></ul>
 <p class='rule-verification'>Last verified: 2026-04</p>
 </section>
 
@@ -1412,7 +1468,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> Demolition within conservation areas normally requires planning permission because the removal of buildings can significantly affect the character and appearance of the protected area.</li><li><strong>Listed buildings:</strong> Listed buildings cannot be demolished without listed building consent, and unauthorised demolition is considered a serious planning offence.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> Demolition within conservation areas normally requires planning permission because the removal of buildings can significantly affect the character and appearance of the protected area.</li><li><strong>Listed buildings:</strong> Listed buildings cannot be demolished without listed building consent, and unauthorised demolition is considered a serious planning offence.</li><li><strong>Article 4 directions:</strong> Article 4 directions can remove fallback demolition rights in selected locations, so check the site's designation before assuming a prior approval or permitted route still applies.</li></ul>
             </section>
             
 
@@ -1567,7 +1623,7 @@ width:100%;
 </section>
 
 
-<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="inverclyde" data-official-sources-count="4">
+<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="inverclyde" data-official-sources-count="3">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
 <p class="section-lead">Use these official links to verify the local position once the answer above is narrowed.</p>
@@ -1586,11 +1642,6 @@ width:100%;
 <a class="official-source-link" href="https://www.mygov.scot/planning-permission">
 <strong>mygov.scot: do I need planning permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
-</a>
-
-<a class="official-source-link" href="https://www.inverclyde.gov.uk/planning-and-the-environment/planning-applications/applying-for-planning-permission">
-<strong>Applying for Planning Permission</strong>
-<span>Pre-application advice | Last reviewed 5 April 2026 | Best live authority page found covering pre-application consultation and officer advice before submission.</span>
 </a>
 
 </div>

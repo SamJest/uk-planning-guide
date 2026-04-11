@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1233,29 +1289,29 @@ width:100%;
 <section class="hero">
 <span class="badge">Local rule guide</span>
 <h1>Height Limits In Ashford</h1>
-<p>Use this page when height is the rule most likely to change the answer in Ashford, not the project type on its own. It pulls the local rule signal into one place so you can move from a vague concern to a practical next step more quickly.</p>
+<p>For many sites in Ashford, height is the rule that settles the route faster than the project label on its own. It pulls the local rule signal into one place so you can move from a vague concern to a practical next step more quickly.</p>
 <div class="tool-result">
-<strong>Quick answer:</strong> Development must comply with national permitted development height limits.
+<strong>Quick answer:</strong> Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.
 </div>
 </section>
 
 
 <section class="situation-summary" id="scenario-summary">
-<span class="eyebrow">Personalised view</span>
-<h2>Your Situation Summary</h2>
+<span class="eyebrow">Working view</span>
+<h2>What This Means On A Typical Site</h2>
 <ul class="checklist"><li><strong>Assumed setup:</strong> Garden Room Planning Permission on a family house with a usable rear garden in Ashford.</li><li><strong>Likely permission position:</strong> Higher chance a formal permission route or certificate check will be needed.</li><li><strong>Likely key constraint:</strong> The live issue is usually conservation areas.</li><li><strong>Likely risk level:</strong> High.</li><li><strong>What to check next:</strong> Confirm whether conservation areas, listed buildings changes the route before you rely on the baseline answer.</li></ul>
 </section>
 
 
 <section class="page-jump-links">
 <span class="eyebrow">Jump to what matters</span>
-<h2>Read This Rule Page In The Order That Saves You Time</h2>
+<h2>How To Read This Page Quickly</h2>
 <div class="link-grid">
-<a href="#scenario-summary">Start with the likely position for height limits in Ashford</a>
+<a href="#scenario-summary">Start with the practical local read for height limits in Ashford</a>
 <a href="#scenario-signal">See the local signals that usually change the answer</a>
 <a href="#scenario-decision-guide">Check when this rule stays manageable and when it usually escalates</a>
 <a href="#scenario-faq">Read the most common follow-up questions</a>
-<a href="#scenario-next-steps">Open the best tools, comparisons and next pages</a>
+<a href="#scenario-next-steps">Open the best next pages once the blocker is clearer</a>
 <a href="#scenario-trust">Use the trust notes if the proposal is close to a limit</a>
 </div>
 </section>
@@ -1269,16 +1325,16 @@ width:100%;
 
 
 <section>
-<span class="eyebrow">Use this page when</span>
-<h2>What This Local Rule Page Is Designed To Resolve</h2>
+<span class="eyebrow">What this page helps settle</span>
+<h2>What This Local Rule Usually Decides</h2>
 <div class="answer-grid">
 <div class="answer-card">
 <h3>Searches this page matches</h3>
 <p>Useful when the real query sounds like height limits Ashford and you want a local answer rather than a generic rule summary.</p>
 </div>
 <div class="answer-card">
-<h3>What usually moves the answer</h3>
-<p>Development must comply with national permitted development height limits.</p>
+<h3>What most often changes the result</h3>
+<p>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</p>
 </div>
 <div class="answer-card">
 <h3>What to keep in view</h3>
@@ -1294,11 +1350,11 @@ width:100%;
 <div class="answer-grid">
 <div class="answer-card">
 <h3>Main local rule signal</h3>
-<p>Development must comply with national permitted development height limits.</p>
+<p>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</p>
 </div>
 <div class="answer-card">
 <h3>Restrictions worth checking</h3>
-<ul class='checklist'><li><strong>Conservation areas:</strong> Garden rooms in conservation areas may face stricter planning controls, particularly if the building affects the setting of historic properties or is visible from public viewpoints.</li><li><strong>Listed buildings:</strong> Garden rooms built within the curtilage of a listed building may require listed building consent in addition to any planning approval.</li><li><strong>Article 4 directions:</strong> applies to your property. Certain permitted development rights may have been removed where an Article 4 applies.</li></ul>
+<ul class='checklist'><li><strong>Conservation areas:</strong> Garden rooms in conservation areas and other designated land can face tighter controls, particularly where they are visible or affect the setting of the house.</li><li><strong>Listed buildings:</strong> Garden-room works within the curtilage of a listed building often require listed building consent as well as planning consideration.</li><li><strong>Article 4 directions:</strong> applies to your property. Certain permitted development rights may have been removed where an Article 4 applies.</li></ul>
 </div>
 <div class="answer-card">
 <h3>Why it matters</h3>
@@ -1328,7 +1384,7 @@ width:100%;
 </section>
 
 
-<section>
+<section id="scenario-next-steps">
 <span class="eyebrow">Best next routes</span>
 <h2>Open The Page That Matches The Remaining Question</h2>
 <div class="grid">
@@ -1336,7 +1392,7 @@ width:100%;
 <a class="card" href="/garden-rooms/kent/ashford/">
 <div class="card-kicker">Local project guide</div>
 <h3>Garden Room in Ashford</h3>
-<p>Development must comply with national permitted development height limits.</p>
+<p>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</p>
 <span class="cta">Open project guide</span>
 </a>
 
@@ -1367,115 +1423,68 @@ width:100%;
 <section class="local-restrictions">
 <span class="eyebrow">Local restriction snapshot</span>
 <h2>Extra Local Checks For Ashford</h2>
-<ul class="checklist"><li><strong>Conservation areas:</strong> Garden rooms in conservation areas may face stricter planning controls, particularly if the building affects the setting of historic properties or is visible from public viewpoints.</li><li><strong>Listed buildings:</strong> Garden rooms built within the curtilage of a listed building may require listed building consent in addition to any planning approval.</li><li><strong>Article 4 directions:</strong> applies to your property. Certain permitted development rights may have been removed where an Article 4 applies.</li></ul>
+<ul class="checklist"><li><strong>Conservation areas:</strong> Garden rooms in conservation areas and other designated land can face tighter controls, particularly where they are visible or affect the setting of the house.</li><li><strong>Listed buildings:</strong> Garden-room works within the curtilage of a listed building often require listed building consent as well as planning consideration.</li><li><strong>Article 4 directions:</strong> applies to your property. Certain permitted development rights may have been removed where an Article 4 applies.</li></ul>
+</section>
+
+
+<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="scenario" data-official-sources-authority="ashford" data-official-sources-count="5">
+<span class="eyebrow">Official sources</span>
+<h2>Official Sources Worth Checking</h2>
+<p class="section-lead">Use these official links to verify the local rule position without turning this page into a directory.</p>
+<div class="official-sources-list">
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent">
+<strong>Planning Portal: householder planning consent</strong>
+<span>Householder guidance | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/">
+<strong>Planning Portal: permitted development rights</strong>
+<span>Permitted development | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission">
+<strong>Planning Portal: do you need planning permission?</strong>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+</a>
+
+<a class="official-source-link" href="https://www.ashford.gov.uk/planning-and-development/our-planning-policies/planning-guidance-and-design-statements/">
+<strong>Planning Guidance and Design Statements</strong>
+<span>Design guide | Last reviewed 5 April 2026 | Gateway page for adopted SPDs and other design/planning guidance supporting the Ashford Local Plan.</span>
+</a>
+
+<a class="official-source-link" href="https://www.ashford.gov.uk/planning-and-development/planning-applications/pre-application-advice/">
+<strong>Pre-Application Advice</strong>
+<span>Pre-application advice | Last reviewed 5 April 2026 | Official pre-application service page including listed buildings and Kent Highways considerations.</span>
+</a>
+
+</div>
 </section>
 
 
 <section class="rule-interpretation">
 <span class="eyebrow">Interpretation</span>
 <h2>What this planning rule changes for garden room planning permission in Ashford</h2>
-<p>Development must comply with national permitted development height limits.</p>
+<p>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</p>
 <p>For height limits questions in Ashford, this rule often decides whether the route stays simple or needs a closer check.</p>
 <p>The exact effect still depends on the site, neighbouring context, previous alterations and how close the design is to a hard limit.</p>
 <p>In Ashford, this rule is most useful when it pushes you toward a clearer next step rather than a guess.</p>
 </section>
 
 
-
-<div class="card">
-
-<h2>Height Rules</h2>
-
-<p>Development must comply with national permitted development height limits.</p>
-
-
-<p>
-Height limits exist to prevent extensions or roof alterations from
-overpowering neighbouring properties or significantly changing the
-character of the surrounding area. Planning officers typically assess
-whether the proposed structure would appear dominant or intrusive
-when viewed from neighbouring homes or public spaces.
-</p>
-
-<p>
-Even where a development falls within permitted development limits,
-larger structures may still require careful design to avoid overlooking
-or overshadowing nearby properties.
-</p>
-
-
-</div>
-
-
-<div class="card">
-
-<h2>Boundary Rules</h2>
-
-<p>A Neighbourhood Plan covers a geographic area and can be taken forward by town and parish councils or &#x27;neighbourhood forums&#x27;. A Neighbourhood Plan, if approved, becomes part of the statutory development plan for that area and will be used in determining planning applications. Several parishes in the borough have prepared their own Neighbourhood Plans which once &#x27;made&#x27; form part of the Development Plan.</p>
-
-
-<p>
-Boundary distance rules help protect neighbouring properties from
-overshadowing, overlooking, and overbearing development. Structures
-built very close to boundaries are subject to stricter height limits
-to minimise their visual impact.
-</p>
-
-
-</div>
-
-
-<div class="card">
-
-<h2>Roof Alterations</h2>
-
-<p>charge. Proof of disability will be required i.e. disability allowance, blue badge or Doctor’s note.</p>
-
-
-<p>
-Roof alteration limits control the size of dormers and other roof
-extensions to ensure that changes remain visually subordinate to the
-original roof. Excessively large roof alterations may require planning
-permission even if other elements of the development fall within
-permitted development rights.
-</p>
-
-
-</div>
-
-
-<div class="card">
-
-<h2>Materials</h2>
-
-<p>Materials should be similar in appearance to the existing house.</p>
-
-
-<p>
-Materials used in extensions or roof alterations should normally
-match the appearance of the existing building. This helps maintain
-a consistent streetscape and ensures new development blends with
-the surrounding area.
-</p>
-
-
-</div>
-
-
-<div class="card">
-
-<h2>Local Planning Restrictions</h2>
-
-<p>Garden rooms in conservation areas may face stricter planning controls, particularly if the building affects the setting of historic properties or is visible from public viewpoints.</p><p>Garden rooms built within the curtilage of a listed building may require listed building consent in addition to any planning approval.</p><p>Article 4 directions may remove permitted development rights in some areas. applies to your property. Certain permitted development rights may have been removed where an Article 4 applies.</p>
-
-</div>
+<section class="rule-detail">
+<span class="eyebrow">Rule detail</span>
+<h2>Height rule detail</h2>
+<p>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</p>
+<ul class='checklist'><li><strong>Conservation areas:</strong> Garden rooms in conservation areas and other designated land can face tighter controls, particularly where they are visible or affect the setting of the house.</li><li><strong>Listed buildings:</strong> Garden-room works within the curtilage of a listed building often require listed building consent as well as planning consideration.</li><li><strong>Article 4 directions:</strong> applies to your property. Certain permitted development rights may have been removed where an Article 4 applies.</li></ul>
+</section>
 
 
 <section class="self-check">
 <span class="eyebrow">Self-check</span>
 <h2>What To Check Before You Rely On This Rule</h2>
 <ul class="checklist">
-<li>Development must comply with national permitted development height limits.</li>
+<li>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</li>
 <li>Review local controls such as conservation areas, listed buildings before relying on the general rule.</li>
 <li>If the design is close to a limit, prepare measured drawings and consider written confirmation before work starts in Ashford.</li>
 </ul>
@@ -1485,7 +1494,7 @@ the surrounding area.
 <section class="tool-cta">
 <span class="eyebrow">Use the tools</span>
 <h2>Need A Faster First Answer?</h2>
-<p>These tools work best when the route still feels mixed and you want a more personalised first steer before opening more pages.</p>
+<p>These tools work best when the route is still unresolved and you want a more personalised first steer before opening more pages.</p>
 <div class="grid-tight">
 
 <a class="card" href="/tools/planning-decision-tool/">
@@ -1513,28 +1522,28 @@ the surrounding area.
 <a class="card" href="/garden-rooms/kent/ashford/">
 <div class="card-kicker">Local project guide</div>
 <h3>Garden Room in Ashford</h3>
-<p>Development must comply with national permitted development height limits.</p>
+<p>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/house-extensions/kent/ashford/">
 <div class="card-kicker">Local project guide</div>
 <h3>House Extension in Ashford</h3>
-<p>Development must comply with national permitted development height limits.</p>
+<p>Height must stay within the Class A limits, with special care over eaves near boundaries and any two-storey work that approaches the existing roof line.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/loft-conversions/kent/ashford/">
 <div class="card-kicker">Local project guide</div>
 <h3>Loft Conversion in Ashford</h3>
-<p>Development must comply with national permitted development height limits.</p>
+<p>No part of the enlargement should rise above the highest part of the existing roof. Raising the ridge usually moves the scheme out of permitted development.</p>
 <span class="cta">Open project guide</span>
 </a>
 
 <a class="card" href="/outbuildings/kent/ashford/">
 <div class="card-kicker">Local project guide</div>
 <h3>Outbuildings in Ashford</h3>
-<p>Development must comply with national permitted development height limits.</p>
+<p>A building that exceeds the normal Class E height envelope will usually need planning permission.</p>
 <span class="cta">Open project guide</span>
 </a>
 </div>
@@ -1591,7 +1600,7 @@ the surrounding area.
 <section class='decision-patterns'>
 <span class="eyebrow">Common tripwires</span>
 <h2>What Usually Makes These Projects Easier Or Harder</h2>
-<p>Development must comply with national permitted development height limits.</p>
+<p>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</p>
 <ul class="checklist"><li>In a mid-sized authority area, the deciding factor is often whether the proposal still looks routine once local policy and site context are layered in.</li><li>Straightforward schemes tend to progress better when the drawings clearly prove compliance with the height limits rule.</li><li>Borderline proposals in Ashford often need revision when the first design assumes too much flexibility.</li><li>Where the planning route is uncertain, written confirmation is usually cheaper than redesigning later.</li><li>Outbuilding-style projects usually stay simpler when the structure still reads as clearly secondary to the main house.</li></ul>
 </section>
 
@@ -1615,8 +1624,8 @@ the surrounding area.
 <section class='faq'>
 <span class="eyebrow">Frequently asked questions</span>
 <h2>Questions People Usually Ask At This Point</h2>
-<div class='faq-item'><h3>How does height limits affect projects in Ashford?</h3><p>Development must comply with national permitted development height limits.</p></div><div class='faq-item'><h3>Can the answer change because of local restrictions?</h3><p>Yes. Local designations can change the planning route or remove permitted development rights.</p></div><div class='faq-item'><h3>What is the safest next step if the proposal is close to the limit?</h3><p>Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts.</p></div><div class='faq-item'><h3>Where should I click next if height limits is the live issue?</h3><p>Open the matching project guide in Ashford, then compare the council page and the planning tools if the route still feels borderline.</p></div>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does height limits affect projects in Ashford?", "acceptedAnswer": {"@type": "Answer", "text": "Development must comply with national permitted development height limits."}}, {"@type": "Question", "name": "Can the answer change because of local restrictions?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Local designations can change the planning route or remove permitted development rights."}}, {"@type": "Question", "name": "What is the safest next step if the proposal is close to the limit?", "acceptedAnswer": {"@type": "Answer", "text": "Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts."}}, {"@type": "Question", "name": "Where should I click next if height limits is the live issue?", "acceptedAnswer": {"@type": "Answer", "text": "Open the matching project guide in Ashford, then compare the council page and the planning tools if the route still feels borderline."}}]}</script>
+<div class='faq-item'><h3>How does height limits affect projects in Ashford?</h3><p>Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.</p></div><div class='faq-item'><h3>Can the answer change because of local restrictions?</h3><p>Yes. Local designations can change the planning route or remove permitted development rights.</p></div><div class='faq-item'><h3>What is the safest next step if the proposal is close to the limit?</h3><p>Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts.</p></div><div class='faq-item'><h3>Where should I click next if height limits is the live issue?</h3><p>Open the matching project guide in Ashford, then compare the council page and the planning tools if the route still feels borderline.</p></div>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does height limits affect projects in Ashford?", "acceptedAnswer": {"@type": "Answer", "text": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate."}}, {"@type": "Question", "name": "Can the answer change because of local restrictions?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Local designations can change the planning route or remove permitted development rights."}}, {"@type": "Question", "name": "What is the safest next step if the proposal is close to the limit?", "acceptedAnswer": {"@type": "Answer", "text": "Prepare measured drawings, compare the relevant local project guide and consider written confirmation before work starts."}}, {"@type": "Question", "name": "Where should I click next if height limits is the live issue?", "acceptedAnswer": {"@type": "Answer", "text": "Open the matching project guide in Ashford, then compare the council page and the planning tools if the route still feels borderline."}}]}</script>
 </section>
 
 
@@ -1627,43 +1636,8 @@ the surrounding area.
 </section>
 
 
-<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="scenario" data-official-sources-authority="ashford" data-official-sources-count="5">
-<span class="eyebrow">Official sources</span>
-<h2>Official Sources Worth Checking</h2>
-<p class="section-lead">Use these official links to verify the local rule position without turning this page into a directory.</p>
-<div class="official-sources-list">
-
-<a class="official-source-link" href="https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent">
-<strong>Planning Portal: householder planning consent</strong>
-<span>Householder guidance | Last reviewed 5 April 2026</span>
-</a>
-
-<a class="official-source-link" href="https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/">
-<strong>Planning Portal: permitted development rights</strong>
-<span>Permitted development | Last reviewed 5 April 2026</span>
-</a>
-
-<a class="official-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission">
-<strong>Planning Portal: do you need planning permission?</strong>
-<span>Planning portal | Last reviewed 5 April 2026</span>
-</a>
-
-<a class="official-source-link" href="https://www.ashford.gov.uk/planning-and-development/our-planning-policies/planning-guidance-and-design-statements/">
-<strong>Planning Guidance and Design Statements</strong>
-<span>Design guide | Last reviewed 5 April 2026 | Gateway page for adopted SPDs and other design/planning guidance supporting the Ashford Local Plan.</span>
-</a>
-
-<a class="official-source-link" href="https://www.ashford.gov.uk/planning-and-development/planning-applications/pre-application-advice/">
-<strong>Pre-Application Advice</strong>
-<span>Pre-application advice | Last reviewed 5 April 2026 | Official pre-application service page including listed buildings and Kent Highways considerations.</span>
-</a>
-
-</div>
-</section>
-
-
 <section class="link-cluster">
-<span class="eyebrow">No dead ends</span>
+<span class="eyebrow">Where to look next</span>
 <h2>Useful Next Steps From This Rule Page</h2>
 <div class="grid-tight">
 
@@ -1697,35 +1671,6 @@ the surrounding area.
 </section>
 
 
-<section class="personalised-guidance-cta personalised-guidance-cta-compact" data-guidance-cta="scenario-page">
-<span class="eyebrow">Measurement check</span>
-<h2>Need A Threshold And Measurement Sense-Check?</h2>
-<p>If height limits is the live blocker for garden room planning permission in Ashford, use the personalised guidance route for a clearer read on the controlling measurements, the local tripwires and the safest next verification step.</p>
-<div class="hero-ctas guidance-actions">
-<a class="btn" href="mailto:ukplanningguide@gmail.com?subject=Personalised%20planning%20guidance%20enquiry%20-%20Height%20Limits%20in%20Ashford&amp;body=Hello%2C%0A%0AI%20would%20like%20some%20personalised%20planning%20guidance%20on%20this%20project%3A%0AProject%20or%20question%3A%20Height%20Limits%20in%20Ashford%0A%0AProperty%20type%3A%0ACouncil%20/%20local%20authority%20area%3A%0ATown%20or%20location%3A%0AWhat%20I%20want%20to%20build%20or%20change%3A%0AApproximate%20size%20/%20height%20/%20position%3A%0AListed%20building%20/%20conservation%20area%20/%20flat%20/%20maisonette%20details%20if%20relevant%3A%0APrevious%20extensions%20or%20outbuildings%20if%20relevant%3A%0AAnything%20I%20am%20especially%20worried%20about%3A%0A%0AOptional%3A%20anonymous%20themes%20from%20this%20enquiry%20may%20be%20used%20to%20improve%20future%20guides%20and%20FAQs%3A%20Yes%20/%20No" data-guidance-mailto="true">Email the rule question</a>
-<a class="btn button-secondary" href="/personalised-planning-guidance/">See how it works</a>
-</div>
-<div class="answer-grid guidance-cta-grid">
-<div class="answer-card">
-<h3>Best for</h3>
-<p>Rule-led questions where the route depends on one control such as height, boundary position, heritage or Article 4 rather than the project type alone.</p>
-</div>
-<div class="answer-card">
-<h3>What the reply aims to do</h3>
-<p>The reply aims to separate the controlling rule from the surrounding noise, explain what is most likely to change locally, and point you to the safest follow-up check.</p>
-</div>
-<div class="answer-card">
-<h3>What to include</h3>
-<p>Property type, council area, location, the change you want to make, approximate dimensions, relevant heritage or flat-related details, previous additions and the main concern.</p>
-</div>
-</div>
-<p class="guidance-disclaimer" data-guidance-disclaimer="true"><strong>Important:</strong> Replies are informational personalised guidance based on the details you provide and publicly available information. They are not formal legal, architectural, surveying or council advice. Site-specific or borderline cases may still need checking with the local authority or a qualified specialist before drawings, applications or contractor spend move ahead.</p>
-<p class="guidance-privacy-note" data-guidance-privacy="true">Your enquiry details are used to respond to your request. Anonymised themes may be used to improve guides, tools, FAQs and site content. Identifiable case details are not published without permission, and sending an enquiry does not sign you up to marketing emails. <a href="/privacy/">Privacy notice</a>.</p>
-<p class="guidance-consent-note">If you want, you can also say that anonymous themes from your enquiry may be used to improve future guides and FAQs. This is optional and does not affect whether you receive a reply.</p>
-</section>
-
-<section class='printable-guide'><h2>Need A Paper Trail?</h2><p>Print this page if you want a simple briefing note to review measurements, questions and next checks away from the screen.</p><button onclick='window.print()'>Print this planning guide</button></section>
-
 <section class="trust-framework">
 <span class="eyebrow">Trust and caveats</span>
 <h2>How To Use This Rule Page Responsibly</h2>
@@ -1757,6 +1702,34 @@ the surrounding area.
 </div>
 
 </div>
+</section>
+
+
+<section class="personalised-guidance-cta personalised-guidance-cta-compact" data-guidance-cta="scenario-page">
+<span class="eyebrow">Measurement check</span>
+<h2>Need A Threshold And Measurement Sense-Check?</h2>
+<p>If height limits is the live blocker for garden room planning permission in Ashford, use the personalised guidance route for a clearer read on the controlling measurements, the local tripwires and the safest next verification step.</p>
+<div class="hero-ctas guidance-actions">
+<a class="btn" href="mailto:ukplanningguide@gmail.com?subject=Personalised%20planning%20guidance%20enquiry%20-%20Height%20Limits%20in%20Ashford&amp;body=Hello%2C%0A%0AI%20would%20like%20some%20personalised%20planning%20guidance%20on%20this%20project%3A%0AProject%20or%20question%3A%20Height%20Limits%20in%20Ashford%0A%0AProperty%20type%3A%0ACouncil%20/%20local%20authority%20area%3A%0ATown%20or%20location%3A%0AWhat%20I%20want%20to%20build%20or%20change%3A%0AApproximate%20size%20/%20height%20/%20position%3A%0AListed%20building%20/%20conservation%20area%20/%20flat%20/%20maisonette%20details%20if%20relevant%3A%0APrevious%20extensions%20or%20outbuildings%20if%20relevant%3A%0AAnything%20I%20am%20especially%20worried%20about%3A%0A%0AOptional%3A%20anonymous%20themes%20from%20this%20enquiry%20may%20be%20used%20to%20improve%20future%20guides%20and%20FAQs%3A%20Yes%20/%20No" data-guidance-mailto="true">Email the rule question</a>
+<a class="btn button-secondary" href="/personalised-planning-guidance/">See how it works</a>
+</div>
+<div class="answer-grid guidance-cta-grid">
+<div class="answer-card">
+<h3>Best for</h3>
+<p>Rule-led questions where the route depends on one control such as height, boundary position, heritage or Article 4 rather than the project type alone.</p>
+</div>
+<div class="answer-card">
+<h3>What the reply aims to do</h3>
+<p>The reply aims to separate the controlling rule from the surrounding noise, explain what is most likely to change locally, and point you to the safest follow-up check.</p>
+</div>
+<div class="answer-card">
+<h3>What to include</h3>
+<p>Property type, council area, location, the change you want to make, approximate dimensions, relevant heritage or flat-related details, previous additions and the main concern.</p>
+</div>
+</div>
+<p class="guidance-disclaimer" data-guidance-disclaimer="true"><strong>Important:</strong> Replies are informational personalised guidance based on the details you provide and publicly available information. They are not formal legal, architectural, surveying or council advice. Site-specific or borderline cases may still need checking with the local authority or a qualified specialist before drawings, applications or contractor spend move ahead.</p>
+<p class="guidance-privacy-note" data-guidance-privacy="true">Your enquiry details are used to respond to your request. Anonymised themes may be used to improve guides, tools, FAQs and site content. Identifiable case details are not published without permission, and sending an enquiry does not sign you up to marketing emails. <a href="/privacy/">Privacy notice</a>.</p>
+<p class="guidance-consent-note">If you want, you can also say that anonymous themes from your enquiry may be used to improve future guides and FAQs. This is optional and does not affect whether you receive a reply.</p>
 </section>
 
 </main>

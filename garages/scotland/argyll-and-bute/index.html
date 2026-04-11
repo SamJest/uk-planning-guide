@@ -229,6 +229,53 @@ border-radius:999px;
 background:rgba(31,111,95,.35);
 }
 
+.editorial-trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:16px 0 22px;
+}
+
+.editorial-trust-strip span{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:10px 14px;
+font-size:13px;
+color:var(--ink-soft);
+background:rgba(247,241,232,.76);
+border:1px solid rgba(31,41,55,.08);
+border-radius:999px;
+box-shadow:var(--shadow-soft);
+}
+
+.editorial-proof-grid{
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+margin-top:18px;
+}
+
+.editorial-authority{
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
+border-color:rgba(31,111,95,.16);
+}
+
+.editorial-authority .section-lead{
+max-width:78ch;
+}
+
+.editorial-footing p,
+.editorial-escalation p{
+max-width:unset;
+}
+
+.editorial-source-link{
+font-weight:700;
+}
+
 section,
 .card{
 position:relative;
@@ -1167,6 +1214,15 @@ border-radius:18px;
 gap:8px;
 }
 
+.editorial-trust-strip{
+gap:8px;
+}
+
+.editorial-trust-strip span{
+width:100%;
+justify-content:flex-start;
+}
+
 .page-trust-strip span{
 gap:8px;
 }
@@ -1316,18 +1372,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Garage Height and Scale</h2>
-                <p>Detached domestic garages often follow the same broad planning logic as other outbuildings, with overall height, eaves height and roof form deciding whether the route stays simple.</p>
-                <ul class="rule-list"><li>Overall height and eaves height are usually the first measurements worth checking.</li><li>Single-storey forms are normally easier to justify than taller or more dominant structures.</li><li>A garage should usually remain clearly secondary to the main house.</li><li>The closer the building sits to a boundary, the more cautious the height design usually needs to be.</li></ul>
+                <h2>Garage height and form</h2>
+                <p>In England, detached domestic garages usually follow the outbuildings rules, so overall height, eaves height and whether the building stays single storey are the first checks.</p>
+                <ul class="rule-list"><li>Outbuildings and garages must be single storey to use the normal householder permitted development route.</li><li>Maximum eaves height is 2.5 metres.</li><li>Maximum overall height is 4 metres with a dual-pitched roof or 3 metres for any other roof form.</li><li>If the building is within 2 metres of a boundary, the maximum overall height is 2.5 metres.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Domestic garages can look straightforward on paper but still trigger planning questions when they feel too tall, too bulky or too close to the boundary. Simple single-storey designs with a subordinate roof profile usually stay on the easiest route, while taller ridge lines, dual use or overbearing massing are more likely to push the proposal toward a fuller planning check.</p>
+                <p>The national rules are fairly clear for garages used as incidental outbuildings. Height and roof form usually decide the answer early, especially on tight plots where the garage sits close to the boundary and any extra ridge height quickly makes it feel dominant.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> A garage that feels oversized, visually dominant, forward of the house or close to a sensitive boundary usually needs a closer planning review.
+                <strong>When this usually needs a closer check:</strong> A tall roof, lofted form or boundary-hugging structure that exceeds the 2.5 metre overall height rule near the boundary usually needs planning permission.
             </div>
             
             </section>
@@ -1335,18 +1391,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Garage Footprint and Position</h2>
-                <p>The overall footprint, siting within the curtilage and relationship to the original house can matter as much as the raw floor area.</p>
-                <ul class="rule-list"><li>Keep the garage within the domestic curtilage of the house.</li><li>The larger the footprint becomes, the more important site coverage and garden impact become.</li><li>Positioning behind or to the side of the main dwelling is usually easier than pushing a new garage forward.</li><li>Previous outbuildings or extensions can make the remaining allowance less generous than expected.</li></ul>
+                <h2>Footprint, coverage and position</h2>
+                <p>Garages can be permitted development, but the route depends on the building staying incidental, subordinate and sensibly placed within the curtilage of the house.</p>
+                <ul class="rule-list"><li>No outbuilding can be on land forward of a wall forming the principal elevation of the original house.</li><li>Outbuildings and other additions must not cover more than half the area of land around the original house.</li><li>The garage should remain an incidental domestic building rather than a separate dwelling or main-use building.</li><li>Plot coverage, frontage impact and the relationship to the original house matter as much as raw floor area.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Garage proposals are often judged as part of the wider pattern of development around the house. A modest structure in a logical position is easier to defend than a garage that consumes a large share of the site or competes with the main dwelling. The safest route is usually to assess the whole curtilage rather than looking at the garage in isolation.</p>
+                <p>A garage that sits comfortably behind or beside the house is usually easier than one that takes over the front part of the plot. The national test is not just whether a garage fits physically, but whether it still reads as a supporting domestic building within the remaining curtilage allowance.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> A garage that materially increases site coverage or sits awkwardly in the front part of the plot often needs planning permission.
+                <strong>When this usually needs a closer check:</strong> A forward garage, overdeveloped plot or building that no longer feels incidental can fall outside permitted development even before local design issues are assessed.
             </div>
             
             </section>
@@ -1354,18 +1410,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Boundary, Access and Neighbour Impact</h2>
-                <p>Boundary proximity, neighbour impact and access arrangements are recurring planning pressure points for new garages.</p>
-                <ul class="rule-list"><li>Boundary distance matters because height and massing feel more sensitive when the garage sits close to a neighbour.</li><li>Vehicle access, turning space and visibility can affect whether the design looks practical from a highways point of view.</li><li>Garages near the front of the site often face a closer visual and street-scene review.</li><li>Projects tied to a new crossover or dropped kerb may need a separate highways check.</li></ul>
+                <h2>Boundary, access and use limits</h2>
+                <p>Boundary position is not the only issue for garages. Access arrangements and the actual use of the building can change the planning answer quickly.</p>
+                <ul class="rule-list"><li>Garages using the outbuildings route must be for purposes incidental to the enjoyment of the dwellinghouse.</li><li>Use as separate self-contained living accommodation is not covered by the normal outbuilding permitted development rights.</li><li>Vehicle access, crossovers and visibility at the highway edge can require separate highway approval even where the garage building itself is acceptable.</li><li>Neighbour impact becomes more sensitive where the garage is close to the boundary or creates a more dominant frontage.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Many garage schemes become harder when they are squeezed into a boundary corner or front garden location. Even if the structure itself looks small, the combined impact of access, parking layout, screening and neighbour relationship can change the planning route. It is usually better to review the garage and the access arrangement together.</p>
+                <p>Many garage proposals succeed or fail on the combined story of building position, access and intended use. A modest domestic garage is one thing; a structure that behaves like a workshop, annex or heavily engineered frontage is another.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Boundary-hugging garages, front-of-house siting and proposals that depend on a new vehicle access often trigger a fuller check.
+                <strong>When this usually needs a closer check:</strong> A garage linked to a new crossover, a constrained highway arrangement or quasi-residential use often needs a fuller consent review.
             </div>
             
             </section>
@@ -1373,18 +1429,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Garage Roof Form</h2>
-                <p>The roof shape can make a garage feel modest and subordinate or overly prominent compared with the main house.</p>
-                <ul class="rule-list"><li>Low-profile roof forms are usually easier to keep subordinate.</li><li>Steeper pitches or more complex roof forms can push the overall height up quickly.</li><li>Rooflights, dormer-style additions or storage space above the garage can change the planning answer.</li><li>Detached garages should usually avoid looking like a second dwelling or independent living space.</li></ul>
+                <h2>Roof shape and ancillary volume</h2>
+                <p>Roof design matters because a garage can stop looking incidental once the roof creates extra volume, storage intensity or the impression of accommodation.</p>
+                <ul class="rule-list"><li>A dual-pitched roof can reach 4 metres overall height, but only if the other outbuilding limits are still met.</li><li>Any other roof form is limited to 3 metres overall height unless the boundary rule forces a lower 2.5 metre maximum.</li><li>Raised platforms, balconies and verandas are not allowed under the standard outbuilding route.</li><li>Simple subordinate roofs are usually easier than forms that suggest a room-in-the-roof or a second layer of use.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Garage roofs are often where a seemingly simple outbuilding becomes more contentious. Once the roof starts to create significant internal volume, visual bulk or the appearance of accommodation above, councils are more likely to treat the proposal as something more substantial than a basic domestic garage.</p>
+                <p>The safest garage roofs are usually the ones that keep the building obviously secondary to the house. Once the roof profile starts chasing extra internal volume, the planning case gets weaker and neighbours are more likely to see the building as overbearing.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Anything that suggests habitable space, excessive roof bulk or a separate residential use usually needs a closer review.
+                <strong>When this usually needs a closer check:</strong> Complex roof forms, over-tall ridges or any design hinting at habitable first-floor space can push the garage beyond the simple route.
             </div>
             
             </section>
@@ -1392,18 +1448,18 @@ width:100%;
 
             <section class="rule-card national-rule">
                 <span class="eyebrow">Scottish rule baseline</span>
-                <h2>Materials and Appearance</h2>
-                <p>Domestic garages usually work best when the external materials and detailing feel related to the main house without trying to overpower it.</p>
-                <ul class="rule-list"><li>Walling and roofing materials should sit comfortably with the host dwelling.</li><li>Garage doors, openings and boundary treatment should not dominate the frontage.</li><li>Simple detailing is often easier to justify than a highly assertive design.</li><li>Visible front-facing garages usually receive a closer appearance check.</li></ul>
+                <h2>Appearance and designated land controls</h2>
+                <p>Materials do not usually decide the legal route on their own, but finish, door treatment and visibility still affect whether a garage feels subordinate and domestic.</p>
+                <ul class="rule-list"><li>Garages are usually easiest where the materials sit comfortably with the house and garden setting.</li><li>On designated land, buildings at the side of the house need extra care because side outbuildings are not covered in the same way.</li><li>Within the curtilage of a listed building, any outbuilding will require planning permission.</li><li>Large door openings, industrial finishes or overt workshop detailing can make the building feel less clearly domestic.</li></ul>
                 
             <details class="rule-details">
                 <summary>Why this rule matters</summary>
-                <p>Appearance still matters even where a garage is primarily judged on scale and siting. Matching or complementary materials generally make the structure easier to defend, especially in visually sensitive streets or areas with a stronger design character. The more visible the garage is from public views, the more important this becomes.</p>
+                <p>A simple garage built in a domestic palette is usually easier to justify than one that reads as a commercial unit or second focal building. The design point becomes sharper on designated land and around listed buildings, where visibility and character carry more weight.</p>
             </details>
             
                 
             <div class="rule-exceptions">
-                <strong>When this usually needs a closer check:</strong> Prominent front-facing garages or designs that jar with the house and street scene are more likely to need planning permission.
+                <strong>When this usually needs a closer check:</strong> Side outbuildings on designated land, listed-building curtilage sites or harsh commercial-looking finishes often need a closer planning review.
             </div>
             
             </section>
@@ -1412,7 +1468,7 @@ width:100%;
             <section class="planning-restrictions">
                 <span class="eyebrow">Local restriction signals</span>
                 <h2>Important Planning Restrictions</h2>
-                <ul><li><strong>Conservation areas:</strong> Garages in conservation areas often receive closer scrutiny where they affect the character or appearance of the area, especially in visible positions.</li><li><strong>Listed buildings:</strong> Works affecting a listed building or its setting usually need a more careful planning and listed building consent review.</li></ul>
+                <ul><li><strong>Conservation areas:</strong> Garages in conservation areas are more sensitive where they affect visible front or side parts of the plot, remove openness or compete with the house in the street scene.</li><li><strong>Listed buildings:</strong> Within the curtilage of a listed building, a domestic garage will usually need planning permission and may also need a more careful heritage-led design assessment.</li><li><strong>Article 4 directions:</strong> Article 4 directions and site-specific conditions can remove normal outbuilding rights, particularly on planned estates, heritage areas and visually controlled frontages.</li></ul>
             </section>
             
 
