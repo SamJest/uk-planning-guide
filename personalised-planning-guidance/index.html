@@ -1321,7 +1321,7 @@ width:100%;
 <h2>Get A Practical Plain-English Steer On Your Specific Planning Question</h2>
 <p>If your case feels too specific for a broad guide but too early for expensive formal work, this is the light-friction next step. Send over the details by email and get a tailored steer on the likely route, what may change it locally and what to verify next.</p>
 <div class="hero-ctas guidance-actions">
-<a class="btn" href="/personalised-planning-guidance/request/" data-guidance-form-link="true">Start the email checklist</a>
+<a class="btn" href="/personalised-planning-guidance/request/?context_label=dedicated-page-top&context=specific+planning+question" data-guidance-form-link="true">Start the email checklist</a>
 <a class="btn button-secondary" href="#guidance-what-to-send">See what to send</a>
 </div>
 <div class="answer-grid guidance-cta-grid">
@@ -1665,7 +1665,7 @@ Optional: anonymous themes from this enquiry may be used to improve future guide
 <h2>Ready To Email The Details?</h2>
 <p>Use the checklist below, keep the message concise, and send enough detail to show why your case may not fit a broad one-size-fits-all answer.</p>
 <div class="hero-ctas guidance-actions">
-<a class="btn" href="/personalised-planning-guidance/request/" data-guidance-form-link="true">Start the email checklist</a>
+<a class="btn" href="/personalised-planning-guidance/request/?context_label=dedicated-page-bottom&context=ready+to+email" data-guidance-form-link="true">Start the email checklist</a>
 <a class="btn button-secondary" href="/privacy/">Read privacy notice</a>
 </div>
 <div class="answer-grid guidance-cta-grid">
@@ -1787,6 +1787,72 @@ Optional: anonymous themes from this enquiry may be used to improve future guide
       window.location.assign(successUrl);
     });
   });
+
+  function emitGaEvent(eventName, params) {
+    if (typeof window.gtag !== "function") {
+      return;
+    }
+    window.gtag("event", eventName, params || {});
+  }
+
+  document.querySelectorAll("form[data-guidance-form]").forEach(function (form) {
+    const params = new URLSearchParams(window.location.search);
+    Array.from(form.elements || []).forEach(function (field) {
+      if (!field || !field.name || params.get(field.name) === null || field.value) {
+        return;
+      }
+      field.value = params.get(field.name) || "";
+    });
+  });
+
+  const landingCta = document.querySelector("[data-landing-cta='true']");
+  if (landingCta) {
+    const landingParams = {
+      page_family: landingCta.getAttribute("data-page-family") || "",
+      project_slug: landingCta.getAttribute("data-project-slug") || "",
+      scenario_slug: landingCta.getAttribute("data-scenario-slug") || "",
+      authority_slug: landingCta.getAttribute("data-authority-slug") || "",
+      cta_variant: landingCta.getAttribute("data-cta-variant") || ""
+    };
+
+    landingCta.addEventListener("click", function (event) {
+      const link = event.target && event.target.closest ? event.target.closest("[data-landing-cta-role]") : null;
+      if (!link) {
+        return;
+      }
+      const role = link.getAttribute("data-landing-cta-role") || "";
+      const eventMap = {
+        tool: "landing_cta_tool_click",
+        guidance: "landing_cta_guidance_click",
+        secondary: "landing_cta_secondary_click"
+      };
+      const eventName = eventMap[role];
+      if (!eventName) {
+        return;
+      }
+      emitGaEvent(eventName, Object.assign({}, landingParams, {
+        cta_target: link.getAttribute("data-landing-cta-target") || link.getAttribute("href") || "",
+      }));
+    });
+
+    const scrollEvents = { 50: false, 90: false };
+    function checkLandingScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      const percent = (window.scrollY / maxScroll) * 100;
+      if (!scrollEvents[50] && percent >= 50) {
+        scrollEvents[50] = true;
+        emitGaEvent("landing_scroll_50", landingParams);
+      }
+      if (!scrollEvents[90] && percent >= 90) {
+        scrollEvents[90] = true;
+        emitGaEvent("landing_scroll_90", landingParams);
+      }
+    }
+
+    window.addEventListener("scroll", checkLandingScroll, { passive: true });
+    checkLandingScroll();
+  }
 
   function cloneTemplate(id) {
     const template = document.getElementById(id);

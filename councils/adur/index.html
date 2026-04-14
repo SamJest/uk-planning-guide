@@ -1340,6 +1340,39 @@ width:100%;
 </section>
 
 
+<section class="landing-handoff" id="landing-next-step" data-landing-cta="true" data-page-family="council" data-authority-slug="adur" data-project-slug="" data-scenario-slug="" data-cta-variant="general_route">
+<span class="eyebrow">Next move</span>
+<h2>The Fastest Next Step If You Want A More Useful Answer Quickly</h2>
+<p class="section-lead">Use one of these next moves while the route question is still broad enough to benefit from a single clearer handoff.</p>
+<div class="grid">
+
+<a class="card" href="/tools/planning-decision-tool/" data-landing-cta-role="tool" data-landing-cta-target="/tools/planning-decision-tool/">
+<div class="card-kicker">Primary tool</div>
+<h3>Run the planning decision tool</h3>
+<p>Use the planning decision tool when you want the fastest route-level answer before opening more local pages.</p>
+<span class="cta">Open tool</span>
+</a>
+
+
+<a class="card" href="/personalised-planning-guidance/request/?context_label=landing-general_route&amp;context=Planning+permission+in+Adur&amp;authority=Adur&amp;location=Adur&amp;project_stage=Just+exploring+the+route&amp;project_summary=Planning+permission+route+in+Adur&amp;main_worry=Use+personalised+guidance+if+the+broad+route+is+clearer+than+before%2C+but+the+local+tripwires+and+safest+next+formal+check+still+are+not." data-landing-cta-role="guidance" data-landing-cta-target="/personalised-planning-guidance/request/?context_label=landing-general_route&amp;context=Planning+permission+in+Adur&amp;authority=Adur&amp;location=Adur&amp;project_stage=Just+exploring+the+route&amp;project_summary=Planning+permission+route+in+Adur&amp;main_worry=Use+personalised+guidance+if+the+broad+route+is+clearer+than+before%2C+but+the+local+tripwires+and+safest+next+formal+check+still+are+not.">
+<div class="card-kicker">Primary guidance</div>
+<h3>Get a clearer read on the local route</h3>
+<p>Use personalised guidance if the local authority layer is clearer than before, but the safest next page or formal check still is not.</p>
+<span class="cta">Start guidance</span>
+</a>
+
+
+<a class="card" href="/driveways/west-sussex/adur/" data-landing-cta-role="secondary" data-landing-cta-target="/driveways/west-sussex/adur/">
+<div class="card-kicker">Best local follow-up</div>
+<h3>Open Driveway in Adur</h3>
+<p>Use the strongest local project guide if the build type is already clear.</p>
+<span class="cta">Open follow-up</span>
+</a>
+
+</div>
+</section>
+
+
 <section class="editorial-authority" id="editorial-authority" data-editorial-authority="true" data-editorial-path="/councils/adur/" data-editorial-family="council">
 <span class="eyebrow">Editorial authority</span>
 <h2>What Was Checked Before This Page Was Published</h2>
@@ -1649,6 +1682,34 @@ width:100%;
 </section>
 
 
+<section class="personalised-guidance-cta personalised-guidance-cta-compact" data-guidance-cta="council-page">
+<span class="eyebrow">Local route check</span>
+<h2>Need A Cleaner Local Route Call For Adur?</h2>
+<p>If the route in Adur is clearer than before but you still need help choosing between the authority layer, driveway or a formal next step, use personalised guidance for a cleaner steer.</p>
+<div class="hero-ctas guidance-actions">
+<a class="btn" href="/personalised-planning-guidance/request/?context_label=council-page&context=Planning+permission+in+Adur&authority=Adur&location=Adur&project_stage=Just+exploring+the+route&project_summary=Planning+permission+route+in+Adur&main_worry=If+the+route+in+Adur+is+clearer+than+before+but+you+still+need+help+choosing+between+the+authority+layer%2C+driveway+or+a+formal+next+step%2C+use+personalised+guidance+for+a+cleaner+steer." data-guidance-form-link="true">Email the local case details</a>
+<a class="btn button-secondary" href="/personalised-planning-guidance/">See how it works</a>
+</div>
+<div class="answer-grid guidance-cta-grid">
+<div class="answer-card">
+<h3>Best for</h3>
+<p>Location-sensitive questions where the broad answer is less important than the right local page, authority context or formal next step.</p>
+</div>
+<div class="answer-card">
+<h3>What the reply aims to do</h3>
+<p>The reply aims to narrow the local route, highlight the authority or site details most likely to move the answer, and show which check is worth doing next.</p>
+</div>
+<div class="answer-card">
+<h3>What to include</h3>
+<p>Property type, council area, location, the change you want to make, approximate dimensions, relevant heritage or flat-related details, previous additions and the main concern.</p>
+</div>
+</div>
+<p class="guidance-disclaimer" data-guidance-disclaimer="true"><strong>Important:</strong> Replies are informational personalised guidance based on the details you provide and publicly available information. They are not formal legal, architectural, surveying or council advice. Site-specific or borderline cases may still need checking with the local authority or a qualified specialist before drawings, applications or contractor spend move ahead.</p>
+<p class="guidance-privacy-note" data-guidance-privacy="true">Your enquiry details are used to respond to your request. Anonymised themes may be used to improve guides, tools, FAQs and site content. Identifiable case details are not published without permission, and sending an enquiry does not sign you up to marketing emails. <a href="/privacy/">Privacy notice</a>.</p>
+<p class="guidance-consent-note">If you want, you can also say that anonymous themes from your enquiry may be used to improve future guides and FAQs. This is optional and does not affect whether you receive a reply.</p>
+</section>
+
+
 <section>
 <span class="eyebrow">Useful local rule guides</span>
 <h2>The Rule Pages Most Likely To Answer The Follow-Up Question</h2>
@@ -1857,6 +1918,72 @@ Conservation Area Restrictions in Adur
       window.location.assign(successUrl);
     });
   });
+
+  function emitGaEvent(eventName, params) {
+    if (typeof window.gtag !== "function") {
+      return;
+    }
+    window.gtag("event", eventName, params || {});
+  }
+
+  document.querySelectorAll("form[data-guidance-form]").forEach(function (form) {
+    const params = new URLSearchParams(window.location.search);
+    Array.from(form.elements || []).forEach(function (field) {
+      if (!field || !field.name || params.get(field.name) === null || field.value) {
+        return;
+      }
+      field.value = params.get(field.name) || "";
+    });
+  });
+
+  const landingCta = document.querySelector("[data-landing-cta='true']");
+  if (landingCta) {
+    const landingParams = {
+      page_family: landingCta.getAttribute("data-page-family") || "",
+      project_slug: landingCta.getAttribute("data-project-slug") || "",
+      scenario_slug: landingCta.getAttribute("data-scenario-slug") || "",
+      authority_slug: landingCta.getAttribute("data-authority-slug") || "",
+      cta_variant: landingCta.getAttribute("data-cta-variant") || ""
+    };
+
+    landingCta.addEventListener("click", function (event) {
+      const link = event.target && event.target.closest ? event.target.closest("[data-landing-cta-role]") : null;
+      if (!link) {
+        return;
+      }
+      const role = link.getAttribute("data-landing-cta-role") || "";
+      const eventMap = {
+        tool: "landing_cta_tool_click",
+        guidance: "landing_cta_guidance_click",
+        secondary: "landing_cta_secondary_click"
+      };
+      const eventName = eventMap[role];
+      if (!eventName) {
+        return;
+      }
+      emitGaEvent(eventName, Object.assign({}, landingParams, {
+        cta_target: link.getAttribute("data-landing-cta-target") || link.getAttribute("href") || "",
+      }));
+    });
+
+    const scrollEvents = { 50: false, 90: false };
+    function checkLandingScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      const percent = (window.scrollY / maxScroll) * 100;
+      if (!scrollEvents[50] && percent >= 50) {
+        scrollEvents[50] = true;
+        emitGaEvent("landing_scroll_50", landingParams);
+      }
+      if (!scrollEvents[90] && percent >= 90) {
+        scrollEvents[90] = true;
+        emitGaEvent("landing_scroll_90", landingParams);
+      }
+    }
+
+    window.addEventListener("scroll", checkLandingScroll, { passive: true });
+    checkLandingScroll();
+  }
 
   function cloneTemplate(id) {
     const template = document.getElementById(id);

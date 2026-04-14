@@ -1298,6 +1298,7 @@ width:100%;
 <span class="badge">Local search guide</span>
 <h1>Planning Permission In Watford</h1>
 <p>This page is built for searches about planning permission in Watford, where the aim is to get the local route, the main tripwires and the right deeper page on one screen.</p>
+<p>If the search is still broad in Watford, open the authority guide first, then follow the project or topic page that resolves the remaining doubt fastest.</p>
 <div class="last-updated">Updated April 2026</div>
 </section>
 
@@ -1315,7 +1316,7 @@ width:100%;
 </div>
 <div class="answer-card">
 <h3>Best next step</h3>
-<p>Start with the authority page if the search is still broad, then move into the strongest project or planning topic page once the real blocker is clearer.</p>
+<p>Start with the authority page if the search is still broad, then move into the strongest project or planning topic page as soon as the real blocker is clearer.</p>
 </div>
 </div>
 </section>
@@ -1466,7 +1467,7 @@ width:100%;
 <h2>Need A More Tailored Local Steer By Email?</h2>
 <p>If the route in Watford looks especially location-sensitive, email the case details for a practical plain-English steer on the likely route, the local tripwires and what to verify next.</p>
 <div class="hero-ctas guidance-actions">
-<a class="btn" href="/personalised-planning-guidance/request/" data-guidance-form-link="true">Email the local case details</a>
+<a class="btn" href="/personalised-planning-guidance/request/?context_label=local-search&context=Planning+Permission+In+Watford" data-guidance-form-link="true">Email the local case details</a>
 <a class="btn button-secondary" href="/personalised-planning-guidance/">See how it works</a>
 </div>
 <div class="answer-grid guidance-cta-grid">
@@ -1611,6 +1612,72 @@ width:100%;
       window.location.assign(successUrl);
     });
   });
+
+  function emitGaEvent(eventName, params) {
+    if (typeof window.gtag !== "function") {
+      return;
+    }
+    window.gtag("event", eventName, params || {});
+  }
+
+  document.querySelectorAll("form[data-guidance-form]").forEach(function (form) {
+    const params = new URLSearchParams(window.location.search);
+    Array.from(form.elements || []).forEach(function (field) {
+      if (!field || !field.name || params.get(field.name) === null || field.value) {
+        return;
+      }
+      field.value = params.get(field.name) || "";
+    });
+  });
+
+  const landingCta = document.querySelector("[data-landing-cta='true']");
+  if (landingCta) {
+    const landingParams = {
+      page_family: landingCta.getAttribute("data-page-family") || "",
+      project_slug: landingCta.getAttribute("data-project-slug") || "",
+      scenario_slug: landingCta.getAttribute("data-scenario-slug") || "",
+      authority_slug: landingCta.getAttribute("data-authority-slug") || "",
+      cta_variant: landingCta.getAttribute("data-cta-variant") || ""
+    };
+
+    landingCta.addEventListener("click", function (event) {
+      const link = event.target && event.target.closest ? event.target.closest("[data-landing-cta-role]") : null;
+      if (!link) {
+        return;
+      }
+      const role = link.getAttribute("data-landing-cta-role") || "";
+      const eventMap = {
+        tool: "landing_cta_tool_click",
+        guidance: "landing_cta_guidance_click",
+        secondary: "landing_cta_secondary_click"
+      };
+      const eventName = eventMap[role];
+      if (!eventName) {
+        return;
+      }
+      emitGaEvent(eventName, Object.assign({}, landingParams, {
+        cta_target: link.getAttribute("data-landing-cta-target") || link.getAttribute("href") || "",
+      }));
+    });
+
+    const scrollEvents = { 50: false, 90: false };
+    function checkLandingScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      const percent = (window.scrollY / maxScroll) * 100;
+      if (!scrollEvents[50] && percent >= 50) {
+        scrollEvents[50] = true;
+        emitGaEvent("landing_scroll_50", landingParams);
+      }
+      if (!scrollEvents[90] && percent >= 90) {
+        scrollEvents[90] = true;
+        emitGaEvent("landing_scroll_90", landingParams);
+      }
+    }
+
+    window.addEventListener("scroll", checkLandingScroll, { passive: true });
+    checkLandingScroll();
+  }
 
   function cloneTemplate(id) {
     const template = document.getElementById(id);
