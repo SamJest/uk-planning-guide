@@ -31,7 +31,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
 <link rel="manifest" href="/assets/site.webmanifest?v=20260327">
 <meta name="theme-color" content="#f3eee5">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Rear Extension in Hart: planning rules", "url": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart/", "description": "Check rear extension in Hart. See whether local restrictions can change the route, and what to verify before drawings or quotes.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Rear Extension", "item": "https://ukplanningguide.co.uk/rear-extensions/"}, {"@type": "ListItem", "position": 3, "name": "Hart", "item": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "Article", "headline": "Rear Extension in Hart: planning rules", "description": "Check rear extension in Hart. See whether local restrictions can change the route, and what to verify before drawings or quotes.", "url": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart/"}, "dateModified": "", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart#sam-jones", "email": "guidance@ukplanningguide.co.uk"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Rear Extension in Hart: planning rules", "url": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart/", "description": "Check rear extension in Hart. See whether local restrictions can change the route, and what to verify before drawings or quotes.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Rear Extension", "item": "https://ukplanningguide.co.uk/rear-extensions/"}, {"@type": "ListItem", "position": 3, "name": "Hart", "item": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "Article", "headline": "Rear Extension in Hart: planning rules", "description": "Check rear extension in Hart. See whether local restrictions can change the route, and what to verify before drawings or quotes.", "url": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart#sam-jones", "email": "guidance@ukplanningguide.co.uk"}, "reviewedBy": {"@type": "Person", "name": "UK Planning Guide Editorial Review Desk", "description": "Review layer responsible for source footing, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.", "url": "https://ukplanningguide.co.uk/rear-extensions/hampshire/hart#lead-reviewer", "email": "guidance@ukplanningguide.co.uk"}}]}</script>
 <style>
 :root{
 --ink:#1f2937;
@@ -61,6 +61,7 @@
 
 html{
 scroll-behavior:smooth;
+scroll-padding-top:calc(var(--header-height) + 18px);
 }
 
 body{
@@ -72,6 +73,25 @@ radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 30%),
 linear-gradient(180deg,#f9f5ee 0%,#f4efe7 42%,#faf8f3 100%);
 color:var(--ink);
 line-height:1.68;
+overflow-wrap:break-word;
+}
+
+.skip-link{
+position:absolute;
+left:24px;
+top:12px;
+z-index:240;
+padding:12px 16px;
+border-radius:999px;
+background:var(--ink);
+color:#fff;
+box-shadow:var(--shadow-soft);
+transform:translateY(-140%);
+transition:transform .18s ease;
+}
+
+.skip-link:focus{
+transform:translateY(0);
 }
 
 a{
@@ -205,55 +225,79 @@ color:rgba(75,85,99,.45);
 }
 
 .page-trust-strip{
+display:grid;
+gap:14px;
+margin:0 0 22px;
+padding:18px 20px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 38%);
+border:1px solid rgba(31,41,55,.1);
+border-radius:24px;
+box-shadow:var(--shadow);
+}
+
+.page-trust-strip-heading{
 display:flex;
 flex-wrap:wrap;
-gap:10px;
-margin:0 0 22px;
-padding:13px 16px;
+align-items:baseline;
+gap:8px 14px;
+}
+
+.page-trust-strip-heading strong{
+color:var(--ink);
+font-size:15px;
+letter-spacing:.01em;
+}
+
+.page-trust-strip-heading span{
 font-size:13px;
 color:var(--ink-soft);
-background:rgba(255,255,255,.72);
+}
+
+.page-trust-strip-items{
+display:grid;
+gap:10px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.page-trust-strip-items span{
+display:block;
+padding:12px 14px;
+font-size:13px;
+line-height:1.55;
+color:var(--ink-soft);
+background:rgba(255,255,255,.82);
 border:1px solid rgba(31,41,55,.08);
-border-radius:999px;
+border-radius:16px;
 box-shadow:var(--shadow-soft);
 }
 
-.page-trust-strip strong{
+.page-trust-strip-items strong{
+display:block;
+margin-bottom:4px;
 color:var(--ink);
-font-size:13px;
-}
-
-.page-trust-strip span{
-display:inline-flex;
-align-items:center;
-gap:10px;
-}
-
-.page-trust-strip span:not(:last-child)::after{
-content:"";
-width:4px;
-height:4px;
-border-radius:999px;
-background:rgba(31,111,95,.35);
+font-size:11px;
+letter-spacing:.06em;
+text-transform:uppercase;
 }
 
 .editorial-trust-strip{
-display:flex;
-flex-wrap:wrap;
+display:grid;
 gap:10px;
 margin:16px 0 22px;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
 }
 
 .editorial-trust-strip span{
-display:inline-flex;
-align-items:center;
-gap:8px;
-padding:10px 14px;
+display:block;
+padding:12px 14px;
 font-size:13px;
+line-height:1.55;
 color:var(--ink-soft);
-background:rgba(247,241,232,.76);
+background:rgba(255,255,255,.82);
 border:1px solid rgba(31,41,55,.08);
-border-radius:999px;
+border-radius:16px;
 box-shadow:var(--shadow-soft);
 }
 
@@ -269,6 +313,7 @@ background:
 linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
 radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
 border-color:rgba(31,111,95,.16);
+box-shadow:var(--shadow);
 }
 
 .editorial-authority .section-lead{
@@ -356,6 +401,7 @@ font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
 font-weight:700;
 letter-spacing:-.02em;
 color:#15212d;
+overflow-wrap:anywhere;
 }
 
 h1{
@@ -403,10 +449,12 @@ color:var(--ink);
 }
 
 table{
+display:block;
 width:100%;
 border-collapse:collapse;
 margin-top:8px;
 overflow:hidden;
+overflow-x:auto;
 border-radius:18px;
 }
 
@@ -525,6 +573,7 @@ display:block;
 a.card,
 a.scenario-card{
 color:inherit;
+overflow-wrap:anywhere;
 }
 
 a.card:hover,
@@ -630,6 +679,7 @@ border:1px solid rgba(31,41,55,.08);
 border-radius:16px;
 color:var(--ink);
 font-weight:600;
+overflow-wrap:anywhere;
 }
 
 .link-grid a::after,
@@ -683,6 +733,7 @@ background:rgba(247,241,232,.68);
 border:1px solid rgba(31,41,55,.08);
 border-radius:16px;
 color:var(--ink);
+overflow-wrap:anywhere;
 }
 
 .official-source-link strong{
@@ -694,6 +745,10 @@ line-height:1.4;
 font-size:13px;
 color:var(--ink-faint);
 line-height:1.5;
+}
+
+.official-source-link span + span{
+color:var(--ink-soft);
 }
 
 .official-source-link:hover{
@@ -1217,32 +1272,37 @@ font-size:13px;
 
 .page-trust-strip{
 margin-bottom:16px;
-padding:12px 14px;
+padding:14px;
 border-radius:18px;
 gap:8px;
 }
 
 .editorial-trust-strip{
 gap:8px;
+grid-template-columns:1fr;
 }
 
 .editorial-trust-strip span{
 width:100%;
-justify-content:flex-start;
-}
-
-.page-trust-strip span{
-gap:8px;
-}
-
-.page-trust-strip span:not(:last-child)::after{
-display:none;
 }
 
 section,
 .card{
 padding:20px;
 border-radius:22px;
+}
+
+.hero{
+padding:28px 20px;
+}
+
+h1{
+font-size:clamp(2rem,10vw,2.7rem);
+line-height:1.06;
+}
+
+h2{
+font-size:clamp(1.45rem,7vw,1.95rem);
 }
 
 .page-trust-strip{
@@ -1271,6 +1331,7 @@ width:100%;
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header>
 <div class="nav-container">
 <a href="/" class="site-logo" aria-label="UK Planning Guide home">
@@ -1290,14 +1351,14 @@ width:100%;
 </div>
 </header>
 
-<main class="container">
+<main class="container" id="main-content" tabindex="-1">
 <nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><a href="/rear-extensions/">Rear Extension</a><span>Hart</span></nav>
 
-<div class="page-trust-strip" data-page-authority="true"><span><strong>Written by</strong> Sam Jones</span><span><strong>Reviewed by</strong> UK Planning Guide Editorial Review</span><span><strong>Last reviewed</strong> Reviewed on rollout</span><span><strong>Source basis</strong> National project baseline, local authority context and the most relevant official sources.</span><span><strong>Verify if</strong> Stop and verify when the proposal is close to a limit, affected by special controls or expensive to get wrong.</span></div>
+<div class="page-trust-strip" data-page-authority="true"><div class="page-trust-strip-heading"><strong>Editorially checked</strong><span>Visible ownership, review date and source footing for this page.</span></div><div class="page-trust-strip-items"><span><strong>Written by</strong> Sam Jones</span><span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span><span><strong>Last reviewed</strong> 11 April 2026</span><span><strong>Source footing</strong> The national rear extensions route, the local authority material that can narrow it, and the official checks most likely to settle the next move.</span><span><strong>Verify before spending</strong> Stop and verify when the proposal is close to a limit, affected by special controls or expensive to get wrong.</span></div></div>
 <section class='hero'>
 <span class='badge'>Local Project Guide</span>
 <h1>Rear Extension Planning In Hart</h1>
-<p>A rear extension may stay within permitted development in England where it remains within the standard Class A depth and height limits, with the larger-home rear extension route only available through prior approval.</p>
+<p>A rear extension may stay within permitted development in England where it remains within the standard Class A depth and height limits, with the larger-home rear extension route only available through prior approval. Keep single-storey rear additions within 4m overall height and 3m eaves where they run close to a boundary.</p>
 <p>In Hart, checks on conservation areas and listed buildings can change the route quickly.</p>
 <p>Start with the quick local answer below, then use the local rule and council links if the route still depends on one sensitive detail, one local restriction or one borderline measurement.</p>
 </section>
@@ -1345,36 +1406,37 @@ width:100%;
 <section class="editorial-authority" id="editorial-authority" data-editorial-authority="true" data-editorial-path="/rear-extensions/hampshire/hart/" data-editorial-family="project">
 <span class="eyebrow">Editorial authority</span>
 <h2>What Was Checked Before This Page Was Published</h2>
-<p class="section-lead">This block makes the evidence trail visible: what footing the page is using, what usually changes the answer locally and where the safer move is to verify before more money is spent.</p>
+<p class="section-lead">A quick note on the local route this page is using, the council source that matters most and the point where a formal check becomes the safer next move.</p>
 <div class="editorial-trust-strip">
-<span><strong>Last reviewed</strong> </span>
+<span><strong>Last reviewed</strong> 11 April 2026</span>
 <span><strong>Written by</strong> Sam Jones</span>
-<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review</span>
+<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span>
 </div>
 <div class="answer-grid">
 <div class="answer-card">
-<h3>What was checked</h3>
-<p>The national project baseline, the local tripwires and the official sources worth checking before more money is spent.</p>
+<h3>Checked for this page</h3>
+<p>The national route, the local tripwires and the official checks worth making before more money is spent.</p>
 </div>
 <div class="answer-card">
-<h3>What usually changes the answer locally</h3>
-<p>The local layer usually changes the answer when the proposal is borderline, visibly sensitive or dependent on one assumption staying true.</p>
+<h3>What changes the answer fastest</h3>
+<p>The answer usually changes once the proposal is borderline, visually sensitive or leaning on one assumption that still needs to hold up locally.</p>
 </div>
 <div class="answer-card">
-<h3>When broad guidance stops being enough</h3>
+<h3>Verify next if the route feels tight</h3>
 <p>Stop and verify when the proposal is close to a limit, affected by special controls or expensive to get wrong.</p>
 </div>
 </div>
 <div class="editorial-proof-grid">
 <div class="mini-card editorial-footing">
-<h3>Official footing</h3>
+<h3>Source footing</h3>
 <p><a class="editorial-source-link" href="https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent">Planning Portal: householder planning consent</a></p>
 <p class="quick-summary">5 April 2026</p>
-<p>National project baseline, local authority context and the most relevant official sources.</p>
+<p>The national rear extensions route, the local authority material that can narrow it, and the official checks most likely to settle the next move.</p>
+<p>The national rear extensions route, the local authority material that can narrow it, and the official checks most likely to settle the next move.</p>
 </div>
 <div class="mini-card editorial-escalation">
 <h3>Change note</h3>
-<p>Authority signals now surface written/reviewed ownership, source footing and the point where a formal check becomes safer.</p>
+<p>Updated this Rear Extensions local guide to show clearer local source footing, a cleaner verification trigger and a tighter next-step route.</p>
 </div>
 </div>
 </section>
@@ -1576,7 +1638,7 @@ width:100%;
 <h2>Before You Spend On Drawings Or An Application</h2>
 <p class="section-lead">This order works best when the route still feels uncertain and the next step needs to be practical rather than theoretical.</p>
 <ol>
-<li>Check local restrictions and site history before assuming the national baseline applies cleanly.</li><li>If the project is borderline, prepare measured drawings and verify formally before work starts.</li><li>Compare the scale against the original house rather than judging it only by the new drawings in isolation.</li><li>Use the quick local answer above to sense-check whether rear extension may fit within the normal route.</li>
+<li>Check local restrictions and site history before assuming the broad national answer still applies cleanly.</li><li>If the project is borderline, prepare measured drawings and verify formally before work starts.</li><li>Compare the scale against the original house rather than judging it only by the new drawings in isolation.</li><li>Use the quick local answer above to sense-check whether rear extension may fit within the normal route.</li>
 </ol>
 </section>
 
@@ -1596,13 +1658,13 @@ width:100%;
 <div class="grid">
 <a class="card" href="/planning-permission/hart/">
 <div class="card-kicker">Local topic page</div>
-<h3>Planning permission in this council area</h3>
+<h3>Planning permission for this project locally</h3>
 <p>Best when the main uncertainty is whether the project still avoids a formal application.</p>
 <span class="cta">Open local topic page</span>
 </a>
-<a class="card" href="/boundary-rules/hart/">
+<a class="card" href="/rear-extensions/hampshire/hart/boundary-rules/">
 <div class="card-kicker">Local topic page</div>
-<h3>Boundary rules in this council area</h3>
+<h3>Boundary rules for this project locally</h3>
 <p>Useful when siting, neighbour relationship or edge-of-plot conditions are driving the risk.</p>
 <span class="cta">Open local topic page</span>
 </a>
@@ -1662,32 +1724,37 @@ width:100%;
 <section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="hart" data-official-sources-count="5">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
-<p class="section-lead">Use these official links to verify the local position once the answer above is narrowed.</p>
+<p class="section-lead">These are the official pages most likely to settle the rear extensions route in Hart.</p>
 <div class="official-sources-list">
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent">
 <strong>Planning Portal: householder planning consent</strong>
 <span>Householder guidance | Last reviewed 5 April 2026</span>
+<span>Useful because it shows how Hart explains common domestic projects before the page leans too hard on a national rule of thumb.</span>
 </a>
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/">
 <strong>Planning Portal: permitted development rights</strong>
 <span>Permitted development | Last reviewed 5 April 2026</span>
+<span>Useful because it helps test whether the simpler fallback still holds once Hart&#x27;s local context is added back in.</span>
 </a>
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/permission/common-projects">
 <strong>Planning Portal: common projects</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
+<span>Useful for the official application route and national planning paperwork behind rear extensions in Hart.</span>
 </a>
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission">
 <strong>Planning Portal: do you need planning permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
+<span>Useful for the official application route and national planning paperwork behind rear extensions in Hart.</span>
 </a>
 
 <a class="official-source-link" href="https://www.hart.gov.uk/sites/default/files/2025-02/Householder-Validation-requirements-published-Feb-2025-version.pdf">
 <strong>Householder validation requirements</strong>
-<span>Validation requirements | Last reviewed 5 April 2026 | Hart&#x27;s current householder checklist; especially useful for domestic works, solar and smaller schemes.</span>
+<span>Validation requirements | Last reviewed 5 April 2026</span>
+<span>Hart&#x27;s current householder checklist; especially useful for domestic works, solar and smaller schemes.</span>
 </a>
 
 </div>
@@ -1697,7 +1764,7 @@ width:100%;
 <section class="nearby-councils">
 <span class="eyebrow">Compare the local layer</span>
 <h2>Nearby Areas Worth Comparing</h2>
-<p>Neighbouring councils can interpret the same national baseline differently once designations, policy and context start to matter.</p>
+<p>Neighbouring councils can read the same broad planning position differently once designations, policy and site context start to matter.</p>
 <div class="link-grid"><a href="/rear-extensions/hampshire/basingstoke-and-deane/">Rear Extension in Basingstoke and Deane</a><a href="/rear-extensions/hampshire/east-hampshire/">Rear Extension in East Hampshire</a><a href="/rear-extensions/hampshire/eastleigh/">Rear Extension in Eastleigh</a><a href="/rear-extensions/hampshire/fareham/">Rear Extension in Fareham</a><a href="/rear-extensions/hampshire/gosport/">Rear Extension in Gosport</a><a href="/rear-extensions/hampshire/havant/">Rear Extension in Havant</a><a href="/rear-extensions/hampshire/new-forest/">Rear Extension in New Forest</a><a href="/rear-extensions/hampshire/portsmouth/">Rear Extension in Portsmouth</a></div>
 </section>
 
@@ -1712,9 +1779,9 @@ width:100%;
 <div class="card">
 <div class="card-kicker">People also check</div>
 <h2>What to Check Next for Rear Extension in Hart</h2>
-<p>These are usually the next planning checks worth opening before you rely on the first answer.</p>
+<p>These are usually the next same-project rule checks worth opening before you jump out to a broader rule hub.</p>
 <div class="link-grid">
-<a href="/planning-permission/hart/">Planning Permission</a><a href="/permitted-development/hart/">Permitted Development Rights</a><a href="/height-limits/hart/">Height Limits</a><a href="/boundary-rules/hart/">Boundary Distance Rules</a>
+<a href="/planning-permission/hart/">Planning Permission</a><a href="/rear-extensions/hampshire/hart/permitted-development/">Permitted Development Rights</a><a href="/height-limits/hart/">Height Limits</a><a href="/rear-extensions/hampshire/hart/boundary-rules/">Boundary Distance Rules</a>
 </div>
 </div>
 
@@ -1760,7 +1827,7 @@ width:100%;
 <h2>Need A More Tailored Steer On This Project?</h2>
 <p>If rear extension in Hart still turns on scale, siting, previous additions or local restrictions, use the personalised guidance route for a practical plain-English steer on the likely route and the safest next formal check.</p>
 <div class="hero-ctas guidance-actions">
-<a class="btn" href="/personalised-planning-guidance/request/?context_label=project-page&context=Rear+Extension+in+Hart&authority=Hart&location=Hart&project_stage=Comparing+options+and+measurements&project_summary=Rear+Extension+in+Hart&main_worry=If+rear+extension+in+Hart+still+turns+on+scale%2C+siting%2C+previous+additions+or+local+restrictions%2C+use+the+personalised+guidance+route+for+a+practical+plain-English+steer+on+the+likely+route+and+the+safest+next+formal+check." data-guidance-form-link="true">Email the case details</a>
+<a class="btn" href="/personalised-planning-guidance/request/" data-guidance-form-link="true" data-guidance-context="project-page" data-guidance-email-context="Rear Extension in Hart" data-guidance-prefill="authority=Hart&amp;location=Hart&amp;project_stage=Comparing+options+and+measurements&amp;project_summary=Rear+Extension+in+Hart&amp;main_worry=If+rear+extension+in+Hart+still+turns+on+scale%2C+siting%2C+previous+additions+or+local+restrictions%2C+use+the+personalised+guidance+route+for+a+practical+plain-English+steer+on+the+likely+route+and+the+safest+next+formal+check.">Open the request form</a>
 <a class="btn button-secondary" href="/personalised-planning-guidance/">See how it works</a>
 </div>
 <div class="answer-grid guidance-cta-grid">
@@ -1797,7 +1864,7 @@ width:100%;
 </div>
 <div class="answer-card">
 <h3>How the guidance is built</h3>
-<p>The guide is built from the national route first, then layered with local restriction signals, planning-history cautions and page-specific tripwires such as scale, siting, neighbour effect, heritage controls and previous additions.</p>
+<p>The guide starts with the national route, then adds local restriction signals, planning-history cautions and the project details most likely to change the answer in practice.</p>
 </div>
 <div class="answer-card">
 <h3>When to stop relying on broad guidance</h3>

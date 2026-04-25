@@ -31,7 +31,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
 <link rel="manifest" href="/assets/site.webmanifest?v=20260327">
 <meta name="theme-color" content="#f3eee5">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Planning permission in Southwark: local route and next steps", "url": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark/", "description": "Use this council entry page to check the local planning route in Southwark. Open the authority guide first, then the strongest project or topic page.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Local search", "item": "https://ukplanningguide.co.uk/local-search/"}, {"@type": "ListItem", "position": 3, "name": "Planning Permission In Southwark", "item": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "CollectionPage", "headline": "Planning permission in Southwark: local route and next steps", "description": "Use this council entry page to check the local planning route in Southwark. Open the authority guide first, then the strongest project or topic page.", "url": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark/"}, "dateModified": "", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark#sam-jones", "email": "guidance@ukplanningguide.co.uk"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Planning permission in Southwark: local route and next steps", "url": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark/", "description": "Use this council entry page to check the local planning route in Southwark. Open the authority guide first, then the strongest project or topic page.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Local search", "item": "https://ukplanningguide.co.uk/local-search/"}, {"@type": "ListItem", "position": 3, "name": "Planning Permission In Southwark", "item": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "CollectionPage", "headline": "Planning permission in Southwark: local route and next steps", "description": "Use this council entry page to check the local planning route in Southwark. Open the authority guide first, then the strongest project or topic page.", "url": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark#sam-jones", "email": "guidance@ukplanningguide.co.uk"}, "reviewedBy": {"@type": "Person", "name": "UK Planning Guide Editorial Review Desk", "description": "Review layer responsible for source footing, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.", "url": "https://ukplanningguide.co.uk/local-search/planning-permission-southwark#lead-reviewer", "email": "guidance@ukplanningguide.co.uk"}}]}</script>
 <style>
 :root{
 --ink:#1f2937;
@@ -61,6 +61,7 @@
 
 html{
 scroll-behavior:smooth;
+scroll-padding-top:calc(var(--header-height) + 18px);
 }
 
 body{
@@ -72,6 +73,25 @@ radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 30%),
 linear-gradient(180deg,#f9f5ee 0%,#f4efe7 42%,#faf8f3 100%);
 color:var(--ink);
 line-height:1.68;
+overflow-wrap:break-word;
+}
+
+.skip-link{
+position:absolute;
+left:24px;
+top:12px;
+z-index:240;
+padding:12px 16px;
+border-radius:999px;
+background:var(--ink);
+color:#fff;
+box-shadow:var(--shadow-soft);
+transform:translateY(-140%);
+transition:transform .18s ease;
+}
+
+.skip-link:focus{
+transform:translateY(0);
 }
 
 a{
@@ -205,55 +225,79 @@ color:rgba(75,85,99,.45);
 }
 
 .page-trust-strip{
+display:grid;
+gap:14px;
+margin:0 0 22px;
+padding:18px 20px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 38%);
+border:1px solid rgba(31,41,55,.1);
+border-radius:24px;
+box-shadow:var(--shadow);
+}
+
+.page-trust-strip-heading{
 display:flex;
 flex-wrap:wrap;
-gap:10px;
-margin:0 0 22px;
-padding:13px 16px;
+align-items:baseline;
+gap:8px 14px;
+}
+
+.page-trust-strip-heading strong{
+color:var(--ink);
+font-size:15px;
+letter-spacing:.01em;
+}
+
+.page-trust-strip-heading span{
 font-size:13px;
 color:var(--ink-soft);
-background:rgba(255,255,255,.72);
+}
+
+.page-trust-strip-items{
+display:grid;
+gap:10px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.page-trust-strip-items span{
+display:block;
+padding:12px 14px;
+font-size:13px;
+line-height:1.55;
+color:var(--ink-soft);
+background:rgba(255,255,255,.82);
 border:1px solid rgba(31,41,55,.08);
-border-radius:999px;
+border-radius:16px;
 box-shadow:var(--shadow-soft);
 }
 
-.page-trust-strip strong{
+.page-trust-strip-items strong{
+display:block;
+margin-bottom:4px;
 color:var(--ink);
-font-size:13px;
-}
-
-.page-trust-strip span{
-display:inline-flex;
-align-items:center;
-gap:10px;
-}
-
-.page-trust-strip span:not(:last-child)::after{
-content:"";
-width:4px;
-height:4px;
-border-radius:999px;
-background:rgba(31,111,95,.35);
+font-size:11px;
+letter-spacing:.06em;
+text-transform:uppercase;
 }
 
 .editorial-trust-strip{
-display:flex;
-flex-wrap:wrap;
+display:grid;
 gap:10px;
 margin:16px 0 22px;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
 }
 
 .editorial-trust-strip span{
-display:inline-flex;
-align-items:center;
-gap:8px;
-padding:10px 14px;
+display:block;
+padding:12px 14px;
 font-size:13px;
+line-height:1.55;
 color:var(--ink-soft);
-background:rgba(247,241,232,.76);
+background:rgba(255,255,255,.82);
 border:1px solid rgba(31,41,55,.08);
-border-radius:999px;
+border-radius:16px;
 box-shadow:var(--shadow-soft);
 }
 
@@ -269,6 +313,7 @@ background:
 linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
 radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
 border-color:rgba(31,111,95,.16);
+box-shadow:var(--shadow);
 }
 
 .editorial-authority .section-lead{
@@ -356,6 +401,7 @@ font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
 font-weight:700;
 letter-spacing:-.02em;
 color:#15212d;
+overflow-wrap:anywhere;
 }
 
 h1{
@@ -403,10 +449,12 @@ color:var(--ink);
 }
 
 table{
+display:block;
 width:100%;
 border-collapse:collapse;
 margin-top:8px;
 overflow:hidden;
+overflow-x:auto;
 border-radius:18px;
 }
 
@@ -525,6 +573,7 @@ display:block;
 a.card,
 a.scenario-card{
 color:inherit;
+overflow-wrap:anywhere;
 }
 
 a.card:hover,
@@ -630,6 +679,7 @@ border:1px solid rgba(31,41,55,.08);
 border-radius:16px;
 color:var(--ink);
 font-weight:600;
+overflow-wrap:anywhere;
 }
 
 .link-grid a::after,
@@ -683,6 +733,7 @@ background:rgba(247,241,232,.68);
 border:1px solid rgba(31,41,55,.08);
 border-radius:16px;
 color:var(--ink);
+overflow-wrap:anywhere;
 }
 
 .official-source-link strong{
@@ -694,6 +745,10 @@ line-height:1.4;
 font-size:13px;
 color:var(--ink-faint);
 line-height:1.5;
+}
+
+.official-source-link span + span{
+color:var(--ink-soft);
 }
 
 .official-source-link:hover{
@@ -1217,32 +1272,37 @@ font-size:13px;
 
 .page-trust-strip{
 margin-bottom:16px;
-padding:12px 14px;
+padding:14px;
 border-radius:18px;
 gap:8px;
 }
 
 .editorial-trust-strip{
 gap:8px;
+grid-template-columns:1fr;
 }
 
 .editorial-trust-strip span{
 width:100%;
-justify-content:flex-start;
-}
-
-.page-trust-strip span{
-gap:8px;
-}
-
-.page-trust-strip span:not(:last-child)::after{
-display:none;
 }
 
 section,
 .card{
 padding:20px;
 border-radius:22px;
+}
+
+.hero{
+padding:28px 20px;
+}
+
+h1{
+font-size:clamp(2rem,10vw,2.7rem);
+line-height:1.06;
+}
+
+h2{
+font-size:clamp(1.45rem,7vw,1.95rem);
 }
 
 .page-trust-strip{
@@ -1271,6 +1331,7 @@ width:100%;
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header>
 <div class="nav-container">
 <a href="/" class="site-logo" aria-label="UK Planning Guide home">
@@ -1290,28 +1351,28 @@ width:100%;
 </div>
 </header>
 
-<main class="container">
+<main class="container" id="main-content" tabindex="-1">
 <nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><a href="/local-search/">Local search</a><span>Planning Permission In Southwark</span></nav>
 
-<div class="page-trust-strip" data-page-authority="true"><span><strong>Written by</strong> Sam Jones</span><span><strong>Reviewed by</strong> UK Planning Guide Editorial Review</span><span><strong>Last reviewed</strong> Reviewed on rollout</span><span><strong>Source basis</strong> Search-intent routing, local authority pages and the strongest follow-on project or rule pages.</span><span><strong>Verify if</strong> Stop and verify when the proposal is close to a limit, affected by special controls or expensive to get wrong.</span></div>
+<div class="page-trust-strip" data-page-authority="true"><div class="page-trust-strip-heading"><strong>Editorially checked</strong><span>Visible ownership, review date and source footing for this page.</span></div><div class="page-trust-strip-items"><span><strong>Written by</strong> Sam Jones</span><span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span><span><strong>Last reviewed</strong> 11 April 2026</span><span><strong>Source footing</strong> The local search intent, the authority page that should own the answer, and the deeper project or rule page worth opening next.</span><span><strong>Verify before spending</strong> Stop and verify when the proposal is close to a limit, affected by special controls or expensive to get wrong.</span></div></div>
 <section class="hero">
 <span class="badge">Local search guide</span>
 <h1>Planning Permission In Southwark</h1>
-<p>This page is built for searches about planning permission in Southwark, where the aim is to get the local route, the main tripwires and the right deeper page on one screen.</p>
+<p>This page is built for searches about planning permission in Southwark, where the aim is to get the local route, the main tripwires and the right deeper page onto one screen.</p>
 <p>If the search is still broad in Southwark, open the authority guide first, then follow the project or topic page that resolves the remaining doubt fastest.</p>
 <div class="last-updated">Updated April 2026</div>
 </section>
 
 <section class="local-search-answer" id="local-search-answer">
 <span class="eyebrow">Working read</span>
-<h2>What This Search Usually Means</h2>
+<h2>What This Search Usually Means In Practice</h2>
 <div class="answer-grid">
 <div class="answer-card">
 <h3>Broad answer</h3>
 <p>This search is usually a starting query rather than a final answer. Use it to reach the authority guide first, then the strongest project or planning-topic page once the real blocker is clearer.</p>
 </div>
 <div class="answer-card">
-<h3>Why it is locally sensitive</h3>
+<h3>Why this search exists</h3>
 <p>People search for southwark planning when the local route is still broad. This page turns that broad query into the authority, topic and project pages most worth opening next.</p>
 </div>
 <div class="answer-card">
@@ -1325,36 +1386,37 @@ width:100%;
 <section class="editorial-authority" id="editorial-authority" data-editorial-authority="true" data-editorial-path="/local-search/planning-permission-southwark/" data-editorial-family="local-search">
 <span class="eyebrow">Editorial authority</span>
 <h2>What Was Checked Before This Page Was Published</h2>
-<p class="section-lead">This block makes the evidence trail visible: what footing the page is using, what usually changes the answer locally and where the safer move is to verify before more money is spent.</p>
+<p class="section-lead">A quick note on why this route page exists, which source footing supports it and where the user should go next.</p>
 <div class="editorial-trust-strip">
-<span><strong>Last reviewed</strong> </span>
+<span><strong>Last reviewed</strong> 11 April 2026</span>
 <span><strong>Written by</strong> Sam Jones</span>
-<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review</span>
+<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span>
 </div>
 <div class="answer-grid">
 <div class="answer-card">
-<h3>What was checked</h3>
-<p>The dominant local search intent, the strongest authority/page handoff, and the formal check most worth doing next.</p>
+<h3>Checked for this page</h3>
+<p>The real local search intent, the best page handoff, and the formal check most worth doing next.</p>
 </div>
 <div class="answer-card">
-<h3>What usually changes the answer locally</h3>
-<p>These pages exist to separate the broad local query from the real blocker before the user opens the wrong detailed page.</p>
+<h3>What changes the answer fastest</h3>
+<p>The page only earns its place if it turns a broad local query into the real blocker before the user opens the wrong detailed page.</p>
 </div>
 <div class="answer-card">
-<h3>When broad guidance stops being enough</h3>
+<h3>Verify next if the route feels tight</h3>
 <p>Stop and verify when the scheme is close to a depth, width or height threshold or depends on the original-house baseline.</p>
 </div>
 </div>
 <div class="editorial-proof-grid">
 <div class="mini-card editorial-footing">
-<h3>Official footing</h3>
+<h3>Source footing</h3>
 <p><a class="editorial-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission">Planning Portal: do you need planning permission?</a></p>
 <p class="quick-summary">5 April 2026</p>
-<p>Search-intent routing, local authority pages and the strongest follow-on project or rule pages.</p>
+<p>The local search intent, the authority page that should own the answer, and the deeper project or rule page worth opening next.</p>
+<p>The local search intent, the authority page that should own the answer, and the deeper project or rule page worth opening next.</p>
 </div>
 <div class="mini-card editorial-escalation">
 <h3>Change note</h3>
-<p>Authority signals now surface written/reviewed ownership, source footing and the point where a formal check becomes safer.</p>
+<p>Updated this route page so the local handoff, source footing and safest next click are clearer and less template-like.</p>
 </div>
 </div>
 </section>
@@ -1383,7 +1445,7 @@ width:100%;
 
 <section class="local-search-routes" id="local-search-routes">
 <span class="eyebrow">Deeper route options</span>
-<h2>Open The Detailed Page That Matches The Remaining Question</h2>
+<h2>Open The Page Most Likely To Settle The Remaining Question</h2>
 <p class="section-lead">Treat this as a short route map: authority guide first, then the strongest project or local rule page, then a process FAQ or tool if the picture is still unresolved.</p>
 <div class="grid">
 
@@ -1429,32 +1491,37 @@ width:100%;
 <section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="local-search" data-official-sources-authority="southwark" data-official-sources-count="5">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
-<p class="section-lead">Use these official links to confirm the route once you know which deeper page to open next.</p>
+<p class="section-lead">These are the official pages most likely to confirm the route behind this Southwark search.</p>
 <div class="official-sources-list">
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission">
 <strong>Planning Portal: do you need planning permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
+<span>Useful for the official application route and submission handoff in Southwark.</span>
 </a>
 
 <a class="official-source-link" href="https://www.gov.uk/guidance/making-an-application">
 <strong>GOV.UK: making a planning application</strong>
 <span>Validation requirements | Last reviewed 5 April 2026</span>
+<span>Useful because it sets out the document and checklist requirements that matter if Southwark is the next formal stop.</span>
 </a>
 
 <a class="official-source-link" href="https://www.gov.uk/guidance/before-submitting-an-application">
 <strong>GOV.UK: before submitting an application</strong>
 <span>Pre-application advice | Last reviewed 5 April 2026</span>
+<span>Useful when the broad answer is no longer enough and a local pre-application view in Southwark is the safer next step.</span>
 </a>
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent">
 <strong>Planning Portal: householder planning consent</strong>
 <span>Householder guidance | Last reviewed 5 April 2026</span>
+<span>Useful because it shows how Southwark explains common domestic projects before the page leans too hard on a national rule of thumb.</span>
 </a>
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/">
 <strong>Planning Portal: permitted development rights</strong>
 <span>Permitted development | Last reviewed 5 April 2026</span>
+<span>Useful because it helps test whether the simpler fallback still holds once Southwark&#x27;s local context is added back in.</span>
 </a>
 
 </div>
@@ -1464,10 +1531,10 @@ width:100%;
 
 <section class="personalised-guidance-cta personalised-guidance-cta-compact" data-guidance-cta="local-search">
 <span class="eyebrow">Personalised planning guidance</span>
-<h2>Need A More Tailored Local Steer By Email?</h2>
-<p>If the route in Southwark looks especially location-sensitive, email the case details for a practical plain-English steer on the likely route, the local tripwires and what to verify next.</p>
+<h2>Need A More Tailored Local Steer?</h2>
+<p>If the route in Southwark looks especially location-sensitive, use the structured guidance form for a practical case-specific steer on the likely route, the local tripwires and what to verify next.</p>
 <div class="hero-ctas guidance-actions">
-<a class="btn" href="/personalised-planning-guidance/request/?context_label=local-search&context=Planning+Permission+In+Southwark" data-guidance-form-link="true">Email the local case details</a>
+<a class="btn" href="/personalised-planning-guidance/request/" data-guidance-form-link="true" data-guidance-context="local-search" data-guidance-email-context="Planning Permission In Southwark">Open the local case form</a>
 <a class="btn button-secondary" href="/personalised-planning-guidance/">See how it works</a>
 </div>
 <div class="answer-grid guidance-cta-grid">

@@ -31,7 +31,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
 <link rel="manifest" href="/assets/site.webmanifest?v=20260327">
 <meta name="theme-color" content="#f3eee5">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Annexe planning in Blaenau Gwent: local rules", "url": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent/", "description": "Check annexe rules in Blaenau Gwent. See whether local restrictions can change the route, and what to verify before drawings or quotes.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Annexe", "item": "https://ukplanningguide.co.uk/annexes/"}, {"@type": "ListItem", "position": 3, "name": "Blaenau Gwent", "item": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "Article", "headline": "Annexe planning in Blaenau Gwent: local rules", "description": "Check annexe rules in Blaenau Gwent. See whether local restrictions can change the route, and what to verify before drawings or quotes.", "url": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent/"}, "dateModified": "", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent#sam-jones", "email": "guidance@ukplanningguide.co.uk"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Annexe planning in Blaenau Gwent: local rules", "url": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent/", "description": "Check annexe rules in Blaenau Gwent. See whether local restrictions can change the route, and what to verify before drawings or quotes.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Annexe", "item": "https://ukplanningguide.co.uk/annexes/"}, {"@type": "ListItem", "position": 3, "name": "Blaenau Gwent", "item": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "Article", "headline": "Annexe planning in Blaenau Gwent: local rules", "description": "Check annexe rules in Blaenau Gwent. See whether local restrictions can change the route, and what to verify before drawings or quotes.", "url": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent#sam-jones", "email": "guidance@ukplanningguide.co.uk"}, "reviewedBy": {"@type": "Person", "name": "UK Planning Guide Editorial Review Desk", "description": "Review layer responsible for source footing, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.", "url": "https://ukplanningguide.co.uk/annexes/wales/blaenau-gwent#lead-reviewer", "email": "guidance@ukplanningguide.co.uk"}}]}</script>
 <style>
 :root{
 --ink:#1f2937;
@@ -61,6 +61,7 @@
 
 html{
 scroll-behavior:smooth;
+scroll-padding-top:calc(var(--header-height) + 18px);
 }
 
 body{
@@ -72,6 +73,25 @@ radial-gradient(circle at top right,rgba(31,111,95,.10),transparent 30%),
 linear-gradient(180deg,#f9f5ee 0%,#f4efe7 42%,#faf8f3 100%);
 color:var(--ink);
 line-height:1.68;
+overflow-wrap:break-word;
+}
+
+.skip-link{
+position:absolute;
+left:24px;
+top:12px;
+z-index:240;
+padding:12px 16px;
+border-radius:999px;
+background:var(--ink);
+color:#fff;
+box-shadow:var(--shadow-soft);
+transform:translateY(-140%);
+transition:transform .18s ease;
+}
+
+.skip-link:focus{
+transform:translateY(0);
 }
 
 a{
@@ -205,55 +225,79 @@ color:rgba(75,85,99,.45);
 }
 
 .page-trust-strip{
+display:grid;
+gap:14px;
+margin:0 0 22px;
+padding:18px 20px;
+background:
+linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
+radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 38%);
+border:1px solid rgba(31,41,55,.1);
+border-radius:24px;
+box-shadow:var(--shadow);
+}
+
+.page-trust-strip-heading{
 display:flex;
 flex-wrap:wrap;
-gap:10px;
-margin:0 0 22px;
-padding:13px 16px;
+align-items:baseline;
+gap:8px 14px;
+}
+
+.page-trust-strip-heading strong{
+color:var(--ink);
+font-size:15px;
+letter-spacing:.01em;
+}
+
+.page-trust-strip-heading span{
 font-size:13px;
 color:var(--ink-soft);
-background:rgba(255,255,255,.72);
+}
+
+.page-trust-strip-items{
+display:grid;
+gap:10px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.page-trust-strip-items span{
+display:block;
+padding:12px 14px;
+font-size:13px;
+line-height:1.55;
+color:var(--ink-soft);
+background:rgba(255,255,255,.82);
 border:1px solid rgba(31,41,55,.08);
-border-radius:999px;
+border-radius:16px;
 box-shadow:var(--shadow-soft);
 }
 
-.page-trust-strip strong{
+.page-trust-strip-items strong{
+display:block;
+margin-bottom:4px;
 color:var(--ink);
-font-size:13px;
-}
-
-.page-trust-strip span{
-display:inline-flex;
-align-items:center;
-gap:10px;
-}
-
-.page-trust-strip span:not(:last-child)::after{
-content:"";
-width:4px;
-height:4px;
-border-radius:999px;
-background:rgba(31,111,95,.35);
+font-size:11px;
+letter-spacing:.06em;
+text-transform:uppercase;
 }
 
 .editorial-trust-strip{
-display:flex;
-flex-wrap:wrap;
+display:grid;
 gap:10px;
 margin:16px 0 22px;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
 }
 
 .editorial-trust-strip span{
-display:inline-flex;
-align-items:center;
-gap:8px;
-padding:10px 14px;
+display:block;
+padding:12px 14px;
 font-size:13px;
+line-height:1.55;
 color:var(--ink-soft);
-background:rgba(247,241,232,.76);
+background:rgba(255,255,255,.82);
 border:1px solid rgba(31,41,55,.08);
-border-radius:999px;
+border-radius:16px;
 box-shadow:var(--shadow-soft);
 }
 
@@ -269,6 +313,7 @@ background:
 linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,239,231,.92)),
 radial-gradient(circle at top right,rgba(31,111,95,.08),transparent 34%);
 border-color:rgba(31,111,95,.16);
+box-shadow:var(--shadow);
 }
 
 .editorial-authority .section-lead{
@@ -356,6 +401,7 @@ font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
 font-weight:700;
 letter-spacing:-.02em;
 color:#15212d;
+overflow-wrap:anywhere;
 }
 
 h1{
@@ -403,10 +449,12 @@ color:var(--ink);
 }
 
 table{
+display:block;
 width:100%;
 border-collapse:collapse;
 margin-top:8px;
 overflow:hidden;
+overflow-x:auto;
 border-radius:18px;
 }
 
@@ -525,6 +573,7 @@ display:block;
 a.card,
 a.scenario-card{
 color:inherit;
+overflow-wrap:anywhere;
 }
 
 a.card:hover,
@@ -630,6 +679,7 @@ border:1px solid rgba(31,41,55,.08);
 border-radius:16px;
 color:var(--ink);
 font-weight:600;
+overflow-wrap:anywhere;
 }
 
 .link-grid a::after,
@@ -683,6 +733,7 @@ background:rgba(247,241,232,.68);
 border:1px solid rgba(31,41,55,.08);
 border-radius:16px;
 color:var(--ink);
+overflow-wrap:anywhere;
 }
 
 .official-source-link strong{
@@ -694,6 +745,10 @@ line-height:1.4;
 font-size:13px;
 color:var(--ink-faint);
 line-height:1.5;
+}
+
+.official-source-link span + span{
+color:var(--ink-soft);
 }
 
 .official-source-link:hover{
@@ -1217,32 +1272,37 @@ font-size:13px;
 
 .page-trust-strip{
 margin-bottom:16px;
-padding:12px 14px;
+padding:14px;
 border-radius:18px;
 gap:8px;
 }
 
 .editorial-trust-strip{
 gap:8px;
+grid-template-columns:1fr;
 }
 
 .editorial-trust-strip span{
 width:100%;
-justify-content:flex-start;
-}
-
-.page-trust-strip span{
-gap:8px;
-}
-
-.page-trust-strip span:not(:last-child)::after{
-display:none;
 }
 
 section,
 .card{
 padding:20px;
 border-radius:22px;
+}
+
+.hero{
+padding:28px 20px;
+}
+
+h1{
+font-size:clamp(2rem,10vw,2.7rem);
+line-height:1.06;
+}
+
+h2{
+font-size:clamp(1.45rem,7vw,1.95rem);
 }
 
 .page-trust-strip{
@@ -1271,6 +1331,7 @@ width:100%;
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header>
 <div class="nav-container">
 <a href="/" class="site-logo" aria-label="UK Planning Guide home">
@@ -1290,14 +1351,14 @@ width:100%;
 </div>
 </header>
 
-<main class="container">
+<main class="container" id="main-content" tabindex="-1">
 <nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><a href="/annexes/">Annexe</a><span>Blaenau Gwent</span></nav>
 
-<div class="page-trust-strip" data-page-authority="true"><span><strong>Written by</strong> Sam Jones</span><span><strong>Reviewed by</strong> UK Planning Guide Editorial Review</span><span><strong>Last reviewed</strong> Reviewed on rollout</span><span><strong>Source basis</strong> National project baseline, local authority context and the most relevant official sources.</span><span><strong>Verify if</strong> Stop and verify when the use, siting or scale pushes the structure beyond a clearly incidental secondary building.</span></div>
+<div class="page-trust-strip" data-page-authority="true"><div class="page-trust-strip-heading"><strong>Editorially checked</strong><span>Visible ownership, review date and source footing for this page.</span></div><div class="page-trust-strip-items"><span><strong>Written by</strong> Sam Jones</span><span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span><span><strong>Last reviewed</strong> 11 April 2026</span><span><strong>Source footing</strong> The national annexes route, the local authority material that can narrow it, and the official checks most likely to settle the next move.</span><span><strong>Verify before spending</strong> Stop and verify when use, siting or scale pushes the structure beyond a clearly incidental secondary building.</span></div></div>
 <section class='hero'>
 <span class='badge'>Local Project Guide</span>
 <h1>Annexe Planning In Blaenau Gwent</h1>
-<p>In Wales, small ancillary family accommodation may sometimes be achieved through ordinary extension rules or an incidental outbuilding, but a true self-contained annexe should not be assumed to be permitted development and will often need planning permission.</p>
+<p>Annexe cases in Blaenau Gwent usually come down to whether the accommodation stays genuinely ancillary to the main house or starts to look self-contained. If the proposal depends on Welsh outbuilding rights, keep to the standard single-storey envelope: eaves no higher than 2.5m, up to 4m overall for a roof with more than one pitch, up to 3m for other roof forms and 2.5m overall if any part sits within 2m of a boundary.</p>
 <p>In Blaenau Gwent, checks on conservation areas and listed buildings can change the route quickly.</p>
 <p>Start with the quick local answer below, then use the local rule and council links if the route still depends on one sensitive detail, one local restriction or one borderline measurement.</p>
 </section>
@@ -1353,36 +1414,37 @@ width:100%;
 <section class="editorial-authority" id="editorial-authority" data-editorial-authority="true" data-editorial-path="/annexes/wales/blaenau-gwent/" data-editorial-family="project">
 <span class="eyebrow">Editorial authority</span>
 <h2>What Was Checked Before This Page Was Published</h2>
-<p class="section-lead">This block makes the evidence trail visible: what footing the page is using, what usually changes the answer locally and where the safer move is to verify before more money is spent.</p>
+<p class="section-lead">A quick note on the local route this page is using, the council source that matters most and the point where a formal check becomes the safer next move.</p>
 <div class="editorial-trust-strip">
-<span><strong>Last reviewed</strong> </span>
+<span><strong>Last reviewed</strong> 11 April 2026</span>
 <span><strong>Written by</strong> Sam Jones</span>
-<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review</span>
+<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span>
 </div>
 <div class="answer-grid">
 <div class="answer-card">
-<h3>What was checked</h3>
-<p>The national project baseline, the local tripwires and the official sources worth checking before more money is spent.</p>
+<h3>Checked for this page</h3>
+<p>The national route, the local tripwires and the official checks worth making before more money is spent.</p>
 </div>
 <div class="answer-card">
-<h3>What usually changes the answer locally</h3>
-<p>The local layer usually changes the answer when the proposal is borderline, visibly sensitive or dependent on one assumption staying true.</p>
+<h3>What changes the answer fastest</h3>
+<p>The answer usually changes once the proposal is borderline, visually sensitive or leaning on one assumption that still needs to hold up locally.</p>
 </div>
 <div class="answer-card">
-<h3>When broad guidance stops being enough</h3>
-<p>Stop and verify when the use, siting or scale pushes the structure beyond a clearly incidental secondary building.</p>
+<h3>Verify next if the route feels tight</h3>
+<p>Stop and verify when use, siting or scale pushes the structure beyond a clearly incidental secondary building.</p>
 </div>
 </div>
 <div class="editorial-proof-grid">
 <div class="mini-card editorial-footing">
-<h3>Official footing</h3>
+<h3>Source footing</h3>
 <p><a class="editorial-source-link" href="https://www.planningportal.co.uk/wales/applications/consent-types/householder-planning-consent">Planning Portal Wales: householder planning consent</a></p>
 <p class="quick-summary">5 April 2026</p>
-<p>National project baseline, local authority context and the most relevant official sources.</p>
+<p>The national annexes route, the local authority material that can narrow it, and the official checks most likely to settle the next move.</p>
+<p>The national annexes route, the local authority material that can narrow it, and the official checks most likely to settle the next move.</p>
 </div>
 <div class="mini-card editorial-escalation">
 <h3>Change note</h3>
-<p>Authority signals now surface written/reviewed ownership, source footing and the point where a formal check becomes safer.</p>
+<p>Updated this Annexes local guide to show clearer local source footing, a cleaner verification trigger and a tighter next-step route.</p>
 </div>
 </div>
 </section>
@@ -1604,13 +1666,13 @@ width:100%;
 <div class="grid">
 <a class="card" href="/planning-permission/blaenau-gwent/">
 <div class="card-kicker">Local topic page</div>
-<h3>Planning permission in this council area</h3>
+<h3>Planning permission for this project locally</h3>
 <p>Best when the main uncertainty is whether the project still avoids a formal application.</p>
 <span class="cta">Open local topic page</span>
 </a>
 <a class="card" href="/boundary-rules/blaenau-gwent/">
 <div class="card-kicker">Local topic page</div>
-<h3>Boundary rules in this council area</h3>
+<h3>Boundary rules for this project locally</h3>
 <p>Useful when siting, neighbour relationship or edge-of-plot conditions are driving the risk.</p>
 <span class="cta">Open local topic page</span>
 </a>
@@ -1645,7 +1707,7 @@ width:100%;
 
 <div class="faq-item">
 <h3>What most often pushes annexe out of the simpler route?</h3>
-<p>Height, boundary siting, previous additions and whether the building still reads as clearly secondary to the house are the most common tripwires.</p>
+<p>Height, boundary siting, previous additions and whether the building still reads as clearly secondary to the house are usually the checks that change the route fastest.</p>
 </div>
 
 <div class="faq-item">
@@ -1663,39 +1725,44 @@ width:100%;
 <p>Open the boundary or maximum-height rule page if one measurement is the blocker, or the local council page if restrictions are the bigger issue.</p>
 </div>
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I usually need planning permission for Annexe in Blaenau Gwent?", "acceptedAnswer": {"@type": "Answer", "text": "In Wales, small ancillary family accommodation may sometimes be achieved through ordinary extension rules or an incidental outbuilding, but a true self-contained annexe should not be assumed to be permitted development and will often need planning permission."}}, {"@type": "Question", "name": "What most often pushes annexe out of the simpler route?", "acceptedAnswer": {"@type": "Answer", "text": "Height, boundary siting, previous additions and whether the building still reads as clearly secondary to the house are the most common tripwires."}}, {"@type": "Question", "name": "Do conservation areas, listed buildings or Article 4 change the answer here?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. In Blaenau Gwent, conservation areas and listed buildings can change the route even where the national baseline looks familiar."}}, {"@type": "Question", "name": "When is it worth checking formally before paying for drawings?", "acceptedAnswer": {"@type": "Answer", "text": "Check the measurements and intended use formally before paying for drawings if the structure is close to a limit or no longer feels clearly incidental."}}, {"@type": "Question", "name": "What should I open next if I still have doubts?", "acceptedAnswer": {"@type": "Answer", "text": "Open the boundary or maximum-height rule page if one measurement is the blocker, or the local council page if restrictions are the bigger issue."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I usually need planning permission for Annexe in Blaenau Gwent?", "acceptedAnswer": {"@type": "Answer", "text": "In Wales, small ancillary family accommodation may sometimes be achieved through ordinary extension rules or an incidental outbuilding, but a true self-contained annexe should not be assumed to be permitted development and will often need planning permission."}}, {"@type": "Question", "name": "What most often pushes annexe out of the simpler route?", "acceptedAnswer": {"@type": "Answer", "text": "Height, boundary siting, previous additions and whether the building still reads as clearly secondary to the house are usually the checks that change the route fastest."}}, {"@type": "Question", "name": "Do conservation areas, listed buildings or Article 4 change the answer here?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. In Blaenau Gwent, conservation areas and listed buildings can change the route even where the national baseline looks familiar."}}, {"@type": "Question", "name": "When is it worth checking formally before paying for drawings?", "acceptedAnswer": {"@type": "Answer", "text": "Check the measurements and intended use formally before paying for drawings if the structure is close to a limit or no longer feels clearly incidental."}}, {"@type": "Question", "name": "What should I open next if I still have doubts?", "acceptedAnswer": {"@type": "Answer", "text": "Open the boundary or maximum-height rule page if one measurement is the blocker, or the local council page if restrictions are the bigger issue."}}]}</script>
 </section>
 
 
 <section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="blaenau-gwent" data-official-sources-count="5">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
-<p class="section-lead">Use these official links to verify the local position once the answer above is narrowed.</p>
+<p class="section-lead">These are the official pages most likely to settle the annexes route in Blaenau Gwent.</p>
 <div class="official-sources-list">
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/wales/applications/consent-types/householder-planning-consent">
 <strong>Planning Portal Wales: householder planning consent</strong>
 <span>Householder guidance | Last reviewed 5 April 2026</span>
+<span>Useful because it shows how Blaenau Gwent explains common domestic projects before the page leans too hard on a national rule of thumb.</span>
 </a>
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/wales/do-you-need-permission/your-responsibilities/planning-permission/permitted-development-rights/">
 <strong>Planning Portal Wales: permitted development rights</strong>
 <span>Permitted development | Last reviewed 5 April 2026</span>
+<span>Useful because it helps test whether the simpler fallback still holds once Blaenau Gwent&#x27;s local context is added back in.</span>
 </a>
 
 <a class="official-source-link" href="https://www.blaenau-gwent.gov.uk/resident/planning/apply-for-planning/">
 <strong>Apply for Planning</strong>
-<span>Planning portal | Last reviewed 5 April 2026 | Council application page directing applicants to submit through the Planning Portal.</span>
+<span>Planning portal | Last reviewed 5 April 2026</span>
+<span>Council application page directing applicants to submit through the Planning Portal.</span>
 </a>
 
 <a class="official-source-link" href="https://www.planningportal.co.uk/wales/do-you-need-permission">
 <strong>Planning Portal Wales: do you need permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
+<span>Useful for the official application route and national planning paperwork behind annexes in Blaenau Gwent.</span>
 </a>
 
 <a class="official-source-link" href="https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf">
 <strong>Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements</strong>
-<span>Validation requirements | Last reviewed 5 April 2026 | Welsh Government validation requirements used as the main official validation reference for applications in Wales.</span>
+<span>Validation requirements | Last reviewed 5 April 2026</span>
+<span>Welsh Government validation requirements used as the main official validation reference for applications in Wales.</span>
 </a>
 
 </div>
@@ -1705,7 +1772,7 @@ width:100%;
 <section class="nearby-councils">
 <span class="eyebrow">Compare the local layer</span>
 <h2>Nearby Areas Worth Comparing</h2>
-<p>Neighbouring councils can interpret the same national baseline differently once designations, policy and context start to matter.</p>
+<p>Neighbouring councils can read the same broad planning position differently once designations, policy and site context start to matter.</p>
 <div class="link-grid"><a href="/annexes/wales/bannau-brycheiniog-national-park/">Annexe in Bannau Brycheiniog National Park</a><a href="/annexes/wales/bridgend/">Annexe in Bridgend</a><a href="/annexes/wales/caerphilly/">Annexe in Caerphilly</a><a href="/annexes/wales/cardiff/">Annexe in Cardiff</a><a href="/annexes/wales/carmarthenshire/">Annexe in Carmarthenshire</a><a href="/annexes/wales/ceredigion/">Annexe in Ceredigion</a><a href="/annexes/wales/conwy/">Annexe in Conwy</a><a href="/annexes/wales/denbighshire/">Annexe in Denbighshire</a></div>
 </section>
 
@@ -1720,7 +1787,7 @@ width:100%;
 <div class="card">
 <div class="card-kicker">People also check</div>
 <h2>What to Check Next for Annexe in Blaenau Gwent</h2>
-<p>These are usually the next planning checks worth opening before you rely on the first answer.</p>
+<p>These are usually the next same-project rule checks worth opening before you jump out to a broader rule hub.</p>
 <div class="link-grid">
 <a href="/permitted-development/blaenau-gwent/">Permitted Development Rights</a><a href="/boundary-rules/blaenau-gwent/">Boundary Distance Rules</a><a href="/height-limits/blaenau-gwent/">Height Limits</a><a href="/planning-permission/blaenau-gwent/">Planning Permission</a>
 </div>
@@ -1768,7 +1835,7 @@ width:100%;
 <h2>Need A Clearer Read On Incidental Use, Scale Or Siting?</h2>
 <p>If annexe in Blaenau Gwent hangs on whether the building stays secondary to the house, use the personalised guidance route for a more specific steer on the route, the likely tripwires and what to verify formally.</p>
 <div class="hero-ctas guidance-actions">
-<a class="btn" href="/personalised-planning-guidance/request/?context_label=project-page&context=Annexe+in+Blaenau+Gwent&authority=Blaenau+Gwent&location=Blaenau+Gwent&project_stage=Comparing+options+and+measurements&project_summary=Annexe+in+Blaenau+Gwent&main_worry=If+annexe+in+Blaenau+Gwent+hangs+on+whether+the+building+stays+secondary+to+the+house%2C+use+the+personalised+guidance+route+for+a+more+specific+steer+on+the+route%2C+the+likely+tripwires+and+what+to+verify+formally." data-guidance-form-link="true">Email the case details</a>
+<a class="btn" href="/personalised-planning-guidance/request/" data-guidance-form-link="true" data-guidance-context="project-page" data-guidance-email-context="Annexe in Blaenau Gwent" data-guidance-prefill="authority=Blaenau+Gwent&amp;location=Blaenau+Gwent&amp;project_stage=Comparing+options+and+measurements&amp;project_summary=Annexe+in+Blaenau+Gwent&amp;main_worry=If+annexe+in+Blaenau+Gwent+hangs+on+whether+the+building+stays+secondary+to+the+house%2C+use+the+personalised+guidance+route+for+a+more+specific+steer+on+the+route%2C+the+likely+tripwires+and+what+to+verify+formally.">Open the request form</a>
 <a class="btn button-secondary" href="/personalised-planning-guidance/">See how it works</a>
 </div>
 <div class="answer-grid guidance-cta-grid">
@@ -1805,7 +1872,7 @@ width:100%;
 </div>
 <div class="answer-card">
 <h3>How the guidance is built</h3>
-<p>The guide is built from the national route first, then layered with local restriction signals, planning-history cautions and page-specific tripwires such as scale, siting, neighbour effect, heritage controls and previous additions.</p>
+<p>The guide starts with the national route, then adds local restriction signals, planning-history cautions and the project details most likely to change the answer in practice.</p>
 </div>
 <div class="answer-card">
 <h3>When to stop relying on broad guidance</h3>
