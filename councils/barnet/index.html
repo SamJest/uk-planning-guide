@@ -2158,8 +2158,8 @@ Article 4 Restrictions in Barnet
     <p>Use the quick actions below to keep a shareable copy for yourself, a designer, or anyone helping you sense-check the planning route.</p>
   </div>
   <div class="result-capture-row result-capture-actions">
-    <button type="button" onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.href).then(() => { const note = this.closest('.result-capture').querySelector('.result-capture-note'); if (note) { note.textContent = 'Page link copied. You can paste it into your notes, email or project brief.'; } }); }">Copy page link</button>
-    <button type="button" class="button-secondary" onclick="window.print()">Print this guide</button>
+    <button type="button" data-result-capture-action="copy-link">Copy page link</button>
+    <button type="button" class="button-secondary" data-result-capture-action="print">Print this guide</button>
   </div>
   <p class="result-capture-note">Bookmark the page if you want to come back later. For borderline schemes, keep the printout with your measurements, site photos and the local checks you still need to verify.</p>
 </section>
@@ -2408,6 +2408,32 @@ Article 4 Restrictions in Barnet
     }
     resultNode.insertAdjacentElement("afterend", capture);
   }
+
+  document.addEventListener("click", function (event) {
+    const button = event.target && event.target.closest ? event.target.closest("[data-result-capture-action]") : null;
+    if (!button) {
+      return;
+    }
+    const action = button.getAttribute("data-result-capture-action");
+    const capture = button.closest(".result-capture");
+    const note = capture ? capture.querySelector(".result-capture-note") : null;
+    if (action === "print") {
+      window.print();
+      return;
+    }
+    if (action !== "copy-link") {
+      return;
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(window.location.href).then(function () {
+        if (note) {
+          note.textContent = "Page link copied. You can paste it into your notes, email or project brief.";
+        }
+      });
+    } else if (note) {
+      note.textContent = "Copy the address from your browser bar to keep this page with your project notes.";
+    }
+  });
 
   function ensureNextStep(resultNode) {
     if (!resultNode || resultNode.querySelector(".tool-next-step")) {
