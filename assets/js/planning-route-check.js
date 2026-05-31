@@ -536,6 +536,44 @@
       saved_at: payload.saved_at
     });
     safeStorageSet("ukpg:project-folder", payload);
+    try {
+      const workspaceKey = "ukpg:planning-workspace:v1";
+      const existing = JSON.parse(window.localStorage.getItem(workspaceKey) || "{}") || {};
+      const workspace = Object.assign({
+        version: 1,
+        saved_pages: [],
+        completed_checks: [],
+        tasks: [],
+        result_summaries: [],
+        constraints: []
+      }, existing);
+      workspace.project_type = payload.project_type;
+      workspace.location_label = payload.council || payload.postcode_or_town || "";
+      workspace.constraints = payload.restrictions || [];
+      workspace.result_summaries = [{
+        id: "planning-route-check|" + (window.location.pathname || "/"),
+        tool_slug: "planning-route-check",
+        result_label: payload.route,
+        title: "Planning Route Check",
+        path: window.location.pathname || "/tools/planning-route-check/",
+        summary: payload.checklist,
+        saved_at: payload.saved_at
+      }].concat((workspace.result_summaries || []).filter(function (item) {
+        return item && item.id !== "planning-route-check|" + (window.location.pathname || "/");
+      })).slice(0, 12);
+      workspace.tasks = (payload.next_steps || []).slice(0, 4).map(function (step, index) {
+        return {
+          id: "route-task|" + index + "|" + payload.saved_at,
+          title: step,
+          path: window.location.pathname || "/tools/planning-route-check/",
+          tool_slug: "planning-route-check",
+          completed: false,
+          created_at: payload.saved_at
+        };
+      }).concat(workspace.tasks || []).slice(0, 30);
+      workspace.updated_at = payload.saved_at;
+      window.localStorage.setItem(workspaceKey, JSON.stringify(workspace));
+    } catch (error) {}
     return payload;
   }
 
