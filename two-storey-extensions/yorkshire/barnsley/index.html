@@ -539,6 +539,79 @@ box-shadow:none;
 background:rgba(31,111,95,.08);
 }
 
+.download-meta,
+.download-actions{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:18px;
+}
+
+.download-meta span{
+display:block;
+padding:12px 14px;
+background:rgba(255,255,255,.82);
+border:1px solid rgba(31,41,55,.08);
+border-radius:16px;
+box-shadow:var(--shadow-soft);
+font-size:14px;
+color:var(--ink-soft);
+}
+
+.download-meta strong{
+display:block;
+font-size:11px;
+letter-spacing:.06em;
+text-transform:uppercase;
+}
+
+.download-action-note{
+margin-top:12px;
+font-size:14px;
+color:var(--ink-faint);
+}
+
+.download-route-list,
+.download-checklist-items{
+display:grid;
+gap:10px;
+}
+
+.download-checklist-group + .download-checklist-group{
+margin-top:22px;
+}
+
+.download-checklist-items{
+list-style:none;
+padding:0;
+}
+
+.download-checklist-items li{
+position:relative;
+padding:12px 14px 12px 42px;
+background:rgba(247,241,232,.68);
+border:1px solid rgba(31,41,55,.08);
+border-radius:14px;
+}
+
+.download-checklist-items li::before{
+content:"";
+position:absolute;
+left:14px;
+top:16px;
+width:16px;
+height:16px;
+border:2px solid rgba(31,111,95,.58);
+border-radius:4px;
+background:#fff;
+}
+
+.download-citation-text{
+margin:6px 0 12px;
+font-family:"SFMono-Regular","Consolas","Liberation Mono",monospace;
+font-size:13px;
+}
+
 .grid,
 .card-grid,
 .project-grid,
@@ -1702,6 +1775,46 @@ margin:18px;
 width:100%;
 }
 }
+
+@media print{
+header,
+footer,
+.page-trust-strip,
+.breadcrumbs,
+.download-actions,
+.continue-research,
+.sticky-action-bar,
+.download-related,
+.download-citation button{
+display:none !important;
+}
+
+body{
+background:#fff;
+color:#111827;
+}
+
+.container{
+max-width:none;
+padding:0;
+}
+
+section,
+.card{
+box-shadow:none;
+border-color:#d1d5db;
+break-inside:avoid;
+}
+
+.hero{
+padding:20px;
+}
+
+h1{
+font-size:30px;
+max-width:none;
+}
+}
 </style>
 </head>
 <body>
@@ -1717,6 +1830,7 @@ width:100%;
 <nav class="main-nav" id="primary-nav" aria-label="Primary">
 <a href="/">Start Here</a>
 <a href="/tools/">Tools</a>
+<a href="/downloads/">Downloads</a>
 <a href="/workflows/">Workflows</a>
 <a href="/building-regulations/">Building Regs</a>
 <a href="/my-planning-project/">My Project</a>
@@ -2138,6 +2252,31 @@ width:100%;
 </section>
 
 
+<section class="building-regs-handoff" data-nosnippet>
+<span class="eyebrow">Planning here, building regs next</span>
+<h2>Keep Planning Permission Separate From Building Regulations</h2>
+<p class="section-lead">UK Planning Guide keeps the planning route for two storey extension in Barnsley clear. BuildingRegsGuide owns the technical approval route, evidence, inspections and certificate questions once the design is moving toward construction.</p>
+<div class="grid">
+
+<a class="card" href="https://buildingregsguide.co.uk/projects/extensions-building-regulations/">
+<div class="card-kicker">BuildingRegsGuide</div>
+<h3>Extension building regulations</h3>
+<p>Structure, insulation, drainage, fire safety, ventilation and completion evidence for extensions.</p>
+<span class="cta">Open sister guide</span>
+</a>
+
+
+<a class="card" href="https://buildingregsguide.co.uk/tools/building-control-route-checker/">
+<div class="card-kicker">BuildingRegsGuide tool</div>
+<h3>Building control route checker</h3>
+<p>Choose whether the next conversation is full plans, building notice, competent person, regularisation or planning first.</p>
+<span class="cta">Open sister guide</span>
+</a>
+
+</div>
+</section>
+
+
 <section class="local-topic-handoffs">
 <span class="eyebrow">Rule-first next steps</span>
 <h2>If The Local Rule Is The Real Blocker, Start Here</h2>
@@ -2375,6 +2514,7 @@ width:100%;
 <a href="/workflows/">Planning workflows</a>
 <a href="/my-planning-project/">My Planning Project</a>
 <a href="/tools/planning-route-check/">Planning route check</a>
+<a href="/downloads/">Printable checklists</a>
 <a href="/building-regulations/">Building regulations guide</a>
 <a href="/house-extensions/">Browse project guides</a>
 <a href="/councils/">Compare local authorities</a>
@@ -2382,6 +2522,7 @@ width:100%;
 <div class="footer-links">
 <strong>Useful Next Reads</strong>
 <a href="/planning-faq/">Planning FAQ</a>
+<a href="/downloads/">Printable checklists</a>
 <a href="/personalised-planning-guidance/">Personalised planning guidance</a>
 <a href="/planning-help/">Planning help</a>
 <a href="/building-regulations/">Building regulations</a>
@@ -2474,6 +2615,35 @@ width:100%;
   }
 
   window.upgTrack = window.upgTrack || emitGaEvent;
+
+  const downloadAsset = document.querySelector("[data-download-asset]");
+  if (downloadAsset) {
+    emitGaEvent("download_asset_view", {
+      asset_slug: downloadAsset.getAttribute("data-download-asset") || "",
+      asset_type: downloadAsset.getAttribute("data-asset-type") || "",
+      project_family: downloadAsset.getAttribute("data-project-family") || ""
+    });
+  }
+
+  function setDownloadStatus(node, text) {
+    const root = node && node.closest ? node.closest("[data-download-asset]") : null;
+    const status = root ? root.querySelector("[data-download-status]") : null;
+    if (status) {
+      status.textContent = text;
+    }
+  }
+
+  function copyDownloadText(text, button, successText) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () {
+        setDownloadStatus(button, successText);
+      }).catch(function () {
+        setDownloadStatus(button, "Copy failed. Select the text manually and copy it from the page.");
+      });
+      return;
+    }
+    setDownloadStatus(button, "Clipboard is not available. Select the text manually and copy it from the page.");
+  }
 
   const SAFE_ROUTE_EVENT_NAMES = {
     route_started: true,
@@ -2730,6 +2900,44 @@ width:100%;
   }
 
   document.addEventListener("click", function (event) {
+    const downloadButton = event.target && event.target.closest ? event.target.closest("[data-download-action]") : null;
+    if (downloadButton) {
+      const action = downloadButton.getAttribute("data-download-action");
+      const slug = downloadButton.getAttribute("data-asset-slug") || "";
+      const assetRoot = downloadButton.closest("[data-download-asset]");
+      const assetType = assetRoot ? assetRoot.getAttribute("data-asset-type") || "" : "";
+      if (action === "print") {
+        emitGaEvent("download_asset_print", { asset_slug: slug, asset_type: assetType });
+        window.print();
+        return;
+      }
+      if (action === "copy-link") {
+        emitGaEvent("download_asset_copy_link", { asset_slug: slug });
+        copyDownloadText(window.location.href, downloadButton, "Page link copied.");
+        return;
+      }
+      if (action === "copy-text") {
+        const copySource = assetRoot ? assetRoot.querySelector("[data-download-copy-source]") : null;
+        emitGaEvent("download_asset_plain_text_copy", { asset_slug: slug });
+        copyDownloadText(copySource ? copySource.innerText.trim() : document.body.innerText.trim(), downloadButton, "Checklist text copied.");
+        return;
+      }
+      if (action === "copy-citation") {
+        const citation = assetRoot ? assetRoot.querySelector(".download-citation-text") : null;
+        copyDownloadText(citation ? citation.value : window.location.href, downloadButton, "Citation copied.");
+        return;
+      }
+    }
+
+    const downloadRoot = event.target && event.target.closest ? event.target.closest("[data-download-asset]") : null;
+    const downloadLink = event.target && event.target.closest ? event.target.closest("a[href]") : null;
+    if (downloadRoot && downloadLink && downloadLink.getAttribute("href").indexOf("/tools/") === 0) {
+      emitGaEvent("download_asset_related_tool_click", {
+        asset_slug: downloadRoot.getAttribute("data-download-asset") || "",
+        destination_path: downloadLink.getAttribute("href") || ""
+      });
+    }
+
     const routeAction = event.target && event.target.closest ? event.target.closest("[data-retention-action], [data-sticky-action]") : null;
     if (routeAction) {
       handleRouteAction(routeAction.getAttribute("data-retention-action") || routeAction.getAttribute("data-sticky-action"), routeAction);
