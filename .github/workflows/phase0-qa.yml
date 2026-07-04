@@ -1,0 +1,43 @@
+name: Phase 0 canary QA
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  deterministic-and-browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: python -m unittest discover -s tests -v
+      - run: python build_site.py
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
+      - run: npm run test:lighthouse
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase-0-qa-reports
+          path: reports/phase-0/
+
+  source-health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/28_source_health.py --strict
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase-0-source-health
+          path: reports/phase-0/source-health.json

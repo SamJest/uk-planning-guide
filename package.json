@@ -1,0 +1,14 @@
+{
+  "name": "ukpg-phase-0-qa",
+  "private": true,
+  "scripts": {
+    "test:browser": "playwright test",
+    "test:browser:update": "playwright test --update-snapshots",
+    "test:lighthouse": "lhci autorun"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "latest",
+    "@lhci/cli": "latest",
+    "@playwright/test": "latest"
+  }
+}
