@@ -219,7 +219,8 @@ def build_site(*, mode: str = "canary") -> None:
             raise SystemExit(1)
 
     copy_assets(src=SCRIPT_DIR / "assets", dest=OUTPUT_DIR / "assets")
-    write_cname()
+    if mode == "full":
+        write_cname()
     write_nojekyll()
 
     _save_build_state(
