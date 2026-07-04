@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page-family="national_guide" data-jurisdiction="uk" data-review-status="source_checked">
 <head>
 <meta charset="UTF-8">
 <!-- Google Analytics (GA4) -->
@@ -31,7 +31,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
 <link rel="manifest" href="/assets/site.webmanifest?v=20260327">
 <meta name="theme-color" content="#f3eee5">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://ukplanningguide.co.uk/#website", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}}, {"@type": "WebPage", "name": "UK Planning Permission Guide: projects, councils and tools", "url": "https://ukplanningguide.co.uk/", "description": "Check project guides, local authority pages, planning rule hubs and tools to see what usually applies, what changes it locally and what to check next.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "CollectionPage", "headline": "UK Planning Permission Guide: projects, councils and tools", "description": "Check project guides, local authority pages, planning rule hubs and tools to see what usually applies, what changes it locally and what to check next.", "url": "https://ukplanningguide.co.uk/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk#sam-jones", "email": "guidance@ukplanningguide.co.uk"}, "reviewedBy": {"@type": "Person", "name": "UK Planning Guide Editorial Review Desk", "description": "Review layer responsible for official-source context, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.", "url": "https://ukplanningguide.co.uk#lead-reviewer", "email": "guidance@ukplanningguide.co.uk"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://ukplanningguide.co.uk/#website", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}}, {"@type": "WebPage", "name": "UK Planning Permission Guide: projects, councils and tools", "url": "https://ukplanningguide.co.uk/", "description": "Check project guides, local authority pages, planning rule hubs and tools to see what usually applies, what changes it locally and what to check next.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "CollectionPage", "headline": "UK Planning Permission Guide: projects, councils and tools", "description": "Check project guides, local authority pages, planning rule hubs and tools to see what usually applies, what changes it locally and what to check next.", "url": "https://ukplanningguide.co.uk/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk#sam-jones", "email": "guidance@ukplanningguide.co.uk"}, "reviewedBy": {"@type": "Person", "name": "UK Planning Guide Editorial Review Desk", "description": "Review layer responsible for official-source context, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.", "url": "https://ukplanningguide.co.uk#lead-reviewer", "email": "guidance@ukplanningguide.co.uk"}}, {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/#contract-page", "url": "https://ukplanningguide.co.uk/", "dateModified": "2026-07-04"}]}</script>
 <style>
 :root{
 --ink:#1f2937;
@@ -1241,6 +1241,26 @@ display:grid;
 gap:14px;
 }
 
+.workspace-retention-cta{
+display:grid;
+gap:16px;
+padding:clamp(20px,3vw,30px);
+border:1px solid rgba(31,111,95,.18);
+border-radius:8px;
+background:linear-gradient(180deg,rgba(243,250,247,.82),rgba(255,255,255,.94));
+box-shadow:var(--shadow-soft);
+}
+
+.workspace-retention-cta .answer-card{
+min-height:190px;
+align-content:start;
+}
+
+.workspace-retention-cta button,
+.workspace-retention-cta a{
+max-width:100%;
+}
+
 .next-step-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -1858,7 +1878,7 @@ max-width:none;
 <a class="btn button-secondary" href="/house-extensions/">Browse by project</a>
 <a class="btn button-secondary" href="/councils/">Find my council</a>
 </div>
-<div class="last-updated">Updated June 2026</div>
+<div class="last-updated">Updated July 2026</div>
 <div class="answer-grid">
 <div class="answer-card">
 <h3>What to do first</h3>
@@ -2745,6 +2765,56 @@ max-width:none;
 
   window.upgTrack = window.upgTrack || emitGaEvent;
 
+  function growthPageContext() {
+    const path = window.location.pathname || "/";
+    const cohort = document.querySelector("[data-growth-cohort]");
+    return {
+      source_path: path,
+      page_family: path.split("/").filter(Boolean)[0] || "home",
+      growth_cohort: cohort ? cohort.getAttribute("data-growth-cohort") || "" : ""
+    };
+  }
+
+  function isGoogleOrganicLanding() {
+    if (!document.referrer) {
+      return false;
+    }
+    try {
+      const host = new URL(document.referrer).hostname.toLowerCase();
+      return host === "google.com" || host.indexOf(".google.") !== -1 || host.indexOf("google.") === 0;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  if (isGoogleOrganicLanding()) {
+    let organicTimeReady = false;
+    let organicScrollReady = false;
+    let organicEngagementSent = false;
+    function maybeTrackOrganicEngagement() {
+      if (organicEngagementSent || !organicTimeReady || !organicScrollReady) {
+        return;
+      }
+      organicEngagementSent = true;
+      emitGaEvent("organic_landing_engaged", Object.assign(growthPageContext(), {
+        engagement_seconds: 10,
+        scroll_threshold: 25
+      }));
+    }
+    window.setTimeout(function () {
+      organicTimeReady = true;
+      maybeTrackOrganicEngagement();
+    }, 10000);
+    function checkOrganicEngagementScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      organicScrollReady = (window.scrollY / maxScroll) * 100 >= 25;
+      maybeTrackOrganicEngagement();
+    }
+    window.addEventListener("scroll", checkOrganicEngagementScroll, { passive: true });
+    checkOrganicEngagementScroll();
+  }
+
   const downloadAsset = document.querySelector("[data-download-asset]");
   if (downloadAsset) {
     emitGaEvent("download_asset_view", {
@@ -2805,6 +2875,9 @@ max-width:none;
     }
     const context = safeRouteContext(node);
     emitGaEvent(eventName, context);
+    if (eventName === "route_started") {
+      emitGaEvent("route_check_start", context);
+    }
     if (eventName === "summary_saved" || eventName === "council_pack_downloaded") {
       try {
         const saved = JSON.parse(safeStorageGet("ukpg:planning-workspace:v1") || "{}");
@@ -3029,6 +3102,27 @@ max-width:none;
   }
 
   document.addEventListener("click", function (event) {
+    const officialSource = event.target && event.target.closest ? event.target.closest(".official-source-link") : null;
+    if (officialSource) {
+      let destinationHost = "";
+      try {
+        destinationHost = new URL(officialSource.href).hostname;
+      } catch (error) {}
+      const sourceBlock = officialSource.closest("[data-official-sources]");
+      emitGaEvent("official_source_click", Object.assign(growthPageContext(), {
+        authority_slug: sourceBlock ? sourceBlock.getAttribute("data-official-sources-authority") || "" : "",
+        source_family: sourceBlock ? sourceBlock.getAttribute("data-official-sources-family") || "" : "",
+        destination_host: destinationHost
+      }));
+    }
+
+    const growthAction = event.target && event.target.closest ? event.target.closest("[data-growth-action]") : null;
+    if (growthAction && growthAction.getAttribute("data-growth-action") === "route_check_start") {
+      emitGaEvent("route_check_start", Object.assign(growthPageContext(), {
+        route_intent: "growth_answer_action"
+      }));
+    }
+
     const downloadButton = event.target && event.target.closest ? event.target.closest("[data-download-action]") : null;
     if (downloadButton) {
       const action = downloadButton.getAttribute("data-download-action");
@@ -3096,6 +3190,16 @@ max-width:none;
       note.textContent = "Copy the address from your browser bar to keep this page with your project notes.";
     }
   });
+
+  document.addEventListener("submit", function (event) {
+    const form = event.target && event.target.closest ? event.target.closest("form[data-guidance-form]") : null;
+    if (!form) {
+      return;
+    }
+    emitGaEvent("planning_enquiry_submit", Object.assign(growthPageContext(), {
+      form_key: form.getAttribute("data-guidance-form") || ""
+    }));
+  }, true);
 
   function ensureNextStep(resultNode) {
     if (!resultNode || resultNode.querySelector(".tool-next-step")) {
