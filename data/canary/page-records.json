@@ -1,0 +1,149 @@
+[
+  {
+    "route_path": "/", "canonical_path": "/", "page_family": "national_guide", "jurisdiction": "uk",
+    "authority_id": null, "project_id": null, "rule_id": null, "source_ids": [], "claims": [],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "high", "unique_local_facts": []
+  },
+  {
+    "route_path": "/england/rules/planning-permission/", "canonical_path": "/england/rules/planning-permission/", "page_family": "national_guide", "jurisdiction": "england",
+    "authority_id": null, "project_id": null, "rule_id": "planning-permission", "source_ids": ["planning-portal-permission", "govuk-when-permission-required"],
+    "claims": [{"claim_id": "planning-route-varies", "text": "The correct planning route depends on the proposal and site constraints.", "source_ids": ["govuk-when-permission-required"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "high", "unique_local_facts": []
+  },
+  {
+    "route_path": "/england/rules/permitted-development/", "canonical_path": "/england/rules/permitted-development/", "page_family": "national_guide", "jurisdiction": "england",
+    "authority_id": null, "project_id": null, "rule_id": "permitted-development", "source_ids": ["govuk-permitted-development-rights", "govuk-when-permission-required"],
+    "claims": [{"claim_id": "pd-rights-qualified", "text": "Permitted development rights are subject to limits, conditions and property-specific restrictions.", "source_ids": ["govuk-permitted-development-rights"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "high", "unique_local_facts": []
+  },
+  {
+    "route_path": "/england/projects/garden-rooms/", "canonical_path": "/england/projects/garden-rooms/", "page_family": "project_guide", "jurisdiction": "england",
+    "authority_id": null, "project_id": "garden-rooms", "rule_id": null, "source_ids": ["planning-portal-permission", "govuk-permitted-development-rights"],
+    "claims": [{"claim_id": "garden-room-route", "text": "A garden-room route depends on use, siting, scale and restrictions affecting the property.", "source_ids": ["govuk-permitted-development-rights"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium", "unique_local_facts": []
+  },
+  {
+    "route_path": "/wales/projects/dropped-kerbs/cardiff/", "canonical_path": "/wales/projects/dropped-kerbs/cardiff/", "page_family": "local_project", "jurisdiction": "wales",
+    "authority_id": "cardiff", "project_id": "dropped-kerbs", "rule_id": null,
+    "source_ids": ["cardiff-planning-application", "wales-validation-requirements", "cardiff-pre-app", "cardiff-local-development-plan", "cardiff-vehicle-crossovers"],
+    "claims": [{"claim_id": "cardiff-crossover-route", "text": "Cardiff publishes a vehicle-crossover route separately from its general planning application guidance.", "source_ids": ["cardiff-vehicle-crossovers", "cardiff-planning-application"]}],
+    "verified_at": "2026-07-04", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium",
+    "unique_local_facts": [
+      {"fact": "Cardiff publishes a dedicated vehicle-crossover service.", "source_ids": ["cardiff-vehicle-crossovers"]},
+      {"fact": "Cardiff publishes its own planning-application route.", "source_ids": ["cardiff-planning-application"]},
+      {"fact": "Welsh validation requirements apply to application preparation.", "source_ids": ["wales-validation-requirements"]},
+      {"fact": "Cardiff offers a pre-application enquiry route.", "source_ids": ["cardiff-pre-app"]},
+      {"fact": "Cardiff's adopted Local Development Plan is part of the local policy context.", "source_ids": ["cardiff-local-development-plan"]}
+    ]
+  },
+  {
+    "route_path": "/scotland/projects/garden-rooms/city-of-edinburgh/", "canonical_path": "/scotland/projects/garden-rooms/city-of-edinburgh/", "page_family": "local_project", "jurisdiction": "scotland",
+    "authority_id": "city-of-edinburgh", "project_id": "garden-rooms", "rule_id": null,
+    "source_ids": ["scotland-eplanning", "edinburgh-apply-planning", "edinburgh-pre-app", "edinburgh-city-plan-2030"],
+    "claims": [{"claim_id": "edinburgh-planning-route", "text": "Edinburgh applications use Scotland's planning system together with the council's local application guidance and development plan.", "source_ids": ["scotland-eplanning", "edinburgh-apply-planning", "edinburgh-city-plan-2030"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium",
+    "unique_local_facts": [
+      {"fact": "Scotland provides the ePlanning application service.", "source_ids": ["scotland-eplanning"]},
+      {"fact": "Edinburgh publishes a local planning-permission application route.", "source_ids": ["edinburgh-apply-planning"]},
+      {"fact": "Edinburgh publishes local application requirements.", "source_ids": ["edinburgh-apply-planning"]},
+      {"fact": "Edinburgh provides a pre-application customer service guide.", "source_ids": ["edinburgh-pre-app"]},
+      {"fact": "City Plan 2030 supplies Edinburgh's current local development-plan context.", "source_ids": ["edinburgh-city-plan-2030"]}
+    ]
+  },
+  {
+    "route_path": "/england/rules/height-limits/", "canonical_path": "/england/rules/height-limits/", "page_family": "rule_guide", "jurisdiction": "england",
+    "authority_id": null, "project_id": null, "rule_id": "height-limits", "source_ids": ["govuk-permitted-development-rights"],
+    "claims": [{"claim_id": "height-context", "text": "Relevant height limits depend on the development class and the proposal's context.", "source_ids": ["govuk-permitted-development-rights"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium", "unique_local_facts": []
+  },
+  {
+    "route_path": "/england/rules/article-4/", "canonical_path": "/england/rules/article-4/", "page_family": "rule_guide", "jurisdiction": "england",
+    "authority_id": null, "project_id": null, "rule_id": "article-4", "source_ids": ["planning-aid-article-4"],
+    "claims": [{"claim_id": "article-four-effect", "text": "An Article 4 direction can withdraw specified permitted development rights in a defined area.", "source_ids": ["planning-aid-article-4"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "high", "unique_local_facts": []
+  },
+  {
+    "route_path": "/england/rules/conservation-areas/", "canonical_path": "/england/rules/conservation-areas/", "page_family": "rule_guide", "jurisdiction": "england",
+    "authority_id": null, "project_id": null, "rule_id": "conservation-areas", "source_ids": ["govuk-when-permission-required"],
+    "claims": [{"claim_id": "conservation-local-check", "text": "Conservation-area controls require a property and authority-specific check.", "source_ids": ["govuk-when-permission-required"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium", "unique_local_facts": []
+  },
+  {
+    "route_path": "/england/councils/colchester/", "canonical_path": "/england/councils/colchester/", "page_family": "authority_profile", "jurisdiction": "england",
+    "authority_id": "colchester", "project_id": null, "rule_id": null,
+    "source_ids": ["colchester-validation", "colchester-pre-app", "colchester-local-plan", "essex-design-guide", "essex-highways-planning"],
+    "claims": [{"claim_id": "colchester-authority-services", "text": "Colchester publishes local validation, local-plan and pre-application material for planning users.", "source_ids": ["colchester-validation", "colchester-pre-app", "colchester-local-plan"]}],
+    "verified_at": "2026-07-04", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium",
+    "unique_local_facts": [
+      {"fact": "Colchester publishes a Scheme of Local Validation.", "source_ids": ["colchester-validation"]},
+      {"fact": "Colchester publishes a pre-application advice route.", "source_ids": ["colchester-pre-app"]},
+      {"fact": "Colchester publishes its Local Plan online.", "source_ids": ["colchester-local-plan"]},
+      {"fact": "The Essex Design Guide is available for local design context.", "source_ids": ["essex-design-guide"]},
+      {"fact": "Essex County Council publishes highways planning advice relevant to Colchester.", "source_ids": ["essex-highways-planning"]}
+    ]
+  },
+  {
+    "route_path": "/england/projects/garden-rooms/colchester/", "canonical_path": "/england/projects/garden-rooms/colchester/", "page_family": "local_project", "jurisdiction": "england",
+    "authority_id": "colchester", "project_id": "garden-rooms", "rule_id": null,
+    "source_ids": ["govuk-permitted-development-rights", "colchester-validation", "colchester-pre-app", "colchester-local-plan", "essex-design-guide", "essex-highways-planning"],
+    "claims": [{"claim_id": "colchester-garden-room-check", "text": "A Colchester garden-room route must separate the national outbuilding baseline from local validation, policy and design context.", "source_ids": ["govuk-permitted-development-rights", "colchester-validation", "colchester-local-plan", "essex-design-guide"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium",
+    "unique_local_facts": [
+      {"fact": "Colchester publishes a Scheme of Local Validation.", "source_ids": ["colchester-validation"]},
+      {"fact": "Colchester's Local Plan supplies local policy context.", "source_ids": ["colchester-local-plan"]},
+      {"fact": "The Essex Design Guide supplies local design context.", "source_ids": ["essex-design-guide"]},
+      {"fact": "Colchester offers pre-application advice where the route is uncertain.", "source_ids": ["colchester-pre-app"]},
+      {"fact": "Essex highways advice is a separate local consideration where access is affected.", "source_ids": ["essex-highways-planning"]}
+    ]
+  },
+  {
+    "route_path": "/england/rules/article-4/colchester/", "canonical_path": "/england/rules/article-4/colchester/", "page_family": "local_rule", "jurisdiction": "england",
+    "authority_id": "colchester", "project_id": null, "rule_id": "article-4",
+    "source_ids": ["planning-aid-article-4", "colchester-validation", "colchester-local-plan"],
+    "claims": [{"claim_id": "colchester-article-four-unverified", "text": "No authority-specific Article 4 designation source is verified in the Phase 0 registry; users must check the exact property with Colchester.", "source_ids": ["planning-aid-article-4", "colchester-local-plan"]}],
+    "verified_at": null, "content_updated_at": "2026-07-04", "review_status": "draft", "index_status": "noindex", "confidence": "low", "unique_local_facts": []
+  },
+  {
+    "route_path": "/england/tools/planning-route-check/", "canonical_path": "/england/tools/planning-route-check/", "page_family": "tool", "jurisdiction": "england",
+    "authority_id": null, "project_id": null, "rule_id": null, "source_ids": ["planning-portal-permission", "govuk-when-permission-required"],
+    "claims": [{"claim_id": "tool-not-approval", "text": "The route check provides general guidance and is not a legal approval or certificate.", "source_ids": ["govuk-when-permission-required"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium", "unique_local_facts": []
+  },
+  {
+    "route_path": "/workflows/house-extension-planning/", "canonical_path": "/workflows/house-extension-planning/", "page_family": "workflow", "jurisdiction": "uk",
+    "authority_id": null, "project_id": "house-extensions", "rule_id": null, "source_ids": ["planning-portal-permission"],
+    "claims": [{"claim_id": "extension-workflow", "text": "An extension workflow should confirm jurisdiction, constraints and route before application preparation.", "source_ids": ["planning-portal-permission"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium", "unique_local_facts": []
+  },
+  {
+    "route_path": "/my-planning-project/", "canonical_path": "/my-planning-project/", "page_family": "tool", "jurisdiction": "uk",
+    "authority_id": null, "project_id": null, "rule_id": null, "source_ids": [], "claims": [],
+    "verified_at": null, "content_updated_at": "2026-07-04", "review_status": "editor_checked", "index_status": "index", "confidence": "high", "unique_local_facts": []
+  },
+  {
+    "route_path": "/downloads/", "canonical_path": "/downloads/", "page_family": "national_guide", "jurisdiction": "uk",
+    "authority_id": null, "project_id": null, "rule_id": null, "source_ids": [], "claims": [],
+    "verified_at": null, "content_updated_at": "2026-07-04", "review_status": "editor_checked", "index_status": "index", "confidence": "high", "unique_local_facts": []
+  },
+  {
+    "route_path": "/planning-faq/", "canonical_path": "/planning-faq/", "page_family": "national_guide", "jurisdiction": "uk",
+    "authority_id": null, "project_id": null, "rule_id": null, "source_ids": ["planning-portal-permission"], "claims": [],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "medium", "unique_local_facts": []
+  },
+  {
+    "route_path": "/updates/phase-0-integrity-repair/", "canonical_path": "/updates/phase-0-integrity-repair/", "page_family": "news", "jurisdiction": "uk",
+    "authority_id": null, "project_id": null, "rule_id": null, "source_ids": [], "claims": [],
+    "verified_at": null, "content_updated_at": "2026-07-04", "review_status": "draft", "index_status": "noindex", "confidence": "high", "unique_local_facts": []
+  },
+  {
+    "route_path": "/england/data/council-profile-database/", "canonical_path": "/england/data/council-profile-database/", "page_family": "data_report", "jurisdiction": "england",
+    "authority_id": null, "project_id": null, "rule_id": null, "source_ids": ["colchester-local-plan"],
+    "claims": [{"claim_id": "database-coverage", "text": "The council-profile database is a source-status scaffold, not a complete national dataset.", "source_ids": ["colchester-local-plan"]}],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "index", "confidence": "low", "unique_local_facts": []
+  },
+  {
+    "route_path": "/councils/colchester/", "canonical_path": "/england/councils/colchester/", "page_family": "authority_profile", "jurisdiction": "england",
+    "authority_id": "colchester", "project_id": null, "rule_id": null, "source_ids": ["colchester-validation", "colchester-local-plan"], "claims": [],
+    "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "noindex", "confidence": "medium", "unique_local_facts": []
+  }
+]

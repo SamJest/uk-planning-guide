@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ukplanningguide.co.uk/schemas/page-record.schema.json",
+  "title": "UK Planning Guide page record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "route_path",
+    "canonical_path",
+    "page_family",
+    "jurisdiction",
+    "authority_id",
+    "project_id",
+    "rule_id",
+    "source_ids",
+    "claims",
+    "verified_at",
+    "content_updated_at",
+    "review_status",
+    "index_status",
+    "confidence",
+    "unique_local_facts"
+  ],
+  "properties": {
+    "route_path": {"type": "string", "pattern": "^/(?:$|.*/$)"},
+    "canonical_path": {"type": "string", "pattern": "^/(?:$|.*/$)"},
+    "page_family": {
+      "enum": [
+        "national_guide",
+        "project_guide",
+        "rule_guide",
+        "authority_profile",
+        "local_project",
+        "local_rule",
+        "tool",
+        "workflow",
+        "news",
+        "data_report"
+      ]
+    },
+    "jurisdiction": {"enum": ["england", "wales", "scotland", "northern-ireland", "uk"]},
+    "authority_id": {"type": ["string", "null"]},
+    "project_id": {"type": ["string", "null"]},
+    "rule_id": {"type": ["string", "null"]},
+    "source_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim_id", "text", "source_ids"],
+        "properties": {
+          "claim_id": {"type": "string", "minLength": 1},
+          "text": {"type": "string", "minLength": 1},
+          "source_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+        }
+      }
+    },
+    "verified_at": {"type": ["string", "null"], "format": "date"},
+    "content_updated_at": {"type": "string", "format": "date"},
+    "review_status": {"enum": ["draft", "source_checked", "editor_checked", "published"]},
+    "index_status": {"enum": ["noindex", "index"]},
+    "confidence": {"enum": ["low", "medium", "high"]},
+    "unique_local_facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["fact", "source_ids"],
+        "properties": {
+          "fact": {"type": "string", "minLength": 1},
+          "source_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}
