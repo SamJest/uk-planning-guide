@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Demolition in England is not automatically free of planning control. Outside conservation areas, demolition of many buildings can be permitted development under Part 11, often subject to prior approval for the method of demolition and site restoration, but listed buildings and relevant demolition in conservation areas are treated more strictly.",
+    "rules": {
+      "height_rules": "The scale and type of building being demolished matter. Larger or more prominent structures are more likely to need a formal prior approval or planning route.",
+      "depth_rules": "Whole-building demolition, phased demolition and demolition tied to redevelopment should be described clearly because the replacement scheme is not automatically authorised with the demolition.",
+      "boundary_rules": "Shared walls, party wall issues, neighbour safety, access and protection of adjoining land all matter where demolition is close to other property.",
+      "roof_rules": "Roof removal is normally part of the demolition method rather than a separate permission, but unstable roof structures, scaffolding and controlled sequencing can be central to prior approval details.",
+      "materials_rules": "Hazardous materials, asbestos, waste handling and site restoration should be addressed early because demolition control is not only about taking the building down."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Scale and Type of Structure Being Demolished",
+      "intro": "The planning route for demolition depends heavily on what is being removed and where it is located.",
+      "rules": [
+        "Small minor structures can fall outside the fuller demolition controls.",
+        "Larger buildings are more likely to need prior approval under Part 11.",
+        "Pubs, listed buildings and some protected structures are treated differently.",
+        "Prominent urban buildings can trigger wider restoration and safety scrutiny."
+      ],
+      "details": "GOV.UK and Planning Portal both make clear that demolition is a separate planning topic, not a simple free-for-all. Outside conservation areas, demolition of many buildings is permitted development under Part 11, but that often still means applying for prior approval about how the work will happen and how the site will be restored. The size and type of structure matter because the planning regime distinguishes between minor demolition and the removal of more substantial buildings.",
+      "exceptions": "Listed buildings, some protected monuments and relevant demolition in conservation areas need a different consent route and should not be assumed to fall within standard demolition permitted development."
+    },
+    "depth_rules": {
+      "title": "Extent of Demolition and What Follows",
+      "intro": "Demolition permission does not automatically authorise a replacement building or a new use of the cleared site.",
+      "rules": [
+        "Whole-building demolition should be described clearly in the application or prior approval submission.",
+        "Partial demolition can still need planning control if it materially affects the building.",
+        "Demolition tied to a redevelopment scheme should not be confused with permission for the replacement project.",
+        "Site restoration details are often part of the prior approval process."
+      ],
+      "details": "One of the most common misunderstandings is assuming that permission to demolish also grants permission to rebuild. Planning Portal explicitly warns against that. Where prior approval is needed, the authority can consider the method of demolition and the proposed restoration of the site, but that is not the same as approving a new building. Partial demolition can also be controlled where it materially affects the building's appearance or structure.",
+      "exceptions": "If demolition forms part of a wider planning application, the authority may assess the package together, but the replacement works still need their own lawful basis."
+    },
+    "boundary_rules": {
+      "title": "Neighbours, Shared Structures and Site Safety",
+      "intro": "Demolition close to adjoining land needs careful handling even where the planning route seems straightforward.",
+      "rules": [
+        "Shared walls and close boundary conditions can trigger party wall and structural issues.",
+        "The demolition method should protect adjoining land and buildings.",
+        "Access, hoarding, dust and debris management matter on tight urban sites.",
+        "Boundary conditions can affect whether the authority is satisfied with a prior approval submission."
+      ],
+      "details": "Boundary impacts are often what make demolition contentious. Even where Part 11 allows the principle of demolition, the local authority can look closely at how the work will be carried out and how neighbouring land will be protected. Separate duties under party wall, health and safety and environmental law may also apply. In practice, a vague demolition method near shared structures is far harder to defend than a clear, sequenced approach.",
+      "exceptions": "Sites well away from neighbours may be simpler, but that does not remove the need to follow the correct demolition and safety regime."
+    },
+    "roof_rules": {
+      "title": "Roof Removal and Demolition Method",
+      "intro": "Roof removal is usually one stage in the demolition sequence rather than a stand-alone planning right.",
+      "rules": [
+        "Temporary scaffolding and controlled roof strip-out are often part of the demolition method.",
+        "Unstable roof structures can change the safety case for the whole site.",
+        "Debris containment matters where roofs are removed near public space or neighbours.",
+        "Method statements should explain sequencing rather than assume roof removal is incidental."
+      ],
+      "details": "A demolition proposal often starts with roof removal, but the planning issue is usually how the whole process is managed, not the roof in isolation. Where prior approval is required, authorities typically expect enough information to understand how the structure will come down safely and how the site will be left afterwards. Complex roofs, attached buildings and constrained streets can make that method detail especially important.",
+      "exceptions": "Where the roof work is actually an alteration rather than true demolition, the project may need to be assessed under a different planning route."
+    },
+    "materials_rules": {
+      "title": "Waste, Hazardous Materials and Site Restoration",
+      "intro": "Demolition control is not only about the act of knocking down a building; disposal and aftercare matter too.",
+      "rules": [
+        "Asbestos and other hazardous materials should be dealt with before or during demolition under the correct specialist regime.",
+        "Waste separation and lawful disposal routes should be planned early.",
+        "The authority can consider the proposed restoration of the site where prior approval is required.",
+        "A cleared site still has to be left safe and appropriately finished."
+      ],
+      "details": "Planning Portal and GOV.UK both point users back to the wider demolition regime, which includes more than structural removal. Hazardous material handling, waste control and site restoration can all affect how a demolition proposal is judged. A responsible demolition package therefore deals with the building fabric, the site after demolition and the safe handling of potentially dangerous materials together.",
+      "exceptions": "Unexpected contamination or asbestos can stop works and require a revised method or specialist intervention before demolition continues."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Relevant demolition in a conservation area normally needs planning permission, subject only to limited statutory exceptions for small or excluded structures.",
+    "listed_building": "Demolition of a listed building, or of a protected curtilage structure, needs listed building consent and can carry criminal consequences if done without it.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove fallback demolition rights in selected locations, so the exact designation should be checked before assuming a Part 11 or prior approval route still applies."
+  }
+}

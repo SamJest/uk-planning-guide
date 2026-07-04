@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Wiltshire, for a house, the usual planning route for a driveway is easiest where the work is just hard surfacing inside the plot and run-off from any front area over 5 square metres is dealt with on site. Permission issues often arise from the access, walls or drainage details rather than the parking space alone. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Wiltshire, the planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+      "depth_rules": "Across Wiltshire, the main national control is drainage rather than projection from the house. Shallow or awkward parking layouts can still fail in practice if they leave vehicles overhanging the footway or create poor manoeuvring.",
+      "boundary_rules": "Across Wiltshire, the road boundary often decides the real answer. A paved area inside the site can be acceptable while the associated wall removal, widened opening or vehicle crossover is not.",
+      "roof_rules": "Across Wiltshire, a driveway or paved area does not automatically authorise a roof above it. Once a car port or canopy is added, the structure needs checking under the separate rules for buildings or attached alterations.",
+      "materials_rules": "Across Wiltshire, the safest material strategy is to manage water within the property. Broad impermeable paving on a front garden is far more likely to trigger planning issues than a permeable or properly drained surface."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "wiltshire",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house, the usual planning route for a driveway is easiest where the work is just hard surfacing inside the plot and run-off from any front area over 5 square metres is dealt with on site. Permission issues often arise from the access, walls or drainage details rather than the parking space alone. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+        "depth_rules": "The main national control is drainage rather than projection from the house. Shallow or awkward parking layouts can still fail in practice if they leave vehicles overhanging the footway or create poor manoeuvring.",
+        "boundary_rules": "The road boundary often decides the real answer. A paved area inside the site can be acceptable while the associated wall removal, widened opening or vehicle crossover is not.",
+        "roof_rules": "A driveway or paved area does not automatically authorise a roof above it. Once a car port or canopy is added, the structure needs checking under the separate rules for buildings or attached alterations.",
+        "materials_rules": "The safest material strategy is to manage water within the property. Broad impermeable paving on a front garden is far more likely to trigger planning issues than a permeable or properly drained surface."
+      },
+      "restrictions": {
+        "conservation_area": "Driveway works in conservation areas are usually judged as much on the loss of historic frontage character as on the paving material itself.",
+        "listed_building": "Driveway works affecting a listed building, its curtilage, or historic boundary structures can need listed building consent as well as any planning or highway approval.",
+        "article4_applies": false,
+        "article4_notes": "Driveway works are not always protected by normal householder rights: Article 4 controls and earlier planning conditions can require an application for surfacing or boundary changes."
+      }
+    },
+    {
+      "town_slug": "swindon",
+      "last_verified": "2026-04",
+      "permitted_development": "A house driveway is usually treated as permitted development where the surfacing stays within the curtilage and front areas over 5 square metres are porous or drain to a porous area within the site. A new crossover or vehicle access is a separate highways consent route. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "There is no simple householder height limit for paving itself. The planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+        "depth_rules": "There is no extension-style depth allowance for a driveway or paved area. Front areas over 5 square metres should be permeable or drain to a porous area within the curtilage.",
+        "boundary_rules": "Driveway surfacing inside the plot and the access across the boundary are not always the same consent route. New or widened vehicle crossings usually need highway authority approval.",
+        "roof_rules": "Covered parking or shelter features should not be assumed to fall within the same route as the paving.",
+        "materials_rules": "The safest material strategy is to manage water within the property. Broad impermeable paving on a front garden is far more likely to trigger planning issues than a permeable or properly drained surface."
+      },
+      "restrictions": {
+        "conservation_area": "A new or enlarged driveway in a conservation area often gets closer scrutiny if it replaces soft landscaping or alters a traditional frontage.",
+        "listed_building": "Driveway works affecting a listed building, its curtilage, or historic boundary structures can need listed building consent as well as any planning or highway approval.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions or planning conditions can remove normal householder rights for hard surfacing, frontage parking or boundary alterations."
+      }
+    }
+  ]
+}

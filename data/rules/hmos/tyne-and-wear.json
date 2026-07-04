@@ -1,0 +1,100 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Tyne and Wear, HMO proposals usually need an early planning permission check because local policy, shared-housing concentration and Article 4 coverage often matter more than any simple fallback route. The strongest HMO route usually comes from treating policy, concentration, amenity and the supporting physical works as one joined-up planning question.",
+    "rules": {
+      "height_rules": "For HMOs, the planning issue is usually intensity of occupation and local policy rather than building height alone, although physical enlargement can add a second planning layer.",
+      "depth_rules": "Layout, garden amenity space, refuse storage and any extension or conversion project linked to the HMO can all change the planning route across Tyne and Wear.",
+      "boundary_rules": "Neighbour amenity, parking pressure, servicing and local shared-housing concentration are recurring pressure points for HMO proposals in Tyne and Wear.",
+      "roof_rules": "Roof rooms, dormers and upper-floor reconfiguration often need to be reviewed alongside the change of use rather than as a separate afterthought.",
+      "materials_rules": "Frontage appearance, cycle storage, bin arrangements and entrance treatment can influence how an HMO proposal is judged even where the main use change sits inside the building."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "gateshead",
+      "last_verified": "2026-03",
+      "permitted_development": "In Gateshead, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Gateshead, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Gateshead.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Gateshead.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Gateshead usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Gateshead so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Gateshead can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Gateshead usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Gateshead, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "newcastle-upon-tyne",
+      "last_verified": "2026-03",
+      "permitted_development": "In Newcastle upon Tyne, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Newcastle upon Tyne, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Newcastle upon Tyne.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Newcastle upon Tyne.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Newcastle upon Tyne usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Newcastle upon Tyne so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Newcastle upon Tyne can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Newcastle upon Tyne usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Newcastle upon Tyne, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "north-tyneside",
+      "last_verified": "2026-03",
+      "permitted_development": "In North Tyneside, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In North Tyneside, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in North Tyneside.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in North Tyneside.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in North Tyneside usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in North Tyneside so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within North Tyneside can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in North Tyneside usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in North Tyneside, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "south-tyneside",
+      "last_verified": "2026-03",
+      "permitted_development": "In South Tyneside, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In South Tyneside, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in South Tyneside.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in South Tyneside.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in South Tyneside usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in South Tyneside so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within South Tyneside can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in South Tyneside usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in South Tyneside, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "sunderland",
+      "last_verified": "2026-03",
+      "permitted_development": "In Sunderland, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Sunderland, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Sunderland.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Sunderland.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Sunderland usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Sunderland so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Sunderland can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Sunderland usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Sunderland, because they can remove the simpler fallback route for change of use."
+      }
+    }
+  ]
+}

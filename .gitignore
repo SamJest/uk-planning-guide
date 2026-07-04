@@ -10,3 +10,7 @@ node_modules/
 reports/phase-0/playwright-html/
 reports/phase-0/playwright-results/
 reports/phase-0/lighthouse/
+__pycache__/
+*.py[cod]
+output/
+reports/phase-0/page-inventory-shard-*.json

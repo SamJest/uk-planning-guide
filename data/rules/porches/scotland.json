@@ -1,0 +1,593 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+    "rules": {
+      "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+      "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+      "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+      "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+      "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+      "rules": {
+        "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+        "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+        "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+        "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+        "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+      },
+      "restrictions": {
+        "conservation_area": "In Edinburgh, conservation area controls and site-specific planning conditions often make visible external work more sensitive than the national baseline. Check planning permission, listed building consent and building warrant requirements together.",
+        "listed_building": "Edinburgh householders should assume listed building consent may be needed for internal or external works affecting character, alongside any planning permission or building warrant requirements.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+      "rules": {
+        "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+        "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+        "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+        "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+        "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+      "rules": {
+        "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+        "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+        "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+        "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+        "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+      "rules": {
+        "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+        "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+        "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+        "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+        "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+      "rules": {
+        "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+        "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+        "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+        "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+        "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+      "rules": {
+        "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+        "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+        "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+        "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+        "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+      "rules": {
+        "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+        "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+        "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+        "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+        "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish Class 1C can often cover a porch where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure is more than 2m from the boundary with a road.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall in Scotland. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall footprint of 3 square metres.",
+        "boundary_rules": "The 2m road-boundary rule is often the critical Scottish test on tight plots. Also remember that porches in conservation areas fall outside the ordinary Class 1C right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a small porch can normally use the ordinary householder route when it stays within the 3 square metre footprint, 3m height and road-boundary separation limits.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap.",
+        "depth_rules": "Porches do not get a dedicated projection allowance in Scotland. The practical size test is that the footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the road boundary first. On many front elevations, the porch dimensions may be fine but the required 2m separation to a road boundary, together with conservation area status, is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own Scottish allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. Sensitive Scottish settings often call for the most restrained finish."
+      },
+      "restrictions": {
+        "conservation_area": "In Cairngorms National Park, conservation area and cultural heritage controls should be checked early with the relevant planning authority before relying on permitted development.",
+        "listed_building": "In Cairngorms National Park, listed buildings and other cultural heritage interests can require special consent before other permissions are considered.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch on a dwellinghouse in Scotland is usually permitted development if its footprint does not exceed 3 square metres, no part is higher than 3m and it stays more than 2m from any boundary with a road, provided no local restriction has removed the right.",
+      "rules": {
+        "height_rules": "The key Scottish height limit is 3m overall. There is no extra allowance for a pitched or feature porch roof once the structure passes that level.",
+        "depth_rules": "There is no separate depth allowance. The key size test is footprint, which should not exceed 3 square metres.",
+        "boundary_rules": "No part of the porch should be within 2m of a boundary with a road. There are no ordinary porch rights in a conservation area, so location matters as much as size.",
+        "roof_rules": "There is no separate roof allowance beyond the overall footprint and 3m height limit. The roof form must stay within those national thresholds.",
+        "materials_rules": "Use materials that fit the dwellinghouse and its setting. Listed building consent or heritage controls can still apply even where the porch dimensions are small."
+      },
+      "restrictions": {
+        "conservation_area": "In Loch Lomond and The Trossachs National Park, householders in conservation areas normally need planning permission for external alterations and works affecting the exterior of their property.",
+        "listed_building": "In Loch Lomond and The Trossachs National Park, listed building consent is required for works, internal or external, that affect the character of a listed property.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    }
+  ]
+}

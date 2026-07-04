@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A dormer extension in England can be permitted development under Class B where the roof enlargement stays within the roof-space allowance, remains below the existing ridge, is set back from the eaves where required, and is not on the principal roof slope facing a highway.",
+    "rules": {
+      "height_rules": "No part of the dormer should project above the highest part of the existing roof. Raising the ridge is not permitted development.",
+      "depth_rules": "Keep the roof enlargement within the 40 cubic metre limit for terraced houses or 50 cubic metres for detached and semi-detached houses, counting earlier roof enlargements as well.",
+      "boundary_rules": "The enlarged roof should not overhang the outer face of the original house walls, and side-facing windows should be obscure-glazed and fixed shut below 1.7m.",
+      "roof_rules": "The dormer must not be on the principal elevation roof slope facing a highway. It should normally be set back at least 20cm from the original eaves unless a stated exception applies.",
+      "materials_rules": "External finishes should be similar in appearance to the existing house so the dormer reads as part of the roof rather than a bolt-on box."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Dormer Height Limits",
+      "intro": "A dormer can sit close to the ridge, but it must stay below the highest part of the existing roof.",
+      "rules": [
+        "No part of the dormer should rise above the existing ridge line.",
+        "A raised ridge or new full extra storey is not permitted development.",
+        "The dormer should read as a subordinate roof addition rather than a new top floor.",
+        "Flat-roofed rear dormers are common, but they still have to stay below the existing roof peak."
+      ],
+      "details": "Planning Portal and the householder technical guidance treat dormers as roof enlargements under Class B. The key height test is simple: the enlargement cannot exceed the highest part of the existing roof. That is why many compliant dormers sit just below ridge level. Once the ridge itself is lifted, the work usually falls outside permitted development and needs a planning application.",
+      "exceptions": "Ridge-raising, mansard-style remodelling and other schemes that materially increase the overall roof height will normally need planning permission."
+    },
+    "depth_rules": {
+      "title": "Dormer Roof-Space Limits",
+      "intro": "For permitted development, the controlling size test is usually roof volume rather than rear projection.",
+      "rules": [
+        "Terraced houses are limited to 40 cubic metres of additional roof space.",
+        "Detached and semi-detached houses are limited to 50 cubic metres.",
+        "Earlier roof enlargements count towards the same allowance.",
+        "A large rear box dormer can still fail if the total roof volume cap is exceeded."
+      ],
+      "details": "Class B sets a cumulative allowance for roof enlargements. The permitted amount is 40 cubic metres on terraced houses and 50 cubic metres on detached or semi-detached houses. The total includes previous loft enlargements, not just the new dormer. In practice, the safest approach is to measure the whole enlarged roof package rather than treat each dormer element in isolation.",
+      "exceptions": "If the combined roof enlargement goes over the volume cap, the dormer will usually need planning permission even if the rest of the design looks modest."
+    },
+    "boundary_rules": {
+      "title": "Walls, Side Windows and Overlooking",
+      "intro": "Dormers must stay within the original house envelope and manage side-facing privacy properly.",
+      "rules": [
+        "The roof enlargement should not overhang the outer face of the original house walls.",
+        "Side-facing windows should be obscure-glazed.",
+        "Any opening part of a side-facing window should usually be above 1.7m from floor level.",
+        "Close rear-to-rear relationships can still raise overlooking concerns if planning permission is needed."
+      ],
+      "details": "The technical guidance explains that a Class B enlargement should not project beyond the outer face of the original house wall, apart from specified linked-roof exceptions. Privacy also matters. A side-facing dormer window must normally be obscure-glazed and non-opening unless the opening part is above 1.7 metres. That does not remove every amenity issue, but it is the normal minimum for a permitted scheme.",
+      "exceptions": "Corner plots, unusual roof forms and dormers needing permission can be judged more closely for overlooking and visual impact."
+    },
+    "roof_rules": {
+      "title": "Roof Position and Eaves Setback",
+      "intro": "Where the dormer sits on the roof often matters as much as its size.",
+      "rules": [
+        "A dormer on the principal elevation roof slope facing a highway is not permitted development.",
+        "The original eaves should normally be maintained or reinstated.",
+        "The dormer should usually be set back at least 20cm from the original eaves.",
+        "Balconies, verandas and roof terraces are not included in the dormer permitted development right."
+      ],
+      "details": "Permitted dormers are usually rear-facing because Class B does not allow an enlargement on the principal elevation roof slope where it fronts a highway. The guidance also expects the eaves to remain legible, which is why a 20cm setback is normally used. The same section excludes balconies, verandas and raised external platforms, so a dormer cannot rely on Class B if it creates a terrace or similar outdoor space.",
+      "exceptions": "Hip-to-gable works and certain linked-roof situations have limited exceptions to the normal eaves setback rule, but front-roof dormers usually need permission."
+    },
+    "materials_rules": {
+      "title": "Dormer Finishes and External Appearance",
+      "intro": "A dormer should look tied into the existing roof and walls, not like a separate prefabricated box.",
+      "rules": [
+        "Use materials similar in appearance to the existing house.",
+        "Tiles, slates or cladding around the dormer should sit comfortably with the host roof.",
+        "Bulky fascia details and highly contrasting panels make approval harder where permission is needed.",
+        "The finish should keep the dormer visually subordinate to the main roof."
+      ],
+      "details": "The householder rules require exterior materials to be of a similar appearance to the existing dwellinghouse. That does not mean every component has to be identical, but the finished dormer should look intentional and proportionate. Matching or closely related roof and cheek finishes usually perform better than starkly contrasting systems.",
+      "exceptions": "Listed buildings and sensitive heritage settings often demand a more exact match and may require separate heritage consent as well."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Dormers on roof slopes visible from the street are much more likely to need planning permission in conservation areas because the roofscape is part of the area's character.",
+    "listed_building": "Roof alterations to a listed building usually need listed building consent even where a similar dormer on an unlisted house might fall within permitted development.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove normal roof-enlargement permitted development rights on selected streets or heritage areas, so the exact designation should be checked before relying on Class B."
+  }
+}

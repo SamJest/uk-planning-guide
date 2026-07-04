@@ -1,0 +1,127 @@
+<style>
+
+/* BOROUGH DIRECTORY CARDS */
+
+.borough-grid a{
+display:block;
+padding:20px;
+border:1px solid var(--border);
+border-radius:var(--radius);
+background:var(--card);
+box-shadow:var(--shadow-sm);
+font-weight:600;
+transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.borough-grid a:hover{
+transform:translateY(-3px);
+box-shadow:var(--shadow-md);
+text-decoration:none;
+}
+
+.borough-grid a::after{
+content:"→";
+float:right;
+opacity:.6;
+}
+
+</style>
+
+
+
+<div class="card">
+
+<div class="badge">London Borough Guidance</div>
+
+<h1>{{project_name}} Across London</h1>
+
+<p>
+Borough-specific planning rules and permitted development guidance
+for {{project_name}} across Greater London.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>National Permitted Development Overview</h2>
+
+<p>
+In many cases, {{project_name}} may fall under permitted development
+rights. However, restrictions often apply in conservation areas,
+listed buildings, flats and properties affected by Article 4 directions.
+</p>
+
+<p>
+London boroughs frequently apply additional local restrictions,
+which are outlined in each borough-specific page below.
+</p>
+
+</div>
+
+
+
+<div class="grid grid-2">
+
+<div class="card">
+
+<h2>Key Considerations</h2>
+
+<ul>
+<li>Height and size limits</li>
+<li>Distance from property boundaries</li>
+<li>Conservation area restrictions</li>
+<li>Article 4 directions</li>
+<li>Listed building consent</li>
+</ul>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>When Planning Permission Is Required</h2>
+
+<p>
+Full planning permission may be required if your project exceeds
+permitted development thresholds or if your property is subject
+to local restrictions.
+</p>
+
+<p>
+Always check borough-specific guidance before starting work.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>London Borough Directory</h2>
+
+<div class="grid grid-2 borough-grid">
+
+{{council_links}}
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Information Source</h2>
+
+<p>
+Borough guidance is summarised from official council planning documentation.
+Always confirm directly with your local planning authority before commencing work.
+</p>
+
+</div>

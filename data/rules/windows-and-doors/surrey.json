@@ -1,0 +1,202 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Surrey, window and door work is usually simplest on the planning permission route when it stays close to like-for-like replacement and does not materially alter the size, position, appearance or privacy impact of existing openings. The route is usually strongest when the joinery change still reads as part of the original elevation rather than a wider redesign of the frontage.",
+    "rules": {
+      "height_rules": "Changing the height of openings or creating new upper-level windows is usually much more sensitive than routine replacement joinery.",
+      "depth_rules": "Projection, reveal depth and grouped opening changes can affect whether the work still reads as simple replacement rather than an elevation redesign.",
+      "boundary_rules": "Side-facing upper-floor windows, new front openings and privacy impacts often become the key local pressure points for this kind of work.",
+      "roof_rules": "If the project includes rooflights or roof-facing windows, it should be checked against the separate roof alteration route rather than treated as standard joinery replacement.",
+      "materials_rules": "Frame profile, colour, material and detailing can all matter where the building has a stronger architectural rhythm or a more sensitive setting."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "elmbridge",
+      "last_verified": "2026-03",
+      "permitted_development": "In Elmbridge, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Elmbridge, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Elmbridge feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Elmbridge.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Elmbridge should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Elmbridge where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Elmbridge often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Elmbridge usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "epsom-and-ewell",
+      "last_verified": "2026-03",
+      "permitted_development": "In Epsom and Ewell, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Epsom and Ewell, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Epsom and Ewell feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Epsom and Ewell.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Epsom and Ewell should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Epsom and Ewell where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Epsom and Ewell often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Epsom and Ewell usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "guildford",
+      "last_verified": "2026-03",
+      "permitted_development": "In Guildford, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Guildford, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Guildford feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Guildford.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Guildford should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Guildford where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Guildford often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Guildford usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "mole-valley",
+      "last_verified": "2026-03",
+      "permitted_development": "In Mole Valley, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Mole Valley, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Mole Valley feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Mole Valley.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Mole Valley should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Mole Valley where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Mole Valley often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Mole Valley usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "reigate-and-banstead",
+      "last_verified": "2026-03",
+      "permitted_development": "In Reigate and Banstead, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Reigate and Banstead, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Reigate and Banstead feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Reigate and Banstead.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Reigate and Banstead should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Reigate and Banstead where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Reigate and Banstead often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Reigate and Banstead usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "runnymede",
+      "last_verified": "2026-03",
+      "permitted_development": "In Runnymede, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Runnymede, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Runnymede feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Runnymede.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Runnymede should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Runnymede where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Runnymede often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Runnymede usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "spelthorne",
+      "last_verified": "2026-03",
+      "permitted_development": "In Spelthorne, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Spelthorne, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Spelthorne feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Spelthorne.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Spelthorne should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Spelthorne where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Spelthorne often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Spelthorne usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "surrey-heath",
+      "last_verified": "2026-03",
+      "permitted_development": "In Surrey Heath, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Surrey Heath, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Surrey Heath feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Surrey Heath.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Surrey Heath should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Surrey Heath where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Surrey Heath often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Surrey Heath usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "tandridge",
+      "last_verified": "2026-03",
+      "permitted_development": "In Tandridge, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Tandridge, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Tandridge feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Tandridge.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Tandridge should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Tandridge where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Tandridge often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Tandridge usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "waverley",
+      "last_verified": "2026-03",
+      "permitted_development": "In Waverley, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Waverley, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Waverley feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Waverley.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Waverley should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Waverley where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Waverley often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Waverley usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "woking",
+      "last_verified": "2026-03",
+      "permitted_development": "In Woking, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Woking, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Woking feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Woking.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Woking should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Woking where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Woking often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Woking usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    }
+  ]
+}

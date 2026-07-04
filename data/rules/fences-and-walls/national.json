@@ -1,0 +1,70 @@
+{
+  "rules": {
+    "height_rules": {
+      "title": "Boundary height limits",
+      "intro": "In England, fences, walls and gates are usually judged first by height and by whether they sit next to a highway used by vehicles.",
+      "rules": [
+        "The normal limit is 1 metre in height next to a highway used by vehicles, or the footpath of such a highway.",
+        "The normal limit is 2 metres in height elsewhere.",
+        "If an existing fence, wall or gate already exceeds those limits, it can usually be altered only if its height is not increased.",
+        "Ground levels matter, especially on sloping sites and corner plots."
+      ],
+      "details": "For most householders, the national answer comes down to the split between the 1 metre highway-side limit and the 2 metre limit elsewhere. That simple test does a lot of the work before design quality or local character are even considered.",
+      "exceptions": "A new or altered boundary treatment above the relevant height limit will normally need planning permission."
+    },
+    "depth_rules": {
+      "title": "No extension-style projection rule",
+      "intro": "Means of enclosure are not assessed like extensions, so the key questions are usually height, position and visual effect rather than depth.",
+      "rules": [
+        "Fences, walls and gates do not have a separate extension-style depth allowance.",
+        "Thickness only tends to matter where it changes the character of the frontage or affects visibility.",
+        "Road-facing positions and corner plots are normally the sensitive cases.",
+        "A boundary can still need permission because of where it sits even if it is not especially deep."
+      ],
+      "details": "A wall or fence is not judged by how far it projects from a house. The more useful planning question is whether the enclosure changes how the site meets the street, especially where the boundary is prominent or enclosed visibility is an issue.",
+      "exceptions": "A boundary feature can still require planning permission because of siting, prominence or highway effect even though there is no formal depth limit."
+    },
+    "boundary_rules": {
+      "title": "Highway-facing and heritage-related boundaries",
+      "intro": "Front and corner boundaries usually face the tightest control because they affect both the street scene and visibility.",
+      "rules": [
+        "Front and side boundaries next to roads usually attract the closest scrutiny.",
+        "No part of the site can be a listed building or within the curtilage of a listed building if you want to rely on the normal boundary permitted development route.",
+        "The normal route also falls away where the boundary forms part of a neighbouring listed building or its curtilage.",
+        "Article 4 directions or planning conditions can remove the usual fallback on sensitive frontages."
+      ],
+      "details": "The same fence can be acceptable in a rear garden but need permission on a prominent front or corner boundary. Heritage context matters too, because listed-building relationships can remove the ordinary permitted development route altogether.",
+      "exceptions": "Highway-facing boundaries, listed-building curtilages and boundaries shared with neighbouring listed land usually need a more careful consent check."
+    },
+    "roof_rules": {
+      "title": "Gate canopies and covered entrance features",
+      "intro": "The normal rules for fences, walls and gates do not create a separate allowance for roofed entrance features.",
+      "rules": [
+        "A simple boundary treatment is different from a roofed gate structure or entrance canopy.",
+        "Covered entrance features should be checked separately rather than assumed to follow the same rule as the wall or gate below them.",
+        "Prominent roofed gate features can affect the street scene even where boundary height is acceptable.",
+        "The more the enclosure becomes a small structure, the more planning-sensitive it becomes."
+      ],
+      "details": "A plain gate or wall is one thing; a roofed gateway or formal entrance feature can be quite another. Once a boundary starts behaving like a built structure rather than a simple means of enclosure, it deserves its own planning check.",
+      "exceptions": "Gate canopies, covered entrance features and similar roofed elements should not be assumed to fall within the ordinary boundary route."
+    },
+    "materials_rules": {
+      "title": "Appearance, character and visible frontages",
+      "intro": "National rules focus on height and siting, but material choice still matters where a boundary is highly visible or heritage-sensitive.",
+      "rules": [
+        "There is no single nationally approved material palette for fences and walls.",
+        "Visible front boundaries are easiest to justify when the materials suit the house and street.",
+        "Traditional walls, railings and heritage settings usually call for a more sensitive material choice.",
+        "A compliant height does not automatically make an obviously harsh or out-of-place frontage acceptable."
+      ],
+      "details": "Planning sensitivity often turns on whether the new boundary feels like part of the street or an abrupt break from it. That is especially true on visible frontages and in historic settings where materials, detailing and openness may all matter.",
+      "exceptions": "Even where the height is compliant, a boundary can still face closer scrutiny in sensitive settings if the materials or detailing are inappropriate."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Boundary changes in conservation areas can be more tightly controlled, and demolition of traditional walls, gates or railings may need separate permission.",
+    "listed_building": "Works to a boundary in the curtilage of a listed building, or a boundary shared with neighbouring listed land, can need consent in addition to ordinary planning checks.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions or planning conditions can remove the normal fallback for visible boundary treatments on sensitive frontages and estates."
+  }
+}

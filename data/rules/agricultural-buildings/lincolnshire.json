@@ -1,0 +1,177 @@
+{
+    "defaults":  {
+                     "last_verified":  "2026-04",
+                     "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but many schemes still require prior approval on siting, design and external appearance. In open countryside, siting, landscape exposure and practical working need are often the key planning tests.",
+                     "rules":  {
+                                   "height_rules":  "For many Part 6 schemes the overall height should not exceed 12m, with much tighter limits near safeguarded aerodromes. Ridge height, eaves height and roof pitch all need checking before assuming the right applies.",
+                                   "depth_rules":  "There is no householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the agricultural unit rather than becoming an oversized industrial shed.",
+                                   "boundary_rules":  "Agricultural buildings should not be sited so close to roads, homes or other sensitive neighbours that traffic, odour, noise or visual impact becomes unacceptable. Proximity to classified roads and protected buildings can limit or remove the Part 6 route. In open countryside, siting, landscape exposure and practical working need are often the key planning tests.",
+                                   "roof_rules":  "Roof form is judged through overall height, bulk and any prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which a farm building stops looking acceptable in the landscape.",
+                                   "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in the rural landscape rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                               }
+                 },
+    "rules":  [
+                  {
+                      "town_slug":  "boston",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Boston, Part 6 rights depend on the unit being genuinely agricultural and on the building being reasonably necessary for farm operations rather than a generic large shed.",
+                      "rules":  {
+                                    "height_rules":  "In Boston, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In Boston, separation from homes, track access, manure handling and the relationship to public lanes or rights of way usually matter most at the boundary.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-lindsey",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In East Lindsey, Part 6 rights depend on the unit being genuinely agricultural and on the building being reasonably necessary for farm operations rather than a generic large shed.",
+                      "rules":  {
+                                    "height_rules":  "In East Lindsey, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In East Lindsey, separation from homes, track access, manure handling and the relationship to public lanes or rights of way usually matter most at the boundary.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "lincoln",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Lincoln, Part 6 only helps where the land is genuinely agricultural and the building still reads as farm infrastructure rather than general storage or quasi-industrial space on the settlement edge.",
+                      "rules":  {
+                                    "height_rules":  "In Lincoln, the headline 12m ceiling is only part of the story; on the urban fringe a tall ridge can quickly look like industrial bulk rather than working farm development.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In Lincoln, the boundary question is usually how the building sits against roads, houses and yard access, and whether traffic, noise or lighting make it feel more commercial than agricultural.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Not all properties have the benefit of Permitted Development Rights. Some properties including flats, properties within Conservation Areas, Listed Buildings or those with Article 4 Directions may have had their Permitted Development Rights removed.",
+                                           "listed_building":  "Not all properties have the benefit of Permitted Development Rights. Some properties including flats, properties within Conservation Areas, Listed Buildings or those with Article 4 Directions may have had their Permitted Development Rights removed.",
+                                           "article4_applies":  true,
+                                           "article4_notes":  "Not all properties have the benefit of Permitted Development Rights. Some properties including flats, properties within Conservation Areas, Listed Buildings or those with Article 4 Directions may have had their Permitted Development Rights removed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-kesteven",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In North Kesteven, Part 6 rights depend on the unit being genuinely agricultural and on the building being reasonably necessary for farm operations rather than a generic large shed.",
+                      "rules":  {
+                                    "height_rules":  "In North Kesteven, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In North Kesteven, separation from homes, track access, manure handling and the relationship to public lanes or rights of way usually matter most at the boundary.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-holland",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In South Holland, Part 6 rights depend on the unit being genuinely agricultural and on the building being reasonably necessary for farm operations rather than a generic large shed.",
+                      "rules":  {
+                                    "height_rules":  "In South Holland, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In South Holland, separation from homes, track access, manure handling and the relationship to public lanes or rights of way usually matter most at the boundary.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-kesteven",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In South Kesteven, Part 6 rights depend on the unit being genuinely agricultural and on the building being reasonably necessary for farm operations rather than a generic large shed.",
+                      "rules":  {
+                                    "height_rules":  "In South Kesteven, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In South Kesteven, separation from homes, track access, manure handling and the relationship to public lanes or rights of way usually matter most at the boundary.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "west-lindsey",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In West Lindsey, Part 6 rights depend on the unit being genuinely agricultural and on the building being reasonably necessary for farm operations rather than a generic large shed.",
+                      "rules":  {
+                                    "height_rules":  "In West Lindsey, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In West Lindsey, separation from homes, track access, manure handling and the relationship to public lanes or rights of way usually matter most at the boundary.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-lincolnshire",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In North Lincolnshire, Part 6 rights depend on the unit being genuinely agricultural and on the building being reasonably necessary for farm operations rather than a generic large shed.",
+                      "rules":  {
+                                    "height_rules":  "In North Lincolnshire, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In North Lincolnshire, separation from homes, track access, manure handling and the relationship to public lanes or rights of way usually matter most at the boundary.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-east-lincolnshire",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In North East Lincolnshire, Part 6 rights depend on the unit being genuinely agricultural and on the building being reasonably necessary for farm operations rather than a generic large shed.",
+                      "rules":  {
+                                    "height_rules":  "In North East Lincolnshire, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "In North East Lincolnshire, separation from homes, track access, manure handling and the relationship to public lanes or rights of way usually matter most at the boundary.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  }
+              ]
+}

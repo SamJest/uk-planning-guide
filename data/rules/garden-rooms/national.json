@@ -1,0 +1,80 @@
+{
+  "defaults": {
+    "permitted_development": "A detached garden room in England can often be permitted development where it remains an incidental Class E outbuilding, stays behind the principal elevation, remains single storey and complies with the normal height and site-coverage limits. The safer route is a secondary garden building, not a self-contained residential suite.",
+    "rules": {
+      "height_rules": "Garden rooms should remain single storey. Eaves should not exceed 2.5m, the overall height limit is 4m for a dual-pitched roof and 3m for other roof forms, and any part within 2m of a boundary should not exceed 2.5m overall.",
+      "depth_rules": "There is no separate garden-room depth rule. The key checks are position within the curtilage, staying behind the principal elevation and keeping total additions and outbuildings within 50% of the land around the original house.",
+      "boundary_rules": "Boundary siting matters because any part within 2m of a boundary is limited to 2.5m overall. Large glazed elevations or an over-dominant building close to neighbours can create planning problems even where the footprint looks modest.",
+      "roof_rules": "Roof shape controls the available height directly. A dual-pitched roof can reach 4m and other roof forms 3m, but the limit drops to 2.5m overall if any part is within 2m of a boundary. Verandas, balconies and raised platforms above 300mm are outside the ordinary Class E route.",
+      "materials_rules": "Modern glazing and cladding can be acceptable, but the room should still read as subordinate to the house and remain incidental in use. A layout that functions like a separate bedsit or detached sleeping unit is more likely to need planning permission."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Garden-room height limits under Class E",
+      "intro": "A garden room normally stays on the simpler route when it is treated as an incidental outbuilding rather than extra primary living accommodation.",
+      "rules": [
+        "The building should be single storey only.",
+        "Maximum eaves height is 2.5 metres.",
+        "Maximum overall height is 4 metres for a dual-pitched roof and 3 metres for any other roof form.",
+        "If any part of the building is within 2 metres of a boundary, the overall height should stay at or below 2.5 metres."
+      ],
+      "details": "Garden rooms are often pushed toward the back edge of the plot, so the 2-metre boundary rule is one of the main design constraints from the start.",
+      "exceptions": "A garden room that exceeds the ordinary Class E height limits will usually need planning permission."
+    },
+    "depth_rules": {
+      "title": "Footprint and siting matter more than projection",
+      "intro": "There is no special projection allowance for a garden room. Planning usually turns on where it sits in the garden, how much ground it takes up and whether it still reads as a secondary domestic structure.",
+      "rules": [
+        "The room should stay within the residential curtilage and behind the principal elevation of the house.",
+        "Additions and outbuildings together should not cover more than 50% of the land around the original house.",
+        "A large detached footprint can become planning-sensitive even where the height is modest.",
+        "A room arranged for independent day-to-day living is outside the normal incidental outbuilding route."
+      ],
+      "details": "Garden rooms are judged more by siting, site coverage and incidental use than by a single depth measurement. A broad low building can still feel over-intensive in a small garden.",
+      "exceptions": "An oversized footprint, over-intensive siting or a room that functions like separate accommodation is more likely to require planning permission."
+    },
+    "boundary_rules": {
+      "title": "Boundary position and privacy are key",
+      "intro": "Because garden rooms often sit near plot edges, boundary placement is where compliance and neighbour impact usually need the most attention.",
+      "rules": [
+        "Any part within 2 metres of a boundary is limited to 2.5 metres overall height.",
+        "Large glazed elevations facing neighbouring gardens can increase privacy and dominance concerns.",
+        "A lower and simpler building is usually the safer option on short plots and tight boundaries.",
+        "External decks or other raised platforms above 300 millimetres are outside the normal Class E route."
+      ],
+      "details": "A garden room can look acceptable on paper but still feel intrusive if it is tall, heavily glazed and pressed hard against the edge of the plot. Position and window treatment matter as much as the raw dimensions.",
+      "exceptions": "A garden room that becomes too tall, too dominant or too intrusive because of its boundary position is more likely to fall outside permitted development."
+    },
+    "roof_rules": {
+      "title": "Roof choice affects both height and impact",
+      "intro": "Roof design on a garden room affects the permitted height directly and also changes how bulky the building feels in the garden.",
+      "rules": [
+        "A dual-pitched roof can reach up to 4 metres overall.",
+        "A flat or other non-dual-pitched roof is limited to 3 metres overall.",
+        "If any part of the building is within 2 metres of a boundary, the whole building should stay at or below 2.5 metres overall.",
+        "Verandas, balconies and raised platforms above 300 millimetres are not part of the normal Class E allowance."
+      ],
+      "details": "Garden rooms often work best as simple low-profile buildings, and that usually makes the planning position easier as well. A roof that looks elegant in isolation can still be the wrong choice for a short plot.",
+      "exceptions": "A taller roof, bulky overhang or excluded raised platform can push a garden room outside the ordinary Class E route."
+    },
+    "materials_rules": {
+      "title": "Contemporary design is fine, separate living is not",
+      "intro": "A garden room can look sleek and modern without becoming a separate residence. The planning point is that it should still read as an incidental building serving the house.",
+      "rules": [
+        "External finishes should suit a domestic garden setting and complement the host house.",
+        "The room should remain subordinate to the dwellinghouse in both appearance and use.",
+        "The fit-out should not point toward self-contained day-to-day living.",
+        "A high-quality finish is acceptable where the building still reads as a secondary garden structure."
+      ],
+      "details": "High-quality cladding and glazing are rarely the problem on their own. What usually tips a garden room out of the Class E route is the combination of domestic facilities, residential fit-out, separate services and a layout that would let it operate independently from the house.",
+      "exceptions": "A detached garden room intended to function as self-contained living accommodation will usually need planning permission even if its size resembles an outbuilding."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Garden rooms in conservation areas and other designated land can face tighter controls, especially where the siting is visible or affects the setting of the property.",
+    "listed_building": "A garden room within the curtilage of a listed building may require planning permission and can also raise listed building consent issues.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions or planning conditions can remove the usual fallback for detached garden-room style buildings."
+  }
+}

@@ -1,0 +1,559 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top.",
+    "rules": {
+      "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+      "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+      "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision.",
+      "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+      "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issue is whether the demolition needs planning permission and whether any heritage consent is also required.",
+        "depth_rules": "There is no depth allowance. Partial demolition and associated rebuilding or structural works are judged on their own facts.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+        "roof_rules": "Roof stripping or top-down removal is part of the overall demolition project and should be considered with the full consent position rather than in isolation.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and in denser urban areas the effect on adjoining buildings, street safety and temporary works can be central to the consent route.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. The main questions are whether planning permission is required and whether listed building or conservation area controls apply.",
+        "depth_rules": "There is no depth rule. Partial demolition, facade retention and works affecting shared walls or structures are separate planning and structural issues.",
+        "boundary_rules": "Hoardings, road occupation, rubble removal, craneage and support to adjoining property are separate regulatory matters. Demolition in built-up areas often needs a more managed methodology than the planning label alone suggests.",
+        "roof_rules": "Roof stripping or top-down demolition is part of the overall demolition proposal and should not be treated separately from the main consent position.",
+        "materials_rules": "Waste, salvage, asbestos handling and treatment of exposed adjoining surfaces remain important legal duties even where the demolition route itself is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. In a national park, heritage value and the effect of loss on the wider setting are usually examined very carefully.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issues are whether the demolition is development and whether heritage status or landscape sensitivity adds further controls.",
+        "depth_rules": "There is no depth allowance. The extent of removal, retention of bases or hardstandings, and ground reinstatement can all influence the decision.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. In a national park, heritage value and the effect of loss on the wider setting are usually examined very carefully.",
+        "roof_rules": "Taking down the roof is part of the overall demolition project and should be considered with the full heritage and restoration context.",
+        "materials_rules": "Authorities are likely to look closely at salvage of traditional materials, waste handling and how the site will be restored once the building is gone."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, demolition of a building is generally treated as development. Planning permission is often required unless the demolition falls within a specific exclusion, and listed building or conservation area controls can apply on top. In a national park, heritage value and the effect of loss on the wider setting are usually examined very carefully.",
+      "rules": {
+        "height_rules": "There is no demolition height right. The key issues are whether the demolition is development and whether heritage status or landscape sensitivity adds further controls.",
+        "depth_rules": "There is no depth allowance. The extent of removal, retention of bases or hardstandings, and ground reinstatement can all influence the decision.",
+        "boundary_rules": "Hoardings, highway occupation, access arrangements, rubble removal and impacts on adjoining structures are separate regulatory matters alongside the planning decision. In a national park, heritage value and the effect of loss on the wider setting are usually examined very carefully.",
+        "roof_rules": "Taking down the roof is part of the overall demolition project and should be considered with the full heritage and restoration context.",
+        "materials_rules": "Authorities are likely to look closely at salvage of traditional materials, waste handling and how the site will be restored once the building is gone."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area can need conservation area consent or associated heritage approvals as well as any planning permission.",
+        "listed_building": "Demolition of a listed building, or of structures protected as part of it, needs listed building consent."
+      }
+    }
+  ]
+}

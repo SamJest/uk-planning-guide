@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but many schemes still require prior approval on siting, design and external appearance. In open countryside, siting, landscape exposure and practical working need are often the key planning tests.",
+    "rules": {
+      "height_rules": "For many Part 6 schemes the overall height should not exceed 12m, with much tighter limits near safeguarded aerodromes. Ridge height, eaves height and roof pitch all need checking before assuming the right applies.",
+      "depth_rules": "There is no householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the agricultural unit rather than becoming an oversized industrial shed.",
+      "boundary_rules": "Agricultural buildings should not be sited so close to roads, homes or other sensitive neighbours that traffic, odour, noise or visual impact becomes unacceptable. Proximity to classified roads and protected buildings can limit or remove the Part 6 route. In open countryside, siting, landscape exposure and practical working need are often the key planning tests.",
+      "roof_rules": "Roof form is judged through overall height, bulk and any prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which a farm building stops looking acceptable in the landscape.",
+      "materials_rules": "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in the rural landscape rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-01",
+      "permitted_development": "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. In open countryside, siting, landscape exposure and practical working need are often the key planning tests.",
+      "rules": {
+        "height_rules": "For many Part 6 schemes the overall height should not exceed 12m, with much tighter limits near safeguarded aerodromes. Ridge height, eaves height and roof pitch all need to be checked before assuming PD applies.",
+        "depth_rules": "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+        "boundary_rules": "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. In open countryside, siting, landscape exposure and practical working need are often the key planning tests.",
+        "roof_rules": "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+        "materials_rules": "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. In open countryside, siting, landscape exposure and practical working need are often the key planning tests."
+      },
+      "restrictions": {
+        "conservation_area": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "listed_building": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "article4_applies": true,
+        "article4_notes": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes."
+      }
+    }
+  ]
+}

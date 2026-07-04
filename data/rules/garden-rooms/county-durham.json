@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A garden room can usually be permitted development in England where it remains an incidental outbuilding to the house, stays behind the principal elevation, remains single storey and complies with the Class E height and coverage limits. It should not operate as a separate dwelling or a self-contained residential suite.",
+    "rules": {
+      "height_rules": "Keep the room single storey with eaves no higher than 2.5m. The overall height limit is 4m for a dual-pitched roof, 3m for any other roof and 2.5m overall if any part sits within 2m of a boundary.",
+      "depth_rules": "There is no separate garden-room depth allowance. The key tests are curtilage position, staying behind the principal elevation and keeping additions and outbuildings within 50% of the land around the original house.",
+      "boundary_rules": "Any part within 2m of a boundary is limited to 2.5m overall. On designated land, side garden-room siting can need permission, and listed-building curtilages need extra caution before relying on permitted development.",
+      "roof_rules": "A simple single-storey roof is the safest route. A dual-pitched roof can reach 4m and other roofs 3m, but boundary siting can reduce that to 2.5m overall. Raised platforms, balconies and veranda-style features are outside the ordinary Class E route.",
+      "materials_rules": "Glazing and modern cladding can be acceptable, but the room should still look subordinate to the dwellinghouse and remain incidental in use. A fit-out that reads like a separate bedroom, bathroom and kitchen suite is more likely to need permission."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "durham",
+      "last_verified": "2026-04",
+      "permitted_development": "A garden room can often sit within the normal outbuilding right where it remains incidental to the house, stays behind the principal elevation and fits the Class E height and coverage limits. That route does not cover separate living accommodation.",
+      "rules": {
+        "height_rules": "A building that exceeds the normal Class E height envelope will usually need planning permission.",
+        "depth_rules": "The building should stay within the residential curtilage and behind the principal elevation. Combined additions and outbuildings should not cover more than 50% of the land around the original house.",
+        "boundary_rules": "Many outbuilding schemes fail not because the idea is unacceptable, but because the siting is too close to a boundary for the chosen size and roof form.",
+        "roof_rules": "Roof shape directly affects the available height under the normal outbuilding rules, so roof form and siting need to be designed together.",
+        "materials_rules": "A garden room can use contemporary materials, but it should still read as a domestic incidental building rather than an independent cabin or office unit."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "darlington",
+      "last_verified": "2026-04",
+      "permitted_development": "For a typical house, a garden room is usually easiest to keep on the permitted-development route when it is a single-storey incidental building rather than a sleeping unit or separate annexe. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Large or prominent footprint can require permission even where the height appears compliant.",
+        "boundary_rules": "Many outbuilding schemes fail not because the idea is unacceptable, but because the siting is too close to a boundary for the chosen size and roof form.",
+        "roof_rules": "Roof shape directly affects the available height under the normal outbuilding rules, so roof form and siting need to be designed together.",
+        "materials_rules": "A garden room can use contemporary materials, but it should still read as a domestic incidental building rather than an independent cabin or office unit."
+      },
+      "restrictions": {
+        "conservation_area": "Please note that minor works to dwellings in Northgate Conservation Area are restricted by an",
+        "listed_building": "The Council now have a new Conservation officer. To ensure that their work is co ordinated and their expertise is best used, we will no longer be offering free Heritage advice. Formal Listed Building applications will continue to be free of charge.",
+        "article4_applies": true,
+        "article4_notes": "development rights in some or all of its area by issuing what is known as an Article 4"
+      }
+    }
+  ]
+}

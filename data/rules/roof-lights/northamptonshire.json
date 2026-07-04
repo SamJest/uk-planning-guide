@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Northamptonshire, the usual roof-light route is to keep the unit modest: no more than 150mm projection from the existing roof slope and no increase above the existing roof height. Once the proposal sits on a more sensitive roofscape or forms part of a larger roof alteration, planning permission is more likely to be needed.",
+    "rules": {
+      "height_rules": "Across Northamptonshire, the roof-light should not make any part of the roof higher than it is now. A low-profile installation that leaves the original roof form dominant is generally the strongest option.",
+      "depth_rules": "Across Northamptonshire, projection is one of the key measurable limits: no more than 150mm from the existing roof plane. If the proposal is too bulky, it can move out of the simple roof-light category and into a fuller planning assessment.",
+      "boundary_rules": "Across Northamptonshire, if the proposal creates a side-facing window, it should be obscure-glazed and any opening part should have its lowest edge at least 1.7 metres above the floor level of the room. Privacy and visible road-facing roof slopes deserve the earliest check.",
+      "roof_rules": "Across Northamptonshire, roof-lights are treated as minor roof alterations, not full roof enlargements, so the existing roof form should remain dominant. Roof terraces, raised platforms and larger roof additions sit outside the normal roof-light route.",
+      "materials_rules": "Across Northamptonshire, the best material strategy is usually visual restraint. Low-profile frames and clean flashings that work with the existing roof covering are less likely to jar with the roofscape than chunky or highly contrasting units."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "north-northamptonshire",
+      "last_verified": "2026-01",
+      "permitted_development": "For houses in North Northamptonshire, the usual roof-light route is to keep the unit modest: no more than 150mm projection from the existing roof slope and no increase above the existing roof height. Once the proposal sits on a more sensitive roofscape or forms part of a larger roof alteration, planning permission is more likely to be needed.",
+      "rules": {
+        "height_rules": "The roof-light should not make any part of the roof higher than it is now. A low-profile installation that leaves the original roof form dominant is generally the strongest option.",
+        "depth_rules": "Projection is one of the key measurable limits: no more than 150mm from the existing roof plane. If the proposal is too bulky, it can move out of the simple roof-light category and into a fuller planning assessment.",
+        "boundary_rules": "If the proposal creates a side-facing window, it should be obscure-glazed and any opening part should have its lowest edge at least 1.7 metres above the floor level of the room. Privacy and visible road-facing roof slopes deserve the earliest check.",
+        "roof_rules": "Roof-lights are treated as minor roof alterations, not full roof enlargements, so the existing roof form should remain dominant. Roof terraces, raised platforms and larger roof additions sit outside the normal roof-light route.",
+        "materials_rules": "The best material strategy is usually visual restraint. Low-profile frames and clean flashings that work with the existing roof covering are less likely to jar with the roofscape than chunky or highly contrasting units."
+      },
+      "restrictions": {
+        "conservation_area": "Roof-lights on prominent roof slopes in conservation areas often face a closer design review, especially where they would affect a traditional roofscape or visible frontage.",
+        "listed_building": "Listed building consent may be required for roof-lights where the work alters historic roof fabric, framing, coverings or the character of the building.",
+        "article4_applies": false,
+        "article4_notes": "Roof-specific planning conditions and Article 4 directions are a common reason why an otherwise modest roof-light still needs planning permission."
+      }
+    },
+    {
+      "town_slug": "west-northamptonshire",
+      "last_verified": "2026-01",
+      "permitted_development": "In West Northamptonshire, a simple skylight or roof-light is commonly permitted development provided it remains a minor roof alteration, projects no more than 150mm from the slope and does not exceed the roof's existing height. Heritage controls, local restrictions and larger roof changes can all take the work outside that simpler route.",
+      "rules": {
+        "height_rules": "A roof-light must not push the roof above the existing highest part. Keeping the frame low-profile and subordinate to the roof slope is usually the safest approach.",
+        "depth_rules": "The unit must not project more than 150 millimetres from the plane of the existing roof slope. Once the projection starts to read as a box, dormer or raised roof feature, the simpler roof-light route usually stops applying.",
+        "boundary_rules": "Roof-lights do not have a normal setback rule, but side-facing windows can still affect neighbours. Obscure glazing and a 1.7 metre minimum level to any opening part are the usual privacy conditions.",
+        "roof_rules": "The proposal should read as a modest alteration to the existing roof rather than a new roof form in its own right. Roof terraces and larger enlargements are separate development types with stricter rules.",
+        "materials_rules": "The best material strategy is usually visual restraint. Low-profile frames and clean flashings that work with the existing roof covering are less likely to jar with the roofscape than chunky or highly contrasting units."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even small roof-lights can need closer scrutiny if they are proposed on prominent slopes or on buildings with a consistent historic roofscape.",
+        "listed_building": "Installing roof-lights in a listed building, or altering historic roof fabric within its curtilage, can require listed building consent even where the unit looks modest.",
+        "article4_applies": false,
+        "article4_notes": "Roof-specific planning conditions and Article 4 directions are a common reason why an otherwise modest roof-light still needs planning permission."
+      }
+    }
+  ]
+}

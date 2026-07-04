@@ -1,0 +1,231 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A garden room can usually be permitted development in England where it remains an incidental outbuilding to the house, stays behind the principal elevation, remains single storey and complies with the Class E height and coverage limits. It should not operate as a separate dwelling or a self-contained residential suite.",
+    "rules": {
+      "height_rules": "Keep the room single storey with eaves no higher than 2.5m. The overall height limit is 4m for a dual-pitched roof, 3m for any other roof and 2.5m overall if any part sits within 2m of a boundary.",
+      "depth_rules": "There is no separate garden-room depth allowance. The key tests are curtilage position, staying behind the principal elevation and keeping additions and outbuildings within 50% of the land around the original house.",
+      "boundary_rules": "Any part within 2m of a boundary is limited to 2.5m overall. On designated land, side garden-room siting can need permission, and listed-building curtilages need extra caution before relying on permitted development.",
+      "roof_rules": "A simple single-storey roof is the safest route. A dual-pitched roof can reach 4m and other roofs 3m, but boundary siting can reduce that to 2.5m overall. Raised platforms, balconies and veranda-style features are outside the ordinary Class E route.",
+      "materials_rules": "Glazing and modern cladding can be acceptable, but the room should still look subordinate to the dwellinghouse and remain incidental in use. A fit-out that reads like a separate bedroom, bathroom and kitchen suite is more likely to need permission."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "ashford",
+      "last_verified": "2026-04",
+      "permitted_development": "A detached garden room is often treated like any other Class E outbuilding: it should stay incidental to the dwellinghouse, behind the principal elevation and within the normal single-storey height limits. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "The building should stay within the residential curtilage and behind the principal elevation. Combined additions and outbuildings should not cover more than 50% of the land around the original house.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A dual-pitched roof can reach up to 4 metres overall. Other roof forms are limited to 3 metres overall.",
+        "materials_rules": "The safest material choice is one that feels at home in the garden and with the house without implying separate living accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "Ashford has 43 conservation areas, so check the interactive map before relying on permitted development rights on a heritage-sensitive site.",
+        "listed_building": "Ashford says works affecting the special character of a listed building need listed building consent, and listed properties can be checked on the interactive map or National Heritage List for England.",
+        "article4_applies": true,
+        "article4_notes": "applies to your property. Certain permitted development rights may have been removed where an Article 4 applies."
+      }
+    },
+    {
+      "town_slug": "canterbury",
+      "last_verified": "2026-04",
+      "permitted_development": "For a typical house, a garden room is usually easiest to keep on the permitted-development route when it is a single-storey incidental building rather than a sleeping unit or separate annexe.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Large or prominent footprint can require permission even where the height appears compliant.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "Roof shape directly affects the available height under the normal outbuilding rules, so roof form and siting need to be designed together.",
+        "materials_rules": "Use finishes that keep the building clearly subordinate to the house and domestic in character rather than commercial or chalet-like."
+      },
+      "restrictions": {
+        "conservation_area": "See the conservation areas in the district and how we are working to protect them.",
+        "listed_building": "Find out what listed buildings are, how we protect them, and see buildings listed in the district.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "dartford",
+      "last_verified": "2026-04",
+      "permitted_development": "A garden room can often sit within the normal outbuilding right where it remains incidental to the house, stays behind the principal elevation and fits the Class E height and coverage limits. That route does not cover separate living accommodation.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Outbuildings are not judged by a simple projection rule. The more useful checks are siting within the curtilage, remaining behind the principal elevation and staying within the 50% coverage limit.",
+        "boundary_rules": "Boundary siting that makes the building too tall or too dominant can push it outside the ordinary Class E route.",
+        "roof_rules": "A bulky or badly positioned roof can cause an outbuilding to exceed the normal Class E limits or lose its subordinate character.",
+        "materials_rules": "A garden room can use contemporary materials, but it should still read as a domestic incidental building rather than an independent cabin or office unit."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "dover",
+      "last_verified": "2026-04",
+      "permitted_development": "For a typical house, a garden room is usually easiest to keep on the permitted-development route when it is a single-storey incidental building rather than a sleeping unit or separate annexe.",
+      "rules": {
+        "height_rules": "A building that exceeds the normal Class E height envelope will usually need planning permission.",
+        "depth_rules": "The building should stay within the residential curtilage and behind the principal elevation. Combined additions and outbuildings should not cover more than 50% of the land around the original house.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A bulky or badly positioned roof can cause an outbuilding to exceed the normal Class E limits or lose its subordinate character.",
+        "materials_rules": "Use finishes that keep the building clearly subordinate to the house and domestic in character rather than commercial or chalet-like."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Needed for any works which would affect the special historic or architectural character or appearance of a listed building.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "folkestone-and-hythe",
+      "last_verified": "2026-04",
+      "permitted_development": "For a typical house, a garden room is usually easiest to keep on the permitted-development route when it is a single-storey incidental building rather than a sleeping unit or separate annexe.",
+      "rules": {
+        "height_rules": "A building that exceeds the normal Class E height envelope will usually need planning permission.",
+        "depth_rules": "Large or prominent footprint can require permission even where the height appears compliant.",
+        "boundary_rules": "Boundary siting that makes the building too tall or too dominant can push it outside the ordinary Class E route.",
+        "roof_rules": "Roof shape directly affects the available height under the normal outbuilding rules, so roof form and siting need to be designed together.",
+        "materials_rules": "A garden room can use contemporary materials, but it should still read as a domestic incidental building rather than an independent cabin or office unit."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "gravesham",
+      "last_verified": "2026-04",
+      "permitted_development": "A garden room can often sit within the normal outbuilding right where it remains incidental to the house, stays behind the principal elevation and fits the Class E height and coverage limits. That route does not cover separate living accommodation.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Outbuildings are not judged by a simple projection rule. The more useful checks are siting within the curtilage, remaining behind the principal elevation and staying within the 50% coverage limit.",
+        "boundary_rules": "Many outbuilding schemes fail not because the idea is unacceptable, but because the siting is too close to a boundary for the chosen size and roof form.",
+        "roof_rules": "Roof shape directly affects the available height under the normal outbuilding rules, so roof form and siting need to be designed together.",
+        "materials_rules": "A garden room can use contemporary materials, but it should still read as a domestic incidental building rather than an independent cabin or office unit."
+      },
+      "restrictions": {
+        "conservation_area": "The Gravesham Local Plan Core Strategy Policies Map (2014) accompanies the Core Strategy and shows where land-based area policies apply. These policies include areas for protection such as SSSI’s, conservation areas and town centre boundaries, and identify sites for particular land uses. The Policies Map includes the allocations for all the saved policies in the Gravesham Local Plan First Review.",
+        "listed_building": "Listed buildings, buildings at risk, archaeology, nature conservation, the environment and more.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "maidstone",
+      "last_verified": "2026-04",
+      "permitted_development": "A garden room can often sit within the normal outbuilding right where it remains incidental to the house, stays behind the principal elevation and fits the Class E height and coverage limits. That route does not cover separate living accommodation.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Large or prominent footprint can require permission even where the height appears compliant.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "Roof shape directly affects the available height under the normal outbuilding rules, so roof form and siting need to be designed together.",
+        "materials_rules": "The safest material choice is one that feels at home in the garden and with the house without implying separate living accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "sevenoaks",
+      "last_verified": "2026-04",
+      "permitted_development": "For a typical house, a garden room is usually easiest to keep on the permitted-development route when it is a single-storey incidental building rather than a sleeping unit or separate annexe.",
+      "rules": {
+        "height_rules": "A building that exceeds the normal Class E height envelope will usually need planning permission.",
+        "depth_rules": "The building should stay within the residential curtilage and behind the principal elevation. Combined additions and outbuildings should not cover more than 50% of the land around the original house.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A dual-pitched roof can reach up to 4 metres overall. Other roof forms are limited to 3 metres overall.",
+        "materials_rules": "The safest material choice is one that feels at home in the garden and with the house without implying separate living accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "Find out about planning restrictions that may affect your property and local area, including Conservation Areas, the Green Belt and Tree Preservation Orders...",
+        "listed_building": "Find out about our local conservation areas, Listed Buildings, Locally Listed Buildings and tree protection…",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "swale",
+      "last_verified": "2026-04",
+      "permitted_development": "A detached garden room is often treated like any other Class E outbuilding: it should stay incidental to the dwellinghouse, behind the principal elevation and within the normal single-storey height limits.",
+      "rules": {
+        "height_rules": "A building that exceeds the normal Class E height envelope will usually need planning permission.",
+        "depth_rules": "The building should stay within the residential curtilage and behind the principal elevation. Combined additions and outbuildings should not cover more than 50% of the land around the original house.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A bulky or badly positioned roof can cause an outbuilding to exceed the normal Class E limits or lose its subordinate character.",
+        "materials_rules": "A garden room can use contemporary materials, but it should still read as a domestic incidental building rather than an independent cabin or office unit."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "thanet",
+      "last_verified": "2026-04",
+      "permitted_development": "A detached garden room is often treated like any other Class E outbuilding: it should stay incidental to the dwellinghouse, behind the principal elevation and within the normal single-storey height limits.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Large or prominent footprint can require permission even where the height appears compliant.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A bulky or badly positioned roof can cause an outbuilding to exceed the normal Class E limits or lose its subordinate character.",
+        "materials_rules": "The safest material choice is one that feels at home in the garden and with the house without implying separate living accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "tonbridge-and-malling",
+      "last_verified": "2026-04",
+      "permitted_development": "For a typical house, a garden room is usually easiest to keep on the permitted-development route when it is a single-storey incidental building rather than a sleeping unit or separate annexe.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Large or prominent footprint can require permission even where the height appears compliant.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A bulky or badly positioned roof can cause an outbuilding to exceed the normal Class E limits or lose its subordinate character.",
+        "materials_rules": "Use finishes that keep the building clearly subordinate to the house and domestic in character rather than commercial or chalet-like."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "tunbridge-wells",
+      "last_verified": "2026-04",
+      "permitted_development": "For a typical house, a garden room is usually easiest to keep on the permitted-development route when it is a single-storey incidental building rather than a sleeping unit or separate annexe.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Large or prominent footprint can require permission even where the height appears compliant.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A dual-pitched roof can reach up to 4 metres overall. Other roof forms are limited to 3 metres overall.",
+        "materials_rules": "Use finishes that keep the building clearly subordinate to the house and domestic in character rather than commercial or chalet-like."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    }
+  ]
+}

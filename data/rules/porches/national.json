@@ -1,0 +1,80 @@
+{
+  "defaults": {
+    "permitted_development": "In England, a porch on a house is usually permitted development where the external ground-floor area does not exceed 3 square metres, no part is more than 3 metres above ground level and no part comes within 2 metres of the boundary with a highway. That small-porch route can still be removed by local conditions or Article 4 directions.",
+    "rules": {
+      "height_rules": "No part of the porch should be more than 3m above ground level. The whole structure, including the roof, has to stay within that cap.",
+      "depth_rules": "The relevant size test is external ground-floor area, not projection alone. The porch should not exceed 3 square metres measured externally, including wall thickness.",
+      "boundary_rules": "No part of the porch should be within 2m of the boundary between the dwellinghouse and a highway, including a road, footpath, bridleway or byway.",
+      "roof_rules": "There is no separate roof allowance for a porch. Flat or pitched designs can both work, but the whole structure still has to stay within the 3 square metre and 3 metre limits and outside the 2 metre highway boundary setback.",
+      "materials_rules": "Because a porch is usually added to a principal elevation, materials should match or closely complement the house so the entrance addition reads as a natural part of the frontage rather than a bolt-on box."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "3-metre height cap for porches",
+      "intro": "Porches benefit from a clear but narrow householder route. The structure has to stay genuinely small and subordinate to the entrance it serves.",
+      "rules": [
+        "No part of the porch should be more than 3 metres above ground level.",
+        "The roof, ridge and any projecting feature all count toward the same 3-metre cap.",
+        "Height should be measured from ground level in the normal householder way.",
+        "A taller entrance structure is more likely to be treated as an extension rather than a simple porch."
+      ],
+      "details": "A porch can have a modest footprint but still lose permitted development status if the roof or entrance feature pushes it above the 3-metre limit.",
+      "exceptions": "A porch that exceeds 3 metres in height will normally need planning permission."
+    },
+    "depth_rules": {
+      "title": "The test is area, not just projection",
+      "intro": "Porches are controlled by external floor area, not by a dedicated projection allowance. The whole addition therefore needs to stay genuinely compact.",
+      "rules": [
+        "The external ground-floor area should not exceed 3 square metres.",
+        "The measurement is taken externally, so wall thickness counts toward the total.",
+        "A porch can breach the limit even where the projection seems small if it is too wide or too thickly built.",
+        "Keeping the structure simple usually makes compliance easier."
+      ],
+      "details": "Because the rule is based on external area, a porch that looks modest internally can still exceed the permitted limit once brickwork, render build-up or side returns are included.",
+      "exceptions": "A porch with an external ground-floor area above 3 square metres will normally require planning permission."
+    },
+    "boundary_rules": {
+      "title": "Keep clear of the highway boundary",
+      "intro": "For many porches, the decisive issue is not height or footprint but whether the house already sits close to the road or pavement.",
+      "rules": [
+        "No part of the porch should be within 2 metres of the boundary between the dwellinghouse and a highway.",
+        "Highway includes roads, pavements, bridleways and other public routes next to the house.",
+        "The check is about the boundary with the highway, not simply the edge of the driveway or garden path.",
+        "Houses that sit close to the front boundary often lose the ordinary porch fallback straight away."
+      ],
+      "details": "The highway setback is often the decisive porch test. Many front doors already sit so close to a pavement or road boundary that even a very small porch cannot rely on the ordinary permitted development route.",
+      "exceptions": "A porch within 2 metres of the highway boundary will normally need planning permission even if it also meets the height and area limits."
+    },
+    "roof_rules": {
+      "title": "Porch roofs still sit inside the normal porch limits",
+      "intro": "A porch roof can be flat, pitched or canopy-style, but it does not receive any extra planning allowance of its own. The whole structure still has to stay within the normal porch limits.",
+      "rules": [
+        "Flat and pitched porch roofs can both be acceptable if the entire structure stays within the normal size and height caps.",
+        "Decorative roof treatments do not create extra allowance for height or footprint.",
+        "A ridge, gable feature or deep canopy can tip an otherwise modest porch over the 3-metre or 3-square-metre limit.",
+        "Roof design should be checked against the whole porch, not treated separately."
+      ],
+      "details": "Porch roof design matters mainly because projections and ridge height can push the structure outside the standard porch limits. A simple roof form is often the easiest way to stay within the ordinary fallback.",
+      "exceptions": "A porch roof that causes the structure to exceed the standard 3-metre or 3-square-metre limits will normally require planning permission."
+    },
+    "materials_rules": {
+      "title": "Front-elevation detailing matters",
+      "intro": "Because a porch is usually added to the most visible face of the house, appearance matters as much as dimensions in deciding whether the result still looks comfortably domestic and subordinate.",
+      "rules": [
+        "External materials should match or closely complement the existing house where possible.",
+        "Doors, glazing, roof finish and brick or render treatment should be proportioned so the porch looks integral rather than patched on.",
+        "A simple well-matched design usually works better than an over-detailed entrance feature.",
+        "Porch design should support the character of the house rather than compete with it."
+      ],
+      "details": "The planning concern with porches is often visual because they sit on the frontage. Good detailing helps the entrance addition look intentional and reduces the risk of it appearing bulky or awkward.",
+      "exceptions": "A poorly matched or over-dominant porch can face closer scrutiny even where the dimensions are modest."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Porches in conservation areas can face closer control where they alter an important frontage or affect the street scene.",
+    "listed_building": "Adding a porch to a listed building often raises listed building consent issues in addition to any planning assessment.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions or site-specific planning conditions can remove the normal small-porch fallback on sensitive frontages."
+  }
+}

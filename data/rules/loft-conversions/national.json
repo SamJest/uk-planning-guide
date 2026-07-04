@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A loft conversion in England can fall within Class B permitted development where the roof enlargement stays within the roof-space allowance, does not project beyond the principal roof slope facing a highway, uses similar materials and keeps the required eaves setback. Raising the ridge or adding a balcony usually takes it out of the ordinary permitted development route.",
+    "rules": {
+      "height_rules": "No part of the enlargement should rise above the highest part of the existing roof. Raising the ridge usually moves the scheme out of permitted development.",
+      "depth_rules": "Keep dormers and other roof projections within the roof-space allowance: up to 40 cubic metres on a terraced house or 50 cubic metres otherwise, taking earlier roof enlargements into account.",
+      "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and overlooking can still become a problem where rooflights or dormers directly face nearby homes.",
+      "roof_rules": "The enlargement must not project beyond the existing roof slope on the principal elevation facing a highway. Other than hip-to-gable work, it should be set back at least 20cm from the eaves and should not create a balcony or roof terrace.",
+      "materials_rules": "External materials should be similar in appearance to the existing house so the work reads as part of the original roof rather than a top-heavy bolt-on."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Do not raise the ridge",
+      "intro": "Class B loft conversions must fit below the highest part of the existing roof. The usual permitted development route enlarges the roof without creating a taller house.",
+      "rules": [
+        "No part of the roof enlargement should rise above the highest part of the existing roof.",
+        "Raising the ridge usually takes the proposal out of the ordinary permitted development route.",
+        "The existing eaves should be maintained or reinstated as part of the design.",
+        "Rear dormer and rooflight schemes work best when they remain clearly below the main ridge."
+      ],
+      "details": "Planning Portal guidance treats loft conversions as roof enlargements, not extra storeys. The main height question is whether the roofline stays intact. Once the ridge is lifted, the scheme usually stops being a straightforward Class B project.",
+      "exceptions": "Any scheme that lifts the ridge or rises above the highest part of the existing roof will normally need planning permission."
+    },
+    "depth_rules": {
+      "title": "Volume matters more than metre depth",
+      "intro": "England's loft rules are mainly controlled by roof-space volume rather than by a front-to-back depth measurement.",
+      "rules": [
+        "Additional roof volume should not exceed 40 cubic metres on a terraced house.",
+        "Additional roof volume should not exceed 50 cubic metres on a detached or semi-detached house.",
+        "Earlier roof enlargements count towards the same 40 or 50 cubic metre allowance.",
+        "A bulky dormer can fail on overall volume even if one face does not project very far."
+      ],
+      "details": "For loft conversions, the key national size test is total added roof space. That is why previous dormers and other roof enlargements matter: they all use up the same allowance. The safest design starts by calculating the cumulative roof volume before refining the dormer shape.",
+      "exceptions": "Exceeding the 40 cubic metre or 50 cubic metre allowance, once earlier roof enlargements are counted, will normally require planning permission."
+    },
+    "boundary_rules": {
+      "title": "Privacy and overhang checks matter at the edges",
+      "intro": "Loft conversions are often judged at the roof edges: side-facing windows, the eaves line and whether any part overhangs the wall below.",
+      "rules": [
+        "Any side-facing window should be obscure glazed and non-opening below 1.7m above floor level.",
+        "The roof enlargement should not overhang the outer face of the wall of the original house.",
+        "Dormer cheeks and other structures should stay within the wall plane below.",
+        "Neighbour privacy still matters even where the roof volume itself fits the national allowance."
+      ],
+      "details": "A loft scheme can meet the volume rules and still fail on edge conditions. Side windows and overhangs are recurring weak points because they affect both privacy and the visual relationship between the enlargement and the original house.",
+      "exceptions": "A loft scheme with non-compliant side windows or any overhang beyond the outer face of the wall of the original house will normally need planning permission."
+    },
+    "roof_rules": {
+      "title": "Principal roof slopes and eaves setbacks are key",
+      "intro": "Class B is most flexible on the rear roof slope. Roof enlargements on a principal elevation facing a highway are much more restricted.",
+      "rules": [
+        "On a principal elevation that fronts a highway, the enlargement should not project beyond the existing roof slope.",
+        "The original eaves should be maintained or reinstated.",
+        "The enlargement should be set back, so far as practicable, at least 20cm from the original eaves.",
+        "Balconies, raised platforms and new chimneys, flues or soil and vent pipes are not allowed as part of the enlargement."
+      ],
+      "details": "For most houses, the safest Class B design is a rear-facing enlargement that keeps well away from the front roof slope and preserves the existing eaves line. Once the proposal starts reading as an extra storey rather than a contained roof addition, the permitted development case weakens quickly.",
+      "exceptions": "A roof enlargement on the principal front roof slope, or one that ignores the eaves-setback and exclusion rules, will normally need planning permission."
+    },
+    "materials_rules": {
+      "title": "Materials should match the existing roof",
+      "intro": "The national loft-conversion route expects materials used on the enlargement to be similar in appearance to the existing house.",
+      "rules": [
+        "Dormer faces, cheeks and roof coverings should match or closely complement the existing roof materials.",
+        "Matching tiles, slates and trims usually produce the strongest permitted development case.",
+        "Highly contrasting cladding can make the enlargement look more prominent than the rules expect.",
+        "The finished roof should still read as one coherent house roof rather than a bolt-on addition."
+      ],
+      "details": "Materials matter because the loft enlargement is meant to sit within the established roofscape of the house. A careful match in tiles, slates, flashings and window framing usually supports that better than a visibly unrelated external finish.",
+      "exceptions": "Where the roof enlargement uses visually discordant materials, or sits in a more sensitive heritage setting, planning permission is more likely to be required."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Loft conversions on roof slopes facing a highway often require planning permission in conservation areas because they can alter the appearance of historic streets.",
+    "listed_building": "Any roof alteration affecting a listed building requires listed building consent regardless of whether the work would normally be permitted development.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+  }
+}

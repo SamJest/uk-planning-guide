@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Buckinghamshire, a modest rooflight is usually on the simpler planning route if it sits close to the roof slope, does not exceed the existing ridge and avoids creating a problematic side-facing opening. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Buckinghamshire, a rooflight that projects too far or rises above the existing roof will normally need planning permission.",
+      "depth_rules": "Across Buckinghamshire, projection rather than room depth is the real test. A modest stand-off helps the rooflight remain clearly within the category of a minor roof alteration.",
+      "boundary_rules": "Across Buckinghamshire, a rooflight has very little footprint impact, but it can still create neighbour-privacy issues where it produces a direct side-facing view.",
+      "roof_rules": "Across Buckinghamshire, flush or low-profile units generally sit comfortably within the category of a roof alteration, while bulkier structures begin to resemble dormers or other roof additions.",
+      "materials_rules": "Across Buckinghamshire, there is no strict material-matching formula for every rooflight, but the frame, flashings and glazing should sit quietly within the existing roof covering, especially on visible slopes and sensitive streets."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "buckinghamshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest rooflight is usually on the simpler planning route if it sits close to the roof slope, does not exceed the existing ridge and avoids creating a problematic side-facing opening. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A rooflight that projects too far or rises above the existing roof will normally need planning permission.",
+        "depth_rules": "Projection rather than room depth is the real test. A modest stand-off helps the rooflight remain clearly within the category of a minor roof alteration.",
+        "boundary_rules": "A rooflight has very little footprint impact, but it can still create neighbour-privacy issues where it produces a direct side-facing view.",
+        "roof_rules": "Flush or low-profile units generally sit comfortably within the category of a roof alteration, while bulkier structures begin to resemble dormers or other roof additions.",
+        "materials_rules": "There is no strict material-matching formula for every rooflight, but the frame, flashings and glazing should sit quietly within the existing roof covering, especially on visible slopes and sensitive streets."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status makes roof-lights more sensitive on visible elevations, particularly where a simple modern unit would cut across a traditional roof pattern.",
+        "listed_building": "Roof-lights in listed buildings are commonly treated as heritage works because the roof covering, structure and external appearance all contribute to significance.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or earlier planning condition can take away the normal roof-light permitted development route, particularly on prominent roof slopes."
+      }
+    },
+    {
+      "town_slug": "milton-keynes",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary rooflight route is usually available where the change is just an alteration to the existing roof, the projection stays to 150 millimetres or less and the work does not enlarge the roof beyond the permitted class. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+        "depth_rules": "Projection rather than room depth is the real test. A modest stand-off helps the rooflight remain clearly within the category of a minor roof alteration.",
+        "boundary_rules": "Side-facing roof windows should be obscure-glazed. Opening parts should normally be kept at least 1.7 metres above the floor of the room served.",
+        "roof_rules": "Flush or low-profile units generally sit comfortably within the category of a roof alteration, while bulkier structures begin to resemble dormers or other roof additions.",
+        "materials_rules": "There is no strict material-matching formula for every rooflight, but the frame, flashings and glazing should sit quietly within the existing roof covering, especially on visible slopes and sensitive streets."
+      },
+      "restrictions": {
+        "conservation_area": "Roof-lights on prominent roof slopes in conservation areas often face a closer design review, especially where they would affect a traditional roofscape or visible frontage.",
+        "listed_building": "Listed building consent may be required for roof-lights where the work alters historic roof fabric, framing, coverings or the character of the building.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or earlier planning condition can take away the normal roof-light permitted development route, particularly on prominent roof slopes."
+      }
+    }
+  ]
+}

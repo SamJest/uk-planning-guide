@@ -1,0 +1,69 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Bedfordshire, most dropped-kerb schemes are decided first through the highway authority because the crossing sits within the public highway. That does not guarantee the planning position: access onto a classified road, flats, listed buildings or wider frontage alterations can still mean a planning application is needed.",
+    "rules": {
+      "height_rules": "Across Bedfordshire, dropped-kerb work is controlled more by highway geometry than by a simple height limit. The council will care about levels, gradients and whether boundary features need to come down to maintain visibility.",
+      "depth_rules": "Across Bedfordshire, there is no national planning depth limit, but the access should lead to enough in-curtilage standing space for a vehicle to clear the footway rather than overhang it. Schemes become harder where a car would project onto the pavement or rely on awkward reversing.",
+      "boundary_rules": "Across Bedfordshire, a dropped kerb is not just an opening in your wall: it affects the public highway, so street furniture, utilities, trees, drainage and visibility can all shape the answer. Boundary alterations often need to be planned alongside the crossing rather than afterwards.",
+      "roof_rules": "Across Bedfordshire, roof form is not part of a dropped-kerb assessment, but do not ignore linked structures. If the scheme also adds a canopy, car-port edge, gateway feature or retaining work, those pieces are not automatically covered by the crossing approval.",
+      "materials_rules": "Across Bedfordshire, materials matter differently here than on a normal householder project. The authority will usually control the kerb and footway construction, while the private driveway behind it should be robust, well-drained and suitable for repeated vehicle loading."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "bedford",
+      "last_verified": "2026-01",
+      "permitted_development": "In Bedford, most dropped-kerb schemes are decided first through the highway authority because the crossing sits within the public highway. That does not guarantee the planning position: access onto a classified road, flats, listed buildings or wider frontage alterations can still mean a planning application is needed.",
+      "rules": {
+        "height_rules": "Dropped-kerb work is controlled more by highway geometry than by a simple height limit. The council will care about levels, gradients and whether boundary features need to come down to maintain visibility.",
+        "depth_rules": "There is no national planning depth limit, but the access should lead to enough in-curtilage standing space for a vehicle to clear the footway rather than overhang it. Schemes become harder where a car would project onto the pavement or rely on awkward reversing.",
+        "boundary_rules": "A dropped kerb is not just an opening in your wall: it affects the public highway, so street furniture, utilities, trees, drainage and visibility can all shape the answer. Boundary alterations often need to be planned alongside the crossing rather than afterwards.",
+        "roof_rules": "Roof form is not part of a dropped-kerb assessment, but do not ignore linked structures. If the scheme also adds a canopy, car-port edge, gateway feature or retaining work, those pieces are not automatically covered by the crossing approval.",
+        "materials_rules": "Materials matter differently here than on a normal householder project. The authority will usually control the kerb and footway construction, while the private driveway behind it should be robust, well-drained and suitable for repeated vehicle loading."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, forming a new vehicular opening can need a closer planning and heritage review where traditional walls, railings, stone kerbs, paving or trees would be altered.",
+        "listed_building": "Listed building consent may be required where dropped-kerb works alter the setting or fabric of a listed building, including curtilage walls and entrance features.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions or planning conditions can remove the simpler householder route for access and boundary works, so the planning status should be checked before relying only on highway approval."
+      }
+    },
+    {
+      "town_slug": "central-bedfordshire",
+      "last_verified": "2026-01",
+      "permitted_development": "In Central Bedfordshire, a dropped kerb is usually dealt with first as a highway approval issue rather than a standard householder planning application. You normally need the council's vehicle-crossing or dropped-kerb consent to cross the public footway or verge, and planning permission can still be needed for access onto a classified road, at flats, or where wider frontage works fall outside ordinary householder rights.",
+      "rules": {
+        "height_rules": "Dropped-kerb work is controlled more by highway geometry than by a simple height limit. The council will care about levels, gradients and whether boundary features need to come down to maintain visibility.",
+        "depth_rules": "No fixed national depth rule applies, but the site should be deep enough for a vehicle to stand within the property once it has crossed the footway. If the car would overhang the pavement, the access is far less likely to be acceptable.",
+        "boundary_rules": "A dropped kerb is not just an opening in your wall: it affects the public highway, so street furniture, utilities, trees, drainage and visibility can all shape the answer. Boundary alterations often need to be planned alongside the crossing rather than afterwards.",
+        "roof_rules": "A dropped kerb has no roof-related permitted development test. The nearest equivalent design issue is whether any linked canopy, gate feature or retaining structure is being added as part of the access works, because those elements are assessed under their own rules.",
+        "materials_rules": "You do not get a householder right to choose the kerb build-up or footway construction yourself: the highway authority usually specifies the crossing detail. Behind the kerb, use a durable surface and drainage layout that can take vehicle loading without washing water onto the pavement or road."
+      },
+      "restrictions": {
+        "conservation_area": "A dropped kerb in a conservation area often needs fuller scrutiny if the proposal affects established front boundaries, historic paving or the character of the street.",
+        "listed_building": "If the access serves a listed building or involves curtilage walls, gates, piers or historic paving, listed building consent may be needed as well as any highway or planning approval.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 controls or planning conditions apply, the ordinary householder fallback for access-related works may be removed, so both planning and highways should be checked together."
+      }
+    },
+    {
+      "town_slug": "luton",
+      "last_verified": "2026-01",
+      "permitted_development": "In Luton, creating a new vehicular access usually starts with highway consent rather than a normal householder application. Lowering the kerb and strengthening the footway are public-highway works, and planning permission may still be required if the site fronts a classified road, the property is split into flats, or the proposal depends on larger engineering or boundary changes.",
+      "rules": {
+        "height_rules": "There is no normal householder height allowance for a dropped kerb. The practical checks are kerb and driveway levels, gradients, and whether boundary walls, fences or banks have to be reduced to keep safe sightlines.",
+        "depth_rules": "The real depth question is practical rather than formula-based: can a vehicle enter and sit inside the site without blocking the footway? Tight front gardens often fail on that point even before wider design issues are considered.",
+        "boundary_rules": "Boundary and highway issues usually decide a dropped-kerb application more than any householder rulebook. The authority may object because of sightlines, nearby junctions, parking controls, street furniture or conflicts with utility apparatus.",
+        "roof_rules": "Roof form is not part of a dropped-kerb assessment, but do not ignore linked structures. If the scheme also adds a canopy, car-port edge, gateway feature or retaining work, those pieces are not automatically covered by the crossing approval.",
+        "materials_rules": "For a dropped kerb, the public-highway build-up is normally specified by the council rather than by the homeowner. On the private side of the boundary, choose surfacing that drains well and will not break up or rut under regular vehicle use."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes a new access more sensitive where it removes historic boundary features or changes a traditional frontage.",
+        "listed_building": "Listed building consent may be required where dropped-kerb works alter the setting or fabric of a listed building, including curtilage walls and entrance features.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions or planning conditions can remove the simpler householder route for access and boundary works, so the planning status should be checked before relying only on highway approval."
+      }
+    }
+  ]
+}

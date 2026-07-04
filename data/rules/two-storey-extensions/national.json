@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A two-storey rear extension in England can only be permitted development where it stays within the Class A limits for more-than-one-storey work. Two-storey side extensions are not permitted development.",
+    "rules": {
+      "height_rules": "The extension must not exceed the highest part of the existing roof or the existing eaves, and the roof pitch should match the house as far as practicable.",
+      "depth_rules": "A more-than-one-storey extension must not project more than 3m beyond the original rear wall and must not be within 7m of the rear boundary opposite that wall.",
+      "boundary_rules": "Upper-floor side windows should be obscure-glazed and non-opening below 1.7m, and two-storey side extensions are not permitted development.",
+      "roof_rules": "Roof form should stay subordinate to the existing house and any roof alteration involved must also satisfy the relevant roof rules.",
+      "materials_rules": "External materials should be similar in appearance to the existing house."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Two-Storey Extension Height and Roof Limits",
+      "intro": "A two-storey extension cannot simply scale up the single-storey rules; the height and roof tests are tighter.",
+      "rules": [
+        "No part of the extension should be higher than the highest part of the existing roof.",
+        "The eaves should not be higher than the existing house eaves.",
+        "The roof pitch should match the existing house as far as practicable.",
+        "Tall side walls and raised ridge designs usually push the scheme outside permitted development."
+      ],
+      "details": "Class A allows some rear extensions of more than one storey, but only if the height stays under the existing roof and eaves. The guidance also expects the new roof pitch to match the original house as far as practicable. These limits are meant to keep the extension visually subordinate and to avoid creating what feels like a separate enlarged block behind the house.",
+      "exceptions": "Any design that exceeds the existing roof height or materially changes the roof profile will normally need planning permission."
+    },
+    "depth_rules": {
+      "title": "Rear Projection and Rear Boundary Limits",
+      "intro": "Two-storey rear extensions have a hard rear projection cap and a separate stand-off from the rear boundary.",
+      "rules": [
+        "The extension should project no more than 3m beyond the original rear wall.",
+        "No part of the extension should be within 7m of the rear boundary opposite the rear wall.",
+        "Both tests apply together.",
+        "Measurement is taken from the original house, not from later additions."
+      ],
+      "details": "For a more-than-one-storey extension under Class A, the rearward projection cannot exceed 3 metres and the extension cannot be within 7 metres of the boundary opposite the rear wall. The 7 metre rule is often the harder one to satisfy on short gardens. Even if the depth looks modest on paper, the plot may simply be too shallow for permitted development.",
+      "exceptions": "If either the 3 metre projection rule or the 7 metre boundary rule is failed, planning permission will usually be required."
+    },
+    "boundary_rules": {
+      "title": "Side Boundaries, Windows and Plot Position",
+      "intro": "Boundary effects matter more once a proposal goes up to first-floor level.",
+      "rules": [
+        "Two-storey side extensions are not permitted development.",
+        "Upper-floor side windows should be obscure-glazed.",
+        "Any opening part of an upper-floor side window should usually be above 1.7m from floor level.",
+        "Corner plots and highway-facing side elevations are especially restrictive."
+      ],
+      "details": "Planning Portal is clear that all side extensions of more than one storey require planning permission. Even on a rear extension, any upper-floor side-facing windows are expected to be obscure-glazed and non-opening below 1.7 metres. These rules are aimed at protecting privacy and limiting the visual dominance of first-floor additions near boundaries.",
+      "exceptions": "Where the proposal includes a side element at first-floor level, or clear-glazed side windows serving normal rooms, a planning application is normally needed."
+    },
+    "roof_rules": {
+      "title": "Roof Design for More-Than-One-Storey Extensions",
+      "intro": "The roof on a two-storey extension has to integrate with the house without creating a new dominant mass.",
+      "rules": [
+        "Roof pitch should match the existing house as far as practicable.",
+        "The extension roof should not overtake the visual role of the main roof.",
+        "Any linked roof alteration must also satisfy the separate roof rules where relevant.",
+        "Balconies, verandas and raised platforms are still excluded under Class A."
+      ],
+      "details": "A two-storey extension often joins into the main roof, which is why the roof-pitch condition matters. A compliant design usually keeps the extension roof clearly secondary and avoids creating an awkward or over-tall junction with the original house. If the proposal also includes separate roof alterations, they need to be tested against the relevant roof permitted development rules as well.",
+      "exceptions": "Designs that depend on major roof remodelling, external terraces or oversized first-floor massing normally need permission."
+    },
+    "materials_rules": {
+      "title": "External Materials and Appearance",
+      "intro": "Because a two-storey extension is so visible, matching the host house matters more, not less.",
+      "rules": [
+        "Exterior materials should be similar in appearance to the existing house.",
+        "The first-floor treatment should not look like a separate box added above a ground-floor extension.",
+        "Roof coverings, brickwork or render should sit comfortably with the original building.",
+        "Highly contrasting cladding can make a scheme harder to defend if planning permission is needed."
+      ],
+      "details": "The Class A materials condition still applies to a two-storey extension. On a project this visible, weak material choices often make the addition feel heavier and more intrusive than it needs to. A consistent external palette usually helps the extension read as part of the house rather than a stacked afterthought.",
+      "exceptions": "Heritage settings and listed buildings may require a closer material match or a different consent route altogether."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Two-storey extensions are much more likely to need planning permission in conservation areas because of their stronger visual impact on the house and street scene.",
+    "listed_building": "A listed building does not benefit from normal householder assumptions in the same way, and an extension affecting its character usually needs listed building consent as well as any planning permission.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove normal householder permitted development rights on selected streets or heritage areas, so the exact designation should be checked before relying on Class A."
+  }
+}

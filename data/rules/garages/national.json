@@ -1,0 +1,70 @@
+{
+  "rules": {
+    "height_rules": {
+      "title": "Garage height and form",
+      "intro": "In England, detached domestic garages usually follow the outbuildings rules, so overall height, eaves height and whether the building stays single storey are the first checks.",
+      "rules": [
+        "Outbuildings and garages must be single storey to use the normal householder permitted development route.",
+        "Maximum eaves height is 2.5 metres.",
+        "Maximum overall height is 4 metres with a dual-pitched roof or 3 metres for any other roof form.",
+        "If the building is within 2 metres of a boundary, the maximum overall height is 2.5 metres."
+      ],
+      "details": "The national rules are fairly clear for garages used as incidental outbuildings. Height and roof form usually decide the answer early, especially on tight plots where the garage sits close to the boundary and any extra ridge height quickly makes it feel dominant.",
+      "exceptions": "A tall roof, lofted form or boundary-hugging structure that exceeds the 2.5 metre overall height rule near the boundary usually needs planning permission."
+    },
+    "depth_rules": {
+      "title": "Footprint, coverage and position",
+      "intro": "Garages can be permitted development, but the route depends on the building staying incidental, subordinate and sensibly placed within the curtilage of the house.",
+      "rules": [
+        "No outbuilding can be on land forward of a wall forming the principal elevation of the original house.",
+        "Outbuildings and other additions must not cover more than half the area of land around the original house.",
+        "The garage should remain an incidental domestic building rather than a separate dwelling or main-use building.",
+        "Plot coverage, frontage impact and the relationship to the original house matter as much as raw floor area."
+      ],
+      "details": "A garage that sits comfortably behind or beside the house is usually easier than one that takes over the front part of the plot. The national test is not just whether a garage fits physically, but whether it still reads as a supporting domestic building within the remaining curtilage allowance.",
+      "exceptions": "A forward garage, overdeveloped plot or building that no longer feels incidental can fall outside permitted development even before local design issues are assessed."
+    },
+    "boundary_rules": {
+      "title": "Boundary, access and use limits",
+      "intro": "Boundary position is not the only issue for garages. Access arrangements and the actual use of the building can change the planning answer quickly.",
+      "rules": [
+        "Garages using the outbuildings route must be for purposes incidental to the enjoyment of the dwellinghouse.",
+        "Use as separate self-contained living accommodation is not covered by the normal outbuilding permitted development rights.",
+        "Vehicle access, crossovers and visibility at the highway edge can require separate highway approval even where the garage building itself is acceptable.",
+        "Neighbour impact becomes more sensitive where the garage is close to the boundary or creates a more dominant frontage."
+      ],
+      "details": "Many garage proposals succeed or fail on the combined story of building position, access and intended use. A modest domestic garage is one thing; a structure that behaves like a workshop, annex or heavily engineered frontage is another.",
+      "exceptions": "A garage linked to a new crossover, a constrained highway arrangement or quasi-residential use often needs a fuller consent review."
+    },
+    "roof_rules": {
+      "title": "Roof shape and ancillary volume",
+      "intro": "Roof design matters because a garage can stop looking incidental once the roof creates extra volume, storage intensity or the impression of accommodation.",
+      "rules": [
+        "A dual-pitched roof can reach 4 metres overall height, but only if the other outbuilding limits are still met.",
+        "Any other roof form is limited to 3 metres overall height unless the boundary rule forces a lower 2.5 metre maximum.",
+        "Raised platforms, balconies and verandas are not allowed under the standard outbuilding route.",
+        "Simple subordinate roofs are usually easier than forms that suggest a room-in-the-roof or a second layer of use."
+      ],
+      "details": "The safest garage roofs are usually the ones that keep the building obviously secondary to the house. Once the roof profile starts chasing extra internal volume, the planning case gets weaker and neighbours are more likely to see the building as overbearing.",
+      "exceptions": "Complex roof forms, over-tall ridges or any design hinting at habitable first-floor space can push the garage beyond the simple route."
+    },
+    "materials_rules": {
+      "title": "Appearance and designated land controls",
+      "intro": "Materials do not usually decide the legal route on their own, but finish, door treatment and visibility still affect whether a garage feels subordinate and domestic.",
+      "rules": [
+        "Garages are usually easiest where the materials sit comfortably with the house and garden setting.",
+        "On designated land, buildings at the side of the house need extra care because side outbuildings are not covered in the same way.",
+        "Within the curtilage of a listed building, any outbuilding will require planning permission.",
+        "Large door openings, industrial finishes or overt workshop detailing can make the building feel less clearly domestic."
+      ],
+      "details": "A simple garage built in a domestic palette is usually easier to justify than one that reads as a commercial unit or second focal building. The design point becomes sharper on designated land and around listed buildings, where visibility and character carry more weight.",
+      "exceptions": "Side outbuildings on designated land, listed-building curtilage sites or harsh commercial-looking finishes often need a closer planning review."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Garages in conservation areas are more sensitive where they affect visible front or side parts of the plot, remove openness or compete with the house in the street scene.",
+    "listed_building": "Within the curtilage of a listed building, a domestic garage will usually need planning permission and may also need a more careful heritage-led design assessment.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions and site-specific conditions can remove normal outbuilding rights, particularly on planned estates, heritage areas and visually controlled frontages."
+  }
+}

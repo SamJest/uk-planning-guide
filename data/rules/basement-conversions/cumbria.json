@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Converting an existing residential cellar or basement in England is unlikely to need planning permission where the work stays internal, does not create a separate dwelling and does not materially alter the exterior. New excavation, lightwells or other visible external works can change that answer.",
+    "rules": {
+      "height_rules": "There is no separate basement height allowance. The planning issue is usually whether visible guards, railings, lightwell walls or linked above-ground structures become prominent externally.",
+      "depth_rules": "There is no standalone permitted development depth right for basement excavation. Digging down to create a new basement or materially enlarge one usually needs its own planning assessment, especially where the outside of the property changes.",
+      "boundary_rules": "Boundary-sensitive basement work needs careful review where it introduces lightwells, retaining walls, railings, drainage changes or substantial excavation close to adjoining structures.",
+      "roof_rules": "If the scheme also includes a rear extension, roof terrace, plant or roof alteration, those elements need their own planning assessment. A purely internal basement conversion does not usually create a separate roof issue.",
+      "materials_rules": "Visible elements such as front lightwell walls, railings, grilles, doors and paving should be designed as part of the existing house rather than as an awkward add-on. Heritage settings usually need the most restrained detailing."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "cumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "Existing basement space can often be converted without planning permission where the work remains within the current envelope and does not create a separate unit. New excavation and visible external alterations take the proposal into a more planning-sensitive category.",
+      "rules": {
+        "height_rules": "A conversion that enlarges the building or introduces new above-ground structures is more likely to need planning permission.",
+        "depth_rules": "Reusing existing built space is usually the simplest route. Excavation, extended footprint or enlarged floor area can change the answer quickly.",
+        "boundary_rules": "Boundary issues often come from external openings, excavation, parking loss or access changes. The simpler route is strongest where outside changes remain modest.",
+        "roof_rules": "Associated roof alterations should not be assumed to fall within the same route as the main conversion.",
+        "materials_rules": "A purely internal basement conversion raises few material questions, but visible lightwell walls, guards and railings should sit comfortably with the existing building."
+      },
+      "restrictions": {
+        "conservation_area": "Planning information about listed buildings, houses in conservation areas, landscape assessments and the historic environment.",
+        "listed_building": "Planning information about listed buildings, houses in conservation areas, landscape assessments and the historic environment.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "westmorland-and-furness",
+      "last_verified": "2026-04",
+      "permitted_development": "Converting an existing basement or cellar into living space is usually the easiest route where the use stays part of the house and the work does not materially alter the outside of the building. Planning permission becomes more likely for a new self-contained unit, a new basement, a lightwell or other external changes.",
+      "rules": {
+        "height_rules": "There is no single conversion height formula. The real issue is usually whether the project changes the scale or visible envelope of the building.",
+        "depth_rules": "Depth becomes important only when the project goes beyond internal alteration and starts creating new space through excavation, extension or other external works.",
+        "boundary_rules": "A conversion can look internal on paper but still become planning-sensitive at the frontage and boundaries if it introduces new openings, lightwells, entrances or parking loss.",
+        "roof_rules": "Associated roof alterations should not be assumed to fall within the same route as the main conversion.",
+        "materials_rules": "Materials matter most where the conversion introduces a visible lightwell, new railings, altered windows or external grilles."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    }
+  ]
+}

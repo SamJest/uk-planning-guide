@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A two-storey extension in England has a much narrower permitted development route than a single-storey project. Rear two-storey additions can sometimes fit within Class A, but side or wraparound schemes often need planning permission. On deeper rural plots, the harder issues are often prominence in open views, out-of-scale massing and how the addition reads from lanes or public footpaths.",
+    "rules": {
+      "height_rules": "No part should exceed the highest part of the existing roof, and the eaves should not be higher than the existing eaves.",
+      "depth_rules": "A two-storey rear extension should usually project no more than 3m beyond the original rear wall and must not sit within 7m of the boundary opposite that rear wall if it is to stay within permitted development.",
+      "boundary_rules": "Upper floors intensify overlooking and overbearing concerns. Councils look closely at rear-boundary separation, side-window positions and the effect on neighbouring gardens and habitable rooms. On deeper rural plots, the harder issues are often prominence in open views, out-of-scale massing and how the addition reads from lanes or public footpaths.",
+      "roof_rules": "The roof pitch should, so far as practicable, match the existing house and the extension should stay clearly behind the principal elevation. Bulky side roofs and forward projection are common reasons permission is needed.",
+      "materials_rules": "External materials should match or closely relate to the existing house so the upper floor does not look like a separate block perched behind or beside the dwelling. On deeper rural plots, the harder issues are often prominence in open views, out-of-scale massing and how the addition reads from lanes or public footpaths."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-01",
+      "permitted_development": "A two-storey extension can still fall within Class A in England, but in parts of this authority Article 4 or heritage controls may narrow that fallback route. Even where rights remain, the rear-only, depth and boundary tests still apply.",
+      "rules": {
+        "height_rules": "The same height rules still apply in sensitive streets: no part above the existing roof and no eaves above the existing eaves line.",
+        "depth_rules": "A two-storey rear extension should usually project no more than 3m beyond the original rear wall if it is to stay within PD. Once depth, width or side projection increases beyond that, permission is normally needed.",
+        "boundary_rules": "In tighter or heritage-sensitive streets, upper-floor overlooking and dominance are often judged even more carefully, so rear separation and window positions matter early.",
+        "roof_rules": "The roof pitch should, so far as practicable, match the existing house and the extension should stay clearly behind the principal elevation. Bulky side roofs and forward projection are common reasons permission is needed.",
+        "materials_rules": "Close material matching matters even more in heritage-sensitive settings so the upper floor stays visually tied to the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "listed_building": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "article4_applies": true,
+        "article4_notes": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes."
+      }
+    }
+  ]
+}

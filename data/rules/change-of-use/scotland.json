@@ -1,0 +1,559 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent.",
+    "rules": {
+      "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+      "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+      "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself.",
+      "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+      "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. In city authorities, uses with stronger amenity effects such as visitor accommodation, food and drink, late opening or intensive commercial activity are more likely to need a specific planning view even before external works are considered.",
+      "rules": {
+        "height_rules": "There is no separate height allowance for change of use. Plant screens, stairs, flues and any other physical additions are assessed separately.",
+        "depth_rules": "There is no depth allowance. Outdoor seating, servicing courts, storage areas, extensions and enlarged floorspace remain separate planning questions.",
+        "boundary_rules": "Parking, cycle provision, bin storage, deliveries, neighbour amenity and the intensity of operation often drive the real planning judgement in urban areas.",
+        "roof_rules": "Roof plant, ventilation, extract systems and screening are not granted by a simple change of use and may need their own permission.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding and extraction equipment are considered separately, and licensing or building standards can also apply."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. In city authorities, uses with stronger amenity effects such as visitor accommodation, food and drink, late opening or intensive commercial activity are more likely to need a specific planning view even before external works are considered.",
+      "rules": {
+        "height_rules": "There is no separate height allowance for change of use. Plant screens, stairs, flues and any other physical additions are assessed separately.",
+        "depth_rules": "There is no depth allowance. Outdoor seating, servicing courts, storage areas, extensions and enlarged floorspace remain separate planning questions.",
+        "boundary_rules": "Parking, cycle provision, bin storage, deliveries, neighbour amenity and the intensity of operation often drive the real planning judgement in urban areas.",
+        "roof_rules": "Roof plant, ventilation, extract systems and screening are not granted by a simple change of use and may need their own permission.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding and extraction equipment are considered separately, and licensing or building standards can also apply."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. In city authorities, uses with stronger amenity effects such as visitor accommodation, food and drink, late opening or intensive commercial activity are more likely to need a specific planning view even before external works are considered.",
+      "rules": {
+        "height_rules": "There is no separate height allowance for change of use. Plant screens, stairs, flues and any other physical additions are assessed separately.",
+        "depth_rules": "There is no depth allowance. Outdoor seating, servicing courts, storage areas, extensions and enlarged floorspace remain separate planning questions.",
+        "boundary_rules": "Parking, cycle provision, bin storage, deliveries, neighbour amenity and the intensity of operation often drive the real planning judgement in urban areas.",
+        "roof_rules": "Roof plant, ventilation, extract systems and screening are not granted by a simple change of use and may need their own permission.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding and extraction equipment are considered separately, and licensing or building standards can also apply."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. In city authorities, uses with stronger amenity effects such as visitor accommodation, food and drink, late opening or intensive commercial activity are more likely to need a specific planning view even before external works are considered.",
+      "rules": {
+        "height_rules": "There is no separate height allowance for change of use. Plant screens, stairs, flues and any other physical additions are assessed separately.",
+        "depth_rules": "There is no depth allowance. Outdoor seating, servicing courts, storage areas, extensions and enlarged floorspace remain separate planning questions.",
+        "boundary_rules": "Parking, cycle provision, bin storage, deliveries, neighbour amenity and the intensity of operation often drive the real planning judgement in urban areas.",
+        "roof_rules": "Roof plant, ventilation, extract systems and screening are not granted by a simple change of use and may need their own permission.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding and extraction equipment are considered separately, and licensing or building standards can also apply."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In town, district-centre and mixed-use streets, frontage quality, servicing, odour and late-night amenity are common decision points.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In town, district-centre and mixed-use streets, frontage quality, servicing, odour and late-night amenity are common decision points.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In town, district-centre and mixed-use streets, frontage quality, servicing, odour and late-night amenity are common decision points."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+      "rules": {
+        "height_rules": "There is no separate national height allowance for change of use. Any new plant enclosure, external stair, flue or other physical alteration is assessed separately.",
+        "depth_rules": "There is no depth allowance. Extensions, outside seating, servicing space, storage yards and enlarged operational areas are separate planning issues from the use-class point itself.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+        "roof_rules": "Roof plant, vents, condensers, flues and screening are not granted by a simple change of use and may need their own planning decision.",
+        "materials_rules": "Shopfront works, shutters, signage, external cladding, extraction equipment and other alterations are judged separately, and building standards or licensing may also apply. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In a national park, traffic, signage, external plant and the effect on landscape character are usually examined very carefully.",
+      "rules": {
+        "height_rules": "There is no separate height right. New service structures, flues, stairs, plant or enclosures linked to the proposed use are assessed as physical development in their own right.",
+        "depth_rules": "There is no depth allowance. Outdoor use areas, storage compounds, parking expansions and servicing arrangements can be as important as the internal use change.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In a national park, traffic, signage, external plant and the effect on landscape character are usually examined very carefully.",
+        "roof_rules": "Roof plant, vents, flues and other service equipment are not covered by a simple change of use and can be a major heritage or landscape issue.",
+        "materials_rules": "External alterations should be kept restrained and compatible with the building and its setting. Prominent signage, cladding and service equipment are more likely to attract concern in protected areas."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, whether a change of use needs planning permission depends mainly on the Use Classes (Scotland) Order and any permitted changes within the GPDO. A move within the same use class usually does not need planning permission unless a condition or other restriction applies, but external works or a materially different planning impact can still require consent. In a national park, traffic, signage, external plant and the effect on landscape character are usually examined very carefully.",
+      "rules": {
+        "height_rules": "There is no separate height right. New service structures, flues, stairs, plant or enclosures linked to the proposed use are assessed as physical development in their own right.",
+        "depth_rules": "There is no depth allowance. Outdoor use areas, storage compounds, parking expansions and servicing arrangements can be as important as the internal use change.",
+        "boundary_rules": "Boundary impacts often decide the real planning answer: traffic, parking, waste handling, noise, odour, overlooking and activity at unsocial hours are assessed separately from the use description itself. In a national park, traffic, signage, external plant and the effect on landscape character are usually examined very carefully.",
+        "roof_rules": "Roof plant, vents, flues and other service equipment are not covered by a simple change of use and can be a major heritage or landscape issue.",
+        "materials_rules": "External alterations should be kept restrained and compatible with the building and its setting. Prominent signage, cladding and service equipment are more likely to attract concern in protected areas."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, external works tied to a new use are more likely to need planning permission or other heritage consent even where the use-class point seems straightforward.",
+        "listed_building": "A listed building can change use only with great care: listed building consent may be needed for internal and external works even where the use itself is acceptable in planning terms."
+      }
+    }
+  ]
+}

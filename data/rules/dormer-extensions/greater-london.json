@@ -1,0 +1,609 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A dormer extension can be permitted development in England only where it satisfies the Class B roof-enlargement rules, stays within the roof-space allowance and remains subordinate to the host roof. On tighter plots and established suburban streets, daylight, privacy and parking layout are often the real deciding factors.",
+    "rules": {
+      "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+      "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+      "boundary_rules": "Obscure glazing and restricted opening are usually expected on side-facing dormer windows below 1.7m, and close rear-to-rear relationships can still create overlooking issues even where permitted development may apply. On tighter plots and established suburban streets, daylight, privacy and parking layout are often the real deciding factors.",
+      "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from hip-to-gable work, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+      "materials_rules": "Use external finishes that sit comfortably with the existing roof and walls. A lighter cladding panel may be acceptable, but a bulky box in mismatched materials is harder to defend. On tighter plots and established suburban streets, daylight, privacy and parking layout are often the real deciding factors."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "barking-and-dagenham",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "barnet",
+      "last_verified": "2026-01",
+      "permitted_development": "In England the normal route is Class B permitted development, but only where the dormer and any associated roof enlargement stays within the 40 or 50 cubic metre allowance, keeps off the principal roof slope facing a highway and complies with the Class B conditions.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing ridge and highest roof point. Once the roofline is lifted, the work normally moves outside permitted development.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Privacy is the main boundary test. Side-facing windows need obscure glazing and restricted opening below 1.7m, and close rear-to-rear plots can make a large roof enlargement harder to rely on as PD.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Match the new tiles, cheeks, cladding and joinery as closely as practicable to the existing house so the alteration stays subordinate to the main roof."
+      },
+      "restrictions": {
+        "conservation_area": "Listed buildings, conservation areas, historic parks, gardens, and ancient monuments",
+        "listed_building": "Listed buildings, conservation areas, historic parks, gardens, and ancient monuments",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "bexley",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "brent",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Planning information for homes and properties that are listed or in conservation areas",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "bromley",
+      "last_verified": "2026-01",
+      "permitted_development": "In England the normal route is Class B permitted development, but only where the dormer and any associated roof enlargement stays within the 40 or 50 cubic metre allowance, keeps off the principal roof slope facing a highway and complies with the Class B conditions.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing ridge and highest roof point. Once the roofline is lifted, the work normally moves outside permitted development.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Privacy is the main boundary test. Side-facing windows need obscure glazing and restricted opening below 1.7m, and close rear-to-rear plots can make a large roof enlargement harder to rely on as PD.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Match the new tiles, cheeks, cladding and joinery as closely as practicable to the existing house so the alteration stays subordinate to the main roof."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "camden",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "city-of-london",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "croydon",
+      "last_verified": "2026-01",
+      "permitted_development": "In England the normal route is Class B permitted development, but only where the dormer and any associated roof enlargement stays within the 40 or 50 cubic metre allowance, keeps off the principal roof slope facing a highway and complies with the Class B conditions.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing ridge and highest roof point. Once the roofline is lifted, the work normally moves outside permitted development.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Privacy is the main boundary test. Side-facing windows need obscure glazing and restricted opening below 1.7m, and close rear-to-rear plots can make a large roof enlargement harder to rely on as PD.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Match the new tiles, cheeks, cladding and joinery as closely as practicable to the existing house so the alteration stays subordinate to the main roof."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "ealing",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can still fall within Class B in England, but in parts of this authority heritage controls or an Article 4 direction may remove that fallback route. Even where rights remain, the dormer and any associated roof enlargement still has to stay within the roof-space allowance, below the ridge and off the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "Even in streets with tighter heritage controls, the starting point is the same: the dormer should stay below the existing ridge and highest roof point.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "The usual privacy rules still apply: side-facing windows should be obscure glazed and non-opening below 1.7m, while tighter heritage streets can make overlooking and roofscape change more sensitive.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Material matching matters more in heritage-sensitive streets. The safest approach is to keep the new roof finish and detailing close to the existing house so the alteration reads as restrained work."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": true,
+        "article4_notes": "Article 4 Directions immediate and non-immediate to remove HMO permitted development rights"
+      }
+    },
+    {
+      "town_slug": "enfield",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "greenwich",
+      "last_verified": "2026-01",
+      "permitted_development": "In England the normal route is Class B permitted development, but only where the dormer and any associated roof enlargement stays within the 40 or 50 cubic metre allowance, keeps off the principal roof slope facing a highway and complies with the Class B conditions.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing ridge and highest roof point. Once the roofline is lifted, the work normally moves outside permitted development.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Privacy is the main boundary test. Side-facing windows need obscure glazing and restricted opening below 1.7m, and close rear-to-rear plots can make a large roof enlargement harder to rely on as PD.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Match the new tiles, cheeks, cladding and joinery as closely as practicable to the existing house so the alteration stays subordinate to the main roof."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "hackney",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can still fall within Class B in England, but in parts of this authority heritage controls or an Article 4 direction may remove that fallback route. Even where rights remain, the dormer and any associated roof enlargement still has to stay within the roof-space allowance, below the ridge and off the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "Even in streets with tighter heritage controls, the starting point is the same: the dormer should stay below the existing ridge and highest roof point.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "The usual privacy rules still apply: side-facing windows should be obscure glazed and non-opening below 1.7m, while tighter heritage streets can make overlooking and roofscape change more sensitive.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Material matching matters more in heritage-sensitive streets. The safest approach is to keep the new roof finish and detailing close to the existing house so the alteration reads as restrained work."
+      },
+      "restrictions": {
+        "conservation_area": "Planning permission rules are different if your property is in a conservation area.",
+        "listed_building": "However listed building consent is required if you are proposing to put solar panels on a listed building.",
+        "article4_applies": true,
+        "article4_notes": "Article 4 directions apply in parts of this authority and can remove the usual roof-alteration fallback route, so confirm the property's designation before treating the loft or dormer work as permitted development."
+      }
+    },
+    {
+      "town_slug": "hammersmith-and-fulham",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "haringey",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can still fall within Class B in England, but in parts of this authority heritage controls or an Article 4 direction may remove that fallback route. Even where rights remain, the dormer and any associated roof enlargement still has to stay within the roof-space allowance, below the ridge and off the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "Even in streets with tighter heritage controls, the starting point is the same: the dormer should stay below the existing ridge and highest roof point.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "The usual privacy rules still apply: side-facing windows should be obscure glazed and non-opening below 1.7m, while tighter heritage streets can make overlooking and roofscape change more sensitive.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Material matching matters more in heritage-sensitive streets. The safest approach is to keep the new roof finish and detailing close to the existing house so the alteration reads as restrained work."
+      },
+      "restrictions": {
+        "conservation_area": "Planning permission and applications, planning enforcement, planning policy, conservation areas and listed buildings, major projects and regeneration.",
+        "listed_building": "Planning permission and applications, planning enforcement, planning policy, conservation areas and listed buildings, major projects and regeneration.",
+        "article4_applies": true,
+        "article4_notes": "Article 4 directions apply in parts of this authority and can remove the usual roof-alteration fallback route, so confirm the property's designation before treating the loft or dormer work as permitted development."
+      }
+    },
+    {
+      "town_slug": "harrow",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "havering",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "You can search for any planning, listed building or advertisement appeals that have been lodged since 2003.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "hillingdon",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can still fall within Class B in England, but in parts of this authority heritage controls or an Article 4 direction may remove that fallback route. Even where rights remain, the dormer and any associated roof enlargement still has to stay within the roof-space allowance, below the ridge and off the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "Even in streets with tighter heritage controls, the starting point is the same: the dormer should stay below the existing ridge and highest roof point.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "The usual privacy rules still apply: side-facing windows should be obscure glazed and non-opening below 1.7m, while tighter heritage streets can make overlooking and roofscape change more sensitive.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Material matching matters more in heritage-sensitive streets. The safest approach is to keep the new roof finish and detailing close to the existing house so the alteration reads as restrained work."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": true,
+        "article4_notes": "Article 4 directions apply in parts of this authority and can remove the usual roof-alteration fallback route, so confirm the property's designation before treating the loft or dormer work as permitted development."
+      }
+    },
+    {
+      "town_slug": "hounslow",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Design quality of buildings and spaces, conservation areas and works to protected trees",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "islington",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "kensington-and-chelsea",
+      "last_verified": "2026-01",
+      "permitted_development": "In England the normal route is Class B permitted development, but only where the dormer and any associated roof enlargement stays within the 40 or 50 cubic metre allowance, keeps off the principal roof slope facing a highway and complies with the Class B conditions.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing ridge and highest roof point. Once the roofline is lifted, the work normally moves outside permitted development.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Privacy is the main boundary test. Side-facing windows need obscure glazing and restricted opening below 1.7m, and close rear-to-rear plots can make a large roof enlargement harder to rely on as PD.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Match the new tiles, cheeks, cladding and joinery as closely as practicable to the existing house so the alteration stays subordinate to the main roof."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "kingston-upon-thames",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "lambeth",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Search current and historic planning application records. Find information on planning policy, conservation areas, trees and listed buildings. Submit planning permission and building regulations applications.",
+        "listed_building": "Search current and historic planning application records. Find information on planning policy, conservation areas, trees and listed buildings. Submit planning permission and building regulations applications.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "lewisham",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can still fall within Class B in England, but in parts of this authority heritage controls or an Article 4 direction may remove that fallback route. Even where rights remain, the dormer and any associated roof enlargement still has to stay within the roof-space allowance, below the ridge and off the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "Even in streets with tighter heritage controls, the starting point is the same: the dormer should stay below the existing ridge and highest roof point.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "The usual privacy rules still apply: side-facing windows should be obscure glazed and non-opening below 1.7m, while tighter heritage streets can make overlooking and roofscape change more sensitive.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Material matching matters more in heritage-sensitive streets. The safest approach is to keep the new roof finish and detailing close to the existing house so the alteration reads as restrained work."
+      },
+      "restrictions": {
+        "conservation_area": "Planning information about listed buildings, houses in conservation areas and urban design and archaeology.",
+        "listed_building": "Planning information about listed buildings, houses in conservation areas and urban design and archaeology.",
+        "article4_applies": true,
+        "article4_notes": "Article 4 directions apply in parts of this authority and can remove the usual roof-alteration fallback route, so confirm the property's designation before treating the loft or dormer work as permitted development."
+      }
+    },
+    {
+      "town_slug": "merton",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "newham",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "We are proud of Newham’s heritage and have a number of conservation areas, listed, and locally listed buildings that are given particular protection for their architectural and historical interest. Find out about these here, along with detail of any additional permissions you may need to conduct building works.",
+        "listed_building": "We are proud of Newham’s heritage and have a number of conservation areas, listed, and locally listed buildings that are given particular protection for their architectural and historical interest. Find out about these here, along with detail of any additional permissions you may need to conduct building works.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "redbridge",
+      "last_verified": "2026-01",
+      "permitted_development": "In England the normal route is Class B permitted development, but only where the dormer and any associated roof enlargement stays within the 40 or 50 cubic metre allowance, keeps off the principal roof slope facing a highway and complies with the Class B conditions.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing ridge and highest roof point. Once the roofline is lifted, the work normally moves outside permitted development.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Privacy is the main boundary test. Side-facing windows need obscure glazing and restricted opening below 1.7m, and close rear-to-rear plots can make a large roof enlargement harder to rely on as PD.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Match the new tiles, cheeks, cladding and joinery as closely as practicable to the existing house so the alteration stays subordinate to the main roof."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "richmond-upon-thames",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "southwark",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Guidance for homeowners and businesses. Making changes to listed buildings. Development in conservation areas. Installing renewable energy sources.",
+        "listed_building": "View planning applications. Apply for planning permission. What happens when there's a planning breach. Conservation and listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "sutton",
+      "last_verified": "2026-01",
+      "permitted_development": "In England the normal route is Class B permitted development, but only where the dormer and any associated roof enlargement stays within the 40 or 50 cubic metre allowance, keeps off the principal roof slope facing a highway and complies with the Class B conditions.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing ridge and highest roof point. Once the roofline is lifted, the work normally moves outside permitted development.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Privacy is the main boundary test. Side-facing windows need obscure glazing and restricted opening below 1.7m, and close rear-to-rear plots can make a large roof enlargement harder to rely on as PD.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Match the new tiles, cheeks, cladding and joinery as closely as practicable to the existing house so the alteration stays subordinate to the main roof."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "tower-hamlets",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "waltham-forest",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension can fall within Class B permitted development in England if the dormer and any associated roof enlargement stays within the roof-space allowance, remains below the existing ridge and does not project beyond the principal roof slope facing a highway.",
+      "rules": {
+        "height_rules": "No part of the dormer or associated roof enlargement should exceed the highest part of the existing roof. A raised ridge will normally require planning permission.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Side-facing windows should be obscure glazed and non-opening below 1.7m, and rooflights or dormers that look directly into neighbouring rooms or gardens can still create overlooking issues.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the roof works read as part of the original building rather than a bolt-on addition."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "wandsworth",
+      "last_verified": "2026-01",
+      "permitted_development": "In England the normal route is Class B permitted development, but only where the dormer and any associated roof enlargement stays within the 40 or 50 cubic metre allowance, keeps off the principal roof slope facing a highway and complies with the Class B conditions.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing ridge and highest roof point. Once the roofline is lifted, the work normally moves outside permitted development.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Privacy is the main boundary test. Side-facing windows need obscure glazing and restricted opening below 1.7m, and close rear-to-rear plots can make a large roof enlargement harder to rely on as PD.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Match the new tiles, cheeks, cladding and joinery as closely as practicable to the existing house so the alteration stays subordinate to the main roof."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "westminster",
+      "last_verified": "2026-01",
+      "permitted_development": "A dormer extension is often permitted development in England where the dormer and any associated roof enlargement remains within the roof-space allowance, does not raise the ridge and keeps to the front-slope and eaves rules under Class B.",
+      "rules": {
+        "height_rules": "A lawful dormer should sit within the existing roof height rather than reading as a new taller storey. Raising the ridge is usually not part of the Class B route.",
+        "depth_rules": "Keep the dormer within the 40 or 50 cubic metre roof-space allowance, depending on house type, and sized so it remains clearly subordinate to the host roof rather than taking over the whole slope.",
+        "boundary_rules": "Where houses sit close together, rooflights and dormers can create direct overlooking. Side-facing windows should therefore be obscure glazed and, if opening, kept at least 1.7m above floor level.",
+        "roof_rules": "The dormer must not sit on the principal roof slope facing a highway. Apart from a hip-to-gable alteration, it should be set back at least 20cm from the eaves and should not include a balcony or roof terrace.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls. The more the new work reads like a separate box, the harder it is to defend as a modest roof alteration."
+      },
+      "restrictions": {
+        "conservation_area": "Roof enlargements and dormers in a conservation area face much closer control, especially on principal or highway-facing slopes and where the roofscape is sensitive.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for roof alterations or works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the normal roof-alteration fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    }
+  ]
+}

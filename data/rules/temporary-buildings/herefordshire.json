@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A temporary building in England is not automatically exempt just because it will be removed later. The planning answer depends on how fixed it is, how long it stays, what it is used for and whether any specific Part 4 temporary-use right actually applies. On rural land, duration, foundations and how easily the site can be restored are usually central questions.",
+    "rules": {
+      "height_rules": "There is no universal height allowance for temporary buildings. The taller and more visually dominant the structure becomes, the harder it is to argue that it is a minor temporary feature rather than development needing permission.",
+      "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than a single measurement.",
+      "boundary_rules": "Boundary effects such as access, traffic, noise, overlooking, crowding and visibility are often what push a temporary structure into a planning application or prior approval route. On rural land, duration, foundations and how easily the site can be restored are usually central questions.",
+      "roof_rules": "A fixed or heavily engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind loading, drainage and visual bulk all matter.",
+      "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and full utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "herefordshire",
+      "last_verified": "2026-01",
+      "permitted_development": "A temporary building in England is not automatically exempt just because it will not stay forever. The planning answer depends on how fixed it is, how long it will remain, what it will be used for and whether any specific temporary-use right applies. On rural land, duration, foundations and how easily the site can be restored are usually central questions.",
+      "rules": {
+        "height_rules": "There is no universal height allowance for temporary buildings. The taller and more visually dominant the structure becomes, the harder it is to argue that it is a minor temporary feature rather than development needing permission.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "Councils focus on boundary effects such as access, traffic, noise, overlooking and whether the structure crowds neighbouring land or blocks safe visibility. On rural land, duration, foundations and how easily the site can be restored are usually central questions.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+      },
+      "restrictions": {
+        "conservation_area": "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+        "listed_building": "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site's designation before relying on a simpler route."
+      }
+    }
+  ]
+}

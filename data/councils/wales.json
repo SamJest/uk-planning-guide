@@ -1,0 +1,2276 @@
+{
+    "county_slug":  "wales",
+    "county_name":  "Wales",
+    "shared_official_sources":  [
+                                    {
+                                        "title":  "Planning Portal Wales: do you need permission?",
+                                        "url":  "https://www.planningportal.co.uk/wales/do-you-need-permission",
+                                        "category":  "planning_portal",
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  30
+                                    },
+                                    {
+                                        "title":  "Planning Portal Wales: householder planning consent",
+                                        "url":  "https://www.planningportal.co.uk/wales/applications/consent-types/householder-planning-consent",
+                                        "category":  "householder_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  15
+                                    },
+                                    {
+                                        "title":  "Planning Portal Wales: permitted development rights",
+                                        "url":  "https://www.planningportal.co.uk/wales/do-you-need-permission/your-responsibilities/planning-permission/permitted-development-rights/",
+                                        "category":  "permitted_development_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  10
+                                    },
+                                    {
+                                        "title":  "Planning Portal Wales: how to apply",
+                                        "url":  "https://www.planningportal.co.uk/wales/applications/how-to-apply",
+                                        "category":  "validation_requirements",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  20
+                                    },
+                                    {
+                                        "title":  "Cadw: understanding conservation areas",
+                                        "url":  "https://cadw.gov.wales/advice-support/historic-assets/conservation-areas/understanding-conservation-areas",
+                                        "category":  "conservation_area",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Cadw: understanding listing",
+                                        "url":  "https://cadw.gov.wales/advice-support/historic-assets/listed-buildings/understanding-listing",
+                                        "category":  "listed_buildings",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "listed-buildings",
+                                                               "conservation-areas"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Cadw: conservation area legislation and guidance",
+                                        "url":  "https://cadw.gov.wales/advice-support/placemaking/legislation-guidance/conservation-areas",
+                                        "category":  "heritage",
+                                        "page_families":  [
+                                                              "council",
+                                                              "scenario"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "listed-buildings",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  28
+                                    }
+                                ],
+    "councils":  [
+                     {
+                         "town_slug":  "isle-of-anglesey",
+                         "town_name":  "Isle of Anglesey",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Make a planning application",
+                                                      "url":  "https://www.anglesey.gov.wales/en/Residents/Planning-building-control-and-conservation/Planning/Make-a-planning-application.aspx",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Authority application page covering supporting plans, forms and submission requirements.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application planning advice",
+                                                      "url":  "https://www.anglesey.gov.wales/en/Residents/Planning-building-control-and-conservation/Planning/Pre-application-planning-advice.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Current Joint Local Development Plan",
+                                                      "url":  "https://www.anglesey.gov.wales/en/Residents/Planning-building-control-and-conservation/Planning-policy/Joint-Local-Planning-Policy/Current-Joint-Local-Development-Plan.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current adopted Joint Local Development Plan for Anglesey and Gwynedd.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Additional planning controls in conservation areas",
+                                                      "url":  "https://www.anglesey.gov.wales/en/Residents/Planning-building-control-and-conservation/Built-and-natural-environment/Conservation-areas/Additional-planning-controls-in-conservation-areas.aspx",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4",
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "notes":  "Explains Beaumaris Article 4(2) controls within the conservation area.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Tree preservation",
+                                                      "url":  "https://www.anglesey.gov.wales/en/Residents/Planning-building-control-and-conservation/Built-and-natural-environment/Trees-hedgerow-and-woodland/Tree-preservation.aspx",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "gwynedd",
+                         "town_name":  "Gwynedd",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Validation requirements",
+                                                      "url":  "https://www.gwynedd.llyw.cymru/en/Residents/Documents-Residents/Planning-and-building-control/validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.gwynedd.llyw.cymru/en/Residents/Planning-and-building-control/Planning/Pre-application-advice.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Joint Local Development Plan",
+                                                      "url":  "https://www.gwynedd.llyw.cymru/en/Council/Strategies-and-policies/Environment-and-planning/Planning-policy/Joint-Local-Development-Plan/Joint-Local-Development-Plan-Current/Joint-Local-Development-Plan.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current adopted Joint Local Development Plan for Gwynedd and Anglesey, excluding the national park area.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "conwy",
+                         "town_name":  "Conwy",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation List Schedule",
+                                                      "url":  "https://www.conwy.gov.uk/en/Resident/Planning-Building-Control-and-Conservation/Assets-Master-Local-Validation-List/documents/Local-Validation-List-Schedule.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Advice",
+                                                      "url":  "https://www.conwy.gov.uk/en/Resident/Planning-Building-Control-and-Conservation/Planning-Applications/Pre-Application-Advice/Pre-Application-Advice.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Development Plan",
+                                                      "url":  "https://www.conwy.gov.uk/en/Resident/Planning-Building-Control-and-Conservation/Placemaking-and-Strategic-Planning/Adopted-Local-Development-Plan/Adopted-Local-Development-Plan.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "List of Conservation Areas",
+                                                      "url":  "https://www.conwy.gov.uk/en/Resident/Planning-Building-Control-and-Conservation/Conservation-and-Regeneration/Conservation-Areas/List-of-Conservation-Areas.aspx",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed Buildings",
+                                                      "url":  "https://www.conwy.gov.uk/en/Resident/Planning-Building-Control-and-Conservation/Conservation-and-Regeneration/Listed-Buildings.aspx",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Householder Design Guide",
+                                                      "url":  "https://www.conwy.gov.uk/en/Resident/Planning-Building-Control-and-Conservation/Strategic-Planning-Policy/Supplementary-planning-guidance-documents/Assets/Housing/LDP1-Householder-Design-Guide.pdf",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "windows-and-doors",
+                                                                            "hard-surfaces",
+                                                                            "solar-panels",
+                                                                            "heat-pumps"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "denbighshire",
+                         "town_name":  "Denbighshire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Make a planning application",
+                                                      "url":  "https://www.denbighshire.gov.uk/en/planning-and-building-regulations/make-a-planning-application.aspx",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Authority application page pointing applicants to the current lists of validation requirements.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning advice",
+                                                      "url":  "https://www.denbighshire.gov.uk/en/planning-and-building-regulations/planning/planning-advice.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plan",
+                                                      "url":  "https://www.denbighshire.gov.uk/en/planning-and-building-regulations/local-development-plan/local-development-plan.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas and consent",
+                                                      "url":  "https://www.denbighshire.gov.uk/en/planning-and-building-regulations/conservation-areas-and-listed-buildings/conservation-areas-and-consent.aspx",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed building consent",
+                                                      "url":  "https://www.denbighshire.gov.uk/en/planning-and-building-regulations/conservation-areas-and-listed-buildings/listed-building-consent.aspx",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Areas and Listed Buildings advice service",
+                                                      "url":  "https://www.denbighshire.gov.uk/en/planning-and-building-regulations/conservation-areas-and-listed-buildings/advice-service.aspx",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas",
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "flintshire",
+                         "town_name":  "Flintshire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Planning application requirements",
+                                                      "url":  "https://www.flintshire.gov.uk/en/PDFFiles/Planning/Planning-Application-Requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application Planning Advice",
+                                                      "url":  "https://www.flintshire.gov.uk/en/Resident/Planning/Pre-application-Planning-Advice.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Flintshire Local Development Plan",
+                                                      "url":  "https://www.flintshire.gov.uk/en/Resident/Planning/Local-Development-Plan.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.flintshire.gov.uk/en/Resident/Planning/Conservation-areas.aspx",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "wrexham",
+                         "town_name":  "Wrexham",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Planning application guidance",
+                                                      "url":  "https://www.wrexham.gov.uk/service/planning-application-guidance",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Broader official planning application guidance hub; current standalone local validation checklist was not surfaced.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.wrexham.gov.uk/service/planning-application-guidance/pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Development Plans and other planning policy",
+                                                      "url":  "https://www.wrexham.gov.uk/service/planning-application-guidance/development-plans-and-other-planning-policy",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current official development plan hub for Wrexham.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.wrexham.gov.uk/service/conservation-areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Listed buildings",
+                                                      "url":  "https://www.wrexham.gov.uk/service/listed-buildings",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "ceredigion",
+                         "town_name":  "Ceredigion",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Submission Guidance Notes",
+                                                      "url":  "https://www.ceredigion.gov.uk/media/ogzpv1qw/submission-guidance-notes.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Guidance Notes",
+                                                      "url":  "https://www.ceredigion.gov.uk/resident/planning-building-control-and-sustainable-drainage-body-sab/planning-building-control/application-forms/pre-application-guidance-notes/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Ceredigion Local Development Plan (LDP1)",
+                                                      "url":  "https://www.ceredigion.gov.uk/resident/planning-building-control-and-sustainable-drainage-body-sab/planning-building-control/ceredigion-local-development-plan/adopted-ceredigion-local-development-plan-ldp/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Official adopted plan page; the adopted LDP remains operative until a replacement LDP is adopted.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Area Appraisals and Management Plans",
+                                                      "url":  "https://www.ceredigion.gov.uk/resident/planning-building-control-and-sustainable-drainage-body-sab/planning-building-control/placemaking/conservation-area-appraisals-and-management-plans/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "powys",
+                         "town_name":  "Powys",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Submission, Registration and Validation and Fees",
+                                                      "url":  "https://en.powys.gov.uk/article/14991/Submission-Registration-and-Validation-and-Fees",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-planning application advice",
+                                                      "url":  "https://en.powys.gov.uk/article/5927/Pre-planning-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Policy",
+                                                      "url":  "https://en.powys.gov.uk/article/4795/Planning-Policy",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current official planning policy hub covering adopted and replacement LDP material.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "pembrokeshire",
+                         "town_name":  "Pembrokeshire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Making an application",
+                                                      "url":  "https://www.pembrokeshire.gov.uk/planning-applications/making-an-application",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Application submission page includes required supporting information and checklist links.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application planning advice",
+                                                      "url":  "https://www.pembrokeshire.gov.uk/planning-applications/pre-application-planning-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Development Plan",
+                                                      "url":  "https://www.pembrokeshire.gov.uk/adopted-local-development-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Listed Buildings",
+                                                      "url":  "https://www.pembrokeshire.gov.uk/listed-buildings-and-conservation-area/listed-buildings",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Conservation of the built environment",
+                                                      "url":  "https://www.pembrokeshire.gov.uk/listed-buildings-and-conservation-area/conservation-of-the-built-environment",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas",
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "carmarthenshire",
+                         "town_name":  "Carmarthenshire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Validation",
+                                                      "url":  "https://www.carmarthenshire.gov.wales/council-services/planning/planning-application-guide/validation/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Stage",
+                                                      "url":  "https://www.carmarthenshire.gov.wales/council-services/planning/planning-application-guide/pre-application-stage/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plan 2006 - 2021",
+                                                      "url":  "https://www.carmarthenshire.gov.wales/council-services/planning/planning-policy/local-development-plan-2006-2021/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current adopted plan page; revised LDP work continues separately.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Extending / changing your home",
+                                                      "url":  "https://www.carmarthenshire.gov.wales/council-services/planning/extending-changing-your-home/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "windows-and-doors",
+                                                                            "solar-panels",
+                                                                            "heat-pumps"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Areas",
+                                                      "url":  "https://www.carmarthenshire.gov.wales/council-services/planning/listed-buildings-and-conservation-areas/conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "swansea",
+                         "town_name":  "Swansea",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Making a planning application",
+                                                      "url":  "https://www.swansea.gov.uk/makingaplanningapplication",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official application submission page covering required documents and process.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Pre-planning application advice services",
+                                                      "url":  "https://www.swansea.gov.uk/article/21909/Pre-planning-application-advice-services",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Swansea Local Development Plan 2010-2025 (LDP)",
+                                                      "url":  "https://www.swansea.gov.uk/article/9914/Swansea-Local-Development-Plan-2010-2025-LDP",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "A Design Guide for Householder Development",
+                                                      "url":  "https://www.swansea.gov.uk/media/2876/A-Design-Guide-for-Householder-Development/pdf/bnA_Design_Guide_for_Householder_Development.pdf?m=1634631854597",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "windows-and-doors",
+                                                                            "solar-panels",
+                                                                            "heat-pumps"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "neath-port-talbot",
+                         "town_name":  "Neath Port Talbot",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Apply for planning permission",
+                                                      "url":  "https://www.npt.gov.uk/planning-and-building-control/planning-applications/apply-for-planning-permission/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official application submission page used as the strongest current validity-related source located.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application enquiries",
+                                                      "url":  "https://www.npt.gov.uk/planning-and-building-control/planning-applications/pre-application-enquiries/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted LDP (2011-2026)",
+                                                      "url":  "https://www.npt.gov.uk/planning-and-building-control/planning-policy/adopted-ldp-2011-2026/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Householder guidance",
+                                                      "url":  "https://www.npt.gov.uk/planning-and-building-control/planning-applications/householder-guidance/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "windows-and-doors",
+                                                                            "solar-panels",
+                                                                            "heat-pumps"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "bridgend",
+                         "town_name":  "Bridgend",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Planning forms and fees",
+                                                      "url":  "https://www.bridgend.gov.uk/residents/planning-and-building-control/planning-forms-and-fees/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official application submission page used as the strongest current validation-related source located.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application planning advice",
+                                                      "url":  "https://www.bridgend.gov.uk/residents/planning-and-building-control/pre-application-planning-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Replacement Local Development Plan 2018-2033",
+                                                      "url":  "https://www.bridgend.gov.uk/residents/planning-and-building-control/local-development-plan/adopted-replacement-local-development-plan-2018-2033/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Small projects advice for householders",
+                                                      "url":  "https://www.bridgend.gov.uk/residents/planning-and-building-control/small-projects-advice-for-householders/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "windows-and-doors",
+                                                                            "solar-panels",
+                                                                            "heat-pumps"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Supplementary Planning Guidance",
+                                                      "url":  "https://www.bridgend.gov.uk/residents/planning-and-building-control/local-development-plan/supplementary-planning-guidance/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "vale-of-glamorgan",
+                         "town_name":  "Vale of Glamorgan",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal Wales - Planning applications",
+                                                      "url":  "https://www.planningportal.co.uk/wales/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Planning Validation Checklist",
+                                                      "url":  "https://www.valeofglamorgan.gov.uk/Documents/Living/Planning/Guidance/Planning_Validation_Checklist.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Seek Pre-Application Advice",
+                                                      "url":  "https://www.valeofglamorgan.gov.uk/en/living/planning_and_building_control/Planning/Planning-Applications/Seek-Pre-Application-Advice.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Policy",
+                                                      "url":  "https://www.valeofglamorgan.gov.uk/en/living/planning_and_building_control/Planning/planning_policy/Planning-Policy.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current official policy hub for the adopted LDP and Replacement LDP work.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Make a Planning Application",
+                                                      "url":  "https://www.valeofglamorgan.gov.uk/en/living/planning_and_building_control/Planning/Planning-Applications/Make-a-Planning-Application.aspx",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Useful official route for application steps and PAC support.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "cardiff",
+                         "town_name":  "Cardiff",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Making a planning application",
+                                                      "url":  "https://www.cardiff.gov.uk/ENG/resident/Planning/How-to-apply-for-planning-permission/Making-a-planning-application/Pages/Making-a-planning-application.aspx",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main council application route and guidance page for submitting planning applications in Cardiff.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements",
+                                                      "url":  "https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Welsh Government validation requirements used as the main official validation reference for applications in Wales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application enquiries",
+                                                      "url":  "https://www.cardiff.gov.uk/eng/resident/planning/Pre-application-enquiries",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council pre-application advice page for household and major schemes.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Development Plan (LDP)",
+                                                      "url":  "https://www.cardiff.gov.uk/ENG/resident/Planning/Local-Development-Plan/Pages/default.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Main Cardiff planning policy page linking the adopted LDP and replacement LDP work.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Supplementary Planning Guidance",
+                                                      "url":  "https://www.cardiff.gov.uk/ENG/resident/Planning/Planning-Policy/Supplementary-Planning-Guidance/Pages/Supplementary-Planning-Guidance.aspx",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Official SPG library including residential extensions and other design-led planning guidance.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Tree protection",
+                                                      "url":  "https://www.cardiff.gov.uk/ENG/resident/Planning/Tree-protection/Pages/Tree-protection.aspx",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Council guidance on Tree Preservation Orders and tree works affecting planning controls.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Dropped kerbs (Vehicle crossovers)",
+                                                      "url":  "https://www.cardiff.gov.uk/ENG/Business/Licences-and-permits/Roads-and-highways-licences/Other-roads-and-highways-licences/vehicle-crossovers/Pages/default.aspx",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search",
+                                                                            "council"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Highways licensing page explaining vehicle crossover requirements and when planning approval is needed.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "rhondda-cynon-taf",
+                         "town_name":  "Rhondda Cynon Taf",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning - Make an application",
+                                                      "url":  "https://www.rctcbc.gov.uk/EN/Resident/PlanningandBuildingControl/PlanningApplications/Planningapplication.aspx",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main Rhondda Cynon Taf application page for submitting planning applications online.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements",
+                                                      "url":  "https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Welsh Government validation requirements used as the main official validation reference for applications in Wales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning - Pre-application advice",
+                                                      "url":  "https://www.rctcbc.gov.uk/EN/Resident/PlanningandBuildingControl/PlanningApplications/PlanningPreapplicationadvice.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council page for statutory and discretionary pre-application planning advice.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plan 2006 - 2021",
+                                                      "url":  "https://www.rctcbc.gov.uk/EN/Resident/PlanningandBuildingControl/LocalDevelopmentPlans/LocalDevelopmentPlan20062021.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current adopted LDP page; revised LDP work is underway separately.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plans",
+                                                      "url":  "https://www.rctcbc.gov.uk/EN/Resident/PlanningandBuildingControl/LocalDevelopmentPlans/LocalDevelopmentPlans.aspx",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Planning policy landing page linking supplementary planning guidance and related policy resources.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "merthyr-tydfil",
+                         "town_name":  "Merthyr Tydfil",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Apply for Planning Permission",
+                                                      "url":  "https://www.merthyr.gov.uk/resident/planning-and-building-control/apply-for-planning-permission/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council application page linking Planning Portal submission and application forms.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements",
+                                                      "url":  "https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Welsh Government validation requirements used as the main official validation reference for applications in Wales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application Advice",
+                                                      "url":  "https://www.merthyr.gov.uk/resident/planning-and-building-control/pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council pre-application advice page with guidance and enquiry requirements.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Policy",
+                                                      "url":  "https://www.merthyr.gov.uk/resident/planning-and-building-control/planning-policy/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Main planning policy page for the adopted replacement Local Development Plan and supporting guidance.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning Advice and Guidance",
+                                                      "url":  "https://www.merthyr.gov.uk/resident/planning-and-building-control/planning-advice-and-guidance/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Council guidance on whether planning permission is needed for common household and property projects.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "caerphilly",
+                         "town_name":  "Caerphilly",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Make a planning application",
+                                                      "url":  "https://www.caerphilly.gov.uk/Services/Planning-and-building-control/Planning-applications/Make-a-planning-application",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main council application page with links to Planning Portal and submission guidance.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements",
+                                                      "url":  "https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Welsh Government validation requirements used as the main official validation reference for applications in Wales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Pre-planning application guidance",
+                                                      "url":  "https://www.caerphilly.gov.uk/services/planning-and-building-control/pre-planning-application-guidance",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council statutory and discretionary pre-application guidance page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plan",
+                                                      "url":  "https://www.caerphilly.gov.uk/business/planning-and-building-control-for-business/local-development-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Main Caerphilly LDP page covering the adopted plan, replacement plan work and supplementary guidance.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Request a dropped kerb",
+                                                      "url":  "https://www.caerphilly.gov.uk/services/roads-and-pavements/dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search",
+                                                                            "council"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Highways page for vehicle access over the footway and dropped kerb requests.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Planning strategies and plans",
+                                                      "url":  "https://www.caerphilly.gov.uk/my-council/strategies%2C-plans-and-policies/planning.aspx",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council planning strategies page linking the Planning Enforcement Charter and related planning policy documents.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "blaenau-gwent",
+                         "town_name":  "Blaenau Gwent",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Apply for Planning",
+                                                      "url":  "https://www.blaenau-gwent.gov.uk/resident/planning/apply-for-planning/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council application page directing applicants to submit through the Planning Portal.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements",
+                                                      "url":  "https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Welsh Government validation requirements used as the main official validation reference for applications in Wales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application Guidance",
+                                                      "url":  "https://www.blaenau-gwent.gov.uk/resident/planning/pre-application-guidance/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council guidance for pre-application planning enquiries.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plan",
+                                                      "url":  "https://www.blaenau-gwent.gov.uk/resident/planning/local-development-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Main planning policy page for the adopted LDP, supplementary guidance and replacement-plan updates.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning Enforcement",
+                                                      "url":  "https://www.blaenau-gwent.gov.uk/resident/planning/planning-enforcement/",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council guidance for reporting and assessing alleged breaches of planning control.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "torfaen",
+                         "town_name":  "Torfaen",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Permission",
+                                                      "url":  "https://www.torfaen.gov.uk/en/PlanningAndDevelopment/Planning-Applications/Planning-Permission.aspx",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main council planning permission page covering applications, fees and timescales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements",
+                                                      "url":  "https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Welsh Government validation requirements used as the main official validation reference for applications in Wales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning Forms",
+                                                      "url":  "https://www.torfaen.gov.uk/en/PlanningAndDevelopment/Planning-Applications/PlanningForms/Planning-Forms.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council forms page providing pre-application guidance, form and fees information.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plan",
+                                                      "url":  "https://www.torfaen.gov.uk/en/PlanningAndDevelopment/Planningpolicy/LocalDevelopmentPlan/Local-Development-Plan.aspx",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current Torfaen LDP page, which remains the planning framework until the replacement plan is adopted.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Replacement Torfaen Local Development Plan",
+                                                      "url":  "https://www.torfaen.gov.uk/en/PlanningAndDevelopment/Planningpolicy/Local-Development-Plan-Review/Replacement-Torfaen-Local-Development-Plan.aspx",
+                                                      "category":  "other_official",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Official replacement plan process page for Torfaen\u0027s emerging RLDP 2022-2037.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  6
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "monmouthshire",
+                         "town_name":  "Monmouthshire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Make an application",
+                                                      "url":  "https://www.monmouthshire.gov.uk/planning/make-an-application/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main planning application page covering apply online, forms, fees and quick decision routes.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "What Do I need to submit",
+                                                      "url":  "https://www.monmouthshire.gov.uk/planning/what-do-i-need-to-submit/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council checklist page for plans, supporting documents and other submission requirements.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Before an application",
+                                                      "url":  "https://www.monmouthshire.gov.uk/planning/before-an-application/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council page for statutory and bespoke pre-application planning advice.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plan 2011 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ 2021",
+                                                      "url":  "https://www.monmouthshire.gov.uk/planning-policy/local-development-plan-2011-2021/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current adopted LDP page for Monmouthshire pending replacement plan adoption.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Dropped Kerbs - Vehicle crossings over footways/verges",
+                                                      "url":  "https://www.monmouthshire.gov.uk/dropped-kerbs/",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search",
+                                                                            "council"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Highways guidance for creating or widening vehicle crossings over the footway or verge.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Replacement Local Development Plan (RLDP) ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ 2018-2033",
+                                                      "url":  "https://www.monmouthshire.gov.uk/planning-policy/local-development-plan-revision/",
+                                                      "category":  "other_official",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Official replacement local development plan page for the emerging RLDP.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  6
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "newport",
+                         "town_name":  "Newport",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Make a planning application",
+                                                      "url":  "https://www.newport.gov.uk/planning/planning-permission/planning-applications/make-planning-application",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main Newport application page linking Planning Portal submission and fee updates.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements",
+                                                      "url":  "https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Welsh Government validation requirements used as the main official validation reference for applications in Wales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.newport.gov.uk/planning/planning-permission/pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council page for statutory pre-application planning advice.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Development Plan",
+                                                      "url":  "https://www.newport.gov.uk/planning/planning-policy/local-development-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Main current LDP page for Newport planning policy.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.newport.gov.uk/planning/heritage-and-conservation/conservation-areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "council"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas",
+                                                                             "article-4"
+                                                                         ],
+                                                      "notes":  "Heritage page for Newport conservation areas, including Article 4(2) direction information.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Dropped kerbs",
+                                                      "url":  "https://www.newport.gov.uk/roads-and-travel/road-maintenance/dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search",
+                                                                            "council"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Roads and travel page for vehicle access and dropped kerb requests.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "bannau-brycheiniog-national-park",
+                         "town_name":  "Bannau Brycheiniog National Park",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Applications Online",
+                                                      "url":  "https://beacons-npa.gov.uk/planning/applications/applications-online/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "National Park application page for viewing and submitting applications through the Planning Portal.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Lists of Validation Requirements",
+                                                      "url":  "https://www.gov.wales/sites/default/files/publications/2019-03/section-7-annex-planning-applications-lists-of-validation-requirements.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Welsh Government validation requirements used as the main official validation reference for applications in Wales.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Charging for Pre-Application Planning Advice",
+                                                      "url":  "https://beacons-npa.gov.uk/planning/applications/guidance-note-01-april-2014-charging-for-pre-application-planning-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "National Park Authority pre-application advice page covering statutory and non-statutory services.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning",
+                                                      "url":  "https://beacons-npa.gov.uk/planning/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Main planning service page confirming the adopted Local Development Plan remains in place and material pending replacement plan work.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Householder Permitted Development Rights",
+                                                      "url":  "https://beacons-npa.gov.uk/planning/applications/before-you-apply/",
+                                                      "category":  "permitted_development_guidance",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "National Park householder guidance on permitted development rights before applying.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Areas",
+                                                      "url":  "https://beacons-npa.gov.uk/planning/heritage2/built-heritage-draft/conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "council"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "notes":  "National Park conservation area page with appraisals and management information.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Heritage and Planning",
+                                                      "url":  "https://beacons-npa.gov.uk/planning/heritage2/heritage-and-planning/",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "council"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings",
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "notes":  "Built heritage planning page covering listed buildings, conservation areas and archaeology.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "eryri-national-park",
+                         "town_name":  "Eryri National Park",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Apply For Planning Permission",
+                                                      "url":  "https://planning.eryri.gov.wales/planning-permission/apply-for-planning-permission/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "National Park application page for applying for planning permission online.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Documentation",
+                                                      "url":  "https://planning.eryri.gov.wales/documentation/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official National Park documentation page for planning application forms, notices and supporting submission material.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Advice Service",
+                                                      "url":  "https://planning.eryri.gov.wales/planning-permission/pre-application-advice-service/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "National Park pre-application advice service page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Eryri Local Development Plan",
+                                                      "url":  "https://planning.eryri.gov.wales/policy/adopted-eryri-local-development-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current adopted Eryri LDP page used to guide planning decisions.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Areas",
+                                                      "url":  "https://planning.eryri.gov.wales/advice-and-guidance/conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "council"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "notes":  "National Park conservation area guidance and mapping.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Listed Buildings",
+                                                      "url":  "https://planning.eryri.gov.wales/advice-and-guidance/listed-buildings/",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "council"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "notes":  "National Park listed building guidance page including links to local validation requirements for listed building consent.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Replacement Eryri Local Development Plan (LDP3)",
+                                                      "url":  "https://planning.eryri.gov.wales/policy/eryri-ldp3/",
+                                                      "category":  "other_official",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Official page for the emerging replacement Eryri Local Development Plan.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  6
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "pembrokeshire-coast-national-park",
+                         "town_name":  "Pembrokeshire Coast National Park",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: Common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning Advice",
+                                                      "url":  "https://www.pembrokeshirecoast.wales/planning/planning-advice/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "The application process",
+                                                      "url":  "https://www.pembrokeshirecoast.wales/planning/planning-advice/the-application-process/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official National Park application guidance page covering process, forms and supporting requirements.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application Advice",
+                                                      "url":  "https://www.pembrokeshirecoast.wales/planning/planning-advice/pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "LDP2",
+                                                      "url":  "https://www.pembrokeshirecoast.wales/planning/planning-policy/local-development-plan-2/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Caring for our Conservation Areas",
+                                                      "url":  "https://www.pembrokeshirecoast.wales/planning/planning-policy/our-conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Article 4(1) Direction for 28 day sites for camping, caravans and mobile homes",
+                                                      "url":  "https://www.pembrokeshirecoast.wales/planning/planning-policy/article-41-direction-for-28-day-sites-for-camping-caravans-and-mobile-homes/",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "notes":  "National Park-specific Article 4 page; conservation area page also flags Article 4(2) controls in some settlements.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Tree and Hedge Management",
+                                                      "url":  "https://www.pembrokeshirecoast.wales/planning/planning-advice/trees-and-hedge-management/",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Planning Enforcement",
+                                                      "url":  "https://www.pembrokeshirecoast.wales/planning/planning-enforcement/",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  6
+                                                  }
+                                              ]
+                     }
+                 ]
+}

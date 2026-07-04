@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A change of use is not judged by householder extension rules. Some changes within the same use class are not development, and some moves between uses are allowed by Part 3 permitted development rights or prior approval, but many changes still need planning permission.",
+    "rules": {
+      "height_rules": "A change of use does not create a separate right to add height. New storeys, rooftop plant or oversailing structures are assessed on their own planning merits.",
+      "depth_rules": "Extra floorspace, rear additions or wider redevelopment linked to the new use usually need a separate planning basis from the use change itself.",
+      "boundary_rules": "Amenity, servicing, parking, access, odour, noise and overlooking often matter more than the label of the use class.",
+      "roof_rules": "Extract systems, plant, condensers, roof terraces and new escape structures are not automatically covered just because the use can change.",
+      "materials_rules": "Shopfront changes, shutters, signage, cladding and new openings are assessed separately and should fit both the building and the wider street."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "No Automatic Height Rights With a Change of Use",
+      "intro": "Changing how a building is used does not, by itself, grant a right to build higher.",
+      "rules": [
+        "A lawful use change does not automatically permit extra storeys.",
+        "Roof plant, lift overruns and escape stairs may need separate permission or prior approval.",
+        "The intensity of the new use can make rooftop additions harder to justify.",
+        "Height changes are judged separately from the basic use-class question."
+      ],
+      "details": "Planning Portal's change-of-use guidance focuses on whether the use can lawfully move within the Use Classes Order or under a Part 3 permitted development route. That is different from granting permission for extra built form. If the new use needs rooftop plant, higher parapets, escape stairs or a raised roof, those elements have to be assessed in their own right.",
+      "exceptions": "Where a specific Part 3 right includes linked operational development, only the matters allowed by that right can be relied on. Wider height increases usually need permission."
+    },
+    "depth_rules": {
+      "title": "Extra Floorspace and Enlargement",
+      "intro": "A change of use can sometimes happen inside the existing shell, but associated enlargement is a separate planning question.",
+      "rules": [
+        "Rear additions and wider enlargements linked to the new use usually need their own planning route.",
+        "A permitted change of use does not automatically carry a right to extend deeply into the site.",
+        "Existing extensions and previous planning history can still matter.",
+        "Operational works should be tested separately from the use change itself."
+      ],
+      "details": "Some change-of-use schemes involve very little building work. Others depend on new kitchens, service yards, stair cores, bin stores or rear additions. Those built elements are not made lawful just because the use class can change. In practice, the safest approach is to separate the use question from the physical enlargement question and test each against the correct planning route.",
+      "exceptions": "Where the proposal depends on substantial new built form, a full planning application is often needed even if the basic use change might have had a simpler route."
+    },
+    "boundary_rules": {
+      "title": "Neighbour and Operational Impact",
+      "intro": "Boundary impact is often the main issue on change-of-use schemes.",
+      "rules": [
+        "Noise, odour and deliveries can be more important than the formal use-class label.",
+        "Parking pressure, traffic and servicing routes are common decision points.",
+        "Late opening, customer activity and waste storage can affect neighbour amenity.",
+        "Privacy and overlooking still matter where residential accommodation is proposed."
+      ],
+      "details": "A use change can transform how a building affects nearby occupiers even if the structure hardly changes. Restaurants, gyms, takeaways, workshops, short-stay accommodation and similar uses often raise operational issues around noise, smell, servicing and hours of use. Residential conversions create their own issues around daylight, outlook, overlooking and shared amenity. These impacts are often more important in practice than the abstract class label.",
+      "exceptions": "A proposal that materially worsens neighbour amenity may be refused or conditioned even where a change-of-use route exists in principle."
+    },
+    "roof_rules": {
+      "title": "Roof Plant, Extract and Terrace Issues",
+      "intro": "Roof works linked to a new use are often what turns a simple use change into a planning application.",
+      "rules": [
+        "Extract ducts, condensers and other plant are assessed separately.",
+        "A roof terrace or smoking area is not usually covered by a basic change-of-use right.",
+        "Noise, vibration and visual impact from rooftop equipment matter.",
+        "Fire escape enclosures and external stairs may also need separate approval."
+      ],
+      "details": "Commercial and mixed-use changes often need rooftop equipment, especially where cooking, cooling or mechanical ventilation is involved. Those works can create noise and visual impacts and are not automatically lawful because the underlying use can change. Residential conversions can also need roof escapes, guarding or amenity terraces, which introduce their own planning issues.",
+      "exceptions": "If the new use depends on major roof plant, enclosure works or external roof amenity space, planning permission is usually the safer expectation."
+    },
+    "materials_rules": {
+      "title": "Frontage and External Alterations",
+      "intro": "Many change-of-use projects are decided as much by the outside of the building as by the use inside it.",
+      "rules": [
+        "New shopfronts, shutters and signage are assessed separately from the use question.",
+        "New windows, doors and cladding should respect the host building and street.",
+        "Service doors, vents and bins can alter the public face of the site.",
+        "Poor external detailing can undermine an otherwise acceptable use change."
+      ],
+      "details": "A use change may be acceptable in principle but still fail because the frontage treatment is weak or the operational changes are badly handled. Replacing a shopfront, cutting new openings, adding shutters or applying bold cladding all affect character and appearance. Heritage locations and active high streets are especially sensitive to these design choices.",
+      "exceptions": "Listed buildings, conservation areas and article 4 areas are more likely to require a fuller application and closer design control."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Within a conservation area, a change of use is more likely to be judged alongside frontage changes, servicing, signage and heritage impact, even where the use-class point itself looks simple.",
+    "listed_building": "Changing the use of a listed building does not remove the need for listed building consent for internal or external works affecting its special character.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove normal change-of-use permitted development rights in selected centres or neighbourhoods, so the exact designation should be checked before relying on a Part 3 fallback route."
+  }
+}

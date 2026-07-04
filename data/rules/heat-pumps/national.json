@@ -1,0 +1,70 @@
+{
+  "rules": {
+    "height_rules": {
+      "title": "Unit size and siting limits",
+      "intro": "In England, domestic heat pumps can often stay within permitted development, but the quickest failures are oversize outdoor units, roof siting and visibly prominent highway-facing positions.",
+      "rules": [
+        "Air source heat pump outdoor units must comply with the Microgeneration Certification Scheme planning standard or an equivalent standard.",
+        "The outdoor compressor unit, including any housing, must not exceed 1.5 cubic metres on a house or 0.6 cubic metres for a block of flats.",
+        "For detached houses, the first two air source heat pumps can be permitted development; for other houses or blocks of flats only the first installation is normally covered.",
+        "A compact, clearly domestic installation is usually easier than a bulky enclosure or visibly engineered plant arrangement."
+      ],
+      "details": "Planning Portal guidance for England is fairly specific on air source heat pumps. Size, number of units and where the equipment sits all matter, so the safest route is to treat the unit, housing and any screen as one combined package rather than judging the box alone.",
+      "exceptions": "If the outdoor unit is too large, there is already disqualifying equipment on the property, or the siting is visually prominent, the permitted development route can fall away."
+    },
+    "depth_rules": {
+      "title": "Projection and positioning",
+      "intro": "Projection is less about extension-style depth and more about whether the equipment hugs the building in a restrained way or reads as a dominant add-on.",
+      "rules": [
+        "Installations on pitched roofs are not permitted development.",
+        "If installed on a flat roof, all parts of the air source heat pump must be at least one metre from the external edge of that roof.",
+        "Wall-mounted units and exposed pipework should be arranged to minimise their effect on the building’s appearance and the amenity of the area.",
+        "Freestanding units, pads and screens should not overtake the garden or become the dominant element in the space."
+      ],
+      "details": "A heat pump that stays tight to the building in a discreet side or rear position is normally much easier than a layout that depends on roof plant, a wide stand-off frame or a large freestanding screen. The more the installation projects visually, the more likely it is to need a closer planning check.",
+      "exceptions": "Roof-top plant, deep stand-off mounting, bulky service runs or a freestanding compound can push the proposal outside the simpler route."
+    },
+    "boundary_rules": {
+      "title": "Amenity, highways and sensitive land",
+      "intro": "Noise, neighbour amenity and highway-facing siting are the main planning pressure points for domestic heat pumps in England.",
+      "rules": [
+        "The equipment must be sited, so far as practicable, to minimise its effect on the amenity of the area.",
+        "On land in a conservation area or World Heritage Site, an air source heat pump must not be installed on a wall or roof fronting a highway or nearer to a highway than any part of the building.",
+        "Outside those areas, an air source heat pump must not be installed above ground-floor level on a wall fronting a highway.",
+        "Permitted development rights do not apply within the curtilage of a listed building or within a scheduled monument site."
+      ],
+      "details": "For many houses the practical planning question is not whether heat pumps are allowed in principle, but whether the chosen boundary position is too close to neighbours or too exposed to the street. Highway-facing walls and sensitive heritage land tighten the route quickly.",
+      "exceptions": "A boundary location that creates obvious amenity pressure, or a siting on listed or scheduled land, usually needs a more careful consent review."
+    },
+    "roof_rules": {
+      "title": "Roof and elevation constraints",
+      "intro": "Roof placement is one of the clearest national rule points for air source heat pumps, because pitched-roof siting is not covered by the normal householder permitted development route.",
+      "rules": [
+        "Air source heat pumps are not permitted development on a pitched roof.",
+        "Flat-roof siting is only the easier route where the equipment stays at least one metre from the roof edge and remains visually restrained.",
+        "Highway-facing walls and roofs are more restricted, especially in conservation areas and World Heritage Sites.",
+        "Visible service runs, housings and screens should be designed as part of the same visual package as the unit itself."
+      ],
+      "details": "Heat pumps usually work best at low level rather than as roof plant. Once the installation starts relying on roof positioning or obvious service routes across prominent elevations, the planning story becomes harder even before local design policies are taken into account.",
+      "exceptions": "Pitched-roof siting, prominent flat-roof plant or exposed service infrastructure often needs a fuller planning review."
+    },
+    "materials_rules": {
+      "title": "Appearance, screening and finish",
+      "intro": "Planning Portal guidance focuses on siting and amenity, but in practice the finish of the unit, screen and pipework still affects whether the scheme reads as tidy domestic equipment or intrusive plant.",
+      "rules": [
+        "Choose modest housings and screens rather than oversized acoustic boxes that create a second visual problem.",
+        "Keep external pipework and trunking neat and grouped where possible.",
+        "Use finishes that sit quietly against the house and garden rather than drawing attention to the installation.",
+        "Remove the equipment as soon as reasonably practicable when it is no longer needed for microgeneration."
+      ],
+      "details": "A well-planned heat pump installation is usually one where the appearance, noise strategy and servicing all line up. The planning route is normally stronger where the screen is proportionate, the pipework is tidy and the whole setup still reads as secondary to the house.",
+      "exceptions": "Clumsy housings, highly visible trunking or a screen that is bigger than the unit it hides can make the proposal harder to defend."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Heat pumps in conservation areas need extra care where the unit, screen or service runs would face a highway or disrupt the character of a visible elevation.",
+    "listed_building": "Heat pump works on or within the curtilage of a listed building usually need a much closer consent check, and the normal air source permitted development route does not apply within the curtilage of a listed building.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions or site-specific planning conditions can still remove normal microgeneration rights on particular houses, especially in sensitive heritage settings or tightly controlled estates."
+  }
+}

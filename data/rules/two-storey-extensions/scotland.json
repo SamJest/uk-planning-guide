@@ -1,0 +1,559 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+    "rules": {
+      "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+      "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+      "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+      "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+      "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "Keep the proposal subordinate to the house and established streetscape. Edinburgh guidance should be checked before changing prominent roof form or external detail.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "Edinburgh guidance should be treated as stricter in practice: houses in conservation areas should be assumed to need planning permission for extensions and dormers.",
+        "listed_building": "If you live in a listed building in Edinburgh, review the council's listed building guidance before starting work. Listed building consent will usually be needed for character-affecting changes."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "The Scottish upper-floor route is narrow. More-than-one-storey house extensions only stay within permitted development where they are rear only, keep within the footprint rules and clear the 10m boundary test.",
+      "rules": {
+        "height_rules": "Keep the extension below the height of the existing house and be cautious about tall rear walls near the boundary, where dominance quickly becomes a planning issue.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "Boundary separation is central to the Scottish upper-floor route. Keep the extension 10m from the curtilage boundary and behind the principal and road-facing side elevations.",
+        "roof_rules": "The roof should remain clearly subordinate to the original house. Matching pitch, keeping the addition behind the main front building line and avoiding a bulky side roof are usually important design tests.",
+        "materials_rules": "Choose wall, roof and window finishes that tie the upper floor back to the existing house so the extension reads as one composition."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A two-storey extension may fall within Scottish permitted development rights, but only where it is a rear-only scheme, stays within the original-house footprint limits and keeps enough separation from the boundary.",
+      "rules": {
+        "height_rules": "The Scottish upper-floor route depends on the extension staying below the existing house height and avoiding rear walls that overpower neighbouring gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "A Scottish two-storey extension quickly loses PD status if it crowds the boundary or pushes into a road-facing position. Keep 10m to the boundary and stay behind the principal frontage lines.",
+        "roof_rules": "Keep the roof form subordinate and avoid assuming that visually stronger alterations will escape closer scrutiny in the National Park.",
+        "materials_rules": "Use materials that closely relate to the existing house. Upper-floor work is easier to defend where it looks integrated rather than stacked on."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder rights do not apply in conservation areas. Within the Cairngorms, early checking is especially sensible for more sensitive or visually prominent proposals.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and proposals in the Cairngorms often benefit from early heritage advice."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A ground floor extension of more than one storey can be permitted development in Scotland outside conservation areas where it is to the rear only and stays within the footprint, height and 10m boundary tests.",
+      "rules": {
+        "height_rules": "No part should exceed the height of the existing house, and taller walls near a boundary are far more likely to need permission once they start to dominate adjoining gardens or windows.",
+        "depth_rules": "Use a rear-only design with a footprint no larger than the original dwellinghouse. Keep total developed curtilage within the normal 50% householder limit.",
+        "boundary_rules": "The extension should be at least 10m from the curtilage boundary and not be forward of the principal elevation or a side elevation that fronts a road.",
+        "roof_rules": "Keep the roof form subordinate and avoid assuming that visually prominent exterior changes will remain informal in the National Park.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "Loch Lomond & The Trossachs states that householders in conservation areas need planning permission for exterior alterations, including extensions, roofs, windows, doors, fences and walls.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and National Park heritage guidance should be checked before starting work."
+      }
+    }
+  ]
+}

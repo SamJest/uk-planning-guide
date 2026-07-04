@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Cumbria, the ordinary rooflight route is usually available where the change is just an alteration to the existing roof, the projection stays to 150 millimetres or less and the work does not enlarge the roof beyond the permitted class. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Cumbria, a rooflight that projects too far or rises above the existing roof will normally need planning permission.",
+      "depth_rules": "Across Cumbria, projection rather than room depth is the real test. A modest stand-off helps the rooflight remain clearly within the category of a minor roof alteration.",
+      "boundary_rules": "Across Cumbria, side-facing roof windows should be obscure-glazed. Opening parts should normally be kept at least 1.7 metres above the floor of the room served.",
+      "roof_rules": "Across Cumbria, keep the proposal as an alteration to the existing roof rather than an enlargement. Low-profile rooflights are usually the most straightforward option.",
+      "materials_rules": "Across Cumbria, material appearance matters most on prominent elevations. A discreet rooflight with well-matched flashing and modest frame lines is generally the least contentious option."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "cumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary rooflight route is usually available where the change is just an alteration to the existing roof, the projection stays to 150 millimetres or less and the work does not enlarge the roof beyond the permitted class. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A rooflight that projects too far or rises above the existing roof will normally need planning permission.",
+        "depth_rules": "Projection rather than room depth is the real test. A modest stand-off helps the rooflight remain clearly within the category of a minor roof alteration.",
+        "boundary_rules": "Side-facing roof windows should be obscure-glazed. Opening parts should normally be kept at least 1.7 metres above the floor of the room served.",
+        "roof_rules": "Keep the proposal as an alteration to the existing roof rather than an enlargement. Low-profile rooflights are usually the most straightforward option.",
+        "materials_rules": "Material appearance matters most on prominent elevations. A discreet rooflight with well-matched flashing and modest frame lines is generally the least contentious option."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even small roof-lights can need closer scrutiny if they are proposed on prominent slopes or on buildings with a consistent historic roofscape.",
+        "listed_building": "Installing roof-lights in a listed building, or altering historic roof fabric within its curtilage, can require listed building consent even where the unit looks modest.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the standard roof-light allowance survives everywhere: Article 4 controls and site-specific conditions can require an application for visible roof changes."
+      }
+    },
+    {
+      "town_slug": "westmorland-and-furness",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary rooflight route is usually available where the change is just an alteration to the existing roof, the projection stays to 150 millimetres or less and the work does not enlarge the roof beyond the permitted class. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+        "depth_rules": "Bulky or heavily projecting rooflight designs may fall outside the ordinary householder route.",
+        "boundary_rules": "Side-facing roof windows should be obscure-glazed. Opening parts should normally be kept at least 1.7 metres above the floor of the room served.",
+        "roof_rules": "Keep the proposal as an alteration to the existing roof rather than an enlargement. Low-profile rooflights are usually the most straightforward option.",
+        "materials_rules": "There is no strict material-matching formula for every rooflight, but the frame, flashings and glazing should sit quietly within the existing roof covering, especially on visible slopes and sensitive streets."
+      },
+      "restrictions": {
+        "conservation_area": "Roof-lights on prominent roof slopes in conservation areas often face a closer design review, especially where they would affect a traditional roofscape or visible frontage.",
+        "listed_building": "Installing roof-lights in a listed building, or altering historic roof fabric within its curtilage, can require listed building consent even where the unit looks modest.",
+        "article4_applies": false,
+        "article4_notes": "Roof-specific planning conditions and Article 4 directions are a common reason why an otherwise modest roof-light still needs planning permission."
+      }
+    }
+  ]
+}

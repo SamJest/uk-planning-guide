@@ -1,0 +1,922 @@
+{
+    "county_slug":  "leicestershire",
+    "county_name":  "Leicestershire",
+    "shared_official_sources":  [
+                                    {
+                                        "title":  "Planning Portal: do you need planning permission?",
+                                        "url":  "https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission",
+                                        "category":  "planning_portal",
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  30
+                                    },
+                                    {
+                                        "title":  "Planning Portal: householder planning consent",
+                                        "url":  "https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent",
+                                        "category":  "householder_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  15
+                                    },
+                                    {
+                                        "title":  "Planning Portal: permitted development rights",
+                                        "url":  "https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/",
+                                        "category":  "permitted_development_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  10
+                                    },
+                                    {
+                                        "title":  "GOV.UK: making a planning application",
+                                        "url":  "https://www.gov.uk/guidance/making-an-application",
+                                        "category":  "validation_requirements",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  20
+                                    },
+                                    {
+                                        "title":  "GOV.UK: before submitting an application",
+                                        "url":  "https://www.gov.uk/guidance/before-submitting-an-application",
+                                        "category":  "pre_application_advice",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  25
+                                    },
+                                    {
+                                        "title":  "Historic England: living in a conservation area",
+                                        "url":  "https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/",
+                                        "category":  "conservation_area",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Historic England: conservation area planning advice",
+                                        "url":  "https://historicengland.org.uk/advice/planning/conservation-areas/",
+                                        "category":  "heritage",
+                                        "page_families":  [
+                                                              "council",
+                                                              "scenario"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "listed-buildings",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  28
+                                    },
+                                    {
+                                        "title":  "Historic England: what are listed buildings?",
+                                        "url":  "https://historicengland.org.uk/listing/what-is-designation/listed-buildings/",
+                                        "category":  "listed_buildings",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "listed-buildings",
+                                                               "conservation-areas"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    }
+                                ],
+    "councils":  [
+                     {
+                         "town_slug":  "blaby",
+                         "town_name":  "Blaby",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning Applications",
+                                                      "url":  "https://www.blaby.gov.uk/planning-and-building/planning-applications/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "How we validate a planning application",
+                                                      "url":  "https://www.blaby.gov.uk/planning-and-building/planning-applications/validation/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Advice",
+                                                      "url":  "https://www.blaby.gov.uk/planning-and-building/planning-applications/pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3,
+                                                      "notes":  "The page is still worth keeping, but it currently states the paid pre-application service is suspended."
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan",
+                                                      "url":  "https://www.blaby.gov.uk/planning-and-building/local-plan/adopted-local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "charnwood",
+                         "town_name":  "Charnwood",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.charnwood.gov.uk/pages/pre_application_advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Exact official pre-application advice URL surfaced via a live outbound link; supporting council constitution papers reference the Pre-Application Advice Service as available on the website.",
+                                                      "last_reviewed":  "2026-04-11",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Validation requirements for Planning Applications",
+                                                      "url":  "https://www.charnwood.gov.uk/files/documents/validation_requirements_for_planning_applications/Validation%20requirements%20for%20Planning%20Applications.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1,
+                                                      "notes":  "Current official validation document URL surfaced via the Ministry\u0027s Planning Data record."
+                                                  },
+                                                  {
+                                                      "title":  "Validation requirements overview",
+                                                      "url":  "https://www.charnwood.gov.uk/pages/validating_planning_applications",
+                                                      "category":  "other_official",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Charnwood Local Plan 2021-37",
+                                                      "url":  "https://www.charnwood.gov.uk/pages/charnwood_local_plan_2021_37",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Charnwood Local Plan 2021-37 - Adopted - November 2025",
+                                                      "url":  "https://charnwood.moderngov.co.uk/documents/s20700/App%202%20Charnwood%20Local%20Plan%20-%20Adoption%20Version.pdf",
+                                                      "category":  "other_official",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Area Review",
+                                                      "url":  "https://charnwood.moderngov.co.uk/documents/s2083/Cab%2014%20March%202019%20Item%2014%20Review%20of%20Conservation%20Area%20Boundaries.pdf",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5,
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ]
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "harborough",
+                         "town_name":  "Harborough",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning",
+                                                      "url":  "https://www.harborough.gov.uk/planning",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation Requirements for Planning Applications",
+                                                      "url":  "https://www.harborough.gov.uk/downloads/file/778/local_validation_requirements_for_planning_applications",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Stage 1: Pre-application advice",
+                                                      "url":  "https://www.harborough.gov.uk/info/20001/planning_applications/436/the_planning_process",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Harborough Local Plan 2011-2031",
+                                                      "url":  "https://www.harborough.gov.uk/info/20004/planning_strategy/220/harborough_local_plan_2011-2031",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning strategy",
+                                                      "url":  "https://www.harborough.gov.uk/info/20004/planning_strategy",
+                                                      "category":  "other_official",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "hinckley-and-bosworth",
+                         "town_name":  "Hinckley and Bosworth",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning control and planning applications",
+                                                      "url":  "https://www.hinckley-bosworth.gov.uk/info/608/planning_control_planning_applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Main authority planning applications hub.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "National and local requirements for planning applications",
+                                                      "url":  "https://www.hinckley-bosworth.gov.uk/info/608/make_a_planning_application/795/national_and_local_requirements_for_planning_applications",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.hinckley-bosworth.gov.uk/info/200316/pre-application_advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning policy and the Local Plan",
+                                                      "url":  "https://www.hinckley-bosworth.gov.uk/info/1004/planning_policy_and_the_local_plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.hinckley-bosworth.gov.uk/info/511/conservation_areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Protected trees",
+                                                      "url":  "https://www.hinckley-bosworth.gov.uk/info/508/tree_preservation_orders/707/protected_trees/3",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Planning enforcement",
+                                                      "url":  "https://www.hinckley-bosworth.gov.uk/info/1003/planning_enforcement",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "The Good Design Guide",
+                                                      "url":  "https://www.hinckley-bosworth.gov.uk/download/downloads/id/6463/the_guide.pdf",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Vehicle access / dropped kerbs",
+                                                      "url":  "https://www.leicestershire.gov.uk/roads-and-travel/cars-and-parking/vehicle-access-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Leicestershire County Council highways authority page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "melton",
+                         "town_name":  "Melton",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Apply for permission",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/planning-applications/apply-for-permission/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Main authority planning application route.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Advice",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/planning-applications/pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning Policy",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/planning-policy/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Official local plan and planning policy hub.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Areas",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/conservation/conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed Buildings",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/conservation/listed-buildings/",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Permitted development",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/planning-applications/permitted-development/",
+                                                      "category":  "permitted_development_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "Authority guidance on permitted development and when permission may not be needed.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Tree Preservation Orders",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/conservation/tree-preservation-orders/",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Planning Enforcement",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/planning-enforcement/",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Dropped Kerb",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/planning-applications/dropped-kerb/",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Authority guidance page linking planning and highways requirements for vehicle access.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Planning application process",
+                                                      "url":  "https://www.melton.gov.uk/planning-and-building/planning-applications/planning-application-process/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official application-process page that explicitly sets out the validation stage and explains that applications are checked for all required documents and fees.",
+                                                      "last_reviewed":  "2026-04-11",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "north-west-leicestershire",
+                         "town_name":  "North West Leicestershire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://nwleics-self.achieveservice.com/en/AchieveForms/?cancelRedirectLink=%2Fen\u0026consentMessage=yes\u0026form_uri=sandbox-publish%3A%2F%2FAF-Process-d24e4607-2003-446a-a613-bdbad9eee3d0%2FAF-Stage-64464b10-fc5b-46f6-9508-bd756fefd9c9%2Fdefinition.json\u0026redirectlink=%2Fen",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Official council service form for pre-application advice.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan substantive review",
+                                                      "url":  "https://www.nwleics.gov.uk/pages/local_plan_substantive_review",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Official council local plan review page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning enforcement",
+                                                      "url":  "https://nwleics-self.achieveservice.com/en/AchieveForms/?cancelRedirectLink=%2Fen\u0026consentMessage=yes\u0026form_uri=sandbox-publish%3A%2F%2FAF-Process-aa99f2ab-721c-4e72-b138-df586e938b08%2FAF-Stage-63cdfca3-f2f0-4a5b-ae42-b29d6bde99c6%2Fdefinition.json\u0026redirectlink=%2Fen",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Official council service form for reporting planning breaches.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Vehicle access / dropped kerbs",
+                                                      "url":  "https://www.leicestershire.gov.uk/roads-and-travel/cars-and-parking/vehicle-access-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Leicestershire County Council highways authority page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Adopted PAR list of requirements July 2013",
+                                                      "url":  "https://www.nwleics.gov.uk/files/documents/national_and_local_requirements_for_planning_applications_july_2013/Adopted%20PAR%20list%20of%20requirements%20July%202013.doc",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Current official validation document URL surfaced via the Ministry Planning Data local area requirements record for North West Leicestershire.",
+                                                      "last_reviewed":  "2026-04-11",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "oadby-and-wigston",
+                         "town_name":  "Oadby and Wigston",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning application requirements",
+                                                      "url":  "https://www.oadby-wigston.gov.uk/pages/planning_application_requirements",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Official planning application requirements page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Borough Local Plan",
+                                                      "url":  "https://oadby-wigston.gov.uk/pages/borough_local_plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Development Control Committee public reports pack - 15 August 2024",
+                                                      "url":  "https://moderngov.oadby-wigston.gov.uk/%28S%28a0iu2afijsgopt45ahh0urfc%29%29/documents/g2703/Public%20reports%20pack%2015th-Aug-2024%2019.00%20Development%20Control%20Committee.pdf?T=10",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Official committee pack containing the approved 2024 planning pre-application advice service update and revised validation checklist.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Vehicle access / dropped kerbs",
+                                                      "url":  "https://www.leicestershire.gov.uk/roads-and-travel/cars-and-parking/vehicle-access-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Leicestershire County Council highways authority page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "leicester",
+                         "town_name":  "Leicester",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Apply planning permission",
+                                                      "url":  "https://www.leicester.gov.uk/planning-environment-and-building-control/planning-applications/apply-planning-permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local validation list requirements",
+                                                      "url":  "https://www.leicester.gov.uk/sites/default/files/2026-01/local-validation-list-requirements-july-2025.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning permission - get pre-application advice",
+                                                      "url":  "https://www.leicester.gov.uk/planning-environment-and-building-control/planning-applications/planning-permission-get-pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Adopted planning policy",
+                                                      "url":  "https://www.leicester.gov.uk/about-council/policies-plans-and-strategies/planning-and-development/adopted-planning-policy",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.leicester.gov.uk/planning-environment-and-building-control/conservation/conservation-areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Historic buildings and heritage guidance",
+                                                      "url":  "https://www.leicester.gov.uk/planning-environment-and-building-control/conservation/historic-buildings-and-heritage-guidance",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "notes":  "Authority guidance page covering listed buildings and heritage controls.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Article 4 directions in Leicester",
+                                                      "url":  "https://www.leicester.gov.uk/planning-environment-and-building-control/planning-applications/check-if-you-need-planning-permission/article-4-directions-leicester",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Protecting trees",
+                                                      "url":  "https://www.leicester.gov.uk/planning-environment-and-building-control/conservation/nature-conservation-and-planning/protecting-trees",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Design standards and inclusive development",
+                                                      "url":  "https://www.leicester.gov.uk/planning-environment-and-building-control/urban-design-and-sustainability/design-standards-and-inclusive-development",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Planning enforcement",
+                                                      "url":  "https://www.leicester.gov.uk/planning-environment-and-building-control/planning-enforcement",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for a dropped kerb",
+                                                      "url":  "https://www.leicester.gov.uk/parking-streets-and-transport/parking/apply-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     }
+                 ]
+}

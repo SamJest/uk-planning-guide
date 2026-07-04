@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A rear extension in England can fall within Class A if it stays within the ordinary depth, height and curtilage limits for the house. Larger single-storey rear additions can sometimes go further, but only through the separate neighbour-consultation prior-approval process rather than the standard householder route.",
+    "rules": {
+      "height_rules": "Single-storey rear extensions should stay within the 4m overall height limit, with eaves no higher than 3m if any part is within 2m of a boundary. Two-storey rear work must not exceed the existing house height or eaves.",
+      "depth_rules": "Standard single-storey rear extensions can usually project up to 3m on a semi-detached or terraced house and 4m on a detached house. The larger home extension route can extend that to 6m or 8m with prior approval. Two-storey rear extensions should normally project no more than 3m.",
+      "boundary_rules": "Where any part sits within 2m of a boundary, eaves height becomes especially sensitive, and two-storey rear extensions also need enough rear-boundary separation to avoid overbearing and overlooking problems.",
+      "roof_rules": "The roof should remain subordinate to the original house. Balconies, verandas and raised platforms are not part of the normal rear-extension permitted development route.",
+      "materials_rules": "External materials should be similar in appearance to the existing house so the extension reads as a planned addition rather than an unrelated rear block."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "4m is the main single-storey rear-extension cap",
+      "intro": "Rear extensions under Class A are mainly controlled by the 4m overall height cap and the 3m eaves cap where any part sits close to a boundary.",
+      "rules": [
+        "A single-storey rear extension should not exceed 4m in overall height.",
+        "If any part comes within 2m of a boundary, the eaves height should not exceed 3m.",
+        "The extension should stay below the highest part of the existing roof and not exceed the existing eaves.",
+        "Two-storey rear work should not exceed the existing house height or eaves height."
+      ],
+      "details": "The height test is straightforward on paper but restrictive in practice. Shallow pitches, flat roofs and careful eaves design are common because the extension has to stay visibly subordinate while also protecting neighbouring light and outlook.",
+      "exceptions": "Rear extensions that exceed the Class A height limits will normally need planning permission."
+    },
+    "depth_rules": {
+      "title": "Standard depth is 3m or 4m, with a larger-home route above that",
+      "intro": "Rear extensions have the clearest metre rules in householder planning, but the larger-home allowance is a separate prior-approval route rather than an automatic extension of the standard limits.",
+      "rules": [
+        "A standard single-storey rear extension can usually project up to 4m on a detached house.",
+        "A standard single-storey rear extension can usually project up to 3m on a semi-detached or terraced house.",
+        "The larger home extension route can increase that to 8m on a detached house or 6m on other houses, subject to prior approval.",
+        "A rear extension of more than one storey must not project more than 3m beyond the original rear wall."
+      ],
+      "details": "Rear extensions are one of the few householder projects with clear metre rules, but the larger-home option is procedural as well as dimensional. Until prior approval is secured, the safer assumption is that only the standard depth limits are available.",
+      "exceptions": "A rear extension that goes beyond the standard or prior-approval depth limits will normally require planning permission."
+    },
+    "boundary_rules": {
+      "title": "The plot position still matters, especially for two-storey work",
+      "intro": "A rear extension is not just a depth calculation. Position on the plot and neighbour relationship still control whether it can rely on permitted development.",
+      "rules": [
+        "The extension should remain behind the principal elevation of the house.",
+        "A rear extension of more than one storey must not be within 7m of a boundary opposite the rear wall.",
+        "Any upper-floor side window should be obscure glazed and non-opening below 1.7m.",
+        "Openings and side walls should be planned carefully to limit overlooking and loss of outlook."
+      ],
+      "details": "Boundary issues matter most on deeper plots, corner sites and two-storey proposals. A scheme that seems acceptable in footprint terms can still fall out of permitted development once upper-floor overlooking, frontage position or the 7m test are considered.",
+      "exceptions": "Rear extensions that fail the 7m opposite-boundary rule for two-storey work, or create non-compliant upper-floor side windows, will normally need planning permission."
+    },
+    "roof_rules": {
+      "title": "Roof design must stay subordinate to the house",
+      "intro": "Rear-extension roofs can be flat or pitched, but they still sit inside the Class A height limits and, for upper-storey work, should respect the roof form of the existing house.",
+      "rules": [
+        "Single-storey rear extensions often use flat or shallow-pitched roofs to stay within the 4m height cap.",
+        "For upper-storey work, the roof pitch should match the existing house as far as practicable.",
+        "Rooflights and lanterns should not push the extension beyond the overall height limits.",
+        "Separate dormers or other roof enlargements are controlled under different permitted development rules."
+      ],
+      "details": "The roof is often where a rear extension either stays simple or becomes planning-sensitive. Keeping the extension roof clearly secondary to the main house usually gives the cleanest permitted development argument.",
+      "exceptions": "A rear-extension roof that exceeds the Class A envelope, or linked roof enlargements that need their own planning route, will normally require planning permission."
+    },
+    "materials_rules": {
+      "title": "Use materials of similar appearance",
+      "intro": "England's householder guidance expects the exterior materials on a rear extension to be similar in appearance to those on the existing house.",
+      "rules": [
+        "Walls, roof finishes and visible trims should match or closely complement the existing house.",
+        "A careful material match usually helps a rear extension read as part of one dwelling.",
+        "Poorly matched cladding or infill can make even a modest extension look more prominent than intended.",
+        "On Article 2(3) designated land, exterior cladding is not allowed under the ordinary Class A route."
+      ],
+      "details": "Materials matter because the ordinary rear-extension route is designed for work that stays visually tied to the host house. Matching brick, render, tiles and detailing usually does more to support that than a visibly unrelated finish.",
+      "exceptions": "Materials that are not of similar appearance, or exterior cladding proposed on Article 2(3) designated land under the ordinary Class A route, are more likely to push the project into planning permission."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Rear extensions are often permitted in conservation areas but may be subject to stricter design requirements to ensure they do not harm the character of the area.",
+    "listed_building": "Rear extensions to listed buildings require listed building consent in addition to any planning permission.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove the usual householder fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+  }
+}

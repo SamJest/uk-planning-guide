@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A garden room can usually be permitted development in England where it remains an incidental outbuilding to the house, stays behind the principal elevation, remains single storey and complies with the Class E height and coverage limits. It should not operate as a separate dwelling or a self-contained residential suite.",
+    "rules": {
+      "height_rules": "Keep the room single storey with eaves no higher than 2.5m. The overall height limit is 4m for a dual-pitched roof, 3m for any other roof and 2.5m overall if any part sits within 2m of a boundary.",
+      "depth_rules": "There is no separate garden-room depth allowance. The key tests are curtilage position, staying behind the principal elevation and keeping additions and outbuildings within 50% of the land around the original house.",
+      "boundary_rules": "Any part within 2m of a boundary is limited to 2.5m overall. On designated land, side garden-room siting can need permission, and listed-building curtilages need extra caution before relying on permitted development.",
+      "roof_rules": "A simple single-storey roof is the safest route. A dual-pitched roof can reach 4m and other roofs 3m, but boundary siting can reduce that to 2.5m overall. Raised platforms, balconies and veranda-style features are outside the ordinary Class E route.",
+      "materials_rules": "Glazing and modern cladding can be acceptable, but the room should still look subordinate to the dwellinghouse and remain incidental in use. A fit-out that reads like a separate bedroom, bathroom and kitchen suite is more likely to need permission."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "For a typical house, a garden room is usually easiest to keep on the permitted-development route when it is a single-storey incidental building rather than a sleeping unit or separate annexe. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Outbuildings are not judged by a simple projection rule. The more useful checks are siting within the curtilage, remaining behind the principal elevation and staying within the 50% coverage limit.",
+        "boundary_rules": "Boundary siting that makes the building too tall or too dominant can push it outside the ordinary Class E route.",
+        "roof_rules": "A bulky or badly positioned roof can cause an outbuilding to exceed the normal Class E limits or lose its subordinate character.",
+        "materials_rules": "A garden room can use contemporary materials, but it should still read as a domestic incidental building rather than an independent cabin or office unit."
+      },
+      "restrictions": {
+        "conservation_area": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "listed_building": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "article4_applies": true,
+        "article4_notes": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes."
+      }
+    }
+  ]
+}

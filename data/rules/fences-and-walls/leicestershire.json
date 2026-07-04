@@ -1,0 +1,159 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Leicestershire, the standard fence and wall limits are 2 metres in most positions and 1 metre where the boundary is next to a highway used by vehicles. If the property is affected by listed-building controls, Article 4 restrictions or specific planning conditions, the ordinary householder route may not apply.",
+    "rules": {
+      "height_rules": "Across Leicestershire, the usual boundary limits are 2 metres overall, or 1 metre where the enclosure sits next to a highway used by vehicles. A site that has been raised, terraced or fronted by a retaining wall can reach those limits faster than homeowners expect.",
+      "depth_rules": "Across Leicestershire, boundary enclosures do not have a national depth rule. The more useful checks are where the line sits, whether it encroaches visually on the frontage, and whether it also acts as a retaining wall.",
+      "boundary_rules": "Across Leicestershire, the enclosure may be permitted development on height, but still problematic on boundary position. Corner plots, access points, neighbouring listed curtilage and conservation-area demolition controls are all common complications.",
+      "roof_rules": "Across Leicestershire, boundary structures have no roof rule in the ordinary sense, yet anything fixed above the main enclosure line, such as trellis or pergola-style framing, can still affect the overall planning assessment.",
+      "materials_rules": "Across Leicestershire, no universal matching-material condition applies to fences and walls, but design still matters, especially on front boundaries. The more dominant the masonry, colour or finish, the more likely the structure is to draw planning attention."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "blaby",
+      "last_verified": "2026-01",
+      "permitted_development": "For homes in Blaby, the standard fence and wall limits are 2 metres in most positions and 1 metre where the boundary is next to a highway used by vehicles. If the property is affected by listed-building controls, Article 4 restrictions or specific planning conditions, the ordinary householder route may not apply.",
+      "rules": {
+        "height_rules": "The usual boundary limits are 2 metres overall, or 1 metre where the enclosure sits next to a highway used by vehicles. A site that has been raised, terraced or fronted by a retaining wall can reach those limits faster than homeowners expect.",
+        "depth_rules": "Boundary enclosures do not have a national depth rule. The more useful checks are where the line sits, whether it encroaches visually on the frontage, and whether it also acts as a retaining wall.",
+        "boundary_rules": "The enclosure may be permitted development on height, but still problematic on boundary position. Corner plots, access points, neighbouring listed curtilage and conservation-area demolition controls are all common complications.",
+        "roof_rules": "Boundary structures have no roof rule in the ordinary sense, yet anything fixed above the main enclosure line, such as trellis or pergola-style framing, can still affect the overall planning assessment.",
+        "materials_rules": "No universal matching-material condition applies to fences and walls, but design still matters, especially on front boundaries. The more dominant the masonry, colour or finish, the more likely the structure is to draw planning attention."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "Boundary works to or around a listed building can require listed building consent, especially where historic walls, railings, piers or gates are being altered or removed.",
+        "article4_applies": false,
+        "article4_notes": "Do not rely on the normal 1 metre or 2 metre rule where Article 4 controls or earlier planning conditions remove those householder rights."
+      }
+    },
+    {
+      "town_slug": "charnwood",
+      "last_verified": "2026-01",
+      "permitted_development": "For homes in Charnwood, the standard fence and wall limits are 2 metres in most positions and 1 metre where the boundary is next to a highway used by vehicles. If the property is affected by listed-building controls, Article 4 restrictions or specific planning conditions, the ordinary householder route may not apply.",
+      "rules": {
+        "height_rules": "The usual boundary limits are 2 metres overall, or 1 metre where the enclosure sits next to a highway used by vehicles. A site that has been raised, terraced or fronted by a retaining wall can reach those limits faster than homeowners expect.",
+        "depth_rules": "There is no separate depth allowance for fences and walls. What matters more is the line of the boundary, any change in ground level, and whether the structure starts to behave like retaining engineering rather than ordinary enclosure.",
+        "boundary_rules": "A fence or wall is easiest to keep within householder rights when it follows an ordinary residential boundary and does not block visibility at an access or corner. Heritage constraints can also apply where the boundary relates to listed buildings or historic frontages.",
+        "roof_rules": "Fences and walls do not have a roof test, but cappings, trellis toppers, pergola-style additions or gates fixed to taller piers can all count toward the overall height and visual impact. Keep the whole boundary composition in mind rather than only the main panel height.",
+        "materials_rules": "There is no blanket requirement to copy the house materials, although front boundaries generally work better when the walling, railings or panels feel in scale with the street rather than engineered or overbearing."
+      },
+      "restrictions": {
+        "conservation_area": "A fence or wall in a conservation area may need more than a simple height check, especially if demolition of an older boundary is part of the scheme.",
+        "listed_building": "Boundary works to or around a listed building can require listed building consent, especially where historic walls, railings, piers or gates are being altered or removed.",
+        "article4_applies": false,
+        "article4_notes": "Do not rely on the normal 1 metre or 2 metre rule where Article 4 controls or earlier planning conditions remove those householder rights."
+      }
+    },
+    {
+      "town_slug": "harborough",
+      "last_verified": "2026-01",
+      "permitted_development": "In Harborough, a new fence, wall or gate at a house is usually permitted development up to 2 metres high, or up to 1 metre where it is next to a highway used by vehicles or the footpath of such a highway. The normal right falls away where listed-building controls, Article 4 directions or relevant planning conditions apply.",
+      "rules": {
+        "height_rules": "The usual boundary limits are 2 metres overall, or 1 metre where the enclosure sits next to a highway used by vehicles. A site that has been raised, terraced or fronted by a retaining wall can reach those limits faster than homeowners expect.",
+        "depth_rules": "Boundary enclosures do not have a national depth rule. The more useful checks are where the line sits, whether it encroaches visually on the frontage, and whether it also acts as a retaining wall.",
+        "boundary_rules": "Boundary location matters as much as height. A wall or fence beside a vehicular access, on a corner plot or along a heritage frontage can still trigger separate planning concerns even when the basic limit is met.",
+        "roof_rules": "Boundary structures have no roof rule in the ordinary sense, yet anything fixed above the main enclosure line, such as trellis or pergola-style framing, can still affect the overall planning assessment.",
+        "materials_rules": "Material choice is not controlled in the same way as height, yet it still matters. A boundary that fits the character of the house and street will usually sit more comfortably than one with overly heavy or visually harsh materials on a prominent frontage."
+      },
+      "restrictions": {
+        "conservation_area": "Boundary works in conservation areas are more sensitive because removal as well as replacement can affect the character and appearance of the area.",
+        "listed_building": "If the property is listed, or the boundary adjoins listed curtilage structures, changing the enclosure can need listed building consent as well as planning review.",
+        "article4_applies": false,
+        "article4_notes": "Do not rely on the normal 1 metre or 2 metre rule where Article 4 controls or earlier planning conditions remove those householder rights."
+      }
+    },
+    {
+      "town_slug": "hinckley-and-bosworth",
+      "last_verified": "2026-01",
+      "permitted_development": "For homes in Hinckley and Bosworth, the standard fence and wall limits are 2 metres in most positions and 1 metre where the boundary is next to a highway used by vehicles. If the property is affected by listed-building controls, Article 4 restrictions or specific planning conditions, the ordinary householder route may not apply.",
+      "rules": {
+        "height_rules": "The main national height limits are 2 metres in most positions and 1 metre next to a highway used by vehicles. Height is measured from ground level, so raised beds, retaining walls or a sloping site can change the real planning answer.",
+        "depth_rules": "There is no fixed front-to-back limit for a fence or wall, but long returns, thick masonry and retaining elements can all make the structure more prominent than a simple boundary replacement.",
+        "boundary_rules": "Boundary location matters as much as height. A wall or fence beside a vehicular access, on a corner plot or along a heritage frontage can still trigger separate planning concerns even when the basic limit is met.",
+        "roof_rules": "There is no separate roof allowance for a fence or wall. What often catches people out is that trellis, decorative tops, coping details and gate piers can still contribute to the measured height and prominence of the boundary.",
+        "materials_rules": "There is no general rule that boundary materials must match the house, but prominent front boundaries are easier to justify when the finish suits the street and the host property. Heavy blockwork or rendered walls can attract more scrutiny than lighter, recessive boundary treatments on open frontages."
+      },
+      "restrictions": {
+        "conservation_area": "Boundary works in conservation areas are more sensitive because removal as well as replacement can affect the character and appearance of the area.",
+        "listed_building": "Boundary works to or around a listed building can require listed building consent, especially where historic walls, railings, piers or gates are being altered or removed.",
+        "article4_applies": false,
+        "article4_notes": "A planning condition or Article 4 direction can override the standard boundary limits, so even a straightforward replacement fence may need consent."
+      }
+    },
+    {
+      "town_slug": "melton",
+      "last_verified": "2026-01",
+      "permitted_development": "In Melton, householder boundary works are normally allowed without a planning application up to 2 metres in height, dropping to 1 metre beside a highway used by vehicles or its footpath. Those usual limits do not override listed-building controls or any local condition that removes permitted development rights.",
+      "rules": {
+        "height_rules": "The main national height limits are 2 metres in most positions and 1 metre next to a highway used by vehicles. Height is measured from ground level, so raised beds, retaining walls or a sloping site can change the real planning answer.",
+        "depth_rules": "There is no separate depth allowance for fences and walls. What matters more is the line of the boundary, any change in ground level, and whether the structure starts to behave like retaining engineering rather than ordinary enclosure.",
+        "boundary_rules": "Boundary location matters as much as height. A wall or fence beside a vehicular access, on a corner plot or along a heritage frontage can still trigger separate planning concerns even when the basic limit is met.",
+        "roof_rules": "Boundary structures have no roof rule in the ordinary sense, yet anything fixed above the main enclosure line, such as trellis or pergola-style framing, can still affect the overall planning assessment.",
+        "materials_rules": "There is no general rule that boundary materials must match the house, but prominent front boundaries are easier to justify when the finish suits the street and the host property. Heavy blockwork or rendered walls can attract more scrutiny than lighter, recessive boundary treatments on open frontages."
+      },
+      "restrictions": {
+        "conservation_area": "Boundary works in conservation areas are more sensitive because removal as well as replacement can affect the character and appearance of the area.",
+        "listed_building": "Boundary works to or around a listed building can require listed building consent, especially where historic walls, railings, piers or gates are being altered or removed.",
+        "article4_applies": false,
+        "article4_notes": "Do not rely on the normal 1 metre or 2 metre rule where Article 4 controls or earlier planning conditions remove those householder rights."
+      }
+    },
+    {
+      "town_slug": "north-west-leicestershire",
+      "last_verified": "2026-01",
+      "permitted_development": "In North West Leicestershire, householder boundary works are normally allowed without a planning application up to 2 metres in height, dropping to 1 metre beside a highway used by vehicles or its footpath. Those usual limits do not override listed-building controls or any local condition that removes permitted development rights.",
+      "rules": {
+        "height_rules": "Height is the first check for fences and walls: 2 metres is the normal cap, reduced to 1 metre beside a highway used by vehicles or its footpath. Be careful with sloping ground or built-up levels, because the measurement is taken from ground level and not from the top of a bank.",
+        "depth_rules": "There is no separate depth allowance for fences and walls. What matters more is the line of the boundary, any change in ground level, and whether the structure starts to behave like retaining engineering rather than ordinary enclosure.",
+        "boundary_rules": "The enclosure may be permitted development on height, but still problematic on boundary position. Corner plots, access points, neighbouring listed curtilage and conservation-area demolition controls are all common complications.",
+        "roof_rules": "A fence or wall is not judged on roof form, but the top treatment still matters. Copings, trellis panels, archways and taller gate piers can all change the effective height and appearance.",
+        "materials_rules": "Material choice is not controlled in the same way as height, yet it still matters. A boundary that fits the character of the house and street will usually sit more comfortably than one with overly heavy or visually harsh materials on a prominent frontage."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "Listed building controls can apply to fences, gates and walls where they form part of the building's curtilage or historic setting.",
+        "article4_applies": false,
+        "article4_notes": "A planning condition or Article 4 direction can override the standard boundary limits, so even a straightforward replacement fence may need consent."
+      }
+    },
+    {
+      "town_slug": "oadby-and-wigston",
+      "last_verified": "2026-01",
+      "permitted_development": "In Oadby and Wigston, a new fence, wall or gate at a house is usually permitted development up to 2 metres high, or up to 1 metre where it is next to a highway used by vehicles or the footpath of such a highway. The normal right falls away where listed-building controls, Article 4 directions or relevant planning conditions apply.",
+      "rules": {
+        "height_rules": "The main national height limits are 2 metres in most positions and 1 metre next to a highway used by vehicles. Height is measured from ground level, so raised beds, retaining walls or a sloping site can change the real planning answer.",
+        "depth_rules": "Boundary enclosures do not have a national depth rule. The more useful checks are where the line sits, whether it encroaches visually on the frontage, and whether it also acts as a retaining wall.",
+        "boundary_rules": "A fence or wall is easiest to keep within householder rights when it follows an ordinary residential boundary and does not block visibility at an access or corner. Heritage constraints can also apply where the boundary relates to listed buildings or historic frontages.",
+        "roof_rules": "Fences and walls do not have a roof test, but cappings, trellis toppers, pergola-style additions or gates fixed to taller piers can all count toward the overall height and visual impact. Keep the whole boundary composition in mind rather than only the main panel height.",
+        "materials_rules": "There is no general rule that boundary materials must match the house, but prominent front boundaries are easier to justify when the finish suits the street and the host property. Heavy blockwork or rendered walls can attract more scrutiny than lighter, recessive boundary treatments on open frontages."
+      },
+      "restrictions": {
+        "conservation_area": "Boundary works in conservation areas are more sensitive because removal as well as replacement can affect the character and appearance of the area.",
+        "listed_building": "Listed building controls can apply to fences, gates and walls where they form part of the building's curtilage or historic setting.",
+        "article4_applies": false,
+        "article4_notes": "Normal enclosure rights can be withdrawn by Article 4 directions or by conditions on the property, which is why front-boundary work sometimes still needs an application."
+      }
+    },
+    {
+      "town_slug": "leicester",
+      "last_verified": "2026-01",
+      "permitted_development": "In Leicester, putting up or altering a fence, wall or gate is usually simplest where the overall height stays within the normal 2 metre limit, or 1 metre by a highway used by vehicles. Heritage controls and site-specific conditions can still take the proposal outside permitted development.",
+      "rules": {
+        "height_rules": "The usual boundary limits are 2 metres overall, or 1 metre where the enclosure sits next to a highway used by vehicles. A site that has been raised, terraced or fronted by a retaining wall can reach those limits faster than homeowners expect.",
+        "depth_rules": "Depth is not usually the deciding measurement for fences and walls. The issue is more often whether the enclosure follows the normal boundary line or turns into a more substantial engineered structure with level changes behind it.",
+        "boundary_rules": "Boundary location matters as much as height. A wall or fence beside a vehicular access, on a corner plot or along a heritage frontage can still trigger separate planning concerns even when the basic limit is met.",
+        "roof_rules": "There is no separate roof allowance for a fence or wall. What often catches people out is that trellis, decorative tops, coping details and gate piers can still contribute to the measured height and prominence of the boundary.",
+        "materials_rules": "No universal matching-material condition applies to fences and walls, but design still matters, especially on front boundaries. The more dominant the masonry, colour or finish, the more likely the structure is to draw planning attention."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "Listed building controls can apply to fences, gates and walls where they form part of the building's curtilage or historic setting.",
+        "article4_applies": false,
+        "article4_notes": "Normal enclosure rights can be withdrawn by Article 4 directions or by conditions on the property, which is why front-boundary work sometimes still needs an application."
+      }
+    }
+  ]
+}

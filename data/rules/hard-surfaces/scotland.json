@@ -1,0 +1,559 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Scotland, hard surfacing is usually lowest risk on the planning permission route when drainage is handled properly, level changes stay modest and the work does not turn a soft frontage into a dominant engineered parking area. The route is usually strongest where the drainage story, frontage appearance and parking layout all work together rather than being solved separately.",
+    "rules": {
+      "height_rules": "Raised surfacing, retaining features and height or level changes can matter as much as the paving finish itself when councils assess hard-surface schemes in Scotland.",
+      "depth_rules": "Surface coverage, front garden drainage and overall project extent are usually the deciding issues for hard surfacing across Scotland, especially where large impermeable areas are proposed.",
+      "boundary_rules": "Frontage position, highway relationship and any linked access changes are often what make a hard-surfacing scheme more sensitive in Scotland.",
+      "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+      "materials_rules": "Permeable, visually restrained finishes are usually easier to justify than broad impermeable paving that removes planting and dominates the frontage."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Aberdeen City, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Aberdeen City, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Aberdeen City usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Aberdeen City more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Aberdeen City than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Aberdeen City often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Aberdeen City, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Aberdeenshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Aberdeenshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Aberdeenshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Aberdeenshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Aberdeenshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Aberdeenshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Aberdeenshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-03",
+      "permitted_development": "In Angus, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Angus, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Angus usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Angus more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Angus than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Angus often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Angus, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-03",
+      "permitted_development": "In Argyll and Bute, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In Argyll and Bute, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Argyll and Bute usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Argyll and Bute more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Argyll and Bute than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Argyll and Bute often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Argyll and Bute, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-03",
+      "permitted_development": "In City of Edinburgh, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In City of Edinburgh, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in City of Edinburgh usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in City of Edinburgh more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in City of Edinburgh than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within City of Edinburgh often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in City of Edinburgh, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Clackmannanshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Clackmannanshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Clackmannanshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Clackmannanshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Clackmannanshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Clackmannanshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Clackmannanshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-03",
+      "permitted_development": "In Comhairle nan Eilean Siar, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Comhairle nan Eilean Siar, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Comhairle nan Eilean Siar usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Comhairle nan Eilean Siar more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Comhairle nan Eilean Siar than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Comhairle nan Eilean Siar often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Comhairle nan Eilean Siar, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-03",
+      "permitted_development": "In Dumfries and Galloway, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Dumfries and Galloway, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Dumfries and Galloway usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Dumfries and Galloway more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Dumfries and Galloway than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Dumfries and Galloway often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Dumfries and Galloway, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Dundee City, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Dundee City, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Dundee City usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Dundee City more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Dundee City than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Dundee City often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Dundee City, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Ayrshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In East Ayrshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in East Ayrshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in East Ayrshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in East Ayrshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within East Ayrshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in East Ayrshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Dunbartonshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In East Dunbartonshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in East Dunbartonshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in East Dunbartonshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in East Dunbartonshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within East Dunbartonshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in East Dunbartonshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Lothian, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In East Lothian, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in East Lothian usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in East Lothian more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in East Lothian than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within East Lothian often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in East Lothian, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Renfrewshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In East Renfrewshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in East Renfrewshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in East Renfrewshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in East Renfrewshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within East Renfrewshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in East Renfrewshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-03",
+      "permitted_development": "In Falkirk, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Falkirk, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Falkirk usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Falkirk more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Falkirk than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Falkirk often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Falkirk, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-03",
+      "permitted_development": "In Fife, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Fife, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Fife usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Fife more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Fife than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Fife often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Fife, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Glasgow City, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Glasgow City, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Glasgow City usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Glasgow City more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Glasgow City than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Glasgow City often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Glasgow City, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-03",
+      "permitted_development": "In Highland, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Highland, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Highland usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Highland more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Highland than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Highland often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Highland, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-03",
+      "permitted_development": "In Inverclyde, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Inverclyde, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Inverclyde usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Inverclyde more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Inverclyde than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Inverclyde often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Inverclyde, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In Midlothian, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Midlothian, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Midlothian usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Midlothian more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Midlothian than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Midlothian often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Midlothian, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-03",
+      "permitted_development": "In Moray, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Moray, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Moray usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Moray more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Moray than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Moray often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Moray, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In North Ayrshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In North Ayrshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in North Ayrshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in North Ayrshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in North Ayrshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within North Ayrshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in North Ayrshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In North Lanarkshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In North Lanarkshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in North Lanarkshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in North Lanarkshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in North Lanarkshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within North Lanarkshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in North Lanarkshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-03",
+      "permitted_development": "In Orkney Islands, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In Orkney Islands, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Orkney Islands usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Orkney Islands more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Orkney Islands than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Orkney Islands often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Orkney Islands, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-03",
+      "permitted_development": "In Perth and Kinross, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Perth and Kinross, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Perth and Kinross usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Perth and Kinross more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Perth and Kinross than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Perth and Kinross often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Perth and Kinross, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Renfrewshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In Renfrewshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Renfrewshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Renfrewshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Renfrewshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Renfrewshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Renfrewshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-03",
+      "permitted_development": "In Scottish Borders, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Scottish Borders, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Scottish Borders usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Scottish Borders more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Scottish Borders than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Scottish Borders often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Scottish Borders, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-03",
+      "permitted_development": "In Shetland Islands, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In Shetland Islands, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Shetland Islands usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Shetland Islands more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Shetland Islands than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Shetland Islands often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Shetland Islands, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In South Ayrshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In South Ayrshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in South Ayrshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in South Ayrshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in South Ayrshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within South Ayrshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in South Ayrshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In South Lanarkshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In South Lanarkshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in South Lanarkshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in South Lanarkshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in South Lanarkshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within South Lanarkshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in South Lanarkshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-03",
+      "permitted_development": "In Stirling, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Stirling, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Stirling usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Stirling more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Stirling than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Stirling often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Stirling, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In West Dunbartonshire, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. Schemes are usually safer where runoff, crossover detail and surface appearance have all been thought through together from the start.",
+      "rules": {
+        "height_rules": "In West Dunbartonshire, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in West Dunbartonshire usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in West Dunbartonshire more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in West Dunbartonshire than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within West Dunbartonshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in West Dunbartonshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In West Lothian, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The planning pressure often rises when the frontage starts to read more like engineered parking than simple domestic surfacing.",
+      "rules": {
+        "height_rules": "In West Lothian, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in West Lothian usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in West Lothian more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in West Lothian than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within West Lothian often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in West Lothian, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-03",
+      "permitted_development": "In Cairngorms National Park, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Cairngorms National Park, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Cairngorms National Park usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Cairngorms National Park more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Cairngorms National Park than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Cairngorms National Park often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Cairngorms National Park, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-03",
+      "permitted_development": "In Loch Lomond and The Trossachs National Park, hard surfacing is usually easiest to keep off the planning permission route where drainage is clear, levels stay sensible and the work does not turn the frontage into an over-engineered parking layout. The route normally gets harder when a small front garden is turned into a broad parking surface without a convincing drainage and planting strategy.",
+      "rules": {
+        "height_rules": "In Loch Lomond and The Trossachs National Park, even paving work can move into a closer review if it relies on raised height changes, retaining edges or platforms that materially change the site.",
+        "depth_rules": "Large impermeable areas in Loch Lomond and The Trossachs National Park usually deserve the earliest drainage check, particularly where the work affects the front garden or main parking area.",
+        "boundary_rules": "Boundary treatment, highway relationship and crossover changes often shape the hard-surfacing answer in Loch Lomond and The Trossachs National Park more than the paving material alone.",
+        "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+        "materials_rules": "Permeable finishes and a softer overall frontage usually work better in Loch Lomond and The Trossachs National Park than extensive impermeable paving with little visual relief."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Loch Lomond and The Trossachs National Park often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Loch Lomond and The Trossachs National Park, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    }
+  ]
+}

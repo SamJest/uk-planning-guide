@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A single-storey house extension in England can be permitted development under Class A where it stays within the rear projection, height, coverage and siting limits, and is not built forward of the principal elevation.",
+    "rules": {
+      "height_rules": "A single-storey extension should not exceed 4m in overall height. Eaves should not exceed the existing eaves and should be no more than 3m if within 2m of a boundary.",
+      "depth_rules": "A rear extension can usually project up to 4m on a detached house or 3m on any other house, with the larger home extension prior approval route allowing up to 8m or 6m in the right cases.",
+      "boundary_rules": "The extension should not be forward of the principal elevation, and where it comes close to a boundary the lower eaves limit becomes critical.",
+      "roof_rules": "Class A does not cover balconies, verandas, raised platforms, separate chimneys or flues. Roof design still needs to stay subordinate to the existing house.",
+      "materials_rules": "External materials should be similar in appearance to the existing house unless the work is a conservatory."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Single-Storey Extension Height Limits",
+      "intro": "For most compliant single-storey extensions, the key height cap is 4 metres overall, with a stricter eaves limit near boundaries.",
+      "rules": [
+        "Overall height should not exceed 4m.",
+        "Eaves should not be higher than the existing house eaves.",
+        "If the extension comes within 2m of a boundary, the eaves should not exceed 3m.",
+        "Taller side walls and boundary-facing mono-pitch roofs can push a scheme outside permitted development."
+      ],
+      "details": "Planning Portal's Class A guidance sets a clear 4 metre overall height limit for single-storey extensions. There is also a more restrictive eaves rule when the extension is within 2 metres of the curtilage boundary: the eaves cannot exceed 3 metres. On many rear extensions, the eaves test is the one that actually decides whether the design stays within permitted development.",
+      "exceptions": "If the extension exceeds the height limits, planning permission will usually be required even where the rear projection itself is modest."
+    },
+    "depth_rules": {
+      "title": "Rear Projection Limits",
+      "intro": "The main size test for a single-storey rear extension is how far it projects beyond the original rear wall.",
+      "rules": [
+        "Detached houses can usually project up to 4m without prior approval.",
+        "Semi-detached and terraced houses can usually project up to 3m without prior approval.",
+        "The larger home extension route can allow up to 8m on a detached house or 6m on other houses, subject to prior approval.",
+        "Projection is measured from the rear wall of the original house, not from a later extension."
+      ],
+      "details": "Under Class A, a standard single-storey rear extension can usually extend 4 metres beyond the original rear wall on a detached house and 3 metres on any other house. A separate larger home extension route can go farther, but only through prior approval and neighbour consultation. The measurement point is the original house, which is important on properties that already have rear additions.",
+      "exceptions": "If earlier extensions already take up part of the allowance, the total enlargement may need planning permission sooner than expected."
+    },
+    "boundary_rules": {
+      "title": "Boundaries, Frontages and Site Coverage",
+      "intro": "A rear or side addition can fail permitted development not just on size, but on where it sits in relation to the plot.",
+      "rules": [
+        "No part of the extension should be built forward of the principal elevation.",
+        "Extensions and other buildings together should not cover more than 50% of the land around the original house.",
+        "On corner plots, the side elevation facing a highway is treated more strictly.",
+        "Boundary proximity matters because of the 3m eaves cap within 2m of the boundary."
+      ],
+      "details": "Class A is not only about projection. It also blocks extensions that sit in front of the principal elevation and it caps how much of the curtilage can be covered by additions and outbuildings combined. Corner plots often catch people out because a flank elevation that fronts a highway is treated more like a front-facing elevation for permitted development purposes.",
+      "exceptions": "Where the extension projects into front or highway-facing space, or pushes overall site coverage above the 50% cap, planning permission will normally be required."
+    },
+    "roof_rules": {
+      "title": "Roof Form and Excluded Features",
+      "intro": "A permitted single-storey extension still has to respect the Class A exclusions on roof-related features.",
+      "rules": [
+        "Class A does not include verandas, balconies or raised platforms.",
+        "A separate chimney, flue or soil-and-vent pipe is not covered by Class A.",
+        "The roof should remain subordinate to the house rather than creating an over-dominant front or side mass.",
+        "Any upper-storey element moves the proposal into the more-than-one-storey rules."
+      ],
+      "details": "It is common for a single-storey extension to fall outside permitted development because the design includes something extra that Class A excludes, such as a raised platform, balcony-style detail or separate flue arrangement. A simple pitched or flat roof extension is usually the safest route. Once the roof design starts to create an upper-level terrace, an overbearing side wall or another functional structure, the proposal often needs permission.",
+      "exceptions": "Plant, flues and external platforms may need their own planning route even where the main extension size looks compliant."
+    },
+    "materials_rules": {
+      "title": "External Materials",
+      "intro": "The finish should look like a natural addition to the house, not a visually separate structure.",
+      "rules": [
+        "Exterior materials should be similar in appearance to the existing house.",
+        "Brick, render, roof coverings and trim should sit comfortably with the original building.",
+        "Conservatories are treated differently for the similar-materials condition.",
+        "A stronger contrast can be harder to defend if planning permission is needed."
+      ],
+      "details": "Class A requires the materials used in exterior work to be of a similar appearance to those on the outside of the existing dwellinghouse, except for conservatories. In practice, matching the visual character matters more than copying every product exactly. Extensions that clearly respect the host house tend to be easier to certificate or defend.",
+      "exceptions": "Heritage assets, conservation areas and bespoke design-led schemes may be judged more critically on external appearance."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Single-storey extensions can face tighter scrutiny in conservation areas where visibility from the street or harm to the historic setting is an issue.",
+    "listed_building": "Extensions to a listed building usually need listed building consent as well as any planning permission, even for work that would be straightforward on an unlisted house.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove normal householder permitted development rights in selected streets or heritage areas, so the property designation should be checked before relying on Class A."
+  }
+}

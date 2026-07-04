@@ -1,0 +1,80 @@
+{
+  "defaults": {
+    "permitted_development": "In England, a garage conversion is usually on the simpler route when the work is genuinely internal and the building is not enlarged. The position changes quickly if you raise the roof, extend the garage, create a separate dwelling or breach a condition that requires the garage or parking space to be retained.",
+    "rules": {
+      "height_rules": "There is no standard garage-conversion height allowance to rely on. The simplest route is a true internal conversion within the existing shell. Raising the roof or adding new upper-storey form is much more likely to need planning permission.",
+      "depth_rules": "Garage conversions are not judged by a special projection limit. Reusing the existing footprint is usually simplest. Any linked rear extension, side enlargement or deeper excavation should be checked separately under the relevant householder rules.",
+      "boundary_rules": "Boundary and frontage issues often arise from new windows, doors, access changes, external stairs or the loss of parking. Earlier estate permissions and planning conditions can also remove the usual fallback.",
+      "roof_rules": "The conversion itself does not authorise a roof alteration. Rooflights, dormers, raised parapets, canopies or other roof changes should be assessed under the relevant roof or extension rules in their own right.",
+      "materials_rules": "The visible infill to the former garage opening should match or closely complement the existing building. Planning risk is usually driven by the frontage treatment, parking effect and whether the converted space starts to look like a separate unit."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Internal conversion is the safest route",
+      "intro": "A garage conversion is usually easiest to keep off the full planning route when it stays within the existing shell and does not start to enlarge the building.",
+      "rules": [
+        "The simplest route is usually for internal work within the existing garage shell.",
+        "Raising the roof, adding a new upper element or otherwise enlarging the building changes the planning position quickly.",
+        "There is no standalone garage-conversion height allowance if the project changes the external envelope.",
+        "A conversion intended as a separate house or self-contained dwelling is more likely to need planning permission regardless of the height involved."
+      ],
+      "details": "There is no simple garage-conversion height code comparable to an outbuilding or porch. The real divide is between reusing existing enclosed space and changing the size or status of the building.",
+      "exceptions": "A scheme that raises the roof or otherwise enlarges the garage is more likely to need planning permission than a purely internal conversion."
+    },
+    "depth_rules": {
+      "title": "Reusing space is different from creating new space",
+      "intro": "The planning answer is strongest where the project simply adapts floor area that already exists. Once new floor area is added, the job is no longer just a straightforward conversion.",
+      "rules": [
+        "Reusing the existing garage footprint is usually the cleanest planning route.",
+        "Any rear extension, side enlargement or deeper excavation linked to the conversion should be assessed separately.",
+        "A project that pushes beyond the existing envelope should not be treated as a simple garage conversion.",
+        "Creating a separate dwelling within or behind the garage normally needs a fuller planning route."
+      ],
+      "details": "Garage conversions are not controlled by a special depth limit. The real question is whether the work stays within the existing building or starts creating additional built form that needs its own planning assessment.",
+      "exceptions": "Where the conversion extends beyond the existing building envelope, planning permission is more likely to be required."
+    },
+    "boundary_rules": {
+      "title": "Frontage, parking and neighbour effects still matter",
+      "intro": "Even where most of the work is internal, garage conversions can become planning-sensitive at the plot edge and on the front elevation.",
+      "rules": [
+        "New side windows, access changes or external stairs can create neighbour-impact issues that do not arise with a purely internal conversion.",
+        "Loss of a garage can matter on estates or tight plots where earlier permissions required parking to be retained.",
+        "A frontage alteration that changes the character of the house can attract closer scrutiny even if the room conversion itself is straightforward.",
+        "Boundary-facing openings and access changes should be planned carefully where overlooking or noise could increase."
+      ],
+      "details": "Garage conversions often become sensitive at the front of the plot rather than inside the building. Replacing the garage door, losing an active parking bay or inserting new side windows can matter more to the planning outcome than the internal room layout.",
+      "exceptions": "Planning permission is more likely where the conversion conflicts with parking-retention conditions or introduces significant new external changes near the boundary."
+    },
+    "roof_rules": {
+      "title": "Treat any roof work as a separate question",
+      "intro": "The room conversion may be acceptable while an associated roof alteration is not. Roof changes should therefore be checked in their own right.",
+      "rules": [
+        "Internal conversion of a garage does not automatically authorise a roof alteration.",
+        "Rooflights, dormers, raised parapets, canopies and over-deep eaves should be checked under the relevant roof or extension rules.",
+        "A roof change on an attached garage can affect the appearance of the main house more than the conversion itself.",
+        "Combined schemes should be assessed as a whole rather than assuming the roof work rides along with the conversion."
+      ],
+      "details": "It is common for the use change to be acceptable in principle while a linked roof redesign still needs separate planning consideration. The safest approach is to split those questions clearly from the outset.",
+      "exceptions": "Associated roof works should not be assumed to fall within the same route as the main garage conversion."
+    },
+    "materials_rules": {
+      "title": "Frontage detailing often decides the feel of the job",
+      "intro": "Most garage-conversion planning risk sits in the visible external detailing rather than in the internal room layout.",
+      "rules": [
+        "Infill walls, windows and doors should match or closely complement the existing building.",
+        "The former garage opening should be redesigned so the frontage looks intentional rather than crudely blocked up.",
+        "Window proportions, brick bond, lintels and sill details can all affect whether the change looks comfortably domestic.",
+        "The finished result should still read as part of one house rather than as a separate unit or awkward add-on."
+      ],
+      "details": "Where a garage opening is filled, the quality of the visible design matters. A careful frontage treatment can make the conversion look original to the house instead of obviously retrofitted.",
+      "exceptions": "A poorly detailed frontage or a conversion designed as a separate dwelling unit is more likely to require planning permission."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Garage conversions in conservation areas can face closer scrutiny where the works visibly alter the frontage, garage door opening or parking arrangement.",
+    "listed_building": "Converting a garage attached to or within the curtilage of a listed building can require extra planning and heritage consents.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions, estate controls and earlier planning conditions can remove the normal fallback for some garage conversions, especially where parking must be retained."
+  }
+}

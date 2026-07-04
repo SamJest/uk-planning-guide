@@ -1,0 +1,213 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Surrey, a temporary building is not exempt simply because it will be removed later. The planning answer usually turns on how fixed it is, how long it remains, what it is used for and whether any specific temporary-use right actually applies.",
+    "rules": {
+      "height_rules": "There is no standard height allowance for temporary buildings. The taller and more engineered the structure looks, the harder it is to present it as a minor temporary feature rather than operational development needing permission.",
+      "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the intensity of use matter far more than one single measurement.",
+      "boundary_rules": "Across Surrey, access, traffic, noise, overlooking, servicing and visibility at the site edge are often what turn a supposedly temporary structure into a proposal that needs fuller planning scrutiny.",
+      "roof_rules": "A fixed or heavily engineered roof can quickly make a temporary structure look permanent. Wind loading, rainwater handling and visual bulk all matter.",
+      "materials_rules": "Use reversible, low-glare materials and temporary-looking details. Heavy cladding, permanent foundations and hard-wired services tend to undermine the temporary case."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "elmbridge",
+      "last_verified": "2026-01",
+      "permitted_development": "The word temporary does not settle the planning position. What matters is how long the structure remains, how fixed it is and what activity it supports. In Elmbridge, the temporary case usually weakens when the structure starts to look permanent in both appearance and day-to-day use.",
+      "rules": {
+        "height_rules": "Height for a temporary building is judged through bulk, visibility and whether the structure still reads as genuinely short-term rather than semi-permanent. In Elmbridge, low, lightweight forms usually carry the temporary story much better than taller structures that start to read as permanent buildings.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "At the boundary, temporary structures are often judged by how they behave: access, queues, deliveries, lighting and neighbour impact. In Elmbridge, the site edge is usually tested by how much openness and domestic breathing room the temporary structure takes away.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "Even short-term structures can be difficult in a conservation area if they add visual clutter or interrupt an established historic scene.",
+        "listed_building": "Temporary works affecting a listed building, its curtilage or its setting can still need listed building consent and separate planning review.",
+        "article4_applies": false,
+        "article4_notes": "Even short-term structures can lose the easier planning route where an Article 4 direction removes the normal fallback for that site."
+      }
+    },
+    {
+      "town_slug": "epsom-and-ewell",
+      "last_verified": "2026-01",
+      "permitted_development": "The word temporary does not settle the planning position. What matters is how long the structure remains, how fixed it is and what activity it supports. In Epsom and Ewell, the temporary case usually weakens when the structure starts to look permanent in both appearance and day-to-day use.",
+      "rules": {
+        "height_rules": "No single height rule solves a temporary-building case; once the structure becomes tall or visually heavy, the temporary argument usually weakens fast. In Epsom and Ewell, keeping the structure visibly lightweight and below surrounding fence or eaves lines usually helps far more than pushing for extra height.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "At the boundary, temporary structures are often judged by how they behave: access, queues, deliveries, lighting and neighbour impact. In Epsom and Ewell, access, parking, overlooking and loss of openness are often the practical boundary issues.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "A temporary structure in a conservation area still has to look genuinely temporary, stay visually quiet and avoid cluttering the historic setting.",
+        "listed_building": "Where a temporary structure affects a listed building or its setting, the heritage route usually needs to be checked alongside the ordinary planning position.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still narrow the temporary-building route for a specific site or area."
+      }
+    },
+    {
+      "town_slug": "guildford",
+      "last_verified": "2026-01",
+      "permitted_development": "A temporary building is not exempt simply because it will be removed later. The planning answer depends on duration, degree of permanence, use and whether any specific temporary-use right applies. In Guildford, the temporary case usually weakens when the structure starts to look permanent in both appearance and day-to-day use.",
+      "rules": {
+        "height_rules": "There is no universal height limit for temporary buildings. The more prominent and engineered the structure looks, the harder it is to keep it in the temporary category. In Guildford, once the structure rises above the obvious domestic reference points around it, the temporary argument becomes harder to sustain.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "The harder boundary questions are usually operational: how people arrive, where vehicles stop, what neighbours hear and how visible the structure becomes at the plot edge. In Guildford, the site edge is usually tested by how much openness and domestic breathing room the temporary structure takes away.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "A temporary structure in a conservation area still has to look genuinely temporary, stay visually quiet and avoid cluttering the historic setting.",
+        "listed_building": "A listed building does not lose protection just because the proposal is temporary; curtilage and setting effects can still require consent.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback rights for temporary structures in selected locations, so the exact site designation should be checked before relying on a simpler route."
+      }
+    },
+    {
+      "town_slug": "mole-valley",
+      "last_verified": "2026-01",
+      "permitted_development": "Temporary structures only avoid a fuller planning route where the facts genuinely support a temporary-use class or a limited operational need. In Mole Valley, the big questions are how long the structure stays, whether it behaves like a permanent outbuilding and what extra activity it introduces.",
+      "rules": {
+        "height_rules": "There is no universal height limit for temporary buildings. The more prominent and engineered the structure looks, the harder it is to keep it in the temporary category. In Mole Valley, once the structure rises above the obvious domestic reference points around it, the temporary argument becomes harder to sustain.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "Boundary impact usually comes from traffic, servicing, noise, overlooking, crowding and visibility rather than from one simple measurement. In Mole Valley, even a genuinely short-term structure can become difficult where it crowds boundaries or disrupts ordinary access and outlook.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "A temporary structure in a conservation area still has to look genuinely temporary, stay visually quiet and avoid cluttering the historic setting.",
+        "listed_building": "A listed building does not lose protection just because the proposal is temporary; curtilage and setting effects can still require consent.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback rights for temporary structures in selected locations, so the exact site designation should be checked before relying on a simpler route."
+      }
+    },
+    {
+      "town_slug": "reigate-and-banstead",
+      "last_verified": "2026-01",
+      "permitted_development": "The word temporary does not settle the planning position. What matters is how long the structure remains, how fixed it is and what activity it supports. In Reigate and Banstead, duration is only part of the story; how the structure operates on the ground often matters just as much.",
+      "rules": {
+        "height_rules": "No single height rule solves a temporary-building case; once the structure becomes tall or visually heavy, the temporary argument usually weakens fast. In Reigate and Banstead, keeping the structure visibly lightweight and below surrounding fence or eaves lines usually helps far more than pushing for extra height.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "At the boundary, temporary structures are often judged by how they behave: access, queues, deliveries, lighting and neighbour impact. In Reigate and Banstead, even a genuinely short-term structure can become difficult where it crowds boundaries or disrupts ordinary access and outlook.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "A temporary structure in a conservation area still has to look genuinely temporary, stay visually quiet and avoid cluttering the historic setting.",
+        "listed_building": "A listed building does not lose protection just because the proposal is temporary; curtilage and setting effects can still require consent.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still narrow the temporary-building route for a specific site or area."
+      }
+    },
+    {
+      "town_slug": "runnymede",
+      "last_verified": "2026-01",
+      "permitted_development": "A temporary building is not exempt simply because it will be removed later. The planning answer depends on duration, degree of permanence, use and whether any specific temporary-use right applies. In Runnymede, the big questions are how long the structure stays, whether it behaves like a permanent outbuilding and what extra activity it introduces.",
+      "rules": {
+        "height_rules": "No single height rule solves a temporary-building case; once the structure becomes tall or visually heavy, the temporary argument usually weakens fast. In Runnymede, once the structure rises above the obvious domestic reference points around it, the temporary argument becomes harder to sustain.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "The harder boundary questions are usually operational: how people arrive, where vehicles stop, what neighbours hear and how visible the structure becomes at the plot edge. In Runnymede, even a genuinely short-term structure can become difficult where it crowds boundaries or disrupts ordinary access and outlook.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "A temporary structure in a conservation area still has to look genuinely temporary, stay visually quiet and avoid cluttering the historic setting.",
+        "listed_building": "Temporary works affecting a listed building, its curtilage or its setting can still need listed building consent and separate planning review.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still narrow the temporary-building route for a specific site or area."
+      }
+    },
+    {
+      "town_slug": "spelthorne",
+      "last_verified": "2026-01",
+      "permitted_development": "A temporary building is not exempt simply because it will be removed later. The planning answer depends on duration, degree of permanence, use and whether any specific temporary-use right applies. In Spelthorne, the temporary case usually weakens when the structure starts to look permanent in both appearance and day-to-day use.",
+      "rules": {
+        "height_rules": "No single height rule solves a temporary-building case; once the structure becomes tall or visually heavy, the temporary argument usually weakens fast. In Spelthorne, low, lightweight forms usually carry the temporary story much better than taller structures that start to read as permanent buildings.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "Boundary impact usually comes from traffic, servicing, noise, overlooking, crowding and visibility rather than from one simple measurement. In Spelthorne, the site edge is usually tested by how much openness and domestic breathing room the temporary structure takes away.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "A temporary structure in a conservation area still has to look genuinely temporary, stay visually quiet and avoid cluttering the historic setting.",
+        "listed_building": "Where a temporary structure affects a listed building or its setting, the heritage route usually needs to be checked alongside the ordinary planning position.",
+        "article4_applies": true,
+        "article4_notes": "This authority already records tighter local control in parts of its area, so the exact site designation should be checked before relying on a simpler temporary-building route."
+      }
+    },
+    {
+      "town_slug": "surrey-heath",
+      "last_verified": "2026-01",
+      "permitted_development": "The word temporary does not settle the planning position. What matters is how long the structure remains, how fixed it is and what activity it supports. In Surrey Heath, duration is only part of the story; how the structure operates on the ground often matters just as much.",
+      "rules": {
+        "height_rules": "No single height rule solves a temporary-building case; once the structure becomes tall or visually heavy, the temporary argument usually weakens fast. In Surrey Heath, keeping the structure visibly lightweight and below surrounding fence or eaves lines usually helps far more than pushing for extra height.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "Boundary impact usually comes from traffic, servicing, noise, overlooking, crowding and visibility rather than from one simple measurement. In Surrey Heath, even a genuinely short-term structure can become difficult where it crowds boundaries or disrupts ordinary access and outlook.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "Even short-term structures can be difficult in a conservation area if they add visual clutter or interrupt an established historic scene.",
+        "listed_building": "Temporary works affecting a listed building, its curtilage or its setting can still need listed building consent and separate planning review.",
+        "article4_applies": false,
+        "article4_notes": "Even short-term structures can lose the easier planning route where an Article 4 direction removes the normal fallback for that site."
+      }
+    },
+    {
+      "town_slug": "tandridge",
+      "last_verified": "2026-01",
+      "permitted_development": "A temporary building is not exempt simply because it will be removed later. The planning answer depends on duration, degree of permanence, use and whether any specific temporary-use right applies. In Tandridge, duration is only part of the story; how the structure operates on the ground often matters just as much.",
+      "rules": {
+        "height_rules": "No single height rule solves a temporary-building case; once the structure becomes tall or visually heavy, the temporary argument usually weakens fast. In Tandridge, once the structure rises above the obvious domestic reference points around it, the temporary argument becomes harder to sustain.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "The harder boundary questions are usually operational: how people arrive, where vehicles stop, what neighbours hear and how visible the structure becomes at the plot edge. In Tandridge, even a genuinely short-term structure can become difficult where it crowds boundaries or disrupts ordinary access and outlook.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "Even short-term structures can be difficult in a conservation area if they add visual clutter or interrupt an established historic scene.",
+        "listed_building": "Where a temporary structure affects a listed building or its setting, the heritage route usually needs to be checked alongside the ordinary planning position.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still narrow the temporary-building route for a specific site or area."
+      }
+    },
+    {
+      "town_slug": "waverley",
+      "last_verified": "2026-01",
+      "permitted_development": "The word temporary does not settle the planning position. What matters is how long the structure remains, how fixed it is and what activity it supports. In Waverley, duration is only part of the story; how the structure operates on the ground often matters just as much.",
+      "rules": {
+        "height_rules": "Height for a temporary building is judged through bulk, visibility and whether the structure still reads as genuinely short-term rather than semi-permanent. In Waverley, once the structure rises above the obvious domestic reference points around it, the temporary argument becomes harder to sustain.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "Boundary impact usually comes from traffic, servicing, noise, overlooking, crowding and visibility rather than from one simple measurement. In Waverley, the site edge is usually tested by how much openness and domestic breathing room the temporary structure takes away.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually means temporary buildings are judged closely on visibility, reversibility and how little they disturb the host setting.",
+        "listed_building": "A listed building does not lose protection just because the proposal is temporary; curtilage and setting effects can still require consent.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still narrow the temporary-building route for a specific site or area."
+      }
+    },
+    {
+      "town_slug": "woking",
+      "last_verified": "2026-01",
+      "permitted_development": "A temporary building is not exempt simply because it will be removed later. The planning answer depends on duration, degree of permanence, use and whether any specific temporary-use right applies. In Woking, the temporary case usually weakens when the structure starts to look permanent in both appearance and day-to-day use.",
+      "rules": {
+        "height_rules": "No single height rule solves a temporary-building case; once the structure becomes tall or visually heavy, the temporary argument usually weakens fast. In Woking, once the structure rises above the obvious domestic reference points around it, the temporary argument becomes harder to sustain.",
+        "depth_rules": "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+        "boundary_rules": "The harder boundary questions are usually operational: how people arrive, where vehicles stop, what neighbours hear and how visible the structure becomes at the plot edge. In Woking, access, parking, overlooking and loss of openness are often the practical boundary issues.",
+        "roof_rules": "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+        "materials_rules": "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. The more fixed, serviced and visually dominant the structure becomes, the harder it is to rely on a temporary argument."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually means temporary buildings are judged closely on visibility, reversibility and how little they disturb the host setting.",
+        "listed_building": "Temporary works affecting a listed building, its curtilage or its setting can still need listed building consent and separate planning review.",
+        "article4_applies": false,
+        "article4_notes": "Even short-term structures can lose the easier planning route where an Article 4 direction removes the normal fallback for that site."
+      }
+    }
+  ]
+}

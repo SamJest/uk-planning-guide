@@ -1,0 +1,80 @@
+{
+  "defaults": {
+    "permitted_development": "In England, converting an existing cellar or basement into living space is usually a planning-free project if the work stays largely internal and does not create a separate unit or materially alter the external appearance. New excavation, new lightwells, major frontage changes or a self-contained flat are much more likely to need planning permission.",
+    "rules": {
+      "height_rules": "There is no standard basement-conversion height allowance where the work is internal below ground. Planning height issues usually arise only if the scheme adds visible above-ground structures such as railings, enclosures, rooflights or linked extensions.",
+      "depth_rules": "Converting an existing basement is usually simpler than creating a new one. Excavating to form a wholly new basement or extending the basement beyond the existing footprint commonly triggers planning permission because it changes the building and the site much more substantially.",
+      "boundary_rules": "Front lightwells, external stairs, railings, retaining structures and excavation close to neighbours can make a basement scheme planning-sensitive even where most of the accommodation sits below ground.",
+      "roof_rules": "Roof alterations are not usually the defining planning issue for a basement conversion unless the scheme is bundled with wider remodelling or extension work. Any linked roof changes should be checked separately.",
+      "materials_rules": "The main planning focus is usually on visible external changes such as lightwell walls, steps, balustrades, railings and new openings. These details should sit comfortably with the house and street scene, especially on front elevations and in conservation areas."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Mostly internal work is usually the key distinction",
+      "intro": "Basement conversions do not have a simple above-ground height code. The main planning question is whether the works stay largely hidden or start to create visible new built form.",
+      "rules": [
+        "Converting an existing cellar or basement is usually the simplest route where the work stays internal.",
+        "There is no separate planning height allowance for a basement conversion as such.",
+        "Height usually becomes relevant only when the project adds visible above-ground structures or is tied to a wider extension.",
+        "Prominent railings, enclosures, canopies or access structures can change the planning position even where most of the accommodation is below ground."
+      ],
+      "details": "A below-ground project can still become planning-sensitive if apparently minor external features start to add visible bulk or alter the frontage. The more the project reads from the street, the less it behaves like a simple internal conversion.",
+      "exceptions": "Where a basement proposal introduces noticeable above-ground built form, it is more likely to need planning permission than a conversion contained within the existing shell."
+    },
+    "depth_rules": {
+      "title": "Existing basement versus new excavation",
+      "intro": "The biggest planning divide with basements is not a set measurement but whether the scheme reuses existing space or digs new space.",
+      "rules": [
+        "Converting an existing basement or cellar is usually simpler than creating a new basement from scratch.",
+        "Extending a basement beneath the garden or beyond the existing footprint commonly raises a fuller planning question.",
+        "Excavation that changes ground levels, retaining structures or external appearance is more likely to need permission.",
+        "Creating a separate residential unit below the house is a different planning proposition from enlarging family accommodation."
+      ],
+      "details": "The practical split is between reuse and excavation. Reworking an existing cellar is often dealt with as internal alteration, whereas digging a new basement or materially extending one changes ground levels, structure and external appearance and usually moves the scheme onto the planning route.",
+      "exceptions": "A new or enlarged basement excavation will often need planning permission even where a straightforward conversion of an existing cellar may not."
+    },
+    "boundary_rules": {
+      "title": "Lightwells and access features are often the visible trigger",
+      "intro": "Boundary and frontage issues are usually where basement schemes become visible to the planning authority, because those are the elements people actually see from outside the site.",
+      "rules": [
+        "Front lightwells and external stairs are usually more planning-sensitive than rear ones.",
+        "Retaining walls, railings, grilles and lowered ground levels can all affect neighbour amenity and the street scene.",
+        "Excavation close to neighbouring structures can raise additional design and impact concerns.",
+        "A largely hidden basement can still need permission if the access and boundary treatment are too prominent."
+      ],
+      "details": "Many basement schemes are judged less by the room layout below ground than by the visibility and effect of the access, enclosure and excavation at the surface. Those features should be treated as the real planning front line.",
+      "exceptions": "Visible boundary alterations, especially on front elevations or close to neighbours, make a basement conversion more likely to require planning permission."
+    },
+    "roof_rules": {
+      "title": "Linked roof changes should be checked separately",
+      "intro": "Roof works are not usually inherent to a basement conversion, but they can become relevant where the basement forms part of a larger remodelling scheme.",
+      "rules": [
+        "A basement conversion does not automatically carry its own roof alteration allowance.",
+        "Any linked dormer, rooflight, lantern or extension roof change should be checked under the relevant householder rules separately.",
+        "The more the basement project is bundled with wider external works, the harder it is to treat it as a simple conversion.",
+        "Associated roof changes should be assessed on their own planning merits."
+      ],
+      "details": "The main value of this check is to avoid assuming that because the basement element looks minor, every associated alteration will be equally straightforward. Wider remodelling can change the planning picture materially.",
+      "exceptions": "Associated roof works should not be assumed to fall within the same route as the basement conversion itself."
+    },
+    "materials_rules": {
+      "title": "Visible external detailing matters most",
+      "intro": "For basement projects, materials matter most where they are actually seen: around lightwells, steps, doors, railings, windows and retaining walls.",
+      "rules": [
+        "Visible lightwell walls, railings and access stairs should be detailed to suit the house and its setting.",
+        "Front elevations usually need a more careful and restrained treatment than rear elevations.",
+        "Balustrades, grilles and retaining elements should look purposeful and not over-dominate the frontage.",
+        "External changes should support use as part of the house rather than suggesting a separate dwelling entrance."
+      ],
+      "details": "The internal fit-out may be extensive, but planning officers usually judge the scheme by the external changes visible from outside the site. The materials question is therefore mainly about the surface expression of the works.",
+      "exceptions": "A basement scheme with intrusive external detailing, or one intended to operate as a separate self-contained unit, is more likely to require planning permission."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Basement works in conservation areas can face much closer scrutiny, particularly where front lightwells, railings, excavation or changes to the frontage are involved.",
+    "listed_building": "Basement works to a listed building or within its curtilage often raise additional heritage consent issues alongside any planning assessment.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions and local policies can tighten the normal fallback position for basement works in sensitive streets or townscape areas."
+  }
+}

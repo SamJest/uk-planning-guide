@@ -1,0 +1,168 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Staffordshire, window and door work is usually simplest on the planning permission route when it stays close to like-for-like replacement and does not materially alter the size, position, appearance or privacy impact of existing openings. The route is usually strongest when the joinery change still reads as part of the original elevation rather than a wider redesign of the frontage.",
+    "rules": {
+      "height_rules": "Changing the height of openings or creating new upper-level windows is usually much more sensitive than routine replacement joinery.",
+      "depth_rules": "Projection, reveal depth and grouped opening changes can affect whether the work still reads as simple replacement rather than an elevation redesign.",
+      "boundary_rules": "Side-facing upper-floor windows, new front openings and privacy impacts often become the key local pressure points for this kind of work.",
+      "roof_rules": "If the project includes rooflights or roof-facing windows, it should be checked against the separate roof alteration route rather than treated as standard joinery replacement.",
+      "materials_rules": "Frame profile, colour, material and detailing can all matter where the building has a stronger architectural rhythm or a more sensitive setting."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "cannock-chase",
+      "last_verified": "2026-03",
+      "permitted_development": "In Cannock Chase, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Cannock Chase, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Cannock Chase feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Cannock Chase.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Cannock Chase should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Cannock Chase where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Cannock Chase often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Cannock Chase usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "east-staffordshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Staffordshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In East Staffordshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in East Staffordshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in East Staffordshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in East Staffordshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in East Staffordshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within East Staffordshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in East Staffordshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "lichfield",
+      "last_verified": "2026-03",
+      "permitted_development": "In Lichfield, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Lichfield, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Lichfield feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Lichfield.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Lichfield should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Lichfield where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Lichfield often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Lichfield usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "newcastle-under-lyme",
+      "last_verified": "2026-03",
+      "permitted_development": "In Newcastle-under-Lyme, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Newcastle-under-Lyme, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Newcastle-under-Lyme feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Newcastle-under-Lyme.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Newcastle-under-Lyme should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Newcastle-under-Lyme where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Newcastle-under-Lyme often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Newcastle-under-Lyme usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "south-staffordshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In South Staffordshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In South Staffordshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in South Staffordshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in South Staffordshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in South Staffordshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in South Staffordshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within South Staffordshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in South Staffordshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "stafford",
+      "last_verified": "2026-03",
+      "permitted_development": "In Stafford, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Stafford, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Stafford feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Stafford.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Stafford should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Stafford where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Stafford often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Stafford usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "staffordshire-moorlands",
+      "last_verified": "2026-03",
+      "permitted_development": "In Staffordshire Moorlands, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Staffordshire Moorlands, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Staffordshire Moorlands feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Staffordshire Moorlands.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Staffordshire Moorlands should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Staffordshire Moorlands where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Staffordshire Moorlands often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Staffordshire Moorlands usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "tamworth",
+      "last_verified": "2026-03",
+      "permitted_development": "In Tamworth, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Tamworth, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Tamworth feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Tamworth.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Tamworth should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Tamworth where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Tamworth often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Tamworth usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "stoke-on-trent",
+      "last_verified": "2026-03",
+      "permitted_development": "In Stoke-on-Trent, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Stoke-on-Trent, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Stoke-on-Trent feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Stoke-on-Trent.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Stoke-on-Trent should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Stoke-on-Trent where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Stoke-on-Trent often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Stoke-on-Trent usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    }
+  ]
+}

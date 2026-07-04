@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Temporary buildings in England only benefit from narrow permitted development rights. A structure may be allowed where it is genuinely required temporarily in connection with operations on the land, or where land is used temporarily within the Part 4 time limits, but longer-term or stand-alone structures often need planning permission.",
+    "rules": {
+      "height_rules": "There is no single temporary-building height allowance that makes all proposals lawful. Height and bulk still have to be justified by the temporary purpose and the site context.",
+      "depth_rules": "Temporary use of land under Part 4 is generally limited to 28 days in a calendar year, with stricter limits for certain activities, so duration is often more important than footprint.",
+      "boundary_rules": "Noise, traffic, lighting, access and visual impact near neighbours can determine whether a temporary structure or use remains acceptable.",
+      "roof_rules": "Canopies, enclosures, plant, flues and lighting rigs can change the character of a supposedly temporary setup and may trigger fuller scrutiny.",
+      "materials_rules": "Demountable and clearly temporary construction is easier to justify than permanent-looking foundations, cladding or utility-heavy installations."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Height and Bulk of a Temporary Building",
+      "intro": "Temporary status does not remove the need for a structure to stay proportionate to its stated purpose.",
+      "rules": [
+        "A large or prominent temporary structure can still need planning permission.",
+        "Height should be no more than reasonably necessary for the temporary operation.",
+        "The more visually intrusive the structure is, the harder it is to rely on a simple temporary route.",
+        "Standalone temporary buildings are treated more cautiously than site compounds directly tied to works."
+      ],
+      "details": "Planning Portal's temporary building guidance points back to Part 4 of the GPDO rather than offering a broad free-standing size allowance. In practice, that means there is no simple national rule saying a temporary building is lawful just because it stays below a certain height. The structure has to fit the narrow permitted development category being relied on and remain proportionate to that temporary purpose.",
+      "exceptions": "Large halls, marquee-style buildings with long occupation periods and visually prominent portable buildings often need planning permission despite being described as temporary."
+    },
+    "depth_rules": {
+      "title": "Duration and Time Limits",
+      "intro": "For many temporary-use cases, the key legal test is how long the land or structure is used, not just how big it is.",
+      "rules": [
+        "Temporary use of land under Part 4 is generally limited to 28 days in total in a calendar year.",
+        "Only 14 of those days may be used for a market or motor sports activities.",
+        "Moveable structures are only allowed insofar as they are for the permitted temporary use.",
+        "A longer occupation period usually needs planning permission or another specific route."
+      ],
+      "details": "The Planning Portal FAQ highlights Part 4 of the GPDO, and the temporary use of land right under that Part is generally capped at 28 days in a calendar year, with a tighter 14-day limit for markets and motor sports. That is why many short events can proceed while a seemingly modest structure left in place for longer cannot. Duration is often the deciding factor.",
+      "exceptions": "Caravan sites, pop-up campsites, schools and other specialist temporary uses can be subject to different or additional rules and should not be assumed to fit the general 28-day route."
+    },
+    "boundary_rules": {
+      "title": "Neighbour Impact and Site Position",
+      "intro": "Temporary does not mean impact-free, especially near residential or sensitive boundaries.",
+      "rules": [
+        "Noise, late activity and traffic can make a temporary use unacceptable.",
+        "Lighting and generator noise are common boundary issues.",
+        "Access and servicing arrangements should match the short-term nature of the use.",
+        "Temporary buildings close to neighbours can still need a formal application."
+      ],
+      "details": "Temporary structures often look lightweight on paper but can still create real amenity issues. Marquees, cabins, welfare units, event structures and compounds can generate noise, light spill, parking pressure and servicing activity. The shorter time period helps, but it does not eliminate the planning impact if the structure is badly placed or the activity level is high.",
+      "exceptions": "Sensitive sites, conservation areas and residential edge-of-site locations are more likely to need a formal permission even for short-lived structures."
+    },
+    "roof_rules": {
+      "title": "Canopies, Enclosures and Roof-Mounted Equipment",
+      "intro": "Extra coverings and rooftop equipment can make a temporary setup look and function more like permanent development.",
+      "rules": [
+        "Canopies and roofed enclosures should stay proportionate to the temporary use.",
+        "Extract flues, lighting masts and plant can create separate planning impacts.",
+        "Weatherproofing details should not turn a short-term structure into a quasi-permanent building.",
+        "The more fixed services a structure needs, the harder it is to argue it is genuinely temporary."
+      ],
+      "details": "A basic temporary structure may be manageable under a narrow permitted development route, but once the proposal adds roof plant, extraction, significant lighting or heavy enclosure works, the character of the development changes. Authorities often look at what is actually being created on the ground, not just the label attached to it. Apparent temporary works can therefore drift into a more permanent planning exercise quite quickly.",
+      "exceptions": "Where a structure needs substantial service connections, rooftop equipment or long-term weatherproofed occupation, planning permission is often required."
+    },
+    "materials_rules": {
+      "title": "Construction Method and Temporary Character",
+      "intro": "The way a structure is built often says more about whether it is truly temporary than the name used for it.",
+      "rules": [
+        "Demountable construction is easier to support than permanent masonry or heavily founded works.",
+        "Simple finishes and reversible fixings better reflect a temporary purpose.",
+        "Heavy cladding, utility trenches and permanent bases undermine a temporary argument.",
+        "Temporary buildings should be removable without leaving major permanent change behind."
+      ],
+      "details": "Temporary development rights are easier to justify where the structure is obviously short-term, demountable and tied to a limited operation. Once the proposal includes slab foundations, heavy cladding, extensive services or a built form that reads as permanent, it becomes much harder to rely on a temporary route. The planning question is about the real character of the development, not just the applicant's description.",
+      "exceptions": "Permanent-looking installations, even if described as portable or seasonal, often need planning permission."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Within a conservation area, even a short-term structure can need permission if its siting, visibility or appearance harms the character of the area.",
+    "listed_building": "A temporary structure within or near the curtilage of a listed building can still need listed building consent or planning permission depending on its siting and effect on the heritage asset.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove fallback rights for temporary structures or temporary land uses in selected locations, so the exact designation should be checked before relying on Part 4."
+  }
+}

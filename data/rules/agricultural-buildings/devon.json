@@ -1,0 +1,195 @@
+{
+    "defaults":  {
+                     "last_verified":  "2026-04",
+                     "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but many schemes still require prior approval on siting, design and external appearance. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                     "rules":  {
+                                   "height_rules":  "For many Part 6 schemes the overall height should not exceed 12m, with much tighter limits near safeguarded aerodromes. Ridge height, eaves height and roof pitch all need checking before assuming the right applies.",
+                                   "depth_rules":  "There is no householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the agricultural unit rather than becoming an oversized industrial shed.",
+                                   "boundary_rules":  "Agricultural buildings should not be sited so close to roads, homes or other sensitive neighbours that traffic, odour, noise or visual impact becomes unacceptable. Proximity to classified roads and protected buildings can limit or remove the Part 6 route. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                                   "roof_rules":  "Roof form is judged through overall height, bulk and any prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which a farm building stops looking acceptable in the landscape.",
+                                   "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in the rural landscape rather than reading as commercial cladding. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important."
+                               }
+                 },
+    "rules":  [
+                  {
+                      "town_slug":  "east-devon",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                      "rules":  {
+                                    "height_rules":  "In East Devon, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "exeter",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed.",
+                      "rules":  {
+                                    "height_rules":  "In Exeter, the headline 12m ceiling is only part of the story; on the urban fringe a tall ridge can quickly look like industrial bulk rather than working farm development.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  ": You do not need planning permission to carry out internal alterations to buildings, however if the building is listed you are likely to require listed building consent. If you wish to extend or make external alterations to listed buildings you will require planning permission (unless the proposed development is classed as permitted development under the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended)) and listed building consent, and a dual application will be necessary. You can",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "mid-devon",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                      "rules":  {
+                                    "height_rules":  "In Mid Devon, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-devon",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                      "rules":  {
+                                    "height_rules":  "In North Devon, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-hams",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                      "rules":  {
+                                    "height_rules":  "In South Hams, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "teignbridge",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                      "rules":  {
+                                    "height_rules":  "In Teignbridge, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "torridge",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                      "rules":  {
+                                    "height_rules":  "In Torridge, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "west-devon",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                      "rules":  {
+                                    "height_rules":  "In West Devon, the 12m figure may be the legal ceiling for many Part 6 schemes, but the real test is whether ridge and eaves height are genuinely proportionate to the holding and its setting.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. On exposed coastal farmland, colours, roof reflectivity and sheltering from wider views are often particularly important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "plymouth",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed.",
+                      "rules":  {
+                                    "height_rules":  "In Plymouth, the headline 12m ceiling is only part of the story; on the urban fringe a tall ridge can quickly look like industrial bulk rather than working farm development.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Includes information on urban design, the High Street Heritage Action Zone, listed buildings, conservation areas, ancient monuments, historic parks and archaeology",
+                                           "listed_building":  "Includes information on urban design, the High Street Heritage Action Zone, listed buildings, conservation areas, ancient monuments, historic parks and archaeology",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  },
+                  {
+                      "town_slug":  "torbay",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "Agricultural buildings in England can benefit from Part 6 permitted development rights where the land is a genuine agricultural unit and the proposal is reasonably necessary for agriculture, but larger schemes often still go through prior approval on siting, design and external appearance. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed.",
+                      "rules":  {
+                                    "height_rules":  "In Torbay, tall ridges and shiny roofs travel across open coastal views very quickly, so keeping the building down and visually quiet usually matters more than chasing the maximum envelope.",
+                                    "depth_rules":  "There is no simple householder-style depth rule. What matters is whether the span, footprint and scale remain reasonably necessary for the unit rather than sliding into an oversized industrial shed.",
+                                    "boundary_rules":  "Buildings should not be sited so close to roads, homes or sensitive neighbours that noise, odour, traffic or visual impact becomes unacceptable. Road proximity and relationships with protected buildings can remove or limit the PD route. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed.",
+                                    "roof_rules":  "Roof form is assessed through overall height, bulk and prior-approval considerations. Large reflective roofs or bulky ridges can be the point at which an agricultural building stops looking acceptable in the landscape.",
+                                    "materials_rules":  "Use practical agricultural materials and muted colours that reduce glare and help the building sit quietly in open countryside rather than reading as commercial cladding. Even on the edge of built-up areas, the unit still has to operate as genuine agriculture and the building must read as an agricultural structure rather than a commercial shed."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Agricultural development in or near a conservation area can face closer scrutiny on siting, scale, colour and landscape impact even where Part 6 rights may exist.",
+                                           "listed_building":  "Works affecting a listed farm building, its curtilage or setting can need listed building consent and a separate planning assessment even where agricultural rights are otherwise available.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for farm development in selected locations, so the site designation should be checked before relying on Part 6."
+                                       }
+                  }
+              ]
+}

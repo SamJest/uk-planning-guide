@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Herefordshire, the ordinary householder route for a fence, wall or gate usually depends on the height and its relationship to the road: 1 metre by a vehicular highway, 2 metres elsewhere. Listed-building settings and removed rights can change that answer quickly. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Herefordshire, a boundary treatment above the relevant height limit will normally need planning permission.",
+      "depth_rules": "Across Herefordshire, a wall or fence is not assessed like an extension. The key issues are usually where it sits and how high it is, rather than how thick it is.",
+      "boundary_rules": "Across Herefordshire, front and corner boundaries often need more careful design than enclosed rear-garden boundaries.",
+      "roof_rules": "Across Herefordshire, ordinary boundary rules do not create a roof allowance. Gate canopies or covered entrance features should be checked separately.",
+      "materials_rules": "Across Herefordshire, material choice is usually a design issue rather than a standalone permitted-development test, although listed-building and conservation-area contexts can make inappropriate boundary finishes much harder to defend."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "herefordshire",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary householder route for a fence, wall or gate usually depends on the height and its relationship to the road: 1 metre by a vehicular highway, 2 metres elsewhere. Listed-building settings and removed rights can change that answer quickly. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A boundary treatment above the relevant height limit will normally need planning permission.",
+        "depth_rules": "A wall or fence is not assessed like an extension. The key issues are usually where it sits and how high it is, rather than how thick it is.",
+        "boundary_rules": "Front and corner boundaries often need more careful design than enclosed rear-garden boundaries.",
+        "roof_rules": "Ordinary boundary rules do not create a roof allowance. Gate canopies or covered entrance features should be checked separately.",
+        "materials_rules": "Material choice is usually a design issue rather than a standalone permitted-development test, although listed-building and conservation-area contexts can make inappropriate boundary finishes much harder to defend."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can tighten the position for boundary works, and separate consent may be needed to demolish an existing wall, fence or gate that contributes to the area's character.",
+        "listed_building": "Boundary works to or around a listed building can require listed building consent, especially where historic walls, railings, piers or gates are being altered or removed.",
+        "article4_applies": false,
+        "article4_notes": "Normal enclosure rights can be withdrawn by Article 4 directions or by conditions on the property, which is why front-boundary work sometimes still needs an application."
+      }
+    }
+  ]
+}

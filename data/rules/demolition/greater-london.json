@@ -1,0 +1,609 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Greater London, demolition is controlled by the GPDO and heritage legislation rather than treated as a free-standing general right. The route depends on what is being removed, whether Part 11 applies and whether the building or site is protected.",
+    "rules": {
+      "height_rules": "There is no demolition height allowance. Height matters because it affects method, sequencing, temporary works, visibility and the risk posed to adjoining land and buildings.",
+      "depth_rules": "There is no separate depth rule. Partial demolition and demolition tied to rebuilding have to be judged by the real scope of the works and by what remains on site afterwards.",
+      "boundary_rules": "Across Greater London, the practical boundary issues are usually neighbour safety, party structures, plant access, hoarding, highway occupation and the stability of anything left standing next door.",
+      "roof_rules": "Roof removal is not automatically a clean separate step. Once it forms part of wider demolition, heritage, structural stability and weatherproofing can alter the planning route.",
+      "materials_rules": "Salvage, asbestos, dust, waste removal and making good exposed faces are usually the live practical issues. Separate health, safety and building-control duties remain in play even where the planning route is clear."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "barking-and-dagenham",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Barking and Dagenham, the seemingly simple question of removal often turns into a combined exercise in status-checking, neighbour protection and site logistics.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Barking and Dagenham, once a structure gains height, the method statement and neighbour-protection story become much more important.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Barking and Dagenham, boundary planning usually turns on how the works will be contained without damaging adjoining homes or access arrangements.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback demolition rights in selected locations, so the exact site designation should be checked before assuming a prior-approval or permitted route exists."
+      }
+    },
+    {
+      "town_slug": "barnet",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Barnet, demolition tends to become complicated where adjoining homes, shared access or visible street positions raise the stakes.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Barnet, height mainly matters because it changes demolition method, neighbour risk and how visible the works will be from the street.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Barnet, the site edge usually becomes difficult where plant access, neighbour safety and existing domestic structures all compete for space.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback demolition rights in selected locations, so the exact site designation should be checked before assuming a prior-approval or permitted route exists."
+      }
+    },
+    {
+      "town_slug": "bexley",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Bexley, the practical tests are usually what is being removed, how close neighbours sit to it and whether highways or heritage controls are in play.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Bexley, taller elements usually bring more concern about scaffold, sequencing and the margin for safe work beside neighbours.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Bexley, shared drives, side access and protection of neighbouring fences, garages and homes are often the hardest boundary issues.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "brent",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Brent, demolition tends to become complicated where adjoining homes, shared access or visible street positions raise the stakes.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Brent, taller elements usually bring more concern about scaffold, sequencing and the margin for safe work beside neighbours.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Brent, shared drives, side access and protection of neighbouring fences, garages and homes are often the hardest boundary issues.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback demolition rights in selected locations, so the exact site designation should be checked before assuming a prior-approval or permitted route exists."
+      }
+    },
+    {
+      "town_slug": "bromley",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Bromley, rural or edge-of-settlement demolition often turns on whether the structure is more protected than it first appears.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Bromley, once the building is tall enough to need significant plant or support, the demolition case becomes much more involved.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Bromley, the boundary issue is often less about a fence line and more about what adjoining land, buildings or heritage features need protecting.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback demolition rights in selected locations, so the exact site designation should be checked before assuming a prior-approval or permitted route exists."
+      }
+    },
+    {
+      "town_slug": "camden",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Camden, it is safer to assume early checks on heritage status, adjoining buildings and site logistics than to treat demolition as routine clearance.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Camden, height tends to matter because it drives the complexity of access, support and the order in which the structure comes down.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Camden, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "city-of-london",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In City of London, the first task is usually to confirm exactly what protection applies and how the site can actually be worked safely.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In City of London, taller or party-boundary structures usually create more concern about sequencing, temporary works and protection of adjoining buildings.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In City of London, access for machinery and protection of adjoining structures often dominate the boundary discussion from the outset.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "croydon",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Croydon, the practical tests are usually what is being removed, how close neighbours sit to it and whether highways or heritage controls are in play.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Croydon, height mainly matters because it changes demolition method, neighbour risk and how visible the works will be from the street.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Croydon, boundary planning usually turns on how the works will be contained without damaging adjoining homes or access arrangements.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "ealing",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Ealing, the seemingly simple question of removal often turns into a combined exercise in status-checking, neighbour protection and site logistics.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Ealing, taller elements usually bring more concern about scaffold, sequencing and the margin for safe work beside neighbours.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In Ealing, shared drives, side access and protection of neighbouring fences, garages and homes are often the hardest boundary issues.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": true,
+        "article4_notes": "Because local Article 4 controls operate here, any fallback demolition route should be verified against the exact site designation first."
+      }
+    },
+    {
+      "town_slug": "enfield",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Enfield, demolition tends to become complicated where adjoining homes, shared access or visible street positions raise the stakes.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Enfield, taller elements usually bring more concern about scaffold, sequencing and the margin for safe work beside neighbours.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Enfield, shared drives, side access and protection of neighbouring fences, garages and homes are often the hardest boundary issues.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "greenwich",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Greenwich, demolition tends to become complicated where adjoining homes, shared access or visible street positions raise the stakes.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Greenwich, once a structure gains height, the method statement and neighbour-protection story become much more important.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Greenwich, boundary planning usually turns on how the works will be contained without damaging adjoining homes or access arrangements.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "hackney",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is controlled through the GPDO and heritage law, not treated as an uncomplicated general right. In Hackney, demolition is often more about due diligence and sequencing than about brute-force removal.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Hackney, the main issue with taller demolition is usually not principle but whether the works can be staged safely beside other structures.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Hackney, access for machinery and protection of adjoining structures often dominate the boundary discussion from the outset.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": true,
+        "article4_notes": "This authority already records tighter local control in parts of its area, so the exact site designation should be checked before assuming a simpler demolition route applies."
+      }
+    },
+    {
+      "town_slug": "hammersmith-and-fulham",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Hammersmith and Fulham, it is safer to assume early checks on heritage status, adjoining buildings and site logistics than to treat demolition as routine clearance.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Hammersmith and Fulham, taller or party-boundary structures usually create more concern about sequencing, temporary works and protection of adjoining buildings.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In Hammersmith and Fulham, access for machinery and protection of adjoining structures often dominate the boundary discussion from the outset.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "haringey",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Haringey, the first task is usually to confirm exactly what protection applies and how the site can actually be worked safely.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Haringey, the main issue with taller demolition is usually not principle but whether the works can be staged safely beside other structures.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Haringey, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": true,
+        "article4_notes": "This authority already records tighter local control in parts of its area, so the exact site designation should be checked before assuming a simpler demolition route applies."
+      }
+    },
+    {
+      "town_slug": "harrow",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Harrow, demolition tends to become complicated where adjoining homes, shared access or visible street positions raise the stakes.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Harrow, height mainly matters because it changes demolition method, neighbour risk and how visible the works will be from the street.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In Harrow, the site edge usually becomes difficult where plant access, neighbour safety and existing domestic structures all compete for space.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback demolition rights in selected locations, so the exact site designation should be checked before assuming a prior-approval or permitted route exists."
+      }
+    },
+    {
+      "town_slug": "havering",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Havering, demolition near listed settings, converted barns or open countryside edges usually needs careful status and curtilage checks first.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Havering, taller agricultural or outbuilding structures raise extra questions about safe dismantling and visual impact while the works are under way.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In Havering, the boundary issue is often less about a fence line and more about what adjoining land, buildings or heritage features need protecting.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "hillingdon",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Hillingdon, the risk is often assuming a structure is expendable when its heritage setting or curtilage status says otherwise.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Hillingdon, taller agricultural or outbuilding structures raise extra questions about safe dismantling and visual impact while the works are under way.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Hillingdon, the boundary issue is often less about a fence line and more about what adjoining land, buildings or heritage features need protecting.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": true,
+        "article4_notes": "This authority already records tighter local control in parts of its area, so the exact site designation should be checked before assuming a simpler demolition route applies."
+      }
+    },
+    {
+      "town_slug": "hounslow",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is controlled through the GPDO and heritage law, not treated as an uncomplicated general right. In Hounslow, the seemingly simple question of removal often turns into a combined exercise in status-checking, neighbour protection and site logistics.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Hounslow, taller elements usually bring more concern about scaffold, sequencing and the margin for safe work beside neighbours.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Hounslow, boundary planning usually turns on how the works will be contained without damaging adjoining homes or access arrangements.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "islington",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Islington, it is safer to assume early checks on heritage status, adjoining buildings and site logistics than to treat demolition as routine clearance.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Islington, the main issue with taller demolition is usually not principle but whether the works can be staged safely beside other structures.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In Islington, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "kensington-and-chelsea",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Kensington and Chelsea, the first task is usually to confirm exactly what protection applies and how the site can actually be worked safely.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Kensington and Chelsea, the main issue with taller demolition is usually not principle but whether the works can be staged safely beside other structures.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Kensington and Chelsea, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "kingston-upon-thames",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Kingston upon Thames, rural or edge-of-settlement demolition often turns on whether the structure is more protected than it first appears.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Kingston upon Thames, once the building is tall enough to need significant plant or support, the demolition case becomes much more involved.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Kingston upon Thames, edge-of-settlement sites usually have to show clearly how adjoining land and any protected setting will stay secure during the works.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback demolition rights in selected locations, so the exact site designation should be checked before assuming a prior-approval or permitted route exists."
+      }
+    },
+    {
+      "town_slug": "lambeth",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Lambeth, demolition is often more about due diligence and sequencing than about brute-force removal.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Lambeth, height tends to matter because it drives the complexity of access, support and the order in which the structure comes down.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Lambeth, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "lewisham",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is controlled through the GPDO and heritage law, not treated as an uncomplicated general right. In Lewisham, the first task is usually to confirm exactly what protection applies and how the site can actually be worked safely.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Lewisham, the main issue with taller demolition is usually not principle but whether the works can be staged safely beside other structures.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In Lewisham, the real boundary question is often whether the site can be managed safely and cleanly enough at very close quarters.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": true,
+        "article4_notes": "Because local Article 4 controls operate here, any fallback demolition route should be verified against the exact site designation first."
+      }
+    },
+    {
+      "town_slug": "merton",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is controlled through the GPDO and heritage law, not treated as an uncomplicated general right. In Merton, demolition tends to become complicated where adjoining homes, shared access or visible street positions raise the stakes.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Merton, height mainly matters because it changes demolition method, neighbour risk and how visible the works will be from the street.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Merton, shared drives, side access and protection of neighbouring fences, garages and homes are often the hardest boundary issues.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "newham",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Newham, the first task is usually to confirm exactly what protection applies and how the site can actually be worked safely.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Newham, height tends to matter because it drives the complexity of access, support and the order in which the structure comes down.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Newham, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "redbridge",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Redbridge, the practical tests are usually what is being removed, how close neighbours sit to it and whether highways or heritage controls are in play.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Redbridge, once a structure gains height, the method statement and neighbour-protection story become much more important.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In Redbridge, the site edge usually becomes difficult where plant access, neighbour safety and existing domestic structures all compete for space.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "richmond-upon-thames",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Richmond upon Thames, the risk is often assuming a structure is expendable when its heritage setting or curtilage status says otherwise.",
+      "rules": {
+        "height_rules": "For demolition, height is a practical issue rather than a permitted envelope: taller structures usually mean more complex sequencing and greater neighbour impact. In Richmond upon Thames, taller agricultural or outbuilding structures raise extra questions about safe dismantling and visual impact while the works are under way.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Richmond upon Thames, the boundary focus is often on access routes, adjoining land stability and protection of nearby homes or heritage assets.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "southwark",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Southwark, the first task is usually to confirm exactly what protection applies and how the site can actually be worked safely.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Southwark, height tends to matter because it drives the complexity of access, support and the order in which the structure comes down.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "At boundaries, demolition cases are usually about plant access, protection of adjoining land and how safely the works can be contained. In Southwark, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "sutton",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Sutton, rural or edge-of-settlement demolition often turns on whether the structure is more protected than it first appears.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Sutton, taller agricultural or outbuilding structures raise extra questions about safe dismantling and visual impact while the works are under way.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Sutton, the boundary focus is often on access routes, adjoining land stability and protection of nearby homes or heritage assets.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "tower-hamlets",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Tower Hamlets, the first task is usually to confirm exactly what protection applies and how the site can actually be worked safely.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Tower Hamlets, taller or party-boundary structures usually create more concern about sequencing, temporary works and protection of adjoining buildings.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Tower Hamlets, access for machinery and protection of adjoining structures often dominate the boundary discussion from the outset.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "waltham-forest",
+      "last_verified": "2026-01",
+      "permitted_development": "Demolition is not automatically free-standing permitted development; the type of structure and its planning or heritage status usually decide the route. In Waltham Forest, the seemingly simple question of removal often turns into a combined exercise in status-checking, neighbour protection and site logistics.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Waltham Forest, once a structure gains height, the method statement and neighbour-protection story become much more important.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "Boundary issues usually centre on access, hoarding, neighbour safety, party structures and the stability of anything adjoining the site. In Waltham Forest, the site edge usually becomes difficult where plant access, neighbour safety and existing domestic structures all compete for space.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in a conservation area is not treated lightly; the structure's contribution to character and the case for removal normally need to be clear from the outset.",
+        "listed_building": "Listed status fundamentally changes the demolition route: consent is usually required where the structure contributes to the listed building or its curtilage.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the normal demolition fallback is untouched everywhere: Article 4 controls can still narrow or remove it on specific sites."
+      }
+    },
+    {
+      "town_slug": "wandsworth",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Wandsworth, demolition is often more about due diligence and sequencing than about brute-force removal.",
+      "rules": {
+        "height_rules": "Height is relevant only because it affects demolition method, temporary works and the level of risk posed to neighbours and the highway. In Wandsworth, the main issue with taller demolition is usually not principle but whether the works can be staged safely beside other structures.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Wandsworth, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can move demolition onto a much tighter footing, especially where the building or enclosure contributes to the setting.",
+        "listed_building": "Demolition of a listed building, or of a structure protected as part of it, needs listed building consent and should never be treated as routine clearance.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction can still disapply the simpler demolition route for the exact site."
+      }
+    },
+    {
+      "town_slug": "westminster",
+      "last_verified": "2026-01",
+      "permitted_development": "With demolition, the legal route depends on what is being taken down, whether Part 11 applies and whether any heritage protection cuts across it. In Westminster, the first task is usually to confirm exactly what protection applies and how the site can actually be worked safely.",
+      "rules": {
+        "height_rules": "There is no demolition height allowance. Height matters because it changes risk, method and the visibility of the works. In Westminster, taller or party-boundary structures usually create more concern about sequencing, temporary works and protection of adjoining buildings.",
+        "depth_rules": "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+        "boundary_rules": "The harder boundary questions are often about hoarding, access routes, adjoining structures and what protection nearby occupiers will actually get during the works. In Westminster, hoarding, plant access, dust control and the safety of adjoining buildings are usually the practical boundary constraints.",
+        "roof_rules": "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+        "materials_rules": "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. In built-up areas, highway safety, party-wall relationships and protection of neighbours usually dominate the practical planning discussion."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, demolition usually attracts close scrutiny on heritage value, public impact and whether loss of the structure is properly justified.",
+        "listed_building": "If the structure is listed, or protected by curtilage listing, demolition sits on a listed building consent footing rather than an ordinary demolition route.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove fallback demolition rights in selected locations, so the exact site designation should be checked before assuming a prior-approval or permitted route exists."
+      }
+    }
+  ]
+}

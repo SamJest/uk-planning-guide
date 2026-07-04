@@ -1,0 +1,51 @@
+{
+    "defaults":  {
+                     "last_verified":  "2026-04",
+                     "permitted_development":  "A wraparound extension in England only stays within permitted development if the side and rear elements both satisfy Class A at the same time. In practice, many wraparound layouts need planning permission because the combined footprint, width or boundary effect stops the scheme being a simple side or rear addition. In villages and open-edge settings, bulk, roof form and how the addition sits in wider views often matter as much as the headline measurements.",
+                     "rules":  {
+                                   "height_rules":  "Single-storey wraparound elements should stay within the usual Class A height limits, with particular care on the side return where the 3m eaves rule can apply close to a boundary.",
+                                   "depth_rules":  "The rear leg must meet the normal rear-extension depth rules, while the side leg still has to remain subordinate to the original house. One part of the design cannot compensate for the other.",
+                                   "boundary_rules":  "Boundary relationships matter on both arms of a wraparound extension. The side return is often the tightest point, while the rear corner can create a stronger overbearing effect than a straight rear wall of the same depth. In villages and open-edge settings, bulk, roof form and how the addition sits in wider views often matter as much as the headline measurements.",
+                                   "roof_rules":  "Keep the roof simple and subordinate. A joined-up roof that creates a bulky mass around the rear corner is less likely to stay within the simpler householder route.",
+                                   "materials_rules":  "Use materials that match or sit comfortably with the existing house so the combined side-and-rear form does not read as an oversized add-on. In villages and open-edge settings, bulk, roof form and how the addition sits in wider views often matter as much as the headline measurements."
+                               }
+                 },
+    "rules":  [
+                  {
+                      "town_slug":  "shropshire",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Shropshire, wraparound additions often fail not on raw floor area but because they start to read as a near-rebuild wrapped around the original house rather than as a clearly subordinate pair of additions.",
+                      "rules":  {
+                                    "height_rules":  "In Shropshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "The rear leg still has to meet the normal rear-extension depth rules, and the side leg must remain proportionate to the original house. A wraparound layout cannot borrow tolerance from one element to excuse the other.",
+                                    "boundary_rules":  "In Shropshire, the harder boundary issue is often the length of built form around the plot edge and how much of the house starts reading as new build rather than as subordinate extension work.",
+                                    "roof_rules":  "Keep the roof simple and subordinate. Joined-up roofs that create a large boxy mass around the rear corner are more likely to need permission than a clearly secondary arrangement.",
+                                    "materials_rules":  "External materials should match or sit comfortably with the existing house so the combined side-and-rear form does not look like an overgrown add-on. In villages and open-edge settings, bulk, roof form and how the addition sits in wider views often matter as much as the headline measurements."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Extensions in a conservation area often need a tighter design and siting assessment, especially on visible elevations or where the scheme would alter roof form, frontage or the rhythm of the street.",
+                                           "listed_building":  "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for works affecting character, and planning permission may also be needed.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove the usual householder fallback route in selected streets or heritage areas, so check the property\u0027s designation before relying on permitted development."
+                                       }
+                  },
+                  {
+                      "town_slug":  "telford-and-wrekin",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Telford and Wrekin, wraparound additions often fail not on raw floor area but because they start to read as a near-rebuild wrapped around the original house rather than as a clearly subordinate pair of additions.",
+                      "rules":  {
+                                    "height_rules":  "In Telford and Wrekin, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "The rear leg still has to meet the normal rear-extension depth rules, and the side leg must remain proportionate to the original house. A wraparound layout cannot borrow tolerance from one element to excuse the other.",
+                                    "boundary_rules":  "In Telford and Wrekin, the harder boundary issue is often the length of built form around the plot edge and how much of the house starts reading as new build rather than as subordinate extension work.",
+                                    "roof_rules":  "Keep the roof simple and subordinate. Joined-up roofs that create a large boxy mass around the rear corner are more likely to need permission than a clearly secondary arrangement.",
+                                    "materials_rules":  "External materials should match or sit comfortably with the existing house so the combined side-and-rear form does not look like an overgrown add-on. In villages and open-edge settings, bulk, roof form and how the addition sits in wider views often matter as much as the headline measurements."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Extensions in a conservation area often need a tighter design and siting assessment, especially on visible elevations or where the scheme would alter roof form, frontage or the rhythm of the street.",
+                                           "listed_building":  "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for works affecting character, and planning permission may also be needed.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove the usual householder fallback route in selected streets or heritage areas, so check the property\u0027s designation before relying on permitted development."
+                                       }
+                  }
+              ]
+}

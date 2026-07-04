@@ -1,0 +1,213 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Surrey, a dropped kerb is usually governed first by highway consent rather than ordinary householder permitted development. Planning permission is more likely where the access is onto a classified road, the property is heritage-sensitive, the parking area needs major structural work or the hardstanding itself would not satisfy drainage rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Surrey, a vehicle crossing that depends on major frontage engineering may need planning permission in addition to highway consent.",
+      "depth_rules": "Across Surrey, there is no national planning depth figure for a dropped kerb, but a shallow frontage can still fail if it leaves cars overhanging the pavement or creates awkward access.",
+      "boundary_rules": "Across Surrey, the real decision point is usually at the boundary with the public highway, not on the paving inside the plot. Access geometry and road safety often matter more than the hardstanding alone.",
+      "roof_rules": "Across Surrey, car ports and canopies need their own planning check.",
+      "materials_rules": "Across Surrey, use the access and the driveway as one design problem: the parking surface should take run-off within the site and be robust enough for regular vehicle use rather than simply creating a widened opening onto the road."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "elmbridge",
+      "last_verified": "2026-04",
+      "permitted_development": "A dropped kerb is usually governed first by highway consent rather than ordinary householder permitted development. Planning permission is more likely where the access is onto a classified road, the property is heritage-sensitive, the parking area needs major structural work or the hardstanding itself would not satisfy drainage rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A vehicle crossing that depends on major frontage engineering may need planning permission in addition to highway consent.",
+        "depth_rules": "There is no national planning depth figure for a dropped kerb, but a shallow frontage can still fail if it leaves cars overhanging the pavement or creates awkward access.",
+        "boundary_rules": "The real decision point is usually at the boundary with the public highway, not on the paving inside the plot. Access geometry and road safety often matter more than the hardstanding alone.",
+        "roof_rules": "Car ports and canopies need their own planning check.",
+        "materials_rules": "Use the access and the driveway as one design problem: the parking surface should take run-off within the site and be robust enough for regular vehicle use rather than simply creating a widened opening onto the road."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, access works that disturb original walls, railings, kerb lines or planting often receive a more detailed planning and heritage check.",
+        "listed_building": "Listed building consent may be required where dropped-kerb works alter the setting or fabric of a listed building, including curtilage walls and entrance features.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the highway licence is the only approval needed: Article 4 directions and site-specific conditions can still require a planning application for linked frontage or access works."
+      }
+    },
+    {
+      "town_slug": "epsom-and-ewell",
+      "last_verified": "2026-04",
+      "permitted_development": "Lowering a kerb is not usually treated as a simple DIY householder project. The highway authority normally controls the crossing itself, and a planning application may still be needed if the site sits on a classified road or the associated hardstanding and frontage works fall outside the normal rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "There is no simple height allowance for a dropped kerb. Problems usually arise where the site needs substantial engineered level changes to make vehicle access work.",
+        "depth_rules": "Dropped kerb can be refused or need redesign where the site does not provide workable off-street parking.",
+        "boundary_rules": "Separate highway approval is normally required for a new or altered dropped kerb.",
+        "roof_rules": "A dropped kerb does not authorise a car port or canopy. Covered parking features belong under separate planning rules.",
+        "materials_rules": "Material choice matters because the crossover normally serves a driveway or hardstanding that still has to satisfy drainage and durability requirements. Permeable or well-drained surfacing is usually the safest companion to a new access."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, access works that disturb original walls, railings, kerb lines or planting often receive a more detailed planning and heritage check.",
+        "listed_building": "Listed building consent may be required where dropped-kerb works alter the setting or fabric of a listed building, including curtilage walls and entrance features.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 controls or planning conditions apply, the ordinary householder fallback for access-related works may be removed, so both planning and highways should be checked together."
+      }
+    },
+    {
+      "town_slug": "guildford",
+      "last_verified": "2026-04",
+      "permitted_development": "Lowering a kerb is not usually treated as a simple DIY householder project. The highway authority normally controls the crossing itself, and a planning application may still be needed if the site sits on a classified road or the associated hardstanding and frontage works fall outside the normal rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A vehicle crossing that depends on major frontage engineering may need planning permission in addition to highway consent.",
+        "depth_rules": "There is no national planning depth figure for a dropped kerb, but a shallow frontage can still fail if it leaves cars overhanging the pavement or creates awkward access.",
+        "boundary_rules": "The real decision point is usually at the boundary with the public highway, not on the paving inside the plot. Access geometry and road safety often matter more than the hardstanding alone.",
+        "roof_rules": "The crossover route concerns the highway edge, not covered parking or entrance structures.",
+        "materials_rules": "Material choice matters because the crossover normally serves a driveway or hardstanding that still has to satisfy drainage and durability requirements. Permeable or well-drained surfacing is usually the safest companion to a new access."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, forming a new vehicular opening can need a closer planning and heritage review where traditional walls, railings, stone kerbs, paving or trees would be altered.",
+        "listed_building": "If the access serves a listed building or involves curtilage walls, gates, piers or historic paving, listed building consent may be needed as well as any highway or planning approval.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions or planning conditions can remove the simpler householder route for access and boundary works, so the planning status should be checked before relying only on highway approval."
+      }
+    },
+    {
+      "town_slug": "mole-valley",
+      "last_verified": "2026-04",
+      "permitted_development": "The key approval for a dropped kerb is normally the council or highway authority vehicle-crossing process. Planning permission can still be needed in some cases, especially on classified roads, in conservation areas, for listed buildings or where the frontage parking arrangement is not planning-compliant. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "There is no simple height allowance for a dropped kerb. Problems usually arise where the site needs substantial engineered level changes to make vehicle access work.",
+        "depth_rules": "The linked parking space must work safely in practice. Vehicles should be able to stand clear of the footway.",
+        "boundary_rules": "The local highway authority usually controls the crossover approval route. Planning permission may still be needed on classified roads or heritage-sensitive sites.",
+        "roof_rules": "Car ports and canopies need their own planning check.",
+        "materials_rules": "Use the access and the driveway as one design problem: the parking surface should take run-off within the site and be robust enough for regular vehicle use rather than simply creating a widened opening onto the road."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, access works that disturb original walls, railings, kerb lines or planting often receive a more detailed planning and heritage check.",
+        "listed_building": "Works to form an access for a listed building often need a heritage check as well as highways approval, especially where original frontage features are affected.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or an old planning condition can remove normal householder rights for frontage and access changes, even where the dropped kerb itself still needs separate highway consent."
+      }
+    },
+    {
+      "town_slug": "reigate-and-banstead",
+      "last_verified": "2026-04",
+      "permitted_development": "A dropped kerb is usually governed first by highway consent rather than ordinary householder permitted development. Planning permission is more likely where the access is onto a classified road, the property is heritage-sensitive, the parking area needs major structural work or the hardstanding itself would not satisfy drainage rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A vehicle crossing that depends on major frontage engineering may need planning permission in addition to highway consent.",
+        "depth_rules": "The linked parking space must work safely in practice. Vehicles should be able to stand clear of the footway.",
+        "boundary_rules": "The real decision point is usually at the boundary with the public highway, not on the paving inside the plot. Access geometry and road safety often matter more than the hardstanding alone.",
+        "roof_rules": "The crossover route concerns the highway edge, not covered parking or entrance structures.",
+        "materials_rules": "Material choice matters because the crossover normally serves a driveway or hardstanding that still has to satisfy drainage and durability requirements. Permeable or well-drained surfacing is usually the safest companion to a new access."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, forming a new vehicular opening can need a closer planning and heritage review where traditional walls, railings, stone kerbs, paving or trees would be altered.",
+        "listed_building": "Works to form an access for a listed building often need a heritage check as well as highways approval, especially where original frontage features are affected.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or an old planning condition can remove normal householder rights for frontage and access changes, even where the dropped kerb itself still needs separate highway consent."
+      }
+    },
+    {
+      "town_slug": "runnymede",
+      "last_verified": "2026-04",
+      "permitted_development": "A dropped kerb is usually governed first by highway consent rather than ordinary householder permitted development. Planning permission is more likely where the access is onto a classified road, the property is heritage-sensitive, the parking area needs major structural work or the hardstanding itself would not satisfy drainage rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "There is no simple height allowance for a dropped kerb. Problems usually arise where the site needs substantial engineered level changes to make vehicle access work.",
+        "depth_rules": "The linked parking space must work safely in practice. Vehicles should be able to stand clear of the footway.",
+        "boundary_rules": "The local highway authority usually controls the crossover approval route. Planning permission may still be needed on classified roads or heritage-sensitive sites.",
+        "roof_rules": "The crossover route concerns the highway edge, not covered parking or entrance structures.",
+        "materials_rules": "The dropped kerb and the parking surface should be thought about together. If the hardstanding would shed water to the road or rely on weak surfacing, the overall proposal becomes harder to approve."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes a new access more sensitive where it removes historic boundary features or changes a traditional frontage.",
+        "listed_building": "Works to form an access for a listed building often need a heritage check as well as highways approval, especially where original frontage features are affected.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 controls or planning conditions apply, the ordinary householder fallback for access-related works may be removed, so both planning and highways should be checked together."
+      }
+    },
+    {
+      "town_slug": "spelthorne",
+      "last_verified": "2026-04",
+      "permitted_development": "The key approval for a dropped kerb is normally the council or highway authority vehicle-crossing process. Planning permission can still be needed in some cases, especially on classified roads, in conservation areas, for listed buildings or where the frontage parking arrangement is not planning-compliant. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A vehicle crossing that depends on major frontage engineering may need planning permission in addition to highway consent.",
+        "depth_rules": "The linked parking space must work safely in practice. Vehicles should be able to stand clear of the footway.",
+        "boundary_rules": "Separate highway approval is normally required for a new or altered dropped kerb.",
+        "roof_rules": "The crossover route concerns the highway edge, not covered parking or entrance structures.",
+        "materials_rules": "Use the access and the driveway as one design problem: the parking surface should take run-off within the site and be robust enough for regular vehicle use rather than simply creating a widened opening onto the road."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, forming a new vehicular opening can need a closer planning and heritage review where traditional walls, railings, stone kerbs, paving or trees would be altered.",
+        "listed_building": "Works to form an access for a listed building often need a heritage check as well as highways approval, especially where original frontage features are affected.",
+        "article4_applies": true,
+        "article4_notes": "A local Article 4 direction or an old planning condition can remove normal householder rights for frontage and access changes, even where the dropped kerb itself still needs separate highway consent."
+      }
+    },
+    {
+      "town_slug": "surrey-heath",
+      "last_verified": "2026-04",
+      "permitted_development": "Lowering a kerb is not usually treated as a simple DIY householder project. The highway authority normally controls the crossing itself, and a planning application may still be needed if the site sits on a classified road or the associated hardstanding and frontage works fall outside the normal rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A vehicle crossing that depends on major frontage engineering may need planning permission in addition to highway consent.",
+        "depth_rules": "There is no national planning depth figure for a dropped kerb, but a shallow frontage can still fail if it leaves cars overhanging the pavement or creates awkward access.",
+        "boundary_rules": "The local highway authority usually controls the crossover approval route. Planning permission may still be needed on classified roads or heritage-sensitive sites.",
+        "roof_rules": "A dropped kerb does not authorise a car port or canopy. Covered parking features belong under separate planning rules.",
+        "materials_rules": "The dropped kerb and the parking surface should be thought about together. If the hardstanding would shed water to the road or rely on weak surfacing, the overall proposal becomes harder to approve."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, access works that disturb original walls, railings, kerb lines or planting often receive a more detailed planning and heritage check.",
+        "listed_building": "A new crossing serving a listed building can need listed building consent where boundary walls, gates, steps, railings or other historic fabric are altered.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions or planning conditions can remove the simpler householder route for access and boundary works, so the planning status should be checked before relying only on highway approval."
+      }
+    },
+    {
+      "town_slug": "tandridge",
+      "last_verified": "2026-04",
+      "permitted_development": "Lowering a kerb is not usually treated as a simple DIY householder project. The highway authority normally controls the crossing itself, and a planning application may still be needed if the site sits on a classified road or the associated hardstanding and frontage works fall outside the normal rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "There is no simple height allowance for a dropped kerb. Problems usually arise where the site needs substantial engineered level changes to make vehicle access work.",
+        "depth_rules": "The linked parking space must work safely in practice. Vehicles should be able to stand clear of the footway.",
+        "boundary_rules": "The real decision point is usually at the boundary with the public highway, not on the paving inside the plot. Access geometry and road safety often matter more than the hardstanding alone.",
+        "roof_rules": "A dropped kerb does not authorise a car port or canopy. Covered parking features belong under separate planning rules.",
+        "materials_rules": "The dropped kerb and the parking surface should be thought about together. If the hardstanding would shed water to the road or rely on weak surfacing, the overall proposal becomes harder to approve."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes a new access more sensitive where it removes historic boundary features or changes a traditional frontage.",
+        "listed_building": "Works to form an access for a listed building often need a heritage check as well as highways approval, especially where original frontage features are affected.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 controls or planning conditions apply, the ordinary householder fallback for access-related works may be removed, so both planning and highways should be checked together."
+      }
+    },
+    {
+      "town_slug": "waverley",
+      "last_verified": "2026-04",
+      "permitted_development": "The key approval for a dropped kerb is normally the council or highway authority vehicle-crossing process. Planning permission can still be needed in some cases, especially on classified roads, in conservation areas, for listed buildings or where the frontage parking arrangement is not planning-compliant. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A vehicle crossing that depends on major frontage engineering may need planning permission in addition to highway consent.",
+        "depth_rules": "Dropped kerb can be refused or need redesign where the site does not provide workable off-street parking.",
+        "boundary_rules": "The real decision point is usually at the boundary with the public highway, not on the paving inside the plot. Access geometry and road safety often matter more than the hardstanding alone.",
+        "roof_rules": "Car ports and canopies need their own planning check.",
+        "materials_rules": "The dropped kerb and the parking surface should be thought about together. If the hardstanding would shed water to the road or rely on weak surfacing, the overall proposal becomes harder to approve."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, forming a new vehicular opening can need a closer planning and heritage review where traditional walls, railings, stone kerbs, paving or trees would be altered.",
+        "listed_building": "Works to form an access for a listed building often need a heritage check as well as highways approval, especially where original frontage features are affected.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or an old planning condition can remove normal householder rights for frontage and access changes, even where the dropped kerb itself still needs separate highway consent."
+      }
+    },
+    {
+      "town_slug": "woking",
+      "last_verified": "2026-04",
+      "permitted_development": "A dropped kerb is usually governed first by highway consent rather than ordinary householder permitted development. Planning permission is more likely where the access is onto a classified road, the property is heritage-sensitive, the parking area needs major structural work or the hardstanding itself would not satisfy drainage rules. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A vehicle crossing that depends on major frontage engineering may need planning permission in addition to highway consent.",
+        "depth_rules": "The linked parking space must work safely in practice. Vehicles should be able to stand clear of the footway.",
+        "boundary_rules": "The real decision point is usually at the boundary with the public highway, not on the paving inside the plot. Access geometry and road safety often matter more than the hardstanding alone.",
+        "roof_rules": "A dropped kerb does not authorise a car port or canopy. Covered parking features belong under separate planning rules.",
+        "materials_rules": "Use the access and the driveway as one design problem: the parking surface should take run-off within the site and be robust enough for regular vehicle use rather than simply creating a widened opening onto the road."
+      },
+      "restrictions": {
+        "conservation_area": "A dropped kerb in a conservation area often needs fuller scrutiny if the proposal affects established front boundaries, historic paving or the character of the street.",
+        "listed_building": "If the access serves a listed building or involves curtilage walls, gates, piers or historic paving, listed building consent may be needed as well as any highway or planning approval.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or an old planning condition can remove normal householder rights for frontage and access changes, even where the dropped kerb itself still needs separate highway consent."
+      }
+    }
+  ]
+}

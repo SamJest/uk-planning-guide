@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Herefordshire, the ordinary rooflight route is usually available where the change is just an alteration to the existing roof, the projection stays to 150 millimetres or less and the work does not enlarge the roof beyond the permitted class. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Herefordshire, the main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+      "depth_rules": "Across Herefordshire, rooflights are not measured by an extension-style depth allowance. The key dimensional test is stand-off from the existing roof slope.",
+      "boundary_rules": "Across Herefordshire, side-facing roof windows that do not address privacy properly can require permission or redesign.",
+      "roof_rules": "Across Herefordshire, keep the proposal as an alteration to the existing roof rather than an enlargement. Low-profile rooflights are usually the most straightforward option.",
+      "materials_rules": "Across Herefordshire, choose a rooflight and flashing detail that look integrated with the roof rather than bolted on. Low-profile frames and restrained external finishes are usually easiest to justify."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "herefordshire",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary rooflight route is usually available where the change is just an alteration to the existing roof, the projection stays to 150 millimetres or less and the work does not enlarge the roof beyond the permitted class. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+        "depth_rules": "Rooflights are not measured by an extension-style depth allowance. The key dimensional test is stand-off from the existing roof slope.",
+        "boundary_rules": "Side-facing roof windows that do not address privacy properly can require permission or redesign.",
+        "roof_rules": "Keep the proposal as an alteration to the existing roof rather than an enlargement. Low-profile rooflights are usually the most straightforward option.",
+        "materials_rules": "Choose a rooflight and flashing detail that look integrated with the roof rather than bolted on. Low-profile frames and restrained external finishes are usually easiest to justify."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status makes roof-lights more sensitive on visible elevations, particularly where a simple modern unit would cut across a traditional roof pattern.",
+        "listed_building": "A listed building roof usually needs a heritage-led approach: even a small roof-light can require consent if it affects the historic fabric or appearance.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or earlier planning condition can take away the normal roof-light permitted development route, particularly on prominent roof slopes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A modest porch on a house in England is usually permitted development where the external ground-floor area does not exceed 3 square metres, no part is more than 3m above ground level and no part is within 2m of the highway boundary. Local conditions or Article 4 directions can still remove that fallback.",
+    "rules": {
+      "height_rules": "The key height limit is 3m overall, measured in the same way as a house extension. There is no extra allowance for a pitched, vaulted or feature porch roof once it exceeds that height.",
+      "depth_rules": "There is no separate projection allowance. The main size test is the external ground-floor area, which should not exceed 3 square metres including wall thickness.",
+      "boundary_rules": "No part of the porch should be within 2m of any boundary between the dwellinghouse and the highway. On tight front plots this setback test is often the deciding issue.",
+      "roof_rules": "There is no separate roof allowance beyond the 3 square metre footprint and 3m height cap. Any porch roof design has to sit within those same limits.",
+      "materials_rules": "Use materials that match or complement the host house so the porch reads as part of the entrance rather than a bolt-on box. Heritage settings often call for the closest material match and more restrained detailing."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "cornwall",
+      "last_verified": "2026-04",
+      "permitted_development": "Porches can normally use the ordinary householder route when they remain very small: up to 3 square metres externally, up to 3m high and not within 2m of the boundary with the highway.",
+      "rules": {
+        "height_rules": "Whatever roof form you choose, the porch should stay within a 3m overall height cap measured in the same way as a house extension.",
+        "depth_rules": "Porches do not get a dedicated projection allowance. The practical size test is that the external ground-floor footprint must stay at or below 3 square metres.",
+        "boundary_rules": "Check the relationship to the highway boundary first. On many front elevations, the porch dimensions may be fine but the 2m separation to the highway boundary is what determines the answer.",
+        "roof_rules": "A porch roof does not get its own separate allowance. The overall porch, including any projecting canopy, still has to fit within the 3 square metre and 3m limits.",
+        "materials_rules": "Because porches are usually prominent from the street, external materials and detailing should sit comfortably with the house. A well-matched front elevation often makes the scheme feel modest and subordinate."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "isles-of-scilly",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest porch will often fall within the normal householder right where the footprint is no more than 3 square metres, the overall height is no more than 3m and the structure stays at least 2m from the highway boundary.",
+      "rules": {
+        "height_rules": "Porch height is capped at 3m overall. A pitched roof, canopy or decorative form does not create a separate allowance beyond that maximum.",
+        "depth_rules": "Depth is not assessed by a standalone projection figure. The controlling size limit is the overall external ground-floor area of 3 square metres.",
+        "boundary_rules": "The 2m highway-boundary rule is often the critical test on tight plots. If the house already sits close to the street or pavement, even a small porch can fall outside the ordinary right.",
+        "roof_rules": "Roof design is secondary to the small-porch limits: the whole structure must still stay within 3 square metres externally and 3m in height. Canopy-heavy designs can fail even where the enclosed space looks modest.",
+        "materials_rules": "The best porch designs usually look like a natural extension of the entrance rather than a bolt-on box. Matching or carefully complementary materials often matter most on the front elevation."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    }
+  ]
+}

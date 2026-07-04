@@ -1,0 +1,80 @@
+{
+  "defaults": {
+    "permitted_development": "Detached domestic outbuildings in England are often permitted development where they are genuinely incidental to the enjoyment of the house, stay behind the principal elevation, remain single storey and comply with the normal Class E height and site-coverage limits. Class E does not allow a separate self-contained dwelling or an outbuilding that functions like one.",
+    "rules": {
+      "height_rules": "Class E outbuildings should remain single storey. Eaves should not exceed 2.5m, the overall height limit is 4m for a dual-pitched roof and 3m for any other roof, and any part within 2m of a boundary should not exceed 2.5m overall.",
+      "depth_rules": "There is no separate outbuilding depth allowance. The key checks are that the building stays within the residential curtilage, remains behind the principal elevation and keeps total additions and outbuildings within 50% of the land around the original house.",
+      "boundary_rules": "Boundary siting is often decisive because any part within 2m of a boundary is capped at 2.5m overall. On designated land, side outbuildings can be more restricted, and listed-building curtilages need extra care before relying on permitted development.",
+      "roof_rules": "Roof form directly controls the permitted height. A dual-pitched roof can go to 4m and other roof forms to 3m, but the overall height drops to 2.5m if any part is within 2m of a boundary. Verandas, balconies and raised platforms above 300mm sit outside the normal Class E route.",
+      "materials_rules": "Materials do not have to match exactly, but the building should still read as a modest domestic structure subordinate to the house. The layout and fit-out should remain incidental rather than looking capable of independent residential occupation."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Class E height limits for detached outbuildings",
+      "intro": "The cleanest planning route for a shed, workshop, studio or store is usually to design it squarely within the normal Class E height envelope from the start.",
+      "rules": [
+        "The building should be single storey only.",
+        "Maximum eaves height is 2.5 metres.",
+        "Maximum overall height is 4 metres for a dual-pitched roof and 3 metres for any other roof form.",
+        "If any part of the building is within 2 metres of a boundary, the overall height should stay at or below 2.5 metres."
+      ],
+      "details": "Most detached outbuilding problems come from trying to squeeze too much height onto a tight plot. Height, roof form and boundary distance should be planned together rather than checked separately at the end.",
+      "exceptions": "A detached outbuilding that exceeds the normal Class E height limits will usually need planning permission."
+    },
+    "depth_rules": {
+      "title": "Footprint, siting and the 50% coverage check",
+      "intro": "There is no special Class E depth allowance to rely on. The real planning checks are where the building sits in the plot and how much of the curtilage has already been built over.",
+      "rules": [
+        "The outbuilding should stay within the residential curtilage and behind the principal elevation of the house.",
+        "Outbuildings and other additions together should not cover more than 50% of the land around the original house.",
+        "A large footprint can still be unacceptable even if the building is low.",
+        "A detached building used as living accommodation is outside the normal Class E route even where the footprint looks modest."
+      ],
+      "details": "Outbuildings are judged more by position, overall spread across the plot and incidental use than by a single projection measurement. A low but over-dominant building can still fall outside the simpler fallback.",
+      "exceptions": "An oversized footprint, forward siting or a building that starts to function like separate accommodation is more likely to need planning permission."
+    },
+    "boundary_rules": {
+      "title": "Boundary distance shapes the whole design",
+      "intro": "Boundary siting is often the first thing that tightens the planning position for an outbuilding, because it sharply reduces the available height and can increase neighbour impact at the same time.",
+      "rules": [
+        "Any part within 2 metres of a boundary is limited to 2.5 metres overall height.",
+        "Close boundary siting usually means flatter and lower roof forms are the safer option.",
+        "Doors, glazing and external activity near the edge of the plot can make neighbour-impact concerns more obvious.",
+        "On designated land, side outbuildings can be more restricted even where rear outbuildings may be acceptable."
+      ],
+      "details": "Many outbuilding proposals are acceptable in principle but fail in the chosen position. Moving the building deeper into the plot or away from the edge often solves more problems than redesigning the walls alone.",
+      "exceptions": "A boundary-hugging outbuilding that becomes too tall, too dominant or too active in use is more likely to fall outside permitted development."
+    },
+    "roof_rules": {
+      "title": "Roof form controls the permitted height",
+      "intro": "Roof choice is not just a style decision for a Class E building. It directly determines how much overall height is available and whether the boundary rule can still be met.",
+      "rules": [
+        "A dual-pitched roof can reach up to 4 metres overall.",
+        "A flat, mono-pitch or other non-dual-pitched roof is limited to 3 metres overall.",
+        "If any part of the building is within 2 metres of a boundary, the overall height should stay at or below 2.5 metres regardless of roof type.",
+        "Verandas, balconies and raised platforms above 300 millimetres are outside the normal Class E allowance."
+      ],
+      "details": "The safest approach is usually to design roof form and siting together. A roof that works in the middle of a long plot may not work at all once the building moves close to a boundary.",
+      "exceptions": "A roof that breaches the normal Class E height limits, or introduces excluded raised platforms or balcony-style features, is more likely to need planning permission."
+    },
+    "materials_rules": {
+      "title": "Incidental use should still read clearly",
+      "intro": "Measurements are only part of the answer. The design and fit-out should still look like a secondary domestic building rather than a small separate home.",
+      "rules": [
+        "Materials should suit a domestic garden setting and sit comfortably with the house.",
+        "The building should read as subordinate rather than as a rival structure to the dwellinghouse.",
+        "The internal layout and servicing should support incidental use rather than independent day-to-day living.",
+        "A polished finish can still be acceptable where the scale and use remain clearly domestic and secondary."
+      ],
+      "details": "A smart finish is fine, but the building should still read as clearly secondary accommodation. Bedrooms, kitchens, shower rooms and separate services are the combinations that most often make a Class E building look less like incidental domestic space and more like an independent unit.",
+      "exceptions": "A detached building designed or used as self-contained living accommodation will usually need planning permission even if the measurements appear to fit Class E."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Outbuildings in conservation areas and other designated land can face tighter controls, particularly where the siting is visible from the frontage or affects the wider setting.",
+    "listed_building": "A new outbuilding in the curtilage of a listed building can require planning permission and may also involve listed building consent considerations.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions or site-specific planning conditions can remove the usual Class E fallback for detached outbuildings."
+  }
+}

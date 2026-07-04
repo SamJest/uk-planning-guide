@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Agricultural buildings in England may benefit from Part 6 permitted development rights where the works are reasonably necessary for agriculture on the unit and the holding meets the relevant size thresholds. Many schemes still need prior approval for siting, design or external appearance, and the rights do not cover houses or non-agricultural uses.",
+    "rules": {
+      "height_rules": "There is no blanket right to put up any height of farm building. The scale of the building has to fit the Part 6 class being used and be justified by the agricultural operation.",
+      "depth_rules": "Footprint and capacity need to match the size of the agricultural unit and the relevant Part 6 class. Smaller holdings have narrower rights than units of 5 hectares or more.",
+      "boundary_rules": "Siting near neighbours, roads, rights of way and protected landscapes matters, even where the building is agricultural in purpose.",
+      "roof_rules": "Roof profile, ventilation equipment, feed bins and other external plant can all be part of the design issues considered at prior approval stage.",
+      "materials_rules": "External appearance still matters. Agricultural need is not a free pass for poor siting or visually intrusive cladding in a sensitive landscape."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Scale and Height of Agricultural Buildings",
+      "intro": "Agricultural permitted development rights are tied to operational need, not a general right to build large structures at will.",
+      "rules": [
+        "The building should be reasonably necessary for agriculture on the unit.",
+        "Height and bulk should match the actual agricultural function.",
+        "Larger proposals are more likely to trigger prior approval scrutiny.",
+        "A building that looks more like storage for a separate commercial use can fall outside Part 6."
+      ],
+      "details": "GOV.UK's farm planning guidance explains that farms can benefit from permitted development rights, but that does not remove the need to show an agricultural purpose and to follow the relevant Part 6 class. A large building with obvious visual impact will usually attract closer scrutiny on siting, design and external appearance. The lawful question is not simply whether the building is on farmland, but whether it is genuinely justified for agriculture on that unit.",
+      "exceptions": "Buildings for non-agricultural business use, independent dwelling use or unjustified scale often need full planning permission and should not be treated as straightforward Part 6 development."
+    },
+    "depth_rules": {
+      "title": "Holding Size and Building Extent",
+      "intro": "Part 6 rights work differently on larger and smaller agricultural units.",
+      "rules": [
+        "Units of 5 hectares or more have the broader Class A route.",
+        "Units over 0.4 hectares but under 5 hectares rely on the narrower Class B route.",
+        "The building extent should reflect the unit size and operational need.",
+        "Previous development on the holding can affect what remains available."
+      ],
+      "details": "The GOV.UK farms guidance distinguishes between larger agricultural units and smaller ones. Units of 5 hectares or more can use the broader Part 6 Class A route, while units above 0.4 hectares but below 5 hectares are subject to the more limited Class B route. That is why the same building may be easier to justify on one holding than another. The amount and type of development has to be read against the scale of the agricultural unit.",
+      "exceptions": "Very small holdings, lifestyle land and proposals that exceed the relevant Part 6 limits will normally need planning permission."
+    },
+    "boundary_rules": {
+      "title": "Siting Near Neighbours and Sensitive Land",
+      "intro": "Even a genuinely agricultural building can be refused or redirected if the siting is poor.",
+      "rules": [
+        "Distance to neighbours and likely nuisance from noise, smell or traffic matter.",
+        "Road access and visibility can be important where a building intensifies farm movements.",
+        "Protected landscapes and heritage settings often require a more careful siting exercise.",
+        "The authority can examine siting issues on a prior approval application."
+      ],
+      "details": "Agricultural permitted development is not only about whether the building is needed. Siting also matters. A livestock or grain building placed close to homes, highways or sensitive heritage assets can create amenity and landscape problems even if the underlying use is agricultural. Prior approval exists partly so the authority can test those siting and design effects before the building goes up.",
+      "exceptions": "Poorly sited agricultural development may be refused prior approval or directed towards a full application despite the farm use."
+    },
+    "roof_rules": {
+      "title": "Roof Form, Ventilation and External Plant",
+      "intro": "Agricultural roofs often carry much of the building's visual bulk and operational equipment.",
+      "rules": [
+        "Roof pitch and ridge height should reflect the agricultural need, not overstate it.",
+        "Ventilation cowls, feed systems and external plant can affect the design assessment.",
+        "Simple shed forms are usually easier to justify than highly engineered over-scaled structures.",
+        "Roof-mounted or attached equipment should be read as part of the whole proposal."
+      ],
+      "details": "Farm buildings frequently include roof vents, feed systems or service equipment as part of the operational design. Those features can all affect visual impact and are often considered when the authority looks at external appearance under prior approval. A building that is functionally simple and proportionate to its use is usually easier to support than one whose roof profile and plant make it look much larger than necessary.",
+      "exceptions": "Over-scaled roof forms or additional plant that materially changes the impact of the building can push the proposal into a more difficult approval route."
+    },
+    "materials_rules": {
+      "title": "External Appearance and Finish",
+      "intro": "Agricultural need does not remove the need for a sensible external finish, especially in visible countryside locations.",
+      "rules": [
+        "External appearance can be considered under the prior approval process.",
+        "Cladding colour and finish should sit reasonably with the landscape and existing farm group.",
+        "Highly reflective or visually harsh materials can be harder to justify.",
+        "Matching the functional farm context usually works better than over-domestic detailing."
+      ],
+      "details": "GOV.UK's planning practice material notes that prior approval can be required for agricultural buildings, and external appearance is one of the matters authorities can examine. In practice that means cladding tone, roof finish and visual relationship with the wider farmstead still matter. The goal is not domestic prettiness, but a building that looks properly agricultural and sensibly placed.",
+      "exceptions": "Prominent landscape settings, heritage farmyards and protected areas may need a more careful appearance strategy or a full planning application."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Agricultural development affecting a conservation area or other designated landscape will be judged more closely on siting, bulk and visual impact, even where Part 6 rights may exist in principle.",
+    "listed_building": "If the proposal affects a listed farmhouse, a listed curtilage structure or the setting of a historic farm group, listed building consent or a fuller heritage route may also be needed.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove fallback agricultural permitted development rights in selected locations, so the exact designation should be checked before relying on Part 6."
+  }
+}

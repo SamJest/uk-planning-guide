@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Planning permission is not usually required in England for an internal garage conversion where the work stays within the existing building and does not materially enlarge it. That answer can change where parking-retention conditions, external alterations or the creation of a separate dwelling are involved.",
+    "rules": {
+      "height_rules": "A straightforward internal conversion does not create a new householder height allowance. If the project raises the roof, adds an upper floor or rebuilds the garage, that external work needs to be assessed separately.",
+      "depth_rules": "The simplest route is a conversion wholly within the existing garage shell. Once the proposal projects outward, extends the footprint or enlarges the garage envelope, it moves into extension rules or a separate planning assessment.",
+      "boundary_rules": "Check whether an earlier permission required the garage or parking space to be retained. Highway-facing changes, new windows close to neighbours and estate or Article 4 controls can also make the planning answer more site-specific.",
+      "roof_rules": "If the conversion also changes the roof, separate roof or extension rules apply. A basic internal fit-out behind the existing roofline does not itself create a new roof planning allowance.",
+      "materials_rules": "Where the garage door is infilled, the new wall, window and detailing should look intentional and tie into the main house. Heritage controls and visible frontage changes usually call for the closest material match."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "cornwall",
+      "last_verified": "2026-04",
+      "permitted_development": "The simple route for a garage conversion normally depends on it being an internal alteration to the existing building. Once the scheme enlarges the structure, creates a new unit or materially changes the outside, planning permission becomes more likely.",
+      "rules": {
+        "height_rules": "There is no single conversion height formula. The real issue is usually whether the project changes the scale or visible envelope of the building.",
+        "depth_rules": "Conversion that extends beyond the existing building envelope usually needs a fuller planning check.",
+        "boundary_rules": "A conversion can look internal on paper but still become planning-sensitive at the frontage and boundaries if it introduces new openings, lightwells, entrances or parking loss.",
+        "roof_rules": "The conversion route does not automatically cover linked roof alterations. Dormers, rooflights, raised upstands and canopies should be checked under their own rules.",
+        "materials_rules": "Use matching or closely complementary materials so the converted garage feels integrated with the main house rather than obviously altered."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "isles-of-scilly",
+      "last_verified": "2026-04",
+      "permitted_development": "Converting a garage to habitable space often avoids a planning application where the building envelope stays the same and the use remains part of the main house. Separate living accommodation, enlargement and removed rights are the usual tripwires.",
+      "rules": {
+        "height_rules": "A conversion that enlarges the building or introduces new above-ground structures is more likely to need planning permission.",
+        "depth_rules": "Depth becomes important only when the project goes beyond internal alteration and starts creating new space through excavation, extension or other external works.",
+        "boundary_rules": "Boundary issues often come from external openings, excavation, parking loss or access changes. The simpler route is strongest where outside changes remain modest.",
+        "roof_rules": "Associated roof alterations should not be assumed to fall within the same route as the main conversion.",
+        "materials_rules": "Use matching or closely complementary materials so the converted garage feels integrated with the main house rather than obviously altered."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+{
+    "defaults":  {
+                     "last_verified":  "2026-04",
+                     "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development.",
+                     "rules":  {
+                                   "height_rules":  "Where a householder extension is capable of falling within Scotland permitted development, the height should stay subordinate to the house and boundary-related limits become critical.",
+                                   "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                   "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count.",
+                                   "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                   "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area."
+                               }
+                 },
+    "rules":  [
+                  {
+                      "town_slug":  "aberdeen-city",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                      "rules":  {
+                                    "height_rules":  "In Aberdeen City, the paper limit is still 4m overall with eaves no higher than 3m within 2m of the boundary, but keeping the side roof notably lower than the main house is usually what prevents the flank wall feeling oppressive.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "aberdeenshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Aberdeenshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "angus",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Angus, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "argyll-and-bute",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Argyll and Bute, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "city-of-edinburgh",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. In Edinburgh, only straightforward house projects outside conservation areas and away from listed buildings should be treated as low-risk.",
+                      "rules":  {
+                                    "height_rules":  "In City of Edinburgh, the paper limit is still 4m overall with eaves no higher than 3m within 2m of the boundary, but keeping the side roof notably lower than the main house is usually what prevents the flank wall feeling oppressive.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Keep the proposal subordinate to the house and established streetscape. Edinburgh guidance should be checked before changing prominent roof form or external detail.",
+                                    "materials_rules":  "Use materials and detailing that sit appropriately with the existing house and Edinburgh\u0027s wider townscape, especially on traditional streets."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Edinburgh guidance should be treated as stricter in practice: houses in conservation areas should be assumed to need planning permission for extensions and dormers.",
+                                           "listed_building":  "If you live in a listed building in Edinburgh, review the council\u0027s listed building guidance before starting work. Listed building consent will usually be needed for character-affecting changes."
+                                       }
+                  },
+                  {
+                      "town_slug":  "clackmannanshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Clackmannanshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "comhairle-nan-eilean-siar",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Comhairle nan Eilean Siar, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "dumfries-and-galloway",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Dumfries and Galloway, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "dundee-city",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                      "rules":  {
+                                    "height_rules":  "In Dundee City, the paper limit is still 4m overall with eaves no higher than 3m within 2m of the boundary, but keeping the side roof notably lower than the main house is usually what prevents the flank wall feeling oppressive.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-ayrshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In East Ayrshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-dunbartonshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In East Dunbartonshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-lothian",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In East Lothian, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-renfrewshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In East Renfrewshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "falkirk",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Falkirk, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "fife",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Fife, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "glasgow-city",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                      "rules":  {
+                                    "height_rules":  "In Glasgow City, the paper limit is still 4m overall with eaves no higher than 3m within 2m of the boundary, but keeping the side roof notably lower than the main house is usually what prevents the flank wall feeling oppressive.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "highland",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Highland, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "inverclyde",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Inverclyde, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "midlothian",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Midlothian, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "moray",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Moray, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-ayrshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In North Ayrshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-lanarkshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In North Lanarkshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "orkney-islands",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Orkney Islands, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "perth-and-kinross",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                      "rules":  {
+                                    "height_rules":  "In Perth and Kinross, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "renfrewshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Renfrewshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "scottish-borders",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Scottish Borders, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "shetland-islands",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Shetland Islands, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-ayrshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In South Ayrshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-lanarkshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In South Lanarkshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "stirling",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Stirling, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "west-dunbartonshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In West Dunbartonshire, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "west-lothian",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In West Lothian, the 4m overall and 3m eaves limits still apply, but on a more open plot the real question is whether the roof shoulder starts reading as a second wing rather than a modest side addition.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should remain subordinate to the house. Any separate roof enlargement rules need checked if the proposal alters the existing roof.",
+                                    "materials_rules":  "External materials should be sympathetic to the existing house and surrounding area. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Conservation-area controls in Scotland are tighter, and what might be acceptable elsewhere often needs express permission here.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "cairngorms-national-park",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. In the Cairngorms, sensitive proposals should still be checked early because National Park planning scrutiny can be stronger.",
+                      "rules":  {
+                                    "height_rules":  "In Cairngorms National Park, the 4m overall and 3m eaves rules remain the legal benchmark, but a low ridge and disciplined eaves matter more than maximum dimensions because side roofs are judged in wider views as well as from the boundary.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. In a national park setting, design restraint, landscape impact and heritage character are usually given exceptional weight.",
+                                    "roof_rules":  "Keep the roof form subordinate and avoid assuming that visually stronger alterations will escape closer scrutiny in the National Park.",
+                                    "materials_rules":  "Use materials and detailing that sit comfortably with the existing house and the National Park setting."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "In Scotland these householder rights do not apply in conservation areas. Within the Cairngorms, early checking is especially sensible for more sensitive or visually prominent proposals.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and proposals in the Cairngorms often benefit from early heritage advice."
+                                       }
+                  },
+                  {
+                      "town_slug":  "loch-lomond-and-the-trossachs-national-park",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "In Scotland, a true side extension often needs planning permission. Do not assume a side addition is automatically permitted development. In Loch Lomond \u0026 The Trossachs, conservation-area controls inside the Park remove many of the normal fall-back assumptions for exterior alterations.",
+                      "rules":  {
+                                    "height_rules":  "In Loch Lomond and the Trossachs National Park, the 4m overall and 3m eaves rules remain the legal benchmark, but a low ridge and disciplined eaves matter more than maximum dimensions because side roofs are judged in wider views as well as from the boundary.",
+                                    "depth_rules":  "Scottish householder permitted development for extensions is mainly rear-focused. If the proposal projects materially on the side, especially toward a road, planning permission is often needed.",
+                                    "boundary_rules":  "Upper-storey enlargement is much more restricted than simple rear work, and class limits use strong boundary-distance controls. Previous enlargements also count. In a national park setting, design restraint, landscape impact and heritage character are usually given exceptional weight.",
+                                    "roof_rules":  "Keep the roof form subordinate and avoid assuming that visually prominent exterior changes will remain informal in the National Park.",
+                                    "materials_rules":  "Use materials and detailing that respect the existing house and traditional Park character."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Loch Lomond \u0026 The Trossachs states that householders in conservation areas need planning permission for exterior alterations, including extensions, roofs, windows, doors, fences and walls.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and National Park heritage guidance should be checked before starting work."
+                                       }
+                  }
+              ]
+}

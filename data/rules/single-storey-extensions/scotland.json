@@ -1,0 +1,559 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+    "rules": {
+      "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+      "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+      "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+      "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+      "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the proposal subordinate to the house and established streetscape. Edinburgh guidance should be checked before changing prominent roof form or external detail.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "Edinburgh guidance should be treated as stricter in practice: houses in conservation areas should be assumed to need planning permission for extensions and dormers.",
+        "listed_building": "If you live in a listed building in Edinburgh, review the council's listed building guidance before starting work. Listed building consent will usually be needed for character-affecting changes."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the single-storey route is usually the main house-extension PD fallback, but it only works where the extension stays off road-facing elevations and complies with the Scottish height, depth and boundary rules.",
+      "rules": {
+        "height_rules": "Scottish single-storey work has a tight near-boundary height cap. Keep eaves within 3m, overall height within 4m and any part within 1m of the boundary down to 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "Frontage position is often the key Scottish boundary issue. Keep the extension behind the principal elevation and any side elevation facing a road, and stay within the normal curtilage allowance.",
+        "roof_rules": "Keep the roof subordinate to the house and avoid using a roof form that pushes the extension above what Scottish householder PDR will tolerate at the boundary or on a prominent elevation.",
+        "materials_rules": "Choose finishes that tie the extension back to the existing house so it reads as one building rather than a separate lean-to."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder extension rights do not apply in conservation areas. Treat written authority confirmation or a formal planning application as necessary before starting work.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey extension may be PD in Scotland where it keeps to the rear or other non-road-facing part of the house, stays within the normal projection limits and does not crowd the boundary.",
+      "rules": {
+        "height_rules": "The basic Scottish height rules are 3m eaves, 4m overall and 2.5m where any part comes within 1m of the boundary.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "A Scottish single-storey extension can lose PD status quickly if it projects into a road-facing position. Keep it behind the main front line and within the usual curtilage limits.",
+        "roof_rules": "Keep the roof form subordinate and avoid assuming that visually stronger alterations will escape closer scrutiny in the National Park.",
+        "materials_rules": "Use materials that relate closely to the existing house. Simple detailing usually sits more comfortably than a heavily contrasting approach."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder rights do not apply in conservation areas. Within the Cairngorms, early checking is especially sensible for more sensitive or visually prominent proposals.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and proposals in the Cairngorms often benefit from early heritage advice."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A single-storey ground floor extension can be permitted development in Scotland outside conservation areas where it remains to the rear or other non-road-facing part of the house and stays within the height, depth and boundary limits.",
+      "rules": {
+        "height_rules": "Eaves should not exceed 3m and overall height should not exceed 4m. Any part within 1m of the boundary should not be higher than 2.5m.",
+        "depth_rules": "A rear projection should not exceed 3m on a terraced house or 4m on any other house.",
+        "boundary_rules": "The extension should not be forward of the principal elevation or a side elevation that fronts a road. It should also stay within the normal curtilage limits used for householder permitted development.",
+        "roof_rules": "Keep the roof form subordinate and avoid assuming that visually prominent exterior changes will remain informal in the National Park.",
+        "materials_rules": "Use materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "Loch Lomond & The Trossachs states that householders in conservation areas need planning permission for exterior alterations, including extensions, roofs, windows, doors, fences and walls.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and National Park heritage guidance should be checked before starting work."
+      }
+    }
+  ]
+}

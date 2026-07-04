@@ -1,0 +1,31 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Northumberland, hard surfacing is usually lowest risk on the planning permission route when drainage is handled properly, level changes stay modest and the work does not turn a soft frontage into a dominant engineered parking area. Frontage character and exposed plots can make drainage detail and surface appearance more visible than homeowners often expect.",
+    "rules": {
+      "height_rules": "Raised surfacing, retaining features and height or level changes can matter as much as the paving finish itself when councils assess hard-surface schemes in Northumberland.",
+      "depth_rules": "Surface coverage, front garden drainage and overall project extent are usually the deciding issues for hard surfacing across Northumberland, especially where large impermeable areas are proposed.",
+      "boundary_rules": "Frontage position, highway relationship and any linked access changes are often what make a hard-surfacing scheme more sensitive in Northumberland.",
+      "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+      "materials_rules": "Permeable, visually restrained finishes are usually easier to justify than broad impermeable paving that removes planting and dominates the frontage."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "Hard surfacing at or near ground level around a house is often permitted development. Where the surface lies between the principal elevation and the highway and exceeds 5 square metres, it should be porous or drain to a porous area within the curtilage.",
+      "rules": {
+        "height_rules": "There is no simple householder height limit for paving itself. The planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+        "depth_rules": "There is no extension-style depth allowance for a driveway or paved area. Front areas over 5 square metres should be permeable or drain to a porous area within the curtilage.",
+        "boundary_rules": "Driveway surfacing inside the plot and the access across the boundary are not always the same consent route. New or widened vehicle crossings usually need highway authority approval.",
+        "roof_rules": "The surface itself has no roof allowance. Car ports, canopies and shelters are separate development types.",
+        "materials_rules": "Pick materials that help surface water soak away on site. Impermeable paving can still work, but only where the design keeps run-off within the property rather than sending it onto the road."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Northumberland often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Northumberland, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+    "defaults":  {
+                     "last_verified":  "2026-04",
+                     "permitted_development":  "A temporary building in England is not automatically exempt just because it will be removed later. The planning answer depends on how fixed it is, how long it stays, what it is used for and whether any specific Part 4 temporary-use right actually applies. On rural land, duration, foundations and how easily the site can be restored are usually central questions.",
+                     "rules":  {
+                                   "height_rules":  "There is no universal height allowance for temporary buildings. The taller and more visually dominant the structure becomes, the harder it is to argue that it is a minor temporary feature rather than development needing permission.",
+                                   "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than a single measurement.",
+                                   "boundary_rules":  "Boundary effects such as access, traffic, noise, overlooking, crowding and visibility are often what push a temporary structure into a planning application or prior approval route. On rural land, duration, foundations and how easily the site can be restored are usually central questions.",
+                                   "roof_rules":  "A fixed or heavily engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind loading, drainage and visual bulk all matter.",
+                                   "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and full utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                               }
+                 },
+    "rules":  [
+                  {
+                      "town_slug":  "boston",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Boston, a temporary building is usually judged by whether it supports a genuinely short-term rural need or starts to read as permanent development in open land.",
+                      "rules":  {
+                                    "height_rules":  "In Boston, height is usually judged through visibility and permanence; a tall temporary building can read like a permanent shed very quickly in open land.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In Boston, boundaries are usually tested by track access, noise, lighting spill and how much openness is lost around the site.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+                                           "listed_building":  "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site\u0027s designation before relying on a simpler route."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-lindsey",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In East Lindsey, a temporary building is usually judged by whether it supports a genuinely short-term rural need or starts to read as permanent development in open land.",
+                      "rules":  {
+                                    "height_rules":  "In East Lindsey, height is usually judged through visibility and permanence; a tall temporary building can read like a permanent shed very quickly in open land.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In East Lindsey, boundaries are usually tested by track access, noise, lighting spill and how much openness is lost around the site.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+                                           "listed_building":  "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site\u0027s designation before relying on a simpler route."
+                                       }
+                  },
+                  {
+                      "town_slug":  "lincoln",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Lincoln, calling a structure temporary is not enough; the planning case usually turns on how fixed it is, how intensively it is used and whether it still reads as lightweight short-term accommodation rather than a permanent annex.",
+                      "rules":  {
+                                    "height_rules":  "In Lincoln, low, lightly roofed structures usually carry the temporary case far better than tall cabins or engineered enclosures that read as permanent from the street.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In Lincoln, the boundary test is operational: lighting, access, queuing, deliveries, overlooking and whether a temporary structure crowds the last bit of breathing space around the plot.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Not all properties have the benefit of Permitted Development Rights. Some properties including flats, properties within Conservation Areas, Listed Buildings or those with Article 4 Directions may have had their Permitted Development Rights removed.",
+                                           "listed_building":  "Not all properties have the benefit of Permitted Development Rights. Some properties including flats, properties within Conservation Areas, Listed Buildings or those with Article 4 Directions may have had their Permitted Development Rights removed.",
+                                           "article4_applies":  true,
+                                           "article4_notes":  "Not all properties have the benefit of Permitted Development Rights. Some properties including flats, properties within Conservation Areas, Listed Buildings or those with Article 4 Directions may have had their Permitted Development Rights removed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-kesteven",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In North Kesteven, a temporary building is usually judged by whether it supports a genuinely short-term rural need or starts to read as permanent development in open land.",
+                      "rules":  {
+                                    "height_rules":  "In North Kesteven, height is usually judged through visibility and permanence; a tall temporary building can read like a permanent shed very quickly in open land.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In North Kesteven, boundaries are usually tested by track access, noise, lighting spill and how much openness is lost around the site.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+                                           "listed_building":  "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site\u0027s designation before relying on a simpler route."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-holland",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In South Holland, a temporary building is usually judged by whether it supports a genuinely short-term rural need or starts to read as permanent development in open land.",
+                      "rules":  {
+                                    "height_rules":  "In South Holland, height is usually judged through visibility and permanence; a tall temporary building can read like a permanent shed very quickly in open land.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In South Holland, boundaries are usually tested by track access, noise, lighting spill and how much openness is lost around the site.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+                                           "listed_building":  "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site\u0027s designation before relying on a simpler route."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-kesteven",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In South Kesteven, a temporary building is usually judged by whether it supports a genuinely short-term rural need or starts to read as permanent development in open land.",
+                      "rules":  {
+                                    "height_rules":  "In South Kesteven, height is usually judged through visibility and permanence; a tall temporary building can read like a permanent shed very quickly in open land.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In South Kesteven, boundaries are usually tested by track access, noise, lighting spill and how much openness is lost around the site.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+                                           "listed_building":  "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site\u0027s designation before relying on a simpler route."
+                                       }
+                  },
+                  {
+                      "town_slug":  "west-lindsey",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In West Lindsey, a temporary building is usually judged by whether it supports a genuinely short-term rural need or starts to read as permanent development in open land.",
+                      "rules":  {
+                                    "height_rules":  "In West Lindsey, height is usually judged through visibility and permanence; a tall temporary building can read like a permanent shed very quickly in open land.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In West Lindsey, boundaries are usually tested by track access, noise, lighting spill and how much openness is lost around the site.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+                                           "listed_building":  "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site\u0027s designation before relying on a simpler route."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-lincolnshire",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In North Lincolnshire, a temporary building is usually judged by whether it supports a genuinely short-term rural need or starts to read as permanent development in open land.",
+                      "rules":  {
+                                    "height_rules":  "In North Lincolnshire, height is usually judged through visibility and permanence; a tall temporary building can read like a permanent shed very quickly in open land.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In North Lincolnshire, boundaries are usually tested by track access, noise, lighting spill and how much openness is lost around the site.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+                                           "listed_building":  "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site\u0027s designation before relying on a simpler route."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-east-lincolnshire",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In North East Lincolnshire, a temporary building is usually judged by whether it supports a genuinely short-term rural need or starts to read as permanent development in open land.",
+                      "rules":  {
+                                    "height_rules":  "In North East Lincolnshire, height is usually judged through visibility and permanence; a tall temporary building can read like a permanent shed very quickly in open land.",
+                                    "depth_rules":  "There is no standard depth rule. Footprint, duration, services, foundations and the overall intensity of use matter much more than one single measurement.",
+                                    "boundary_rules":  "In North East Lincolnshire, boundaries are usually tested by track access, noise, lighting spill and how much openness is lost around the site.",
+                                    "roof_rules":  "A fixed or fully engineered roof can push a proposal toward being treated as a building rather than a lightweight temporary structure. Wind resistance, rainwater disposal and visual bulk all matter.",
+                                    "materials_rules":  "Use reversible, low-glare materials and details that support the temporary case. Heavy cladding, permanent foundations and utility connections make the structure harder to describe as temporary. On rural land, duration, foundations and how easily the site can be restored are usually central questions."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Temporary buildings in a conservation area still need to be low-impact, reversible and carefully sited; visibility and duration can still justify a planning application.",
+                                           "listed_building":  "Temporary works affecting a listed building, its curtilage or setting may still need listed building consent and planning permission.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback rights for temporary structures in selected locations, so check the site\u0027s designation before relying on a simpler route."
+                                       }
+                  }
+              ]
+}

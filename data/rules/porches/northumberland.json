@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A modest porch on a house in England is usually permitted development where the external ground-floor area does not exceed 3 square metres, no part is more than 3m above ground level and no part is within 2m of the highway boundary. Local conditions or Article 4 directions can still remove that fallback.",
+    "rules": {
+      "height_rules": "The key height limit is 3m overall, measured in the same way as a house extension. There is no extra allowance for a pitched, vaulted or feature porch roof once it exceeds that height.",
+      "depth_rules": "There is no separate projection allowance. The main size test is the external ground-floor area, which should not exceed 3 square metres including wall thickness.",
+      "boundary_rules": "No part of the porch should be within 2m of any boundary between the dwellinghouse and the highway. On tight front plots this setback test is often the deciding issue.",
+      "roof_rules": "There is no separate roof allowance beyond the 3 square metre footprint and 3m height cap. Any porch roof design has to sit within those same limits.",
+      "materials_rules": "Use materials that match or complement the host house so the porch reads as part of the entrance rather than a bolt-on box. Heritage settings often call for the closest material match and more restrained detailing."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest entrance porch is often permitted development where it stays small in footprint and height and remains clear of the highway boundary by at least 2 metres. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A porch that looks modest in footprint can still lose the benefit of the ordinary route if it becomes too tall.",
+        "depth_rules": "Porch with an external ground-floor area above 3 square metres will normally need planning permission.",
+        "boundary_rules": "Many porches fail the ordinary route because the house sits too close to the pavement, not because the porch is especially large.",
+        "roof_rules": "A porch roof is not assessed under a separate planning code. Whichever form is chosen, the whole structure still has to stay within the standard porch limits.",
+        "materials_rules": "The safest porch material strategy is to match or closely complement the host house so the new entrance reads as a natural continuation rather than a bolt-on box."
+      },
+      "restrictions": {
+        "conservation_area": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "listed_building": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "article4_applies": true,
+        "article4_notes": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+    "defaults":  {
+                     "last_verified":  "2026-04",
+                     "permitted_development":  "Demolition in England is controlled by the GPDO and heritage legislation, not treated as a free general right. The route depends on what is being removed, whether Part 11 prior approval applies, and whether the site is listed, in a conservation area or otherwise protected. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+                     "rules":  {
+                                   "height_rules":  "There is no demolition height allowance. The real question is the size, type and status of the structure and whether its removal falls within a prior approval route or needs a fuller application.",
+                                   "depth_rules":  "There is no separate depth rule. Partial demolition, demolition linked to rebuilding, or removal of only part of a structure must be assessed against the actual scope of works and any related development.",
+                                   "boundary_rules":  "Party walls, adjoining land, hoardings, highway occupation, neighbour safety and the stability of nearby structures are often the most important boundary and site-management issues in a demolition proposal. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important.",
+                                   "roof_rules":  "Removing a roof is not automatically a standalone permitted step. Once roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+                                   "materials_rules":  "Salvage, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental, safety and building-control duties still apply even where the planning route is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+                               }
+                 },
+    "rules":  [
+                  {
+                      "town_slug":  "cornwall",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Cornwall, demolition is still route-dependent under Part 11 and heritage legislation, but exposure, public safety and how the site is left once cleared are often central practical issues.",
+                      "rules":  {
+                                    "height_rules":  "In Cornwall, height becomes an exposure issue quickly, because tall remnants, cranes or hoardings can create both safety and visual problems on open coastal sites.",
+                                    "depth_rules":  "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+                                    "boundary_rules":  "In Cornwall, boundary management often has to deal with exposed edges, public access and securing the cleared site against wind and weather once the structure is down.",
+                                    "roof_rules":  "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+                                    "materials_rules":  "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Demolition in a conservation area can need planning permission for relevant demolition and a much closer heritage review, even where the structure looks minor.",
+                                           "listed_building":  "Demolition of a listed building, or of a curtilage structure protected as part of it, needs listed building consent.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback demolition rights in selected locations, so check the site\u0027s designation before assuming a prior approval or permitted route still applies."
+                                       }
+                  },
+                  {
+                      "town_slug":  "isles-of-scilly",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Isles of Scilly, demolition is still route-dependent under Part 11 and heritage legislation, but exposure, public safety and how the site is left once cleared are often central practical issues.",
+                      "rules":  {
+                                    "height_rules":  "In Isles of Scilly, height becomes an exposure issue quickly, because tall remnants, cranes or hoardings can create both safety and visual problems on open coastal sites.",
+                                    "depth_rules":  "There is no separate depth rule. Partial demolition, demolition tied to rebuilding, or removal of only part of a structure must be judged on the actual scope of works and any linked development.",
+                                    "boundary_rules":  "In Isles of Scilly, boundary management often has to deal with exposed edges, public access and securing the cleared site against wind and weather once the structure is down.",
+                                    "roof_rules":  "Taking off a roof is not automatically a standalone permitted step. Where roof removal forms part of wider demolition, heritage, structural and weatherproofing issues can change the planning route.",
+                                    "materials_rules":  "Salvage, recycling, asbestos handling, waste removal and making good exposed surfaces are key practical issues. Separate environmental and building-control duties still apply even where the planning route is clear. On coastal sites, exposure, public safety and how the cleared site will be secured and finished are often especially important."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Demolition in a conservation area can need planning permission for relevant demolition and a much closer heritage review, even where the structure looks minor.",
+                                           "listed_building":  "Demolition of a listed building, or of a curtilage structure protected as part of it, needs listed building consent.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove fallback demolition rights in selected locations, so check the site\u0027s designation before assuming a prior approval or permitted route still applies."
+                                       }
+                  }
+              ]
+}

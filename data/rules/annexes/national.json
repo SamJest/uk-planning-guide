@@ -1,0 +1,80 @@
+{
+  "defaults": {
+    "permitted_development": "England does not have a standalone annexe permitted development right. The real planning question is whether the accommodation remains clearly ancillary to the main house. A linked annexe is usually assessed under the normal extension rules, while a detached ancillary building has to fit Class E. Once it is laid out or used as a separate self-contained home, planning permission is usually needed.",
+    "rules": {
+      "height_rules": "There is no special annexe height allowance. A linked annexe follows the normal extension rules for the host house, while a detached ancillary building has to stay within the usual Class E outbuilding limits if permitted development is being relied on. A self-contained detached annexe is more likely to need planning permission regardless of height.",
+      "depth_rules": "There is no single annexe depth formula. If the accommodation is created within an extension, the normal extension depth rules apply. If it is in a detached ancillary building, the relevant checks are siting behind the principal elevation, remaining subordinate and keeping total additions and outbuildings within 50% of the land around the original house.",
+      "boundary_rules": "Detached ancillary buildings near a boundary are restricted by the normal Class E 2m boundary rule, but boundary issues for annexe proposals also include privacy, outlook, independent access and whether the arrangement starts to read like a separate dwelling plot.",
+      "roof_rules": "Roof allowances depend on the planning route being used. A detached ancillary building follows the normal Class E roof and height limits, while a linked annexe follows the roof rules for the extension itself. A roof design that makes the accommodation look like a separate small house can weaken the ancillary-use argument.",
+      "materials_rules": "The strongest annexe cases are the ones that clearly read as part of the main residential use rather than as a second home. Layout, servicing, access and day-to-day independence usually matter as much as external materials."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "There is no standalone annexe height right",
+      "intro": "An annexe is not given its own special height allowance under householder permitted development. The planning route depends on what is being built and how independent the accommodation is meant to be.",
+      "rules": [
+        "If the accommodation is formed in an extension to the house, the normal extension rules apply.",
+        "If the accommodation is in a detached ancillary building, the usual Class E outbuilding height limits are the starting point.",
+        "A detached self-contained annexe is more likely to need planning permission regardless of whether the building fits Class E dimensions.",
+        "Height is only part of the answer because the status of the accommodation matters just as much as the measurements."
+      ],
+      "details": "The first question is not simply how tall the structure is. It is whether the proposal is a normal extension, a detached ancillary building or something that reads as a separate dwelling in its own right.",
+      "exceptions": "A detached self-contained annexe, or an annexe proposal that exceeds the relevant extension or Class E height limits, will usually need planning permission."
+    },
+    "depth_rules": {
+      "title": "The route depends on how the annexe is created",
+      "intro": "There is no single annexe depth rule because annexe accommodation can be formed in very different ways.",
+      "rules": [
+        "An annexe formed within a side or rear extension is judged under the normal extension rules for that form of development.",
+        "A detached ancillary building should stay behind the principal elevation and within the ordinary Class E site-coverage rules if that route is being used.",
+        "Large detached accommodation can become planning-sensitive even where the footprint might suit a normal outbuilding.",
+        "The more the building looks capable of independent day-to-day occupation, the less useful a simple measurement-based argument becomes."
+      ],
+      "details": "Depth only matters once the planning route is clear. A deep rear addition that stays functionally tied to the house can still be assessed as an extension, but a detached building with its own domestic facilities is much more likely to be treated as a separate dwelling.",
+      "exceptions": "A large detached annexe-style building, or one arranged as a separate residential unit, is more likely to require planning permission."
+    },
+    "boundary_rules": {
+      "title": "Boundary siting can make a building read as separate",
+      "intro": "Boundary issues with annexe proposals are about more than raw measurements. They also affect whether the accommodation begins to feel like its own plot or dwelling.",
+      "rules": [
+        "For a detached ancillary building, any part within 2 metres of a boundary is normally limited to 2.5 metres overall height under Class E.",
+        "Independent access, strong separation from the main house or a layout that creates a distinct living enclave can all weaken the ancillary-use argument.",
+        "Boundary-facing windows, entrances and outdoor areas can add privacy and amenity concerns beyond the standard height check.",
+        "A detached building tucked against an edge of the site is more likely to be judged as a separate form of occupation if the arrangement looks self-contained."
+      ],
+      "details": "A modest detached building can become planning-sensitive if the siting and arrangement make it look less like an ancillary room and more like an independent home. Boundary position often plays a large part in that impression.",
+      "exceptions": "A detached annexe-style building that reads as a separate dwelling plot, or fails the normal boundary-related Class E limits, is more likely to require planning permission."
+    },
+    "roof_rules": {
+      "title": "Roof limits follow the planning route used",
+      "intro": "There is no standalone annexe roof code. Roof allowances depend on whether the accommodation is created within an extension or in a detached ancillary building.",
+      "rules": [
+        "A linked annexe follows the roof rules for the house extension or roof alteration being proposed.",
+        "A detached ancillary building follows the normal Class E roof and height limits.",
+        "A house-like roof form on a detached building can strengthen the impression that it is a separate dwelling.",
+        "Roof design should be considered alongside access, layout and siting rather than as a measurement issue alone."
+      ],
+      "details": "Roof form affects not just dimensions but character. A detached building with a more domestic roof, pronounced eaves and prominent entrance treatment can start to read like a small standalone house even where the measurements appear modest.",
+      "exceptions": "Where the roof design exceeds the relevant limits or helps the building read as a separate dwelling, planning permission is more likely to be required."
+    },
+    "materials_rules": {
+      "title": "Ancillary character matters more than labels",
+      "intro": "For annexe schemes, the most important planning distinction is often functional rather than cosmetic: does the accommodation stay clearly subordinate to the main house or can it operate on its own?",
+      "rules": [
+        "External materials should sit comfortably with the host dwelling and not overstate the building as a separate residence.",
+        "A simple ancillary bedroom, sitting room or shower room arrangement is usually easier to justify than a fully independent living suite.",
+        "Separate access, extensive servicing and a layout suited to independent occupation can all weaken the ancillary-use case.",
+        "Calling something an annexe is not enough if the finished arrangement behaves like another home."
+      ],
+      "details": "Planning officers commonly look beyond the label attached to the project. The practical question is whether the space remains part of one household or becomes capable of standing alone as a separate dwelling.",
+      "exceptions": "A proposal that creates, or can readily function as, a separate self-contained dwelling will usually need planning permission."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Annexe proposals in conservation areas can face closer scrutiny where the siting, scale or domestic detailing makes the building read as an additional dwelling.",
+    "listed_building": "Annexe works to a listed building or within its curtilage often raise additional heritage consent issues alongside any planning assessment.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions or planning conditions can remove the normal fallback routes for extensions and detached ancillary buildings, but a true self-contained annexe often needs planning permission in any event."
+  }
+}

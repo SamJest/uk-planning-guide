@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "England's Class A rules can cover many house extensions, but the answer depends on the shape of the proposal, whether it stays behind the principal elevation and whether the house remains within the 50% curtilage limit. Rear, side and two-storey elements each trigger different checks, and larger single-storey rear additions use the separate prior-approval route.",
+    "rules": {
+      "height_rules": "Height must stay within the Class A limits, with special care over eaves near boundaries and any two-storey work that approaches the existing roof line.",
+      "depth_rules": "Depth limits vary by extension type. Rear extensions have the clearest metre limits, while side and wraparound forms are judged more by proportion, width and relationship to the original house.",
+      "boundary_rules": "Boundaries are often the deciding factor. Close side passages, shallow rear gardens, corner plots and upper-floor windows can turn an apparently modest extension into one needing permission.",
+      "roof_rules": "The roof should remain subordinate to the host dwelling. Front-facing elements, bulky side roofs, balconies and terrace-style forms are where householder schemes often leave the permitted development route.",
+      "materials_rules": "External materials should be similar in appearance to the original house so the extension feels like part of the same building rather than a separate structure."
+    }
+  },
+  "rules": {
+    "height_rules": {
+      "title": "Class A height limits depend on the extension type",
+      "intro": "There is no single house-extension height allowance. Under England's Class A rules, the key checks are overall height, eaves height near boundaries and whether the proposal is single or two storey.",
+      "rules": [
+        "Single-storey extensions should not exceed 4m in overall height.",
+        "If any part comes within 2m of a boundary, the eaves height should not exceed 3m.",
+        "An extension should not be higher than the highest part of the existing roof or higher at the eaves than the existing eaves.",
+        "A side extension under permitted development must be single storey."
+      ],
+      "details": "Planning Portal guidance treats height as a shared Class A cap rather than a free-standing design choice. The usual safe route is a modest single-storey form that sits clearly below the main roof, with special care where side walls run close to a boundary.",
+      "exceptions": "Raising the extension above the Class A height limits, or proposing a two-storey side extension, will normally mean planning permission is needed."
+    },
+    "depth_rules": {
+      "title": "Depth is clearest on rear extensions",
+      "intro": "Rear extensions have the clearest metre limits under Class A. Side and wraparound forms are judged more by width, position and the overall enlargement of the house.",
+      "rules": [
+        "A standard single-storey rear extension can usually project up to 3m on a semi-detached or terraced house and 4m on a detached house.",
+        "The larger home extension route can increase that to 6m or 8m, but only through prior approval.",
+        "A rear extension of more than one storey must not project more than 3m beyond the original rear wall.",
+        "Depth is measured from the original house, taking previous enlargements into account."
+      ],
+      "details": "On a general house-extension page, depth only tells part of the story. Rear additions are measured against clear metre limits, while side and wraparound schemes are tested more by width, height, frontage and the cumulative scale of the enlargement.",
+      "exceptions": "Extensions that go beyond the rear-depth limits, or rely on a larger-home route without prior approval where required, will usually need planning permission."
+    },
+    "boundary_rules": {
+      "title": "Boundaries and frontage often decide the answer",
+      "intro": "House extensions lose permitted development status quickly where they project forward of the principal elevation, overwork a side boundary or create upper-floor impacts that the rules do not allow.",
+      "rules": [
+        "Extensions cannot be built forward of the principal elevation or, where it fronts a highway, the side elevation.",
+        "A side extension under permitted development should be no more than half the width of the original house.",
+        "A rear extension of more than one storey must not be within 7m of a boundary opposite the rear wall.",
+        "Any upper-floor side window should be obscure glazed and non-opening below 1.7m."
+      ],
+      "details": "Boundary rules are not just a tape-measure exercise. They also control how dominant the extension feels, how much it affects neighbours and whether the house still reads as one dwelling rather than a substantially reworked frontage.",
+      "exceptions": "A scheme that projects forward, breaches the half-width rule for side work or fails the 7m opposite-boundary test for two-storey rear work will normally need planning permission."
+    },
+    "roof_rules": {
+      "title": "Roof alterations do not get a free pass",
+      "intro": "Class A allows an extension, but it does not allow any alteration to the existing house roof as part of that route. Roof design therefore has to stay within the extension envelope or be checked separately.",
+      "rules": [
+        "The extension roof should remain below the highest part of the existing house.",
+        "For upper-storey work, the roof pitch should match the existing house as far as practicable.",
+        "Flat or shallow-pitched roofs are often used on single-storey additions to stay within the height limits.",
+        "Dormers and other roof enlargements are controlled under separate roof-development rules."
+      ],
+      "details": "The safest approach is to separate the roof questions. A rear or side extension can be permitted development while a linked dormer, ridge raise or other roof enlargement is not.",
+      "exceptions": "Roof changes that exceed the Class A envelope, or separate roof enlargements that do not meet their own permitted development rules, will normally need planning permission."
+    },
+    "materials_rules": {
+      "title": "External materials should look like part of the house",
+      "intro": "England's householder guidance expects exterior materials used on an extension to be of a similar appearance to the existing house.",
+      "rules": [
+        "Walls, roof finishes and visible trims should match or closely complement the existing house.",
+        "Poorly matched cladding or infill can make even a modest extension look out of place.",
+        "On Article 2(3) designated land, exterior cladding is not allowed under the ordinary Class A route.",
+        "The extension should still read as subordinate to the original dwelling."
+      ],
+      "details": "Materials matter because the permitted development route is designed for work that remains visually tied to the existing house. A careful match in brick, render, tiles and detailing usually supports that reading better than a visibly unrelated finish.",
+      "exceptions": "Materials that are not of similar appearance, or exterior cladding proposed on Article 2(3) designated land under the ordinary Class A route, are more likely to push the project into planning permission."
+    }
+  },
+  "restrictions": {
+    "conservation_area": "Certain house extensions, particularly side extensions or those visible from the street, may require planning permission in conservation areas.",
+    "listed_building": "Extensions to listed buildings require listed building consent in addition to any planning permission.",
+    "article4_applies": false,
+    "article4_notes": "Article 4 directions can remove the usual householder fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+  }
+}
