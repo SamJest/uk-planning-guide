@@ -1,0 +1,59 @@
+ID,Phase,Priority,Area,Task,Impact,Effort,Dependencies,Acceptance criterion
+P0-001,0,Critical,Architecture,"Map generator, templates, data flow and deployment",Very high,M,None,Architecture docs identify source-of-truth and generation path
+P0-002,0,Critical,Content model,Implement typed page-family schema,Very high,L,P0-001,Build rejects records missing required family/jurisdiction/source fields
+P0-003,0,Critical,QA,Build contamination linter,Very high,L,P0-002,Known garden-room/dropped-kerb leakage fixtures fail
+P0-004,0,Critical,Sources,Create normalized source registry,Very high,L,P0-001,Sources have authority/type/status/last checked
+P0-005,0,Critical,Templates,Restrict template inputs by family,Very high,L,P0-002,Generic pages cannot receive assumed project
+P0-006,0,Critical,Content,Audit all current URLs for contamination,Very high,L,P0-003,CSV report with keep/repair/noindex/redirect/410
+P0-007,0,Critical,Trust,Remove placeholder/demo UI,High,S,None,No live demo ad/form/partner placeholders
+P0-008,0,Critical,Trust,Replace undocumented reviewer identity,High,S,None,Every reviewer/person is real and documented
+P0-009,0,Critical,SEO,Synchronize visible/schema/sitemap dates,High,M,P0-002,Automated date consistency test passes
+P0-010,0,Critical,SEO,Create central URL registry,Very high,L,P0-001,"Canonicals, links, breadcrumbs and sitemaps use registry"
+P0-011,0,Critical,SEO,Build redirect/noindex/410 plan,Very high,L,P0-006,No redirect chains; topical equivalents only
+P0-012,0,Critical,QA,Create 20-URL canary set and snapshots,Very high,M,P0-001,All page families represented
+P0-013,0,Critical,Sources,Repair Colchester sample family,Very high,M,"P0-004,P0-005",No garden-room/dropped-kerb leakage; correct sources
+P0-014,0,High,Repository,Audit repository bloat and generated assets,High,M,P0-001,Large-file report and safe remediation proposal
+P0-015,0,Critical,CI,Add Phase 0 build gates,Very high,L,P0-002..013,CI fails on contamination/source/URL/schema defects
+P1-001,1,High,Frontend,Extract shared CSS into versioned assets,High,L,P0 complete,Duplicate page CSS removed; cacheable assets
+P1-002,1,High,Frontend,Extract shared core JavaScript,High,L,P0 complete,Only required modules load by page type
+P1-003,1,High,UX,Simplify navigation around user tasks,High,M,P0 complete,Start/check/council/track/updates/projects are clear
+P1-004,1,High,Search,Implement internal search and filters,High,L,URL registry,Typo-tolerant task search; zero-results tracked
+P1-005,1,High,Content,Repair top 100 landing pages,Very high,XL,P0 audit,All meet page standard and sources
+P1-006,1,Medium,Schema,Use page-type-specific structured data,Medium,M,P0 schema,No generic CollectionPage on every page
+P1-007,1,High,Performance,Add performance budgets,High,M,Shared assets,CI reports HTML/JS/CWV lab metrics
+P1-008,1,High,Analytics,Document event taxonomy and funnels,High,M,None,No duplicate events or sensitive notes
+P1-009,1,Medium,UX,Reduce repeated CTA/trust blocks,Medium,M,Templates,One primary next action per page
+P1-010,1,High,Accessibility,WCAG 2.2 AA remediation,High,L,Templates,No critical/serious canary findings
+P2-001,2,High,Workspace,Design multi-project data model,Very high,M,P0 complete,Entities and migrations documented
+P2-002,2,High,Workspace,Migrate existing local storage safely,Very high,L,P2-001,Existing saved data retained
+P2-003,2,High,Workspace,"Add tasks, dates, notes and evidence lists",High,L,P2-001,Project dashboard supports full workflow
+P2-004,2,High,Accounts,Add optional passwordless accounts,High,L,Deployment decision,Anonymous use remains available
+P2-005,2,High,Accounts,Cross-device project sync,High,L,P2-004,Conflict handling and offline fallback
+P2-006,2,Medium,Exports,Add project PDF/print/JSON/calendar exports,Medium,M,P2-003,Exports contain sources and current status
+P2-007,2,High,Privacy,"Consent, export and deletion workflows",Very high,M,P2-004,User can manage/delete data
+P2-008,2,High,Analytics,Measure project activation and retention,High,M,P2-003,7/30/90-day cohorts available
+P3-001,3,Critical,Authority data,Build 20 authority source-complete profiles,Very high,XL,Source registry,Each passes local quality threshold
+P3-002,3,High,Monitoring,Implement source hash/change detection,High,L,P3-001,"Changes create review tasks, not auto advice"
+P3-003,3,High,Alerts,Build council-watch digest MVP,Very high,L,"P3-002,accounts",Official-source linked weekly digest
+P3-004,3,High,Applications,Application watch pilot,Very high,XL,Accounts/data method,Reliable support for limited authorities
+P3-005,3,High,Retention,Build what-changed feed,High,M,"P3-002,P3-004",Project dashboard shows meaningful changes
+P3-006,3,Medium,Applications,Nearby decisions prototype,High,L,Data method,Official links and privacy controls
+P4-001,4,High,Content,Rebuild 20 highest-value cornerstone guides,Very high,XL,P0 complete,Definitive page standard met
+P4-002,4,High,Content,Create original diagram system,High,L,Design system,Accessible reusable project diagrams
+P4-003,4,High,Local SEO,Publish first 25 validated local project pages,Very high,XL,Authority profiles,85/100 quality threshold
+P4-004,4,High,Updates,Launch substantive planning updates hub,High,L,Editorial workflow,Updates map to affected evergreen pages
+P4-005,4,High,Authority,Publish first original data report,Very high,XL,Data methodology,Downloadable methodology and coverage
+P4-006,4,Medium,Case studies,Publish 20 structured case studies,High,L,Editorial sourcing,"Real/anonymized, source-safe examples"
+P4-007,4,Medium,Digital PR,Build journalist and citation resource,High,M,P4-005,"Press-ready charts, notes and contacts"
+P5-001,5,High,Scale,Expand cornerstone library to 100+,Very high,XL,Performance evidence,Update cadence and QA maintained
+P5-002,5,High,Scale,Expand validated local pages to 500–900,Very high,XL,Winning cohorts only,No quality/index regression
+P5-003,5,High,Alerts,Expand monitoring only to reliable authorities,Very high,XL,Pilot accuracy,Coverage/status disclosed
+P5-004,5,Medium,Content,Build 50+ case-study library,High,L,Case-study process,Supports project and local clusters
+P5-005,5,High,Email,Optimize useful weekly project/council digest,High,M,Alerts,Return visits without notification fatigue
+P6-001,6,High,Data,Normalize decision times and outcomes,Very high,XL,Reliable coverage,Methodology and missingness published
+P6-002,6,High,Data,Build council comparison dashboards,Very high,XL,P6-001,Coverage and definitions visible
+P6-003,6,High,Data,Build refusal-reason taxonomy,High,XL,Document/data rights,Human-audited categories
+P6-004,6,High,Authority,Publish annual State of Homeowner Planning report,Very high,XL,P6-001..003,"Original, citable report"
+P6-005,6,Medium,Distribution,Create embeddable tools/widgets,High,L,Stable APIs/assets,Attribution and performance compliant
+P6-006,6,High,Commercial,Build transparent referral handoff,High,L,Consent/privacy,Only after useful result; explicit consent
+
