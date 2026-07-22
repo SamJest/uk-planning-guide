@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-07-21",
+  "templates": [
+    {
+      "id": "house-extension",
+      "name": "House extension",
+      "description": "Rear, side or wraparound extension project record.",
+      "planningGuide": "/house-extensions/",
+      "scopeSections": [
+        {
+          "id": "preliminaries",
+          "name": "Preliminaries and site setup",
+          "items": [
+            {"id": "site-access", "label": "Access, protection and site setup", "help": "Record access limits, protection to existing rooms and working-hour constraints."},
+            {"id": "surveys", "label": "Measurements, surveys and investigations", "help": "List surveys or opening-up work required before a fixed price is reliable."},
+            {"id": "waste", "label": "Waste removal and skip arrangements", "help": "State who supplies permits, skips and final clearance."}
+          ]
+        },
+        {
+          "id": "structure",
+          "name": "Structure and envelope",
+          "items": [
+            {"id": "groundworks", "label": "Excavation, foundations and drainage alterations", "help": "Include assumptions, provisional sums and treatment of unexpected ground conditions."},
+            {"id": "structural-openings", "label": "Structural openings, beams and temporary support", "help": "Record design responsibility and whether engineering is included."},
+            {"id": "walls-roof", "label": "Walls, insulation, roof structure and weatherproofing", "help": "Specify build-up, finish and who confirms performance requirements."},
+            {"id": "windows-doors", "label": "External windows, rooflights and doors", "help": "Capture product, finish, glazing, installation and certification expectations."}
+          ]
+        },
+        {
+          "id": "services-finishes",
+          "name": "Services and finishes",
+          "items": [
+            {"id": "electrics", "label": "Electrical alterations and certification", "help": "Include points, consumer-unit impact, testing and certificate responsibility."},
+            {"id": "plumbing-heating", "label": "Plumbing, heating and drainage connections", "help": "Record appliance, radiator, underfloor-heating and commissioning assumptions."},
+            {"id": "plastering", "label": "Plastering, making good and decoration", "help": "Define the finish boundary so quotations are comparable."},
+            {"id": "flooring-joinery", "label": "Flooring, skirting, doors and joinery", "help": "State supply responsibility and whether existing finishes are matched."}
+          ]
+        }
+      ],
+      "approvalChecks": [
+        {"id": "planning-route", "label": "Planning permission or permitted development route checked", "officialLink": "/tools/planning-route-check/"},
+        {"id": "local-constraints", "label": "Local constraints and planning history checked", "officialLink": "/councils/"},
+        {"id": "building-control", "label": "Building control route confirmed", "officialLink": "/tools/building-control-route-checker/"},
+        {"id": "party-wall", "label": "Party wall position considered", "officialLink": "/planning-help/"},
+        {"id": "structural-design", "label": "Structural design responsibility recorded", "officialLink": "/building-regulations/"}
+      ],
+      "completionDocuments": [
+        {"id": "planning-decision", "label": "Planning decision, lawful development certificate or written route evidence"},
+        {"id": "building-control-completion", "label": "Building control completion certificate"},
+        {"id": "electrical-certificate", "label": "Electrical installation or minor works certificate"},
+        {"id": "glazing-certificate", "label": "Window and door installation certificate where applicable"},
+        {"id": "structural-records", "label": "Structural calculations and final drawings"},
+        {"id": "warranties", "label": "Product and workmanship warranties"},
+        {"id": "final-invoice", "label": "Final invoice and agreed variation record"}
+      ]
+    },
+    {
+      "id": "loft-conversion",
+      "name": "Loft conversion",
+      "description": "Roof-space conversion, dormer or rooflight-led project record.",
+      "planningGuide": "/loft-conversions/",
+      "scopeSections": [
+        {
+          "id": "design-access",
+          "name": "Design and access",
+          "items": [
+            {"id": "survey-headroom", "label": "Measured survey, headroom and roof form", "help": "Keep the measured assumptions used for design and pricing."},
+            {"id": "stairs", "label": "Stair position, guarding and making good", "help": "Define alterations on the floor below and the finish around the new stair."},
+            {"id": "site-protection", "label": "Access, protection and scaffold strategy", "help": "Record whether work is external-first and how occupied rooms are protected."}
+          ]
+        },
+        {
+          "id": "structure-envelope",
+          "name": "Structure and roof envelope",
+          "items": [
+            {"id": "floor-structure", "label": "New floor structure and load paths", "help": "Identify engineering responsibility and assumptions about existing walls."},
+            {"id": "roof-alterations", "label": "Dormer, rooflight and roof alterations", "help": "Capture dimensions, cladding, flashings and tile/slate matching."},
+            {"id": "insulation-ventilation", "label": "Insulation, ventilation and airtightness details", "help": "Record proposed build-up and ventilation strategy."},
+            {"id": "fire-safety", "label": "Fire doors, alarms and protected escape route works", "help": "Define all changes outside the loft room as part of the quote."}
+          ]
+        },
+        {
+          "id": "services-finishes",
+          "name": "Services and finishes",
+          "items": [
+            {"id": "electrics", "label": "Electrical work, alarms and certification", "help": "Include circuits, sockets, lighting and test certificates."},
+            {"id": "heating-plumbing", "label": "Heating, plumbing and bathroom connections", "help": "State pressure, drainage and ventilation assumptions for bathrooms."},
+            {"id": "plaster-joinery", "label": "Plastering, joinery, decoration and floor finishes", "help": "Set the expected completed finish, not just the structural shell."}
+          ]
+        }
+      ],
+      "approvalChecks": [
+        {"id": "planning-route", "label": "Planning permission or permitted development route checked", "officialLink": "/tools/planning-route-check/"},
+        {"id": "roof-constraints", "label": "Roof and local constraints checked", "officialLink": "/loft-conversions/"},
+        {"id": "building-control", "label": "Building control route confirmed", "officialLink": "/tools/building-control-route-checker/"},
+        {"id": "party-wall", "label": "Party wall position considered", "officialLink": "/planning-help/"},
+        {"id": "structural-design", "label": "Structural engineer responsibility recorded", "officialLink": "/building-regulations/"}
+      ],
+      "completionDocuments": [
+        {"id": "planning-evidence", "label": "Planning decision or lawful development evidence"},
+        {"id": "building-control-completion", "label": "Building control completion certificate"},
+        {"id": "electrical-certificate", "label": "Electrical certificate and alarm test record"},
+        {"id": "structural-records", "label": "Structural calculations and final drawings"},
+        {"id": "roof-warranty", "label": "Roofing, rooflight and workmanship warranties"},
+        {"id": "final-invoice", "label": "Final invoice and variation record"}
+      ]
+    },
+    {
+      "id": "garden-room-outbuilding",
+      "name": "Garden room or outbuilding",
+      "description": "Detached garden building, office or ancillary structure project record.",
+      "planningGuide": "/garden-rooms/",
+      "scopeSections": [
+        {
+          "id": "route-site",
+          "name": "Route and site",
+          "items": [
+            {"id": "use-description", "label": "Intended use and occupancy assumptions", "help": "Record whether the building is incidental, work-related, sleeping accommodation or separately occupied."},
+            {"id": "position-dimensions", "label": "Position, boundaries, height and dimensions", "help": "Use the same measured dimensions for checks, drawings and quotations."},
+            {"id": "ground-access", "label": "Ground conditions, access and waste removal", "help": "Capture excavation, base assumptions and machinery access."}
+          ]
+        },
+        {
+          "id": "building-shell",
+          "name": "Building shell",
+          "items": [
+            {"id": "base-foundation", "label": "Base, foundation or ground system", "help": "State design assumptions, damp protection and finished floor level."},
+            {"id": "frame-envelope", "label": "Frame, walls, roof and external finish", "help": "Specify structure, cladding, roof covering and weatherproofing."},
+            {"id": "insulation-openings", "label": "Insulation, glazing, doors and ventilation", "help": "Record intended year-round performance and exact products."}
+          ]
+        },
+        {
+          "id": "services-finish",
+          "name": "Services and finish",
+          "items": [
+            {"id": "electrical-supply", "label": "Electrical supply, trenching and certification", "help": "Clarify cable route, consumer-unit work and testing."},
+            {"id": "water-drainage", "label": "Water, drainage or sanitary connections", "help": "Mark not applicable where the building has no plumbing."},
+            {"id": "internal-finish", "label": "Internal lining, heating, flooring and decoration", "help": "Define whether the quote is shell-only or ready to use."}
+          ]
+        }
+      ],
+      "approvalChecks": [
+        {"id": "planning-route", "label": "Planning route and permitted development limits checked", "officialLink": "/garden-rooms/"},
+        {"id": "use-risk", "label": "Use, sleeping and separate-occupation risk checked", "officialLink": "/planning-help/"},
+        {"id": "local-constraints", "label": "Local restrictions and heritage context checked", "officialLink": "/councils/"},
+        {"id": "building-regulations", "label": "Building regulations position checked", "officialLink": "/building-regulations/"},
+        {"id": "electrical-route", "label": "Electrical installation route confirmed", "officialLink": "/building-regulations/"}
+      ],
+      "completionDocuments": [
+        {"id": "planning-evidence", "label": "Planning decision, lawful development evidence or retained route record"},
+        {"id": "building-control-completion", "label": "Building control completion evidence where applicable"},
+        {"id": "electrical-certificate", "label": "Electrical installation certificate"},
+        {"id": "product-warranties", "label": "Building, roof, glazing and product warranties"},
+        {"id": "final-spec", "label": "Final specification, photographs and invoice"}
+      ]
+    },
+    {
+      "id": "windows-doors",
+      "name": "Window or external-door replacement",
+      "description": "Replacement glazing, windows, external doors or rooflights project record.",
+      "planningGuide": "/building-regulations/",
+      "scopeSections": [
+        {
+          "id": "survey-products",
+          "name": "Survey and products",
+          "items": [
+            {"id": "opening-schedule", "label": "Opening-by-opening schedule and measurements", "help": "Number every opening so all quotes cover the same units."},
+            {"id": "product-spec", "label": "Frame, glazing, hardware and finish specification", "help": "Record product series, colour, glazing and security details."},
+            {"id": "access-protection", "label": "Access, protection and removal assumptions", "help": "Include scaffold, parking, internal protection and disposal."}
+          ]
+        },
+        {
+          "id": "installation",
+          "name": "Installation and making good",
+          "items": [
+            {"id": "removal-install", "label": "Removal, installation and weather sealing", "help": "Define installation method and treatment of reveals and sills."},
+            {"id": "lintel-structure", "label": "Lintel and structural assumptions", "help": "Record what happens if support is absent or defective."},
+            {"id": "making-good", "label": "Internal and external making good", "help": "Specify plaster, render, trims, decoration and matching expectations."}
+          ]
+        },
+        {
+          "id": "handover",
+          "name": "Handover",
+          "items": [
+            {"id": "certification", "label": "Certification and registration", "help": "State who supplies compliance evidence and by when."},
+            {"id": "warranty", "label": "Product and installation warranty", "help": "Record length, provider, transferability and exclusions."},
+            {"id": "final-check", "label": "Final adjustment, cleaning and defect check", "help": "Include snagging and operation demonstration."}
+          ]
+        }
+      ],
+      "approvalChecks": [
+        {"id": "planning-sensitivity", "label": "Planning, listed-building and conservation sensitivity checked", "officialLink": "/conservation-areas/"},
+        {"id": "building-regs-route", "label": "Building regulations or competent-person route confirmed", "officialLink": "/building-regulations/"},
+        {"id": "lease-consent", "label": "Leasehold, freeholder or management-company consent considered", "officialLink": "/planning-help/"},
+        {"id": "product-spec-confirmed", "label": "Final product schedule approved before order", "officialLink": "/planning-help/"}
+      ],
+      "completionDocuments": [
+        {"id": "compliance-certificate", "label": "Competent-person or building-control certificate"},
+        {"id": "product-schedule", "label": "Final product and opening schedule"},
+        {"id": "warranties", "label": "Product and installation warranties"},
+        {"id": "invoice", "label": "Final invoice and payment record"},
+        {"id": "photos", "label": "Completion photographs and snagging sign-off"}
+      ]
+    },
+    {
+      "id": "internal-structural-alteration",
+      "name": "Internal renovation or structural alteration",
+      "description": "Wall removal, reconfiguration, kitchen/bathroom renovation or structural internal work.",
+      "planningGuide": "/building-regulations/",
+      "scopeSections": [
+        {
+          "id": "investigation-design",
+          "name": "Investigation and design",
+          "items": [
+            {"id": "opening-up", "label": "Survey, opening-up and existing-services investigation", "help": "Record what is known and what remains provisional before demolition."},
+            {"id": "structural-design", "label": "Structural design and temporary works", "help": "Define engineer, contractor and approval responsibilities."},
+            {"id": "layout-spec", "label": "Final layout, fixture and finish schedule", "help": "Use one agreed schedule for every quote."}
+          ]
+        },
+        {
+          "id": "strip-structure",
+          "name": "Strip-out and structure",
+          "items": [
+            {"id": "strip-out", "label": "Strip-out, protection and waste removal", "help": "State what is retained, reused, removed and disposed of."},
+            {"id": "structural-work", "label": "Wall removal, beams, supports and making safe", "help": "Capture temporary support and inspection stages."},
+            {"id": "partitions-fire", "label": "Partitions, doors and fire-safety alterations", "help": "Include acoustic or fire requirements where relevant."}
+          ]
+        },
+        {
+          "id": "services-finishes",
+          "name": "Services and finishes",
+          "items": [
+            {"id": "electrical", "label": "Electrical alterations and certification", "help": "Include circuits, points, testing and consumer-unit work."},
+            {"id": "plumbing-gas", "label": "Plumbing, heating and gas work", "help": "Record isolation, relocation, commissioning and certification."},
+            {"id": "surfaces", "label": "Plastering, tiling, flooring and decoration", "help": "Define substrate preparation and finished standard."},
+            {"id": "fittings", "label": "Kitchen, bathroom, joinery and appliance installation", "help": "State supply responsibility and final connection work."}
+          ]
+        }
+      ],
+      "approvalChecks": [
+        {"id": "planning-position", "label": "Planning or listed-building consent position checked", "officialLink": "/planning-permission/"},
+        {"id": "building-control", "label": "Building control route confirmed", "officialLink": "/tools/building-control-route-checker/"},
+        {"id": "structural-engineer", "label": "Structural engineer scope and inspection responsibility recorded", "officialLink": "/building-regulations/"},
+        {"id": "lease-consent", "label": "Leasehold or freeholder consent considered", "officialLink": "/planning-help/"},
+        {"id": "asbestos-risk", "label": "Age-related hazardous-material risk considered before disturbance", "officialLink": "/planning-help/"}
+      ],
+      "completionDocuments": [
+        {"id": "building-control-completion", "label": "Building control completion certificate"},
+        {"id": "structural-records", "label": "Structural calculations and final details"},
+        {"id": "electrical-certificate", "label": "Electrical installation or minor works certificate"},
+        {"id": "gas-certificate", "label": "Gas work record where applicable"},
+        {"id": "product-warranties", "label": "Product, appliance and workmanship warranties"},
+        {"id": "final-invoice", "label": "Final invoice, variations and completion photographs"}
+      ]
+    }
+  ]
+}
