@@ -32,6 +32,6 @@ Browser/Lighthouse baseline unavailable from successful current runs. No current
 
 ## Reviewed replacement delta
 
-The release candidate changes only `/permitted-development/north-yorkshire/`, `/conservation-areas/glasgow-city/`, `/councils/sheffield/` and `/tools/`. The first three become explicit project-free local-rule/authority pages with self-canonicals and verified official sources. `/tools/` presents the four-capability journey while preserving every specialist tool URL. The candidate also removes ten already-noindex/noncanonical sitemap memberships across shards 1, 2, 5 and 7. Exact before/after SHA-256 values are in `artifacts/releases/recovery-batch-1/release-manifest.json`.
+The release candidate changes only `/permitted-development/north-yorkshire/`, `/conservation-areas/glasgow-city/`, `/councils/sheffield/` and `/tools/`. The first three become explicit project-free local-rule/authority pages with self-canonicals and verified official sources. `/tools/` presents the four-capability journey while preserving every specialist tool URL. The candidate also removes ten already-noindex/noncanonical sitemap memberships across shards 1, 2, 5 and 7. Exact before/after SHA-256 values are in `artifacts/releases/recovery-batch-2/release-manifest.json`.
 
 The resulting static candidate has no page additions or deletions. It has not been deployed, so no claim is made that live hashes have changed. A post-deployment live verification and performance run remain mandatory.

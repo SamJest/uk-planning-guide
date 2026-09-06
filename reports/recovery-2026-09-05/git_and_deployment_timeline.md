@@ -33,4 +33,4 @@ Coverage visible corpus changes from1,193 on June30 to35,217 on July1 while impr
 
 ## Current recovery branch and deployment state
 
-On 6 September 2026 the audited work moved from source commit `4674306f8c3` to a dedicated branch, `codex/ukpg-recovery-2026-09-06`. Production remains `aa7d89ec029c`; no Pages files, remote branches, pull requests or deployment settings have been changed by this recovery. The proposed release is `artifacts/releases/recovery-batch-1/release-manifest.json`, status `review-candidate-not-deployed`, based on production tree `9c640ff1b40473f2e025e9368ac008d41b1e5cc5`.
+On 6 September 2026 the audited work moved from source commit `4674306f8c3` to a dedicated branch, `codex/ukpg-recovery-2026-09-06`. Production remains `aa7d89ec029c`; no Pages files, remote branches, pull requests or deployment settings have been changed by this recovery. The final source-bound proposed release is `artifacts/releases/recovery-batch-2/release-manifest.json`, status `review-candidate-not-deployed`, based on production tree `9c640ff1b40473f2e025e9368ac008d41b1e5cc5`.

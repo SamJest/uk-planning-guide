@@ -24,4 +24,4 @@ Clean scoped build and relevant tests; semantic fixtures across jurisdictions; e
 
 ## Batch1 rollback map
 
-`artifacts/releases/recovery-batch-1/release-manifest.json` records SHA-256 values for all eight changed files. Rollback is a normal revert of that single generated deployment commit: it restores the four HTML blobs and four XML blobs, returns submitted sitemap membership from 35,208 to 35,218, and leaves all 35,219 pages in place. There are no redirects, deletions, payment records, partner state or user-data migrations to reverse. Source rollback is likewise by phase commit, never reset or force push.
+`artifacts/releases/recovery-batch-2/release-manifest.json` records SHA-256 values for all eight changed files. Rollback is a normal revert of that single generated deployment commit: it restores the four HTML blobs and four XML blobs, returns submitted sitemap membership from 35,208 to 35,218, and leaves all 35,219 pages in place. There are no redirects, deletions, payment records, partner state or user-data migrations to reverse. Source rollback is likewise by phase commit, never reset or force push.
