@@ -1,0 +1,312 @@
+{
+  "status": "passed",
+  "ledger": "reports\\recovery-2026-09-05\\url-inventory-and-classification.csv",
+  "production_base": ".gh-pages-deploy",
+  "clicked_404_count": 30,
+  "clicked_404_clicks": 91,
+  "same_authority_parent_found": 30,
+  "redirects_authorised": 0,
+  "restorations_authorised": 0,
+  "findings": [
+    {
+      "missing_url": "https://ukplanningguide.co.uk/annexes/greater-london/bromley/planning-permission/",
+      "clicks": 3,
+      "family": "annexes",
+      "missing_rule_intent": "planning-permission",
+      "same_authority_parent": "/annexes/greater-london/bromley/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/annexes/greater-london/ealing/planning-permission/",
+      "clicks": 3,
+      "family": "annexes",
+      "missing_rule_intent": "planning-permission",
+      "same_authority_parent": "/annexes/greater-london/ealing/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/annexes/greater-london/redbridge/planning-permission-depth-limits/",
+      "clicks": 3,
+      "family": "annexes",
+      "missing_rule_intent": "planning-permission-depth-limits",
+      "same_authority_parent": "/annexes/greater-london/redbridge/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/annexes/hampshire/winchester/planning-permission-height-limits/",
+      "clicks": 3,
+      "family": "annexes",
+      "missing_rule_intent": "planning-permission-height-limits",
+      "same_authority_parent": "/annexes/hampshire/winchester/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/annexes/lincolnshire/east-lindsey/planning-permission-article-4/",
+      "clicks": 4,
+      "family": "annexes",
+      "missing_rule_intent": "planning-permission-article-4",
+      "same_authority_parent": "/annexes/lincolnshire/east-lindsey/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/change-of-use/cambridgeshire/huntingdonshire/boundary-rules-article-4/",
+      "clicks": 3,
+      "family": "change-of-use",
+      "missing_rule_intent": "boundary-rules-article-4",
+      "same_authority_parent": "/change-of-use/cambridgeshire/huntingdonshire/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/demolition/hertfordshire/hertsmere/boundary-rules/",
+      "clicks": 4,
+      "family": "demolition",
+      "missing_rule_intent": "boundary-rules",
+      "same_authority_parent": "/demolition/hertfordshire/hertsmere/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/driveways/yorkshire/leeds/planning-permission-permitted-development/",
+      "clicks": 3,
+      "family": "driveways",
+      "missing_rule_intent": "planning-permission-permitted-development",
+      "same_authority_parent": "/driveways/yorkshire/leeds/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/driveways/yorkshire/north-yorkshire/planning-permission-boundary-rules/",
+      "clicks": 3,
+      "family": "driveways",
+      "missing_rule_intent": "planning-permission-boundary-rules",
+      "same_authority_parent": "/driveways/yorkshire/north-yorkshire/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/fences-and-walls/greater-london/harrow/distance-from-boundary/",
+      "clicks": 3,
+      "family": "fences-and-walls",
+      "missing_rule_intent": "distance-from-boundary",
+      "same_authority_parent": "/fences-and-walls/greater-london/harrow/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/fences-and-walls/surrey/elmbridge/height-limits-depth-limits/",
+      "clicks": 3,
+      "family": "fences-and-walls",
+      "missing_rule_intent": "height-limits-depth-limits",
+      "same_authority_parent": "/fences-and-walls/surrey/elmbridge/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/garage-conversions/greater-london/brent/article-4/",
+      "clicks": 3,
+      "family": "garage-conversions",
+      "missing_rule_intent": "article-4",
+      "same_authority_parent": "/garage-conversions/greater-london/brent/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/garage-conversions/greater-london/waltham-forest/article-4/",
+      "clicks": 3,
+      "family": "garage-conversions",
+      "missing_rule_intent": "article-4",
+      "same_authority_parent": "/garage-conversions/greater-london/waltham-forest/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/garage-conversions/hampshire/basingstoke-and-deane/article-4/",
+      "clicks": 4,
+      "family": "garage-conversions",
+      "missing_rule_intent": "article-4",
+      "same_authority_parent": "/garage-conversions/hampshire/basingstoke-and-deane/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/garage-conversions/hampshire/gosport/maximum-height/",
+      "clicks": 3,
+      "family": "garage-conversions",
+      "missing_rule_intent": "maximum-height",
+      "same_authority_parent": "/garage-conversions/hampshire/gosport/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/garden-rooms/greater-london/lewisham/permitted-development-depth-limits/",
+      "clicks": 3,
+      "family": "garden-rooms",
+      "missing_rule_intent": "permitted-development-depth-limits",
+      "same_authority_parent": "/garden-rooms/greater-london/lewisham/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/house-extensions/greater-london/bexley/planning-permission-boundary-rules/",
+      "clicks": 2,
+      "family": "house-extensions",
+      "missing_rule_intent": "planning-permission-boundary-rules",
+      "same_authority_parent": "/house-extensions/greater-london/bexley/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/house-extensions/greater-london/hillingdon/height-limits-distance-from-boundary/",
+      "clicks": 2,
+      "family": "house-extensions",
+      "missing_rule_intent": "height-limits-distance-from-boundary",
+      "same_authority_parent": "/house-extensions/greater-london/hillingdon/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/house-extensions/greater-london/hillingdon/height-limits/",
+      "clicks": 3,
+      "family": "house-extensions",
+      "missing_rule_intent": "height-limits",
+      "same_authority_parent": "/house-extensions/greater-london/hillingdon/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/house-extensions/hampshire/hart/boundary-rules-permitted-development/",
+      "clicks": 3,
+      "family": "house-extensions",
+      "missing_rule_intent": "boundary-rules-permitted-development",
+      "same_authority_parent": "/house-extensions/hampshire/hart/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/outbuildings/buckinghamshire/buckinghamshire/article-4/",
+      "clicks": 4,
+      "family": "outbuildings",
+      "missing_rule_intent": "article-4",
+      "same_authority_parent": "/outbuildings/buckinghamshire/buckinghamshire/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/outbuildings/greater-london/barking-and-dagenham/permitted-development-listed-buildings/",
+      "clicks": 3,
+      "family": "outbuildings",
+      "missing_rule_intent": "permitted-development-listed-buildings",
+      "same_authority_parent": "/outbuildings/greater-london/barking-and-dagenham/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/outbuildings/greater-london/lewisham/article-4/",
+      "clicks": 2,
+      "family": "outbuildings",
+      "missing_rule_intent": "article-4",
+      "same_authority_parent": "/outbuildings/greater-london/lewisham/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/outbuildings/surrey/woking/article-4/",
+      "clicks": 3,
+      "family": "outbuildings",
+      "missing_rule_intent": "article-4",
+      "same_authority_parent": "/outbuildings/surrey/woking/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/outbuildings/worcestershire/bromsgrove/article-4/",
+      "clicks": 3,
+      "family": "outbuildings",
+      "missing_rule_intent": "article-4",
+      "same_authority_parent": "/outbuildings/worcestershire/bromsgrove/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/porches/essex/basildon/article-4/",
+      "clicks": 3,
+      "family": "porches",
+      "missing_rule_intent": "article-4",
+      "same_authority_parent": "/porches/essex/basildon/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/porches/essex/colchester/permitted-development-boundary-rules/",
+      "clicks": 3,
+      "family": "porches",
+      "missing_rule_intent": "permitted-development-boundary-rules",
+      "same_authority_parent": "/porches/essex/colchester/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/porches/greater-london/barking-and-dagenham/boundary-rules-roof-alterations/",
+      "clicks": 3,
+      "family": "porches",
+      "missing_rule_intent": "boundary-rules-roof-alterations",
+      "same_authority_parent": "/porches/greater-london/barking-and-dagenham/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/side-extensions/greater-london/hillingdon/permitted-development-article-4/",
+      "clicks": 3,
+      "family": "side-extensions",
+      "missing_rule_intent": "permitted-development-article-4",
+      "same_authority_parent": "/side-extensions/greater-london/hillingdon/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    },
+    {
+      "missing_url": "https://ukplanningguide.co.uk/single-storey-extensions/dorset/bournemouth-christchurch-and-poole/height-limits-permitted-development/",
+      "clicks": 3,
+      "family": "single-storey-extensions",
+      "missing_rule_intent": "height-limits-permitted-development",
+      "same_authority_parent": "/single-storey-extensions/dorset/bournemouth-christchurch-and-poole/",
+      "parent_exists": true,
+      "classification": "manual-equivalence-review",
+      "recommended_action": "Use the parent as a visible recovery link. Do not redirect unless review proves that the broader parent satisfies the missing combined-rule intent; otherwise restore only from an explicit content contract."
+    }
+  ]
+}
