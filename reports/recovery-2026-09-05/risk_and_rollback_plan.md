@@ -8,7 +8,7 @@
 4. Wrong planning guidance: no inferred project for generic rules, no England rules silently applied to Scotland/Wales. Official sources and review dates before conclusions. No mass regeneration.
 5. Stale build approval: old reports and old output cannot authorize changed bytes; hash-bound manifest, clean build, explicit cohort and rollback.
 6. Privacy/revenue: no ads/affiliates/analytics before appropriate consent; no secrets in client; no personal project fields in events. All commercial flags off until owner/account/compliance decisions resolved.
-7. Deployment access: gh token invalid, GitHub connector reads successful production workflow. Verify write capability only when ready; do not change credentials or host settings speculatively. Protected branch rules/Pages admin settings may need owner access.
+7. Deployment access: the GitHub connector and existing authenticated CLI path were sufficient for the bounded PR and Pages verification. No credentials or host settings were changed. Future releases must still respect branch protection and the repository's Pages workflow.
 
 ## Rollback mechanics
 
@@ -22,6 +22,6 @@ Never run directory-wide cleanup against root, output, prior canary or .gh-pages
 
 Clean scoped build and relevant tests; semantic fixtures across jurisdictions; exact-file diff and no unexpected count explosion; sitemap members200/selfcanonical/indexable; link targets valid; no accidental retired URLs; no preconsent third-party scripts; visible disclosures; browser/a11y/performance checks; explicit production base and rollback. Unknown current5xx, missing GSC issue samples and unavailable commercial accounts are documented separately. Do not claim tests/deployment not performed.
 
-## Batch1 rollback map
+## First recovery batch rollback map
 
-`artifacts/releases/recovery-batch-2/release-manifest.json` records SHA-256 values for all eight changed files. Rollback is a normal revert of that single generated deployment commit: it restores the four HTML blobs and four XML blobs, returns submitted sitemap membership from 35,208 to 35,218, and leaves all 35,219 pages in place. There are no redirects, deletions, payment records, partner state or user-data migrations to reverse. Source rollback is likewise by phase commit, never reset or force push.
+`artifacts/releases/recovery-batch-3/release-manifest.json` records SHA-256 values for all eight changed files. Deployment commit `f7a308662faa81ddc3cb2253f142ba6765e087d9` was merged by `7749cbba33bc06075424a82ec7f733822acfbc57`. Rollback is a normal reviewed revert on the latest `main`: it restores the four HTML blobs and four XML blobs, returns submitted sitemap membership from 35,208 to 35,218, and leaves all 35,219 pages in place. There are no redirects, deletions, payment records, partner state or user-data migrations to reverse. Source rollback is likewise by phase commit, never reset or force push.

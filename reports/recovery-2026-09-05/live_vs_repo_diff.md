@@ -30,8 +30,8 @@ Source-only Git archive from4674306 extracted into a newly created directory und
 
 Browser/Lighthouse baseline unavailable from successful current runs. No current Core Web Vitals export provided. These are explicit deployment validation gaps, not zeros or passes.
 
-## Reviewed replacement delta
+## Reviewed replacement delta and deployment
 
-The release candidate changes only `/permitted-development/north-yorkshire/`, `/conservation-areas/glasgow-city/`, `/councils/sheffield/` and `/tools/`. The first three become explicit project-free local-rule/authority pages with self-canonicals and verified official sources. `/tools/` presents the four-capability journey while preserving every specialist tool URL. The candidate also removes ten already-noindex/noncanonical sitemap memberships across shards 1, 2, 5 and 7. Exact before/after SHA-256 values are in `artifacts/releases/recovery-batch-2/release-manifest.json`.
+The release changes only `/permitted-development/north-yorkshire/`, `/conservation-areas/glasgow-city/`, `/councils/sheffield/` and `/tools/`. The first three become explicit project-free local-rule/authority pages with self-canonicals and verified official sources. `/tools/` presents the four-capability journey while preserving every specialist tool URL. The release also removes ten already-noindex/noncanonical sitemap memberships across shards 1, 2, 5 and 7. Exact before/after SHA-256 values are in `artifacts/releases/recovery-batch-3/release-manifest.json`.
 
-The resulting static candidate has no page additions or deletions. It has not been deployed, so no claim is made that live hashes have changed. A post-deployment live verification and performance run remain mandatory.
+The resulting static release has no page additions or deletions. It was merged as `7749cbba33bc06075424a82ec7f733822acfbc57`; Pages run `34022456093` succeeded. Cache-bypassed live checks after deployment found the four pages HTTP 200, self-canonical and without `noindex`. Their served LF-normalised hashes exactly match the reviewed HTML. Live shard counts are 5,000 + 4,996 + 5,000 + 5,000 + 4,996 + 5,000 + 4,999 + 217 = 35,208 unique URLs, with none of the ten technical exclusions submitted.

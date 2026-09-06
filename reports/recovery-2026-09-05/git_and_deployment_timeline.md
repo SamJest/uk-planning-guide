@@ -20,8 +20,9 @@ All deployment timestamps below UTC, read from GitHub Actions on 5 September. So
 | `f176b458ba4e` (`36ebbe19d9c`) | July13 current-impression repair35 | unchanged | July13 20:42:56 |
 | `918939382698` (`aab585de49b`) | HomeProof: 5HTML, 2XML, 4assets; +2 routes, +1 sitemap URL | 35,219 / 35,218 | July22 15:12:48 |
 | `aa7d89ec029c` (`2e3a69692e1e`) | Remove creator-facing recovery language: 830HTML +1JS | 35,219 / 35,218 | July22 17:01:26 |
+| `7749cbba33bc` (`f7a308662faa`) | First recovery batch: 3 semantic pages, tools journey, 10 technical sitemap exclusions | 35,219 / 35,208 | September6 08:42:42 |
 
-Every listed Pages run concluded success, meaning deployment succeeded, NOT content semantics passed. Latest run: [29940291492](https://github.com/SamJest/uk-planning-guide/actions/runs/29940291492), started July22 16:57:42. No later production run appeared. GitHub Pages server headers and live normalized hashes agree with this commit. The full deployment worktree tree hash equals this merge's tree.
+Every listed Pages run concluded success, meaning deployment succeeded, NOT content semantics passed. Latest run: [34022456093](https://github.com/SamJest/uk-planning-guide/actions/runs/34022456093), started September6 08:39:21 and completed successfully after build/report/deploy jobs. GitHub Pages headers, live LF-normalised HTML hashes and the 35,208-URL sitemap inventory agree with the reviewed recovery release.
 
 ## Unmerged source work retained
 
@@ -33,4 +34,4 @@ Coverage visible corpus changes from1,193 on June30 to35,217 on July1 while impr
 
 ## Current recovery branch and deployment state
 
-On 6 September 2026 the audited work moved from source commit `4674306f8c3` to a dedicated branch, `codex/ukpg-recovery-2026-09-06`. Production remains `aa7d89ec029c`; no Pages files, remote branches, pull requests or deployment settings have been changed by this recovery. The final source-bound proposed release is `artifacts/releases/recovery-batch-2/release-manifest.json`, status `review-candidate-not-deployed`, based on production tree `9c640ff1b40473f2e025e9368ac008d41b1e5cc5`.
+On 6 September 2026 the audited work moved from source commit `4674306f8c3` to dedicated source branch `codex/ukpg-recovery-2026-09-06`. The exact generated release in `artifacts/releases/recovery-batch-3/release-manifest.json` was applied separately to `codex/recovery-batch-2026-09-06` from audited production `aa7d89ec029c`, committed as `f7a308662faa`, and merged through [PR15](https://github.com/SamJest/uk-planning-guide/pull/15) as `7749cbba33bc`. No deployment settings, redirects, unrelated files or credentials changed.

@@ -33,9 +33,9 @@ Reject unrestricted full sitemap restore, mass content regeneration, blanket red
 ## Executed and next gates — 6 September 2026
 
 - Phase0 containment, source-bound builds and negative bypass tests: implemented and passing.
-- Phase1 ledger and first ten-URL technical sitemap exclusion: implemented as a candidate; not deployed.
+- Phase1 ledger and first ten-URL technical sitemap exclusion: implemented and deployed in the bounded first recovery batch.
 - Phase2 generator separation and three-page recovery cohort: implemented and passing; no full generation authorized.
 - Phase3 four-capability tools presentation: implemented as one same-URL page replacement; all specialist URLs retained.
 - Phase4 measurement/eligibility/privacy/partner/readiness-schema foundation: implemented default-off. Commercial activation correctly waits for owner/vendor/legal decisions and a reliable wider content model.
 
-Next safe deployment gate: commit and review the source phases, apply the eight exact generated files to a branch from the current production commit, run the production-overlay validator and browser/performance checks, then merge only if the production base has not drifted. Family-level sitemap partitioning and the 30 clicked-404 decisions remain separate evidence cohorts.
+The first deployment gate completed through PR15 and successful Pages run 34022456093, with post-deployment live verification. The next safe gate is evidence review for a new, separately bounded cohort. Family-level sitemap partitioning and the 30 clicked-404 decisions remain separate evidence cohorts; neither is authorised by this release.

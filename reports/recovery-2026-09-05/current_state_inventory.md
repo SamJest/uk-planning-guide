@@ -20,13 +20,13 @@ Untracked earlier work retained: `.gh-pages-deploy/`, `backend/`, `build_tools.p
 
 `build_site.py` defaults to canary; `docs/phase-0-signoff.json` is unapproved. However `core/build_scope.py` defaults to FULL for standalone generators and accepts unknown modes as unrestricted. The full sign-off checks only a nonempty hash, not its relationship to current content. Scripts30/31 package/overlay stale output based on an old passing report. Untracked script34 restores every HTML URL to the sitemap without canonical/indexability/editorial gating.
 
-Production is generated HTML on main, built by GitHub's dynamic Pages workflow. No source QA workflow is present in that deployment-only history. Source `.github/workflows/phase0-qa.yml` runs tests, canary, browser and Lighthouse checks, but is not the production publication gate. Local gh credentials are invalid; the GitHub connector can read workflow history. No tokens were exposed or changed.
+Production is generated HTML on main, built by GitHub's dynamic Pages workflow. No source QA workflow is present in that deployment-only history. Source `.github/workflows/phase0-qa.yml` runs tests, canary, browser and Lighthouse checks, but is not the production publication gate. Existing authenticated GitHub access supported the bounded PR and workflow verification; no tokens were exposed or changed.
 
 ## Baseline
 
 Production: 35,219 `index.html` files, 35,218 sitemap entries in eight opaque full-corpus shards. Exact technical inventory, family counts, hashes, local-output differences and sitemap defects: `baseline/summary.json` and `baseline/url-inventory.csv`. These are file-level observations, not 35,219 HTTP checks or editorial approvals.
 
-Live representative pages and robots/sitemaps were read; seven normalized page hashes match production. A random missing URL returns genuine HTTP404. No current 5xx URL can be identified from aggregate September data. Browser performance, Core Web Vitals and all-live-URL status distribution remain unverified; older launch failures are not passing QA.
+Baseline live representative pages and robots/sitemaps were read; seven normalized page hashes matched the then-current production. A random missing URL returned genuine HTTP404. No current 5xx URL can be identified from aggregate September data. The recovery cohort later received browser, accessibility, Lighthouse and post-deployment live checks; an all-live-URL HTTP distribution and current Search Console examples remain unavailable.
 
 Clean reproduction uses a new source-only archive `artifacts/recovery-source-baseline-2026-09-05`, never the user's existing output. See `live_vs_repo_diff.md` for its outcome. Initial existing-output unit baseline: 16 tests pass; this alone is not a clean-build approval.
 
@@ -38,6 +38,6 @@ Performance: six months 9,570 clicks / 614,153 impressions. Exported top1,000 pa
 
 ## Recovery implementation status — 6 September 2026
 
-Work now runs on `codex/ukpg-recovery-2026-09-06`. The complete classification ledger contains 35,249 unique evidence URLs: 35,219 production files plus 30 clicked URLs verified as live 404s. Decisions are 35,237 `IMPROVE` (protected from path/deletion changes pending semantic review), 1 `KEEP` (the verified Durham fence page), and 11 `NOINDEX/UTILITY`. Ten noindex/noncanonical URLs are currently submitted; the eleventh is already absent from the sitemap.
+Work now runs on `codex/ukpg-recovery-2026-09-06`. The complete classification ledger contains 35,249 unique evidence URLs: 35,219 production files plus 30 clicked URLs verified as live 404s. Decisions are 35,237 `IMPROVE` (protected from path/deletion changes pending semantic review), 1 `KEEP` (the verified Durham fence page), and 11 `NOINDEX/UTILITY`. The first recovery batch removed the ten noindex/noncanonical URLs that were submitted; the eleventh was already absent from the sitemap.
 
-The source-bound canary `artifacts/builds/recovery-semantic-4` contains 24 approved publish routes and validates against the exact production worktree with zero errors. A bounded eight-file release candidate changes four HTML files and four sitemap shards: page count 35,219 → 35,219; sitemap count 35,218 → 35,208. It remains explicitly not deployed.
+The final source-bound canary `artifacts/builds/recovery-semantic-6` contains 24 approved publish routes and validates against the exact production worktree with zero errors. A bounded eight-file release changed four HTML files and four sitemap shards: page count 35,219 → 35,219; sitemap count 35,218 → 35,208. It was deployed through PR15 as merge `7749cbba33bc06075424a82ec7f733822acfbc57`; the Pages run succeeded and public HTML/sitemap checks match the reviewed release.
