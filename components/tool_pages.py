@@ -400,36 +400,65 @@ def build_tools_index_content(tools) -> str:
 
     usage_steps = "".join(f"<li>{step}</li>" for step in TOOL_USAGE_STEPS)
 
+    capabilities = [
+        (
+            "Planning Route Check",
+            "/tools/planning-route-check/",
+            "Start with the project and likely planning route, then see what could change the answer.",
+            "Check planning route",
+        ),
+        (
+            "Local Constraint Check",
+            "/tools/local-constraint-finder/",
+            "Check the authority and the property constraints that can remove or narrow the national baseline.",
+            "Check local constraints",
+        ),
+        (
+            "Project Readiness",
+            "/tools/planning-application-readiness-checker/",
+            "Turn the likely route into the evidence, drawings, questions and approvals still needed.",
+            "Check readiness",
+        ),
+        (
+            "My Planning Project",
+            "/my-planning-project/",
+            "Keep saved results, official sources and next tasks together on this device.",
+            "Open my project",
+        ),
+    ]
+    capability_cards = "".join(
+        f"""
+<a class="card" href="{href}">
+<div class="card-kicker">{title}</div>
+<h3>{title}</h3>
+<p>{description}</p>
+<span class="cta">{action}</span>
+</a>
+"""
+        for title, href, description, action in capabilities
+    )
+
     return f"""
 <section class="hero">
 <span class="badge">Planning tools</span>
-<h1>Planning Tools For Faster, Safer First Decisions</h1>
-<p>Use these tools as one decision system: narrow the route quickly, spot what changes the answer and move into the right project guide, topic hub or local authority page before the wrong next step costs money.</p>
+<h1>Four Steps From Project Idea To A Ready Plan</h1>
+<p>Start with what you want to do, add the place and property constraints, then turn the result into a readiness checklist you can save.</p>
 </section>
 
 <section>
-<span class="eyebrow">Tool-first route</span>
-<h2>Choose The Tool That Matches The Doubt You Actually Have</h2>
-<div class="answer-grid">
-<div class="answer-card">
-<h3>Best starting point</h3>
-<p>Start with a tool when you need a fast first-pass answer before committing to deeper reading or local page comparisons.</p>
-</div>
-<div class="answer-card">
-<h3>What to do after the result</h3>
-<p>Move into the matching project guide, council page or rule hub rather than treating the tool output as a stopping point.</p>
-</div>
-<div class="answer-card">
-<h3>When to escalate</h3>
-<p>If the result feels borderline, assume the next step is a certificate, pre-app conversation or another formal check, not more guesswork.</p>
-</div>
-</div>
+<span class="eyebrow">Main journey</span>
+<h2>Choose The Capability You Need Now</h2>
+<div class="card-grid">{capability_cards}</div>
 </section>
 
 <section>
-<span class="eyebrow">Tool library</span>
-<h2>The Main Tools In The Decision System</h2>
+<span class="eyebrow">Specialist checks</span>
+<h2>Keep Existing Tools And Bookmarks</h2>
+<p>The focused tools remain available for people who need a specific calculation or checklist. They support the four-step journey rather than compete with it.</p>
+<details>
+<summary>Show all specialist planning tools</summary>
 <div class="card-grid">{''.join(cards)}</div>
+</details>
 </section>
 
 <section>

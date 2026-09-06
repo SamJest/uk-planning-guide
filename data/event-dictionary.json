@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-06",
+  "privacy": {
+    "allowed_dimensions": ["page_family", "jurisdiction", "project_category", "cohort", "consent_state"],
+    "prohibited_values": ["address", "postcode", "free_text", "name", "email", "phone", "exact_coordinates"],
+    "retention_days": null,
+    "owner_decision_required": true
+  },
+  "events": {
+    "route_check_started": {"purpose": "Measure route-check starts", "consent_class": "measurement"},
+    "route_check_completed": {"purpose": "Measure completed route checks", "consent_class": "measurement"},
+    "constraint_check_completed": {"purpose": "Measure completed constraint checks", "consent_class": "measurement"},
+    "project_saved": {"purpose": "Measure local project saves without project contents", "consent_class": "measurement"},
+    "free_summary_exported": {"purpose": "Measure free summary exports", "consent_class": "measurement"},
+    "paid_pack_viewed": {"purpose": "Measure paid-pack consideration", "consent_class": "measurement"},
+    "checkout_started": {"purpose": "Measure hosted-checkout starts", "consent_class": "transaction"},
+    "purchase_completed": {"purpose": "Record a completed transaction using an opaque order ID", "consent_class": "transaction"},
+    "pack_generated": {"purpose": "Record fulfilment state using an opaque order ID", "consent_class": "transaction"},
+    "pack_downloaded": {"purpose": "Record delivery using an opaque order ID", "consent_class": "transaction"},
+    "partner_module_viewed": {"purpose": "Measure an eligible disclosed referral module", "consent_class": "commercial_measurement"},
+    "partner_clicked": {"purpose": "Measure a disclosed partner click", "consent_class": "commercial_measurement"},
+    "ad_eligible_pageview": {"purpose": "Measure page eligibility before requesting an ad", "consent_class": "advertising"},
+    "consent_state": {"purpose": "Record coarse consent state and changes", "consent_class": "essential"},
+    "support_requested": {"purpose": "Route support without copying free text into analytics", "consent_class": "transaction"}
+  }
+}
