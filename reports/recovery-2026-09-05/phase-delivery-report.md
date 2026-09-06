@@ -15,6 +15,8 @@ Status at 6 September 2026: source phases committed; production unchanged; relea
 - Unit/contract/regression tests: 32 passed, zero skipped.
 - Semantic cohort: three repaired pages pass; `/tools/` contains all four capability markers; four protected production pages retain exact canonical/local checks.
 - Official sources: 27 active, zero unavailable/blocking after replacing the obsolete Colchester validation URL.
+- Browser QA: 52/52 desktop/mobile tests pass, including keyboard, axe accessibility, tool operation and scoped visual baselines.
+- Lighthouse: all four changed pages pass the configured performance, accessibility, best-practice, SEO, LCP, CLS and TBT budgets; raw reports and `lighthouse-summary.md` retained. Edge reports a post-result Windows temporary-profile cleanup error.
 - Release candidate: `artifacts/releases/recovery-batch-2`; eight files; four HTML plus four XML; production tree-bound.
 - Counts: production pages 35,219 → 35,219; submitted sitemap URLs 35,218 → 35,208; no redirect or deletion delta.
 

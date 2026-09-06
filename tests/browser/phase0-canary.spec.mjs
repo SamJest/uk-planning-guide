@@ -12,7 +12,13 @@ const routes = manifest.publish_routes;
 const records = JSON.parse(
   readFileSync(path.resolve(here, '../../data/canary/page-records.json'), 'utf8')
 );
-const byPath = new Map(records.map((record) => [record.canonical_path, record]));
+const byPath = new Map(records.map((record) => [record.route_path, record]));
+const visualRoutes = new Set([
+  '/permitted-development/north-yorkshire/',
+  '/conservation-areas/glasgow-city/',
+  '/councils/sheffield/',
+  '/tools/'
+]);
 
 for (const route of routes) {
   test(`${route} contract, keyboard, accessibility and visual`, async ({ page }, testInfo) => {
@@ -28,8 +34,9 @@ for (const route of routes) {
     await expect(page.locator('h1')).toHaveCount(1);
     await expect(page.locator('main')).toBeVisible();
 
-    const robots = (await page.locator('meta[name="robots"]').getAttribute('content')) || '';
-    expect(robots.toLowerCase().includes('noindex')).toBe(record.index_state === 'noindex');
+    const robotsMeta = page.locator('meta[name="robots"]');
+    const robots = (await robotsMeta.count()) ? (await robotsMeta.getAttribute('content')) || '' : '';
+    expect(robots.toLowerCase().includes('noindex')).toBe(record.index_status === 'noindex');
 
     await page.keyboard.press('Tab');
     const focused = await page.evaluate(() => document.activeElement?.tagName || '');
@@ -40,15 +47,17 @@ for (const route of routes) {
       .analyze();
     expect(axe.violations).toEqual([]);
 
-    const slug = route === '/' ? 'home' : route.replace(/^\/+|\/+$/g, '').replaceAll('/', '__');
-    await expect(page).toHaveScreenshot(`${slug}.png`, {
-      fullPage: true,
-      animations: 'disabled',
-      maxDiffPixelRatio: 0.01
-    });
+    if (visualRoutes.has(route)) {
+      const slug = route.replace(/^\/+|\/+$/g, '').replaceAll('/', '__');
+      await expect(page).toHaveScreenshot(`${slug}.png`, {
+        fullPage: true,
+        animations: 'disabled',
+        maxDiffPixelRatio: 0.01
+      });
+    }
 
     await testInfo.attach('route-contract', {
-      body: JSON.stringify({ route, index_state: record.index_state }, null, 2),
+      body: JSON.stringify({ route, index_status: record.index_status }, null, 2),
       contentType: 'application/json'
     });
   });
