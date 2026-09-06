@@ -1,7 +1,7 @@
 # Phase 0 Canary Test Report
 
 - Status: **passed**
-- Routes: 20
+- Routes: 24
 - Errors: 0
 - Warnings: 0
-- JSON SHA-256: `3d741804c0baea51094fd2fb189c9248c46dbecb73bd1e02cc64ab1c705c210d`
+- JSON SHA-256: `583305760d7832e9427487c3c983ee8dedcfc1ace85ea86527b6d37623e34c09`

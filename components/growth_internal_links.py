@@ -3,6 +3,7 @@ from __future__ import annotations
 from html import escape
 
 from data.search_demand_priorities import gsc_cluster_hub_for_family
+from utils.live_links import is_live_internal_href
 
 
 BASE_DONOR_CLUSTERS = {
@@ -33,9 +34,12 @@ def build_growth_internal_link_boost(project_slug: str, county_slug: str, town_s
         hub = gsc_cluster_hub_for_family(cluster)
         if not hub:
             continue
+        href = f"/local-search/{hub['slug']}/"
+        if hub.get("publication_status") == "blocked" or not is_live_internal_href(href):
+            continue
         cards.append(
             f"""
-<a class="card" href="/local-search/{escape(hub['slug'], quote=True)}/">
+<a class="card" href="{escape(href, quote=True)}">
 <div class="card-kicker">Related route check</div>
 <h3>{escape(hub["title"])}</h3>
 <p>{escape(hub["summary"])}</p>

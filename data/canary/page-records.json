@@ -145,5 +145,60 @@
     "route_path": "/councils/colchester/", "canonical_path": "/england/councils/colchester/", "page_family": "authority_profile", "jurisdiction": "england",
     "authority_id": "colchester", "project_id": null, "rule_id": null, "source_ids": ["colchester-validation", "colchester-local-plan"], "claims": [],
     "verified_at": "2026-04-05", "content_updated_at": "2026-07-04", "review_status": "source_checked", "index_status": "noindex", "confidence": "medium", "unique_local_facts": []
+  },
+  {
+    "route_path": "/permitted-development/north-yorkshire/", "canonical_path": "/permitted-development/north-yorkshire/", "page_family": "local_rule", "jurisdiction": "england",
+    "authority_id": "north-yorkshire", "project_id": null, "rule_id": "permitted-development",
+    "source_ids": ["govuk-permitted-development-rights", "north-yorks-planning-advice", "north-yorks-planning-policy", "north-yorks-local-plan"],
+    "claims": [
+      {"claim_id": "north-yorks-no-assumed-project", "text": "Permitted development in North Yorkshire must be checked for a selected project and exact property; this rule page does not assume a project.", "source_ids": ["govuk-permitted-development-rights", "north-yorks-planning-advice"]},
+      {"claim_id": "north-yorks-authority-boundary", "text": "Sites inside the Yorkshire Dales or North York Moors National Parks use their National Park planning authority rather than North Yorkshire Council for relevant applications.", "source_ids": ["north-yorks-planning-advice", "north-yorks-local-plan"]}
+    ],
+    "verified_at": "2026-09-05", "content_updated_at": "2026-09-05", "review_status": "source_checked", "index_status": "index", "confidence": "medium",
+    "unique_local_facts": [
+      {"fact": "North Yorkshire Council was created in April 2023 and is preparing a replacement North Yorkshire Local Plan.", "source_ids": ["north-yorks-local-plan"]},
+      {"fact": "The emerging North Yorkshire Local Plan excludes the Yorkshire Dales and North York Moors National Park areas.", "source_ids": ["north-yorks-local-plan"]},
+      {"fact": "Existing local plans remain available by former local-plan area while the new plan is prepared.", "source_ids": ["north-yorks-planning-policy", "north-yorks-local-plan"]},
+      {"fact": "North Yorkshire Council directs development inside a National Park boundary to the relevant National Park authority.", "source_ids": ["north-yorks-planning-advice"]},
+      {"fact": "The council's pre-application material can assess permitted-development rights, planning history and site constraints for proposals within its remit.", "source_ids": ["north-yorks-planning-advice"]}
+    ]
+  },
+  {
+    "route_path": "/conservation-areas/glasgow-city/", "canonical_path": "/conservation-areas/glasgow-city/", "page_family": "local_rule", "jurisdiction": "scotland",
+    "authority_id": "glasgow-city", "project_id": null, "rule_id": "conservation-areas",
+    "source_ids": ["glasgow-conservation-policy", "glasgow-conservation-review", "glasgow-conservation-review-minute"],
+    "claims": [
+      {"claim_id": "glasgow-conservation-purpose", "text": "Glasgow's conservation-area policy is concerned with preserving or enhancing each area's character and appearance; it does not assume a project type.", "source_ids": ["glasgow-conservation-policy", "glasgow-conservation-review"]},
+      {"claim_id": "glasgow-property-check", "text": "The exact conservation-area boundary and current appraisal must be checked for the property before deciding which consents apply.", "source_ids": ["glasgow-conservation-review", "glasgow-conservation-review-minute"]}
+    ],
+    "verified_at": "2026-09-05", "content_updated_at": "2026-09-05", "review_status": "source_checked", "index_status": "index", "confidence": "medium",
+    "unique_local_facts": [
+      {"fact": "Glasgow reports 25 conservation areas.", "source_ids": ["glasgow-conservation-review"]},
+      {"fact": "The council's conservation-area character appraisals date from 2005 to 2021 and are subject to a phased review programme.", "source_ids": ["glasgow-conservation-review", "glasgow-conservation-review-minute"]},
+      {"fact": "The appraisals identify the special historic and architectural interest of each area and inform development management.", "source_ids": ["glasgow-conservation-review-minute"]},
+      {"fact": "Glasgow policy says proposals in or affecting conservation areas should preserve or enhance their character and appearance.", "source_ids": ["glasgow-conservation-policy"]},
+      {"fact": "Glasgow guidance identifies features such as boundary walls, railings, trees and hedges as potentially contributing to conservation-area character.", "source_ids": ["glasgow-conservation-policy"]}
+    ]
+  },
+  {
+    "route_path": "/councils/sheffield/", "canonical_path": "/councils/sheffield/", "page_family": "authority_profile", "jurisdiction": "england",
+    "authority_id": "sheffield", "project_id": null, "rule_id": null,
+    "source_ids": ["sheffield-validation", "sheffield-apply", "sheffield-decisions"],
+    "claims": [
+      {"claim_id": "sheffield-authority-services", "text": "Sheffield publishes application, local validation and decision guidance; users should choose a project only after starting from the authority-level route.", "source_ids": ["sheffield-validation", "sheffield-apply", "sheffield-decisions"]}
+    ],
+    "verified_at": "2026-09-05", "content_updated_at": "2026-09-05", "review_status": "source_checked", "index_status": "index", "confidence": "medium",
+    "unique_local_facts": [
+      {"fact": "Sheffield publishes local application requirements in addition to national requirements.", "source_ids": ["sheffield-validation"]},
+      {"fact": "The council says an application missing required information will not be processed as valid.", "source_ids": ["sheffield-validation", "sheffield-apply"]},
+      {"fact": "Sheffield offers pre-application guidance for proposals where requirements or key issues need to be resolved before submission.", "source_ids": ["sheffield-validation", "sheffield-apply"]},
+      {"fact": "The council provides an online application route through the Planning Portal.", "source_ids": ["sheffield-apply"]},
+      {"fact": "Sheffield describes planning decisions as policy-led and assessed against the development plan and material considerations.", "source_ids": ["sheffield-decisions"]}
+    ]
+  },
+  {
+    "route_path": "/tools/", "canonical_path": "/tools/", "page_family": "tool", "jurisdiction": "uk",
+    "authority_id": null, "project_id": null, "rule_id": null, "source_ids": [], "claims": [],
+    "verified_at": "2026-09-06", "content_updated_at": "2026-09-06", "review_status": "source_checked", "index_status": "index", "confidence": "high", "unique_local_facts": []
   }
 ]

@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "errors": [],
+  "recovery_pages": [
+    {
+      "route": "/permitted-development/north-yorkshire/",
+      "bytes": 71730,
+      "canonical": "https://ukplanningguide.co.uk/permitted-development/north-yorkshire/",
+      "project_id": null,
+      "rule_id": "permitted-development",
+      "jurisdiction": "england",
+      "authority_id": "north-yorkshire"
+    },
+    {
+      "route": "/conservation-areas/glasgow-city/",
+      "bytes": 70934,
+      "canonical": "https://ukplanningguide.co.uk/conservation-areas/glasgow-city/",
+      "project_id": null,
+      "rule_id": "conservation-areas",
+      "jurisdiction": "scotland",
+      "authority_id": "glasgow-city"
+    },
+    {
+      "route": "/councils/sheffield/",
+      "bytes": 70361,
+      "canonical": "https://ukplanningguide.co.uk/councils/sheffield/",
+      "project_id": null,
+      "rule_id": null,
+      "jurisdiction": "england",
+      "authority_id": "sheffield"
+    }
+  ],
+  "product_journey": {
+    "route": "/tools/",
+    "markers": [
+      "Planning Route Check",
+      "Local Constraint Check",
+      "Project Readiness",
+      "My Planning Project",
+      "Show all specialist planning tools"
+    ]
+  },
+  "preserved_baseline_pages": [
+    {
+      "route": "/dropped-kerbs/",
+      "bytes": 89104,
+      "canonical": "https://ukplanningguide.co.uk/dropped-kerbs/"
+    },
+    {
+      "route": "/solar-panels/",
+      "bytes": 88717,
+      "canonical": "https://ukplanningguide.co.uk/solar-panels/"
+    },
+    {
+      "route": "/article-4-hmo-by-council/",
+      "bytes": 85108,
+      "canonical": "https://ukplanningguide.co.uk/article-4-hmo-by-council/"
+    },
+    {
+      "route": "/fences-and-walls/county-durham/durham/",
+      "bytes": 105467,
+      "canonical": "https://ukplanningguide.co.uk/fences-and-walls/county-durham/durham/"
+    }
+  ]
+}

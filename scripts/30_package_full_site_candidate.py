@@ -30,6 +30,10 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
+    raise SystemExit(
+        "Legacy full-corpus packaging is disabled by the 2026-09 recovery audit. "
+        "Use a production-commit-bound, exact-file release manifest instead."
+    )
     required = ["index.html", "CNAME", ".nojekyll", "sitemap.xml", "robots.txt"]
     missing_required = [name for name in required if not (BASE / name).is_file()]
     if missing_required:

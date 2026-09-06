@@ -21,7 +21,7 @@ from utils.council_config import load_scenarios
 from components.council_sections import *
 
 from utils.random_tools import get_month_year
-from utils.content_contracts import page_records_by_route
+from utils.content_contracts import ContractError, page_records_by_route
 from utils.country_utils import get_country_slug
 
 
@@ -29,8 +29,9 @@ def _generate_contract_authority_profile(council, projects, county_slug: str) ->
     town_slug = council["town_slug"]
     town_name = council["town_name"]
     country = council.get("country_slug") or get_country_slug(county_slug)
-    canonical_path = f"/{country}/councils/{town_slug}/"
-    record = page_records_by_route().get(canonical_path)
+    legacy_path = f"/councils/{town_slug}/"
+    country_path = f"/{country}/councils/{town_slug}/"
+    record = page_records_by_route().get(legacy_path) or page_records_by_route().get(country_path)
     if not record or record.get("page_family") != "authority_profile":
         return False
 
@@ -117,6 +118,12 @@ def generate_council_pages():
 
             if _generate_contract_authority_profile(council, projects, county_slug):
                 continue
+
+            raise ContractError(
+                "Refusing to synthesize an authority profile from priority-project "
+                f"records: /councils/{town_slug}/ has no reviewed authority_profile "
+                "content contract."
+            )
 
             page_rng("council", county_slug, town_slug)
 

@@ -7,16 +7,16 @@ import tempfile
 import unittest
 
 from core.paths import ROOT
-from utils.content_contracts import LOCAL_FAMILIES, load_page_records, page_records_by_route
+from utils.content_contracts import ContractError, LOCAL_FAMILIES, load_page_records, page_records_by_route, validate_page_record
 from utils.content_integrity import lint_rendered_html, simhash64, simhash_similarity
 from utils.source_registry import load_source_registry, source_registry_by_id, validate_page_source_links
 from utils.url_registry import load_canary_routes, load_redirects, validate_url_registry
 
 
 class PhaseZeroContractTests(unittest.TestCase):
-    def test_exact_canary_manifest_has_twenty_records(self):
+    def test_exact_canary_manifest_matches_records(self):
         routes = load_canary_routes()
-        self.assertEqual(len(routes["publish_routes"]), 20)
+        self.assertEqual(len(routes["publish_routes"]), 24)
         self.assertEqual(set(routes["publish_routes"]), set(page_records_by_route()))
 
     def test_generic_records_never_assume_a_project(self):
@@ -53,9 +53,24 @@ class PhaseZeroContractTests(unittest.TestCase):
         signoff = json.loads((ROOT / "docs" / "phase-0-signoff.json").read_text(encoding="utf-8"))
         self.assertIs(signoff["approved"], False)
         self.assertIsNone(signoff["canary_report_sha256"])
+        self.assertIsNone(signoff["source_fingerprint"])
 
 
 class PhaseZeroIntegrityTests(unittest.TestCase):
+    def test_multi_authority_local_record_is_rejected(self):
+        record = dict(page_records_by_route()["/councils/sheffield/"])
+        record["authority_id"] = "sheffield,rotherham"
+        record["route_path"] = "/councils/sheffield-rotherham/"
+        record["canonical_path"] = record["route_path"]
+        with self.assertRaisesRegex(ContractError, "one normalized identifier"):
+            validate_page_record(record)
+
+    def test_authority_profile_cannot_select_a_rule(self):
+        record = dict(page_records_by_route()["/councils/sheffield/"])
+        record["rule_id"] = "article-4"
+        with self.assertRaisesRegex(ContractError, "cannot carry a selected rule"):
+            validate_page_record(record)
+
     def test_authority_profile_rejects_unlabelled_project_leakage(self):
         record = {
             "page_family": "authority_profile",
@@ -118,4 +133,3 @@ class PhaseZeroIntegrityTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

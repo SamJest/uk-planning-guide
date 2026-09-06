@@ -4,7 +4,9 @@ import argparse
 from datetime import datetime, timezone
 import json
 from pathlib import Path
+import shutil
 import ssl
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -18,6 +20,46 @@ from utils.source_registry import load_source_registry
 
 
 REPORT_PATH = ROOT / "reports" / "phase-0" / "source-health.json"
+
+
+def _health_result(source: dict, status: int, final_url: str, error: str = "") -> dict:
+    if status in {401, 403, 429}:
+        health = "access_restricted"
+    elif 200 <= status < 400:
+        health = "redirected" if final_url.rstrip("/") != source["url"].rstrip("/") else "active"
+    else:
+        health = "unavailable"
+    return {
+        "source_id": source["source_id"],
+        "requested_url": source["url"],
+        "final_url": final_url,
+        "http_status": status,
+        "health": health,
+        "error": error,
+    }
+
+
+def _curl_check(source: dict, timeout: int, original_error: Exception) -> dict | None:
+    curl = shutil.which("curl.exe") or shutil.which("curl")
+    if not curl:
+        return None
+    completed = subprocess.run(
+        [curl, "-sS", "-L", "-o", "NUL" if sys.platform == "win32" else "/dev/null", "-w", "%{http_code}|%{url_effective}", source["url"]],
+        capture_output=True,
+        text=True,
+        timeout=timeout,
+        check=False,
+    )
+    marker = completed.stdout.strip()
+    if "|" not in marker:
+        return None
+    status_text, final_url = marker.split("|", 1)
+    if not status_text.isdigit():
+        return None
+    error = completed.stderr.strip() if completed.returncode else ""
+    if error:
+        error = f"curl warning after urllib failure ({original_error}): {error}"
+    return _health_result(source, int(status_text), final_url, error)
 
 
 def _check(source: dict, timeout: int) -> dict:
@@ -38,16 +80,13 @@ def _check(source: dict, timeout: int) -> dict:
         with response:
             status = int(response.status)
             final_url = response.geturl()
-        health = "redirected" if final_url.rstrip("/") != source["url"].rstrip("/") else "active"
-        return {
-            "source_id": source["source_id"],
-            "requested_url": source["url"],
-            "final_url": final_url,
-            "http_status": status,
-            "health": health,
-            "error": "",
-        }
+        return _health_result(source, status, final_url)
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as exc:
+        if isinstance(exc, urllib.error.HTTPError) and exc.code in {401, 403, 429}:
+            return _health_result(source, exc.code, exc.geturl(), str(exc))
+        curl_result = _curl_check(source, timeout, exc)
+        if curl_result is not None:
+            return curl_result
         return {
             "source_id": source["source_id"],
             "requested_url": source["url"],
@@ -67,13 +106,14 @@ def run_source_health(*, timeout: int = 20, strict: bool = False) -> dict:
         "source_count": len(results),
         "active": sum(result["health"] == "active" for result in results),
         "redirected": sum(result["health"] == "redirected" for result in results),
+        "access_restricted": sum(result["health"] == "access_restricted" for result in results),
         "unavailable": sum(result["health"] == "unavailable" for result in results),
         "blocking_count": len(blocking),
         "results": results,
     }
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({key: report[key] for key in ("source_count", "active", "redirected", "unavailable", "blocking_count")}, indent=2))
+    print(json.dumps({key: report[key] for key in ("source_count", "active", "redirected", "access_restricted", "unavailable", "blocking_count")}, indent=2))
     if strict and blocking:
         raise SystemExit(1)
     return report

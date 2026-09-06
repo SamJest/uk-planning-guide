@@ -4,6 +4,7 @@ from datetime import date
 from functools import lru_cache
 import json
 from pathlib import Path
+import re
 from urllib.parse import urlparse
 
 from core.paths import BASE_URL, ROOT
@@ -31,6 +32,7 @@ REVIEW_STATUSES = {"draft", "source_checked", "editor_checked", "published"}
 INDEX_STATUSES = {"noindex", "index"}
 CONFIDENCE_LEVELS = {"low", "medium", "high"}
 LOCAL_FAMILIES = {"authority_profile", "local_project", "local_rule"}
+IDENTIFIER_PATTERN = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 
 
 class ContractError(ValueError):
@@ -117,6 +119,8 @@ def validate_page_record(record: dict) -> None:
     for field in ("authority_id", "project_id", "rule_id"):
         if record[field] is not None and not isinstance(record[field], str):
             raise ContractError(f"{route} {field} must be a string or null")
+        if isinstance(record[field], str) and not IDENTIFIER_PATTERN.fullmatch(record[field]):
+            raise ContractError(f"{route} {field} must contain one normalized identifier")
     for field in ("source_ids", "claims", "unique_local_facts"):
         if not isinstance(record[field], list):
             raise ContractError(f"{route} {field} must be a list")
@@ -129,6 +133,10 @@ def validate_page_record(record: dict) -> None:
         raise ContractError(f"Generic rule/authority record cannot assume a project: {route}")
     if record["page_family"] in LOCAL_FAMILIES and not record["authority_id"]:
         raise ContractError(f"Local page requires authority_id: {route}")
+    if record["page_family"] in LOCAL_FAMILIES and route.strip("/").split("/")[-1] != record["authority_id"]:
+        raise ContractError(f"Local page route must end with its single authority_id: {route}")
+    if record["page_family"] == "authority_profile" and record["rule_id"] is not None:
+        raise ContractError(f"Authority profile cannot carry a selected rule: {route}")
     if record["page_family"] == "local_project" and not record["project_id"]:
         raise ContractError(f"Local project requires project_id: {route}")
     if record["page_family"] == "local_rule" and not record["rule_id"]:

@@ -330,6 +330,11 @@ GSC_CLUSTER_HUBS = {
     ),
 }
 
+# This proposed cross-country hub was linked by source code but never deployed.
+# Keep its research definition while preventing generation or navigation until
+# it receives its own semantic/source review and explicit release cohort.
+GSC_CLUSTER_HUBS["porch-outbuilding-rules"]["publication_status"] = "blocked"
+
 
 GSC_EXPANSION_CANDIDATES_2026_06_08 = (
     _expansion_candidate(slug="hmo-article-4-loughborough", title="Loughborough HMO Article 4", query="loughborough hmo planning article 4 direction charnwood", cluster="hmo-article-4", priority=1, impressions=447, position=10.21, authority_slug="charnwood", county_slug="leicestershire", council_slug="charnwood", project_slug="hmos", next_step_href="/hmos/leicestershire/charnwood/article-4/"),

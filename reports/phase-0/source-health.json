@@ -1,8 +1,9 @@
 {
-  "checked_at": "2026-07-04T14:17:30.411424+00:00",
-  "source_count": 18,
-  "active": 18,
+  "checked_at": "2026-09-06T07:45:50.261482+00:00",
+  "source_count": 27,
+  "active": 27,
   "redirected": 0,
+  "access_restricted": 0,
   "unavailable": 0,
   "blocking_count": 0,
   "results": [
@@ -40,8 +41,8 @@
     },
     {
       "source_id": "colchester-validation",
-      "requested_url": "https://www.colchester.gov.uk/scheme-of-local-validation/",
-      "final_url": "https://www.colchester.gov.uk/scheme-of-local-validation/",
+      "requested_url": "https://www.new.colchester.gov.uk/planning/apply/what-you-need",
+      "final_url": "https://www.new.colchester.gov.uk/planning/apply/what-you-need",
       "http_status": 200,
       "health": "active",
       "error": ""
@@ -146,6 +147,78 @@
       "source_id": "edinburgh-city-plan-2030",
       "requested_url": "https://www.edinburgh.gov.uk/local-development-plan-guidance-1/city-plan-2030",
       "final_url": "https://www.edinburgh.gov.uk/local-development-plan-guidance-1/city-plan-2030",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "north-yorks-planning-advice",
+      "requested_url": "https://www.northyorks.gov.uk/planning-and-conservation/find-out-if-you-need-planning-permission-and-apply/find-out-if-you-need-planning-permission-and-apply-minerals-and-waste-or-council-planning",
+      "final_url": "https://www.northyorks.gov.uk/planning-and-conservation/find-out-if-you-need-planning-permission-and-apply/find-out-if-you-need-planning-permission-and-apply-minerals-and-waste-or-council-planning",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "north-yorks-planning-policy",
+      "requested_url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy",
+      "final_url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "north-yorks-local-plan",
+      "requested_url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/north-yorkshire-local-plan",
+      "final_url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/north-yorkshire-local-plan",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "glasgow-conservation-policy",
+      "requested_url": "https://onlineservices.glasgow.gov.uk/councillorsandcommittees/viewSelectedDocument.asp?c=P62AFQDN812UNTUTUT",
+      "final_url": "https://onlineservices.glasgow.gov.uk/councillorsandcommittees/viewSelectedDocument.asp?c=P62AFQDN812UNTUTUT",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "glasgow-conservation-review",
+      "requested_url": "https://onlineservices.glasgow.gov.uk/CouncillorsandCommittees/viewSelectedDocument.asp?c=P62AFQDN812U81NT81",
+      "final_url": "https://onlineservices.glasgow.gov.uk/CouncillorsandCommittees/viewSelectedDocument.asp?c=P62AFQDN812U81NT81",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "glasgow-conservation-review-minute",
+      "requested_url": "https://onlineservices.glasgow.gov.uk/councillorsandcommittees/viewSelectedDocument.asp?c=P62AFQDN812UUTZLNT",
+      "final_url": "https://onlineservices.glasgow.gov.uk/councillorsandcommittees/viewSelectedDocument.asp?c=P62AFQDN812UUTZLNT",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "sheffield-validation",
+      "requested_url": "https://www.sheffield.gov.uk/planning-development/planning-application-requirements/local-planning-guidance",
+      "final_url": "https://www.sheffield.gov.uk/planning-development/planning-application-requirements/local-planning-guidance",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "sheffield-apply",
+      "requested_url": "https://www.sheffield.gov.uk/planning-development/applications-advice/apply",
+      "final_url": "https://www.sheffield.gov.uk/planning-development/applications-advice/apply",
+      "http_status": 200,
+      "health": "active",
+      "error": ""
+    },
+    {
+      "source_id": "sheffield-decisions",
+      "requested_url": "https://www.sheffield.gov.uk/planning-development/decisions-appeals",
+      "final_url": "https://www.sheffield.gov.uk/planning-development/decisions-appeals",
       "http_status": 200,
       "health": "active",
       "error": ""

@@ -11,6 +11,7 @@ from core.paths import ROOT
 from utils.content_contracts import BASE_URL, load_page_records, normalize_path, page_records_by_route
 from utils.content_integrity import lint_rendered_html
 from utils.url_registry import load_canary_routes, load_redirects
+from utils.build_provenance import source_fingerprint
 
 
 CANONICAL_PATTERN = re.compile(r'<link\s+rel="canonical"\s+href="([^"]+)"', re.IGNORECASE)
@@ -53,13 +54,13 @@ def _sitemap_urls(output_dir: Path) -> set[str]:
     return urls
 
 
-def _route_exists(route: str, output_dir: Path) -> bool:
+def _route_exists(route: str, output_dir: Path, baseline_dir: Path | None = None) -> bool:
     if output_file_for_route(output_dir, route).exists():
         return True
-    return output_file_for_route(ROOT / "output", route).exists()
+    return bool(baseline_dir and output_file_for_route(Path(baseline_dir), route).exists())
 
 
-def validate_phase0_canary(output_dir: Path) -> dict:
+def validate_phase0_canary(output_dir: Path, *, baseline_dir: Path | None = None) -> dict:
     output_dir = Path(output_dir)
     routes = load_canary_routes()["publish_routes"]
     records = page_records_by_route()
@@ -132,7 +133,7 @@ def validate_phase0_canary(output_dir: Path) -> dict:
             if href.startswith(("http://", "https://", "mailto:", "tel:", "#")):
                 continue
             target_route = normalize_path(href)
-            if not _route_exists(target_route, output_dir):
+            if not _route_exists(target_route, output_dir, baseline_dir):
                 add_error(route, "broken-internal-link", f"Internal target is missing: {target_route}")
 
         if len(html.encode("utf-8")) > 175 * 1024:
@@ -144,7 +145,9 @@ def validate_phase0_canary(output_dir: Path) -> dict:
 
     return {
         "status": "passed" if not errors else "failed",
+        "source_fingerprint": source_fingerprint(ROOT),
         "output_dir": str(output_dir),
+        "validation_baseline": str(Path(baseline_dir).resolve()) if baseline_dir else None,
         "route_count": len(routes),
         "error_count": len(errors),
         "warning_count": len(warnings),
@@ -183,12 +186,11 @@ def _write_report(report: dict) -> tuple[Path, str]:
     return json_path, digest
 
 
-def run_phase0_canary_validation(output_dir: Path) -> dict:
-    report = validate_phase0_canary(output_dir)
+def run_phase0_canary_validation(output_dir: Path, *, baseline_dir: Path | None = None) -> dict:
+    report = validate_phase0_canary(output_dir, baseline_dir=baseline_dir)
     report_path, digest = _write_report(report)
     print(f"Phase 0 report: {report_path}")
     print(f"Phase 0 report SHA-256: {digest}")
     if report["status"] != "passed":
         raise RuntimeError(f"Phase 0 canary failed with {report['error_count']} errors")
     return report
-

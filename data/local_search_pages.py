@@ -1050,6 +1050,8 @@ def _gsc_item_to_local_search_page(item: dict) -> dict:
 def _second_stage_gsc_pages(existing_slugs: set[str]) -> list[dict]:
     pages: list[dict] = []
     for item in (*GSC_CLUSTER_HUBS.values(), *GSC_EXPANSION_CANDIDATES_2026_06_08):
+        if item.get("publication_status") == "blocked":
+            continue
         slug = item["slug"]
         if slug in existing_slugs:
             continue

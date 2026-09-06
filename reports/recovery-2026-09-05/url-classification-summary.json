@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-09-06",
+  "production_commit": "aa7d89ec029c70d5973b7d982fcbe5036316d9b2",
+  "total_urls": 35249,
+  "production_files": 35219,
+  "verified_live_404_click_urls": 30,
+  "decision_counts": {
+    "IMPROVE": 35237,
+    "KEEP": 1,
+    "NOINDEX/UTILITY": 11
+  },
+  "deploy_batch_counts": {
+    "missing-click-recovery-1": 30,
+    "noindex-existing-not-submitted": 1,
+    "protected-no-change": 1,
+    "protected-review-backlog": 965,
+    "semantic-recovery-1": 3,
+    "sitemap-technical-exclusions-1": 10,
+    "unreviewed-corpus-hold": 34239
+  },
+  "limitations": [
+    "Internal-link counts were not present in the supplied evidence and were not inferred.",
+    "Conversion and backlink exports were not supplied.",
+    "IMPROVE does not authorize path changes, deletion, redirect, or publication; affected URLs remain protected until cohort review."
+  ]
+}

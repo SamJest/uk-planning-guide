@@ -2,7 +2,7 @@ import os
 import shutil
 from pathlib import Path
 
-from core.build_scope import route_for_output_path, should_render_route
+from core.build_scope import BuildScopeError, route_for_output_path, should_render_route
 
 
 def ensure_dir(path):
@@ -12,6 +12,8 @@ def ensure_dir(path):
 def write_file(folder, filename, content):
     path = Path(folder) / filename
     route = route_for_output_path(path)
+    if filename == "index.html" and not route:
+        raise BuildScopeError(f"Refusing to write a page outside the configured build output: {path}")
     if route and not should_render_route(route):
         return False
 

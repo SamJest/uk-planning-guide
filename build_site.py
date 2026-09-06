@@ -5,9 +5,11 @@ import sys
 import time
 import os
 import json
+import hashlib
 from pathlib import Path
 
 from core.files import copy_assets
+from utils.build_provenance import source_fingerprint
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -75,7 +77,9 @@ def _clear_build_state() -> None:
         BUILD_STATE_PATH.unlink()
 
 
-def _normalized_completed_scripts(state: dict, scripts: list[str]) -> list[str]:
+def _normalized_completed_scripts(state: dict, scripts: list[str], fingerprint: str) -> list[str]:
+    if state.get("source_fingerprint") != fingerprint:
+        return []
     completed = state.get("completed_scripts", [])
     if not isinstance(completed, list):
         return []
@@ -135,9 +139,18 @@ def write_nojekyll() -> None:
     print("Created .nojekyll file")
 
 
-def _configure_build(mode: str) -> None:
+def _configure_build(mode: str, output_override: Path | None = None) -> None:
     global OUTPUT_DIR, BUILD_STATE_PATH
-    if mode == "full":
+    if output_override is not None:
+        resolved = output_override.resolve()
+        allowed_root = (SCRIPT_DIR / "artifacts" / "builds").resolve()
+        try:
+            resolved.relative_to(allowed_root)
+        except ValueError as exc:
+            raise SystemExit(f"Custom build output must be inside {allowed_root}") from exc
+        OUTPUT_DIR = resolved
+        BUILD_STATE_PATH = allowed_root / f"{resolved.name}.build-state.json"
+    elif mode == "full":
         OUTPUT_DIR = LIVE_OUTPUT_DIR
         BUILD_STATE_PATH = SCRIPT_DIR / "artifacts" / "build-progress.json"
     else:
@@ -156,10 +169,41 @@ def _assert_full_build_approved() -> None:
         raise SystemExit(
             "Full build blocked: Phase 0 sign-off must be approved and include the passing canary report SHA-256."
         )
+    report_path = SCRIPT_DIR / "reports" / "phase-0" / "canary-test-report.json"
+    try:
+        report_bytes = report_path.read_bytes()
+        report = json.loads(report_bytes)
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"Full build blocked: unreadable passing canary report ({exc})")
+    actual_report_hash = hashlib.sha256(report_bytes).hexdigest()
+    current_fingerprint = source_fingerprint(SCRIPT_DIR)
+    if report.get("status") != "passed":
+        raise SystemExit("Full build blocked: canary report is not passing.")
+    if signoff.get("canary_report_sha256") != actual_report_hash:
+        raise SystemExit("Full build blocked: approved canary report hash does not match the report on disk.")
+    if signoff.get("source_fingerprint") != current_fingerprint:
+        raise SystemExit("Full build blocked: approval is not bound to the current build inputs.")
+    if report.get("source_fingerprint") != current_fingerprint:
+        raise SystemExit("Full build blocked: canary report was produced from different build inputs.")
 
 
-def build_site(*, mode: str = "canary") -> None:
-    _configure_build(mode)
+def write_build_manifest(mode: str, fingerprint: str, validation_baseline: Path | None) -> None:
+    payload = {
+        "mode": mode,
+        "source_fingerprint": fingerprint,
+        "validation_baseline": str(validation_baseline.resolve()) if validation_baseline else None,
+        "production_deployment": False,
+    }
+    (OUTPUT_DIR / "BUILD-MANIFEST.json").write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+
+def build_site(
+    *,
+    mode: str = "canary",
+    output_override: Path | None = None,
+    validation_baseline: Path | None = None,
+) -> None:
+    _configure_build(mode, output_override)
     if mode == "full":
         _assert_full_build_approved()
 
@@ -178,10 +222,15 @@ def build_site(*, mode: str = "canary") -> None:
     print(f"Output: {OUTPUT_DIR}")
 
     scripts = get_scripts(mode)
+    fingerprint = source_fingerprint(SCRIPT_DIR)
     prior_state = _load_build_state()
-    completed_scripts = _normalized_completed_scripts(prior_state, scripts)
+    completed_scripts = _normalized_completed_scripts(prior_state, scripts, fingerprint)
     resuming = bool(completed_scripts)
-    build_started_at = prior_state.get("started_at") or time.strftime("%Y-%m-%dT%H:%M:%S")
+    build_started_at = (
+        prior_state.get("started_at")
+        if resuming
+        else time.strftime("%Y-%m-%dT%H:%M:%S")
+    )
 
     start_time = time.time()
     if resuming:
@@ -196,6 +245,7 @@ def build_site(*, mode: str = "canary") -> None:
                 "started_at": build_started_at,
                 "completed_scripts": [],
                 "scripts": scripts,
+                "source_fingerprint": fingerprint,
             }
         )
 
@@ -212,6 +262,7 @@ def build_site(*, mode: str = "canary") -> None:
                         "started_at": build_started_at,
                         "completed_scripts": completed_scripts,
                         "scripts": scripts,
+                        "source_fingerprint": fingerprint,
                     }
                 )
         except subprocess.CalledProcessError:
@@ -222,12 +273,14 @@ def build_site(*, mode: str = "canary") -> None:
     if mode == "full":
         write_cname()
     write_nojekyll()
+    write_build_manifest(mode, fingerprint, validation_baseline)
 
     _save_build_state(
         {
             "started_at": build_started_at,
             "completed_scripts": completed_scripts,
             "scripts": scripts,
+            "source_fingerprint": fingerprint,
             "validation_mode": "local",
             "validation_status": "running",
             "validation_started_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
@@ -239,7 +292,7 @@ def build_site(*, mode: str = "canary") -> None:
             from utils.phase0_validation import run_phase0_canary_validation
 
             print("\nRunning Phase 0 canary validation...\n")
-            run_phase0_canary_validation(OUTPUT_DIR)
+            run_phase0_canary_validation(OUTPUT_DIR, baseline_dir=validation_baseline)
         else:
             from validate import run_validation
 
@@ -251,6 +304,7 @@ def build_site(*, mode: str = "canary") -> None:
                 "started_at": build_started_at,
                 "completed_scripts": completed_scripts,
                 "scripts": scripts,
+                "source_fingerprint": fingerprint,
                 "validation_mode": "local",
                 "validation_status": "failed",
                 "validation_started_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
@@ -278,9 +332,23 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="Run the full build only after docs/phase-0-signoff.json is approved.",
     )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        help="Fresh canary output below artifacts/builds/. Full production output remains fixed and gated.",
+    )
+    parser.add_argument(
+        "--validation-baseline",
+        type=Path,
+        help="Explicit static-site baseline used to resolve links outside the scoped canary.",
+    )
     return parser.parse_args(argv)
 
 
 if __name__ == "__main__":
     arguments = parse_args()
-    build_site(mode="full" if arguments.full else "canary")
+    build_site(
+        mode="full" if arguments.full else "canary",
+        output_override=arguments.output_dir,
+        validation_baseline=arguments.validation_baseline,
+    )

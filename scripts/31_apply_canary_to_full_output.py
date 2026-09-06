@@ -28,6 +28,10 @@ def digest(path: Path) -> str:
 
 
 def main() -> None:
+    raise SystemExit(
+        "Legacy full-output overlay is disabled by the 2026-09 recovery audit. "
+        "Use a production-commit-bound, exact-file release manifest instead."
+    )
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--target",

@@ -18,7 +18,7 @@ from core.render import inject_into_base
 from data.loaders import load_councils, load_projects, load_rule
 from utils.random_tools import page_rng
 from utils.scenario_config import load_scenarios
-from utils.content_contracts import page_records_by_route
+from utils.content_contracts import ContractError, page_records_by_route
 from utils.country_utils import get_country_slug
 
 
@@ -45,8 +45,9 @@ def _generate_contract_local_rule_page(
     scenario_slug = scenario["slug"]
     scenario_title = scenario["title"]
     country = council.get("country_slug") or get_country_slug(county_slug)
-    canonical_path = f"/{country}/rules/{scenario_slug}/{town_slug}/"
-    record = page_records_by_route().get(canonical_path)
+    legacy_path = f"/{scenario_slug}/{town_slug}/"
+    country_path = f"/{country}/rules/{scenario_slug}/{town_slug}/"
+    record = page_records_by_route().get(legacy_path) or page_records_by_route().get(country_path)
     if not record or record.get("page_family") != "local_rule" or record.get("project_id"):
         return False
 
@@ -64,6 +65,35 @@ def _generate_contract_local_rule_page(
         f'<a href="/{escape(project["slug"], quote=True)}/{escape(county_slug, quote=True)}/{escape(town_slug, quote=True)}/">{escape(project["short_name"])}</a>'
         for project in projects[:12]
     )
+    verification_items = {
+        "article-4": (
+            "The exact property and the planning authority responsible for it.",
+            "The live Article 4 direction, mapped area and schedule covering that property.",
+            "The precise permitted development right withdrawn by the direction.",
+            "The date the direction took effect and any later variation.",
+        ),
+        "conservation-areas": (
+            "Whether the exact property is inside the current conservation-area boundary.",
+            "The current character appraisal or management guidance for that area.",
+            "Whether the proposed work affects features that contribute to its character.",
+            "Which planning, listed-building or conservation-area consent is required for the exact work.",
+        ),
+        "permitted-development": (
+            "The exact property, planning authority and applicable UK jurisdiction.",
+            "The permitted-development class relevant to the selected project—not a guessed project type.",
+            "Every limit, condition and prior-approval requirement for that class.",
+            "Any planning condition, Article 4 direction, designation or property history that removes or changes the right.",
+        ),
+    }.get(
+        record.get("rule_id"),
+        (
+            "The exact property and planning authority.",
+            "The current official rule or mapped designation.",
+            "The selected project's dimensions, use and site context.",
+            "Any property-specific condition, consent or planning history that changes the route.",
+        ),
+    )
+    verification_html = "".join(f"<li>{escape(item)}</li>" for item in verification_items)
     content = f"""
 <section class="hero">
 <span class="eyebrow">Local rule check</span>
@@ -77,12 +107,7 @@ def _generate_contract_local_rule_page(
 </section>
 <section>
 <h2>What to verify</h2>
-<ol>
-<li>The exact property address and planning authority.</li>
-<li>The live direction, map or schedule covering that property.</li>
-<li>The specific permitted development right withdrawn by the direction.</li>
-<li>The date the direction took effect and any later variation.</li>
-</ol>
+<ol>{verification_html}</ol>
 </section>
 <section data-purpose="project-navigation">
 <h2>Choose a project after checking the rule</h2>
@@ -94,10 +119,10 @@ def _generate_contract_local_rule_page(
         title=f"{scenario_title} in {town_name}: source and property checks",
         content=content,
         options={
-            "breadcrumbs": [("Home", "/"), (country.replace("-", " ").title(), f"/{country}/"), ("Rules", f"/{country}/rules/"), (scenario_title, f"/{country}/rules/{scenario_slug}/"), (town_name, "")],
+            "breadcrumbs": [("Home", "/"), (scenario_title, f"/{scenario_slug}/"), (town_name, "")],
             "year": record["content_updated_at"][:4],
         },
-        canonical_url=f"{BASE_URL}/{scenario_slug}/{town_slug}/",
+        canonical_url=f"{BASE_URL}{legacy_path}",
         meta_description=f"Check the verified source position for {scenario_title.lower()} in {town_name} without assuming a project type.",
     )
     write_file(OUTPUT_FOLDER / scenario_slug / town_slug, "index.html", html)
@@ -191,6 +216,11 @@ def generate_scenario_pages():
                         projects=projects,
                     ):
                         continue
+                    raise ContractError(
+                        "Refusing to synthesize a local-rule page from an unrelated "
+                        f"project record: /{scenario_slug}/{town_slug}/ has no reviewed "
+                        "local_rule content contract."
+                    )
                     lead_project, rule = _best_rule_for_scenario(projects, county_slug, town_slug, scenario_slug)
                     lead_project_label = (
                         lead_project.get("short_name")
