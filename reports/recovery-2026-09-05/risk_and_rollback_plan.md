@@ -25,3 +25,7 @@ Clean scoped build and relevant tests; semantic fixtures across jurisdictions; e
 ## First recovery batch rollback map
 
 `artifacts/releases/recovery-batch-3/release-manifest.json` records SHA-256 values for all eight changed files. Deployment commit `f7a308662faa81ddc3cb2253f142ba6765e087d9` was merged by `7749cbba33bc06075424a82ec7f733822acfbc57`. Rollback is a normal reviewed revert on the latest `main`: it restores the four HTML blobs and four XML blobs, returns submitted sitemap membership from 35,208 to 35,218, and leaves all 35,219 pages in place. There are no redirects, deletions, payment records, partner state or user-data migrations to reverse. Source rollback is likewise by phase commit, never reset or force push.
+
+## Custom 404 rollback map
+
+`artifacts/releases/recovery-404-2/release-manifest.json` records the new file SHA-256. Deployment commit `a1ec577bcd65bac1eb81c13349e36eb71c9d1d9f` was merged by `9e9db28956159587c57d88c7efebe22843f635ed`. Rollback is a normal reviewed revert on latest `main`, removing only `404.html`. It does not change any existing page, sitemap member, redirect or user data. Until individual equivalence is proven, the 30 clicked missing URLs must retain genuine 404 semantics rather than receive blanket redirects.

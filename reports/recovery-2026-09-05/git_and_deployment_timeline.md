@@ -21,8 +21,9 @@ All deployment timestamps below UTC, read from GitHub Actions on 5 September. So
 | `918939382698` (`aab585de49b`) | HomeProof: 5HTML, 2XML, 4assets; +2 routes, +1 sitemap URL | 35,219 / 35,218 | July22 15:12:48 |
 | `aa7d89ec029c` (`2e3a69692e1e`) | Remove creator-facing recovery language: 830HTML +1JS | 35,219 / 35,218 | July22 17:01:26 |
 | `7749cbba33bc` (`f7a308662faa`) | First recovery batch: 3 semantic pages, tools journey, 10 technical sitemap exclusions | 35,219 / 35,208 | September6 08:42:42 |
+| `9e9db2895615` (`a1ec577bcd65`) | Add-only custom noindex 404 document; no route or sitemap change | 35,219 / 35,208 | September6 15:35:04 |
 
-Every listed Pages run concluded success, meaning deployment succeeded, NOT content semantics passed. Latest run: [34022456093](https://github.com/SamJest/uk-planning-guide/actions/runs/34022456093), started September6 08:39:21 and completed successfully after build/report/deploy jobs. GitHub Pages headers, live LF-normalised HTML hashes and the 35,208-URL sitemap inventory agree with the reviewed recovery release.
+Every listed Pages run concluded success, meaning deployment succeeded, NOT content semantics passed. Latest run: [34042563042](https://github.com/SamJest/uk-planning-guide/actions/runs/34042563042), started September6 15:31:16 and completed at 15:35:04 after successful build/report/deploy jobs. A random live missing path returns the reviewed custom error document with HTTP 404. The 35,208-URL sitemap inventory remains unchanged.
 
 ## Unmerged source work retained
 

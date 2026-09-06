@@ -10,23 +10,28 @@ Status at 6 September 2026: source phases committed; bounded recovery batch depl
 | Release validation | `43d8164846f` | Production anchor and protected URL families | Source-bound build, semantic cohort checks, exact release manifest and validation evidence | Any untested or full-corpus output |
 | Browser quality gates | `1cac028184f` | Existing component styling and tool behaviour | 52 desktop/mobile browser, accessibility, keyboard and visual checks plus four Lighthouse cases | Treating stale browser inputs or a post-result Windows cleanup warning as content QA |
 | Generated deployment | `f7a308662fa`, merged by `7749cbba33b` | All other 35,215 HTML files and four unchanged sitemap shards | Exact four-page/four-shard patch through PR15 and successful Pages run | Merging the divergent source branch wholesale into production |
+| Missing-URL recovery | `604da40abb9`, deployment `a1ec577bcd6`, merged by `9e9db289561` | Genuine HTTP 404 status and every existing content URL | Accessible noindex custom error document through PR16 and successful Pages run | Soft-404 redirects, canonicalising missing URLs or changing sitemap membership |
+| Clicked-404 classification | `05773442d3c` | All 30 missing URLs and 91 clicks as protected demand evidence | Maps every missing combined-rule URL to its existing same-authority parent for visible recovery | No redirect or restoration without equivalence/content-contract evidence |
 
 ## Validation
 
-- Final source fingerprint: `845da6f2f44d9b69bd1d5cbf2ed81f09b2154715aa8885dc3b86cc99462da249`.
-- Clean scoped canary: `artifacts/builds/recovery-semantic-6`; 24 publish routes; 11 generators; 18.42 seconds; zero Phase0 errors/warnings.
-- Unit/contract/regression tests: 32 passed, zero skipped.
+- Final source fingerprint: `5dae6496f1752bf34b150a3b5faa22ffc7aa313ffd368e837dd9bfc7a3d76644`.
+- Clean scoped canary: `artifacts/builds/recovery-404-2`; 24 publish routes plus the special 404 document; 11 generators; 15.1 seconds; zero Phase0 errors/warnings.
+- Unit/contract/regression tests: 36 passed, zero skipped.
 - Semantic cohort: three repaired pages pass; `/tools/` contains all four capability markers; four protected production pages retain exact canonical/local checks.
 - Official sources: 27 active, zero unavailable/blocking after replacing the obsolete Colchester validation URL.
-- Browser QA: 52/52 desktop/mobile tests pass, including keyboard, axe accessibility, tool operation and scoped visual baselines.
+- Browser QA: 54/54 desktop/mobile tests pass, including keyboard, axe accessibility, tool operation and scoped visual baselines. The two new custom-404 screenshots were visually reviewed.
 - Lighthouse: all four changed pages pass the configured performance, accessibility, best-practice, SEO, LCP, CLS and TBT budgets; raw reports and `lighthouse-summary.md` retained. Edge reports a post-result Windows temporary-profile cleanup error.
 - Release candidate: `artifacts/releases/recovery-batch-3`; eight files; four HTML plus four XML; production tree-bound. Overlay validation checks all 35,208 submitted URLs and 139 candidate links with zero errors.
 - Counts: production pages 35,219 → 35,219; submitted sitemap URLs 35,218 → 35,208; no redirect or deletion delta.
+- Custom-404 release: `artifacts/releases/recovery-404-2`; one new special HTML file; existing page and sitemap counts unchanged; redirects remain zero.
 
 ## Deployment
 
 The exact eight-file patch was committed as `f7a308662faa81ddc3cb2253f142ba6765e087d9` on `codex/recovery-batch-2026-09-06`, reviewed in [PR 15](https://github.com/SamJest/uk-planning-guide/pull/15), and merged without base drift as production commit `7749cbba33bc06075424a82ec7f733822acfbc57`. [Pages run 34022456093](https://github.com/SamJest/uk-planning-guide/actions/runs/34022456093) completed successfully. Public verification found all four changed pages HTTP 200, self-canonical and indexable; their LF-normalised SHA-256 values exactly match the reviewed files. The eight live shards contain 35,208 unique URLs and none of the ten exclusions. Rollback remains a normal revert of the single generated deployment commit/merge, not a reset.
 
+The add-only custom 404 was committed as `a1ec577bcd65bac1eb81c13349e36eb71c9d1d9f`, reviewed in [PR 16](https://github.com/SamJest/uk-planning-guide/pull/16), and merged as current production `9e9db28956159587c57d88c7efebe22843f635ed`. [Pages run 34042563042](https://github.com/SamJest/uk-planning-guide/actions/runs/34042563042) completed successfully. A new random missing path returns HTTP 404 with the reviewed custom content, `noindex, follow`, no canonical and no refresh; its LF-normalised hash matches the release. The public sitemap remains 35,208 unique URLs.
+
 ## Owner decisions still required
 
-Current Search Console example URLs for the September 5xx, 404, alternate-canonical and crawled/discovered buckets; advertising/CMP/vendor/legal approval; partner identities and commercial terms; analytics retention; hosted checkout/tax/receipt/refund/support providers; paid-pack price and launch approval. These decisions do not block the current technical recovery candidate, but they do block commercial activation and evidence-specific treatment of the remaining Search Console cohorts.
+Current Search Console example URLs for the September 5xx, 404, alternate-canonical and crawled/discovered buckets; equivalence or content-contract decisions for the 30 mapped clicked 404s; advertising/CMP/vendor/legal approval; partner identities and commercial terms; analytics retention; hosted checkout/tax/receipt/refund/support providers; paid-pack price and launch approval. These decisions do not block the completed technical recovery, but they do block redirects/restorations, commercial activation and evidence-specific treatment of the remaining Search Console cohorts.
