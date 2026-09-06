@@ -7,6 +7,7 @@ PROJECT_ROOT = CURRENT_DIR.parent
 sys.path.append(str(PROJECT_ROOT))
 
 from data.loaders import load_councils, load_projects
+from generators.error_pages import generate_error_pages
 from generators.homepage import generate_homepage
 from generators.hubs import generate_councils_hub, generate_project_hubs
 
@@ -15,6 +16,7 @@ def main():
     print("Starting homepage and index generation")
 
     generate_homepage()
+    generate_error_pages()
 
     projects = load_projects()
     councils_by_county = load_councils()

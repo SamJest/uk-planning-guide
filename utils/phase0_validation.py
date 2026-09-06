@@ -76,6 +76,34 @@ def validate_phase0_canary(output_dir: Path, *, baseline_dir: Path | None = None
     def add_warning(route: str, code: str, message: str) -> None:
         warnings.append({"route": route, "code": code, "message": message})
 
+    not_found_path = output_dir / "404.html"
+    not_found_result = {"path": str(not_found_path), "checks": {}}
+    if not not_found_path.exists():
+        add_error("/404.html", "missing-page", "Custom GitHub Pages 404 document is missing.")
+    else:
+        not_found_html = not_found_path.read_text(encoding="utf-8", errors="ignore")
+        not_found_robots = ROBOTS_PATTERN.search(not_found_html)
+        robots_value = (not_found_robots.group(1) if not_found_robots else "").lower()
+        checks = {
+            "marker": 'data-not-found-page="true"' in not_found_html,
+            "noindex": "noindex" in robots_value,
+            "no_canonical": CANONICAL_PATTERN.search(not_found_html) is None,
+            "no_meta_refresh": "http-equiv=\"refresh\"" not in not_found_html.lower(),
+        }
+        not_found_result["checks"] = checks
+        for check, passed in checks.items():
+            if not passed:
+                add_error("/404.html", f"invalid-{check.replace('_', '-')}", f"Custom 404 check failed: {check}.")
+
+        parser = _LinkParser()
+        parser.feed(not_found_html)
+        for href in parser.links:
+            if href.startswith(("http://", "https://", "mailto:", "tel:", "#")):
+                continue
+            target_route = normalize_path(href)
+            if not _route_exists(target_route, output_dir, baseline_dir):
+                add_error("/404.html", "broken-internal-link", f"Internal target is missing: {target_route}")
+
     for route in routes:
         record = records[route]
         page_path = output_file_for_route(output_dir, route)
@@ -154,6 +182,7 @@ def validate_phase0_canary(output_dir: Path, *, baseline_dir: Path | None = None
         "errors": errors,
         "warnings": warnings,
         "pages": pages,
+        "special_pages": {"404": not_found_result},
     }
 
 

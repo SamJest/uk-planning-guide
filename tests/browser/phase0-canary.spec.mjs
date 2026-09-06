@@ -69,6 +69,33 @@ test('planning route checker remains operable', async ({ page }) => {
   expect(await controls.count()).toBeGreaterThan(0);
 });
 
+test('custom 404 provides an accessible recovery route without indexation signals', async ({ page }) => {
+  const response = await page.goto('/404.html', { waitUntil: 'domcontentloaded' });
+  expect(response?.status()).toBe(200);
+
+  await expect(page.locator('[data-not-found-page="true"]')).toBeVisible();
+  await expect(page.locator('h1')).toHaveCount(1);
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/i);
+  await expect(page.locator('link[rel="canonical"]')).toHaveCount(0);
+  await expect(page.locator('a[href="/tools/"]')).not.toHaveCount(0);
+  await expect(page.locator('a[href="/councils/"]')).not.toHaveCount(0);
+
+  await page.keyboard.press('Tab');
+  const focused = await page.evaluate(() => document.activeElement?.tagName || '');
+  expect(focused).not.toBe('BODY');
+
+  const axe = await new AxeBuilder({ page })
+    .withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa'])
+    .analyze();
+  expect(axe.violations).toEqual([]);
+
+  await expect(page).toHaveScreenshot('custom-404.png', {
+    fullPage: true,
+    animations: 'disabled',
+    maxDiffPixelRatio: 0.01
+  });
+});
+
 test('analytics bootstrap is present without sending a test hit', async ({ page }) => {
   await page.goto('/');
   const html = await page.content();

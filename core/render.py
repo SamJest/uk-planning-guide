@@ -250,6 +250,9 @@ def inject_into_base(
     for key, value in replacements.items():
         html = html.replace(f"{{{{{key}}}}}", value)
 
+    if options.get("include_canonical") is False:
+        html = re.sub(r'\s*<link\s+rel="canonical"\s+href="[^"]*">', "", html, count=1, flags=re.IGNORECASE)
+
     if record:
         html = html.replace(
             '<html lang="en">',
