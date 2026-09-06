@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page-family="tool" data-jurisdiction="uk" data-review-status="source_checked">
 <head>
 <meta charset="UTF-8">
 <!-- Google Analytics (GA4) -->
@@ -31,7 +31,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
 <link rel="manifest" href="/assets/site.webmanifest?v=20260327">
 <meta name="theme-color" content="#f3eee5">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://ukplanningguide.co.uk/#website", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}}, {"@type": "WebPage", "name": "Planning tools: permission and local rule checks", "url": "https://ukplanningguide.co.uk/tools/", "description": "Use planning tools to sense-check permission routes, permitted development questions and the local checks worth doing before you go deeper.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://ukplanningguide.co.uk/tools/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "CollectionPage", "headline": "Planning tools: permission and local rule checks", "description": "Use planning tools to sense-check permission routes, permitted development questions and the local checks worth doing before you go deeper.", "url": "https://ukplanningguide.co.uk/tools/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/tools/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk/tools#sam-jones", "email": "guidance@ukplanningguide.co.uk"}, "reviewedBy": {"@type": "Person", "name": "UK Planning Guide Editorial Review Desk", "description": "Review layer responsible for official-source context, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.", "url": "https://ukplanningguide.co.uk/tools#lead-reviewer", "email": "guidance@ukplanningguide.co.uk"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://ukplanningguide.co.uk/#website", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}}, {"@type": "WebPage", "name": "Planning tools: permission and local rule checks", "url": "https://ukplanningguide.co.uk/tools/", "description": "Use planning tools to sense-check permission routes, permitted development questions and the local checks worth doing before you go deeper.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://ukplanningguide.co.uk/tools/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "CollectionPage", "headline": "Planning tools: permission and local rule checks", "description": "Use planning tools to sense-check permission routes, permitted development questions and the local checks worth doing before you go deeper.", "url": "https://ukplanningguide.co.uk/tools/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/tools/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk/tools#sam-jones", "email": "guidance@ukplanningguide.co.uk"}, "reviewedBy": {"@type": "Person", "name": "UK Planning Guide Editorial Review Desk", "description": "Review layer responsible for official-source context, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.", "url": "https://ukplanningguide.co.uk/tools#lead-reviewer", "email": "guidance@ukplanningguide.co.uk"}}, {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/tools/#contract-page", "url": "https://ukplanningguide.co.uk/tools/", "dateModified": "2026-09-06"}]}</script>
 <style>
 :root{
 --ink:#1f2937;
@@ -1241,6 +1241,26 @@ display:grid;
 gap:14px;
 }
 
+.workspace-retention-cta{
+display:grid;
+gap:16px;
+padding:clamp(20px,3vw,30px);
+border:1px solid rgba(31,111,95,.18);
+border-radius:8px;
+background:linear-gradient(180deg,rgba(243,250,247,.82),rgba(255,255,255,.94));
+box-shadow:var(--shadow-soft);
+}
+
+.workspace-retention-cta .answer-card{
+min-height:190px;
+align-content:start;
+}
+
+.workspace-retention-cta button,
+.workspace-retention-cta a{
+max-width:100%;
+}
+
 .next-step-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -1846,56 +1866,53 @@ max-width:none;
 <main class="container" id="main-content" tabindex="-1">
 <nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><span>Tools</span></nav>
 
-<div class="page-trust-strip" data-page-authority="true" data-nosnippet><div class="page-trust-strip-heading"><strong>Editorially checked</strong><span>Visible ownership, review date and official-source context for this page.</span></div><div class="page-trust-strip-items"><span><strong>Written by</strong> Sam Jones</span><span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span><span><strong>Last reviewed</strong> 11 April 2026</span><span><strong>Official-source context</strong> National planning baseline, local authority context and page-specific risk points.</span><span><strong>Verify before spending</strong> Stop and verify when the proposal is close to a limit, affected by special controls or expensive to get wrong.</span></div></div>
+<div class="page-trust-strip" data-nosnippet data-contract-trust="true"><div class="page-trust-strip-heading"><strong>Prepared and source-checked under the UK Planning Guide editorial process</strong><span><a href="/methodology/">How the review works</a></span></div><div class="page-trust-strip-items"><span><strong>Content updated</strong>6 September 2026</span><span><strong>Sources checked</strong>6 September 2026</span><span><strong>Confidence</strong>High</span><span><strong>Important</strong>General planning information, not legal advice or formal approval.</span></div></div>
 <section class="hero">
 <span class="badge">Planning tools</span>
-<h1>Planning Tools For Faster, Safer First Decisions</h1>
-<p>Use these tools as one decision system: narrow the route quickly, spot what changes the answer and move into the right project guide, topic hub or local authority page before the wrong next step costs money.</p>
+<h1>Four Steps From Project Idea To A Ready Plan</h1>
+<p>Start with what you want to do, add the place and property constraints, then turn the result into a readiness checklist you can save.</p>
 </section>
 
 <section>
-<span class="eyebrow">Tool-first route</span>
-<h2>Choose The Tool That Matches The Doubt You Actually Have</h2>
-<div class="answer-grid">
-<div class="answer-card">
-<h3>Best starting point</h3>
-<p>Start with a tool when you need a fast first-pass answer before committing to deeper reading or local page comparisons.</p>
-</div>
-<div class="answer-card">
-<h3>What to do after the result</h3>
-<p>Move into the matching project guide, council page or rule hub rather than treating the tool output as a stopping point.</p>
-</div>
-<div class="answer-card">
-<h3>When to escalate</h3>
-<p>If the result feels borderline, assume the next step is a certificate, pre-app conversation or another formal check, not more guesswork.</p>
-</div>
-</div>
-</section>
+<span class="eyebrow">Main journey</span>
+<h2>Choose The Capability You Need Now</h2>
+<div class="card-grid">
+<a class="card" href="/tools/planning-route-check/">
+<div class="card-kicker">Planning Route Check</div>
+<h3>Planning Route Check</h3>
+<p>Start with the project and likely planning route, then see what could change the answer.</p>
+<span class="cta">Check planning route</span>
+</a>
 
-<!-- HomeProof tools -->
-<section class="homeproof-tools-bridge" data-homeproof-integration="tools-library-v1">
-  <span class="eyebrow">Keep the project record</span>
-  <h2>Move From Planning Checks Into A HomeProof Project</h2>
-  <p class="section-lead">Once the likely route is clearer, use HomeProof to create a consistent scope, compare quotes and record the approvals, certificates and evidence that still need confirming.</p>
-  <div class="grid">
-    <a class="card" href="/homeproof/">
-      <div class="card-kicker">New project workspace</div>
-      <h3>HomeProof by UK Planning Guide</h3>
-      <p>Plan the work, compare quotes and keep the project record in one browser-based workspace.</p>
-      <span class="cta">See HomeProof</span>
-    </a>
-    <a class="card" href="/homeproof/workspace/">
-      <div class="card-kicker">Private browser workspace</div>
-      <h3>Start A HomeProof Project</h3>
-      <p>Create a project without an account. Your record stays in this browser.</p>
-      <span class="cta">Open workspace</span>
-    </a>
-  </div>
+<a class="card" href="/tools/local-constraint-finder/">
+<div class="card-kicker">Local Constraint Check</div>
+<h3>Local Constraint Check</h3>
+<p>Check the authority and the property constraints that can remove or narrow the national baseline.</p>
+<span class="cta">Check local constraints</span>
+</a>
+
+<a class="card" href="/tools/planning-application-readiness-checker/">
+<div class="card-kicker">Project Readiness</div>
+<h3>Project Readiness</h3>
+<p>Turn the likely route into the evidence, drawings, questions and approvals still needed.</p>
+<span class="cta">Check readiness</span>
+</a>
+
+<a class="card" href="/my-planning-project/">
+<div class="card-kicker">My Planning Project</div>
+<h3>My Planning Project</h3>
+<p>Keep saved results, official sources and next tasks together on this device.</p>
+<span class="cta">Open my project</span>
+</a>
+</div>
 </section>
 
 <section>
-<span class="eyebrow">Tool library</span>
-<h2>The Main Tools In The Decision System</h2>
+<span class="eyebrow">Specialist checks</span>
+<h2>Keep Existing Tools And Bookmarks</h2>
+<p>The focused tools remain available for people who need a specific calculation or checklist. They support the four-step journey rather than compete with it.</p>
+<details>
+<summary>Show all specialist planning tools</summary>
 <div class="card-grid">
 <a class="card" href="/tools/planning-decision-tool/">
 <div class="card-kicker">Planning tool</div>
@@ -2093,6 +2110,7 @@ max-width:none;
 <span class="cta">Open tool</span>
 </a>
 </div>
+</details>
 </section>
 
 <section>
@@ -2258,6 +2276,56 @@ max-width:none;
 
   window.upgTrack = window.upgTrack || emitGaEvent;
 
+  function growthPageContext() {
+    const path = window.location.pathname || "/";
+    const cohort = document.querySelector("[data-growth-cohort]");
+    return {
+      source_path: path,
+      page_family: path.split("/").filter(Boolean)[0] || "home",
+      growth_cohort: cohort ? cohort.getAttribute("data-growth-cohort") || "" : ""
+    };
+  }
+
+  function isGoogleOrganicLanding() {
+    if (!document.referrer) {
+      return false;
+    }
+    try {
+      const host = new URL(document.referrer).hostname.toLowerCase();
+      return host === "google.com" || host.indexOf(".google.") !== -1 || host.indexOf("google.") === 0;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  if (isGoogleOrganicLanding()) {
+    let organicTimeReady = false;
+    let organicScrollReady = false;
+    let organicEngagementSent = false;
+    function maybeTrackOrganicEngagement() {
+      if (organicEngagementSent || !organicTimeReady || !organicScrollReady) {
+        return;
+      }
+      organicEngagementSent = true;
+      emitGaEvent("organic_landing_engaged", Object.assign(growthPageContext(), {
+        engagement_seconds: 10,
+        scroll_threshold: 25
+      }));
+    }
+    window.setTimeout(function () {
+      organicTimeReady = true;
+      maybeTrackOrganicEngagement();
+    }, 10000);
+    function checkOrganicEngagementScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      organicScrollReady = (window.scrollY / maxScroll) * 100 >= 25;
+      maybeTrackOrganicEngagement();
+    }
+    window.addEventListener("scroll", checkOrganicEngagementScroll, { passive: true });
+    checkOrganicEngagementScroll();
+  }
+
   const downloadAsset = document.querySelector("[data-download-asset]");
   if (downloadAsset) {
     emitGaEvent("download_asset_view", {
@@ -2318,6 +2386,9 @@ max-width:none;
     }
     const context = safeRouteContext(node);
     emitGaEvent(eventName, context);
+    if (eventName === "route_started") {
+      emitGaEvent("route_check_start", context);
+    }
     if (eventName === "summary_saved" || eventName === "council_pack_downloaded") {
       try {
         const saved = JSON.parse(safeStorageGet("ukpg:planning-workspace:v1") || "{}");
@@ -2542,6 +2613,27 @@ max-width:none;
   }
 
   document.addEventListener("click", function (event) {
+    const officialSource = event.target && event.target.closest ? event.target.closest(".official-source-link") : null;
+    if (officialSource) {
+      let destinationHost = "";
+      try {
+        destinationHost = new URL(officialSource.href).hostname;
+      } catch (error) {}
+      const sourceBlock = officialSource.closest("[data-official-sources]");
+      emitGaEvent("official_source_click", Object.assign(growthPageContext(), {
+        authority_slug: sourceBlock ? sourceBlock.getAttribute("data-official-sources-authority") || "" : "",
+        source_family: sourceBlock ? sourceBlock.getAttribute("data-official-sources-family") || "" : "",
+        destination_host: destinationHost
+      }));
+    }
+
+    const growthAction = event.target && event.target.closest ? event.target.closest("[data-growth-action]") : null;
+    if (growthAction && growthAction.getAttribute("data-growth-action") === "route_check_start") {
+      emitGaEvent("route_check_start", Object.assign(growthPageContext(), {
+        route_intent: "growth_answer_action"
+      }));
+    }
+
     const downloadButton = event.target && event.target.closest ? event.target.closest("[data-download-action]") : null;
     if (downloadButton) {
       const action = downloadButton.getAttribute("data-download-action");
@@ -2609,6 +2701,16 @@ max-width:none;
       note.textContent = "Copy the address from your browser bar to keep this page with your project notes.";
     }
   });
+
+  document.addEventListener("submit", function (event) {
+    const form = event.target && event.target.closest ? event.target.closest("form[data-guidance-form]") : null;
+    if (!form) {
+      return;
+    }
+    emitGaEvent("planning_enquiry_submit", Object.assign(growthPageContext(), {
+      form_key: form.getAttribute("data-guidance-form") || ""
+    }));
+  }, true);
 
   function ensureNextStep(resultNode) {
     if (!resultNode || resultNode.querySelector(".tool-next-step")) {
