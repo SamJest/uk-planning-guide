@@ -64,8 +64,11 @@ from utils.official_sources import (
 )
 from utils.scenario_config import load_scenarios
 from utils.route_contracts import is_legacy_country_bridge_path, route_contract_for_country_path
+from utils.content_contracts import page_records_by_route
 
-OUTPUT_DIR = Path(__file__).resolve().parent / "output"
+ROOT_DIR = Path(__file__).resolve().parent
+_configured_output = str(os.environ.get("UKPG_OUTPUT_DIR") or "").strip()
+OUTPUT_DIR = Path(_configured_output).resolve() if _configured_output else ROOT_DIR / "output"
 SITEMAP_DIR = OUTPUT_DIR / "sitemaps"
 TOOLS_DIR = OUTPUT_DIR / "tools"
 TOOL_SMOKE_SCRIPT = Path(__file__).resolve().parent / "scripts" / "tool_smoke_test.js"
@@ -1423,7 +1426,8 @@ def pages_for_health_scan(pages: list[Path]) -> list[Path]:
         return [
             page
             for page in pages
-            if classify_url(f"{BASE_URL}{expected_url_for_page(page)}")
+            if page != OUTPUT_DIR / "404.html"
+            and classify_url(f"{BASE_URL}{expected_url_for_page(page)}")
             not in {"scenario-combinations", "supplemental-scenarios"}
             and not is_legacy_country_bridge_path(expected_url_for_page(page))
         ]
@@ -1453,6 +1457,8 @@ def pages_for_health_scan(pages: list[Path]) -> list[Path]:
     }
 
     for page in sorted(pages, key=lambda item: str(item.relative_to(OUTPUT_DIR))):
+        if page == OUTPUT_DIR / "404.html":
+            continue
         url = expected_url_for_page(page)
         if is_legacy_country_bridge_path(url):
             continue
@@ -1848,7 +1854,7 @@ def _count_inline_scripts(html: str) -> int:
 
 
 def _duplicate_ids(html: str) -> list[str]:
-    ids = re.findall(r'\bid="([^"]+)"', html)
+    ids = re.findall(r'(?:^|[\s<])id="([^"]+)"', html)
     counts: defaultdict[str, int] = defaultdict(int)
     for item in ids:
         counts[item] += 1
@@ -2470,6 +2476,25 @@ def _metadata_family_for_url(url: str) -> str:
     return section
 
 
+ALLOWED_NOINDEX_SECTIONS = {
+    "utility",
+    "local-search-hub",
+    "england-services",
+    "england-services-hub",
+}
+ALLOWED_NOINDEX_PATHS = {
+    "/updates/phase-0-integrity-repair/",
+}
+
+
+def _is_allowed_noindex(url: str, section: str) -> bool:
+    """Return whether a rendered noindex is an explicit release-policy exclusion."""
+    normalized_url = "/" if url == "/" else f"{url.rstrip('/')}/"
+    declared_record = page_records_by_route().get(normalized_url)
+    declared_noindex = bool(declared_record and declared_record.get("index_status") == "noindex")
+    return declared_noindex or section in ALLOWED_NOINDEX_SECTIONS or normalized_url in ALLOWED_NOINDEX_PATHS
+
+
 def validate_metadata_quality(pages: list[Path]) -> None:
     print("=== METADATA QUALITY AUDIT ===\n")
 
@@ -2486,8 +2511,6 @@ def validate_metadata_quality(pages: list[Path]) -> None:
         "use this page to understand",
         "the local route, the main tripwires and the next checks",
     )
-    allowed_noindex_sections = {"utility", "local-search-hub", "england-services"}
-
     for page in pages:
         html = page.read_text(encoding="utf-8", errors="ignore")
         title = parse_title(html)
@@ -2525,7 +2548,7 @@ def validate_metadata_quality(pages: list[Path]) -> None:
         if meta:
             duplicate_metas[(family, meta_lower)].append(rel)
 
-        if 'meta name="robots" content="noindex' in html.lower() and section not in allowed_noindex_sections:
+        if 'meta name="robots" content="noindex' in html.lower() and not _is_allowed_noindex(url, section):
             errors.append(f"Unexpected noindex on indexable page: {rel}")
 
         if len(errors) >= MAX_REPORTED_ERRORS:
@@ -2734,12 +2757,9 @@ def validate_gsc_expansion_targets(existing_urls: set[str]) -> None:
     min_pages = int(GSC_EXPANSION_RELEASE_LIMITS["min_pages"])
     max_pages = int(GSC_EXPANSION_RELEASE_LIMITS["max_pages"])
     expected_hub_clusters = {
-        "hmo-article-4",
-        "planning-portal",
-        "conservation-map",
-        "dropped-kerb-highway",
-        "extension-drawings",
-        "porch-outbuilding-rules",
+        cluster
+        for cluster, hub in GSC_CLUSTER_HUBS.items()
+        if hub.get("publication_status") != "blocked"
     }
 
     if not min_pages <= expansion_count <= max_pages:

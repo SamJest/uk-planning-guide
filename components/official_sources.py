@@ -145,6 +145,7 @@ def build_official_sources_block(
         scenario_slug=scenario_slug,
     )
     items = []
+    local_fact_marker = ' data-local-fact="true"' if authority_slug else ""
     for source in sources:
         meta_bits = [source_category_label(source.category)]
         if source.last_reviewed:
@@ -158,7 +159,7 @@ def build_official_sources_block(
         )
         items.append(
             f"""
-<a class="official-source-link" href="{escape(source.url, quote=True)}">
+<a class="official-source-link" href="{escape(source.url, quote=True)}"{local_fact_marker}>
 <strong>{escape(source.title)}</strong>
 <span>{escape(" | ".join(meta_bits))}</span>
 <span>{escape(reason)}</span>
@@ -167,7 +168,7 @@ def build_official_sources_block(
         )
 
     return f"""
-<section class="official-sources" id="{escape(section_id, quote=True)}" data-official-sources="true" data-official-sources-family="{escape(page_family, quote=True)}" data-official-sources-authority="{escape(authority_slug, quote=True)}" data-official-sources-count="{len(sources)}">
+<section class="official-sources" id="{escape(section_id, quote=True)}" data-purpose="labelled-example" data-official-sources="true" data-official-sources-family="{escape(page_family, quote=True)}" data-official-sources-authority="{escape(authority_slug, quote=True)}" data-official-sources-count="{len(sources)}">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
 <p class="section-lead">{escape(intro)}</p>

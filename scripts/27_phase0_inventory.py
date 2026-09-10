@@ -91,7 +91,9 @@ def _classify(route: str) -> tuple[str, str, str | None, str | None, str | None]
         if section == "rules":
             return ("local_rule" if len(parts) >= 4 else "rule_guide", country, parts[3] if len(parts) >= 4 else None, None, parts[2] if len(parts) >= 3 else None)
         if section == "councils":
-            return ("authority_profile", country, parts[2] if len(parts) >= 3 else None, None, None)
+            if len(parts) >= 3:
+                return "authority_profile", country, parts[2], None, None
+            return "national_guide", country, None, None, None
         if section == "tools":
             return "tool", country, None, None, None
         if section == "data":

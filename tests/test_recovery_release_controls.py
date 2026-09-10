@@ -73,7 +73,7 @@ class PublicationContainmentTests(unittest.TestCase):
             patch.object(scenario_pages, "load_projects", return_value=[]),
             patch.object(scenario_pages, "load_scenarios", return_value=scenarios),
             patch.object(scenario_pages, "should_render_route", return_value=True),
-            patch.object(scenario_pages, "_generate_contract_local_rule_page", return_value=False),
+            patch.object(scenario_pages, "_generate_source_backed_local_rule_page", return_value=False),
         ):
             with self.assertRaisesRegex(ContractError, "Refusing to synthesize a local-rule page"):
                 scenario_pages.generate_scenario_pages()
@@ -87,7 +87,7 @@ class PublicationContainmentTests(unittest.TestCase):
             patch.object(council_pages, "load_projects", return_value=[]),
             patch.object(council_pages, "load_scenarios", return_value=[]),
             patch.object(council_pages, "should_render_route", return_value=True),
-            patch.object(council_pages, "_generate_contract_authority_profile", return_value=False),
+            patch.object(council_pages, "_generate_source_backed_authority_profile", return_value=False),
         ):
             with self.assertRaisesRegex(ContractError, "Refusing to synthesize an authority profile"):
                 council_pages.generate_council_pages()

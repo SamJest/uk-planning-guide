@@ -23,22 +23,43 @@ from components.council_sections import *
 from utils.random_tools import get_month_year
 from utils.content_contracts import ContractError, page_records_by_route
 from utils.country_utils import get_country_slug
+from utils.official_sources import OfficialSourceContext, relevant_official_sources, source_category_label
 
 
-def _generate_contract_authority_profile(council, projects, county_slug: str) -> bool:
+def _generate_source_backed_authority_profile(council, projects, county_slug: str) -> bool:
     town_slug = council["town_slug"]
     town_name = council["town_name"]
     country = council.get("country_slug") or get_country_slug(county_slug)
     legacy_path = f"/councils/{town_slug}/"
     country_path = f"/{country}/councils/{town_slug}/"
     record = page_records_by_route().get(legacy_path) or page_records_by_route().get(country_path)
-    if not record or record.get("page_family") != "authority_profile":
-        return False
+    if record and record.get("page_family") != "authority_profile":
+        raise ContractError(f"Invalid authority-profile contract for {legacy_path}")
+
+    sources = relevant_official_sources(
+        OfficialSourceContext(
+            page_family="council",
+            authority_slug=town_slug,
+            country_slug=country,
+            max_links=5,
+        )
+    )
+    if not record and len(sources) < 3:
+        raise ContractError(f"Source-backed authority profile lacks three official sources: {legacy_path}")
 
     fact_items = "".join(
         f'<li data-local-fact="true">{escape(fact["fact"])}</li>'
-        for fact in record.get("unique_local_facts", [])
+        for fact in (record or {}).get("unique_local_facts", [])
     )
+    if not fact_items:
+        fact_items = "".join(
+            '<li data-local-fact="true">{authority} publishes an official {category} source titled “{title}”; use it for the current authority position.</li>'.format(
+                authority=escape(town_name),
+                category=escape(source_category_label(source.category).lower()),
+                title=escape(source.title),
+            )
+            for source in sources
+        )
     project_cards = "".join(
         '<a class="card" href="/{slug}/{county}/{town}/"><h3>{title}</h3>'
         '<p>Open the explicitly selected local project guide.</p></a>'.format(
@@ -65,20 +86,21 @@ def _generate_contract_authority_profile(council, projects, county_slug: str) ->
 </section>
 <section>
 <h2>Verified local context</h2>
-<ul class="checklist">{fact_items}</ul>
+<ul class="checklist" data-purpose="labelled-example">{fact_items}</ul>
 </section>
 <section data-purpose="project-navigation">
 <h2>Choose a project</h2>
 <p>These links are navigation, not assumptions about your proposal.</p>
 <div class="card-grid">{project_cards}</div>
 </section>
+{build_official_sources_block(page_family="council", authority_slug=town_slug, country_slug=country)}
 """
     html = inject_into_base(
         title=f"{town_name} planning authority guide",
         content=content,
         options={
             "breadcrumbs": [("Home", "/"), (country.replace("-", " ").title(), f"/{country}/"), ("Councils", f"/{country}/councils/"), (town_name, "")],
-            "year": record["content_updated_at"][:4],
+            "year": ((record or {}).get("content_updated_at") or "2026")[:4],
         },
         canonical_url=f"{BASE_URL}/councils/{town_slug}/",
         meta_description=f"Official-source planning routes, validation, policy and local checks for {town_name}, without assuming a project type.",
@@ -116,7 +138,7 @@ def generate_council_pages():
             if not should_render_route(f"/councils/{town_slug}/"):
                 continue
 
-            if _generate_contract_authority_profile(council, projects, county_slug):
+            if _generate_source_backed_authority_profile(council, projects, county_slug):
                 continue
 
             raise ContractError(

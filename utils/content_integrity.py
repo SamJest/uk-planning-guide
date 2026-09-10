@@ -55,6 +55,11 @@ def _semantic_body(html: str) -> str:
     return visible_text(source).lower()
 
 
+def _contains_fingerprint(text: str, fingerprint: str) -> bool:
+    """Match semantic phrases on token boundaries, avoiding place-name substrings."""
+    return bool(re.search(rf"(?<![a-z0-9]){re.escape(fingerprint)}(?![a-z0-9])", text))
+
+
 def lint_page_record(record: dict) -> list[IntegrityFinding]:
     findings: list[IntegrityFinding] = []
     family = record.get("page_family")
@@ -84,7 +89,7 @@ def lint_rendered_html(record: dict, html: str) -> list[IntegrityFinding]:
                 continue
             if topic in allowed:
                 continue
-            matched = [fingerprint for fingerprint in fingerprints if fingerprint in text]
+            matched = [fingerprint for fingerprint in fingerprints if _contains_fingerprint(text, fingerprint)]
             if matched:
                 findings.append(
                     IntegrityFinding(
@@ -94,7 +99,7 @@ def lint_rendered_html(record: dict, html: str) -> list[IntegrityFinding]:
                 )
     if rule_id == "article-4" and not project_id:
         for marker in PROJECT_FINGERPRINTS["garden-rooms"]:
-            if marker in text:
+            if _contains_fingerprint(text, marker):
                 findings.append(IntegrityFinding("article4-garden-room-leak", f"Generic Article 4 page contains {marker!r}."))
     if family in {"national_guide", "rule_guide", "authority_profile", "local_rule"} and "assumed setup" in text:
         findings.append(IntegrityFinding("generic-assumed-setup", "Generic page contains an assumed project setup."))

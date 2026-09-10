@@ -14,6 +14,57 @@ from utils.url_registry import load_canary_routes, load_redirects, validate_url_
 
 
 class PhaseZeroContractTests(unittest.TestCase):
+    def test_reviewed_country_alias_survives_optional_release_cap(self):
+        from pathlib import Path
+        from types import SimpleNamespace
+        from unittest.mock import patch
+
+        from generators import upgrade_pages
+
+        def contract(index):
+            return SimpleNamespace(
+                canonical_path=f"/england/rules/article-4/authority-{index}/",
+                source_path=f"/article-4/authority-{index}/",
+                intent_type="rules",
+                authority_slug=f"authority-{index}",
+                project_slug="",
+            )
+
+        candidates = [(contract(index), Path(f"page-{index}")) for index in range(4)]
+        required = {candidates[-1][0].canonical_path}
+        with patch.object(upgrade_pages, "MAX_COUNTRY_ALIASES", 2):
+            selected = upgrade_pages._select_alias_candidates(candidates, required)
+
+        selected_paths = {item.canonical_path for item, _ in selected}
+        self.assertEqual(len(selected), 3)
+        self.assertIn(candidates[-1][0].canonical_path, selected_paths)
+
+    def test_indexable_country_alias_does_not_inherit_bridge_noindex(self):
+        from types import SimpleNamespace
+        from unittest.mock import patch
+
+        from generators import upgrade_pages
+
+        contract = SimpleNamespace(
+            canonical_path="/england/councils/example/",
+            source_path="/councils/example/",
+            canonical_url="https://ukplanningguide.co.uk/england/councils/example/",
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            source = Path(tmp) / "index.html"
+            source.write_text(
+                '<html><head><meta name="robots" content="noindex, follow">'
+                '<link rel="canonical" href="https://ukplanningguide.co.uk/councils/example/">'
+                '</head><body></body></html>',
+                encoding="utf-8",
+            )
+            records = {contract.canonical_path: {"index_status": "index"}}
+            with patch.object(upgrade_pages, "page_records_by_route", return_value=records):
+                html = upgrade_pages._canonical_alias_html(source, contract)
+
+        self.assertNotIn("noindex", html.lower())
+        self.assertIn(contract.canonical_url, html)
+
     def test_exact_canary_manifest_matches_records(self):
         routes = load_canary_routes()
         self.assertEqual(len(routes["publish_routes"]), 24)
@@ -49,14 +100,32 @@ class PhaseZeroContractTests(unittest.TestCase):
         self.assertFalse(sources & targets)
         validate_url_registry()
 
-    def test_phase_zero_signoff_blocks_full_build(self):
+    def test_phase_zero_signoff_is_bound_to_a_passing_canary(self):
         signoff = json.loads((ROOT / "docs" / "phase-0-signoff.json").read_text(encoding="utf-8"))
-        self.assertIs(signoff["approved"], False)
-        self.assertIsNone(signoff["canary_report_sha256"])
-        self.assertIsNone(signoff["source_fingerprint"])
+        report_path = ROOT / "reports" / "phase-0" / "canary-test-report.json"
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+        self.assertIs(signoff["approved"], True)
+        self.assertEqual(report["status"], "passed")
+        self.assertEqual(signoff["source_fingerprint"], report["source_fingerprint"])
+        self.assertTrue(signoff["canary_report_sha256"])
 
 
 class PhaseZeroIntegrityTests(unittest.TestCase):
+    def test_hmo_fingerprint_does_not_match_authority_name_substrings(self):
+        from utils.content_integrity import lint_rendered_html
+
+        record = {
+            "page_family": "local_rule",
+            "jurisdiction": "england",
+            "authority_id": "richmond-upon-thames",
+            "project_id": None,
+            "rule_id": "article-4",
+            "review_status": "published",
+            "index_status": "index",
+        }
+        findings = lint_rendered_html(record, "<p>Rule guidance for Richmond and Rushmoor.</p>")
+        self.assertFalse(any(item.code == "cross-family-project-language" for item in findings))
+
     def test_multi_authority_local_record_is_rejected(self):
         record = dict(page_records_by_route()["/councils/sheffield/"])
         record["authority_id"] = "sheffield,rotherham"

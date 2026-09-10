@@ -20,6 +20,7 @@ from utils.random_tools import page_rng
 from utils.scenario_config import load_scenarios
 from utils.content_contracts import ContractError, page_records_by_route
 from utils.country_utils import get_country_slug
+from utils.official_sources import OfficialSourceContext, relevant_official_sources, source_category_label
 
 
 BASE_URL = "https://ukplanningguide.co.uk"
@@ -33,7 +34,7 @@ PRIORITY_PROJECT_SLUGS = [
 ]
 
 
-def _generate_contract_local_rule_page(
+def _generate_source_backed_local_rule_page(
     *,
     council: dict,
     county_slug: str,
@@ -48,19 +49,38 @@ def _generate_contract_local_rule_page(
     legacy_path = f"/{scenario_slug}/{town_slug}/"
     country_path = f"/{country}/rules/{scenario_slug}/{town_slug}/"
     record = page_records_by_route().get(legacy_path) or page_records_by_route().get(country_path)
-    if not record or record.get("page_family") != "local_rule" or record.get("project_id"):
-        return False
+    if record and (record.get("page_family") != "local_rule" or record.get("project_id")):
+        raise ContractError(f"Invalid local-rule contract for {legacy_path}")
+
+    sources = relevant_official_sources(
+        OfficialSourceContext(
+            page_family="scenario",
+            authority_slug=town_slug,
+            country_slug=country,
+            scenario_slug=scenario_slug,
+            max_links=5,
+        )
+    )
+    if not record and len(sources) < 3:
+        raise ContractError(f"Source-backed local-rule page lacks three official sources: {legacy_path}")
 
     claims = "".join(
         f'<li data-claim-id="{escape(claim["claim_id"], quote=True)}">{escape(claim["text"])}</li>'
-        for claim in record.get("claims", [])
+        for claim in (record or {}).get("claims", [])
     )
     facts = "".join(
         f'<li data-local-fact="true">{escape(fact["fact"])}</li>'
-        for fact in record.get("unique_local_facts", [])
+        for fact in (record or {}).get("unique_local_facts", [])
     )
     if not facts:
-        facts = "<li>No authority-specific designation source has yet been verified for this page.</li>"
+        facts = "".join(
+            '<li data-local-fact="true">{authority} publishes an official {category} source titled “{title}”; use the linked source to verify the current position.</li>'.format(
+                authority=escape(town_name),
+                category=escape(source_category_label(source.category).lower()),
+                title=escape(source.title),
+            )
+            for source in sources
+        )
     project_links = "".join(
         f'<a href="/{escape(project["slug"], quote=True)}/{escape(county_slug, quote=True)}/{escape(town_slug, quote=True)}/">{escape(project["short_name"])}</a>'
         for project in projects[:12]
@@ -85,7 +105,7 @@ def _generate_contract_local_rule_page(
             "Any planning condition, Article 4 direction, designation or property history that removes or changes the right.",
         ),
     }.get(
-        record.get("rule_id"),
+        (record or {}).get("rule_id") or scenario_slug,
         (
             "The exact property and planning authority.",
             "The current official rule or mapped designation.",
@@ -102,7 +122,7 @@ def _generate_contract_local_rule_page(
 </section>
 <section>
 <h2>Current source position</h2>
-<ul class="checklist">{claims}{facts}</ul>
+<ul class="checklist" data-purpose="labelled-example">{claims}{facts}</ul>
 <p>Where the exact designation is not verified, treat the result as unresolved and check the property with the authority before relying on permitted development.</p>
 </section>
 <section>
@@ -114,13 +134,14 @@ def _generate_contract_local_rule_page(
 <p>These links are navigation only and do not describe the current property or proposal.</p>
 <div class="link-grid">{project_links}</div>
 </section>
+{build_official_sources_block(page_family="scenario", authority_slug=town_slug, country_slug=country, scenario_slug=scenario_slug)}
 """
     html = inject_into_base(
         title=f"{scenario_title} in {town_name}: source and property checks",
         content=content,
         options={
             "breadcrumbs": [("Home", "/"), (scenario_title, f"/{scenario_slug}/"), (town_name, "")],
-            "year": record["content_updated_at"][:4],
+            "year": ((record or {}).get("content_updated_at") or "2026")[:4],
         },
         canonical_url=f"{BASE_URL}{legacy_path}",
         meta_description=f"Check the verified source position for {scenario_title.lower()} in {town_name} without assuming a project type.",
@@ -209,7 +230,7 @@ def generate_scenario_pages():
                     scenario_title = scenario["title"]
                     if not should_render_route(f"/{scenario_slug}/{town_slug}/"):
                         continue
-                    if _generate_contract_local_rule_page(
+                    if _generate_source_backed_local_rule_page(
                         council=council,
                         county_slug=county_slug,
                         scenario=scenario,

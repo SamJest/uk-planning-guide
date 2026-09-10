@@ -1,6 +1,14 @@
-import random
+import hashlib
 from typing import Dict, List, Any
 from utils.link_config import *
+
+
+def _stable_order(values, context):
+    """Return varied but reproducible link choices for a page context."""
+    return sorted(
+        values,
+        key=lambda value: hashlib.sha256(f"{context}\0{value}".encode("utf-8")).digest(),
+    )
 
 
 def build_project_links(projects, project_slugs):
@@ -11,7 +19,7 @@ def build_project_links(projects, project_slugs):
         slug = project["slug"]
 
         related_projects = [p for p in project_slugs if p != slug]
-        random.shuffle(related_projects)
+        related_projects = _stable_order(related_projects, f"project:{slug}")
 
         project_links[slug] = {
             "related_projects": related_projects[:MAX_RELATED_PROJECTS],
@@ -30,7 +38,7 @@ def build_county_links(councils_by_county, county_slugs, project_slugs):
         councils = [c["town_slug"] for c in councils]
 
         nearby = [c for c in county_slugs if c != county_slug]
-        random.shuffle(nearby)
+        nearby = _stable_order(nearby, f"county:{county_slug}")
 
         county_links[county_slug] = {
             "projects": project_slugs[:MAX_RELATED_PROJECTS],
@@ -58,7 +66,7 @@ def build_council_links(councils_by_county, project_slugs):
                 if c["town_slug"] != town_slug
             ]
 
-            random.shuffle(nearby)
+            nearby = _stable_order(nearby, f"council:{town_slug}")
 
             council_links[town_slug] = {
                 "county": county_slug,
@@ -95,7 +103,7 @@ def calculate_nearby_councils(councils_by_county):
 
             if len(nearby) < MAX_NEARBY_COUNCILS:
                 others = [c for c in all_councils if c not in nearby and c != town_slug]
-                random.shuffle(others)
+                others = _stable_order(others, f"nearby:{town_slug}")
                 nearby.extend(others[: MAX_NEARBY_COUNCILS - len(nearby)])
 
             nearby_map[town_slug] = nearby[:MAX_NEARBY_COUNCILS]

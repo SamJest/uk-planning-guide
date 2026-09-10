@@ -412,7 +412,13 @@ GSC_EXPANSION_CANDIDATES_2026_06_08 = (
 )
 
 
-GSC_CLUSTER_HUB_SLUGS = tuple(sorted(hub["slug"] for hub in GSC_CLUSTER_HUBS.values()))
+GSC_CLUSTER_HUB_SLUGS = tuple(
+    sorted(
+        hub["slug"]
+        for hub in GSC_CLUSTER_HUBS.values()
+        if hub.get("publication_status") != "blocked"
+    )
+)
 GSC_EXPANSION_CANDIDATE_SLUGS = tuple(
     sorted(candidate["slug"] for candidate in GSC_EXPANSION_CANDIDATES_2026_06_08)
 )

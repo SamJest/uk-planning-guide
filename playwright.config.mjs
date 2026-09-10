@@ -24,7 +24,7 @@ export default defineConfig({
     { name: 'desktop-chromium', use: { ...devices['Desktop Chrome'] } },
     { name: 'mobile-chromium', use: { ...devices['Pixel 7'] } }
   ],
-  webServer: {
+  webServer: process.env.UKPG_BASE_URL ? undefined : {
     command: 'python -m http.server 8765 --bind 127.0.0.1 --directory artifacts/phase-0-canary-site',
     url: 'http://127.0.0.1:8765/',
     reuseExistingServer: true,

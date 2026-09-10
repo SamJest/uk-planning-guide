@@ -24,6 +24,7 @@ from utils.route_contracts import (
     output_path_for_route,
     route_contract_for_legacy_path,
 )
+from utils.content_contracts import page_records_by_route
 from utils.url_registry import load_redirects
 
 
@@ -45,6 +46,10 @@ PRIORITY_PROJECT_ALIASES = {
 CANONICAL_PATTERN = re.compile(r'(<link rel="canonical" href=")[^"]*(")', re.IGNORECASE)
 OG_URL_PATTERN = re.compile(r'(<meta property="og:url" content=")[^"]*(")', re.IGNORECASE)
 SCHEMA_URL_PATTERN = re.compile(r'https://ukplanningguide\.co\.uk/[^" <]+')
+ROBOTS_META_PATTERN = re.compile(
+    r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*["\']\s*/?>\s*',
+    re.IGNORECASE,
+)
 
 
 def _expected_url_for_page(page: Path) -> str:
@@ -72,7 +77,13 @@ def _rewrite_canonical_markers(html: str, old_url: str, new_url: str) -> str:
 def _canonical_alias_html(source_page: Path, contract: RouteContract) -> str:
     html = source_page.read_text(encoding="utf-8", errors="ignore")
     old_url = BASE_URL.rstrip("/") + contract.source_path
-    return _rewrite_canonical_markers(html, old_url, contract.canonical_url)
+    html = _rewrite_canonical_markers(html, old_url, contract.canonical_url)
+    declared_record = page_records_by_route().get(contract.canonical_path)
+    if declared_record and declared_record.get("index_status") == "index":
+        # Incremental builds may read a legacy source after it has already been
+        # converted into a noindex bridge. The reviewed canonical contract wins.
+        html = ROBOTS_META_PATTERN.sub("", html)
+    return html
 
 
 def _apply_static_redirect_bridges() -> None:
@@ -224,6 +235,22 @@ def _alias_priority(contract: RouteContract) -> tuple[int, str]:
     return (9, contract.source_path)
 
 
+def _select_alias_candidates(
+    candidates: list[tuple[RouteContract, Path]],
+    required_paths: set[str],
+) -> list[tuple[RouteContract, Path]]:
+    """Keep the capped cohort and append reviewed contracts that fall outside it."""
+    ranked = sorted(candidates, key=lambda item: _alias_priority(item[0]))
+    selected = list(ranked[:MAX_COUNTRY_ALIASES])
+    selected_paths = {contract.canonical_path for contract, _ in selected}
+    selected.extend(
+        (contract, source_page)
+        for contract, source_page in ranked[MAX_COUNTRY_ALIASES:]
+        if contract.canonical_path in required_paths and contract.canonical_path not in selected_paths
+    )
+    return selected
+
+
 def _generate_country_root(country: str, items_by_intent: dict[str, list[dict]]) -> None:
     canonical_path = f"/{country}/"
     canonical_url = BASE_URL.rstrip("/") + canonical_path
@@ -275,9 +302,8 @@ def generate_country_aliases() -> None:
             continue
         candidates.append((contract, source_page))
 
-    for contract, source_page in sorted(candidates, key=lambda item: _alias_priority(item[0])):
-        if len(contracts) >= MAX_COUNTRY_ALIASES:
-            break
+    required_paths = set(page_records_by_route())
+    for contract, source_page in _select_alias_candidates(candidates, required_paths):
 
         target_page = output_path_for_route(contract.canonical_path, OUTPUT_FOLDER)
         if target_page == source_page:

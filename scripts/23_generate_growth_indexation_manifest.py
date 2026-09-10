@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import csv
+import os
 from pathlib import Path
 import sys
 
@@ -98,15 +100,19 @@ def route_needs_head_inspection(route: str) -> bool:
 
 def build_manifest(metrics_csv: Path | None = None) -> int:
     metrics = load_page_metrics(metrics_csv)
-    decisions = []
-    for page in OUTPUT_FOLDER.rglob("index.html"):
+    pages = sorted(OUTPUT_FOLDER.rglob("index.html"))
+
+    def decision_for_page(page: Path):
         route = output_path_to_route(page)
-        html = (
-            read_html_head(page)
-            if build_mode() == "canary" or route_needs_head_inspection(route)
-            else f'<link rel="canonical" href="https://ukplanningguide.co.uk{route}">'
-        )
-        decisions.append(derive_indexation_decision(route, html, metrics.get(route)))
+        # Sitemap eligibility is a property of the rendered page, not its route
+        # shape. Read every head so noindex and non-self-canonical pages can
+        # never be promoted by a synthetic default during a full build.
+        html = read_html_head(page)
+        return derive_indexation_decision(route, html, metrics.get(route))
+
+    worker_count = max(1, min(16, int(os.environ.get("UKPG_INDEXATION_READ_WORKERS", "8"))))
+    with ThreadPoolExecutor(max_workers=worker_count) as executor:
+        decisions = list(executor.map(decision_for_page, pages))
     write_indexation_manifest(decisions)
     print(f"Growth indexation manifest generated: {len(decisions)} routes")
     return len(decisions)

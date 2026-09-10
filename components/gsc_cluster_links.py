@@ -36,7 +36,7 @@ def build_gsc_cluster_links(path: str, *, limit: int = 4) -> str:
     hub = gsc_cluster_hub_for_path(path)
     cards: list[str] = []
 
-    if hub and hub.get("slug") != current:
+    if hub and hub.get("publication_status") != "blocked" and hub.get("slug") != current:
         cards.append(
             _card(
                 f"/local-search/{hub['slug']}/",

@@ -2,12 +2,12 @@
   "projects": {
     "agricultural-buildings": {
       "related_projects": [
-        "fences-and-walls",
+        "single-storey-extensions",
+        "hard-surfaces",
         "windows-and-doors",
-        "demolition",
-        "dormer-extensions",
-        "basement-conversions",
-        "porches"
+        "change-of-use",
+        "annexes",
+        "outbuildings"
       ],
       "scenarios": [
         "planning-permission",
@@ -20,12 +20,12 @@
     },
     "annexes": {
       "related_projects": [
-        "fences-and-walls",
-        "change-of-use",
-        "dormer-extensions",
+        "loft-conversions",
+        "two-storey-extensions",
+        "garages",
+        "roof-lights",
         "hard-surfaces",
-        "windows-and-doors",
-        "outbuildings"
+        "garden-rooms"
       ],
       "scenarios": [
         "planning-permission",
@@ -38,12 +38,12 @@
     },
     "basement-conversions": {
       "related_projects": [
-        "side-extensions",
-        "fences-and-walls",
-        "rear-extensions",
-        "garages",
-        "garden-rooms",
-        "two-storey-extensions"
+        "driveways",
+        "demolition",
+        "windows-and-doors",
+        "porches",
+        "temporary-buildings",
+        "change-of-use"
       ],
       "scenarios": [
         "planning-permission",
@@ -56,12 +56,12 @@
     },
     "change-of-use": {
       "related_projects": [
-        "garden-rooms",
-        "wraparound-extensions",
+        "annexes",
         "loft-conversions",
-        "garages",
-        "driveways",
-        "solar-panels"
+        "windows-and-doors",
+        "hmos",
+        "fences-and-walls",
+        "wraparound-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -74,12 +74,12 @@
     },
     "demolition": {
       "related_projects": [
-        "annexes",
         "hmos",
-        "loft-conversions",
-        "house-extensions",
-        "dormer-extensions",
-        "garden-rooms"
+        "garden-rooms",
+        "porches",
+        "hard-surfaces",
+        "garages",
+        "temporary-buildings"
       ],
       "scenarios": [
         "planning-permission",
@@ -92,12 +92,12 @@
     },
     "dormer-extensions": {
       "related_projects": [
-        "temporary-buildings",
-        "garages",
-        "basement-conversions",
-        "annexes",
+        "porches",
         "loft-conversions",
-        "agricultural-buildings"
+        "annexes",
+        "garage-conversions",
+        "change-of-use",
+        "rear-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -110,12 +110,12 @@
     },
     "driveways": {
       "related_projects": [
-        "dropped-kerbs",
-        "solar-panels",
-        "annexes",
+        "loft-conversions",
+        "rear-extensions",
+        "temporary-buildings",
         "outbuildings",
-        "agricultural-buildings",
-        "dormer-extensions"
+        "hmos",
+        "garden-rooms"
       ],
       "scenarios": [
         "planning-permission",
@@ -128,12 +128,12 @@
     },
     "dropped-kerbs": {
       "related_projects": [
+        "two-storey-extensions",
         "roof-lights",
-        "demolition",
-        "heat-pumps",
-        "agricultural-buildings",
-        "annexes",
-        "single-storey-extensions"
+        "driveways",
+        "basement-conversions",
+        "porches",
+        "demolition"
       ],
       "scenarios": [
         "planning-permission",
@@ -146,12 +146,12 @@
     },
     "fences-and-walls": {
       "related_projects": [
-        "porches",
-        "change-of-use",
+        "windows-and-doors",
+        "driveways",
         "hmos",
-        "hard-surfaces",
-        "temporary-buildings",
-        "roof-lights"
+        "annexes",
+        "garages",
+        "porches"
       ],
       "scenarios": [
         "planning-permission",
@@ -164,12 +164,12 @@
     },
     "garage-conversions": {
       "related_projects": [
-        "dropped-kerbs",
+        "house-extensions",
+        "outbuildings",
+        "temporary-buildings",
         "basement-conversions",
-        "annexes",
-        "single-storey-extensions",
-        "side-extensions",
-        "house-extensions"
+        "dormer-extensions",
+        "side-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -182,12 +182,12 @@
     },
     "garages": {
       "related_projects": [
-        "porches",
-        "hard-surfaces",
-        "wraparound-extensions",
-        "demolition",
-        "house-extensions",
-        "fences-and-walls"
+        "dropped-kerbs",
+        "side-extensions",
+        "solar-panels",
+        "driveways",
+        "windows-and-doors",
+        "temporary-buildings"
       ],
       "scenarios": [
         "planning-permission",
@@ -200,12 +200,12 @@
     },
     "garden-rooms": {
       "related_projects": [
-        "garage-conversions",
-        "windows-and-doors",
-        "demolition",
-        "hard-surfaces",
-        "wraparound-extensions",
-        "loft-conversions"
+        "hmos",
+        "garages",
+        "house-extensions",
+        "loft-conversions",
+        "rear-extensions",
+        "solar-panels"
       ],
       "scenarios": [
         "planning-permission",
@@ -218,12 +218,12 @@
     },
     "hard-surfaces": {
       "related_projects": [
-        "heat-pumps",
-        "two-storey-extensions",
+        "garden-rooms",
+        "basement-conversions",
+        "garage-conversions",
+        "outbuildings",
         "annexes",
-        "dormer-extensions",
-        "driveways",
-        "fences-and-walls"
+        "agricultural-buildings"
       ],
       "scenarios": [
         "planning-permission",
@@ -236,12 +236,12 @@
     },
     "heat-pumps": {
       "related_projects": [
-        "single-storey-extensions",
-        "agricultural-buildings",
-        "outbuildings",
-        "two-storey-extensions",
+        "hard-surfaces",
+        "annexes",
         "porches",
-        "windows-and-doors"
+        "basement-conversions",
+        "house-extensions",
+        "two-storey-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -254,12 +254,12 @@
     },
     "hmos": {
       "related_projects": [
-        "roof-lights",
-        "temporary-buildings",
-        "side-extensions",
         "heat-pumps",
-        "annexes",
-        "two-storey-extensions"
+        "wraparound-extensions",
+        "demolition",
+        "fences-and-walls",
+        "basement-conversions",
+        "agricultural-buildings"
       ],
       "scenarios": [
         "planning-permission",
@@ -272,12 +272,12 @@
     },
     "house-extensions": {
       "related_projects": [
-        "annexes",
-        "two-storey-extensions",
-        "wraparound-extensions",
-        "dormer-extensions",
-        "outbuildings",
-        "windows-and-doors"
+        "solar-panels",
+        "rear-extensions",
+        "garages",
+        "side-extensions",
+        "demolition",
+        "roof-lights"
       ],
       "scenarios": [
         "planning-permission",
@@ -290,12 +290,12 @@
     },
     "loft-conversions": {
       "related_projects": [
-        "roof-lights",
-        "house-extensions",
-        "hmos",
-        "porches",
-        "dropped-kerbs",
-        "outbuildings"
+        "driveways",
+        "basement-conversions",
+        "demolition",
+        "dormer-extensions",
+        "wraparound-extensions",
+        "house-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -308,12 +308,12 @@
     },
     "outbuildings": {
       "related_projects": [
-        "garages",
-        "windows-and-doors",
-        "temporary-buildings",
-        "agricultural-buildings",
-        "fences-and-walls",
-        "single-storey-extensions"
+        "demolition",
+        "solar-panels",
+        "basement-conversions",
+        "side-extensions",
+        "rear-extensions",
+        "hmos"
       ],
       "scenarios": [
         "planning-permission",
@@ -326,12 +326,12 @@
     },
     "porches": {
       "related_projects": [
-        "solar-panels",
-        "rear-extensions",
-        "change-of-use",
-        "outbuildings",
-        "wraparound-extensions",
-        "demolition"
+        "windows-and-doors",
+        "two-storey-extensions",
+        "demolition",
+        "fences-and-walls",
+        "garden-rooms",
+        "side-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -344,12 +344,12 @@
     },
     "rear-extensions": {
       "related_projects": [
-        "hmos",
+        "annexes",
         "outbuildings",
+        "demolition",
         "fences-and-walls",
-        "heat-pumps",
-        "dormer-extensions",
-        "garden-rooms"
+        "wraparound-extensions",
+        "hmos"
       ],
       "scenarios": [
         "planning-permission",
@@ -362,12 +362,12 @@
     },
     "roof-lights": {
       "related_projects": [
-        "house-extensions",
-        "agricultural-buildings",
-        "loft-conversions",
-        "demolition",
-        "outbuildings",
-        "dormer-extensions"
+        "wraparound-extensions",
+        "change-of-use",
+        "garages",
+        "rear-extensions",
+        "heat-pumps",
+        "side-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -380,12 +380,12 @@
     },
     "side-extensions": {
       "related_projects": [
-        "garage-conversions",
-        "change-of-use",
-        "driveways",
-        "porches",
-        "roof-lights",
-        "house-extensions"
+        "single-storey-extensions",
+        "solar-panels",
+        "two-storey-extensions",
+        "hmos",
+        "loft-conversions",
+        "basement-conversions"
       ],
       "scenarios": [
         "planning-permission",
@@ -398,12 +398,12 @@
     },
     "single-storey-extensions": {
       "related_projects": [
-        "annexes",
-        "windows-and-doors",
-        "change-of-use",
-        "driveways",
-        "heat-pumps",
-        "loft-conversions"
+        "rear-extensions",
+        "two-storey-extensions",
+        "garages",
+        "wraparound-extensions",
+        "agricultural-buildings",
+        "solar-panels"
       ],
       "scenarios": [
         "planning-permission",
@@ -416,12 +416,12 @@
     },
     "solar-panels": {
       "related_projects": [
-        "side-extensions",
-        "change-of-use",
-        "two-storey-extensions",
-        "agricultural-buildings",
+        "dormer-extensions",
+        "heat-pumps",
+        "outbuildings",
+        "hmos",
         "house-extensions",
-        "dormer-extensions"
+        "garage-conversions"
       ],
       "scenarios": [
         "planning-permission",
@@ -434,12 +434,12 @@
     },
     "temporary-buildings": {
       "related_projects": [
-        "dropped-kerbs",
+        "driveways",
+        "hmos",
         "hard-surfaces",
-        "single-storey-extensions",
-        "loft-conversions",
-        "rear-extensions",
-        "heat-pumps"
+        "change-of-use",
+        "side-extensions",
+        "house-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -452,12 +452,12 @@
     },
     "two-storey-extensions": {
       "related_projects": [
-        "demolition",
-        "solar-panels",
-        "wraparound-extensions",
         "temporary-buildings",
-        "basement-conversions",
-        "driveways"
+        "hard-surfaces",
+        "garage-conversions",
+        "dormer-extensions",
+        "agricultural-buildings",
+        "house-extensions"
       ],
       "scenarios": [
         "planning-permission",
@@ -470,11 +470,11 @@
     },
     "windows-and-doors": {
       "related_projects": [
-        "fences-and-walls",
-        "hmos",
-        "roof-lights",
         "garage-conversions",
-        "two-storey-extensions",
+        "outbuildings",
+        "loft-conversions",
+        "temporary-buildings",
+        "roof-lights",
         "agricultural-buildings"
       ],
       "scenarios": [
@@ -488,12 +488,12 @@
     },
     "wraparound-extensions": {
       "related_projects": [
-        "agricultural-buildings",
-        "temporary-buildings",
-        "single-storey-extensions",
+        "outbuildings",
         "demolition",
-        "garages",
-        "outbuildings"
+        "porches",
+        "hmos",
+        "loft-conversions",
+        "heat-pumps"
       ],
       "scenarios": [
         "planning-permission",
@@ -521,14 +521,14 @@
         "luton"
       ],
       "nearby_counties": [
-        "berkshire",
-        "wales",
+        "northamptonshire",
+        "norfolk",
+        "east-sussex",
+        "scotland",
         "warwickshire",
-        "tyne-and-wear",
-        "cornwall",
-        "somerset",
         "cambridgeshire",
-        "wiltshire"
+        "leicestershire",
+        "berkshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -558,13 +558,13 @@
       ],
       "nearby_counties": [
         "east-sussex",
+        "hampshire",
+        "county-durham",
+        "derbyshire",
         "leicestershire",
-        "staffordshire",
-        "worcestershire",
-        "scotland",
-        "northumberland",
-        "essex",
-        "west-sussex"
+        "wiltshire",
+        "warwickshire",
+        "devon"
       ],
       "scenarios": [
         "planning-permission",
@@ -589,14 +589,14 @@
         "milton-keynes"
       ],
       "nearby_counties": [
-        "somerset",
-        "scotland",
-        "lincolnshire",
-        "west-sussex",
-        "norfolk",
-        "leicestershire",
-        "herefordshire",
-        "essex"
+        "wiltshire",
+        "cambridgeshire",
+        "oxfordshire",
+        "county-durham",
+        "suffolk",
+        "devon",
+        "cornwall",
+        "herefordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -625,14 +625,14 @@
         "peterborough"
       ],
       "nearby_counties": [
-        "derbyshire",
-        "tyne-and-wear",
-        "cumbria",
-        "somerset",
-        "bedfordshire",
-        "east-sussex",
-        "norfolk",
-        "gloucestershire"
+        "county-durham",
+        "worcestershire",
+        "west-sussex",
+        "surrey",
+        "herefordshire",
+        "kent",
+        "berkshire",
+        "derbyshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -657,14 +657,14 @@
         "isles-of-scilly"
       ],
       "nearby_counties": [
-        "yorkshire",
-        "hertfordshire",
+        "county-durham",
+        "oxfordshire",
+        "herefordshire",
+        "cambridgeshire",
         "cumbria",
-        "somerset",
-        "lincolnshire",
-        "staffordshire",
-        "worcestershire",
-        "derbyshire"
+        "wiltshire",
+        "scotland",
+        "greater-london"
       ],
       "scenarios": [
         "planning-permission",
@@ -689,14 +689,14 @@
         "darlington"
       ],
       "nearby_counties": [
-        "yorkshire",
-        "wales",
-        "leicestershire",
-        "cumbria",
-        "suffolk",
-        "oxfordshire",
+        "essex",
+        "derbyshire",
+        "herefordshire",
+        "northumberland",
+        "worcestershire",
+        "greater-london",
         "buckinghamshire",
-        "bedfordshire"
+        "northamptonshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -721,14 +721,14 @@
         "westmorland-and-furness"
       ],
       "nearby_counties": [
-        "east-sussex",
-        "oxfordshire",
-        "herefordshire",
+        "surrey",
+        "hampshire",
+        "shropshire",
         "norfolk",
-        "essex",
-        "nottinghamshire",
-        "cornwall",
-        "devon"
+        "oxfordshire",
+        "cambridgeshire",
+        "kent",
+        "herefordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -760,13 +760,13 @@
         "south-derbyshire"
       ],
       "nearby_counties": [
-        "kent",
-        "norfolk",
-        "dorset",
+        "west-sussex",
+        "suffolk",
+        "shropshire",
+        "leicestershire",
+        "east-sussex",
         "greater-london",
-        "cumbria",
-        "hertfordshire",
-        "lincolnshire",
+        "devon",
         "tyne-and-wear"
       ],
       "scenarios": [
@@ -800,14 +800,14 @@
         "torbay"
       ],
       "nearby_counties": [
-        "lincolnshire",
-        "cumbria",
-        "gloucestershire",
-        "greater-london",
+        "northamptonshire",
+        "west-sussex",
         "herefordshire",
-        "buckinghamshire",
-        "hertfordshire",
-        "shropshire"
+        "suffolk",
+        "derbyshire",
+        "wales",
+        "cornwall",
+        "norfolk"
       ],
       "scenarios": [
         "planning-permission",
@@ -832,14 +832,14 @@
         "bournemouth-christchurch-and-poole"
       ],
       "nearby_counties": [
-        "northamptonshire",
-        "yorkshire",
+        "buckinghamshire",
         "worcestershire",
-        "hampshire",
-        "cornwall",
-        "greater-london",
-        "scotland",
-        "bedfordshire"
+        "warwickshire",
+        "somerset",
+        "wiltshire",
+        "tyne-and-wear",
+        "berkshire",
+        "wales"
       ],
       "scenarios": [
         "planning-permission",
@@ -868,14 +868,14 @@
         "brighton-and-hove"
       ],
       "nearby_counties": [
-        "nottinghamshire",
-        "shropshire",
-        "staffordshire",
+        "west-sussex",
+        "gloucestershire",
         "essex",
-        "cumbria",
-        "worcestershire",
-        "dorset",
-        "tyne-and-wear"
+        "cambridgeshire",
+        "cornwall",
+        "northumberland",
+        "shropshire",
+        "lincolnshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -910,14 +910,14 @@
         "uttlesford"
       ],
       "nearby_counties": [
-        "wiltshire",
-        "somerset",
-        "county-durham",
-        "nottinghamshire",
-        "tyne-and-wear",
-        "bedfordshire",
-        "scotland",
-        "cumbria"
+        "kent",
+        "west-sussex",
+        "berkshire",
+        "east-sussex",
+        "warwickshire",
+        "northumberland",
+        "yorkshire",
+        "oxfordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -946,14 +946,14 @@
         "tewkesbury"
       ],
       "nearby_counties": [
-        "leicestershire",
-        "surrey",
-        "somerset",
-        "berkshire",
-        "warwickshire",
-        "yorkshire",
+        "derbyshire",
+        "west-sussex",
+        "staffordshire",
+        "northamptonshire",
+        "cambridgeshire",
         "hampshire",
-        "bedfordshire"
+        "warwickshire",
+        "dorset"
       ],
       "scenarios": [
         "planning-permission",
@@ -1009,14 +1009,14 @@
         "westminster"
       ],
       "nearby_counties": [
-        "devon",
-        "west-sussex",
         "gloucestershire",
-        "cambridgeshire",
+        "herefordshire",
+        "hampshire",
+        "lincolnshire",
+        "warwickshire",
         "essex",
-        "surrey",
-        "wiltshire",
-        "derbyshire"
+        "devon",
+        "cornwall"
       ],
       "scenarios": [
         "planning-permission",
@@ -1052,14 +1052,14 @@
         "southampton"
       ],
       "nearby_counties": [
-        "cornwall",
-        "kent",
-        "gloucestershire",
-        "oxfordshire",
-        "berkshire",
-        "lincolnshire",
-        "county-durham",
-        "dorset"
+        "worcestershire",
+        "scotland",
+        "wiltshire",
+        "west-sussex",
+        "dorset",
+        "northumberland",
+        "cambridgeshire",
+        "buckinghamshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1083,14 +1083,14 @@
         "herefordshire"
       ],
       "nearby_counties": [
+        "essex",
+        "scotland",
+        "hampshire",
         "cumbria",
-        "worcestershire",
-        "wales",
-        "oxfordshire",
-        "somerset",
-        "devon",
-        "cambridgeshire",
-        "buckinghamshire"
+        "derbyshire",
+        "yorkshire",
+        "west-sussex",
+        "devon"
       ],
       "scenarios": [
         "planning-permission",
@@ -1123,14 +1123,14 @@
         "welwyn-hatfield"
       ],
       "nearby_counties": [
-        "wiltshire",
-        "devon",
-        "greater-london",
-        "hampshire",
-        "county-durham",
-        "surrey",
-        "shropshire",
-        "lincolnshire"
+        "cornwall",
+        "west-sussex",
+        "northumberland",
+        "staffordshire",
+        "norfolk",
+        "somerset",
+        "leicestershire",
+        "tyne-and-wear"
       ],
       "scenarios": [
         "planning-permission",
@@ -1165,14 +1165,14 @@
         "tunbridge-wells"
       ],
       "nearby_counties": [
-        "surrey",
+        "essex",
+        "herefordshire",
         "northamptonshire",
-        "hampshire",
-        "nottinghamshire",
-        "shropshire",
-        "tyne-and-wear",
-        "buckinghamshire",
-        "cornwall"
+        "oxfordshire",
+        "surrey",
+        "norfolk",
+        "scotland",
+        "dorset"
       ],
       "scenarios": [
         "planning-permission",
@@ -1204,13 +1204,13 @@
       ],
       "nearby_counties": [
         "northumberland",
-        "surrey",
-        "hertfordshire",
+        "essex",
+        "devon",
         "somerset",
+        "shropshire",
+        "surrey",
         "oxfordshire",
-        "cornwall",
-        "gloucestershire",
-        "west-sussex"
+        "kent"
       ],
       "scenarios": [
         "planning-permission",
@@ -1242,14 +1242,14 @@
         "north-east-lincolnshire"
       ],
       "nearby_counties": [
-        "kent",
-        "wiltshire",
-        "oxfordshire",
-        "northumberland",
+        "staffordshire",
+        "surrey",
+        "herefordshire",
         "east-sussex",
+        "oxfordshire",
         "somerset",
-        "warwickshire",
-        "cornwall"
+        "cumbria",
+        "greater-london"
       ],
       "scenarios": [
         "planning-permission",
@@ -1279,14 +1279,14 @@
         "breckland"
       ],
       "nearby_counties": [
-        "suffolk",
-        "shropshire",
-        "warwickshire",
-        "county-durham",
-        "derbyshire",
-        "gloucestershire",
+        "somerset",
+        "dorset",
         "greater-london",
-        "cumbria"
+        "nottinghamshire",
+        "gloucestershire",
+        "leicestershire",
+        "buckinghamshire",
+        "cornwall"
       ],
       "scenarios": [
         "planning-permission",
@@ -1311,14 +1311,14 @@
         "west-northamptonshire"
       ],
       "nearby_counties": [
+        "hertfordshire",
         "surrey",
-        "devon",
+        "cambridgeshire",
+        "bedfordshire",
+        "oxfordshire",
+        "leicestershire",
         "county-durham",
-        "wiltshire",
-        "hampshire",
-        "somerset",
-        "worcestershire",
-        "west-sussex"
+        "derbyshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1342,14 +1342,14 @@
         "northumberland"
       ],
       "nearby_counties": [
-        "tyne-and-wear",
-        "wales",
-        "worcestershire",
-        "dorset",
-        "shropshire",
-        "leicestershire",
-        "nottinghamshire",
-        "suffolk"
+        "devon",
+        "norfolk",
+        "cornwall",
+        "cumbria",
+        "cambridgeshire",
+        "herefordshire",
+        "suffolk",
+        "somerset"
       ],
       "scenarios": [
         "planning-permission",
@@ -1380,14 +1380,14 @@
         "nottingham"
       ],
       "nearby_counties": [
-        "tyne-and-wear",
-        "scotland",
-        "buckinghamshire",
-        "greater-london",
-        "county-durham",
-        "gloucestershire",
-        "shropshire",
-        "surrey"
+        "cumbria",
+        "northumberland",
+        "surrey",
+        "kent",
+        "leicestershire",
+        "lincolnshire",
+        "derbyshire",
+        "warwickshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1415,14 +1415,14 @@
         "west-oxfordshire"
       ],
       "nearby_counties": [
-        "devon",
-        "tyne-and-wear",
-        "hampshire",
-        "berkshire",
+        "bedfordshire",
+        "cornwall",
+        "west-sussex",
+        "kent",
         "hertfordshire",
-        "warwickshire",
-        "worcestershire",
-        "greater-london"
+        "lincolnshire",
+        "berkshire",
+        "northamptonshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1480,13 +1480,13 @@
       ],
       "nearby_counties": [
         "dorset",
-        "hertfordshire",
-        "leicestershire",
+        "east-sussex",
+        "oxfordshire",
+        "cornwall",
+        "wiltshire",
         "nottinghamshire",
-        "tyne-and-wear",
-        "staffordshire",
-        "yorkshire",
-        "shropshire"
+        "wales",
+        "northamptonshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1511,14 +1511,14 @@
         "telford-and-wrekin"
       ],
       "nearby_counties": [
-        "somerset",
-        "nottinghamshire",
-        "lincolnshire",
-        "east-sussex",
+        "derbyshire",
+        "cambridgeshire",
+        "west-sussex",
         "warwickshire",
-        "oxfordshire",
-        "northamptonshire",
-        "hertfordshire"
+        "staffordshire",
+        "kent",
+        "bedfordshire",
+        "essex"
       ],
       "scenarios": [
         "planning-permission",
@@ -1544,14 +1544,14 @@
         "north-somerset"
       ],
       "nearby_counties": [
-        "berkshire",
-        "scotland",
+        "devon",
+        "nottinghamshire",
+        "east-sussex",
+        "west-sussex",
+        "staffordshire",
         "northumberland",
-        "county-durham",
-        "shropshire",
-        "herefordshire",
-        "kent",
-        "surrey"
+        "cumbria",
+        "gloucestershire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1583,14 +1583,14 @@
         "stoke-on-trent"
       ],
       "nearby_counties": [
-        "shropshire",
-        "northumberland",
-        "east-sussex",
-        "bedfordshire",
-        "wales",
-        "derbyshire",
-        "essex",
-        "wiltshire"
+        "warwickshire",
+        "buckinghamshire",
+        "northamptonshire",
+        "worcestershire",
+        "norfolk",
+        "berkshire",
+        "cornwall",
+        "dorset"
       ],
       "scenarios": [
         "planning-permission",
@@ -1618,13 +1618,13 @@
         "ipswich"
       ],
       "nearby_counties": [
-        "devon",
-        "wiltshire",
+        "buckinghamshire",
         "tyne-and-wear",
-        "herefordshire",
-        "essex",
-        "dorset",
+        "shropshire",
+        "warwickshire",
+        "yorkshire",
         "west-sussex",
+        "staffordshire",
         "cambridgeshire"
       ],
       "scenarios": [
@@ -1659,14 +1659,14 @@
         "woking"
       ],
       "nearby_counties": [
-        "yorkshire",
-        "essex",
-        "wales",
-        "leicestershire",
+        "nottinghamshire",
+        "northumberland",
+        "west-sussex",
+        "hampshire",
+        "east-sussex",
         "lincolnshire",
-        "cambridgeshire",
-        "greater-london",
-        "herefordshire"
+        "yorkshire",
+        "staffordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1694,14 +1694,14 @@
         "sunderland"
       ],
       "nearby_counties": [
-        "dorset",
-        "leicestershire",
-        "cambridgeshire",
-        "hampshire",
+        "hertfordshire",
         "worcestershire",
+        "dorset",
+        "kent",
+        "wiltshire",
         "suffolk",
-        "yorkshire",
-        "east-sussex"
+        "norfolk",
+        "county-durham"
       ],
       "scenarios": [
         "planning-permission",
@@ -1749,14 +1749,14 @@
         "pembrokeshire-coast-national-park"
       ],
       "nearby_counties": [
+        "northumberland",
+        "greater-london",
+        "hampshire",
         "east-sussex",
-        "worcestershire",
-        "hertfordshire",
-        "derbyshire",
-        "dorset",
-        "west-sussex",
-        "herefordshire",
-        "buckinghamshire"
+        "tyne-and-wear",
+        "wiltshire",
+        "lincolnshire",
+        "leicestershire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1784,14 +1784,14 @@
         "warwick"
       ],
       "nearby_counties": [
-        "yorkshire",
-        "west-sussex",
-        "nottinghamshire",
-        "oxfordshire",
-        "tyne-and-wear",
-        "wiltshire",
-        "hertfordshire",
-        "cornwall"
+        "cornwall",
+        "east-sussex",
+        "staffordshire",
+        "derbyshire",
+        "greater-london",
+        "berkshire",
+        "lincolnshire",
+        "dorset"
       ],
       "scenarios": [
         "planning-permission",
@@ -1821,14 +1821,14 @@
         "worthing"
       ],
       "nearby_counties": [
-        "greater-london",
-        "east-sussex",
-        "surrey",
-        "yorkshire",
-        "cambridgeshire",
+        "herefordshire",
+        "devon",
         "scotland",
-        "dorset",
-        "hertfordshire"
+        "hertfordshire",
+        "warwickshire",
+        "tyne-and-wear",
+        "county-durham",
+        "wiltshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1853,14 +1853,14 @@
         "swindon"
       ],
       "nearby_counties": [
+        "county-durham",
+        "dorset",
+        "buckinghamshire",
         "nottinghamshire",
         "cambridgeshire",
-        "yorkshire",
-        "staffordshire",
-        "oxfordshire",
-        "somerset",
-        "tyne-and-wear",
-        "devon"
+        "lincolnshire",
+        "surrey",
+        "greater-london"
       ],
       "scenarios": [
         "planning-permission",
@@ -1889,14 +1889,14 @@
         "wyre-forest"
       ],
       "nearby_counties": [
-        "cornwall",
-        "shropshire",
-        "dorset",
-        "nottinghamshire",
-        "east-sussex",
-        "tyne-and-wear",
-        "yorkshire",
-        "essex"
+        "cumbria",
+        "west-sussex",
+        "scotland",
+        "wales",
+        "kent",
+        "derbyshire",
+        "cambridgeshire",
+        "herefordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1935,14 +1935,14 @@
         "stockton-on-tees"
       ],
       "nearby_counties": [
-        "east-sussex",
-        "shropshire",
-        "bedfordshire",
-        "northamptonshire",
-        "leicestershire",
-        "wales",
-        "cumbria",
-        "cornwall"
+        "devon",
+        "lincolnshire",
+        "berkshire",
+        "essex",
+        "scotland",
+        "nottinghamshire",
+        "northumberland",
+        "hampshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -1966,8 +1966,8 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "central-bedfordshire",
-        "luton"
+        "luton",
+        "central-bedfordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -2012,8 +2012,8 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bedford",
-        "central-bedfordshire"
+        "central-bedfordshire",
+        "bedford"
       ],
       "scenarios": [
         "planning-permission",
@@ -2035,11 +2035,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "windsor-and-maidenhead",
-        "reading",
-        "wokingham",
         "slough",
-        "west-berkshire"
+        "west-berkshire",
+        "windsor-and-maidenhead",
+        "wokingham",
+        "reading"
       ],
       "scenarios": [
         "planning-permission",
@@ -2062,10 +2062,10 @@
       ],
       "nearby_councils": [
         "wokingham",
-        "west-berkshire",
-        "slough",
+        "bracknell-forest",
         "windsor-and-maidenhead",
-        "bracknell-forest"
+        "west-berkshire",
+        "slough"
       ],
       "scenarios": [
         "planning-permission",
@@ -2088,10 +2088,10 @@
       ],
       "nearby_councils": [
         "wokingham",
-        "west-berkshire",
-        "windsor-and-maidenhead",
+        "bracknell-forest",
         "reading",
-        "bracknell-forest"
+        "west-berkshire",
+        "windsor-and-maidenhead"
       ],
       "scenarios": [
         "planning-permission",
@@ -2113,11 +2113,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "reading",
         "wokingham",
-        "windsor-and-maidenhead",
+        "bracknell-forest",
         "slough",
-        "bracknell-forest"
+        "windsor-and-maidenhead",
+        "reading"
       ],
       "scenarios": [
         "planning-permission",
@@ -2141,9 +2141,9 @@
       "nearby_councils": [
         "wokingham",
         "bracknell-forest",
+        "reading",
         "slough",
-        "west-berkshire",
-        "reading"
+        "west-berkshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -2166,10 +2166,10 @@
       ],
       "nearby_councils": [
         "slough",
-        "windsor-and-maidenhead",
+        "bracknell-forest",
         "west-berkshire",
-        "reading",
-        "bracknell-forest"
+        "windsor-and-maidenhead",
+        "reading"
       ],
       "scenarios": [
         "planning-permission",
@@ -2236,10 +2236,10 @@
       ],
       "nearby_councils": [
         "south-cambridgeshire",
-        "huntingdonshire",
-        "peterborough",
         "fenland",
-        "east-cambridgeshire"
+        "peterborough",
+        "east-cambridgeshire",
+        "huntingdonshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -2261,11 +2261,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "cambridge",
+        "peterborough",
         "south-cambridgeshire",
-        "fenland",
         "huntingdonshire",
-        "peterborough"
+        "cambridge",
+        "fenland"
       ],
       "scenarios": [
         "planning-permission",
@@ -2288,10 +2288,10 @@
       ],
       "nearby_councils": [
         "south-cambridgeshire",
-        "east-cambridgeshire",
-        "cambridge",
+        "huntingdonshire",
         "peterborough",
-        "huntingdonshire"
+        "east-cambridgeshire",
+        "cambridge"
       ],
       "scenarios": [
         "planning-permission",
@@ -2316,8 +2316,8 @@
         "cambridge",
         "east-cambridgeshire",
         "fenland",
-        "south-cambridgeshire",
-        "peterborough"
+        "peterborough",
+        "south-cambridgeshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -2340,10 +2340,10 @@
       ],
       "nearby_councils": [
         "fenland",
-        "peterborough",
-        "east-cambridgeshire",
         "huntingdonshire",
-        "cambridge"
+        "cambridge",
+        "peterborough",
+        "east-cambridgeshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -2366,10 +2366,10 @@
       ],
       "nearby_councils": [
         "east-cambridgeshire",
-        "huntingdonshire",
         "south-cambridgeshire",
-        "cambridge",
-        "fenland"
+        "huntingdonshire",
+        "fenland",
+        "cambridge"
       ],
       "scenarios": [
         "planning-permission",
@@ -2523,14 +2523,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "derby",
         "erewash",
         "high-peak",
-        "chesterfield",
-        "south-derbyshire",
         "derbyshire-dales",
-        "bolsover",
-        "derby",
-        "north-east-derbyshire"
+        "chesterfield",
+        "north-east-derbyshire",
+        "south-derbyshire",
+        "bolsover"
       ],
       "scenarios": [
         "planning-permission",
@@ -2552,14 +2552,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "high-peak",
-        "amber-valley",
-        "chesterfield",
-        "derbyshire-dales",
         "north-east-derbyshire",
+        "derby",
         "erewash",
         "south-derbyshire",
-        "derby"
+        "chesterfield",
+        "derbyshire-dales",
+        "high-peak",
+        "amber-valley"
       ],
       "scenarios": [
         "planning-permission",
@@ -2581,14 +2581,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "derby",
-        "derbyshire-dales",
-        "bolsover",
-        "high-peak",
         "erewash",
-        "north-east-derbyshire",
+        "bolsover",
+        "derby",
         "south-derbyshire",
-        "amber-valley"
+        "derbyshire-dales",
+        "amber-valley",
+        "north-east-derbyshire",
+        "high-peak"
       ],
       "scenarios": [
         "planning-permission",
@@ -2610,12 +2610,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "high-peak",
-        "chesterfield",
         "north-east-derbyshire",
-        "derbyshire-dales",
         "erewash",
         "bolsover",
+        "chesterfield",
+        "high-peak",
+        "derbyshire-dales",
         "amber-valley",
         "south-derbyshire"
       ],
@@ -2639,14 +2639,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "south-derbyshire",
+        "north-east-derbyshire",
+        "derby",
         "bolsover",
+        "amber-valley",
         "high-peak",
         "chesterfield",
-        "erewash",
-        "north-east-derbyshire",
-        "amber-valley",
-        "derby",
-        "south-derbyshire"
+        "erewash"
       ],
       "scenarios": [
         "planning-permission",
@@ -2669,13 +2669,13 @@
       ],
       "nearby_councils": [
         "north-east-derbyshire",
-        "derbyshire-dales",
+        "amber-valley",
+        "bolsover",
         "high-peak",
         "chesterfield",
-        "derby",
-        "bolsover",
+        "derbyshire-dales",
         "south-derbyshire",
-        "amber-valley"
+        "derby"
       ],
       "scenarios": [
         "planning-permission",
@@ -2697,14 +2697,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "amber-valley",
-        "north-east-derbyshire",
         "erewash",
-        "derby",
-        "bolsover",
         "derbyshire-dales",
         "chesterfield",
-        "south-derbyshire"
+        "derby",
+        "south-derbyshire",
+        "bolsover",
+        "north-east-derbyshire",
+        "amber-valley"
       ],
       "scenarios": [
         "planning-permission",
@@ -2726,14 +2726,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "south-derbyshire",
         "amber-valley",
-        "erewash",
-        "derby",
+        "derbyshire-dales",
         "bolsover",
+        "erewash",
+        "south-derbyshire",
         "high-peak",
-        "chesterfield",
-        "derbyshire-dales"
+        "derby",
+        "chesterfield"
       ],
       "scenarios": [
         "planning-permission",
@@ -2755,14 +2755,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "high-peak",
-        "north-east-derbyshire",
-        "erewash",
-        "derby",
-        "bolsover",
-        "chesterfield",
+        "amber-valley",
         "derbyshire-dales",
-        "amber-valley"
+        "chesterfield",
+        "north-east-derbyshire",
+        "bolsover",
+        "high-peak",
+        "derby",
+        "erewash"
       ],
       "scenarios": [
         "planning-permission",
@@ -2784,14 +2784,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-devon",
-        "south-hams",
-        "torbay",
-        "torridge",
         "exeter",
-        "teignbridge",
+        "west-devon",
         "mid-devon",
-        "west-devon"
+        "plymouth",
+        "teignbridge",
+        "torbay",
+        "south-hams",
+        "north-devon"
       ],
       "scenarios": [
         "planning-permission",
@@ -2817,9 +2817,9 @@
         "south-hams",
         "west-devon",
         "plymouth",
+        "north-devon",
         "torbay",
         "mid-devon",
-        "north-devon",
         "teignbridge"
       ],
       "scenarios": [
@@ -2842,14 +2842,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-devon",
-        "west-devon",
-        "north-devon",
-        "south-hams",
-        "teignbridge",
-        "torbay",
         "exeter",
-        "torridge"
+        "west-devon",
+        "south-hams",
+        "east-devon",
+        "torridge",
+        "north-devon",
+        "torbay",
+        "plymouth"
       ],
       "scenarios": [
         "planning-permission",
@@ -2871,14 +2871,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-devon",
-        "south-hams",
-        "mid-devon",
-        "west-devon",
-        "teignbridge",
-        "torridge",
         "plymouth",
-        "torbay"
+        "mid-devon",
+        "exeter",
+        "teignbridge",
+        "east-devon",
+        "torbay",
+        "south-hams",
+        "west-devon"
       ],
       "scenarios": [
         "planning-permission",
@@ -2900,14 +2900,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-devon",
-        "torridge",
-        "west-devon",
-        "mid-devon",
         "exeter",
-        "torbay",
-        "plymouth",
-        "east-devon"
+        "west-devon",
+        "teignbridge",
+        "east-devon",
+        "north-devon",
+        "mid-devon",
+        "torridge",
+        "plymouth"
       ],
       "scenarios": [
         "planning-permission",
@@ -2929,14 +2929,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-devon",
-        "torbay",
-        "torridge",
-        "mid-devon",
         "west-devon",
-        "south-hams",
-        "exeter",
-        "east-devon"
+        "torbay",
+        "mid-devon",
+        "torridge",
+        "east-devon",
+        "north-devon",
+        "plymouth",
+        "south-hams"
       ],
       "scenarios": [
         "planning-permission",
@@ -2958,13 +2958,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "teignbridge",
-        "exeter",
         "plymouth",
+        "south-hams",
         "east-devon",
-        "west-devon",
         "mid-devon",
+        "exeter",
         "north-devon",
+        "west-devon",
         "torbay"
       ],
       "scenarios": [
@@ -2987,12 +2987,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "exeter",
-        "east-devon",
-        "torbay",
-        "teignbridge",
         "torridge",
+        "east-devon",
+        "teignbridge",
         "mid-devon",
+        "exeter",
+        "torbay",
         "north-devon",
         "south-hams"
       ],
@@ -3016,14 +3016,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "exeter",
         "east-devon",
-        "north-devon",
-        "south-hams",
         "torbay",
         "teignbridge",
-        "west-devon",
-        "mid-devon"
+        "mid-devon",
+        "exeter",
+        "south-hams",
+        "north-devon",
+        "west-devon"
       ],
       "scenarios": [
         "planning-permission",
@@ -3045,14 +3045,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "teignbridge",
-        "plymouth",
-        "north-devon",
-        "mid-devon",
-        "east-devon",
-        "south-hams",
+        "exeter",
         "west-devon",
-        "exeter"
+        "teignbridge",
+        "south-hams",
+        "mid-devon",
+        "plymouth",
+        "torridge",
+        "east-devon"
       ],
       "scenarios": [
         "planning-permission",
@@ -3118,11 +3118,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "brighton-and-hove",
-        "rother",
-        "wealden",
         "lewes",
-        "hastings"
+        "wealden",
+        "rother",
+        "hastings",
+        "brighton-and-hove"
       ],
       "scenarios": [
         "planning-permission",
@@ -3144,11 +3144,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "rother",
-        "lewes",
-        "wealden",
         "brighton-and-hove",
-        "eastbourne"
+        "eastbourne",
+        "wealden",
+        "rother",
+        "lewes"
       ],
       "scenarios": [
         "planning-permission",
@@ -3170,11 +3170,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "brighton-and-hove",
-        "hastings",
         "wealden",
-        "eastbourne",
-        "rother"
+        "hastings",
+        "brighton-and-hove",
+        "rother",
+        "eastbourne"
       ],
       "scenarios": [
         "planning-permission",
@@ -3196,11 +3196,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hastings",
-        "lewes",
         "eastbourne",
-        "brighton-and-hove",
-        "wealden"
+        "lewes",
+        "hastings",
+        "wealden",
+        "brighton-and-hove"
       ],
       "scenarios": [
         "planning-permission",
@@ -3223,10 +3223,10 @@
       ],
       "nearby_councils": [
         "brighton-and-hove",
-        "rother",
         "hastings",
-        "lewes",
-        "eastbourne"
+        "eastbourne",
+        "rother",
+        "lewes"
       ],
       "scenarios": [
         "planning-permission",
@@ -3248,10 +3248,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "eastbourne",
-        "rother",
         "wealden",
         "hastings",
+        "rother",
+        "eastbourne",
         "lewes"
       ],
       "scenarios": [
@@ -3274,14 +3274,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "chelmsford",
-        "brentwood",
-        "castle-point",
-        "rochford",
-        "tendring",
         "uttlesford",
         "colchester",
-        "epping-forest"
+        "maldon",
+        "rochford",
+        "tendring",
+        "chelmsford",
+        "castle-point",
+        "harlow"
       ],
       "scenarios": [
         "planning-permission",
@@ -3304,13 +3304,13 @@
       ],
       "nearby_councils": [
         "rochford",
-        "epping-forest",
-        "harlow",
-        "brentwood",
+        "basildon",
         "colchester",
-        "maldon",
+        "tendring",
+        "castle-point",
         "uttlesford",
-        "basildon"
+        "harlow",
+        "epping-forest"
       ],
       "scenarios": [
         "planning-permission",
@@ -3332,14 +3332,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "epping-forest",
-        "harlow",
+        "basildon",
         "maldon",
+        "harlow",
         "braintree",
+        "colchester",
         "tendring",
         "rochford",
-        "castle-point",
-        "chelmsford"
+        "uttlesford"
       ],
       "scenarios": [
         "planning-permission",
@@ -3361,14 +3361,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "epping-forest",
-        "tendring",
+        "braintree",
+        "maldon",
         "brentwood",
         "colchester",
         "chelmsford",
-        "uttlesford",
         "rochford",
-        "maldon"
+        "harlow",
+        "epping-forest"
       ],
       "scenarios": [
         "planning-permission",
@@ -3390,14 +3390,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "basildon",
         "castle-point",
-        "tendring",
+        "colchester",
+        "braintree",
         "maldon",
-        "harlow",
+        "tendring",
         "uttlesford",
-        "rochford",
-        "epping-forest",
-        "basildon"
+        "harlow"
       ],
       "scenarios": [
         "planning-permission",
@@ -3419,14 +3419,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "brentwood",
+        "basildon",
+        "castle-point",
         "tendring",
         "epping-forest",
-        "chelmsford",
-        "maldon",
-        "braintree",
-        "basildon",
         "rochford",
-        "castle-point"
+        "uttlesford",
+        "braintree"
       ],
       "scenarios": [
         "planning-permission",
@@ -3448,14 +3448,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "chelmsford",
+        "harlow",
         "braintree",
-        "colchester",
-        "castle-point",
-        "uttlesford",
         "basildon",
-        "brentwood",
-        "harlow"
+        "castle-point",
+        "rochford",
+        "maldon",
+        "colchester",
+        "tendring"
       ],
       "scenarios": [
         "planning-permission",
@@ -3477,14 +3477,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "brentwood",
         "maldon",
-        "colchester",
-        "basildon",
-        "epping-forest",
-        "chelmsford",
+        "castle-point",
         "braintree",
-        "rochford"
+        "basildon",
+        "brentwood",
+        "colchester",
+        "tendring",
+        "uttlesford"
       ],
       "scenarios": [
         "planning-permission",
@@ -3506,14 +3506,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "chelmsford",
+        "uttlesford",
         "harlow",
-        "castle-point",
         "tendring",
-        "colchester",
-        "basildon",
         "rochford",
-        "epping-forest",
-        "uttlesford"
+        "brentwood",
+        "colchester",
+        "castle-point"
       ],
       "scenarios": [
         "planning-permission",
@@ -3536,13 +3536,13 @@
       ],
       "nearby_councils": [
         "chelmsford",
-        "harlow",
         "uttlesford",
-        "maldon",
-        "braintree",
-        "tendring",
         "castle-point",
-        "basildon"
+        "maldon",
+        "basildon",
+        "braintree",
+        "colchester",
+        "epping-forest"
       ],
       "scenarios": [
         "planning-permission",
@@ -3564,14 +3564,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "rochford",
-        "chelmsford",
-        "brentwood",
-        "colchester",
         "maldon",
-        "epping-forest",
-        "castle-point",
-        "basildon"
+        "harlow",
+        "brentwood",
+        "rochford",
+        "basildon",
+        "colchester",
+        "chelmsford",
+        "braintree"
       ],
       "scenarios": [
         "planning-permission",
@@ -3593,14 +3593,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "basildon",
-        "rochford",
-        "epping-forest",
-        "maldon",
+        "tendring",
+        "harlow",
         "chelmsford",
         "colchester",
-        "brentwood",
-        "tendring"
+        "braintree",
+        "maldon",
+        "epping-forest",
+        "castle-point"
       ],
       "scenarios": [
         "planning-permission",
@@ -3622,11 +3622,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "cotswold",
         "tewkesbury",
-        "forest-of-dean",
         "gloucester",
-        "stroud",
-        "cotswold"
+        "forest-of-dean",
+        "stroud"
       ],
       "scenarios": [
         "planning-permission",
@@ -3648,11 +3648,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "cheltenham",
         "tewkesbury",
-        "gloucester",
+        "forest-of-dean",
         "stroud",
-        "forest-of-dean"
+        "gloucester",
+        "cheltenham"
       ],
       "scenarios": [
         "planning-permission",
@@ -3674,11 +3674,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "gloucester",
-        "cotswold",
         "cheltenham",
+        "stroud",
         "tewkesbury",
-        "stroud"
+        "gloucester",
+        "cotswold"
       ],
       "scenarios": [
         "planning-permission",
@@ -3700,11 +3700,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "forest-of-dean",
-        "stroud",
-        "cheltenham",
+        "cotswold",
         "tewkesbury",
-        "cotswold"
+        "cheltenham",
+        "stroud",
+        "forest-of-dean"
       ],
       "scenarios": [
         "planning-permission",
@@ -3726,11 +3726,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "forest-of-dean",
-        "cheltenham",
         "cotswold",
+        "gloucester",
+        "cheltenham",
         "tewkesbury",
-        "gloucester"
+        "forest-of-dean"
       ],
       "scenarios": [
         "planning-permission",
@@ -3752,11 +3752,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "forest-of-dean",
-        "gloucester",
-        "stroud",
         "cheltenham",
-        "cotswold"
+        "forest-of-dean",
+        "cotswold",
+        "gloucester",
+        "stroud"
       ],
       "scenarios": [
         "planning-permission",
@@ -3779,13 +3779,13 @@
       ],
       "nearby_councils": [
         "city-of-london",
-        "southwark",
-        "camden",
-        "kensington-and-chelsea",
-        "croydon",
         "wandsworth",
-        "lewisham",
-        "hillingdon"
+        "bexley",
+        "southwark",
+        "kingston-upon-thames",
+        "hillingdon",
+        "newham",
+        "sutton"
       ],
       "scenarios": [
         "planning-permission",
@@ -3807,14 +3807,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "wandsworth",
-        "haringey",
-        "croydon",
-        "hounslow",
-        "barking-and-dagenham",
-        "bexley",
-        "bromley",
-        "kensington-and-chelsea"
+        "hammersmith-and-fulham",
+        "ealing",
+        "richmond-upon-thames",
+        "havering",
+        "greenwich",
+        "waltham-forest",
+        "harrow",
+        "haringey"
       ],
       "scenarios": [
         "planning-permission",
@@ -3836,14 +3836,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "havering",
-        "tower-hamlets",
-        "hounslow",
-        "westminster",
         "wandsworth",
-        "redbridge",
+        "lambeth",
+        "greenwich",
+        "enfield",
+        "lewisham",
         "richmond-upon-thames",
-        "barking-and-dagenham"
+        "barking-and-dagenham",
+        "merton"
       ],
       "scenarios": [
         "planning-permission",
@@ -3865,14 +3865,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "islington",
-        "waltham-forest",
-        "hammersmith-and-fulham",
-        "greenwich",
-        "hillingdon",
-        "ealing",
-        "tower-hamlets",
-        "richmond-upon-thames"
+        "city-of-london",
+        "lewisham",
+        "richmond-upon-thames",
+        "camden",
+        "harrow",
+        "enfield",
+        "kensington-and-chelsea",
+        "waltham-forest"
       ],
       "scenarios": [
         "planning-permission",
@@ -3894,14 +3894,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "lewisham",
-        "richmond-upon-thames",
-        "hillingdon",
-        "havering",
-        "harrow",
-        "newham",
         "barking-and-dagenham",
-        "waltham-forest"
+        "redbridge",
+        "lambeth",
+        "hillingdon",
+        "richmond-upon-thames",
+        "enfield",
+        "hounslow",
+        "tower-hamlets"
       ],
       "scenarios": [
         "planning-permission",
@@ -3923,14 +3923,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "sutton",
-        "redbridge",
-        "hounslow",
-        "enfield",
-        "havering",
-        "croydon",
+        "barking-and-dagenham",
         "ealing",
-        "kensington-and-chelsea"
+        "hackney",
+        "lambeth",
+        "lewisham",
+        "islington",
+        "havering",
+        "croydon"
       ],
       "scenarios": [
         "planning-permission",
@@ -3952,14 +3952,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "tower-hamlets",
-        "haringey",
-        "hackney",
-        "islington",
-        "kensington-and-chelsea",
+        "bromley",
         "richmond-upon-thames",
-        "bexley",
-        "barking-and-dagenham"
+        "greenwich",
+        "ealing",
+        "lewisham",
+        "brent",
+        "hounslow",
+        "hackney"
       ],
       "scenarios": [
         "planning-permission",
@@ -3981,14 +3981,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "tower-hamlets",
-        "sutton",
-        "hounslow",
-        "hackney",
-        "harrow",
-        "city-of-london",
         "kingston-upon-thames",
-        "havering"
+        "camden",
+        "waltham-forest",
+        "barking-and-dagenham",
+        "ealing",
+        "bromley",
+        "merton",
+        "tower-hamlets"
       ],
       "scenarios": [
         "planning-permission",
@@ -4010,13 +4010,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "islington",
-        "wandsworth",
+        "bromley",
+        "richmond-upon-thames",
+        "hammersmith-and-fulham",
+        "sutton",
+        "newham",
+        "hackney",
         "westminster",
-        "southwark",
-        "merton",
-        "hillingdon",
-        "barnet",
         "city-of-london"
       ],
       "scenarios": [
@@ -4039,14 +4039,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bexley",
-        "hounslow",
-        "greenwich",
-        "hammersmith-and-fulham",
-        "tower-hamlets",
-        "sutton",
         "city-of-london",
-        "newham"
+        "havering",
+        "barking-and-dagenham",
+        "richmond-upon-thames",
+        "haringey",
+        "barnet",
+        "merton",
+        "wandsworth"
       ],
       "scenarios": [
         "planning-permission",
@@ -4068,14 +4068,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "merton",
+        "lewisham",
+        "harrow",
+        "haringey",
+        "kensington-and-chelsea",
+        "hounslow",
+        "waltham-forest",
         "hackney",
-        "kingston-upon-thames",
-        "tower-hamlets",
-        "havering",
-        "redbridge",
-        "croydon",
-        "westminster"
+        "newham"
       ],
       "scenarios": [
         "planning-permission",
@@ -4097,14 +4097,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "sutton",
+        "kingston-upon-thames",
+        "richmond-upon-thames",
+        "city-of-london",
+        "kensington-and-chelsea",
         "islington",
-        "barnet",
-        "ealing",
-        "hillingdon",
-        "lewisham",
-        "bromley",
-        "bexley"
+        "merton",
+        "waltham-forest",
+        "tower-hamlets"
       ],
       "scenarios": [
         "planning-permission",
@@ -4126,14 +4126,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "redbridge",
         "croydon",
-        "city-of-london",
-        "merton",
-        "richmond-upon-thames",
         "kensington-and-chelsea",
-        "hillingdon",
-        "brent",
-        "harrow"
+        "lewisham",
+        "sutton",
+        "merton",
+        "camden",
+        "barking-and-dagenham"
       ],
       "scenarios": [
         "planning-permission",
@@ -4155,13 +4155,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "tower-hamlets",
-        "brent",
+        "kingston-upon-thames",
+        "barnet",
+        "sutton",
+        "westminster",
+        "lambeth",
         "city-of-london",
-        "wandsworth",
-        "hammersmith-and-fulham",
-        "islington",
-        "hackney",
+        "bromley",
         "richmond-upon-thames"
       ],
       "scenarios": [
@@ -4184,14 +4184,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "city-of-london",
-        "hammersmith-and-fulham",
-        "hackney",
-        "wandsworth",
-        "havering",
-        "sutton",
-        "kingston-upon-thames",
-        "bromley"
+        "lambeth",
+        "newham",
+        "haringey",
+        "tower-hamlets",
+        "hillingdon",
+        "kensington-and-chelsea",
+        "bexley",
+        "barking-and-dagenham"
       ],
       "scenarios": [
         "planning-permission",
@@ -4213,14 +4213,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hillingdon",
-        "barking-and-dagenham",
-        "richmond-upon-thames",
-        "tower-hamlets",
-        "southwark",
-        "kingston-upon-thames",
+        "lambeth",
+        "haringey",
+        "city-of-london",
+        "sutton",
+        "hackney",
         "barnet",
-        "brent"
+        "bromley",
+        "hillingdon"
       ],
       "scenarios": [
         "planning-permission",
@@ -4242,14 +4242,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "barking-and-dagenham",
-        "haringey",
-        "hammersmith-and-fulham",
-        "lambeth",
-        "greenwich",
-        "islington",
-        "camden",
-        "richmond-upon-thames"
+        "barnet",
+        "croydon",
+        "merton",
+        "southwark",
+        "kingston-upon-thames",
+        "redbridge",
+        "newham",
+        "barking-and-dagenham"
       ],
       "scenarios": [
         "planning-permission",
@@ -4271,14 +4271,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "kingston-upon-thames",
-        "hackney",
-        "barking-and-dagenham",
+        "bromley",
         "camden",
-        "newham",
+        "havering",
+        "enfield",
         "harrow",
-        "hillingdon",
-        "merton"
+        "westminster",
+        "newham",
+        "islington"
       ],
       "scenarios": [
         "planning-permission",
@@ -4300,14 +4300,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "richmond-upon-thames",
-        "hillingdon",
-        "bexley",
         "havering",
+        "westminster",
         "brent",
-        "sutton",
-        "camden",
-        "barnet"
+        "ealing",
+        "city-of-london",
+        "wandsworth",
+        "greenwich",
+        "sutton"
       ],
       "scenarios": [
         "planning-permission",
@@ -4329,14 +4329,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "haringey",
-        "merton",
-        "hounslow",
-        "hammersmith-and-fulham",
+        "kingston-upon-thames",
+        "westminster",
         "southwark",
         "richmond-upon-thames",
-        "bromley",
-        "bexley"
+        "lewisham",
+        "havering",
+        "city-of-london",
+        "haringey"
       ],
       "scenarios": [
         "planning-permission",
@@ -4358,14 +4358,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hammersmith-and-fulham",
         "bromley",
-        "barnet",
-        "kensington-and-chelsea",
-        "lewisham",
-        "westminster",
-        "greenwich",
-        "city-of-london"
+        "islington",
+        "tower-hamlets",
+        "sutton",
+        "enfield",
+        "havering",
+        "brent",
+        "haringey"
       ],
       "scenarios": [
         "planning-permission",
@@ -4387,14 +4387,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "merton",
-        "ealing",
-        "bromley",
-        "havering",
         "waltham-forest",
-        "wandsworth",
+        "croydon",
+        "brent",
         "kingston-upon-thames",
-        "brent"
+        "tower-hamlets",
+        "westminster",
+        "city-of-london",
+        "islington"
       ],
       "scenarios": [
         "planning-permission",
@@ -4416,14 +4416,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "enfield",
-        "camden",
-        "barking-and-dagenham",
-        "newham",
-        "southwark",
-        "hillingdon",
         "hounslow",
-        "hammersmith-and-fulham"
+        "southwark",
+        "brent",
+        "sutton",
+        "waltham-forest",
+        "enfield",
+        "barking-and-dagenham",
+        "bromley"
       ],
       "scenarios": [
         "planning-permission",
@@ -4445,14 +4445,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "havering",
-        "hackney",
+        "wandsworth",
+        "greenwich",
+        "barking-and-dagenham",
         "sutton",
-        "lewisham",
-        "enfield",
-        "waltham-forest",
-        "hounslow",
-        "barking-and-dagenham"
+        "barnet",
+        "hillingdon",
+        "richmond-upon-thames",
+        "city-of-london"
       ],
       "scenarios": [
         "planning-permission",
@@ -4474,14 +4474,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "greenwich",
-        "city-of-london",
-        "southwark",
+        "tower-hamlets",
+        "havering",
+        "enfield",
+        "kingston-upon-thames",
         "bromley",
-        "brent",
-        "hackney",
-        "lewisham",
-        "kingston-upon-thames"
+        "waltham-forest",
+        "southwark",
+        "sutton"
       ],
       "scenarios": [
         "planning-permission",
@@ -4503,14 +4503,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "haringey",
-        "ealing",
-        "waltham-forest",
-        "harrow",
-        "hackney",
-        "bromley",
-        "barking-and-dagenham",
-        "sutton"
+        "newham",
+        "wandsworth",
+        "brent",
+        "islington",
+        "westminster",
+        "city-of-london",
+        "merton",
+        "lewisham"
       ],
       "scenarios": [
         "planning-permission",
@@ -4532,14 +4532,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hammersmith-and-fulham",
-        "bexley",
-        "lambeth",
-        "havering",
-        "waltham-forest",
-        "barking-and-dagenham",
-        "enfield",
-        "newham"
+        "croydon",
+        "hackney",
+        "ealing",
+        "southwark",
+        "greenwich",
+        "tower-hamlets",
+        "harrow",
+        "barking-and-dagenham"
       ],
       "scenarios": [
         "planning-permission",
@@ -4561,14 +4561,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "lambeth",
-        "brent",
-        "hillingdon",
-        "barnet",
-        "bexley",
+        "redbridge",
+        "richmond-upon-thames",
+        "merton",
+        "westminster",
+        "wandsworth",
         "haringey",
-        "lewisham",
-        "greenwich"
+        "city-of-london",
+        "newham"
       ],
       "scenarios": [
         "planning-permission",
@@ -4590,14 +4590,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "barnet",
-        "enfield",
-        "richmond-upon-thames",
+        "kingston-upon-thames",
         "croydon",
-        "lewisham",
+        "tower-hamlets",
+        "westminster",
+        "hammersmith-and-fulham",
+        "wandsworth",
         "lambeth",
-        "hillingdon",
-        "newham"
+        "redbridge"
       ],
       "scenarios": [
         "planning-permission",
@@ -4619,14 +4619,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hammersmith-and-fulham",
-        "greenwich",
-        "richmond-upon-thames",
-        "hackney",
-        "barking-and-dagenham",
-        "waltham-forest",
-        "kingston-upon-thames",
-        "redbridge"
+        "lambeth",
+        "harrow",
+        "redbridge",
+        "southwark",
+        "westminster",
+        "bexley",
+        "islington",
+        "camden"
       ],
       "scenarios": [
         "planning-permission",
@@ -4648,14 +4648,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "tower-hamlets",
-        "hackney",
-        "haringey",
-        "bromley",
-        "havering",
-        "lewisham",
         "hillingdon",
-        "harrow"
+        "southwark",
+        "hounslow",
+        "richmond-upon-thames",
+        "ealing",
+        "barking-and-dagenham",
+        "havering",
+        "bromley"
       ],
       "scenarios": [
         "planning-permission",
@@ -4677,14 +4677,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "lambeth",
-        "bromley",
-        "islington",
+        "hackney",
+        "ealing",
+        "lewisham",
+        "city-of-london",
         "redbridge",
-        "waltham-forest",
-        "hounslow",
-        "merton",
-        "hillingdon"
+        "harrow",
+        "barking-and-dagenham",
+        "enfield"
       ],
       "scenarios": [
         "planning-permission",
@@ -4706,14 +4706,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hackney",
+        "hillingdon",
+        "kensington-and-chelsea",
         "greenwich",
-        "hammersmith-and-fulham",
+        "barnet",
+        "lewisham",
+        "croydon",
         "bromley",
-        "newham",
-        "tower-hamlets",
-        "barking-and-dagenham",
-        "wandsworth"
+        "lambeth"
       ],
       "scenarios": [
         "planning-permission",
@@ -4735,14 +4735,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "winchester",
-        "portsmouth",
-        "gosport",
-        "eastleigh",
-        "new-forest",
-        "hart",
         "test-valley",
-        "southampton"
+        "new-forest",
+        "portsmouth",
+        "fareham",
+        "winchester",
+        "hart",
+        "rushmoor",
+        "east-hampshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -4764,14 +4764,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "fareham",
-        "basingstoke-and-deane",
         "gosport",
-        "eastleigh",
+        "havant",
+        "rushmoor",
+        "fareham",
+        "winchester",
         "southampton",
         "new-forest",
-        "havant",
-        "test-valley"
+        "eastleigh"
       ],
       "scenarios": [
         "planning-permission",
@@ -4793,14 +4793,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "test-valley",
+        "hart",
+        "rushmoor",
         "basingstoke-and-deane",
-        "gosport",
         "new-forest",
-        "havant",
         "east-hampshire",
-        "southampton",
-        "portsmouth"
+        "havant",
+        "winchester",
+        "southampton"
       ],
       "scenarios": [
         "planning-permission",
@@ -4822,14 +4822,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "gosport",
         "new-forest",
-        "hart",
-        "portsmouth",
         "test-valley",
-        "winchester",
+        "rushmoor",
+        "hart",
+        "eastleigh",
         "east-hampshire",
-        "eastleigh"
+        "southampton",
+        "winchester"
       ],
       "scenarios": [
         "planning-permission",
@@ -4851,14 +4851,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "basingstoke-and-deane",
-        "hart",
-        "winchester",
-        "eastleigh",
+        "east-hampshire",
         "southampton",
-        "rushmoor",
         "havant",
-        "fareham"
+        "fareham",
+        "test-valley",
+        "rushmoor",
+        "portsmouth",
+        "basingstoke-and-deane"
       ],
       "scenarios": [
         "planning-permission",
@@ -4880,14 +4880,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "rushmoor",
-        "winchester",
-        "east-hampshire",
-        "test-valley",
         "fareham",
         "new-forest",
-        "gosport",
-        "portsmouth"
+        "portsmouth",
+        "havant",
+        "southampton",
+        "east-hampshire",
+        "winchester",
+        "gosport"
       ],
       "scenarios": [
         "planning-permission",
@@ -4909,14 +4909,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hart",
-        "portsmouth",
-        "southampton",
-        "test-valley",
-        "eastleigh",
-        "east-hampshire",
         "winchester",
-        "new-forest"
+        "eastleigh",
+        "hart",
+        "southampton",
+        "rushmoor",
+        "new-forest",
+        "gosport",
+        "basingstoke-and-deane"
       ],
       "scenarios": [
         "planning-permission",
@@ -4938,14 +4938,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "havant",
-        "portsmouth",
-        "gosport",
-        "test-valley",
         "winchester",
+        "gosport",
+        "southampton",
         "rushmoor",
-        "hart",
-        "eastleigh"
+        "eastleigh",
+        "havant",
+        "basingstoke-and-deane",
+        "east-hampshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -4967,14 +4967,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "havant",
-        "hart",
-        "new-forest",
-        "eastleigh",
+        "fareham",
         "southampton",
-        "winchester",
-        "gosport",
-        "portsmouth"
+        "havant",
+        "portsmouth",
+        "basingstoke-and-deane",
+        "test-valley",
+        "new-forest",
+        "gosport"
       ],
       "scenarios": [
         "planning-permission",
@@ -4996,14 +4996,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hart",
-        "winchester",
-        "fareham",
         "portsmouth",
-        "east-hampshire",
+        "winchester",
+        "gosport",
+        "new-forest",
         "havant",
-        "eastleigh",
-        "rushmoor"
+        "hart",
+        "basingstoke-and-deane",
+        "eastleigh"
       ],
       "scenarios": [
         "planning-permission",
@@ -5025,14 +5025,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "rushmoor",
+        "southampton",
         "gosport",
-        "test-valley",
+        "havant",
+        "rushmoor",
         "new-forest",
-        "east-hampshire",
-        "fareham",
-        "portsmouth",
-        "eastleigh"
+        "test-valley",
+        "eastleigh",
+        "fareham"
       ],
       "scenarios": [
         "planning-permission",
@@ -5054,14 +5054,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "fareham",
-        "east-hampshire",
-        "eastleigh",
-        "gosport",
+        "basingstoke-and-deane",
         "southampton",
+        "havant",
+        "gosport",
         "new-forest",
-        "hart",
-        "havant"
+        "fareham",
+        "rushmoor",
+        "winchester"
       ],
       "scenarios": [
         "planning-permission",
@@ -5083,14 +5083,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-hampshire",
-        "portsmouth",
         "basingstoke-and-deane",
-        "gosport",
-        "winchester",
+        "portsmouth",
         "test-valley",
+        "eastleigh",
+        "gosport",
         "fareham",
-        "hart"
+        "winchester",
+        "new-forest"
       ],
       "scenarios": [
         "planning-permission",
@@ -5132,14 +5132,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "st-albans",
-        "north-hertfordshire",
+        "east-hertfordshire",
+        "watford",
         "dacorum",
         "three-rivers",
-        "hertsmere",
-        "welwyn-hatfield",
+        "st-albans",
+        "north-hertfordshire",
         "stevenage",
-        "watford"
+        "welwyn-hatfield"
       ],
       "scenarios": [
         "planning-permission",
@@ -5161,14 +5161,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-hertfordshire",
+        "stevenage",
+        "broxbourne",
+        "three-rivers",
+        "welwyn-hatfield",
         "st-albans",
         "north-hertfordshire",
         "watford",
-        "stevenage",
-        "three-rivers",
-        "hertsmere",
-        "broxbourne"
+        "east-hertfordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -5190,14 +5190,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "st-albans",
-        "broxbourne",
-        "stevenage",
-        "three-rivers",
-        "welwyn-hatfield",
-        "dacorum",
         "hertsmere",
-        "north-hertfordshire"
+        "welwyn-hatfield",
+        "watford",
+        "broxbourne",
+        "dacorum",
+        "north-hertfordshire",
+        "three-rivers",
+        "stevenage"
       ],
       "scenarios": [
         "planning-permission",
@@ -5219,14 +5219,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "welwyn-hatfield",
-        "broxbourne",
+        "stevenage",
+        "st-albans",
         "dacorum",
-        "east-hertfordshire",
-        "three-rivers",
-        "north-hertfordshire",
         "watford",
-        "stevenage"
+        "welwyn-hatfield",
+        "three-rivers",
+        "east-hertfordshire",
+        "broxbourne"
       ],
       "scenarios": [
         "planning-permission",
@@ -5248,14 +5248,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-hertfordshire",
-        "st-albans",
-        "hertsmere",
-        "stevenage",
         "welwyn-hatfield",
-        "broxbourne",
         "watford",
-        "dacorum"
+        "east-hertfordshire",
+        "three-rivers",
+        "hertsmere",
+        "dacorum",
+        "broxbourne",
+        "stevenage"
       ],
       "scenarios": [
         "planning-permission",
@@ -5277,14 +5277,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "stevenage",
-        "welwyn-hatfield",
         "dacorum",
         "east-hertfordshire",
+        "welwyn-hatfield",
         "three-rivers",
-        "hertsmere",
+        "watford",
+        "stevenage",
         "broxbourne",
-        "watford"
+        "hertsmere"
       ],
       "scenarios": [
         "planning-permission",
@@ -5306,14 +5306,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-hertfordshire",
-        "welwyn-hatfield",
         "hertsmere",
+        "st-albans",
         "broxbourne",
         "north-hertfordshire",
-        "st-albans",
+        "east-hertfordshire",
         "dacorum",
-        "three-rivers"
+        "welwyn-hatfield",
+        "watford"
       ],
       "scenarios": [
         "planning-permission",
@@ -5335,14 +5335,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-hertfordshire",
-        "hertsmere",
-        "broxbourne",
-        "east-hertfordshire",
-        "welwyn-hatfield",
         "watford",
+        "stevenage",
         "st-albans",
-        "stevenage"
+        "broxbourne",
+        "hertsmere",
+        "east-hertfordshire",
+        "dacorum",
+        "north-hertfordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -5364,14 +5364,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "dacorum",
-        "broxbourne",
         "st-albans",
-        "stevenage",
-        "north-hertfordshire",
+        "broxbourne",
+        "dacorum",
         "hertsmere",
+        "north-hertfordshire",
         "three-rivers",
-        "east-hertfordshire"
+        "east-hertfordshire",
+        "welwyn-hatfield"
       ],
       "scenarios": [
         "planning-permission",
@@ -5393,14 +5393,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-hertfordshire",
-        "three-rivers",
         "hertsmere",
-        "north-hertfordshire",
-        "broxbourne",
         "watford",
-        "dacorum",
-        "st-albans"
+        "north-hertfordshire",
+        "stevenage",
+        "east-hertfordshire",
+        "st-albans",
+        "broxbourne",
+        "dacorum"
       ],
       "scenarios": [
         "planning-permission",
@@ -5423,13 +5423,13 @@
       ],
       "nearby_councils": [
         "thanet",
-        "canterbury",
-        "gravesham",
-        "sevenoaks",
-        "folkestone-and-hythe",
-        "dover",
+        "tunbridge-wells",
         "tonbridge-and-malling",
-        "dartford"
+        "swale",
+        "gravesham",
+        "maidstone",
+        "dartford",
+        "canterbury"
       ],
       "scenarios": [
         "planning-permission",
@@ -5451,14 +5451,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "dover",
+        "tonbridge-and-malling",
         "thanet",
-        "ashford",
         "maidstone",
-        "tunbridge-wells",
-        "folkestone-and-hythe",
+        "ashford",
         "dartford",
-        "sevenoaks"
+        "dover",
+        "sevenoaks",
+        "swale"
       ],
       "scenarios": [
         "planning-permission",
@@ -5480,14 +5480,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "tunbridge-wells",
-        "ashford",
         "canterbury",
-        "thanet",
-        "folkestone-and-hythe",
+        "gravesham",
         "maidstone",
         "swale",
-        "tonbridge-and-malling"
+        "tunbridge-wells",
+        "thanet",
+        "tonbridge-and-malling",
+        "ashford"
       ],
       "scenarios": [
         "planning-permission",
@@ -5509,14 +5509,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "sevenoaks",
-        "dartford",
-        "folkestone-and-hythe",
         "maidstone",
-        "swale",
-        "gravesham",
         "thanet",
-        "ashford"
+        "sevenoaks",
+        "tonbridge-and-malling",
+        "folkestone-and-hythe",
+        "canterbury",
+        "ashford",
+        "swale"
       ],
       "scenarios": [
         "planning-permission",
@@ -5538,14 +5538,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "gravesham",
         "dartford",
-        "ashford",
-        "sevenoaks",
         "canterbury",
+        "ashford",
+        "gravesham",
+        "maidstone",
+        "dover",
         "swale",
-        "tunbridge-wells",
-        "tonbridge-and-malling"
+        "tunbridge-wells"
       ],
       "scenarios": [
         "planning-permission",
@@ -5567,14 +5567,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "canterbury",
+        "ashford",
         "thanet",
         "tunbridge-wells",
-        "ashford",
-        "canterbury",
         "folkestone-and-hythe",
-        "tonbridge-and-malling",
-        "maidstone",
-        "sevenoaks"
+        "swale",
+        "sevenoaks",
+        "dartford"
       ],
       "scenarios": [
         "planning-permission",
@@ -5596,14 +5596,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "dartford",
-        "ashford",
-        "canterbury",
-        "tunbridge-wells",
+        "swale",
         "sevenoaks",
-        "dover",
+        "folkestone-and-hythe",
+        "ashford",
         "thanet",
-        "swale"
+        "dover",
+        "dartford",
+        "canterbury"
       ],
       "scenarios": [
         "planning-permission",
@@ -5625,14 +5625,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "ashford",
-        "swale",
-        "folkestone-and-hythe",
-        "canterbury",
         "dover",
-        "tunbridge-wells",
-        "gravesham",
-        "dartford"
+        "tonbridge-and-malling",
+        "canterbury",
+        "maidstone",
+        "thanet",
+        "ashford",
+        "folkestone-and-hythe",
+        "gravesham"
       ],
       "scenarios": [
         "planning-permission",
@@ -5654,14 +5654,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "ashford",
         "folkestone-and-hythe",
+        "tonbridge-and-malling",
         "sevenoaks",
-        "tunbridge-wells",
-        "gravesham",
         "thanet",
-        "dartford",
         "canterbury",
-        "tonbridge-and-malling"
+        "maidstone",
+        "gravesham"
       ],
       "scenarios": [
         "planning-permission",
@@ -5683,13 +5683,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "sevenoaks",
-        "folkestone-and-hythe",
-        "maidstone",
-        "canterbury",
+        "dover",
         "swale",
+        "dartford",
         "tunbridge-wells",
-        "gravesham",
+        "sevenoaks",
+        "canterbury",
+        "folkestone-and-hythe",
         "tonbridge-and-malling"
       ],
       "scenarios": [
@@ -5712,14 +5712,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "maidstone",
-        "swale",
         "ashford",
-        "sevenoaks",
-        "thanet",
-        "folkestone-and-hythe",
         "canterbury",
-        "dover"
+        "sevenoaks",
+        "swale",
+        "maidstone",
+        "folkestone-and-hythe",
+        "thanet",
+        "dartford"
       ],
       "scenarios": [
         "planning-permission",
@@ -5741,14 +5741,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "ashford",
+        "dover",
+        "folkestone-and-hythe",
+        "dartford",
         "gravesham",
         "tonbridge-and-malling",
-        "canterbury",
-        "dover",
-        "ashford",
-        "dartford",
-        "folkestone-and-hythe",
-        "thanet"
+        "maidstone",
+        "sevenoaks"
       ],
       "scenarios": [
         "planning-permission",
@@ -5770,13 +5770,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "harborough",
         "leicester",
-        "charnwood",
-        "north-west-leicestershire",
-        "hinckley-and-bosworth",
         "melton",
-        "oadby-and-wigston"
+        "oadby-and-wigston",
+        "north-west-leicestershire",
+        "harborough",
+        "charnwood",
+        "hinckley-and-bosworth"
       ],
       "scenarios": [
         "planning-permission",
@@ -5798,13 +5798,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-west-leicestershire",
+        "oadby-and-wigston",
         "blaby",
         "leicester",
-        "harborough",
         "hinckley-and-bosworth",
-        "oadby-and-wigston",
-        "melton"
+        "melton",
+        "north-west-leicestershire",
+        "harborough"
       ],
       "scenarios": [
         "planning-permission",
@@ -5826,13 +5826,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "charnwood",
-        "north-west-leicestershire",
+        "oadby-and-wigston",
         "leicester",
-        "blaby",
-        "melton",
         "hinckley-and-bosworth",
-        "oadby-and-wigston"
+        "melton",
+        "blaby",
+        "charnwood",
+        "north-west-leicestershire"
       ],
       "scenarios": [
         "planning-permission",
@@ -5854,13 +5854,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "oadby-and-wigston",
-        "leicester",
-        "north-west-leicestershire",
         "harborough",
-        "blaby",
+        "oadby-and-wigston",
+        "charnwood",
         "melton",
-        "charnwood"
+        "blaby",
+        "leicester",
+        "north-west-leicestershire"
       ],
       "scenarios": [
         "planning-permission",
@@ -5882,13 +5882,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-west-leicestershire",
-        "hinckley-and-bosworth",
-        "harborough",
         "blaby",
-        "charnwood",
+        "harborough",
+        "hinckley-and-bosworth",
+        "leicester",
         "oadby-and-wigston",
-        "leicester"
+        "north-west-leicestershire",
+        "charnwood"
       ],
       "scenarios": [
         "planning-permission",
@@ -5910,13 +5910,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "harborough",
-        "hinckley-and-bosworth",
         "leicester",
-        "oadby-and-wigston",
+        "hinckley-and-bosworth",
+        "harborough",
         "charnwood",
-        "melton",
-        "blaby"
+        "oadby-and-wigston",
+        "blaby",
+        "melton"
       ],
       "scenarios": [
         "planning-permission",
@@ -5938,12 +5938,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "leicester",
-        "north-west-leicestershire",
-        "blaby",
         "charnwood",
-        "harborough",
+        "north-west-leicestershire",
         "hinckley-and-bosworth",
+        "harborough",
+        "blaby",
+        "leicester",
         "melton"
       ],
       "scenarios": [
@@ -5966,13 +5966,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "melton",
-        "hinckley-and-bosworth",
+        "charnwood",
+        "north-west-leicestershire",
         "harborough",
         "blaby",
-        "oadby-and-wigston",
-        "charnwood",
-        "north-west-leicestershire"
+        "hinckley-and-bosworth",
+        "melton",
+        "oadby-and-wigston"
       ],
       "scenarios": [
         "planning-permission",
@@ -5995,13 +5995,13 @@
       ],
       "nearby_councils": [
         "north-east-lincolnshire",
-        "north-lincolnshire",
         "west-lindsey",
-        "east-lindsey",
+        "south-kesteven",
         "north-kesteven",
         "south-holland",
-        "lincoln",
-        "south-kesteven"
+        "north-lincolnshire",
+        "east-lindsey",
+        "lincoln"
       ],
       "scenarios": [
         "planning-permission",
@@ -6023,14 +6023,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-lincolnshire",
         "west-lindsey",
-        "north-east-lincolnshire",
-        "south-kesteven",
         "south-holland",
+        "north-lincolnshire",
+        "south-kesteven",
         "lincoln",
         "boston",
-        "north-kesteven"
+        "north-kesteven",
+        "north-east-lincolnshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -6053,13 +6053,13 @@
       ],
       "nearby_councils": [
         "south-kesteven",
-        "north-lincolnshire",
-        "south-holland",
-        "north-east-lincolnshire",
-        "west-lindsey",
+        "east-lindsey",
         "north-kesteven",
         "boston",
-        "east-lindsey"
+        "north-lincolnshire",
+        "north-east-lincolnshire",
+        "west-lindsey",
+        "south-holland"
       ],
       "scenarios": [
         "planning-permission",
@@ -6081,14 +6081,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-east-lincolnshire",
-        "south-holland",
         "boston",
-        "north-lincolnshire",
+        "south-holland",
         "south-kesteven",
+        "lincoln",
         "west-lindsey",
         "east-lindsey",
-        "lincoln"
+        "north-lincolnshire",
+        "north-east-lincolnshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -6110,14 +6110,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-lincolnshire",
-        "north-east-lincolnshire",
-        "south-kesteven",
-        "lincoln",
         "west-lindsey",
-        "boston",
+        "east-lindsey",
         "north-kesteven",
-        "east-lindsey"
+        "boston",
+        "north-lincolnshire",
+        "lincoln",
+        "north-east-lincolnshire",
+        "south-kesteven"
       ],
       "scenarios": [
         "planning-permission",
@@ -6139,14 +6139,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-lindsey",
-        "lincoln",
-        "south-holland",
-        "west-lindsey",
         "north-east-lincolnshire",
-        "boston",
         "north-kesteven",
-        "north-lincolnshire"
+        "west-lindsey",
+        "lincoln",
+        "east-lindsey",
+        "south-holland",
+        "north-lincolnshire",
+        "boston"
       ],
       "scenarios": [
         "planning-permission",
@@ -6169,13 +6169,13 @@
       ],
       "nearby_councils": [
         "boston",
-        "south-holland",
         "south-kesteven",
         "north-lincolnshire",
-        "lincoln",
+        "south-holland",
         "north-kesteven",
         "east-lindsey",
-        "north-east-lincolnshire"
+        "north-east-lincolnshire",
+        "lincoln"
       ],
       "scenarios": [
         "planning-permission",
@@ -6197,14 +6197,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "south-kesteven",
         "north-kesteven",
         "west-lindsey",
-        "boston",
         "north-east-lincolnshire",
-        "south-kesteven",
-        "south-holland",
+        "lincoln",
         "east-lindsey",
-        "lincoln"
+        "boston",
+        "south-holland"
       ],
       "scenarios": [
         "planning-permission",
@@ -6226,14 +6226,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-lincolnshire",
-        "north-kesteven",
         "south-kesteven",
-        "lincoln",
+        "boston",
         "south-holland",
-        "east-lindsey",
+        "north-kesteven",
+        "lincoln",
+        "north-lincolnshire",
         "west-lindsey",
-        "boston"
+        "east-lindsey"
       ],
       "scenarios": [
         "planning-permission",
@@ -6256,11 +6256,11 @@
       ],
       "nearby_councils": [
         "kings-lynn-and-west-norfolk",
+        "norwich",
         "great-yarmouth",
         "breckland",
-        "norwich",
-        "north-norfolk",
-        "south-norfolk"
+        "south-norfolk",
+        "north-norfolk"
       ],
       "scenarios": [
         "planning-permission",
@@ -6282,12 +6282,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "norwich",
         "south-norfolk",
-        "north-norfolk",
+        "norwich",
+        "kings-lynn-and-west-norfolk",
         "breckland",
-        "broadland",
-        "kings-lynn-and-west-norfolk"
+        "north-norfolk",
+        "broadland"
       ],
       "scenarios": [
         "planning-permission",
@@ -6309,12 +6309,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "norwich",
-        "broadland",
-        "breckland",
         "south-norfolk",
+        "breckland",
         "great-yarmouth",
-        "north-norfolk"
+        "north-norfolk",
+        "norwich",
+        "broadland"
       ],
       "scenarios": [
         "planning-permission",
@@ -6336,12 +6336,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "great-yarmouth",
         "breckland",
-        "south-norfolk",
-        "kings-lynn-and-west-norfolk",
+        "norwich",
         "broadland",
-        "norwich"
+        "great-yarmouth",
+        "kings-lynn-and-west-norfolk",
+        "south-norfolk"
       ],
       "scenarios": [
         "planning-permission",
@@ -6364,11 +6364,11 @@
       ],
       "nearby_councils": [
         "north-norfolk",
-        "breckland",
-        "south-norfolk",
-        "broadland",
+        "kings-lynn-and-west-norfolk",
         "great-yarmouth",
-        "kings-lynn-and-west-norfolk"
+        "south-norfolk",
+        "breckland",
+        "broadland"
       ],
       "scenarios": [
         "planning-permission",
@@ -6390,12 +6390,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "kings-lynn-and-west-norfolk",
-        "great-yarmouth",
         "norwich",
+        "great-yarmouth",
+        "broadland",
         "north-norfolk",
-        "breckland",
-        "broadland"
+        "kings-lynn-and-west-norfolk",
+        "breckland"
       ],
       "scenarios": [
         "planning-permission",
@@ -6417,12 +6417,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "norwich",
         "broadland",
-        "north-norfolk",
+        "south-norfolk",
         "kings-lynn-and-west-norfolk",
         "great-yarmouth",
-        "norwich",
-        "south-norfolk"
+        "north-norfolk"
       ],
       "scenarios": [
         "planning-permission",
@@ -6508,13 +6508,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "rushcliffe",
+        "mansfield",
+        "gedling",
         "broxtowe",
         "nottingham",
-        "mansfield",
-        "bassetlaw",
         "newark-and-sherwood",
-        "rushcliffe",
-        "gedling"
+        "bassetlaw"
       ],
       "scenarios": [
         "planning-permission",
@@ -6536,13 +6536,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "ashfield",
-        "newark-and-sherwood",
-        "rushcliffe",
         "nottingham",
-        "broxtowe",
+        "newark-and-sherwood",
+        "ashfield",
+        "mansfield",
+        "rushcliffe",
         "gedling",
-        "mansfield"
+        "broxtowe"
       ],
       "scenarios": [
         "planning-permission",
@@ -6564,12 +6564,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bassetlaw",
-        "mansfield",
-        "nottingham",
-        "newark-and-sherwood",
         "gedling",
         "rushcliffe",
+        "mansfield",
+        "nottingham",
+        "bassetlaw",
+        "newark-and-sherwood",
         "ashfield"
       ],
       "scenarios": [
@@ -6593,12 +6593,12 @@
       ],
       "nearby_councils": [
         "rushcliffe",
-        "mansfield",
-        "bassetlaw",
         "nottingham",
-        "broxtowe",
+        "ashfield",
+        "mansfield",
         "newark-and-sherwood",
-        "ashfield"
+        "broxtowe",
+        "bassetlaw"
       ],
       "scenarios": [
         "planning-permission",
@@ -6620,13 +6620,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "broxtowe",
+        "nottingham",
+        "ashfield",
         "rushcliffe",
         "gedling",
-        "nottingham",
         "newark-and-sherwood",
         "bassetlaw",
-        "ashfield"
+        "broxtowe"
       ],
       "scenarios": [
         "planning-permission",
@@ -6649,12 +6649,12 @@
       ],
       "nearby_councils": [
         "gedling",
-        "mansfield",
         "rushcliffe",
         "bassetlaw",
-        "nottingham",
+        "broxtowe",
         "ashfield",
-        "broxtowe"
+        "nottingham",
+        "mansfield"
       ],
       "scenarios": [
         "planning-permission",
@@ -6676,13 +6676,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "ashfield",
-        "nottingham",
-        "newark-and-sherwood",
-        "bassetlaw",
         "broxtowe",
+        "ashfield",
         "gedling",
-        "mansfield"
+        "mansfield",
+        "newark-and-sherwood",
+        "nottingham",
+        "bassetlaw"
       ],
       "scenarios": [
         "planning-permission",
@@ -6704,13 +6704,13 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "newark-and-sherwood",
-        "bassetlaw",
+        "broxtowe",
         "mansfield",
+        "ashfield",
+        "bassetlaw",
         "gedling",
         "rushcliffe",
-        "ashfield",
-        "broxtowe"
+        "newark-and-sherwood"
       ],
       "scenarios": [
         "planning-permission",
@@ -6732,10 +6732,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "west-oxfordshire",
         "oxford",
         "south-oxfordshire",
-        "vale-of-white-horse",
-        "west-oxfordshire"
+        "vale-of-white-horse"
       ],
       "scenarios": [
         "planning-permission",
@@ -6757,9 +6757,9 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "south-oxfordshire",
-        "cherwell",
         "vale-of-white-horse",
+        "cherwell",
+        "south-oxfordshire",
         "west-oxfordshire"
       ],
       "scenarios": [
@@ -6782,10 +6782,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "vale-of-white-horse",
-        "oxford",
+        "west-oxfordshire",
         "cherwell",
-        "west-oxfordshire"
+        "oxford",
+        "vale-of-white-horse"
       ],
       "scenarios": [
         "planning-permission",
@@ -6832,10 +6832,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "south-oxfordshire",
-        "oxford",
+        "cherwell",
         "vale-of-white-horse",
-        "cherwell"
+        "oxford",
+        "south-oxfordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -6857,14 +6857,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "loch-lomond-and-the-trossachs-national-park",
-        "angus",
-        "east-dunbartonshire",
-        "falkirk",
-        "dundee-city",
-        "glasgow-city",
-        "scottish-borders",
-        "argyll-and-bute"
+        "stirling",
+        "fife",
+        "midlothian",
+        "shetland-islands",
+        "highland",
+        "east-lothian",
+        "south-ayrshire",
+        "perth-and-kinross"
       ],
       "scenarios": [
         "planning-permission",
@@ -6886,14 +6886,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-ayrshire",
-        "orkney-islands",
         "argyll-and-bute",
-        "dundee-city",
-        "east-dunbartonshire",
-        "renfrewshire",
-        "inverclyde",
-        "south-lanarkshire"
+        "comhairle-nan-eilean-siar",
+        "falkirk",
+        "highland",
+        "city-of-edinburgh",
+        "glasgow-city",
+        "clackmannanshire",
+        "loch-lomond-and-the-trossachs-national-park"
       ],
       "scenarios": [
         "planning-permission",
@@ -6915,14 +6915,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "inverclyde",
-        "scottish-borders",
-        "fife",
-        "comhairle-nan-eilean-siar",
+        "east-renfrewshire",
+        "highland",
+        "cairngorms-national-park",
         "perth-and-kinross",
-        "falkirk",
-        "south-ayrshire",
-        "dundee-city"
+        "argyll-and-bute",
+        "east-dunbartonshire",
+        "renfrewshire",
+        "loch-lomond-and-the-trossachs-national-park"
       ],
       "scenarios": [
         "planning-permission",
@@ -6944,14 +6944,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "aberdeenshire",
-        "cairngorms-national-park",
-        "north-ayrshire",
-        "stirling",
-        "moray",
-        "perth-and-kinross",
-        "scottish-borders",
-        "glasgow-city"
+        "inverclyde",
+        "east-dunbartonshire",
+        "orkney-islands",
+        "city-of-edinburgh",
+        "angus",
+        "east-renfrewshire",
+        "south-ayrshire",
+        "east-ayrshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -6973,14 +6973,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "south-ayrshire",
-        "aberdeen-city",
         "scottish-borders",
-        "midlothian",
-        "moray",
-        "cairngorms-national-park",
+        "falkirk",
+        "aberdeen-city",
+        "argyll-and-bute",
         "aberdeenshire",
-        "shetland-islands"
+        "east-dunbartonshire",
+        "moray",
+        "cairngorms-national-park"
       ],
       "scenarios": [
         "planning-permission",
@@ -7002,14 +7002,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "angus",
-        "aberdeen-city",
-        "dundee-city",
-        "aberdeenshire",
-        "glasgow-city",
-        "falkirk",
         "loch-lomond-and-the-trossachs-national-park",
-        "north-ayrshire"
+        "aberdeen-city",
+        "north-ayrshire",
+        "south-lanarkshire",
+        "dundee-city",
+        "scottish-borders",
+        "comhairle-nan-eilean-siar",
+        "south-ayrshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -7031,14 +7031,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "perth-and-kinross",
-        "aberdeen-city",
-        "north-ayrshire",
-        "south-lanarkshire",
-        "stirling",
         "midlothian",
-        "south-ayrshire",
-        "falkirk"
+        "east-dunbartonshire",
+        "orkney-islands",
+        "south-lanarkshire",
+        "dumfries-and-galloway",
+        "east-renfrewshire",
+        "north-lanarkshire",
+        "highland"
       ],
       "scenarios": [
         "planning-permission",
@@ -7060,14 +7060,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "fife",
+        "south-lanarkshire",
+        "shetland-islands",
+        "north-ayrshire",
+        "west-lothian",
         "scottish-borders",
-        "comhairle-nan-eilean-siar",
-        "stirling",
-        "glasgow-city",
-        "east-lothian",
-        "south-ayrshire",
-        "falkirk",
-        "cairngorms-national-park"
+        "north-lanarkshire",
+        "inverclyde"
       ],
       "scenarios": [
         "planning-permission",
@@ -7089,14 +7089,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "aberdeen-city",
         "west-lothian",
-        "city-of-edinburgh",
-        "moray",
-        "inverclyde",
         "midlothian",
-        "east-dunbartonshire",
+        "south-lanarkshire",
         "scottish-borders",
-        "argyll-and-bute"
+        "falkirk",
+        "south-ayrshire",
+        "east-lothian"
       ],
       "scenarios": [
         "planning-permission",
@@ -7118,14 +7118,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "city-of-edinburgh",
+        "renfrewshire",
+        "west-lothian",
+        "comhairle-nan-eilean-siar",
         "north-ayrshire",
-        "moray",
         "clackmannanshire",
-        "falkirk",
-        "cairngorms-national-park",
-        "east-lothian",
-        "west-lothian"
+        "argyll-and-bute",
+        "dumfries-and-galloway",
+        "falkirk"
       ],
       "scenarios": [
         "planning-permission",
@@ -7147,14 +7147,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "south-lanarkshire",
         "argyll-and-bute",
-        "city-of-edinburgh",
+        "shetland-islands",
+        "glasgow-city",
         "highland",
-        "aberdeenshire",
+        "west-dunbartonshire",
         "fife",
-        "midlothian",
-        "north-ayrshire",
-        "clackmannanshire"
+        "moray"
       ],
       "scenarios": [
         "planning-permission",
@@ -7176,14 +7176,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "angus",
-        "perth-and-kinross",
-        "east-dunbartonshire",
-        "moray",
-        "highland",
-        "falkirk",
-        "shetland-islands",
-        "loch-lomond-and-the-trossachs-national-park"
+        "south-ayrshire",
+        "south-lanarkshire",
+        "stirling",
+        "glasgow-city",
+        "west-lothian",
+        "dumfries-and-galloway",
+        "dundee-city",
+        "argyll-and-bute"
       ],
       "scenarios": [
         "planning-permission",
@@ -7205,14 +7205,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "falkirk",
         "south-lanarkshire",
-        "dundee-city",
-        "perth-and-kinross",
-        "stirling",
-        "east-dunbartonshire",
+        "cairngorms-national-park",
         "north-lanarkshire",
-        "east-ayrshire"
+        "comhairle-nan-eilean-siar",
+        "scottish-borders",
+        "west-dunbartonshire",
+        "falkirk",
+        "orkney-islands"
       ],
       "scenarios": [
         "planning-permission",
@@ -7234,14 +7234,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-ayrshire",
-        "glasgow-city",
-        "east-renfrewshire",
-        "highland",
-        "stirling",
-        "aberdeenshire",
-        "comhairle-nan-eilean-siar",
-        "east-lothian"
+        "east-lothian",
+        "west-dunbartonshire",
+        "argyll-and-bute",
+        "north-lanarkshire",
+        "orkney-islands",
+        "perth-and-kinross",
+        "angus",
+        "comhairle-nan-eilean-siar"
       ],
       "scenarios": [
         "planning-permission",
@@ -7263,14 +7263,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "dumfries-and-galloway",
-        "midlothian",
-        "renfrewshire",
-        "north-ayrshire",
         "orkney-islands",
-        "west-lothian",
-        "angus",
-        "glasgow-city"
+        "falkirk",
+        "glasgow-city",
+        "highland",
+        "dumfries-and-galloway",
+        "north-ayrshire",
+        "clackmannanshire",
+        "shetland-islands"
       ],
       "scenarios": [
         "planning-permission",
@@ -7292,14 +7292,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "aberdeen-city",
-        "dumfries-and-galloway",
-        "south-ayrshire",
-        "north-lanarkshire",
+        "falkirk",
         "cairngorms-national-park",
-        "midlothian",
-        "dundee-city",
-        "east-renfrewshire"
+        "stirling",
+        "inverclyde",
+        "angus",
+        "loch-lomond-and-the-trossachs-national-park",
+        "clackmannanshire",
+        "east-lothian"
       ],
       "scenarios": [
         "planning-permission",
@@ -7321,14 +7321,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "comhairle-nan-eilean-siar",
-        "aberdeenshire",
-        "perth-and-kinross",
-        "renfrewshire",
-        "angus",
-        "falkirk",
-        "stirling",
-        "west-dunbartonshire"
+        "aberdeen-city",
+        "dumfries-and-galloway",
+        "east-dunbartonshire",
+        "shetland-islands",
+        "south-ayrshire",
+        "city-of-edinburgh",
+        "east-renfrewshire",
+        "stirling"
       ],
       "scenarios": [
         "planning-permission",
@@ -7350,14 +7350,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "stirling",
-        "orkney-islands",
+        "south-ayrshire",
         "city-of-edinburgh",
-        "west-dunbartonshire",
-        "east-renfrewshire",
-        "fife",
-        "clackmannanshire",
-        "dumfries-and-galloway"
+        "comhairle-nan-eilean-siar",
+        "argyll-and-bute",
+        "cairngorms-national-park",
+        "west-lothian",
+        "dumfries-and-galloway",
+        "clackmannanshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -7379,14 +7379,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "orkney-islands",
-        "east-lothian",
-        "stirling",
-        "comhairle-nan-eilean-siar",
-        "perth-and-kinross",
-        "east-renfrewshire",
+        "loch-lomond-and-the-trossachs-national-park",
+        "highland",
+        "inverclyde",
+        "north-ayrshire",
         "moray",
-        "north-ayrshire"
+        "east-dunbartonshire",
+        "clackmannanshire",
+        "west-lothian"
       ],
       "scenarios": [
         "planning-permission",
@@ -7408,14 +7408,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "orkney-islands",
         "city-of-edinburgh",
-        "dundee-city",
-        "north-lanarkshire",
-        "cairngorms-national-park",
-        "shetland-islands",
+        "east-ayrshire",
+        "north-ayrshire",
+        "glasgow-city",
         "inverclyde",
-        "south-lanarkshire"
+        "south-lanarkshire",
+        "aberdeen-city",
+        "renfrewshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -7437,14 +7437,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "perth-and-kinross",
         "west-lothian",
-        "renfrewshire",
-        "angus",
         "south-lanarkshire",
-        "loch-lomond-and-the-trossachs-national-park",
-        "glasgow-city",
-        "east-ayrshire"
+        "highland",
+        "stirling",
+        "aberdeen-city",
+        "falkirk",
+        "cairngorms-national-park",
+        "midlothian"
       ],
       "scenarios": [
         "planning-permission",
@@ -7466,14 +7466,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "dumfries-and-galloway",
-        "clackmannanshire",
-        "renfrewshire",
-        "shetland-islands",
+        "dundee-city",
         "perth-and-kinross",
-        "south-lanarkshire",
-        "comhairle-nan-eilean-siar",
-        "city-of-edinburgh"
+        "cairngorms-national-park",
+        "shetland-islands",
+        "renfrewshire",
+        "highland",
+        "west-lothian",
+        "west-dunbartonshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -7495,14 +7495,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "dundee-city",
+        "east-dunbartonshire",
+        "north-lanarkshire",
+        "inverclyde",
+        "south-ayrshire",
+        "west-lothian",
         "moray",
-        "falkirk",
-        "perth-and-kinross",
-        "city-of-edinburgh",
-        "east-renfrewshire",
-        "renfrewshire",
-        "loch-lomond-and-the-trossachs-national-park"
+        "west-dunbartonshire",
+        "aberdeen-city"
       ],
       "scenarios": [
         "planning-permission",
@@ -7524,14 +7524,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-dunbartonshire",
-        "west-dunbartonshire",
-        "east-lothian",
-        "north-ayrshire",
         "fife",
-        "aberdeen-city",
+        "angus",
+        "south-lanarkshire",
+        "scottish-borders",
         "glasgow-city",
-        "east-renfrewshire"
+        "dundee-city",
+        "falkirk",
+        "highland"
       ],
       "scenarios": [
         "planning-permission",
@@ -7553,14 +7553,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "loch-lomond-and-the-trossachs-national-park",
         "perth-and-kinross",
-        "highland",
-        "orkney-islands",
-        "west-dunbartonshire",
-        "angus",
+        "north-lanarkshire",
+        "moray",
         "west-lothian",
-        "cairngorms-national-park",
-        "south-ayrshire"
+        "east-ayrshire",
+        "dundee-city",
+        "falkirk"
       ],
       "scenarios": [
         "planning-permission",
@@ -7582,14 +7582,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "moray",
-        "south-lanarkshire",
-        "west-dunbartonshire",
-        "orkney-islands",
+        "perth-and-kinross",
+        "cairngorms-national-park",
+        "east-dunbartonshire",
+        "aberdeenshire",
+        "aberdeen-city",
+        "renfrewshire",
         "glasgow-city",
-        "angus",
-        "east-renfrewshire",
-        "perth-and-kinross"
+        "shetland-islands"
       ],
       "scenarios": [
         "planning-permission",
@@ -7611,14 +7611,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "highland",
-        "east-ayrshire",
-        "comhairle-nan-eilean-siar",
-        "south-lanarkshire",
+        "fife",
+        "loch-lomond-and-the-trossachs-national-park",
+        "east-renfrewshire",
+        "aberdeen-city",
+        "glasgow-city",
         "moray",
-        "perth-and-kinross",
-        "south-ayrshire",
-        "scottish-borders"
+        "cairngorms-national-park",
+        "perth-and-kinross"
       ],
       "scenarios": [
         "planning-permission",
@@ -7640,14 +7640,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "south-lanarkshire",
-        "inverclyde",
-        "cairngorms-national-park",
-        "midlothian",
-        "renfrewshire",
-        "east-renfrewshire",
+        "stirling",
+        "comhairle-nan-eilean-siar",
+        "city-of-edinburgh",
         "aberdeen-city",
-        "stirling"
+        "aberdeenshire",
+        "south-lanarkshire",
+        "moray",
+        "north-lanarkshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -7669,14 +7669,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-ayrshire",
-        "south-ayrshire",
-        "east-lothian",
-        "dumfries-and-galloway",
-        "east-dunbartonshire",
+        "cairngorms-national-park",
+        "falkirk",
+        "midlothian",
         "north-ayrshire",
-        "angus",
-        "west-lothian"
+        "east-lothian",
+        "moray",
+        "highland",
+        "east-dunbartonshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -7698,14 +7698,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "comhairle-nan-eilean-siar",
-        "loch-lomond-and-the-trossachs-national-park",
+        "orkney-islands",
+        "fife",
         "aberdeen-city",
-        "dundee-city",
         "scottish-borders",
-        "cairngorms-national-park",
-        "moray",
-        "south-lanarkshire"
+        "west-lothian",
+        "south-lanarkshire",
+        "city-of-edinburgh",
+        "east-ayrshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -7727,14 +7727,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "scottish-borders",
+        "west-lothian",
         "angus",
-        "loch-lomond-and-the-trossachs-national-park",
-        "city-of-edinburgh",
-        "stirling",
-        "argyll-and-bute",
-        "glasgow-city",
-        "inverclyde",
-        "south-lanarkshire"
+        "aberdeen-city",
+        "falkirk",
+        "dumfries-and-galloway",
+        "north-ayrshire",
+        "dundee-city"
       ],
       "scenarios": [
         "planning-permission",
@@ -7756,14 +7756,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "angus",
-        "orkney-islands",
-        "east-ayrshire",
-        "midlothian",
-        "aberdeen-city",
-        "cairngorms-national-park",
+        "moray",
+        "north-ayrshire",
+        "glasgow-city",
+        "argyll-and-bute",
         "fife",
-        "city-of-edinburgh"
+        "east-ayrshire",
+        "scottish-borders",
+        "comhairle-nan-eilean-siar"
       ],
       "scenarios": [
         "planning-permission",
@@ -7785,14 +7785,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "comhairle-nan-eilean-siar",
-        "falkirk",
-        "loch-lomond-and-the-trossachs-national-park",
-        "highland",
-        "north-ayrshire",
-        "angus",
+        "midlothian",
+        "perth-and-kinross",
         "shetland-islands",
-        "scottish-borders"
+        "inverclyde",
+        "east-dunbartonshire",
+        "west-dunbartonshire",
+        "south-ayrshire",
+        "fife"
       ],
       "scenarios": [
         "planning-permission",
@@ -7814,14 +7814,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-dunbartonshire",
-        "south-ayrshire",
-        "perth-and-kinross",
+        "aberdeen-city",
+        "highland",
+        "cairngorms-national-park",
         "west-lothian",
-        "dumfries-and-galloway",
-        "city-of-edinburgh",
-        "north-lanarkshire",
-        "shetland-islands"
+        "clackmannanshire",
+        "orkney-islands",
+        "west-dunbartonshire",
+        "midlothian"
       ],
       "scenarios": [
         "planning-permission",
@@ -7887,8 +7887,8 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bath-and-north-east-somerset",
-        "north-somerset"
+        "north-somerset",
+        "bath-and-north-east-somerset"
       ],
       "scenarios": [
         "planning-permission",
@@ -7956,14 +7956,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "lichfield",
-        "east-staffordshire",
+        "newcastle-under-lyme",
         "stoke-on-trent",
         "south-staffordshire",
         "tamworth",
-        "newcastle-under-lyme",
-        "staffordshire-moorlands",
-        "stafford"
+        "east-staffordshire",
+        "stafford",
+        "lichfield",
+        "staffordshire-moorlands"
       ],
       "scenarios": [
         "planning-permission",
@@ -7985,14 +7985,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "lichfield",
-        "stoke-on-trent",
         "newcastle-under-lyme",
-        "south-staffordshire",
-        "cannock-chase",
         "stafford",
+        "stoke-on-trent",
+        "staffordshire-moorlands",
         "tamworth",
-        "staffordshire-moorlands"
+        "south-staffordshire",
+        "lichfield",
+        "cannock-chase"
       ],
       "scenarios": [
         "planning-permission",
@@ -8014,14 +8014,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-staffordshire",
-        "stoke-on-trent",
         "tamworth",
-        "cannock-chase",
-        "south-staffordshire",
+        "stoke-on-trent",
         "newcastle-under-lyme",
+        "stafford",
+        "south-staffordshire",
+        "cannock-chase",
         "staffordshire-moorlands",
-        "stafford"
+        "east-staffordshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -8044,13 +8044,13 @@
       ],
       "nearby_councils": [
         "staffordshire-moorlands",
-        "stoke-on-trent",
-        "tamworth",
-        "stafford",
-        "lichfield",
         "south-staffordshire",
-        "cannock-chase",
-        "east-staffordshire"
+        "lichfield",
+        "east-staffordshire",
+        "stoke-on-trent",
+        "stafford",
+        "tamworth",
+        "cannock-chase"
       ],
       "scenarios": [
         "planning-permission",
@@ -8072,14 +8072,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-staffordshire",
-        "cannock-chase",
-        "stafford",
-        "tamworth",
-        "lichfield",
-        "newcastle-under-lyme",
         "stoke-on-trent",
-        "staffordshire-moorlands"
+        "staffordshire-moorlands",
+        "east-staffordshire",
+        "tamworth",
+        "stafford",
+        "newcastle-under-lyme",
+        "lichfield",
+        "cannock-chase"
       ],
       "scenarios": [
         "planning-permission",
@@ -8101,14 +8101,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "stoke-on-trent",
         "newcastle-under-lyme",
-        "south-staffordshire",
-        "east-staffordshire",
-        "lichfield",
-        "tamworth",
         "cannock-chase",
+        "south-staffordshire",
         "staffordshire-moorlands",
-        "stoke-on-trent"
+        "tamworth",
+        "east-staffordshire",
+        "lichfield"
       ],
       "scenarios": [
         "planning-permission",
@@ -8130,14 +8130,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "stafford",
-        "lichfield",
-        "newcastle-under-lyme",
-        "cannock-chase",
-        "east-staffordshire",
         "stoke-on-trent",
         "tamworth",
-        "south-staffordshire"
+        "newcastle-under-lyme",
+        "east-staffordshire",
+        "south-staffordshire",
+        "stafford",
+        "cannock-chase",
+        "lichfield"
       ],
       "scenarios": [
         "planning-permission",
@@ -8159,14 +8159,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "stoke-on-trent",
+        "stafford",
         "cannock-chase",
+        "staffordshire-moorlands",
         "south-staffordshire",
         "lichfield",
-        "stoke-on-trent",
         "east-staffordshire",
-        "newcastle-under-lyme",
-        "stafford",
-        "staffordshire-moorlands"
+        "newcastle-under-lyme"
       ],
       "scenarios": [
         "planning-permission",
@@ -8188,14 +8188,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "newcastle-under-lyme",
+        "south-staffordshire",
         "east-staffordshire",
-        "stafford",
+        "newcastle-under-lyme",
+        "lichfield",
         "cannock-chase",
         "tamworth",
-        "south-staffordshire",
-        "staffordshire-moorlands",
-        "lichfield"
+        "stafford",
+        "staffordshire-moorlands"
       ],
       "scenarios": [
         "planning-permission",
@@ -8217,8 +8217,8 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "west-suffolk",
         "east-suffolk",
+        "west-suffolk",
         "ipswich",
         "mid-suffolk"
       ],
@@ -8242,10 +8242,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "west-suffolk",
         "mid-suffolk",
         "babergh",
-        "ipswich",
-        "west-suffolk"
+        "ipswich"
       ],
       "scenarios": [
         "planning-permission",
@@ -8267,8 +8267,8 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "babergh",
         "east-suffolk",
+        "babergh",
         "west-suffolk",
         "ipswich"
       ],
@@ -8292,10 +8292,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "mid-suffolk",
+        "babergh",
         "ipswich",
-        "east-suffolk",
-        "babergh"
+        "mid-suffolk",
+        "east-suffolk"
       ],
       "scenarios": [
         "planning-permission",
@@ -8317,10 +8317,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "east-suffolk",
         "mid-suffolk",
-        "west-suffolk",
-        "babergh"
+        "east-suffolk",
+        "babergh",
+        "west-suffolk"
       ],
       "scenarios": [
         "planning-permission",
@@ -8342,14 +8342,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "woking",
-        "epsom-and-ewell",
-        "spelthorne",
-        "guildford",
-        "reigate-and-banstead",
         "waverley",
+        "tandridge",
         "mole-valley",
-        "runnymede"
+        "reigate-and-banstead",
+        "runnymede",
+        "surrey-heath",
+        "guildford",
+        "spelthorne"
       ],
       "scenarios": [
         "planning-permission",
@@ -8371,14 +8371,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "guildford",
-        "woking",
-        "surrey-heath",
-        "elmbridge",
-        "mole-valley",
         "runnymede",
+        "surrey-heath",
+        "mole-valley",
         "tandridge",
-        "waverley"
+        "spelthorne",
+        "guildford",
+        "reigate-and-banstead",
+        "woking"
       ],
       "scenarios": [
         "planning-permission",
@@ -8400,14 +8400,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "spelthorne",
-        "waverley",
         "epsom-and-ewell",
-        "woking",
-        "mole-valley",
-        "runnymede",
+        "spelthorne",
+        "elmbridge",
+        "waverley",
         "reigate-and-banstead",
-        "tandridge"
+        "runnymede",
+        "woking",
+        "mole-valley"
       ],
       "scenarios": [
         "planning-permission",
@@ -8429,14 +8429,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "tandridge",
-        "surrey-heath",
         "epsom-and-ewell",
-        "waverley",
-        "elmbridge",
-        "guildford",
+        "surrey-heath",
+        "tandridge",
+        "woking",
         "reigate-and-banstead",
-        "runnymede"
+        "waverley",
+        "guildford",
+        "spelthorne"
       ],
       "scenarios": [
         "planning-permission",
@@ -8458,14 +8458,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "elmbridge",
-        "epsom-and-ewell",
-        "mole-valley",
-        "waverley",
         "surrey-heath",
+        "mole-valley",
+        "guildford",
+        "woking",
         "runnymede",
+        "elmbridge",
         "tandridge",
-        "woking"
+        "spelthorne"
       ],
       "scenarios": [
         "planning-permission",
@@ -8487,14 +8487,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "spelthorne",
+        "reigate-and-banstead",
         "waverley",
+        "tandridge",
+        "woking",
         "surrey-heath",
         "elmbridge",
-        "mole-valley",
-        "guildford",
         "epsom-and-ewell",
-        "reigate-and-banstead"
+        "mole-valley"
       ],
       "scenarios": [
         "planning-permission",
@@ -8516,14 +8516,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "waverley",
-        "surrey-heath",
-        "elmbridge",
         "guildford",
-        "runnymede",
-        "mole-valley",
         "epsom-and-ewell",
-        "reigate-and-banstead"
+        "tandridge",
+        "surrey-heath",
+        "reigate-and-banstead",
+        "elmbridge",
+        "runnymede",
+        "woking"
       ],
       "scenarios": [
         "planning-permission",
@@ -8545,14 +8545,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "spelthorne",
         "mole-valley",
-        "runnymede",
-        "reigate-and-banstead",
-        "tandridge",
+        "guildford",
         "waverley",
         "woking",
-        "guildford"
+        "tandridge",
+        "runnymede",
+        "epsom-and-ewell",
+        "spelthorne"
       ],
       "scenarios": [
         "planning-permission",
@@ -8574,14 +8574,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "woking",
-        "mole-valley",
         "waverley",
         "reigate-and-banstead",
-        "surrey-heath",
         "elmbridge",
+        "woking",
+        "spelthorne",
         "epsom-and-ewell",
-        "guildford"
+        "runnymede",
+        "mole-valley"
       ],
       "scenarios": [
         "planning-permission",
@@ -8603,14 +8603,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "spelthorne",
         "surrey-heath",
-        "epsom-and-ewell",
+        "spelthorne",
         "tandridge",
-        "guildford",
-        "elmbridge",
+        "woking",
         "runnymede",
-        "mole-valley"
+        "guildford",
+        "epsom-and-ewell",
+        "elmbridge"
       ],
       "scenarios": [
         "planning-permission",
@@ -8632,14 +8632,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "reigate-and-banstead",
-        "tandridge",
-        "mole-valley",
-        "epsom-and-ewell",
         "elmbridge",
+        "reigate-and-banstead",
         "waverley",
-        "surrey-heath",
-        "runnymede"
+        "guildford",
+        "spelthorne",
+        "runnymede",
+        "tandridge",
+        "surrey-heath"
       ],
       "scenarios": [
         "planning-permission",
@@ -8661,10 +8661,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "south-tyneside",
+        "sunderland",
         "newcastle-upon-tyne",
         "north-tyneside",
-        "sunderland"
+        "south-tyneside"
       ],
       "scenarios": [
         "planning-permission",
@@ -8688,8 +8688,8 @@
       "nearby_councils": [
         "gateshead",
         "south-tyneside",
-        "sunderland",
-        "north-tyneside"
+        "north-tyneside",
+        "sunderland"
       ],
       "scenarios": [
         "planning-permission",
@@ -8711,10 +8711,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "newcastle-upon-tyne",
-        "south-tyneside",
         "gateshead",
-        "sunderland"
+        "sunderland",
+        "south-tyneside",
+        "newcastle-upon-tyne"
       ],
       "scenarios": [
         "planning-permission",
@@ -8736,10 +8736,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "north-tyneside",
         "newcastle-upon-tyne",
-        "sunderland",
         "gateshead",
-        "north-tyneside"
+        "sunderland"
       ],
       "scenarios": [
         "planning-permission",
@@ -8761,9 +8761,9 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "newcastle-upon-tyne",
         "south-tyneside",
         "gateshead",
-        "newcastle-upon-tyne",
         "north-tyneside"
       ],
       "scenarios": [
@@ -8786,14 +8786,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "rhondda-cynon-taf",
-        "conwy",
-        "eryri-national-park",
-        "flintshire",
-        "bannau-brycheiniog-national-park",
+        "merthyr-tydfil",
+        "cardiff",
+        "newport",
+        "gwynedd",
         "swansea",
-        "powys",
-        "torfaen"
+        "vale-of-glamorgan",
+        "conwy",
+        "bannau-brycheiniog-national-park"
       ],
       "scenarios": [
         "planning-permission",
@@ -8815,14 +8815,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "rhondda-cynon-taf",
-        "flintshire",
-        "bannau-brycheiniog-national-park",
-        "isle-of-anglesey",
-        "newport",
-        "denbighshire",
-        "bridgend",
-        "powys"
+        "conwy",
+        "cardiff",
+        "blaenau-gwent",
+        "eryri-national-park",
+        "caerphilly",
+        "pembrokeshire",
+        "vale-of-glamorgan",
+        "isle-of-anglesey"
       ],
       "scenarios": [
         "planning-permission",
@@ -8844,14 +8844,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "denbighshire",
-        "monmouthshire",
-        "merthyr-tydfil",
-        "bridgend",
-        "eryri-national-park",
-        "gwynedd",
+        "caerphilly",
+        "powys",
+        "pembrokeshire",
+        "pembrokeshire-coast-national-park",
         "carmarthenshire",
-        "vale-of-glamorgan"
+        "monmouthshire",
+        "cardiff",
+        "torfaen"
       ],
       "scenarios": [
         "planning-permission",
@@ -8873,14 +8873,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "gwynedd",
+        "flintshire",
         "powys",
+        "vale-of-glamorgan",
         "torfaen",
-        "rhondda-cynon-taf",
-        "cardiff",
         "carmarthenshire",
-        "wrexham",
-        "eryri-national-park",
-        "caerphilly"
+        "conwy",
+        "bannau-brycheiniog-national-park"
       ],
       "scenarios": [
         "planning-permission",
@@ -8902,14 +8902,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bridgend",
-        "ceredigion",
-        "neath-port-talbot",
-        "pembrokeshire-coast-national-park",
+        "rhondda-cynon-taf",
         "gwynedd",
-        "carmarthenshire",
-        "blaenau-gwent",
-        "conwy"
+        "monmouthshire",
+        "powys",
+        "bannau-brycheiniog-national-park",
+        "isle-of-anglesey",
+        "caerphilly",
+        "carmarthenshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -8931,14 +8931,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "monmouthshire",
         "isle-of-anglesey",
-        "blaenau-gwent",
-        "rhondda-cynon-taf",
-        "bridgend",
         "denbighshire",
-        "neath-port-talbot",
-        "ceredigion"
+        "cardiff",
+        "powys",
+        "flintshire",
+        "newport",
+        "gwynedd",
+        "rhondda-cynon-taf"
       ],
       "scenarios": [
         "planning-permission",
@@ -8960,14 +8960,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bridgend",
+        "swansea",
         "pembrokeshire-coast-national-park",
-        "monmouthshire",
-        "neath-port-talbot",
-        "rhondda-cynon-taf",
+        "torfaen",
+        "gwynedd",
+        "blaenau-gwent",
         "wrexham",
-        "eryri-national-park",
-        "powys"
+        "pembrokeshire",
+        "caerphilly"
       ],
       "scenarios": [
         "planning-permission",
@@ -8989,14 +8989,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "blaenau-gwent",
-        "merthyr-tydfil",
-        "caerphilly",
-        "bridgend",
-        "flintshire",
-        "vale-of-glamorgan",
+        "pembrokeshire-coast-national-park",
         "pembrokeshire",
-        "gwynedd"
+        "denbighshire",
+        "blaenau-gwent",
+        "monmouthshire",
+        "bannau-brycheiniog-national-park",
+        "newport",
+        "isle-of-anglesey"
       ],
       "scenarios": [
         "planning-permission",
@@ -9018,14 +9018,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "neath-port-talbot",
-        "cardiff",
-        "conwy",
-        "isle-of-anglesey",
-        "vale-of-glamorgan",
-        "carmarthenshire",
-        "gwynedd",
-        "monmouthshire"
+        "rhondda-cynon-taf",
+        "eryri-national-park",
+        "ceredigion",
+        "pembrokeshire-coast-national-park",
+        "bannau-brycheiniog-national-park",
+        "bridgend",
+        "monmouthshire",
+        "neath-port-talbot"
       ],
       "scenarios": [
         "planning-permission",
@@ -9047,14 +9047,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "wrexham",
-        "powys",
-        "newport",
-        "bannau-brycheiniog-national-park",
-        "gwynedd",
+        "rhondda-cynon-taf",
+        "isle-of-anglesey",
         "flintshire",
-        "pembrokeshire",
-        "caerphilly"
+        "pembrokeshire-coast-national-park",
+        "vale-of-glamorgan",
+        "denbighshire",
+        "ceredigion",
+        "eryri-national-park"
       ],
       "scenarios": [
         "planning-permission",
@@ -9076,14 +9076,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "carmarthenshire",
-        "pembrokeshire",
-        "bridgend",
-        "eryri-national-park",
         "isle-of-anglesey",
-        "cardiff",
-        "conwy",
-        "bannau-brycheiniog-national-park"
+        "newport",
+        "ceredigion",
+        "pembrokeshire",
+        "denbighshire",
+        "flintshire",
+        "vale-of-glamorgan",
+        "pembrokeshire-coast-national-park"
       ],
       "scenarios": [
         "planning-permission",
@@ -9105,14 +9105,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "isle-of-anglesey",
-        "flintshire",
-        "bridgend",
-        "cardiff",
-        "eryri-national-park",
-        "denbighshire",
-        "newport",
-        "ceredigion"
+        "rhondda-cynon-taf",
+        "caerphilly",
+        "powys",
+        "wrexham",
+        "carmarthenshire",
+        "pembrokeshire-coast-national-park",
+        "gwynedd",
+        "vale-of-glamorgan"
       ],
       "scenarios": [
         "planning-permission",
@@ -9134,14 +9134,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "wrexham",
-        "torfaen",
+        "pembrokeshire",
+        "pembrokeshire-coast-national-park",
+        "vale-of-glamorgan",
         "conwy",
-        "isle-of-anglesey",
-        "neath-port-talbot",
-        "merthyr-tydfil",
-        "monmouthshire",
-        "swansea"
+        "denbighshire",
+        "wrexham",
+        "ceredigion",
+        "isle-of-anglesey"
       ],
       "scenarios": [
         "planning-permission",
@@ -9163,14 +9163,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "gwynedd",
-        "caerphilly",
-        "bannau-brycheiniog-national-park",
-        "newport",
-        "neath-port-talbot",
-        "eryri-national-park",
         "pembrokeshire",
-        "carmarthenshire"
+        "flintshire",
+        "merthyr-tydfil",
+        "wrexham",
+        "neath-port-talbot",
+        "conwy",
+        "powys",
+        "bridgend"
       ],
       "scenarios": [
         "planning-permission",
@@ -9192,14 +9192,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "wrexham",
+        "monmouthshire",
+        "isle-of-anglesey",
+        "bannau-brycheiniog-national-park",
         "rhondda-cynon-taf",
-        "ceredigion",
-        "vale-of-glamorgan",
-        "torfaen",
         "merthyr-tydfil",
-        "pembrokeshire-coast-national-park",
-        "denbighshire"
+        "caerphilly",
+        "vale-of-glamorgan",
+        "neath-port-talbot"
       ],
       "scenarios": [
         "planning-permission",
@@ -9221,14 +9221,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "ceredigion",
+        "torfaen",
+        "powys",
         "bannau-brycheiniog-national-park",
-        "gwynedd",
-        "merthyr-tydfil",
-        "neath-port-talbot",
-        "caerphilly",
+        "monmouthshire",
+        "pembrokeshire-coast-national-park",
         "vale-of-glamorgan",
-        "pembrokeshire-coast-national-park"
+        "gwynedd",
+        "bridgend"
       ],
       "scenarios": [
         "planning-permission",
@@ -9251,13 +9251,13 @@
       ],
       "nearby_councils": [
         "gwynedd",
-        "denbighshire",
-        "wrexham",
+        "flintshire",
         "cardiff",
         "eryri-national-park",
-        "caerphilly",
-        "pembrokeshire",
-        "rhondda-cynon-taf"
+        "wrexham",
+        "newport",
+        "carmarthenshire",
+        "pembrokeshire-coast-national-park"
       ],
       "scenarios": [
         "planning-permission",
@@ -9279,14 +9279,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "cardiff",
+        "neath-port-talbot",
+        "blaenau-gwent",
+        "swansea",
+        "bannau-brycheiniog-national-park",
+        "pembrokeshire",
         "vale-of-glamorgan",
         "denbighshire",
-        "monmouthshire",
-        "neath-port-talbot",
-        "pembrokeshire-coast-national-park",
-        "gwynedd",
-        "powys"
+        "gwynedd"
       ],
       "scenarios": [
         "planning-permission",
@@ -9308,14 +9308,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "merthyr-tydfil",
-        "cardiff",
+        "flintshire",
+        "newport",
         "rhondda-cynon-taf",
-        "denbighshire",
-        "torfaen",
-        "caerphilly",
         "conwy",
-        "flintshire"
+        "merthyr-tydfil",
+        "caerphilly",
+        "swansea",
+        "neath-port-talbot"
       ],
       "scenarios": [
         "planning-permission",
@@ -9337,14 +9337,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "neath-port-talbot",
-        "pembrokeshire-coast-national-park",
-        "rhondda-cynon-taf",
-        "carmarthenshire",
-        "ceredigion",
-        "blaenau-gwent",
-        "powys",
-        "bridgend"
+        "wrexham",
+        "cardiff",
+        "isle-of-anglesey",
+        "monmouthshire",
+        "merthyr-tydfil",
+        "denbighshire",
+        "newport",
+        "carmarthenshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -9366,14 +9366,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "pembrokeshire",
-        "gwynedd",
-        "neath-port-talbot",
         "blaenau-gwent",
-        "flintshire",
-        "torfaen",
+        "cardiff",
+        "carmarthenshire",
+        "caerphilly",
         "bannau-brycheiniog-national-park",
-        "wrexham"
+        "newport",
+        "ceredigion",
+        "pembrokeshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -9395,14 +9395,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "denbighshire",
+        "powys",
+        "monmouthshire",
         "merthyr-tydfil",
-        "carmarthenshire",
-        "vale-of-glamorgan",
-        "torfaen",
         "caerphilly",
-        "rhondda-cynon-taf",
-        "pembrokeshire"
+        "cardiff",
+        "neath-port-talbot",
+        "pembrokeshire-coast-national-park",
+        "isle-of-anglesey"
       ],
       "scenarios": [
         "planning-permission",
@@ -9424,14 +9424,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "blaenau-gwent",
-        "monmouthshire",
-        "bridgend",
-        "denbighshire",
-        "swansea",
+        "pembrokeshire",
+        "carmarthenshire",
         "rhondda-cynon-taf",
-        "flintshire",
-        "eryri-national-park"
+        "isle-of-anglesey",
+        "gwynedd",
+        "vale-of-glamorgan",
+        "blaenau-gwent",
+        "torfaen"
       ],
       "scenarios": [
         "planning-permission",
@@ -9453,14 +9453,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "powys",
+        "blaenau-gwent",
+        "rhondda-cynon-taf",
+        "merthyr-tydfil",
+        "caerphilly",
         "flintshire",
-        "wrexham",
-        "pembrokeshire",
-        "torfaen",
-        "bridgend",
-        "gwynedd",
-        "vale-of-glamorgan"
+        "newport",
+        "ceredigion",
+        "conwy"
       ],
       "scenarios": [
         "planning-permission",
@@ -9482,14 +9482,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "neath-port-talbot",
-        "merthyr-tydfil",
-        "monmouthshire",
-        "torfaen",
-        "bannau-brycheiniog-national-park",
+        "blaenau-gwent",
+        "gwynedd",
         "cardiff",
-        "powys",
-        "denbighshire"
+        "wrexham",
+        "bannau-brycheiniog-national-park",
+        "denbighshire",
+        "flintshire",
+        "pembrokeshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -9512,9 +9512,9 @@
       ],
       "nearby_councils": [
         "rugby",
-        "nuneaton-and-bedworth",
         "warwick",
-        "stratford-on-avon"
+        "stratford-on-avon",
+        "nuneaton-and-bedworth"
       ],
       "scenarios": [
         "planning-permission",
@@ -9536,9 +9536,9 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-warwickshire",
         "warwick",
         "stratford-on-avon",
+        "north-warwickshire",
         "rugby"
       ],
       "scenarios": [
@@ -9562,9 +9562,9 @@
       ],
       "nearby_councils": [
         "nuneaton-and-bedworth",
-        "north-warwickshire",
         "stratford-on-avon",
-        "warwick"
+        "warwick",
+        "north-warwickshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -9586,10 +9586,10 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "rugby",
-        "nuneaton-and-bedworth",
         "warwick",
-        "north-warwickshire"
+        "nuneaton-and-bedworth",
+        "north-warwickshire",
+        "rugby"
       ],
       "scenarios": [
         "planning-permission",
@@ -9636,11 +9636,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "arun",
-        "mid-sussex",
         "crawley",
-        "worthing",
+        "mid-sussex",
         "chichester",
+        "arun",
+        "worthing",
         "horsham"
       ],
       "scenarios": [
@@ -9663,12 +9663,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "mid-sussex",
         "crawley",
-        "worthing",
+        "adur",
+        "mid-sussex",
         "horsham",
-        "chichester",
-        "adur"
+        "worthing",
+        "chichester"
       ],
       "scenarios": [
         "planning-permission",
@@ -9690,12 +9690,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "arun",
         "worthing",
-        "adur",
-        "crawley",
+        "arun",
         "mid-sussex",
-        "horsham"
+        "crawley",
+        "horsham",
+        "adur"
       ],
       "scenarios": [
         "planning-permission",
@@ -9717,12 +9717,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "chichester",
-        "arun",
-        "worthing",
         "adur",
         "mid-sussex",
-        "horsham"
+        "horsham",
+        "arun",
+        "chichester",
+        "worthing"
       ],
       "scenarios": [
         "planning-permission",
@@ -9744,12 +9744,12 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "chichester",
+        "adur",
+        "crawley",
         "worthing",
         "arun",
-        "mid-sussex",
-        "adur",
-        "crawley"
+        "chichester",
+        "mid-sussex"
       ],
       "scenarios": [
         "planning-permission",
@@ -9772,10 +9772,10 @@
       ],
       "nearby_councils": [
         "horsham",
-        "adur",
         "worthing",
-        "crawley",
+        "adur",
         "chichester",
+        "crawley",
         "arun"
       ],
       "scenarios": [
@@ -9798,11 +9798,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "mid-sussex",
-        "crawley",
         "chichester",
+        "crawley",
         "adur",
         "arun",
+        "mid-sussex",
         "horsham"
       ],
       "scenarios": [
@@ -9870,10 +9870,10 @@
       ],
       "nearby_councils": [
         "worcester",
-        "wyre-forest",
-        "malvern-hills",
         "wychavon",
-        "redditch"
+        "redditch",
+        "malvern-hills",
+        "wyre-forest"
       ],
       "scenarios": [
         "planning-permission",
@@ -9895,11 +9895,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "worcester",
         "wyre-forest",
-        "redditch",
         "bromsgrove",
-        "wychavon",
-        "worcester"
+        "redditch",
+        "wychavon"
       ],
       "scenarios": [
         "planning-permission",
@@ -9921,11 +9921,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "malvern-hills",
-        "wyre-forest",
-        "worcester",
         "bromsgrove",
-        "wychavon"
+        "wychavon",
+        "worcester",
+        "malvern-hills",
+        "wyre-forest"
       ],
       "scenarios": [
         "planning-permission",
@@ -9947,11 +9947,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bromsgrove",
-        "wychavon",
+        "malvern-hills",
         "wyre-forest",
         "redditch",
-        "malvern-hills"
+        "wychavon",
+        "bromsgrove"
       ],
       "scenarios": [
         "planning-permission",
@@ -9973,11 +9973,11 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bromsgrove",
-        "malvern-hills",
+        "wyre-forest",
         "worcester",
         "redditch",
-        "wyre-forest"
+        "malvern-hills",
+        "bromsgrove"
       ],
       "scenarios": [
         "planning-permission",
@@ -9999,9 +9999,9 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "redditch",
-        "worcester",
         "wychavon",
+        "worcester",
+        "redditch",
         "malvern-hills",
         "bromsgrove"
       ],
@@ -10025,14 +10025,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "redcar-and-cleveland",
-        "doncaster",
-        "hull",
+        "kirklees",
+        "rotherham",
+        "leeds",
+        "east-riding-of-yorkshire",
         "north-yorkshire",
-        "bradford",
-        "calderdale",
-        "wakefield",
-        "york"
+        "doncaster",
+        "sheffield",
+        "middlesbrough"
       ],
       "scenarios": [
         "planning-permission",
@@ -10054,14 +10054,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "rotherham",
-        "doncaster",
-        "calderdale",
-        "stockton-on-tees",
         "barnsley",
         "wakefield",
         "york",
-        "redcar-and-cleveland"
+        "leeds",
+        "kirklees",
+        "calderdale",
+        "north-yorkshire",
+        "middlesbrough"
       ],
       "scenarios": [
         "planning-permission",
@@ -10083,14 +10083,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "barnsley",
-        "leeds",
-        "east-riding-of-yorkshire",
-        "hull",
         "middlesbrough",
-        "north-yorkshire",
-        "york",
-        "wakefield"
+        "rotherham",
+        "doncaster",
+        "wakefield",
+        "hull",
+        "leeds",
+        "stockton-on-tees",
+        "north-yorkshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -10112,14 +10112,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "redcar-and-cleveland",
-        "wakefield",
-        "hull",
+        "sheffield",
+        "york",
         "middlesbrough",
-        "rotherham",
+        "stockton-on-tees",
+        "redcar-and-cleveland",
         "east-riding-of-yorkshire",
-        "kirklees",
-        "york"
+        "north-yorkshire",
+        "rotherham"
       ],
       "scenarios": [
         "planning-permission",
@@ -10141,14 +10141,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "barnsley",
-        "stockton-on-tees",
-        "redcar-and-cleveland",
+        "rotherham",
+        "calderdale",
+        "north-yorkshire",
+        "east-riding-of-yorkshire",
+        "bradford",
         "hull",
-        "sheffield",
-        "leeds",
-        "york",
-        "north-yorkshire"
+        "wakefield",
+        "redcar-and-cleveland"
       ],
       "scenarios": [
         "planning-permission",
@@ -10170,14 +10170,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "redcar-and-cleveland",
+        "wakefield",
+        "kirklees",
         "doncaster",
-        "hull",
-        "calderdale",
-        "york",
         "stockton-on-tees",
         "bradford",
         "middlesbrough",
-        "sheffield"
+        "rotherham"
       ],
       "scenarios": [
         "planning-permission",
@@ -10199,14 +10199,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bradford",
-        "kirklees",
-        "sheffield",
-        "york",
         "east-riding-of-yorkshire",
+        "kirklees",
+        "york",
         "wakefield",
         "hull",
-        "north-yorkshire"
+        "bradford",
+        "sheffield",
+        "leeds"
       ],
       "scenarios": [
         "planning-permission",
@@ -10228,14 +10228,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hull",
-        "kirklees",
-        "middlesbrough",
-        "doncaster",
+        "wakefield",
         "north-yorkshire",
+        "stockton-on-tees",
         "barnsley",
         "rotherham",
-        "calderdale"
+        "leeds",
+        "hull",
+        "bradford"
       ],
       "scenarios": [
         "planning-permission",
@@ -10257,14 +10257,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
+        "doncaster",
+        "north-yorkshire",
+        "sheffield",
+        "bradford",
         "rotherham",
-        "leeds",
         "hull",
-        "barnsley",
-        "kirklees",
-        "east-riding-of-yorkshire",
-        "york",
-        "sheffield"
+        "stockton-on-tees",
+        "barnsley"
       ],
       "scenarios": [
         "planning-permission",
@@ -10286,14 +10286,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "north-yorkshire",
-        "sheffield",
+        "bradford",
         "kirklees",
-        "doncaster",
-        "stockton-on-tees",
-        "rotherham",
         "calderdale",
-        "bradford"
+        "wakefield",
+        "sheffield",
+        "east-riding-of-yorkshire",
+        "north-yorkshire",
+        "redcar-and-cleveland"
       ],
       "scenarios": [
         "planning-permission",
@@ -10315,14 +10315,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "wakefield",
-        "middlesbrough",
         "sheffield",
-        "stockton-on-tees",
+        "calderdale",
+        "leeds",
+        "wakefield",
         "york",
+        "hull",
         "redcar-and-cleveland",
-        "barnsley",
-        "leeds"
+        "stockton-on-tees"
       ],
       "scenarios": [
         "planning-permission",
@@ -10344,14 +10344,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bradford",
-        "rotherham",
-        "middlesbrough",
         "york",
+        "east-riding-of-yorkshire",
         "stockton-on-tees",
-        "kirklees",
-        "doncaster",
-        "barnsley"
+        "bradford",
+        "wakefield",
+        "calderdale",
+        "redcar-and-cleveland",
+        "leeds"
       ],
       "scenarios": [
         "planning-permission",
@@ -10373,14 +10373,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "calderdale",
-        "redcar-and-cleveland",
-        "east-riding-of-yorkshire",
-        "wakefield",
-        "bradford",
         "rotherham",
-        "kirklees",
-        "hull"
+        "stockton-on-tees",
+        "bradford",
+        "hull",
+        "wakefield",
+        "middlesbrough",
+        "east-riding-of-yorkshire",
+        "kirklees"
       ],
       "scenarios": [
         "planning-permission",
@@ -10402,14 +10402,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "hull",
-        "wakefield",
         "leeds",
-        "stockton-on-tees",
-        "rotherham",
-        "york",
-        "east-riding-of-yorkshire",
-        "redcar-and-cleveland"
+        "calderdale",
+        "wakefield",
+        "bradford",
+        "redcar-and-cleveland",
+        "doncaster",
+        "barnsley",
+        "stockton-on-tees"
       ],
       "scenarios": [
         "planning-permission",
@@ -10431,14 +10431,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "bradford",
-        "york",
-        "barnsley",
-        "rotherham",
-        "kirklees",
-        "hull",
         "leeds",
-        "sheffield"
+        "york",
+        "calderdale",
+        "kirklees",
+        "stockton-on-tees",
+        "rotherham",
+        "doncaster",
+        "east-riding-of-yorkshire"
       ],
       "scenarios": [
         "planning-permission",
@@ -10460,14 +10460,14 @@
         "dormer-extensions"
       ],
       "nearby_councils": [
-        "calderdale",
-        "doncaster",
-        "kirklees",
-        "bradford",
-        "hull",
         "north-yorkshire",
-        "barnsley",
-        "wakefield"
+        "doncaster",
+        "hull",
+        "calderdale",
+        "rotherham",
+        "redcar-and-cleveland",
+        "leeds",
+        "bradford"
       ],
       "scenarios": [
         "planning-permission",
@@ -10483,32 +10483,32 @@
     "bedford": [
       "central-bedfordshire",
       "luton",
-      "leicester",
-      "south-ayrshire",
-      "mansfield",
-      "south-staffordshire",
-      "rushmoor",
-      "comhairle-nan-eilean-siar"
+      "peterborough",
+      "aberdeenshire",
+      "gloucester",
+      "durham",
+      "buckinghamshire",
+      "pembrokeshire-coast-national-park"
     ],
     "central-bedfordshire": [
       "bedford",
       "luton",
-      "bolsover",
-      "hackney",
-      "cheltenham",
-      "telford-and-wrekin",
-      "test-valley",
-      "denbighshire"
+      "st-albans",
+      "monmouthshire",
+      "stroud",
+      "conwy",
+      "redcar-and-cleveland",
+      "warwick"
     ],
     "luton": [
       "bedford",
       "central-bedfordshire",
-      "falkirk",
-      "croydon",
-      "newcastle-upon-tyne",
-      "east-hertfordshire",
-      "west-devon",
-      "comhairle-nan-eilean-siar"
+      "broxbourne",
+      "durham",
+      "cotswold",
+      "three-rivers",
+      "peterborough",
+      "richmond-upon-thames"
     ],
     "bracknell-forest": [
       "reading",
@@ -10516,9 +10516,9 @@
       "west-berkshire",
       "windsor-and-maidenhead",
       "wokingham",
-      "basingstoke-and-deane",
-      "north-west-leicestershire",
-      "ipswich"
+      "mansfield",
+      "breckland",
+      "city-of-london"
     ],
     "reading": [
       "bracknell-forest",
@@ -10526,9 +10526,9 @@
       "west-berkshire",
       "windsor-and-maidenhead",
       "wokingham",
-      "waverley",
-      "charnwood",
-      "wealden"
+      "bromsgrove",
+      "bradford",
+      "orkney-islands"
     ],
     "slough": [
       "bracknell-forest",
@@ -10536,9 +10536,9 @@
       "west-berkshire",
       "windsor-and-maidenhead",
       "wokingham",
-      "kensington-and-chelsea",
-      "broxtowe",
-      "uttlesford"
+      "central-bedfordshire",
+      "eastleigh",
+      "cambridge"
     ],
     "west-berkshire": [
       "bracknell-forest",
@@ -10546,9 +10546,9 @@
       "slough",
       "windsor-and-maidenhead",
       "wokingham",
-      "chesterfield",
-      "leeds",
-      "swansea"
+      "watford",
+      "south-ayrshire",
+      "city-of-edinburgh"
     ],
     "windsor-and-maidenhead": [
       "bracknell-forest",
@@ -10556,9 +10556,9 @@
       "slough",
       "west-berkshire",
       "wokingham",
-      "calderdale",
-      "gedling",
-      "nuneaton-and-bedworth"
+      "lambeth",
+      "flintshire",
+      "aberdeen-city"
     ],
     "wokingham": [
       "bracknell-forest",
@@ -10566,29 +10566,29 @@
       "slough",
       "west-berkshire",
       "windsor-and-maidenhead",
-      "city-of-london",
-      "buckinghamshire",
-      "chesterfield"
+      "brent",
+      "east-renfrewshire",
+      "cheltenham"
     ],
     "buckinghamshire": [
       "milton-keynes",
-      "st-albans",
-      "maidstone",
-      "greenwich",
-      "stockton-on-tees",
-      "inverclyde",
-      "havant",
-      "north-west-leicestershire"
+      "chelmsford",
+      "central-bedfordshire",
+      "clackmannanshire",
+      "new-forest",
+      "tower-hamlets",
+      "south-holland",
+      "pembrokeshire"
     ],
     "milton-keynes": [
       "buckinghamshire",
-      "comhairle-nan-eilean-siar",
-      "kirklees",
-      "norwich",
+      "north-east-derbyshire",
       "highland",
-      "hinckley-and-bosworth",
-      "dartford",
-      "west-lothian"
+      "runnymede",
+      "herefordshire",
+      "bannau-brycheiniog-national-park",
+      "neath-port-talbot",
+      "mid-sussex"
     ],
     "cambridge": [
       "east-cambridgeshire",
@@ -10596,9 +10596,9 @@
       "huntingdonshire",
       "south-cambridgeshire",
       "peterborough",
-      "great-yarmouth",
-      "chelmsford",
-      "lewisham"
+      "new-forest",
+      "moray",
+      "bannau-brycheiniog-national-park"
     ],
     "east-cambridgeshire": [
       "cambridge",
@@ -10606,9 +10606,9 @@
       "huntingdonshire",
       "south-cambridgeshire",
       "peterborough",
-      "luton",
-      "dartford",
-      "runnymede"
+      "winchester",
+      "york",
+      "hillingdon"
     ],
     "fenland": [
       "cambridge",
@@ -10616,9 +10616,9 @@
       "huntingdonshire",
       "south-cambridgeshire",
       "peterborough",
-      "blaby",
-      "scottish-borders",
-      "cornwall"
+      "south-oxfordshire",
+      "wealden",
+      "tamworth"
     ],
     "huntingdonshire": [
       "cambridge",
@@ -10626,9 +10626,9 @@
       "fenland",
       "south-cambridgeshire",
       "peterborough",
-      "cherwell",
-      "north-somerset",
-      "broxtowe"
+      "dorset",
+      "harborough",
+      "cherwell"
     ],
     "south-cambridgeshire": [
       "cambridge",
@@ -10636,8 +10636,8 @@
       "fenland",
       "huntingdonshire",
       "peterborough",
-      "stockton-on-tees",
-      "hackney",
+      "north-devon",
+      "north-west-leicestershire",
       "tower-hamlets"
     ],
     "peterborough": [
@@ -10646,69 +10646,69 @@
       "fenland",
       "huntingdonshire",
       "south-cambridgeshire",
-      "eastleigh",
-      "blaenau-gwent",
-      "tower-hamlets"
+      "east-hertfordshire",
+      "vale-of-glamorgan",
+      "runnymede"
     ],
     "cornwall": [
       "isles-of-scilly",
-      "hinckley-and-bosworth",
-      "ealing",
-      "ipswich",
+      "castle-point",
+      "merton",
+      "loch-lomond-and-the-trossachs-national-park",
+      "slough",
       "watford",
-      "west-oxfordshire",
-      "cambridge",
-      "south-ayrshire"
+      "harborough",
+      "west-lothian"
     ],
     "isles-of-scilly": [
       "cornwall",
-      "east-hampshire",
-      "north-warwickshire",
-      "redditch",
-      "west-suffolk",
-      "warwick",
-      "ealing",
-      "east-dunbartonshire"
+      "middlesbrough",
+      "reading",
+      "mole-valley",
+      "harlow",
+      "tonbridge-and-malling",
+      "fife",
+      "lewes"
     ],
     "durham": [
       "darlington",
-      "ashfield",
-      "huntingdonshire",
-      "st-albans",
-      "arun",
-      "blaby",
-      "kirklees",
-      "dartford"
+      "reigate-and-banstead",
+      "mansfield",
+      "greenwich",
+      "shetland-islands",
+      "basildon",
+      "calderdale",
+      "gravesham"
     ],
     "darlington": [
       "durham",
-      "gateshead",
-      "fife",
-      "wychavon",
-      "south-ayrshire",
-      "high-peak",
-      "bournemouth-christchurch-and-poole",
-      "camden"
+      "wealden",
+      "tamworth",
+      "central-bedfordshire",
+      "caerphilly",
+      "north-lanarkshire",
+      "fareham",
+      "melton"
     ],
     "cumberland": [
       "westmorland-and-furness",
-      "rhondda-cynon-taf",
-      "babergh",
-      "ceredigion",
-      "teignbridge",
-      "broxbourne",
-      "swansea",
-      "winchester"
+      "amber-valley",
+      "shropshire",
+      "haringey",
+      "rother",
+      "brentwood",
+      "calderdale",
+      "conwy"
     ],
     "westmorland-and-furness": [
       "cumberland",
-      "elmbridge",
-      "horsham",
-      "kingston-upon-thames",
-      "doncaster",
-      "woking",
-      "aberdeen-city",
-      "nuneaton-and-bedworth"
+      "sunderland",
+      "calderdale",
+      "erewash",
+      "redditch",
+      "mole-valley",
+      "west-suffolk",
+      "merton"
     ],
     "amber-valley": [
       "bolsover",
@@ -10902,23 +10902,23 @@
     ],
     "dorset": [
       "bournemouth-christchurch-and-poole",
-      "mid-sussex",
-      "winchester",
-      "aberdeen-city",
-      "gwynedd",
-      "vale-of-glamorgan",
-      "west-oxfordshire",
-      "orkney-islands"
+      "isles-of-scilly",
+      "east-lindsey",
+      "stirling",
+      "rother",
+      "castle-point",
+      "staffordshire-moorlands",
+      "hounslow"
     ],
     "bournemouth-christchurch-and-poole": [
       "dorset",
-      "aberdeenshire",
-      "surrey-heath",
-      "west-lothian",
-      "wiltshire",
-      "east-hertfordshire",
-      "denbighshire",
-      "stirling"
+      "bassetlaw",
+      "ashford",
+      "glasgow-city",
+      "north-east-lincolnshire",
+      "somerset",
+      "newham",
+      "castle-point"
     ],
     "eastbourne": [
       "hastings",
@@ -10926,9 +10926,9 @@
       "rother",
       "wealden",
       "brighton-and-hove",
-      "south-norfolk",
-      "luton",
-      "elmbridge"
+      "stirling",
+      "milton-keynes",
+      "dartford"
     ],
     "hastings": [
       "eastbourne",
@@ -10936,9 +10936,9 @@
       "rother",
       "wealden",
       "brighton-and-hove",
+      "conwy",
       "stratford-on-avon",
-      "doncaster",
-      "dundee-city"
+      "newark-and-sherwood"
     ],
     "lewes": [
       "eastbourne",
@@ -10946,9 +10946,9 @@
       "rother",
       "wealden",
       "brighton-and-hove",
-      "perth-and-kinross",
-      "tunbridge-wells",
-      "uttlesford"
+      "kingston-upon-thames",
+      "bradford",
+      "haringey"
     ],
     "rother": [
       "eastbourne",
@@ -10956,9 +10956,9 @@
       "lewes",
       "wealden",
       "brighton-and-hove",
-      "dover",
-      "torridge",
-      "waverley"
+      "north-somerset",
+      "forest-of-dean",
+      "spelthorne"
     ],
     "wealden": [
       "eastbourne",
@@ -10966,9 +10966,9 @@
       "lewes",
       "rother",
       "brighton-and-hove",
-      "south-hams",
-      "east-hampshire",
-      "bath-and-north-east-somerset"
+      "isles-of-scilly",
+      "spelthorne",
+      "kings-lynn-and-west-norfolk"
     ],
     "brighton-and-hove": [
       "eastbourne",
@@ -10976,9 +10976,9 @@
       "lewes",
       "rother",
       "wealden",
-      "merton",
-      "perth-and-kinross",
-      "surrey-heath"
+      "mid-devon",
+      "colchester",
+      "stevenage"
     ],
     "basildon": [
       "braintree",
@@ -11106,9 +11106,9 @@
       "gloucester",
       "stroud",
       "tewkesbury",
-      "falkirk",
-      "westminster",
-      "aberdeen-city"
+      "basildon",
+      "breckland",
+      "north-kesteven"
     ],
     "cotswold": [
       "cheltenham",
@@ -11116,9 +11116,9 @@
       "gloucester",
       "stroud",
       "tewkesbury",
-      "worcester",
-      "south-cambridgeshire",
-      "epping-forest"
+      "oxford",
+      "tunbridge-wells",
+      "calderdale"
     ],
     "forest-of-dean": [
       "cheltenham",
@@ -11126,9 +11126,9 @@
       "gloucester",
       "stroud",
       "tewkesbury",
-      "hackney",
-      "carmarthenshire",
-      "thanet"
+      "harlow",
+      "nuneaton-and-bedworth",
+      "west-lindsey"
     ],
     "gloucester": [
       "cheltenham",
@@ -11136,9 +11136,9 @@
       "forest-of-dean",
       "stroud",
       "tewkesbury",
-      "redcar-and-cleveland",
-      "mid-suffolk",
-      "guildford"
+      "basingstoke-and-deane",
+      "hastings",
+      "huntingdonshire"
     ],
     "stroud": [
       "cheltenham",
@@ -11146,9 +11146,9 @@
       "forest-of-dean",
       "gloucester",
       "tewkesbury",
-      "hull",
-      "rhondda-cynon-taf",
-      "blaenau-gwent"
+      "herefordshire",
+      "wiltshire",
+      "torfaen"
     ],
     "tewkesbury": [
       "cheltenham",
@@ -11156,9 +11156,9 @@
       "forest-of-dean",
       "gloucester",
       "stroud",
-      "hackney",
-      "mid-suffolk",
-      "eastleigh"
+      "stoke-on-trent",
+      "calderdale",
+      "breckland"
     ],
     "barking-and-dagenham": [
       "barnet",
@@ -11621,14 +11621,14 @@
       "new-forest"
     ],
     "herefordshire": [
-      "high-peak",
-      "redcar-and-cleveland",
-      "south-lanarkshire",
-      "haringey",
-      "folkestone-and-hythe",
-      "east-dunbartonshire",
-      "mole-valley",
-      "hull"
+      "lincoln",
+      "mid-devon",
+      "portsmouth",
+      "east-staffordshire",
+      "windsor-and-maidenhead",
+      "chelmsford",
+      "norwich",
+      "newcastle-under-lyme"
     ],
     "broxbourne": [
       "dacorum",
@@ -11858,7 +11858,7 @@
       "north-west-leicestershire",
       "oadby-and-wigston",
       "leicester",
-      "camden"
+      "perth-and-kinross"
     ],
     "charnwood": [
       "blaby",
@@ -11868,7 +11868,7 @@
       "north-west-leicestershire",
       "oadby-and-wigston",
       "leicester",
-      "ipswich"
+      "sunderland"
     ],
     "harborough": [
       "blaby",
@@ -11878,7 +11878,7 @@
       "north-west-leicestershire",
       "oadby-and-wigston",
       "leicester",
-      "ashford"
+      "west-suffolk"
     ],
     "hinckley-and-bosworth": [
       "blaby",
@@ -11888,7 +11888,7 @@
       "north-west-leicestershire",
       "oadby-and-wigston",
       "leicester",
-      "telford-and-wrekin"
+      "york"
     ],
     "melton": [
       "blaby",
@@ -11898,7 +11898,7 @@
       "north-west-leicestershire",
       "oadby-and-wigston",
       "leicester",
-      "lewisham"
+      "city-of-edinburgh"
     ],
     "north-west-leicestershire": [
       "blaby",
@@ -11908,7 +11908,7 @@
       "melton",
       "oadby-and-wigston",
       "leicester",
-      "highland"
+      "surrey-heath"
     ],
     "oadby-and-wigston": [
       "blaby",
@@ -11918,7 +11918,7 @@
       "melton",
       "north-west-leicestershire",
       "leicester",
-      "welwyn-hatfield"
+      "horsham"
     ],
     "leicester": [
       "blaby",
@@ -11928,7 +11928,7 @@
       "melton",
       "north-west-leicestershire",
       "oadby-and-wigston",
-      "redbridge"
+      "arun"
     ],
     "boston": [
       "east-lindsey",
@@ -12027,8 +12027,8 @@
       "norwich",
       "south-norfolk",
       "breckland",
-      "north-somerset",
-      "west-suffolk"
+      "ealing",
+      "worthing"
     ],
     "great-yarmouth": [
       "broadland",
@@ -12037,8 +12037,8 @@
       "norwich",
       "south-norfolk",
       "breckland",
-      "west-lindsey",
-      "cambridge"
+      "northumberland",
+      "east-staffordshire"
     ],
     "kings-lynn-and-west-norfolk": [
       "broadland",
@@ -12047,8 +12047,8 @@
       "norwich",
       "south-norfolk",
       "breckland",
-      "newport",
-      "moray"
+      "erewash",
+      "perth-and-kinross"
     ],
     "north-norfolk": [
       "broadland",
@@ -12057,8 +12057,8 @@
       "norwich",
       "south-norfolk",
       "breckland",
-      "harborough",
-      "wandsworth"
+      "stoke-on-trent",
+      "west-lothian"
     ],
     "norwich": [
       "broadland",
@@ -12067,8 +12067,8 @@
       "north-norfolk",
       "south-norfolk",
       "breckland",
-      "wakefield",
-      "west-oxfordshire"
+      "oadby-and-wigston",
+      "north-east-derbyshire"
     ],
     "south-norfolk": [
       "broadland",
@@ -12077,8 +12077,8 @@
       "north-norfolk",
       "norwich",
       "breckland",
-      "cambridge",
-      "herefordshire"
+      "teignbridge",
+      "charnwood"
     ],
     "breckland": [
       "broadland",
@@ -12087,38 +12087,38 @@
       "north-norfolk",
       "norwich",
       "south-norfolk",
-      "monmouthshire",
-      "west-lindsey"
+      "westminster",
+      "elmbridge"
     ],
     "north-northamptonshire": [
       "west-northamptonshire",
-      "bedford",
-      "cheltenham",
-      "exeter",
-      "sheffield",
-      "ashford",
-      "ceredigion",
-      "doncaster"
+      "westminster",
+      "renfrewshire",
+      "bromley",
+      "test-valley",
+      "bolsover",
+      "redcar-and-cleveland",
+      "north-ayrshire"
     ],
     "west-northamptonshire": [
       "north-northamptonshire",
-      "north-somerset",
-      "barnet",
-      "cumberland",
-      "north-tyneside",
-      "melton",
-      "wyre-forest",
-      "dumfries-and-galloway"
+      "chelmsford",
+      "epping-forest",
+      "kingston-upon-thames",
+      "isles-of-scilly",
+      "boston",
+      "broxbourne",
+      "derby"
     ],
     "northumberland": [
-      "east-devon",
-      "castle-point",
-      "broadland",
-      "east-lindsey",
-      "durham",
-      "southampton",
+      "camden",
+      "middlesbrough",
       "east-riding-of-yorkshire",
-      "woking"
+      "greenwich",
+      "chelmsford",
+      "mid-devon",
+      "vale-of-white-horse",
+      "braintree"
     ],
     "ashfield": [
       "bassetlaw",
@@ -12128,7 +12128,7 @@
       "newark-and-sherwood",
       "rushcliffe",
       "nottingham",
-      "watford"
+      "spelthorne"
     ],
     "bassetlaw": [
       "ashfield",
@@ -12138,7 +12138,7 @@
       "newark-and-sherwood",
       "rushcliffe",
       "nottingham",
-      "folkestone-and-hythe"
+      "norwich"
     ],
     "broxtowe": [
       "ashfield",
@@ -12148,7 +12148,7 @@
       "newark-and-sherwood",
       "rushcliffe",
       "nottingham",
-      "breckland"
+      "sunderland"
     ],
     "gedling": [
       "ashfield",
@@ -12158,7 +12158,7 @@
       "newark-and-sherwood",
       "rushcliffe",
       "nottingham",
-      "enfield"
+      "gateshead"
     ],
     "mansfield": [
       "ashfield",
@@ -12168,7 +12168,7 @@
       "newark-and-sherwood",
       "rushcliffe",
       "nottingham",
-      "dundee-city"
+      "worthing"
     ],
     "newark-and-sherwood": [
       "ashfield",
@@ -12178,7 +12178,7 @@
       "mansfield",
       "rushcliffe",
       "nottingham",
-      "hammersmith-and-fulham"
+      "swale"
     ],
     "rushcliffe": [
       "ashfield",
@@ -12188,7 +12188,7 @@
       "mansfield",
       "newark-and-sherwood",
       "nottingham",
-      "kensington-and-chelsea"
+      "tandridge"
     ],
     "nottingham": [
       "ashfield",
@@ -12198,57 +12198,57 @@
       "mansfield",
       "newark-and-sherwood",
       "rushcliffe",
-      "stroud"
+      "west-lindsey"
     ],
     "cherwell": [
       "oxford",
       "south-oxfordshire",
       "vale-of-white-horse",
       "west-oxfordshire",
-      "harrow",
-      "stroud",
+      "west-berkshire",
+      "hillingdon",
       "westmorland-and-furness",
-      "tewkesbury"
+      "havant"
     ],
     "oxford": [
       "cherwell",
       "south-oxfordshire",
       "vale-of-white-horse",
       "west-oxfordshire",
-      "huntingdonshire",
-      "hammersmith-and-fulham",
-      "waltham-forest",
-      "north-northamptonshire"
+      "city-of-london",
+      "east-hertfordshire",
+      "gravesham",
+      "gosport"
     ],
     "south-oxfordshire": [
       "cherwell",
       "oxford",
       "vale-of-white-horse",
       "west-oxfordshire",
-      "south-holland",
-      "fareham",
-      "east-hampshire",
-      "buckinghamshire"
+      "east-cambridgeshire",
+      "swansea",
+      "north-devon",
+      "surrey-heath"
     ],
     "vale-of-white-horse": [
       "cherwell",
       "oxford",
       "south-oxfordshire",
       "west-oxfordshire",
-      "cotswold",
-      "rushcliffe",
+      "north-east-derbyshire",
+      "hertsmere",
       "watford",
-      "cornwall"
+      "basildon"
     ],
     "west-oxfordshire": [
       "cherwell",
       "oxford",
       "south-oxfordshire",
       "vale-of-white-horse",
-      "falkirk",
-      "milton-keynes",
-      "stafford",
-      "isles-of-scilly"
+      "vale-of-glamorgan",
+      "north-warwickshire",
+      "norwich",
+      "north-kesteven"
     ],
     "aberdeen-city": [
       "aberdeenshire",
@@ -12592,53 +12592,53 @@
     ],
     "shropshire": [
       "telford-and-wrekin",
-      "hertsmere",
-      "redbridge",
-      "torbay",
       "east-hampshire",
-      "warwick",
-      "waverley",
-      "torridge"
+      "folkestone-and-hythe",
+      "neath-port-talbot",
+      "wakefield",
+      "perth-and-kinross",
+      "bromley",
+      "tandridge"
     ],
     "telford-and-wrekin": [
       "shropshire",
-      "south-ayrshire",
-      "angus",
-      "north-tyneside",
-      "inverclyde",
-      "durham",
-      "spelthorne",
-      "west-devon"
+      "portsmouth",
+      "north-east-derbyshire",
+      "oadby-and-wigston",
+      "east-hampshire",
+      "wokingham",
+      "cornwall",
+      "lincoln"
     ],
     "somerset": [
       "bath-and-north-east-somerset",
       "north-somerset",
-      "west-lothian",
-      "ipswich",
-      "rushmoor",
-      "broxtowe",
-      "west-dunbartonshire",
-      "uttlesford"
+      "south-cambridgeshire",
+      "havering",
+      "north-kesteven",
+      "wiltshire",
+      "huntingdonshire",
+      "north-northamptonshire"
     ],
     "bath-and-north-east-somerset": [
       "somerset",
       "north-somerset",
-      "runnymede",
-      "midlothian",
-      "bassetlaw",
-      "lincoln",
-      "melton",
-      "bracknell-forest"
+      "north-norfolk",
+      "lewisham",
+      "mid-sussex",
+      "herefordshire",
+      "swale",
+      "east-lindsey"
     ],
     "north-somerset": [
       "somerset",
       "bath-and-north-east-somerset",
-      "brentwood",
-      "kingston-upon-thames",
+      "milton-keynes",
+      "newark-and-sherwood",
+      "test-valley",
+      "basildon",
       "sevenoaks",
-      "tendring",
-      "bracknell-forest",
-      "wealden"
+      "north-hertfordshire"
     ],
     "cannock-chase": [
       "east-staffordshire",
@@ -12735,50 +12735,50 @@
       "mid-suffolk",
       "west-suffolk",
       "ipswich",
-      "reigate-and-banstead",
-      "blaby",
-      "tewkesbury",
-      "amber-valley"
+      "newcastle-upon-tyne",
+      "cheltenham",
+      "east-hampshire",
+      "fife"
     ],
     "east-suffolk": [
       "babergh",
       "mid-suffolk",
       "west-suffolk",
       "ipswich",
-      "cotswold",
-      "southwark",
-      "cambridge",
-      "broxbourne"
+      "north-hertfordshire",
+      "maldon",
+      "tonbridge-and-malling",
+      "west-oxfordshire"
     ],
     "mid-suffolk": [
       "babergh",
       "east-suffolk",
       "west-suffolk",
       "ipswich",
-      "north-norfolk",
-      "calderdale",
-      "moray",
-      "hertsmere"
+      "north-somerset",
+      "cornwall",
+      "leeds",
+      "malvern-hills"
     ],
     "west-suffolk": [
       "babergh",
       "east-suffolk",
       "mid-suffolk",
       "ipswich",
-      "wandsworth",
-      "lewes",
-      "epping-forest",
-      "bromley"
+      "stockton-on-tees",
+      "gravesham",
+      "cannock-chase",
+      "doncaster"
     ],
     "ipswich": [
       "babergh",
       "east-suffolk",
       "mid-suffolk",
       "west-suffolk",
-      "chichester",
-      "powys",
-      "chesterfield",
-      "torfaen"
+      "broadland",
+      "carmarthenshire",
+      "aberdeen-city",
+      "south-ayrshire"
     ],
     "elmbridge": [
       "epsom-and-ewell",
@@ -12895,50 +12895,50 @@
       "north-tyneside",
       "south-tyneside",
       "sunderland",
-      "herefordshire",
-      "bracknell-forest",
-      "north-ayrshire",
-      "west-lothian"
+      "great-yarmouth",
+      "north-east-lincolnshire",
+      "scottish-borders",
+      "havant"
     ],
     "newcastle-upon-tyne": [
       "gateshead",
       "north-tyneside",
       "south-tyneside",
       "sunderland",
-      "wealden",
-      "newham",
-      "north-east-lincolnshire",
-      "tandridge"
+      "greenwich",
+      "cairngorms-national-park",
+      "boston",
+      "stroud"
     ],
     "north-tyneside": [
       "gateshead",
       "newcastle-upon-tyne",
       "south-tyneside",
       "sunderland",
-      "north-warwickshire",
-      "huntingdonshire",
-      "hull",
-      "rugby"
+      "lewisham",
+      "oadby-and-wigston",
+      "enfield",
+      "basildon"
     ],
     "south-tyneside": [
       "gateshead",
       "newcastle-upon-tyne",
       "north-tyneside",
       "sunderland",
-      "powys",
-      "cairngorms-national-park",
-      "dartford",
-      "stafford"
+      "glasgow-city",
+      "east-ayrshire",
+      "tendring",
+      "kingston-upon-thames"
     ],
     "sunderland": [
       "gateshead",
       "newcastle-upon-tyne",
       "north-tyneside",
       "south-tyneside",
+      "south-cambridgeshire",
+      "west-lothian",
       "herefordshire",
-      "tower-hamlets",
-      "torbay",
-      "east-ayrshire"
+      "darlington"
     ],
     "isle-of-anglesey": [
       "gwynedd",
@@ -13195,50 +13195,50 @@
       "rugby",
       "stratford-on-avon",
       "warwick",
-      "rotherham",
-      "shetland-islands",
-      "camden",
-      "cannock-chase"
+      "somerset",
+      "east-devon",
+      "central-bedfordshire",
+      "bexley"
     ],
     "nuneaton-and-bedworth": [
       "north-warwickshire",
       "rugby",
       "stratford-on-avon",
       "warwick",
-      "harrow",
-      "comhairle-nan-eilean-siar",
-      "westminster",
-      "south-oxfordshire"
+      "croydon",
+      "conwy",
+      "winchester",
+      "york"
     ],
     "rugby": [
       "north-warwickshire",
       "nuneaton-and-bedworth",
       "stratford-on-avon",
       "warwick",
-      "stirling",
-      "city-of-london",
-      "bolsover",
-      "brighton-and-hove"
+      "amber-valley",
+      "folkestone-and-hythe",
+      "lincoln",
+      "bracknell-forest"
     ],
     "stratford-on-avon": [
       "north-warwickshire",
       "nuneaton-and-bedworth",
       "rugby",
       "warwick",
-      "hastings",
-      "worthing",
-      "east-hertfordshire",
-      "exeter"
+      "tamworth",
+      "hinckley-and-bosworth",
+      "north-somerset",
+      "ceredigion"
     ],
     "warwick": [
       "north-warwickshire",
       "nuneaton-and-bedworth",
       "rugby",
       "stratford-on-avon",
-      "bath-and-north-east-somerset",
-      "kingston-upon-thames",
-      "leeds",
-      "herefordshire"
+      "rotherham",
+      "east-dunbartonshire",
+      "tendring",
+      "west-dunbartonshire"
     ],
     "adur": [
       "arun",
@@ -13247,8 +13247,8 @@
       "horsham",
       "mid-sussex",
       "worthing",
-      "highland",
-      "havering"
+      "darlington",
+      "newark-and-sherwood"
     ],
     "arun": [
       "adur",
@@ -13257,8 +13257,8 @@
       "horsham",
       "mid-sussex",
       "worthing",
-      "east-riding-of-yorkshire",
-      "gwynedd"
+      "tower-hamlets",
+      "ashford"
     ],
     "chichester": [
       "adur",
@@ -13267,8 +13267,8 @@
       "horsham",
       "mid-sussex",
       "worthing",
-      "aberdeen-city",
-      "north-lanarkshire"
+      "tunbridge-wells",
+      "brent"
     ],
     "crawley": [
       "adur",
@@ -13277,8 +13277,8 @@
       "horsham",
       "mid-sussex",
       "worthing",
-      "derbyshire-dales",
-      "barnsley"
+      "mole-valley",
+      "newham"
     ],
     "horsham": [
       "adur",
@@ -13287,8 +13287,8 @@
       "crawley",
       "mid-sussex",
       "worthing",
-      "south-kesteven",
-      "west-lothian"
+      "harlow",
+      "broxtowe"
     ],
     "mid-sussex": [
       "adur",
@@ -13297,8 +13297,8 @@
       "crawley",
       "horsham",
       "worthing",
-      "westmorland-and-furness",
-      "torridge"
+      "aberdeenshire",
+      "sutton"
     ],
     "worthing": [
       "adur",
@@ -13307,28 +13307,28 @@
       "crawley",
       "horsham",
       "mid-sussex",
-      "south-norfolk",
-      "reigate-and-banstead"
+      "waverley",
+      "gravesham"
     ],
     "wiltshire": [
       "swindon",
-      "guildford",
-      "north-tyneside",
-      "swale",
-      "rugby",
-      "monmouthshire",
-      "new-forest",
-      "north-lincolnshire"
+      "welwyn-hatfield",
+      "durham",
+      "wyre-forest",
+      "horsham",
+      "haringey",
+      "north-kesteven",
+      "wokingham"
     ],
     "swindon": [
       "wiltshire",
-      "wandsworth",
-      "south-staffordshire",
-      "west-devon",
-      "stoke-on-trent",
-      "north-kesteven",
-      "merton",
-      "stirling"
+      "shropshire",
+      "charnwood",
+      "north-somerset",
+      "warwick",
+      "st-albans",
+      "south-derbyshire",
+      "windsor-and-maidenhead"
     ],
     "bromsgrove": [
       "malvern-hills",
@@ -13336,9 +13336,9 @@
       "worcester",
       "wychavon",
       "wyre-forest",
-      "north-warwickshire",
-      "herefordshire",
-      "nottingham"
+      "milton-keynes",
+      "worthing",
+      "rochford"
     ],
     "malvern-hills": [
       "bromsgrove",
@@ -13346,9 +13346,9 @@
       "worcester",
       "wychavon",
       "wyre-forest",
-      "east-ayrshire",
-      "north-hertfordshire",
-      "tendring"
+      "hounslow",
+      "mole-valley",
+      "south-oxfordshire"
     ],
     "redditch": [
       "bromsgrove",
@@ -13356,9 +13356,9 @@
       "worcester",
       "wychavon",
       "wyre-forest",
-      "hounslow",
-      "north-lincolnshire",
-      "vale-of-white-horse"
+      "barnet",
+      "stirling",
+      "loch-lomond-and-the-trossachs-national-park"
     ],
     "worcester": [
       "bromsgrove",
@@ -13366,9 +13366,9 @@
       "redditch",
       "wychavon",
       "wyre-forest",
-      "wealden",
-      "fareham",
-      "broxtowe"
+      "swansea",
+      "east-cambridgeshire",
+      "inverclyde"
     ],
     "wychavon": [
       "bromsgrove",
@@ -13376,9 +13376,9 @@
       "redditch",
       "worcester",
       "wyre-forest",
-      "lewes",
-      "broxtowe",
-      "clackmannanshire"
+      "waverley",
+      "wiltshire",
+      "newcastle-under-lyme"
     ],
     "wyre-forest": [
       "bromsgrove",
@@ -13386,9 +13386,9 @@
       "redditch",
       "worcester",
       "wychavon",
-      "sheffield",
-      "staffordshire-moorlands",
-      "westmorland-and-furness"
+      "city-of-london",
+      "bradford",
+      "hertsmere"
     ],
     "barnsley": [
       "bradford",
