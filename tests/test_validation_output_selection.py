@@ -66,6 +66,25 @@ class ValidationOutputSelectionTests(unittest.TestCase):
         self.assertTrue(is_live_internal_href("/homeproof"))
         self.assertTrue(is_live_internal_href("/homeproof/workspace/"))
 
+    def test_council_planning_routes_are_valid_role_metadata(self):
+        import validate
+
+        html = (
+            "<html><head><title>Example planning authority guide</title>"
+            '<meta name="description" content="Official-source planning routes for Example Council.">'
+            "</head><body></body></html>"
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            prior_output = validate.OUTPUT_DIR
+            try:
+                validate.OUTPUT_DIR = Path(tmp)
+                page = Path(tmp) / "councils" / "example" / "index.html"
+                page.parent.mkdir(parents=True)
+                page.write_text(html, encoding="utf-8")
+                validate.validate_role_metadata([page])
+            finally:
+                validate.OUTPUT_DIR = prior_output
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -2426,7 +2426,10 @@ def validate_role_metadata(pages: list[Path]) -> None:
                 errors.append(f"Planning entry page is using the wrong role language: {url}")
             if section == "area-hubs" and not _contains_any(combined, ("entry page", "local authority", "councils")):
                 errors.append(f"County page metadata lost entry-page framing: {url}")
-            if section == "council" and not _contains_any(combined, ("council page", "planning entry page", "local routes")):
+            if section == "council" and not _contains_any(
+                combined,
+                ("council page", "planning entry page", "local routes", "planning routes"),
+            ):
                 errors.append(f"Council page metadata lost planning-entry framing: {url}")
         elif section in {"council-projects", "scenario-pages", "project-scenario-pages"}:
             if _contains_any(combined, ("where to start", "entry page")):
