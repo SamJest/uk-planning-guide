@@ -1241,6 +1241,26 @@ display:grid;
 gap:14px;
 }
 
+.workspace-retention-cta{
+display:grid;
+gap:16px;
+padding:clamp(20px,3vw,30px);
+border:1px solid rgba(31,111,95,.18);
+border-radius:8px;
+background:linear-gradient(180deg,rgba(243,250,247,.82),rgba(255,255,255,.94));
+box-shadow:var(--shadow-soft);
+}
+
+.workspace-retention-cta .answer-card{
+min-height:190px;
+align-content:start;
+}
+
+.workspace-retention-cta button,
+.workspace-retention-cta a{
+max-width:100%;
+}
+
 .next-step-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -1963,6 +1983,23 @@ max-width:none;
 </section>
 
 
+<section class="growth-link-boost" data-growth-link-boost="true" data-project-slug="dropped-kerbs" data-authority-slug="hart">
+<span class="eyebrow">Useful next checks</span>
+<h2>Related Routes That Often Change The Answer</h2>
+<p class="section-lead">These links stay focused on connected planning questions, so the next page should narrow the route rather than send you into a broad index.</p>
+<div class="grid">
+
+<a class="card" href="/local-search/dropped-kerb-highway-checker/">
+<div class="card-kicker">Related route check</div>
+<h3>Dropped Kerb And Highway Approval Checker</h3>
+<p>Use this hub to separate dropped-kerb planning permission from the highway, access, visibility, drainage and hardstanding checks.</p>
+<span class="cta">Open route hub</span>
+</a>
+
+</div>
+</section>
+
+
 <section class="landing-handoff" id="landing-next-step" data-landing-cta="true" data-page-family="project" data-authority-slug="hart" data-project-slug="dropped-kerbs" data-scenario-slug="" data-cta-variant="frontage">
 <span class="eyebrow">Next move</span>
 <h2>The Fastest Next Step If Frontage Details Are Doing Most Of The Work</h2>
@@ -2002,8 +2039,8 @@ max-width:none;
 <p class="section-lead">A quick note on the local route this page is using, the council source that matters most and the point where a formal check becomes the safer next move.</p>
 <div class="editorial-trust-strip">
 <span><strong>Last reviewed</strong> 11 April 2026</span>
-<span><strong>Written by</strong> Sam Jones</span>
-<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span>
+<span><strong>Prepared under</strong> <a href="/methodology/">UK Planning Guide editorial process</a></span>
+<span><strong>Review method</strong> Route, jurisdiction, local context and official-source checks</span>
 </div>
 <div class="answer-grid">
 <div class="answer-card">
@@ -2034,38 +2071,38 @@ max-width:none;
 </section>
 
 
-<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="hart" data-official-sources-count="5">
+<section class="official-sources" id="official-sources" data-purpose="labelled-example" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="hart" data-official-sources-count="5">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
 <p class="section-lead">These are the official pages most likely to settle the dropped kerbs route in Hart.</p>
 <p class="section-lead">Rules, validation requirements and local designations can change by location. Use these links to confirm the latest official position before relying on a close or expensive planning route.</p>
 <div class="official-sources-list">
 
-<a class="official-source-link" href="https://www.planningportal.co.uk/permission/common-projects">
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/common-projects" data-local-fact="true">
 <strong>Planning Portal: common projects</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
 <span>Useful for the official application route and national planning paperwork behind dropped kerbs in Hart.</span>
 </a>
 
-<a class="official-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission">
+<a class="official-source-link" href="https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission" data-local-fact="true">
 <strong>Planning Portal: do you need planning permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
 <span>Useful for the official application route and national planning paperwork behind dropped kerbs in Hart.</span>
 </a>
 
-<a class="official-source-link" href="https://www.hart.gov.uk/sites/default/files/2025-02/Householder-Validation-requirements-published-Feb-2025-version.pdf">
+<a class="official-source-link" href="https://www.hart.gov.uk/sites/default/files/2025-02/Householder-Validation-requirements-published-Feb-2025-version.pdf" data-local-fact="true">
 <strong>Householder validation requirements</strong>
 <span>Validation requirements | Last reviewed 5 April 2026</span>
 <span>Hart&#x27;s current householder checklist; especially useful for domestic works, solar and smaller schemes.</span>
 </a>
 
-<a class="official-source-link" href="https://www.gov.uk/guidance/making-an-application">
+<a class="official-source-link" href="https://www.gov.uk/guidance/making-an-application" data-local-fact="true">
 <strong>GOV.UK: making a planning application</strong>
 <span>Validation requirements | Last reviewed 5 April 2026</span>
 <span>Useful because it sets out the document and checklist requirements that matter if Hart is the next formal stop.</span>
 </a>
 
-<a class="official-source-link" href="https://www.hart.gov.uk/planning-and-building-control/planning-development/step-by-step/make-planning-application-step-/pre_application_planning_advice">
+<a class="official-source-link" href="https://www.hart.gov.uk/planning-and-building-control/planning-development/step-by-step/make-planning-application-step-/pre_application_planning_advice" data-local-fact="true">
 <strong>Pre application planning advice</strong>
 <span>Pre-application advice | Last reviewed 5 April 2026</span>
 <span>Useful when the general answer is no longer enough and a local pre-application view in Hart is the safer next step.</span>
@@ -2649,6 +2686,56 @@ max-width:none;
 
   window.upgTrack = window.upgTrack || emitGaEvent;
 
+  function growthPageContext() {
+    const path = window.location.pathname || "/";
+    const cohort = document.querySelector("[data-growth-cohort]");
+    return {
+      source_path: path,
+      page_family: path.split("/").filter(Boolean)[0] || "home",
+      growth_cohort: cohort ? cohort.getAttribute("data-growth-cohort") || "" : ""
+    };
+  }
+
+  function isGoogleOrganicLanding() {
+    if (!document.referrer) {
+      return false;
+    }
+    try {
+      const host = new URL(document.referrer).hostname.toLowerCase();
+      return host === "google.com" || host.indexOf(".google.") !== -1 || host.indexOf("google.") === 0;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  if (isGoogleOrganicLanding()) {
+    let organicTimeReady = false;
+    let organicScrollReady = false;
+    let organicEngagementSent = false;
+    function maybeTrackOrganicEngagement() {
+      if (organicEngagementSent || !organicTimeReady || !organicScrollReady) {
+        return;
+      }
+      organicEngagementSent = true;
+      emitGaEvent("organic_landing_engaged", Object.assign(growthPageContext(), {
+        engagement_seconds: 10,
+        scroll_threshold: 25
+      }));
+    }
+    window.setTimeout(function () {
+      organicTimeReady = true;
+      maybeTrackOrganicEngagement();
+    }, 10000);
+    function checkOrganicEngagementScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      organicScrollReady = (window.scrollY / maxScroll) * 100 >= 25;
+      maybeTrackOrganicEngagement();
+    }
+    window.addEventListener("scroll", checkOrganicEngagementScroll, { passive: true });
+    checkOrganicEngagementScroll();
+  }
+
   const downloadAsset = document.querySelector("[data-download-asset]");
   if (downloadAsset) {
     emitGaEvent("download_asset_view", {
@@ -2709,6 +2796,9 @@ max-width:none;
     }
     const context = safeRouteContext(node);
     emitGaEvent(eventName, context);
+    if (eventName === "route_started") {
+      emitGaEvent("route_check_start", context);
+    }
     if (eventName === "summary_saved" || eventName === "council_pack_downloaded") {
       try {
         const saved = JSON.parse(safeStorageGet("ukpg:planning-workspace:v1") || "{}");
@@ -2933,6 +3023,27 @@ max-width:none;
   }
 
   document.addEventListener("click", function (event) {
+    const officialSource = event.target && event.target.closest ? event.target.closest(".official-source-link") : null;
+    if (officialSource) {
+      let destinationHost = "";
+      try {
+        destinationHost = new URL(officialSource.href).hostname;
+      } catch (error) {}
+      const sourceBlock = officialSource.closest("[data-official-sources]");
+      emitGaEvent("official_source_click", Object.assign(growthPageContext(), {
+        authority_slug: sourceBlock ? sourceBlock.getAttribute("data-official-sources-authority") || "" : "",
+        source_family: sourceBlock ? sourceBlock.getAttribute("data-official-sources-family") || "" : "",
+        destination_host: destinationHost
+      }));
+    }
+
+    const growthAction = event.target && event.target.closest ? event.target.closest("[data-growth-action]") : null;
+    if (growthAction && growthAction.getAttribute("data-growth-action") === "route_check_start") {
+      emitGaEvent("route_check_start", Object.assign(growthPageContext(), {
+        route_intent: "growth_answer_action"
+      }));
+    }
+
     const downloadButton = event.target && event.target.closest ? event.target.closest("[data-download-action]") : null;
     if (downloadButton) {
       const action = downloadButton.getAttribute("data-download-action");
@@ -3000,6 +3111,16 @@ max-width:none;
       note.textContent = "Copy the address from your browser bar to keep this page with your project notes.";
     }
   });
+
+  document.addEventListener("submit", function (event) {
+    const form = event.target && event.target.closest ? event.target.closest("form[data-guidance-form]") : null;
+    if (!form) {
+      return;
+    }
+    emitGaEvent("planning_enquiry_submit", Object.assign(growthPageContext(), {
+      form_key: form.getAttribute("data-guidance-form") || ""
+    }));
+  }, true);
 
   function ensureNextStep(resultNode) {
     if (!resultNode || resultNode.querySelector(".tool-next-step")) {

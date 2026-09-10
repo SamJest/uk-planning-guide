@@ -1241,6 +1241,26 @@ display:grid;
 gap:14px;
 }
 
+.workspace-retention-cta{
+display:grid;
+gap:16px;
+padding:clamp(20px,3vw,30px);
+border:1px solid rgba(31,111,95,.18);
+border-radius:8px;
+background:linear-gradient(180deg,rgba(243,250,247,.82),rgba(255,255,255,.94));
+box-shadow:var(--shadow-soft);
+}
+
+.workspace-retention-cta .answer-card{
+min-height:190px;
+align-content:start;
+}
+
+.workspace-retention-cta button,
+.workspace-retention-cta a{
+max-width:100%;
+}
+
 .next-step-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -1852,13 +1872,14 @@ max-width:none;
 <h1>Aberdeen City Planning Portal</h1>
 <p>This page is built for searches about house extensions in Aberdeen City. It gives you the local reading first, then sends you to the guide most likely to answer the remaining question.</p>
 <p>If the search is still broad in Aberdeen City, open the authority guide first, then follow the project or topic page that resolves the remaining doubt fastest.</p>
-<div class="last-updated">Updated June 2026</div>
+<div class="last-updated">Updated September 2026</div>
 </section>
 
 
-<section class="local-answer-box gsc-answer-capsule">
+<section class="local-answer-box gsc-answer-capsule" data-growth-cohort="">
 <span class="eyebrow">Quick route check</span>
 <h2>Use The Official Portal, Then Pick The Project Route</h2>
+
 <div class="answer-grid">
 <div class="answer-card">
 <h3>Working answer</h3>
@@ -1870,6 +1891,10 @@ max-width:none;
 <ul class="checklist"><li>Start with the official council portal or validation source.</li><li>Move into the project guide as soon as the build type is clear.</li><li>Check conservation, Article 4, HMO or validation controls before relying on a broad council result.</li></ul>
 </div>
 
+<div class="answer-card">
+<h3>Official check cue</h3>
+<p>Start with the official council portal or validation source, then move into the project page that matches the work.</p>
+</div>
 
 <div class="answer-card">
 <h3>Best next move</h3>
@@ -1882,10 +1907,42 @@ max-width:none;
 
 
 
+<section class="workspace-retention-cta" data-workspace-retention="true" data-retention-key="planning-portal" data-page-family="local-search" data-project-slug="house-extensions" data-authority-slug="aberdeen-city" data-workspace-title="Aberdeen City Planning Portal" data-workspace-summary="Saved council route from Aberdeen City Planning Portal." data-workspace-task-title="Check official council route for Aberdeen City Planning Portal" data-workspace-task-summary="Add a task to open the official portal and then move into the matching project guide." data-workspace-next-tool="/tools/planning-decision-tool/">
+<span class="eyebrow">My Planning Project</span>
+<h2>Save The Council Route</h2>
+<p class="section-lead">Keep the official portal, local project route and next verification step in one workspace before opening more council pages.</p>
+<div class="answer-grid">
+<div class="answer-card">
+<h3>Save the current route</h3>
+<p>Saved council route from Aberdeen City Planning Portal.</p>
+<button type="button" class="btn" data-workspace-page-action="save-context">Save council route</button>
+</div>
+<div class="answer-card">
+<h3>Make it a task</h3>
+<p>Add a task to open the official portal and then move into the matching project guide.</p>
+<button type="button" class="button-secondary" data-workspace-page-action="add-context-task">Add portal task</button>
+</div>
+<div class="answer-card">
+<h3>Come back with context</h3>
+<p>Open the local workspace or continue with the most useful next tool for this route.</p>
+<div class="hero-ctas">
+<a class="button-secondary" href="/my-planning-project/">Open workspace</a>
+<a class="button-secondary" href="/tools/planning-decision-tool/">Check likely route</a>
+</div>
+</div>
+</div>
+<div class="hero-ctas">
+<a class="button-secondary" href="/planning-help/" data-guidance-triage="retention-planning-portal">Ask for planning help</a>
+</div>
+<p class="result-capture-note" data-workspace-note="true" data-project-note="true">Stored only in this browser. Nothing is sent unless you submit a form.</p>
+</section>
+
+
+
 <section class="local-search-routes gsc-cluster-links" data-gsc-cluster-links="true" data-gsc-cluster="planning-portal">
 <span class="eyebrow">GSC opportunity cluster</span>
 <h2>Planning Portal And Council Route Checker</h2>
-<p class="section-lead">Explore related routes when the authority, project or official-source check you need is slightly different.</p>
+<p class="section-lead">These routes group similar June 2026 Search Console queries so visitors can move sideways when the exact authority, project or official-source check is slightly different.</p>
 <div class="grid">
 
 <a class="card" href="/local-search/planning-portal-council-checker/">
@@ -1940,35 +1997,41 @@ max-width:none;
 </section>
 
 
-<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="local-search" data-official-sources-authority="aberdeen-city" data-official-sources-count="4">
+<section class="official-sources" id="official-sources" data-purpose="labelled-example" data-official-sources="true" data-official-sources-family="local-search" data-official-sources-authority="aberdeen-city" data-official-sources-count="5">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
 <p class="section-lead">These are the official pages most likely to confirm the route behind this Aberdeen City search.</p>
 <p class="section-lead">Rules, validation requirements and local designations can change by location. Use these links to confirm the latest official position before relying on a close or expensive planning route.</p>
 <div class="official-sources-list">
 
-<a class="official-source-link" href="https://www.mygov.scot/planning-permission">
+<a class="official-source-link" href="https://www.mygov.scot/planning-permission" data-local-fact="true">
 <strong>mygov.scot: do I need planning permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
 <span>Useful for the official application route and submission next step in Aberdeen City.</span>
 </a>
 
-<a class="official-source-link" href="https://www.gov.scot/publications/circular-1-2024-householder-permitted-development-rights/">
+<a class="official-source-link" href="https://www.gov.scot/publications/circular-1-2024-householder-permitted-development-rights/" data-local-fact="true">
 <strong>gov.scot: householder permitted development rights</strong>
 <span>Householder guidance | Last reviewed 5 April 2026</span>
 <span>Useful because it shows how Aberdeen City explains common domestic projects before the page leans too hard on a national rule of thumb.</span>
 </a>
 
-<a class="official-source-link" href="https://www.gov.scot/publications/householder-permitted-development-checklist/">
+<a class="official-source-link" href="https://www.gov.scot/publications/householder-permitted-development-checklist/" data-local-fact="true">
 <strong>gov.scot: householder permitted development checklist</strong>
 <span>Permitted development | Last reviewed 5 April 2026</span>
 <span>Useful because it helps test whether the simpler fallback still holds once Aberdeen City&#x27;s local context is added back in.</span>
 </a>
 
-<a class="official-source-link" href="https://www.aberdeencity.gov.uk/Council-Services/planning-and-building-standards/aberdeen-local-development-plan/information/local-development-plan-2023-archive">
+<a class="official-source-link" href="https://www.aberdeencity.gov.uk/Council-Services/planning-and-building-standards/aberdeen-local-development-plan/information/local-development-plan-2023-archive" data-local-fact="true">
 <strong>Local Development Plan 2023 Archive</strong>
 <span>Local plan | Last reviewed 5 April 2026</span>
 <span>Despite the archive wording, this is the adopted-plan landing page and the clearest public route into Aberdeen&#x27;s current plan material.</span>
+</a>
+
+<a class="official-source-link" href="https://www.gov.scot/publications/planning-appeals-guide/" data-local-fact="true">
+<strong>gov.scot: guide to planning appeals</strong>
+<span>Official guidance | Last reviewed 5 April 2026</span>
+<span>National Scottish guidance explaining reviews and appeals after a planning authority decision or non-determination.</span>
 </a>
 
 </div>
@@ -1982,8 +2045,8 @@ max-width:none;
 <p class="section-lead">A quick note on why this route page exists, which official sources support it and where the user should go next.</p>
 <div class="editorial-trust-strip">
 <span><strong>Last reviewed</strong> 11 April 2026</span>
-<span><strong>Written by</strong> Sam Jones</span>
-<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span>
+<span><strong>Prepared under</strong> <a href="/methodology/">UK Planning Guide editorial process</a></span>
+<span><strong>Review method</strong> Route, jurisdiction, local context and official-source checks</span>
 </div>
 <div class="answer-grid">
 <div class="answer-card">
@@ -2286,6 +2349,56 @@ max-width:none;
 
   window.upgTrack = window.upgTrack || emitGaEvent;
 
+  function growthPageContext() {
+    const path = window.location.pathname || "/";
+    const cohort = document.querySelector("[data-growth-cohort]");
+    return {
+      source_path: path,
+      page_family: path.split("/").filter(Boolean)[0] || "home",
+      growth_cohort: cohort ? cohort.getAttribute("data-growth-cohort") || "" : ""
+    };
+  }
+
+  function isGoogleOrganicLanding() {
+    if (!document.referrer) {
+      return false;
+    }
+    try {
+      const host = new URL(document.referrer).hostname.toLowerCase();
+      return host === "google.com" || host.indexOf(".google.") !== -1 || host.indexOf("google.") === 0;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  if (isGoogleOrganicLanding()) {
+    let organicTimeReady = false;
+    let organicScrollReady = false;
+    let organicEngagementSent = false;
+    function maybeTrackOrganicEngagement() {
+      if (organicEngagementSent || !organicTimeReady || !organicScrollReady) {
+        return;
+      }
+      organicEngagementSent = true;
+      emitGaEvent("organic_landing_engaged", Object.assign(growthPageContext(), {
+        engagement_seconds: 10,
+        scroll_threshold: 25
+      }));
+    }
+    window.setTimeout(function () {
+      organicTimeReady = true;
+      maybeTrackOrganicEngagement();
+    }, 10000);
+    function checkOrganicEngagementScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      organicScrollReady = (window.scrollY / maxScroll) * 100 >= 25;
+      maybeTrackOrganicEngagement();
+    }
+    window.addEventListener("scroll", checkOrganicEngagementScroll, { passive: true });
+    checkOrganicEngagementScroll();
+  }
+
   const downloadAsset = document.querySelector("[data-download-asset]");
   if (downloadAsset) {
     emitGaEvent("download_asset_view", {
@@ -2346,6 +2459,9 @@ max-width:none;
     }
     const context = safeRouteContext(node);
     emitGaEvent(eventName, context);
+    if (eventName === "route_started") {
+      emitGaEvent("route_check_start", context);
+    }
     if (eventName === "summary_saved" || eventName === "council_pack_downloaded") {
       try {
         const saved = JSON.parse(safeStorageGet("ukpg:planning-workspace:v1") || "{}");
@@ -2570,6 +2686,27 @@ max-width:none;
   }
 
   document.addEventListener("click", function (event) {
+    const officialSource = event.target && event.target.closest ? event.target.closest(".official-source-link") : null;
+    if (officialSource) {
+      let destinationHost = "";
+      try {
+        destinationHost = new URL(officialSource.href).hostname;
+      } catch (error) {}
+      const sourceBlock = officialSource.closest("[data-official-sources]");
+      emitGaEvent("official_source_click", Object.assign(growthPageContext(), {
+        authority_slug: sourceBlock ? sourceBlock.getAttribute("data-official-sources-authority") || "" : "",
+        source_family: sourceBlock ? sourceBlock.getAttribute("data-official-sources-family") || "" : "",
+        destination_host: destinationHost
+      }));
+    }
+
+    const growthAction = event.target && event.target.closest ? event.target.closest("[data-growth-action]") : null;
+    if (growthAction && growthAction.getAttribute("data-growth-action") === "route_check_start") {
+      emitGaEvent("route_check_start", Object.assign(growthPageContext(), {
+        route_intent: "growth_answer_action"
+      }));
+    }
+
     const downloadButton = event.target && event.target.closest ? event.target.closest("[data-download-action]") : null;
     if (downloadButton) {
       const action = downloadButton.getAttribute("data-download-action");
@@ -2637,6 +2774,16 @@ max-width:none;
       note.textContent = "Copy the address from your browser bar to keep this page with your project notes.";
     }
   });
+
+  document.addEventListener("submit", function (event) {
+    const form = event.target && event.target.closest ? event.target.closest("form[data-guidance-form]") : null;
+    if (!form) {
+      return;
+    }
+    emitGaEvent("planning_enquiry_submit", Object.assign(growthPageContext(), {
+      form_key: form.getAttribute("data-guidance-form") || ""
+    }));
+  }, true);
 
   function ensureNextStep(resultNode) {
     if (!resultNode || resultNode.querySelector(".tool-next-step")) {

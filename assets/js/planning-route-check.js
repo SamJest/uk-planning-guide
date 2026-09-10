@@ -799,6 +799,12 @@
           confidence: result.confidence,
           source_page_type: "planning_route_check"
         });
+        emitEvent("planning_enquiry_submit", {
+          project_type: answers.project_type,
+          result_type: routeResultType(result),
+          confidence: result.confidence,
+          source_page_type: "planning_route_check"
+        });
         window.location.assign(config.success_redirect || "/planning-help/thank-you/");
       }).catch(function (error) {
         if (timeoutId) {
@@ -870,6 +876,12 @@
       bindHelpForm(helpPanel, answers, result);
 
       emitEvent("route_check_completed", {
+        project_type: answers.project_type,
+        result_type: routeResultType(result),
+        confidence: result.confidence,
+        source_page_type: "planning_route_check"
+      });
+      emitEvent("route_check_complete", {
         project_type: answers.project_type,
         result_type: routeResultType(result),
         confidence: result.confidence,
