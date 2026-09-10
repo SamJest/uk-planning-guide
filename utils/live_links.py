@@ -54,6 +54,8 @@ def live_route_set() -> frozenset[str]:
         "/privacy/",
         "/article-4-hmo-by-council/",
         "/my-planning-project/",
+        "/homeproof/",
+        "/homeproof/workspace/",
         "/workflows/",
         *FIND_HELP_ROUTES,
         "/tools/",

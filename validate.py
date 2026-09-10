@@ -2483,6 +2483,7 @@ ALLOWED_NOINDEX_SECTIONS = {
     "england-services-hub",
 }
 ALLOWED_NOINDEX_PATHS = {
+    "/homeproof/workspace/",
     "/updates/phase-0-integrity-repair/",
 }
 

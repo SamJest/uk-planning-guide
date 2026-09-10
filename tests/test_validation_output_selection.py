@@ -55,9 +55,16 @@ class ValidationOutputSelectionTests(unittest.TestCase):
         from validate import _is_allowed_noindex
 
         self.assertTrue(_is_allowed_noindex("/england/services/", "england-services-hub"))
+        self.assertTrue(_is_allowed_noindex("/homeproof/workspace/", "utility"))
         self.assertTrue(_is_allowed_noindex("/updates/phase-0-integrity-repair/", "misc"))
         self.assertTrue(_is_allowed_noindex("/england/rules/article-4/colchester/", "country-rule-page"))
         self.assertFalse(_is_allowed_noindex("/planning-permission/bedford/", "scenario-pages"))
+
+    def test_preserved_homeproof_routes_are_live_with_or_without_trailing_slash(self):
+        from utils.live_links import is_live_internal_href
+
+        self.assertTrue(is_live_internal_href("/homeproof"))
+        self.assertTrue(is_live_internal_href("/homeproof/workspace/"))
 
 
 if __name__ == "__main__":
