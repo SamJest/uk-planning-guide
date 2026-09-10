@@ -1241,6 +1241,26 @@ display:grid;
 gap:14px;
 }
 
+.workspace-retention-cta{
+display:grid;
+gap:16px;
+padding:clamp(20px,3vw,30px);
+border:1px solid rgba(31,111,95,.18);
+border-radius:8px;
+background:linear-gradient(180deg,rgba(243,250,247,.82),rgba(255,255,255,.94));
+box-shadow:var(--shadow-soft);
+}
+
+.workspace-retention-cta .answer-card{
+min-height:190px;
+align-content:start;
+}
+
+.workspace-retention-cta button,
+.workspace-retention-cta a{
+max-width:100%;
+}
+
 .next-step-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -1907,8 +1927,8 @@ max-width:none;
 <p class="section-lead">A quick note on the local route this page is using, the council source that matters most and the point where a formal check becomes the safer next move.</p>
 <div class="editorial-trust-strip">
 <span><strong>Last reviewed</strong> 11 April 2026</span>
-<span><strong>Written by</strong> Sam Jones</span>
-<span><strong>Reviewed by</strong> UK Planning Guide Editorial Review Desk</span>
+<span><strong>Prepared under</strong> <a href="/methodology/">UK Planning Guide editorial process</a></span>
+<span><strong>Review method</strong> Route, jurisdiction, local context and official-source checks</span>
 </div>
 <div class="answer-grid">
 <div class="answer-card">
@@ -1993,38 +2013,38 @@ max-width:none;
 </section>
 
 
-<section class="official-sources" id="official-sources" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="east-renfrewshire" data-official-sources-count="5">
+<section class="official-sources" id="official-sources" data-purpose="labelled-example" data-official-sources="true" data-official-sources-family="project" data-official-sources-authority="east-renfrewshire" data-official-sources-count="5">
 <span class="eyebrow">Official sources</span>
 <h2>Official Sources Worth Checking</h2>
 <p class="section-lead">These are the official pages most likely to settle the fences and walls route in East Renfrewshire.</p>
 <p class="section-lead">Rules, validation requirements and local designations can change by location. Use these links to confirm the latest official position before relying on a close or expensive planning route.</p>
 <div class="official-sources-list">
 
-<a class="official-source-link" href="https://www.eastrenfrewshire.gov.uk/media/7725/Householder-Design-Guide-2023/pdf/Householder_Design_Guide_May_2023_1.pdf?m=1688384860333">
+<a class="official-source-link" href="https://www.eastrenfrewshire.gov.uk/media/7725/Householder-Design-Guide-2023/pdf/Householder_Design_Guide_May_2023_1.pdf?m=1688384860333" data-local-fact="true">
 <strong>Householder Design Guide May 2023</strong>
 <span>Householder guidance | Last reviewed 5 April 2026</span>
 <span>Useful because it shows how East Renfrewshire explains common domestic projects before the page leans too hard on a national rule of thumb.</span>
 </a>
 
-<a class="official-source-link" href="https://www.gov.scot/publications/circular-1-2024-householder-permitted-development-rights/">
+<a class="official-source-link" href="https://www.gov.scot/publications/circular-1-2024-householder-permitted-development-rights/" data-local-fact="true">
 <strong>gov.scot: householder permitted development rights</strong>
 <span>Householder guidance | Last reviewed 5 April 2026</span>
 <span>Useful because it shows how East Renfrewshire explains common domestic projects before the page leans too hard on a national rule of thumb.</span>
 </a>
 
-<a class="official-source-link" href="https://www.gov.scot/publications/householder-permitted-development-checklist/">
+<a class="official-source-link" href="https://www.gov.scot/publications/householder-permitted-development-checklist/" data-local-fact="true">
 <strong>gov.scot: householder permitted development checklist</strong>
 <span>Permitted development | Last reviewed 5 April 2026</span>
 <span>Useful because it helps test whether the simpler fallback still holds once East Renfrewshire&#x27;s local context is added back in.</span>
 </a>
 
-<a class="official-source-link" href="https://www.eplanning.scot/">
+<a class="official-source-link" href="https://www.eplanning.scot/" data-local-fact="true">
 <strong>Scotland&#x27;s online planning applications service</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
 <span>National Scottish ePlanning portal used for online planning applications.</span>
 </a>
 
-<a class="official-source-link" href="https://www.mygov.scot/planning-permission">
+<a class="official-source-link" href="https://www.mygov.scot/planning-permission" data-local-fact="true">
 <strong>mygov.scot: do I need planning permission?</strong>
 <span>Planning portal | Last reviewed 5 April 2026</span>
 <span>Useful for the official application route and national planning paperwork behind fences and walls in East Renfrewshire.</span>
@@ -2393,6 +2413,56 @@ max-width:none;
 
   window.upgTrack = window.upgTrack || emitGaEvent;
 
+  function growthPageContext() {
+    const path = window.location.pathname || "/";
+    const cohort = document.querySelector("[data-growth-cohort]");
+    return {
+      source_path: path,
+      page_family: path.split("/").filter(Boolean)[0] || "home",
+      growth_cohort: cohort ? cohort.getAttribute("data-growth-cohort") || "" : ""
+    };
+  }
+
+  function isGoogleOrganicLanding() {
+    if (!document.referrer) {
+      return false;
+    }
+    try {
+      const host = new URL(document.referrer).hostname.toLowerCase();
+      return host === "google.com" || host.indexOf(".google.") !== -1 || host.indexOf("google.") === 0;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  if (isGoogleOrganicLanding()) {
+    let organicTimeReady = false;
+    let organicScrollReady = false;
+    let organicEngagementSent = false;
+    function maybeTrackOrganicEngagement() {
+      if (organicEngagementSent || !organicTimeReady || !organicScrollReady) {
+        return;
+      }
+      organicEngagementSent = true;
+      emitGaEvent("organic_landing_engaged", Object.assign(growthPageContext(), {
+        engagement_seconds: 10,
+        scroll_threshold: 25
+      }));
+    }
+    window.setTimeout(function () {
+      organicTimeReady = true;
+      maybeTrackOrganicEngagement();
+    }, 10000);
+    function checkOrganicEngagementScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      organicScrollReady = (window.scrollY / maxScroll) * 100 >= 25;
+      maybeTrackOrganicEngagement();
+    }
+    window.addEventListener("scroll", checkOrganicEngagementScroll, { passive: true });
+    checkOrganicEngagementScroll();
+  }
+
   const downloadAsset = document.querySelector("[data-download-asset]");
   if (downloadAsset) {
     emitGaEvent("download_asset_view", {
@@ -2453,6 +2523,9 @@ max-width:none;
     }
     const context = safeRouteContext(node);
     emitGaEvent(eventName, context);
+    if (eventName === "route_started") {
+      emitGaEvent("route_check_start", context);
+    }
     if (eventName === "summary_saved" || eventName === "council_pack_downloaded") {
       try {
         const saved = JSON.parse(safeStorageGet("ukpg:planning-workspace:v1") || "{}");
@@ -2677,6 +2750,27 @@ max-width:none;
   }
 
   document.addEventListener("click", function (event) {
+    const officialSource = event.target && event.target.closest ? event.target.closest(".official-source-link") : null;
+    if (officialSource) {
+      let destinationHost = "";
+      try {
+        destinationHost = new URL(officialSource.href).hostname;
+      } catch (error) {}
+      const sourceBlock = officialSource.closest("[data-official-sources]");
+      emitGaEvent("official_source_click", Object.assign(growthPageContext(), {
+        authority_slug: sourceBlock ? sourceBlock.getAttribute("data-official-sources-authority") || "" : "",
+        source_family: sourceBlock ? sourceBlock.getAttribute("data-official-sources-family") || "" : "",
+        destination_host: destinationHost
+      }));
+    }
+
+    const growthAction = event.target && event.target.closest ? event.target.closest("[data-growth-action]") : null;
+    if (growthAction && growthAction.getAttribute("data-growth-action") === "route_check_start") {
+      emitGaEvent("route_check_start", Object.assign(growthPageContext(), {
+        route_intent: "growth_answer_action"
+      }));
+    }
+
     const downloadButton = event.target && event.target.closest ? event.target.closest("[data-download-action]") : null;
     if (downloadButton) {
       const action = downloadButton.getAttribute("data-download-action");
@@ -2744,6 +2838,16 @@ max-width:none;
       note.textContent = "Copy the address from your browser bar to keep this page with your project notes.";
     }
   });
+
+  document.addEventListener("submit", function (event) {
+    const form = event.target && event.target.closest ? event.target.closest("form[data-guidance-form]") : null;
+    if (!form) {
+      return;
+    }
+    emitGaEvent("planning_enquiry_submit", Object.assign(growthPageContext(), {
+      form_key: form.getAttribute("data-guidance-form") || ""
+    }));
+  }, true);
 
   function ensureNextStep(resultNode) {
     if (!resultNode || resultNode.querySelector(".tool-next-step")) {

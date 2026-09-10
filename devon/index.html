@@ -1241,6 +1241,26 @@ display:grid;
 gap:14px;
 }
 
+.workspace-retention-cta{
+display:grid;
+gap:16px;
+padding:clamp(20px,3vw,30px);
+border:1px solid rgba(31,111,95,.18);
+border-radius:8px;
+background:linear-gradient(180deg,rgba(243,250,247,.82),rgba(255,255,255,.94));
+box-shadow:var(--shadow-soft);
+}
+
+.workspace-retention-cta .answer-card{
+min-height:190px;
+align-content:start;
+}
+
+.workspace-retention-cta button,
+.workspace-retention-cta a{
+max-width:100%;
+}
+
 .next-step-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -2356,7 +2376,7 @@ max-width:none;
 </div>
 </section>
 
-<div class='last-updated'>Updated June 2026</div>
+<div class='last-updated'>Updated September 2026</div>
 <div class="sticky-action-bar" data-sticky-action-bar="true" data-nosnippet>
 <a href="/tools/planning-route-check/" data-sticky-action="route_started">Check route</a>
 <button type="button" data-sticky-action="summary_saved">Save</button>
@@ -2486,6 +2506,56 @@ max-width:none;
 
   window.upgTrack = window.upgTrack || emitGaEvent;
 
+  function growthPageContext() {
+    const path = window.location.pathname || "/";
+    const cohort = document.querySelector("[data-growth-cohort]");
+    return {
+      source_path: path,
+      page_family: path.split("/").filter(Boolean)[0] || "home",
+      growth_cohort: cohort ? cohort.getAttribute("data-growth-cohort") || "" : ""
+    };
+  }
+
+  function isGoogleOrganicLanding() {
+    if (!document.referrer) {
+      return false;
+    }
+    try {
+      const host = new URL(document.referrer).hostname.toLowerCase();
+      return host === "google.com" || host.indexOf(".google.") !== -1 || host.indexOf("google.") === 0;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  if (isGoogleOrganicLanding()) {
+    let organicTimeReady = false;
+    let organicScrollReady = false;
+    let organicEngagementSent = false;
+    function maybeTrackOrganicEngagement() {
+      if (organicEngagementSent || !organicTimeReady || !organicScrollReady) {
+        return;
+      }
+      organicEngagementSent = true;
+      emitGaEvent("organic_landing_engaged", Object.assign(growthPageContext(), {
+        engagement_seconds: 10,
+        scroll_threshold: 25
+      }));
+    }
+    window.setTimeout(function () {
+      organicTimeReady = true;
+      maybeTrackOrganicEngagement();
+    }, 10000);
+    function checkOrganicEngagementScroll() {
+      const doc = document.documentElement;
+      const maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+      organicScrollReady = (window.scrollY / maxScroll) * 100 >= 25;
+      maybeTrackOrganicEngagement();
+    }
+    window.addEventListener("scroll", checkOrganicEngagementScroll, { passive: true });
+    checkOrganicEngagementScroll();
+  }
+
   const downloadAsset = document.querySelector("[data-download-asset]");
   if (downloadAsset) {
     emitGaEvent("download_asset_view", {
@@ -2546,6 +2616,9 @@ max-width:none;
     }
     const context = safeRouteContext(node);
     emitGaEvent(eventName, context);
+    if (eventName === "route_started") {
+      emitGaEvent("route_check_start", context);
+    }
     if (eventName === "summary_saved" || eventName === "council_pack_downloaded") {
       try {
         const saved = JSON.parse(safeStorageGet("ukpg:planning-workspace:v1") || "{}");
@@ -2770,6 +2843,27 @@ max-width:none;
   }
 
   document.addEventListener("click", function (event) {
+    const officialSource = event.target && event.target.closest ? event.target.closest(".official-source-link") : null;
+    if (officialSource) {
+      let destinationHost = "";
+      try {
+        destinationHost = new URL(officialSource.href).hostname;
+      } catch (error) {}
+      const sourceBlock = officialSource.closest("[data-official-sources]");
+      emitGaEvent("official_source_click", Object.assign(growthPageContext(), {
+        authority_slug: sourceBlock ? sourceBlock.getAttribute("data-official-sources-authority") || "" : "",
+        source_family: sourceBlock ? sourceBlock.getAttribute("data-official-sources-family") || "" : "",
+        destination_host: destinationHost
+      }));
+    }
+
+    const growthAction = event.target && event.target.closest ? event.target.closest("[data-growth-action]") : null;
+    if (growthAction && growthAction.getAttribute("data-growth-action") === "route_check_start") {
+      emitGaEvent("route_check_start", Object.assign(growthPageContext(), {
+        route_intent: "growth_answer_action"
+      }));
+    }
+
     const downloadButton = event.target && event.target.closest ? event.target.closest("[data-download-action]") : null;
     if (downloadButton) {
       const action = downloadButton.getAttribute("data-download-action");
@@ -2837,6 +2931,16 @@ max-width:none;
       note.textContent = "Copy the address from your browser bar to keep this page with your project notes.";
     }
   });
+
+  document.addEventListener("submit", function (event) {
+    const form = event.target && event.target.closest ? event.target.closest("form[data-guidance-form]") : null;
+    if (!form) {
+      return;
+    }
+    emitGaEvent("planning_enquiry_submit", Object.assign(growthPageContext(), {
+      form_key: form.getAttribute("data-guidance-form") || ""
+    }));
+  }, true);
 
   function ensureNextStep(resultNode) {
     if (!resultNode || resultNode.querySelector(".tool-next-step")) {
