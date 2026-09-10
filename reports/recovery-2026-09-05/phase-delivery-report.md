@@ -35,3 +35,16 @@ The add-only custom 404 was committed as `a1ec577bcd65bac1eb81c13349e36eb71c9d1d
 ## Owner decisions still required
 
 Current Search Console example URLs for the September 5xx, 404, alternate-canonical and crawled/discovered buckets; equivalence or content-contract decisions for the 30 mapped clicked 404s; advertising/CMP/vendor/legal approval; partner identities and commercial terms; analytics retention; hosted checkout/tax/receipt/refund/support providers; paid-pack price and launch approval. These decisions do not block the completed technical recovery, but they do block redirects/restorations, commercial activation and evidence-specific treatment of the remaining Search Console cohorts.
+
+## Full-corpus recovery gate — 10 September 2026
+
+- Retained: the current production tree, the July repaired families, all 1,000 protected traffic URLs, the genuine custom 404, every specialist tool URL, My Planning Project storage behaviour, and the two production-only HomeProof routes.
+- Completed: source-backed generic rule and authority rendering; zero cross-template contamination; declared noindex enforcement; noindex-aware sitemap generation; blocked-hub suppression; deterministic internal-link generation; and preservation of reviewed country-first routes outside the optional 900-alias cap.
+- Rejected: mass deletion, blanket redirects, full-corpus indexation by filename, unverified local claims, commercial activation, and overwriting HomeProof.
+- Clean source fingerprint: `b4544e87cdffd74d1f38838fa5dbf4be7ef92c9701cb948a590710c8c6168be6`.
+- Source-bound canary: passed with zero errors/warnings; finalized report SHA-256 `c671f0ae578215e2ef5c83120644cfe642ca3c4434e9464872ec0553f23783b8`.
+- Clean full build: 18/18 generators; 1,792.78 seconds; 35,218 HTML files including `404.html`; 35,217 routes; 49 sitemap files; 35,195 submitted URLs; overall `HEALTHY`.
+- Tests: 51 Python contract/regression tests passed; 54/54 Edge desktop/mobile contract, keyboard, accessibility, functional, 404 and visual checks passed. Six intentionally expanded recovery-page baselines were visually reviewed and updated.
+- Full semantic inventory before the restored reviewed alias: 35,216 routes, 34,168 keep, 1,036 similarity-only merge recommendations retained for evidence review, 12 intentional canonical bridges, and zero repair/noindex/410 recommendations, contamination, source-family mismatch or local-evidence-floor gaps. The additional Colchester Article 4 route was separately canary/browser validated and remains declared `noindex` pending authority-specific evidence.
+- Pre-deployment route reconciliation: candidate 35,217 versus production 35,219; the only candidate omissions are `/homeproof/` and `/homeproof/workspace/`, which the deployment overlay must retain. No candidate-only route exists.
+- Deployment status: gated candidate complete; production copy, commit, PR, Pages run and live verification are the next phase and must be appended here with exact identifiers.

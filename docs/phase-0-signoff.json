@@ -1,8 +1,8 @@
 {
-  "approved": false,
-  "approved_at": null,
-  "approved_by": null,
-  "canary_report_sha256": null,
-  "source_fingerprint": null,
-  "note": "A full build remains disabled until a reviewer approves the Phase 0 canary report."
+  "approved": true,
+  "approved_at": "2026-09-10",
+  "approved_by": "site owner via Codex recovery task",
+  "canary_report_sha256": "c671f0ae578215e2ef5c83120644cfe642ca3c4434e9464872ec0553f23783b8",
+  "source_fingerprint": "b4544e87cdffd74d1f38838fa5dbf4be7ef92c9701cb948a590710c8c6168be6",
+  "note": "Owner requested repair, complete validation and re-upload of the full site after the source-bound canary passed with zero errors and warnings. Approval authorises a fresh full candidate; it does not waive validation or deployment review gates."
 }

@@ -39,3 +39,7 @@ Reject unrestricted full sitemap restore, mass content regeneration, blanket red
 - Phase4 measurement/eligibility/privacy/partner/readiness-schema foundation: implemented default-off. Commercial activation correctly waits for owner/vendor/legal decisions and a reliable wider content model.
 
 The first deployment gate completed through PR15 and successful Pages run 34022456093, with post-deployment live verification. A second add-only gate delivered the custom 404 through PR16 and successful Pages run 34042563042. All 30 clicked 404s are mapped to existing same-authority parents, but no parent is assumed equivalent to the missing combined-rule intent. The next safe gate requires owner/source evidence for individual redirects or reviewed restoration contracts. Family-level sitemap partitioning also remains a separate evidence cohort.
+
+## Full-corpus gate update — 10 September 2026
+
+The owner subsequently authorised repair and re-upload of the complete site. That authority does not relax the evidence controls above. A clean isolated full build now passes all release gates with 35,217 routes and 35,195 submitted URLs. Deployment is an overlay onto current production, preserving the two HomeProof routes that are intentionally absent from the generator. The reviewed Colchester Article 4 route is retained but stays noindex until an authority-specific designation source is verified. Commercial surfaces remain default-off pending the owner/vendor/legal decisions already listed.

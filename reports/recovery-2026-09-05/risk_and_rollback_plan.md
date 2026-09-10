@@ -29,3 +29,7 @@ Clean scoped build and relevant tests; semantic fixtures across jurisdictions; e
 ## Custom 404 rollback map
 
 `artifacts/releases/recovery-404-2/release-manifest.json` records the new file SHA-256. Deployment commit `a1ec577bcd65bac1eb81c13349e36eb71c9d1d9f` was merged by `9e9db28956159587c57d88c7efebe22843f635ed`. Rollback is a normal reviewed revert on latest `main`, removing only `404.html`. It does not change any existing page, sitemap member, redirect or user data. Until individual equivalence is proven, the 30 clicked missing URLs must retain genuine 404 semantics rather than receive blanket redirects.
+
+## Full-corpus deployment controls — 10 September 2026
+
+Deploy the clean candidate only as an overlay on the current production worktree. Exclude `.git` and `homeproof` from the copy, then compare route sets and validate the resulting 35,219-route tree before commit. Remove a stale generated file only when an exact candidate/production comparison identifies it and records the path; none is currently expected outside the two HomeProof preservation exceptions. The full release must use a new `codex/` deployment branch and reviewed PR. Rollback is a normal revert of that single generated deployment commit on the then-current production head; never reset, force-push or regenerate an old sitemap from filenames. HomeProof files and client storage are outside the deployment diff and therefore outside its rollback surface.

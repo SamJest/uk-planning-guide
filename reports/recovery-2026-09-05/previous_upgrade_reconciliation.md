@@ -39,3 +39,9 @@ No conflicting uncommitted tracked edits exist. Untracked scripts/docs/backend b
 | GitHub default 404 and 30 clicked missing URLs | custom recovery deployed; URL decisions pending | Add one noindex custom error document while retaining true 404 status. Map every clicked URL to an existing same-authority parent, but authorise no redirect/restoration without equivalence or content-contract evidence. |
 
 Validation: 36 tests pass with no skips; 24-route clean canary plus special 404 passes; three semantic repairs plus the four-capability journey pass; 27/27 registered official source URLs are reachable; browser QA passes 54/54. Production deployments: PR15 merged as `7749cbba33bc` and PR16 as `9e9db289561`; both Pages runs succeeded; live repaired pages, custom 404 and the unchanged 35,208-URL sitemap passed verification.
+
+## Reconciliation update — 10 September 2026
+
+The full recovery retains the useful earlier releases and completes the previously partial generator repair. Generic rules and authority pages now derive from project-neutral source records; uncontracted synthesis fails closed. The country-first alias cap preserves explicitly reviewed contracts, while indexable aliases cannot inherit noindex from a legacy bridge during incremental builds. The prior randomized link graph is replaced with deterministic context-specific ordering so repeated builds cannot create unrelated bulk internal-link churn. Blocked search hubs remain unlinked, and rendered indexation state—not filename presence—controls sitemap membership.
+
+The full candidate does not replace HomeProof: `/homeproof/` and `/homeproof/workspace/` are the exact two production-only routes and are mandatory overlay exclusions. Earlier repaired dropped-kerb, solar, HMO, Durham fence, tools, custom-404 and storage behaviour remain present. No mass redirect, deletion, 410, partner activation, ad script, checkout or data migration is included.
