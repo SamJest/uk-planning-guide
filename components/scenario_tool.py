@@ -178,7 +178,7 @@ __STRUCTURED_TOOL_UI_HELPERS__
 
   function renderStepContent() {{
     if (state.loading) {{
-      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Checking the topic against the first common tripwires...</h3><p>This short pause is only UI polish while the rule-based result is assembled.</p></div>";
+      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Checking your answers...</h3><p>Your next checks will appear here.</p></div>";
     }}
 
     if (state.result) {{

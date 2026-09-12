@@ -449,6 +449,8 @@ def build_page_trust_strip(canonical_url: str) -> str:
     context = build_page_authority_from_canonical(canonical_url)
     if context.get("page_family") == "home":
         return ""
+    from utils.trust_status import trust_status
+    state = trust_status({"page_family": context.get("page_family")})
 
     source_basis = escape(str(context["source_basis"]))
     stop_and_verify = escape(str(context["stop_and_verify"]))
@@ -459,13 +461,14 @@ def build_page_trust_strip(canonical_url: str) -> str:
     return (
         '<div class="page-trust-strip" data-page-authority="true" data-nosnippet>'
         '<div class="page-trust-strip-heading">'
-        "<strong>Editorially checked</strong>"
-        "<span>Visible ownership, review date and official-source context for this page.</span>"
+        "<strong>UK Planning Guide editorial process</strong>"
+        "<span>Ownership and source context for this page.</span>"
         "</div>"
         '<div class="page-trust-strip-items">'
         f"<span><strong>Written by</strong> {author_name}</span>"
-        f"<span><strong>Reviewed by</strong> {reviewer_name}</span>"
-        f"<span><strong>Last reviewed</strong> {reviewed}</span>"
+        f"<span><strong>Editorial process</strong> {reviewer_name}</span>"
+        f"<span><strong>Content updated</strong> {reviewed}</span>"
+        f"<span><strong>Sources checked</strong> {'Not yet verified' if state.verification == 'unverified' else reviewed}</span>"
         f"<span><strong>Official-source context</strong> {source_basis}</span>"
         f"<span><strong>Verify before spending</strong> {stop_and_verify}</span>"
         "</div>"
@@ -484,7 +487,7 @@ def build_authority_summary_section(
     reviewer = authority_profile(DEFAULT_REVIEWER_SLUG)
     organization = site_organization_profile()
     note_html = (
-        f"<p class='section-lead'>{escape(AUTHORITY_PLACEHOLDER_NOTE)}</p>"
+        "<p class='section-lead'>Author and review details are not yet verified.</p>"
         if include_placeholder_note and (author.get('is_placeholder') or reviewer.get('is_placeholder'))
         else ""
     )
@@ -501,7 +504,7 @@ def build_authority_summary_section(
 <p>{escape(author['short_bio'])}</p>
 </div>
 <div class="answer-card">
-<h3>Reviewed by</h3>
+<h3>Editorial process</h3>
 <p><strong>{escape(reviewer['name'])}</strong><br>{escape(reviewer['role'])}</p>
 <p>{escape(reviewer['short_bio'])}</p>
 </div>
@@ -521,7 +524,7 @@ def build_authority_summary_section(
 
 
 def _person_schema(profile: dict, canonical_url: str) -> dict | None:
-    if profile.get("is_placeholder"):
+    if profile.get("is_placeholder") or profile.get("is_process"):
         return None
     payload = {
         "@type": "Person",

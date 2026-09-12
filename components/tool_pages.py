@@ -268,7 +268,7 @@ def build_tool_embedded_faq(tool: dict) -> str:
         section_id="tool-faq",
         eyebrow="Tool FAQ",
         title="Questions People Usually Ask After The Result",
-        intro="Keep this block for the interpretation and trust questions that usually appear once the tool has narrowed the answer.",
+        intro="How to interpret your result and check its limits.",
     )
 
 

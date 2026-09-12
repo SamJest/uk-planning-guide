@@ -73,17 +73,20 @@ def _display_date(value: str) -> str:
 
 
 def _render_contract_trust_strip(record: dict) -> str:
-    verified = _display_date(record.get("verified_at")) if record.get("verified_at") else "Not yet verified"
+    from utils.trust_status import trust_status
+    state = trust_status(record)
+    verified = _display_date(record.get("verified_at")) if state.verification == "verified" else "Not yet verified"
+    confidence = f"<span><strong>Confidence</strong>{escape(state.confidence.title())}</span>" if state.confidence else ""
     return (
         '<div class="page-trust-strip" data-nosnippet data-contract-trust="true">'
         '<div class="page-trust-strip-heading">'
-        "<strong>Prepared and source-checked under the UK Planning Guide editorial process</strong>"
+        "<strong>Prepared under the UK Planning Guide editorial process</strong>"
         '<span><a href="/methodology/">How the review works</a></span>'
         "</div>"
         '<div class="page-trust-strip-items">'
         f"<span><strong>Content updated</strong>{escape(_display_date(record['content_updated_at']))}</span>"
         f"<span><strong>Sources checked</strong>{escape(verified)}</span>"
-        f"<span><strong>Confidence</strong>{escape(str(record['confidence']).title())}</span>"
+        f"{confidence}"
         "<span><strong>Important</strong>General planning information, not legal advice or formal approval.</span>"
         "</div>"
         "</div>"
@@ -125,10 +128,14 @@ def _render_contract_source_panel(record: dict) -> str:
                 status=escape(source["status"]),
             )
         )
-    fact_items = [
-        f'<li data-local-fact="true">{escape(fact["fact"])}</li>'
-        for fact in record.get("unique_local_facts", [])
-    ]
+    fact_items = []
+    for fact in record.get("unique_local_facts", []):
+        evidence = []
+        for source_id in fact.get("source_ids", []):
+            source = source_lookup.get(source_id)
+            if source:
+                evidence.append(f'<a href="{escape(source["url"], quote=True)}">{escape(source["title"])}</a> (checked {escape(_display_date(source["last_checked_at"]))})')
+        fact_items.append(f'<li data-local-fact="true">{escape(fact["fact"])} <span>{"; ".join(evidence)}</span></li>')
     if not claim_items and not source_items and not fact_items:
         return ""
     claims = f'<h3>Traceable claims</h3><ul class="claim-list">{"".join(claim_items)}</ul>' if claim_items else ""
@@ -264,4 +271,7 @@ def inject_into_base(
             1,
         )
 
-    return polish_html_copy(re.sub(r"\{\{.*?\}\}", "", html))
+    html = polish_html_copy(re.sub(r"\{\{.*?\}\}", "", html))
+    from utils.production_content import assert_publishable
+    assert_publishable(html, canonical_url.replace("https://ukplanningguide.co.uk", ""))
+    return html

@@ -30,7 +30,7 @@ PAGE_FAMILIES = {
 JURISDICTIONS = {"england", "wales", "scotland", "northern-ireland", "uk"}
 REVIEW_STATUSES = {"draft", "source_checked", "editor_checked", "published"}
 INDEX_STATUSES = {"noindex", "index"}
-CONFIDENCE_LEVELS = {"low", "medium", "high"}
+CONFIDENCE_LEVELS = {"low", "medium", "high", "not assessed"}
 LOCAL_FAMILIES = {"authority_profile", "local_project", "local_rule"}
 IDENTIFIER_PATTERN = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 
@@ -115,6 +115,11 @@ def validate_page_record(record: dict) -> None:
         raise ContractError(f"Unsupported confidence on {route}")
     _require_iso_date(record["verified_at"], f"{route} verified_at", nullable=True)
     _require_iso_date(record["content_updated_at"], f"{route} content_updated_at")
+    from utils.trust_status import validate_trust_status
+    try:
+        validate_trust_status(record)
+    except ValueError as exc:
+        raise ContractError(f"{route}: {exc}") from exc
 
     for field in ("authority_id", "project_id", "rule_id"):
         if record[field] is not None and not isinstance(record[field], str):

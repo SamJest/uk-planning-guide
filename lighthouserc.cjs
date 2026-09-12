@@ -1,13 +1,14 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: './artifacts/phase-0-canary-site',
+      startServerCommand: 'node scripts/serve_site.cjs artifacts/phase-0-canary-site 8768',
+      startServerReadyPattern: 'Serving',
       url: [
-        'http://localhost/',
-        'http://localhost/england/councils/colchester/',
-        'http://localhost/wales/projects/dropped-kerbs/cardiff/',
-        'http://localhost/scotland/projects/garden-rooms/city-of-edinburgh/',
-        'http://localhost/england/tools/planning-route-check/'
+        'http://127.0.0.1:8768/',
+        'http://127.0.0.1:8768/england/councils/colchester/',
+        'http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/',
+        'http://127.0.0.1:8768/scotland/projects/garden-rooms/city-of-edinburgh/',
+        'http://127.0.0.1:8768/england/tools/planning-route-check/'
       ],
       numberOfRuns: 1
     },

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from html import escape
+from data.authority_profiles import GUIDANCE_EMAIL
 
 from components.faq_blocks import build_faq_section
 from components.trust_framework import build_trust_framework
@@ -56,7 +57,7 @@ def _render_field(field: dict) -> str:
 def _render_form(fields: list[dict], *, action: str, submit_label: str, form_key: str) -> str:
     fields_html = "".join(_render_field(field) for field in fields)
     return f"""
-<form class="find-help-form" method="post" action="{action}" data-find-help-form="{form_key}" data-static-submit="redirect" data-success-url="{action}">
+<form class="find-help-form" action="mailto:{GUIDANCE_EMAIL}" data-find-help-form="{form_key}" data-static-submit="email" data-email-to="{GUIDANCE_EMAIL}">
 <div class="form-grid">
 {fields_html}
 </div>
@@ -66,7 +67,7 @@ def _render_form(fields: list[dict], *, action: str, submit_label: str, form_key
 <noscript><p><strong>If the form does not submit:</strong> {FORM_NOSCRIPT_NOTE}</p></noscript>
 </div>
 <div class="hero-ctas">
-<button type="submit" class="btn">{submit_label}</button>
+<button type="submit" class="btn">Prepare email enquiry</button>
 </div>
 </form>
 """
@@ -346,9 +347,9 @@ def build_find_help_homeowner_request_page() -> str:
 def build_find_help_homeowner_success_page() -> str:
     return f"""
 <section class="hero" data-find-help-page="homeowner-success">
-<span class="badge">Request received</span>
-<h1>Your Project Interest Has Been Recorded</h1>
-<p>Thank you for registering your project. Find Help is still expanding carefully, so this confirmation does not mean live matching is already active for every category or area.</p>
+<span class="badge">Project enquiry next steps</span>
+<h1>Send Your Project Enquiry By Email</h1>
+<p>Preparing a form does not send it. Review and send your email to {GUIDANCE_EMAIL}; this page does not confirm receipt or a professional match.</p>
 </section>
 
 <section>
@@ -356,8 +357,8 @@ def build_find_help_homeowner_success_page() -> str:
 <h2>Coverage Is Still Being Assembled Carefully</h2>
 <div class="answer-grid">
 <div class="answer-card">
-<h3>Request received</h3>
-<p>Your project brief has been received and logged for review.</p>
+<h3>Check your sent email</h3>
+<p>Your email app records whether you sent the enquiry. Keep a copy of your project brief.</p>
 </div>
 <div class="answer-card">
 <h3>Coverage is still limited</h3>
@@ -460,9 +461,9 @@ def build_find_help_specialist_apply_page() -> str:
 def build_find_help_specialist_success_page() -> str:
     return f"""
 <section class="hero" data-find-help-page="specialist-success">
-<span class="badge">Application received</span>
-<h1>Your Application Has Been Received</h1>
-<p>Thank you for applying. The network is being assembled carefully, and applications are reviewed manually rather than admitted automatically.</p>
+<span class="badge">Specialist enquiry next steps</span>
+<h1>Check That You Have Sent Your Enquiry</h1>
+<p>Send your prepared email to {GUIDANCE_EMAIL}. This page does not confirm delivery, acceptance or membership of a professional network.</p>
 </section>
 
 <section>
@@ -470,8 +471,8 @@ def build_find_help_specialist_success_page() -> str:
 <h2>Manual Review, Then Selective Follow-Up</h2>
 <div class="answer-grid">
 <div class="answer-card">
-<h3>Application received</h3>
-<p>Your application is now part of the review queue.</p>
+<h3>Keep a sent copy</h3>
+<p>Check your email app for the message you sent and retain the details for any follow-up.</p>
 </div>
 <div class="answer-card">
 <h3>Reviewed manually</h3>

@@ -78,7 +78,7 @@ __STRUCTURED_TOOL_STYLES__
   const projectMap = Object.fromEntries(CONFIG.projects.map((project) => [project.id, project]));
 
   function createState() {
-    return { step: 1, project: "", property: "", previousWork: "", constraints: [], detailAnswers: {}, loading: false, result: null };
+    return { jurisdiction: "", step: 1, project: "", property: "", previousWork: "", constraints: [], detailAnswers: {}, loading: false, result: null };
   }
 
   let state = createState();
@@ -556,12 +556,19 @@ __STRUCTURED_TOOL_UI_HELPERS__
   }
 
   function render() {
+    if (state.jurisdiction !== "england") {
+      const links = {wales:"https://www.gov.wales/planning-permission-common-projects",scotland:"https://www.mygov.scot/browse/housing/planning/permitted-development","northern-ireland":"https://www.nidirect.gov.uk/articles/planning-permission-when-apply"};
+      engine.innerHTML = "<section class='planning-decision-desktop-shell'><h2>Where is your property?</h2><p>This detailed decision tool uses England's householder rules. Select your nation to use the correct guidance.</p><div class='decision-choice-grid'>" +
+        [{value:'england',label:'England'},{value:'wales',label:'Wales'},{value:'scotland',label:'Scotland'},{value:'northern-ireland',label:'Northern Ireland'}].map(item => "<button type='button' class='decision-choice' data-action='choose-jurisdiction' data-value='" + item.value + "'>" + item.label + "</button>").join('') + "</div>" +
+        (links[state.jurisdiction] ? "<p>Use your nation's separate planning system. No English rule assessment has been made.</p><a class='btn' href='" + links[state.jurisdiction] + "'>Open official guidance</a>" : '') + "</section>";
+      return;
+    }
     const progress = state.result ? 100 : (state.step / STEP_NAMES.length) * 100;
     const sections = renderSidebarSections();
     const shellOptions = {
       kicker: "Planning Decision Engine",
       heading: "Check whether your project probably needs planning permission",
-      intro: "A guided, rule-based first pass for common home projects. There is no free-text box and no fake AI layer here, just structured answers and instant planning triage.",
+      intro: "A guided first pass for common home projects in England. Your answers identify the next checks; they do not establish planning approval.",
       actionsHtml: renderHeaderActions(),
       progress,
       stepNames: STEP_NAMES,
@@ -592,6 +599,13 @@ __STRUCTURED_TOOL_UI_HELPERS__
     const action = target.getAttribute("data-action");
     const value = target.getAttribute("data-value") || "";
     const questionId = target.getAttribute("data-question-id") || "";
+
+    if (action === "choose-jurisdiction") {
+      state = createState();
+      state.jurisdiction = value;
+      render();
+      return;
+    }
 
     if (action === "choose-project") {
       logToolEvent("click", { action, value });

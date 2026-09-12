@@ -51,7 +51,7 @@ def build_save_export_cta(
     project_slug: str = "",
     authority_slug: str = "",
     primary_label: str = "Check the likely route",
-    secondary_label: str = "Save or email summary",
+    secondary_label: str = "Save to My Planning Project",
 ) -> str:
     attrs = {
         "data-route-cta": "true",
@@ -71,7 +71,7 @@ def build_save_export_cta(
 <button class="button-secondary" type="button" data-retention-action="summary_saved">{escape(secondary_label)}</button>
 <button class="button-secondary" type="button" data-retention-action="council_pack_downloaded">Export council pack</button>
 </div>
-<p class="guidance-consent-note">Summary and export actions are designed to use non-sensitive route context only. Do not put names, addresses or full project notes into analytics.</p>
+<p class="guidance-consent-note">Saved pages stay in this browser. Export downloads your project summary so you can keep or share a copy.</p>
 </section>
 """
 
@@ -82,7 +82,7 @@ def build_sticky_action_bar() -> str:
 <a href="/tools/planning-route-check/" data-sticky-action="route_started">Check route</a>
 <button type="button" data-sticky-action="summary_saved">Save</button>
 <button type="button" data-sticky-action="council_pack_downloaded">Export</button>
-<a href="/planning-help/" data-sticky-action="premium_report_viewed">Reviewed report</a>
+<a href="/planning-help/" data-sticky-action="premium_report_viewed">Planning help</a>
 </div>
 """
 

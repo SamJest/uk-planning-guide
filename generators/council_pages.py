@@ -21,18 +21,18 @@ from utils.council_config import load_scenarios
 from components.council_sections import *
 
 from utils.random_tools import get_month_year
-from utils.content_contracts import ContractError, page_records_by_route
+from utils.content_contracts import ContractError, page_records_by_route, render_record_for_path
 from utils.country_utils import get_country_slug
 from utils.official_sources import OfficialSourceContext, relevant_official_sources, source_category_label
 
 
 def _generate_source_backed_authority_profile(council, projects, county_slug: str) -> bool:
     town_slug = council["town_slug"]
-    town_name = council["town_name"]
+    town_name = council.get("authority_label") or council["town_name"]
     country = council.get("country_slug") or get_country_slug(county_slug)
     legacy_path = f"/councils/{town_slug}/"
     country_path = f"/{country}/councils/{town_slug}/"
-    record = page_records_by_route().get(legacy_path) or page_records_by_route().get(country_path)
+    record = render_record_for_path(legacy_path) or render_record_for_path(country_path)
     if record and record.get("page_family") != "authority_profile":
         raise ContractError(f"Invalid authority-profile contract for {legacy_path}")
 
@@ -47,19 +47,10 @@ def _generate_source_backed_authority_profile(council, projects, county_slug: st
     if not record and len(sources) < 3:
         raise ContractError(f"Source-backed authority profile lacks three official sources: {legacy_path}")
 
-    fact_items = "".join(
-        f'<li data-local-fact="true">{escape(fact["fact"])}</li>'
-        for fact in (record or {}).get("unique_local_facts", [])
-    )
+    fact_items = ('<li><a href="#page-sources">Read the authority-specific facts and their dated sources below.</a></li>'
+                  if (record or {}).get("unique_local_facts") else "")
     if not fact_items:
-        fact_items = "".join(
-            '<li data-local-fact="true">{authority} publishes an official {category} source titled “{title}”; use it for the current authority position.</li>'.format(
-                authority=escape(town_name),
-                category=escape(source_category_label(source.category).lower()),
-                title=escape(source.title),
-            )
-            for source in sources
-        )
+        fact_items = '<li>No property-specific local facts have been verified for this guide. Use the authority sources below to check your address.</li>'
     project_cards = "".join(
         '<a class="card" href="/{slug}/{county}/{town}/"><h3>{title}</h3>'
         '<p>Open the explicitly selected local project guide.</p></a>'.format(
@@ -85,7 +76,7 @@ def _generate_source_backed_authority_profile(council, projects, county_slug: st
 </div>
 </section>
 <section>
-<h2>Verified local context</h2>
+<h2>Local context</h2>
 <ul class="checklist" data-purpose="labelled-example">{fact_items}</ul>
 </section>
 <section data-purpose="project-navigation">

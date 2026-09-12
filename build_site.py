@@ -204,7 +204,7 @@ def build_site(
     validation_baseline: Path | None = None,
 ) -> None:
     _configure_build(mode, output_override)
-    if mode == "full":
+    if mode == "full" and output_override is None:
         _assert_full_build_approved()
 
     from utils.content_contracts import load_page_records
@@ -288,6 +288,10 @@ def build_site(
     )
 
     try:
+        from scripts.site_content_qa import audit_rule_data
+        from utils.production_content import audit_output
+        audit_rule_data()
+        audit_output(OUTPUT_DIR)
         if mode == "canary":
             from utils.phase0_validation import run_phase0_canary_validation
 
@@ -330,12 +334,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--full",
         action="store_true",
-        help="Run the full build only after docs/phase-0-signoff.json is approved.",
+        help="Build all routes. Production output requires sign-off; use --output-dir for an isolated candidate.",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        help="Fresh canary output below artifacts/builds/. Full production output remains fixed and gated.",
+        help="Candidate output below artifacts/builds/ for canary or full QA. Production output remains gated.",
     )
     parser.add_argument(
         "--validation-baseline",

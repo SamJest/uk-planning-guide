@@ -191,9 +191,9 @@ def render_download_assets_index() -> str:
 
     return f"""
 <section class="hero">
-<span class="badge">Free planning downloads</span>
+<span class="badge">Free printable planning resources</span>
 <h1>Printable Planning Checklists And Worksheets</h1>
-<p>Use these crawlable, printable resources before you spend money on drawings, applications, contractors or a route that still needs one obvious check.</p>
+<p>Open a checklist in your browser, then use Print and choose Save as PDF to keep a copy.</p>
 <div class="hero-ctas">
 <a class="btn" href="/tools/">Use planning tools</a>
 <a class="btn button-secondary" href="/my-planning-project/">Open My Planning Project</a>

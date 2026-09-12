@@ -204,7 +204,7 @@ __STRUCTURED_TOOL_UI_HELPERS__
 
   function renderStepContent() {
     if (state.loading) {
-      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Building the result...</h3><p>This short pause is only UI polish while the rule-based output is assembled.</p></div>";
+      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Building your summary...</h3><p>Your next checks will appear here.</p></div>";
     }
     if (state.result) {
       return renderResult();

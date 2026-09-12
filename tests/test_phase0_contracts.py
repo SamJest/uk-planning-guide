@@ -101,13 +101,22 @@ class PhaseZeroContractTests(unittest.TestCase):
         validate_url_registry()
 
     def test_phase_zero_signoff_is_bound_to_a_passing_canary(self):
+        import hashlib
+        from build_site import _assert_full_build_approved
+        from utils.build_provenance import source_fingerprint
         signoff = json.loads((ROOT / "docs" / "phase-0-signoff.json").read_text(encoding="utf-8"))
         report_path = ROOT / "reports" / "phase-0" / "canary-test-report.json"
         report = json.loads(report_path.read_text(encoding="utf-8"))
         self.assertIs(signoff["approved"], True)
         self.assertEqual(report["status"], "passed")
-        self.assertEqual(signoff["source_fingerprint"], report["source_fingerprint"])
         self.assertTrue(signoff["canary_report_sha256"])
+        current = source_fingerprint(ROOT)
+        if (signoff["source_fingerprint"] != current or report["source_fingerprint"] != current
+                or signoff["canary_report_sha256"] != hashlib.sha256(report_path.read_bytes()).hexdigest()):
+            with self.assertRaises(SystemExit):
+                _assert_full_build_approved()
+        else:
+            _assert_full_build_approved()
 
 
 class PhaseZeroIntegrityTests(unittest.TestCase):

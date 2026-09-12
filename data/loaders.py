@@ -251,12 +251,15 @@ def load_councils():
 
 
 def load_rule(project_slug, county_slug, town_slug):
+    from utils.jurisdiction_rules import national_rule_module, verified_local_layer
+    jurisdiction = get_country_slug(county_slug)
+    if county_slug not in {"england", "wales", "scotland", "northern-ireland"} and not (DATA_FOLDER / "councils" / f"{county_slug}.json").is_file():
+        raise ValueError(f"Unknown planning geography: {county_slug!r}")
     national_path = DATA_FOLDER / "rules" / project_slug / "national.json"
     county_path = DATA_FOLDER / "rules" / project_slug / f"{county_slug}.json"
 
-    national_data = _read_json(national_path) if national_path.exists() else {}
+    national_data = national_rule_module(project_slug, jurisdiction)
     county_data = _read_json(county_path) if county_path.exists() else {}
-    jurisdiction_defaults = _jurisdiction_rule_defaults(county_slug, project_slug)
     county_defaults = county_data.get("defaults", {}) if isinstance(county_data, dict) else {}
 
     local_entry = {}
@@ -266,15 +269,18 @@ def load_rule(project_slug, county_slug, town_slug):
             break
 
     merged = _merge_rule_layers(
+        national_data.get("defaults", {}),
         national_data,
-        jurisdiction_defaults,
-        county_defaults,
-        local_entry,
+        verified_local_layer(county_defaults, jurisdiction),
+        verified_local_layer(local_entry, jurisdiction),
         project_slug=project_slug,
     )
     merged.update(
         {
             "town_slug": town_slug,
+            "jurisdiction": jurisdiction,
+            "availability": national_data.get("availability", "available"),
+            "official_sources": national_data.get("official_sources", []),
             "county_slug": county_slug,
             "country_slug": get_country_slug(county_slug),
             "country_name": get_country_name(county_slug),

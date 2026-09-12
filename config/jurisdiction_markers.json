@@ -1,0 +1,46 @@
+{
+  "internal_patterns": [
+    "Keep this block",
+    "\\bTODO\\b",
+    "\\bFIXME\\b",
+    "replace this",
+    "insert here",
+    "for the project-specific",
+    "for the trust section",
+    "for the interpretation section",
+    "\\bplaceholder (?:text|copy|content|advertisement)\\b",
+    "\\[(?:placeholder|insert|replace)[^\\]]*\\]",
+    "as an AI language model",
+    "only UI polish",
+    "same calculator logic as before",
+    "Scaffolded;",
+    "launch-gated paid report",
+    "page copy must stay",
+    "(?:^|\\.\\s+)placeholder(?:\\.|$)"
+  ],
+  "jurisdiction_patterns": {
+    "wales": [
+      "England['\u2019]s Class A",
+      "Class A of Part 1 of Schedule 2",
+      "larger[- ](?:home|house|rear)[- ]extension",
+      "neighbou?r[- ]consultation (?:scheme|route)",
+      "(?<![\\d.])(?:6|8)\\s*(?:m\\b|metres?\\b|meters?\\b).{0,180}(?:detached|terraced|prior[- ]approval)",
+      "(?<![\\d.])7\\s*(?:m\\b|metres?\\b|meters?\\b).{0,120}(?:boundary|curtilage)",
+      "(?<![\\d.])3\\s*(?:m\\b|metres?\\b|meters?\\b).{0,50}(?:semi-detached|terraced|other houses)"
+    ],
+    "scotland": [
+      "England['\u2019]s Class A",
+      "\\bClass A\\b",
+      "larger[- ](?:home|house|rear)[- ]extension",
+      "neighbou?r[- ]consultation (?:scheme|route)",
+      "(?<![\\d.])(?:6|8)\\s*(?:m\\b|metres?\\b|meters?\\b).{0,180}(?:detached|terraced|prior[- ]approval)",
+      "(?<![\\d.])7\\s*(?:m\\b|metres?\\b|meters?\\b).{0,120}(?:boundary|curtilage)"
+    ],
+    "northern-ireland": [
+      "England['\u2019]s Class A",
+      "\\bClass 1[AB]\\b",
+      "larger[- ](?:home|house|rear)[- ]extension",
+      "neighbou?r[- ]consultation (?:scheme|route)"
+    ]
+  }
+}

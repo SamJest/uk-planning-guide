@@ -60,7 +60,7 @@
     "content_updated_at": {"type": "string", "format": "date"},
     "review_status": {"enum": ["draft", "source_checked", "editor_checked", "published"]},
     "index_status": {"enum": ["noindex", "index"]},
-    "confidence": {"enum": ["low", "medium", "high"]},
+    "confidence": {"enum": ["low", "medium", "high", "not assessed"]},
     "unique_local_facts": {
       "type": "array",
       "items": {

@@ -111,6 +111,7 @@
     const restrictions = data.getAll("restrictions");
     return {
       project_type: data.get("project_type") || "",
+      jurisdiction: data.get("jurisdiction") || "",
       property_type: data.get("property_type") || "",
       postcode_or_town: String(data.get("postcode_or_town") || "").trim(),
       council: String(data.get("council") || "").trim(),
@@ -140,6 +141,15 @@
   }
 
   function evaluateRoute(answers) {
+    if (answers.jurisdiction === "northern-ireland" || /^BT\s*\d/i.test(answers.postcode_or_town || "") || /\bnorthern ireland\b/i.test(answers.postcode_or_town || "")) {
+      return { unsupported: true, guidanceUrl: "https://www.nidirect.gov.uk/articles/planning-permission-when-apply", route: "Northern Ireland is not yet covered", confidence: "Low",
+        why: ["Northern Ireland uses a separate planning system."], warnings: [],
+        nextSteps: ["Use nidirect and your Northern Ireland council's planning office."] };
+    }
+    if (!["england", "wales", "scotland"].includes(answers.jurisdiction)) {
+      return { unsupported: true, route: "Select the property's planning jurisdiction", confidence: "Low",
+        why: ["The planning system must be known before checking a route."], warnings: [], nextSteps: [] };
+    }
     const why = [];
     const warnings = [
       "Building regulations may still apply even where planning permission is not required."
@@ -299,7 +309,7 @@
 
     return {
       route: route,
-      confidence: confidence,
+      confidence: "Low",
       why: why,
       warnings: warnings,
       nextSteps: nextSteps
@@ -324,11 +334,14 @@
   }
 
   function renderResult(result, answers) {
+    if (result.unsupported) {
+      return '<h2>' + escapeHtml(result.route) + '</h2>' + listHtml(result.why) +
+        (result.guidanceUrl ? '<p><a href="' + escapeHtml(result.guidanceUrl) + '">Official Northern Ireland planning guidance</a></p>' : '');
+    }
     return [
       "<span class=\"eyebrow\">Your likely route</span>",
       "<div class=\"route-result-summary\">",
       "<div><h2>" + escapeHtml(result.route) + "</h2><p>This is a cautious first-pass route check, not a legal decision.</p></div>",
-      "<div class=\"route-confidence\"><span>Confidence</span><strong>" + escapeHtml(result.confidence) + "</strong></div>",
       "</div>",
       "<div class=\"route-result-grid\">",
       "<div class=\"answer-card\"><h3>Why this matters</h3>" + listHtml(result.why) + "</div>",
@@ -368,7 +381,7 @@
     return [
       "<span class=\"eyebrow\">Optional help request</span>",
       "<h2>Want help checking this properly?</h2>",
-      "<p>UK Planning Guide is building a network of suitable planning, design and home-improvement professionals. If you ask for help, we may be able to contact you or pass your enquiry to a relevant professional, but a match is not guaranteed.</p>",
+      "<p>Prepare an enquiry with your project details. You can review and send the email yourself; a professional referral is not guaranteed.</p>",
       "<form id=\"planning-help-form\" class=\"route-lead-form\" novalidate>",
       "<input type=\"text\" name=\"website\" class=\"route-honeypot\" tabindex=\"-1\" autocomplete=\"off\" aria-hidden=\"true\">",
       "<div class=\"form-grid\">",
@@ -382,9 +395,9 @@
       "<div class=\"form-field form-field-wide\"><label for=\"lead-notes\">Notes/project details *</label><textarea id=\"lead-notes\" name=\"notes\" rows=\"6\" required>" + escapeHtml(answers.user_notes || summary) + "</textarea></div>",
       "</div>",
       "<label class=\"route-consent\"><input type=\"checkbox\" name=\"consent_contact\" value=\"yes\" required><span>I agree that UK Planning Guide may contact me about this enquiry.</span></label>",
-      "<label class=\"route-consent\"><input type=\"checkbox\" name=\"consent_share\" value=\"yes\" required><span>If suitable help is available, I agree that UK Planning Guide may share my enquiry details with a relevant planning, design or home-improvement professional for this purpose.</span></label>",
+      "<label class=\"route-consent\"><input type=\"checkbox\" name=\"consent_share\" value=\"yes\"><span>Optional: if suitable help is available, UK Planning Guide may share this enquiry with a relevant professional.</span></label>",
       "<div id=\"lead-form-errors\" class=\"route-check-errors\" role=\"alert\" aria-live=\"polite\"></div>",
-      "<div class=\"hero-ctas\"><button class=\"btn\" type=\"submit\">Request planning help</button><button class=\"btn button-secondary\" type=\"button\" id=\"copy-route-summary\">Copy enquiry summary</button></div>",
+      "<div class=\"hero-ctas\"><button class=\"btn\" type=\"submit\">" + (getLeadConfig().enabled && getLeadConfig().endpoint ? "Request planning help" : "Prepare email enquiry") + "</button><button class=\"btn button-secondary\" type=\"button\" id=\"copy-route-summary\">Copy enquiry summary</button></div>",
       "</form>",
       "<section id=\"lead-fallback\" class=\"route-fallback\" hidden></section>",
       "<p class=\"route-check-disclaimer\">Contact details are only used for this enquiry. Do not include sensitive personal information that is not needed for the planning question.</p>"
@@ -476,7 +489,7 @@
       "",
       "Source:",
       "Page URL: " + window.location.href,
-      "Submitted at: " + new Date().toISOString()
+      "Prepared at: " + new Date().toISOString()
     ].join("\n");
   }
 
@@ -656,8 +669,8 @@
   function showFallback(container, summary, heading, lead, answers) {
     const emailHref = mailtoLink(summary, lead || {}, answers || {});
     const configuredCopy = emailHref
-      ? "Online submission is not currently configured. You can copy the summary or open an email draft to send it."
-      : "Online submission is not currently configured and no fallback email has been set. Copy the summary below and contact the site owner directly if needed.";
+      ? "Nothing has been sent yet. Open the email draft, review it and send it in your email app. You can also copy the summary."
+      : "Copy this summary to keep your next checks together. No enquiry has been sent.";
     container.hidden = false;
     container.innerHTML = [
       "<h3>" + escapeHtml(heading || "Online submission is not enabled yet") + "</h3>",
@@ -701,9 +714,6 @@
     }
     if (!lead.consent_contact) {
       errors.push("Confirm that UK Planning Guide may contact you about this enquiry.");
-    }
-    if (!lead.consent_share) {
-      errors.push("Confirm whether your enquiry may be shared with a relevant professional if suitable help is available.");
     }
     return errors;
   }
@@ -758,7 +768,7 @@
       const endpoint = String(config.endpoint || "").trim();
 
       if (!config.enabled || !endpoint) {
-        showFallback(fallback, summary, "Online submission is not yet enabled", lead, answers);
+        showFallback(fallback, summary, "Review and send your email", lead, answers);
         emitEvent("lead_form_fallback_used", {
           project_type: answers.project_type,
           result_type: routeResultType(result),
@@ -794,6 +804,12 @@
         });
       }).then(function () {
         emitEvent("lead_form_submitted", {
+          project_type: answers.project_type,
+          result_type: routeResultType(result),
+          confidence: result.confidence,
+          source_page_type: "planning_route_check"
+        });
+        emitEvent("planning_enquiry_submit", {
           project_type: answers.project_type,
           result_type: routeResultType(result),
           confidence: result.confidence,
@@ -865,11 +881,17 @@
       resultPanel.innerHTML = renderResult(result, answers);
       saveProjectFolder(answers, result);
       bindResultActions(resultPanel, answers, result);
-      helpPanel.hidden = false;
-      helpPanel.innerHTML = renderHelpPanel(answers, result);
-      bindHelpForm(helpPanel, answers, result);
+      helpPanel.hidden = Boolean(result.unsupported);
+      helpPanel.innerHTML = result.unsupported ? "" : renderHelpPanel(answers, result);
+      if (!result.unsupported) bindHelpForm(helpPanel, answers, result);
 
       emitEvent("route_check_completed", {
+        project_type: answers.project_type,
+        result_type: routeResultType(result),
+        confidence: result.confidence,
+        source_page_type: "planning_route_check"
+      });
+      emitEvent("route_check_complete", {
         project_type: answers.project_type,
         result_type: routeResultType(result),
         confidence: result.confidence,

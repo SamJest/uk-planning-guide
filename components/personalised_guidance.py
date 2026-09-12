@@ -216,17 +216,17 @@ def _render_form_field(field: dict) -> str:
 def build_guidance_request_form(*, form_key: str = "guidance-request", action: str = GUIDANCE_SUCCESS_PATH) -> str:
     fields_html = "".join(_render_form_field(field) for field in GUIDANCE_REQUEST_FIELDS)
     return f"""
-<form class="find-help-form guidance-request-form" method="post" action="{action}" data-guidance-form="{form_key}" data-static-submit="redirect" data-success-url="{action}">
+<form class="find-help-form guidance-request-form" action="mailto:{GUIDANCE_EMAIL}" data-guidance-form="{form_key}" data-static-submit="email" data-email-to="{GUIDANCE_EMAIL}">
 <div class="form-grid">
 {fields_html}
 </div>
 <div class="form-note">
-<p><strong>How this works:</strong> This guided form is the fallback route for case-specific planning questions after the quick checks have narrowed the issue. It captures the key facts cleanly before you move into a reply or a stronger formal check.</p>
+<p><strong>How this works:</strong> Prepare an email with the details below, then review and send it in your email app. This website does not submit the request automatically.</p>
 <p><strong>Privacy:</strong> {PRIVACY_TEXT} <a href="{PRIVACY_PATH}">Privacy notice</a>.</p>
 <noscript><p><strong>If the form does not submit:</strong> Email <a href="mailto:{escape(GUIDANCE_EMAIL, quote=True)}">{escape(GUIDANCE_EMAIL)}</a> with the same details.</p></noscript>
 </div>
 <div class="hero-ctas">
-<button type="submit" class="btn">Submit guidance request</button>
+<button type="submit" class="btn">Prepare email request</button>
 </div>
 </form>
 """
@@ -376,7 +376,7 @@ def build_guidance_faq() -> str:
         section_id="guidance-faq",
         eyebrow="Common questions",
         title="What People Usually Want To Know Before They Submit A Request",
-        intro="Keep this block for the trust, scope and response-time questions that usually come up once the service looks relevant.",
+        intro="Service scope and response times.",
     )
 
 
@@ -714,9 +714,9 @@ def build_guidance_request_page() -> str:
 def build_guidance_request_success_page() -> str:
     return f"""
 <section class="hero">
-<span class="badge">Guidance request received</span>
-<h1>Your Planning Guidance Request Has Been Captured</h1>
-<p>The request has been recorded through the guided form flow. Keep your drawings, site photos and planning-history notes together so the next reply or formal check can be handled more cleanly.</p>
+<span class="badge">Guidance request next steps</span>
+<h1>Check That You Have Sent Your Email</h1>
+<p>Preparing a request on this website does not send it. Review the draft and send it in your email app to {GUIDANCE_EMAIL}. This page does not confirm delivery.</p>
 </section>
 
 <section>

@@ -4,6 +4,11 @@ from components.planning_helpers import first_text, is_meaningful_local_rule_sig
 def render_national_rule_cards(rule_data):
     if not rule_data:
         return ""
+    from utils.jurisdiction_rules import validate_rule_module
+    from html import escape
+    validate_rule_module(rule_data, rule_data.get("jurisdiction"))
+    if rule_data.get("availability") == "unavailable":
+        return '<section class="national-rule"><h2>Check official guidance</h2><p>' + escape(rule_data["permitted_development"]) + '</p></section>'
 
     html_parts = []
     rules = rule_data.get("rules", {})
@@ -70,6 +75,8 @@ def render_national_rule_cards(rule_data):
             """
         )
 
+    sources = ''.join(f'<li><a href="{escape(source["url"], quote=True)}">{escape(source["title"])}</a></li>' for source in rule_data.get("official_sources", []))
+    html_parts.append(f'<section class="rule-sources"><h2>Official rule sources</h2><ul>{sources}</ul></section>')
     return "\n".join(html_parts)
 
 

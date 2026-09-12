@@ -62,26 +62,11 @@ def build_editorial_authority_block(
     return f"""
 <section class="editorial-authority" id="editorial-authority" data-editorial-authority="true" data-editorial-path="{escape(path, quote=True)}" data-editorial-family="{escape(str(authority.get('page_family') or page_family), quote=True)}">
 <span class="eyebrow">Editorial authority</span>
-<h2>What Was Checked Before This Page Was Published</h2>
-<p class="section-lead">{_block_intro(authority)}</p>
+<h2>Source context</h2>
 <div class="editorial-trust-strip">
-<span><strong>Last reviewed</strong> {escape(str(authority.get("last_reviewed_display") or ""))}</span>
+<span><strong>Content updated</strong> {escape(str(authority.get("last_reviewed_display") or ""))}</span>
 <span><strong>Prepared under</strong> <a href="/methodology/">UK Planning Guide editorial process</a></span>
 <span><strong>Review method</strong> Route, jurisdiction, local context and official-source checks</span>
-</div>
-<div class="answer-grid">
-<div class="answer-card">
-<h3>Checked for this page</h3>
-<p>{escape(str(authority.get("what_checked") or ""))}</p>
-</div>
-<div class="answer-card">
-<h3>What changes the answer fastest</h3>
-<p>{escape(str(authority.get("local_factor") or ""))}</p>
-</div>
-<div class="answer-card">
-<h3>Verify next if the route feels tight</h3>
-<p>{escape(str(authority.get("stop_and_verify") or ""))}</p>
-</div>
 </div>
 <div class="editorial-proof-grid">
 <div class="mini-card editorial-footing">
@@ -89,10 +74,6 @@ def build_editorial_authority_block(
 <p>{official_link}</p>
 <p class="quick-summary">{source_date}</p>
 {source_reason_html}
-</div>
-<div class="mini-card editorial-escalation">
-<h3>Change note</h3>
-<p>{change_note}</p>
 </div>
 </div>
 </section>

@@ -1948,17 +1948,39 @@ max-width:none;
     });
   }
 
-  document.querySelectorAll("form[data-static-submit='redirect']").forEach(function (form) {
+  document.querySelectorAll("form[data-static-submit]").forEach(function (form) {
     form.addEventListener("submit", function (event) {
-      const successUrl = form.getAttribute("data-success-url") || form.getAttribute("action");
-      if (!successUrl) {
-        return;
-      }
       event.preventDefault();
       if (typeof form.reportValidity === "function" && !form.reportValidity()) {
         return;
       }
-      window.location.assign(successUrl);
+      const email = form.getAttribute("data-email-to") || "guidance@ukplanningguide.co.uk";
+      const lines = Array.from(new FormData(form).entries()).map(function (entry) {
+        const field = form.elements.namedItem(entry[0]);
+        const label = field && field.labels && field.labels[0] ? field.labels[0].textContent.trim() : entry[0];
+        return label + ": " + entry[1];
+      });
+      const summary = lines.join("\n\n");
+      let panel = form.querySelector("[data-email-draft]");
+      if (!panel) {
+        panel = document.createElement("section");
+        panel.setAttribute("data-email-draft", "true");
+        panel.setAttribute("aria-live", "polite");
+        form.appendChild(panel);
+      }
+      panel.replaceChildren();
+      const note = document.createElement("p");
+      note.textContent = "Your email is ready to review. Nothing has been sent yet. Open your email app and send the draft, or copy the details below to " + email + ".";
+      const link = document.createElement("a");
+      link.className = "btn";
+      link.textContent = "Open email draft";
+      link.href = "mailto:" + email + "?subject=" + encodeURIComponent("UK Planning Guide enquiry") + "&body=" + encodeURIComponent(summary);
+      const text = document.createElement("textarea");
+      text.readOnly = true;
+      text.rows = 10;
+      text.setAttribute("aria-label", "Email enquiry summary");
+      text.value = summary;
+      panel.append(note,link,text);
     });
   });
 
@@ -2085,20 +2107,10 @@ max-width:none;
       emitGaEvent("route_check_start", context);
     }
     if (eventName === "summary_saved" || eventName === "council_pack_downloaded") {
-      try {
-        const saved = JSON.parse(safeStorageGet("ukpg:planning-workspace:v1") || "{}");
-        saved.saved_pages = Array.isArray(saved.saved_pages) ? saved.saved_pages : [];
-        saved.saved_pages.unshift({
-          title: (document.querySelector("h1") || {}).textContent || document.title || "Planning guide",
-          path: context.source_path,
-          country: context.country,
-          project_type: context.project_type,
-          council: context.council,
-          saved_at: new Date().toISOString()
-        });
-        saved.saved_pages = saved.saved_pages.slice(0, 20);
-        safeStorageSet("ukpg:planning-workspace:v1", JSON.stringify(saved));
-      } catch (error) {}
+      if (window.UKPGProject) {
+        if (eventName === "summary_saved") window.UKPGProject.savePage(node);
+        else window.UKPGProject.exportSummary();
+      }
     }
   }
 

@@ -25,7 +25,7 @@ export default defineConfig({
     { name: 'mobile-chromium', use: { ...devices['Pixel 7'] } }
   ],
   webServer: process.env.UKPG_BASE_URL ? undefined : {
-    command: 'python -m http.server 8765 --bind 127.0.0.1 --directory artifacts/phase-0-canary-site',
+    command: 'node scripts/serve_site.cjs artifacts/phase-0-canary-site 8765',
     url: 'http://127.0.0.1:8765/',
     reuseExistingServer: true,
     timeout: 30_000

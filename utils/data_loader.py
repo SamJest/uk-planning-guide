@@ -20,21 +20,9 @@ def validate_rule_data(rule):
     return rule
 
 
-def load_national_rules(project_slug: str, country_slug: str = ""):
-    candidate_paths = []
-    if country_slug:
-        candidate_paths.append(DATA_FOLDER / "rules" / project_slug / f"national-{country_slug}.json")
-    candidate_paths.append(DATA_FOLDER / "rules" / project_slug / "national.json")
-
-    path = next((item for item in candidate_paths if item.exists()), None)
-    if path is None:
-        return None
-
-    try:
-        with path.open("r", encoding="utf-8") as handle:
-            return validate_rule_data(json.load(handle))
-    except (OSError, json.JSONDecodeError):
-        return None
+def load_national_rules(project_slug: str, country_slug: str):
+    from utils.jurisdiction_rules import national_rule_module
+    return national_rule_module(project_slug, country_slug)
 
 
 def load_projects():

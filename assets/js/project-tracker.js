@@ -170,6 +170,119 @@
     }
   }
 
+  function workspaceRetentionRoot(button) {
+    return button && button.closest ? button.closest("[data-workspace-retention]") : null;
+  }
+
+  function setRetentionNote(button, message) {
+    const root = workspaceRetentionRoot(button);
+    const note = root ? root.querySelector("[data-workspace-note], [data-project-note]") : null;
+    if (note) {
+      note.textContent = message;
+    }
+  }
+
+  function retentionContext(button) {
+    const root = workspaceRetentionRoot(button);
+    const page = pageSnapshot();
+    const title = root ? (root.getAttribute("data-workspace-title") || page.title) : page.title;
+    const summary = root ? (root.getAttribute("data-workspace-summary") || page.description) : page.description;
+    const taskTitle = root ? (root.getAttribute("data-workspace-task-title") || ("Follow up: " + title)) : ("Follow up: " + title);
+    const taskSummary = root ? (root.getAttribute("data-workspace-task-summary") || summary) : summary;
+    return {
+      title: title.slice(0, 140),
+      summary: summary.slice(0, 260),
+      task_title: taskTitle.slice(0, 160),
+      task_summary: taskSummary.slice(0, 260),
+      path: page.path,
+      description: page.description,
+      retention_key: root ? (root.getAttribute("data-retention-key") || "") : "",
+      page_family: root ? (root.getAttribute("data-page-family") || "") : "",
+      project_slug: root ? (root.getAttribute("data-project-slug") || "") : "",
+      authority_slug: root ? (root.getAttribute("data-authority-slug") || "") : "",
+      next_tool: root ? (root.getAttribute("data-workspace-next-tool") || "") : ""
+    };
+  }
+
+  function saveContextPage(button) {
+    const context = retentionContext(button);
+    const snapshot = {
+      title: context.title,
+      path: context.path,
+      description: context.summary || context.description,
+      page_family: context.page_family,
+      project_slug: context.project_slug,
+      authority_slug: context.authority_slug,
+      retention_key: context.retention_key,
+      saved_at: new Date().toISOString()
+    };
+    const ok = updateWorkspace(function (workspace) {
+      workspace.saved_pages = [snapshot].concat((workspace.saved_pages || []).filter(function (item) {
+        return item && item.path !== snapshot.path;
+      })).slice(0, 20);
+      if (context.project_slug && !workspace.project_type) {
+        workspace.project_type = context.project_slug;
+      }
+      if (context.authority_slug && !workspace.location_label) {
+        workspace.location_label = context.authority_slug;
+      }
+    });
+    setRetentionNote(button, ok ? "Saved to My Planning Project on this device." : "This browser blocked local storage, so print or copy the page instead.");
+    if (ok) {
+      window.upgTrack("project_save", {
+        source_page: context.path,
+        page_family: context.page_family,
+        project_slug: context.project_slug,
+        retention_key: context.retention_key,
+        source: "workspace_retention"
+      });
+      renderPanel();
+      renderWorkspacePage();
+    }
+  }
+
+  function addContextTask(button) {
+    const context = retentionContext(button);
+    const task = {
+      id: "page-task|" + context.path + "|" + context.retention_key + "|" + Date.now(),
+      title: context.task_title,
+      path: context.path,
+      summary: context.task_summary,
+      page_family: context.page_family,
+      project_slug: context.project_slug,
+      authority_slug: context.authority_slug,
+      retention_key: context.retention_key,
+      completed: false,
+      created_at: new Date().toISOString()
+    };
+    const ok = updateWorkspace(function (workspace) {
+      workspace.tasks = [task].concat(workspace.tasks || []).slice(0, 30);
+      workspace.saved_pages = [{
+        title: context.title,
+        path: context.path,
+        description: context.summary || context.description,
+        page_family: context.page_family,
+        project_slug: context.project_slug,
+        authority_slug: context.authority_slug,
+        retention_key: context.retention_key,
+        saved_at: new Date().toISOString()
+      }].concat((workspace.saved_pages || []).filter(function (item) {
+        return item && item.path !== context.path;
+      })).slice(0, 20);
+    });
+    setRetentionNote(button, ok ? "Next task added to My Planning Project." : "This browser blocked local storage.");
+    if (ok) {
+      window.upgTrack("workspace_task_added", {
+        source_page: context.path,
+        page_family: context.page_family,
+        project_slug: context.project_slug,
+        retention_key: context.retention_key
+      });
+      renderPanel();
+      renderWorkspacePage();
+    }
+  }
+
   function clearProject() {
     try {
       window.localStorage.removeItem(STORAGE_KEY);
@@ -472,6 +585,16 @@
       }
     }
 
+    const pageWorkspaceButton = event.target && event.target.closest ? event.target.closest("[data-workspace-page-action]") : null;
+    if (pageWorkspaceButton) {
+      const pageAction = pageWorkspaceButton.getAttribute("data-workspace-page-action");
+      if (pageAction === "save-context") {
+        saveContextPage(pageWorkspaceButton);
+      } else if (pageAction === "add-context-task") {
+        addContextTask(pageWorkspaceButton);
+      }
+    }
+
     const workspaceButton = event.target && event.target.closest ? event.target.closest("[data-workspace-action]") : null;
     if (workspaceButton) {
       const action = workspaceButton.getAttribute("data-workspace-action");
@@ -531,6 +654,20 @@
     });
   });
 
+  window.UKPGProject = {
+    savePage: saveCurrentPage,
+    exportSummary: function () {
+      const blob = new Blob([buildSummaryText()], {type: "text/plain;charset=utf-8"});
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "uk-planning-project-summary.txt";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    }
+  };
   renderPanel();
   renderWorkspacePage();
 })();

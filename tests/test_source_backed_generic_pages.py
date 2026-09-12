@@ -8,7 +8,7 @@ from utils.official_sources import COUNCIL_LOOKUP, OfficialSourceContext, releva
 
 
 class SourceBackedGenericPageTests(unittest.TestCase):
-    def test_authority_source_cards_are_explicit_local_facts(self):
+    def test_authority_source_cards_are_links_not_local_facts(self):
         authority_slug, council = next(iter(COUNCIL_LOOKUP.items()))
         html = build_official_sources_block(
             page_family="council",
@@ -16,7 +16,8 @@ class SourceBackedGenericPageTests(unittest.TestCase):
             country_slug=council.get("country_slug", ""),
         )
         self.assertIn('data-purpose="labelled-example"', html)
-        self.assertGreaterEqual(html.count('data-local-fact="true"'), 3)
+        self.assertGreaterEqual(html.count('data-source-link="true"'), 3)
+        self.assertNotIn('data-local-fact="true"', html)
 
     def test_every_authority_profile_has_an_official_source_floor(self):
         for authority_slug, council in COUNCIL_LOOKUP.items():

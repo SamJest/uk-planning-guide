@@ -78,42 +78,8 @@ def _source_reason(source, *, page_family: str, authority_slug: str, project_slu
     if source.notes:
         return source.notes
 
-    authority = _label_from_slug(authority_slug).title()
-    project = _label_from_slug(project_slug)
-    scenario = _label_from_slug(scenario_slug)
-    category = source.category
-
-    if category == "planning_portal":
-        if page_family == "project" and project and authority:
-            return f"Useful for the official application route and national planning paperwork behind {project} in {authority}."
-        if page_family == "scenario" and scenario and authority:
-            return f"Useful for the official application route when {scenario} in {authority} is pushing the page toward a formal check."
-        return f"Useful for the official application route and submission next step in {authority}."
-    if category == "validation_requirements":
-        return f"Useful because it sets out the document and checklist requirements that matter if {authority} is the next formal stop."
-    if category == "pre_application_advice":
-        return f"Useful when the broad answer is no longer enough and a local pre-application view in {authority} is the safer next step."
-    if category == "householder_guidance":
-        return f"Useful because it shows how {authority} explains common domestic projects before the page leans too hard on a national rule of thumb."
-    if category == "permitted_development_guidance":
-        return f"Useful because it helps test whether the simpler fallback still holds once {authority}'s local context is added back in."
-    if category == "article_4":
-        return f"Useful because Article 4 can remove the fallback route the page would otherwise be relying on in {authority}."
-    if category in {"conservation_area", "heritage", "listed_buildings"}:
-        return f"Useful because heritage controls often do more work than the headline measurement once the site is in a sensitive part of {authority}."
-    if category in {"highways", "dropped_kerb_or_vehicle_access"}:
-        return f"Useful because the decisive issue may be access, visibility or highway approval in {authority}, not planning wording alone."
-    if category == "design_guide":
-        return f"Useful when the route depends on how {authority} is likely to read visibility, materials or street-facing design."
-    if category == "local_plan":
-        return f"Useful because the local plan often settles the policy position once the route stops being a broad national question."
-    if category == "trees":
-        return f"Useful because tree constraints can change what looks like a routine project in {authority}."
-    if category == "enforcement":
-        return f"Useful when the risk sits in how the council may treat an existing or proposed breach rather than in the broad route summary."
-    if category in {"building_regulations", "building_control", "building_control_application", "approved_documents", "competent_person_scheme"}:
-        return "Useful because building regulations approval is separate from planning permission and should be checked before work starts."
-    return f"Useful as a direct council source for the next check this page is pointing you toward in {authority}."
+    # A national source listed on a local page is not a claim about that council.
+    return f"Use this source to check {source_category_label(source.category).lower()} and confirm what applies to your property."
 
 
 def build_official_sources_block(
@@ -145,7 +111,7 @@ def build_official_sources_block(
         scenario_slug=scenario_slug,
     )
     items = []
-    local_fact_marker = ' data-local-fact="true"' if authority_slug else ""
+    local_fact_marker = ' data-source-link="true"'
     for source in sources:
         meta_bits = [source_category_label(source.category)]
         if source.last_reviewed:

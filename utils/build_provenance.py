@@ -13,6 +13,7 @@ INPUT_FILES = {
     "lighthouserc.cjs",
 }
 INPUT_DIRS = (
+    "config",
     "assets",
     "components",
     "core",

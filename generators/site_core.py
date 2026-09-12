@@ -41,7 +41,7 @@ SCENARIOS = [
 ]
 
 
-def generate_site_core():
+def generate_site_core(*, countries=None):
     print("Starting core site generation")
 
     projects = load_projects()
@@ -53,6 +53,8 @@ def generate_site_core():
         clean_project = project_title.replace("Planning Permission", "").strip()
 
         for county_slug, councils in councils_by_county.items():
+            if countries and get_country_slug(county_slug) not in countries:
+                continue
             county_name = county_slug.replace("-", " ").title()
             national_rules = load_national_rules(project_slug, get_country_slug(county_slug))
 
@@ -107,14 +109,11 @@ def generate_site_core():
                     ),
                     build_project_decision_guide(project_slug, clean_project, town_name, rule),
                     build_local_action_links(project_slug, county_slug, town_slug, town_name),
-                    build_local_rule_highlight(rule),
                     render_national_rule_cards(national_rules),
-                    build_rule_comparison(clean_project, town_name),
                     build_planning_process_block(clean_project, town_name, rule, project_slug),
                     build_documents_checklist(clean_project, project_slug),
                     build_project_building_regs_handoff(project_slug, clean_project, town_name),
                     build_local_topic_handoffs(project_slug, town_slug),
-                    build_real_world_examples(clean_project, town_name, rule, project_slug),
                     generate_faq(project_slug, clean_project, town_name, rule),
                     build_project_find_help_cta(project_slug),
                     build_nearby_council_links(project_slug, county_slug, town_slug, councils_by_county),

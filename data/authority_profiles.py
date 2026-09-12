@@ -61,12 +61,12 @@ AUTHORITY_PROFILES = {
     },
     "lead_reviewer": {
         "slug": "lead_reviewer",
-        "name": "UK Planning Guide Editorial Review Desk",
+        "name": "UK Planning Guide editorial process",
+        "is_process": True,
         "role": "Editorial review and source checking",
         "short_bio": (
-            "Review layer responsible for official-source context, escalation wording and checks "
-            "that pages stay clear about what is national guidance, what is local context "
-            "and what still needs formal confirmation."
+            "The publisher's process for distinguishing national guidance, local sources and "
+            "questions requiring formal confirmation. This is not a separate independent human review service."
         ),
         "credentials": (
             "Applies the site's editorial review checklist across official-source context, visible "

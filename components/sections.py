@@ -933,7 +933,7 @@ def generate_faq(project_slug: str, project: str, town: str, rule) -> str:
         section_id="faq",
         eyebrow="Project-specific FAQ",
         title="Questions People Usually Ask Before They Commit",
-        intro=f"Keep this block for the project-specific objections and follow-up checks that usually matter once the broad route is understood for {project.lower()} in {town}.",
+        intro=f"Questions about {project.lower()} in {town}.",
     )
 
 

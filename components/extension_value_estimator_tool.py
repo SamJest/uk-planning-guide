@@ -360,7 +360,7 @@ __STRUCTURED_TOOL_UI_HELPERS__
 
   function renderStepContent() {
     if (state.loading) {
-      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Estimating value uplift...</h3><p>This short pause is only UI polish while the range is assembled.</p></div>";
+      return "<div class='decision-loading'><div class='decision-loading-dots'><span></span><span></span><span></span></div><h3>Estimating value uplift...</h3><p>Your illustrative range will appear here.</p></div>";
     }
     if (state.result) {
       return renderResult();

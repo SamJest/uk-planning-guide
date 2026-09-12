@@ -3,7 +3,8 @@ const path = require("path");
 const vm = require("vm");
 
 const workspaceRoot = path.resolve(__dirname, "..");
-const toolsDir = path.join(workspaceRoot, "output", "tools");
+const siteRoot = path.resolve(process.env.UKPG_OUTPUT_DIR || path.join(workspaceRoot, "output"));
+const toolsDir = path.join(siteRoot, "tools");
 
 function assert(condition, message) {
   if (!condition) {
@@ -205,6 +206,7 @@ function smokeStructuredTool(pagePath, html) {
     };
 
     const answerButton =
+      chooseGroupAction("choose-jurisdiction") ||
       chooseGroupAction("choose-project") ||
       chooseGroupAction("select-property") ||
       chooseGroupAction("choose-property") ||
@@ -249,6 +251,8 @@ function smokePdCalculator(pagePath, html) {
   const documentListeners = {};
   const timers = [];
   const seedValues = {
+    pdJurisdiction: "england",
+    eavesHeight: "2.5",
     propertyType: "detached",
     extensionType: "rear",
     depth: "2.5",
@@ -323,11 +327,11 @@ function smokePdCalculator(pagePath, html) {
 }
 
 function smokePlanningRouteCheck(pagePath, html) {
-  const routeScriptPath = path.join(workspaceRoot, "output", "assets", "js", "planning-route-check.js");
+  const routeScriptPath = path.join(siteRoot, "assets", "js", "planning-route-check.js");
   const routeScript = fs.existsSync(routeScriptPath)
     ? fs.readFileSync(routeScriptPath, "utf8")
     : fs.readFileSync(path.join(workspaceRoot, "assets", "js", "planning-route-check.js"), "utf8");
-  const leadConfigPath = path.join(workspaceRoot, "output", "assets", "js", "lead-config.js");
+  const leadConfigPath = path.join(siteRoot, "assets", "js", "lead-config.js");
   const leadConfigScript = fs.existsSync(leadConfigPath)
     ? fs.readFileSync(leadConfigPath, "utf8")
     : fs.readFileSync(path.join(workspaceRoot, "assets", "js", "lead-config.js"), "utf8");
@@ -362,7 +366,7 @@ function smokePlanningRouteCheck(pagePath, html) {
   assert(routeScript.includes("Online submission timed out"), "Missing timeout fallback message");
   assert(routeScript.includes("Submission could not be accepted."), "Missing honeypot validation message");
   assert(routeScript.includes("Confirm that UK Planning Guide may contact you"), "Missing contact consent validation");
-  assert(routeScript.includes("Confirm whether your enquiry may be shared"), "Missing sharing consent validation");
+  assert(!routeScript.includes("if (!lead.consent_share)"), "Third-party sharing must remain optional");
 
   const analyticsBodies = [...routeScript.matchAll(/emitEvent\("[^"]+",\s*\{([\s\S]*?)\}\);/g)].map((match) => match[1]);
   assert(analyticsBodies.length >= 6, "Expected route-check analytics events were not found");

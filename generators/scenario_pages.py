@@ -48,7 +48,8 @@ def _generate_source_backed_local_rule_page(
     country = council.get("country_slug") or get_country_slug(county_slug)
     legacy_path = f"/{scenario_slug}/{town_slug}/"
     country_path = f"/{country}/rules/{scenario_slug}/{town_slug}/"
-    record = page_records_by_route().get(legacy_path) or page_records_by_route().get(country_path)
+    from utils.content_contracts import render_record_for_path
+    record = render_record_for_path(legacy_path) or render_record_for_path(country_path)
     if record and (record.get("page_family") != "local_rule" or record.get("project_id")):
         raise ContractError(f"Invalid local-rule contract for {legacy_path}")
 
@@ -73,14 +74,7 @@ def _generate_source_backed_local_rule_page(
         for fact in (record or {}).get("unique_local_facts", [])
     )
     if not facts:
-        facts = "".join(
-            '<li data-local-fact="true">{authority} publishes an official {category} source titled “{title}”; use the linked source to verify the current position.</li>'.format(
-                authority=escape(town_name),
-                category=escape(source_category_label(source.category).lower()),
-                title=escape(source.title),
-            )
-            for source in sources
-        )
+        facts = '<li>No property-specific local facts have been verified for this guide. Check the authority sources below.</li>'
     project_links = "".join(
         f'<a href="/{escape(project["slug"], quote=True)}/{escape(county_slug, quote=True)}/{escape(town_slug, quote=True)}/">{escape(project["short_name"])}</a>'
         for project in projects[:12]

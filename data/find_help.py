@@ -10,8 +10,8 @@ FIND_HELP_ENABLED = False
 
 
 ROLL_OUT_NOTE = (
-    "The vetted local network is still being assembled. Matching will launch in "
-    "carefully limited categories and areas rather than as a live nationwide marketplace."
+    "Professional matching is not currently offered. You can email an enquiry, "
+    "but a referral, response time or place in a network is not guaranteed."
 )
 
 FORM_PRIVACY_NOTE = (
@@ -21,8 +21,8 @@ FORM_PRIVACY_NOTE = (
 )
 
 FORM_NOSCRIPT_NOTE = (
-    "This temporary early-stage form uses a lightweight on-page redirect. If it does not "
-    "work on your device, email guidance@ukplanningguide.co.uk with the same details."
+    "Email guidance@ukplanningguide.co.uk with the same details. "
+    "The website does not send or store your enquiry automatically."
 )
 
 HOMEOWNER_HELP_TYPES = [

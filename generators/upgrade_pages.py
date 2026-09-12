@@ -86,8 +86,10 @@ def _canonical_alias_html(source_page: Path, contract: RouteContract) -> str:
     return html
 
 
-def _apply_static_redirect_bridges() -> None:
+def _apply_static_redirect_bridges(only_paths=None) -> None:
     for redirect in load_redirects():
+        if only_paths is not None and redirect["source_path"] not in only_paths:
+            continue
         if redirect["status_code"] == 410:
             continue
         bridge_page = output_path_for_route(redirect["source_path"], OUTPUT_FOLDER)
@@ -368,6 +370,12 @@ def generate_data_asset_pages() -> None:
     write_file(OUTPUT_FOLDER / "england" / "data", "index.html", html)
 
     for asset in DATA_ASSETS:
+        from utils.source_registry import load_source_registry
+        keywords = {'pre-app-fees': ('pre-app', 'pre app', 'fee'), 'validation-requirements': ('validation',), 'hmo-article-4-map': ('article 4', 'article-4', 'hmo')}.get(asset['slug'], ())
+        sources = [source for source in load_source_registry() if source.get('jurisdiction') == 'england'
+                   and (not keywords or any(word in (source['title'] + ' ' + source['url']).lower() for word in keywords))]
+        source_rows = ''.join('<li data-source-link="true"><a href="' + escape(source['url'],quote=True) + '">' + escape(source['title']) + '</a> — ' + escape(source['publisher']) + '; source last checked ' + escape(source['last_checked_at']) + '</li>' for source in sources)
+        source_directory = '<section><h2>Official sources in this directory</h2><ul>' + source_rows + '</ul><p><a href="/councils/">Find other council planning pages</a></p></section>'
         canonical_url = f"{BASE_URL}/england/data/{asset['slug']}/"
         content = f"""
 <section class="hero">
@@ -377,17 +385,17 @@ def generate_data_asset_pages() -> None:
 </section>
 {build_upgrade_summary_panel(
     page_type="Data/tool landing page",
-    legal_scope="England-first scaffold unless a record states a devolved-country source.",
-    what_changes="The page should only become fully indexable where source URLs, update dates and methodology are present.",
+    legal_scope="England, except where an individual record identifies another nation.",
+    what_changes="Council guidance, fees, validation requirements and the date each source was checked.",
     official_source_basis=asset["source_basis"],
-    stop_point="Do not rely on this scaffold as a complete local answer until the individual council row has been source-checked.",
+    stop_point="Confirm the current council requirements for your address before relying on a directory entry.",
 )}
 <section>
 <h2>Source And Update Method</h2>
-<p><strong>Launch phase:</strong> {escape(asset['phase'])}</p>
 <p><strong>Status:</strong> {escape(asset['status'])}</p>
 <p><strong>Source basis:</strong> {escape(asset['source_basis'])}</p>
 </section>
+{source_directory}
 {build_save_export_cta(page_family="data", country="england", primary_label="Check my route", secondary_label="Save data summary")}
 """
         html = inject_into_base(
@@ -410,7 +418,8 @@ def generate_monetisation_pages() -> None:
 <section class="hero">
 <span class="eyebrow">Future services</span>
 <h1>Planning Service Options</h1>
-<p>These service pages are prepared for future launch. The free guides, tools and official-source checks stay useful first; paid or referral routes will only open when fulfilment, consent and privacy workflows are ready.</p>
+<p>Use the free planning tools and project workspace now. Paid reports and referral services are not currently offered.</p>
+<p><a class="btn" href="/tools/">Open the free planning tools</a></p>
 </section>
 <section>
 <h2>Service Scaffolds</h2>
@@ -453,10 +462,10 @@ def generate_monetisation_pages() -> None:
 </section>
 {build_upgrade_summary_panel(
     page_type="Service landing page",
-    legal_scope="United Kingdom service scaffold; page copy must stay clear about country-specific planning differences.",
-    what_changes="Launch readiness, fulfilment process, partner availability, payment setup and privacy notice updates.",
-    official_source_basis="The service must summarise official sources rather than replace formal council or professional decisions.",
-    stop_point="Do not enable checkout or referrals until consent, disclosure, fulfilment and review workflow are ready.",
+    legal_scope="Planning guidance covers England, Wales and Scotland; Northern Ireland is separate.",
+    what_changes="The help you need depends on your project, planning history and local restrictions.",
+    official_source_basis="Use official guidance and your council's records for an address-specific decision.",
+    stop_point="No paid report or referral is offered on this page. Use the free tools or seek independent professional advice.",
 )}
 """
         html = inject_into_base(
@@ -479,20 +488,20 @@ def generate_phase_zero_update() -> None:
 <section class="hero">
 <span class="eyebrow">Site update</span>
 <h1>Phase 0 integrity repair</h1>
-<p>UK Planning Guide is testing stricter page-family, source, jurisdiction and URL controls on a limited canary set before any wider regeneration.</p>
+<p>UK Planning Guide has strengthened its country-specific guidance, source records and content checks.</p>
 </section>
 <section>
 <h2>What this update covers</h2>
 <ul class="checklist">
-<li>Explicit page records instead of inferred project context.</li>
-<li>Traceable source IDs and separate source-check dates.</li>
-<li>Contamination checks for project, rule and jurisdiction leakage.</li>
-<li>A twenty-route canary that remains isolated from the live output.</li>
+<li>Separate guidance for England, Wales and Scotland.</li>
+<li>Official source links and clearer source-check dates.</li>
+<li>Automated checks for incorrect country rules and unfinished copy.</li>
+<li>Clearer saved summaries and planning tools.</li>
 </ul>
 </section>
 <section class="notice">
 <h2>Review status</h2>
-<p>This is a source-controlled release note for human review. It remains noindex and is excluded from sitemaps until Phase 0 is approved.</p>
+<p>This update describes improvements to the website. It does not verify the planning status of any individual property.</p>
 </section>
 """
     html = inject_into_base(

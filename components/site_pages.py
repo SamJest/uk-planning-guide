@@ -27,6 +27,7 @@ def build_about_page() -> str:
 <section class="hero">
 <span class="badge">About UK Planning Guide</span>
 <h1 id="sam-jones">Why I Built This Site</h1>
+<p>Currently covering England, Wales and Scotland. Northern Ireland uses a separate planning system and is not yet covered.</p>
 <p>Hi, I'm Sam Jones. I built UK Planning Guide after having a frustrating experience trying to work through planning permission for a few projects of my own. What should have felt like a straightforward early-stage check often felt confusing, slow and much harder to navigate than it needed to be.</p>
 <div class="last-updated">Updated {get_month_year()}</div>
 </section>

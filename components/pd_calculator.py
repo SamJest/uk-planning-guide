@@ -57,8 +57,8 @@ def render_pd_calculator():
 <div class="pd-calculator-header">
 <span class="pd-calculator-kicker">Permitted development</span>
 <h2>Permitted Development Calculator</h2>
-<p class="tool-summary">Use this self-check to see whether a common home project still looks comfortably inside the usual permitted development envelope.</p>
-<div class="pd-calculator-trust"><strong>UK planning baseline</strong><span>Based on common UK permitted development rules. Always confirm the exact measurements, restrictions and local council position before relying on the result.</span></div>
+<p class="tool-summary">Check initial measurements for a single-storey rear extension in England, or find the correct guidance for another project or nation.</p>
+<div class="pd-calculator-trust"><strong>England measurement check</strong><span>This is a limited initial check, not a determination that permitted development applies. Other nations use separate rules.</span></div>
 </div>
 
 <div class="pd-calculator-body">
@@ -68,6 +68,10 @@ def render_pd_calculator():
 <p>Enter the core measurements first, then run the check to see whether the project still looks comfortably inside the usual permitted development range.</p>
 </div>
 <div class="pd-calculator-fields">
+<div class="pd-calculator-field">
+<label for="pdJurisdiction">Nation</label>
+<select id="pdJurisdiction"><option value="">Select a nation</option><option value="england">England</option><option value="wales">Wales</option><option value="scotland">Scotland</option><option value="northern-ireland">Northern Ireland</option></select>
+</div>
 <div class="pd-calculator-field">
 <label for="propertyType">Property Type</label>
 <select id="propertyType">
@@ -81,7 +85,7 @@ def render_pd_calculator():
 <div class="pd-calculator-field">
 <label for="extensionType">Extension Type</label>
 <select id="extensionType">
-  <option value="rear">Rear Extension</option>
+  <option value="rear">Single-storey rear extension</option>
   <option value="side">Side Extension</option>
   <option value="loft">Loft Conversion</option>
 </select>
@@ -95,6 +99,10 @@ def render_pd_calculator():
 <div class="pd-calculator-field">
 <label for="height">Height (m)</label>
 <input type="number" id="height" step="0.1">
+</div>
+<div class="pd-calculator-field">
+<label for="eavesHeight">Eaves height (m)</label>
+<input type="number" id="eavesHeight" step="0.1" min="0">
 </div>
 
 <div class="pd-calculator-field">
@@ -127,7 +135,7 @@ def render_pd_calculator():
 <div class="pd-calculator-result-panel">
 <span class="pd-calculator-result-eyebrow">Your result</span>
 <h3>Result</h3>
-<p class="pd-calculator-summary">The tool keeps the same calculator logic as before and updates this panel after each check.</p>
+<p class="pd-calculator-summary">Your result will explain the measurement checks and what still needs confirmation.</p>
 <div id="result" class="tool-result" aria-live="polite">
 <div class="pd-calculator-empty">
 <p>Choose the project details above, then run the check to see the first-pass result.</p>
@@ -183,7 +191,7 @@ function showPDLoading() {
     result.removeAttribute("data-result-ready");
     result.classList.remove("tool-result-visible");
     result.innerHTML =
-        "<div class='tool-loading-state'><div class='tool-loading-bar'></div><h3>Checking the common permitted development triggers...</h3><p>This short pause is only UI polish while the structured result is assembled.</p></div>";
+        "<div class='tool-loading-state'><div class='tool-loading-bar'></div><h3>Checking your details...</h3><p>Your initial checks will appear here.</p></div>";
 }
 
 function renderPDResult(status, resultText, nextStep, linksHtml) {
@@ -221,11 +229,33 @@ window.__ukpgSavePDResult = function (button) {
 };
 
 function runPDCheck() {
+    const nation = document.getElementById("pdJurisdiction").value;
+    if (nation !== "england") {
+        const sources = {
+            wales: "https://www.gov.wales/planning-permission-common-projects",
+            scotland: "https://www.mygov.scot/browse/housing/planning/permitted-development",
+            "northern-ireland": "https://www.nidirect.gov.uk/articles/planning-permission-when-apply"
+        };
+        renderPDResult(nation ? "Use your nation's guidance" : "Select a nation", "The numerical checks in this calculator apply to England only.",
+            "Next step: choose the official guidance for your property's nation.", sources[nation] ? "<a href='" + sources[nation] + "'>Open official planning guidance</a>" : "");
+        return;
+    }
     const property = document.getElementById("propertyType").value;
     const type = document.getElementById("extensionType").value;
+    if (type !== "rear") {
+        renderPDResult("Check the project-specific rules", "Side extensions need width and siting checks; loft conversions need roof and volume checks.",
+            "Next step: use the relevant project guide rather than rear-extension measurements.", buildResultLinks(type,"Check required"));
+        return;
+    }
+    const fields = ['depth','height','eavesHeight','boundary'].map(id => document.getElementById(id).value.trim());
+    if (fields.some(value => value === '' || !Number.isFinite(Number(value)) || Number(value) < 0) || Number(fields[0]) === 0 || Number(fields[1]) === 0 || Number(fields[2]) > Number(fields[1])) {
+        renderPDResult("Enter valid measurements", "Provide positive depth and height, an eaves height no greater than the overall height, and a non-negative boundary distance.", "Next step: measure the proposal and run the check again.", "");
+        return;
+    }
     const depth = parseFloat(document.getElementById("depth").value || 0);
     const height = parseFloat(document.getElementById("height").value || 0);
     const boundary = parseFloat(document.getElementById("boundary").value || 0);
+    const eaves = Number(document.getElementById("eavesHeight").value);
     const conservation = document.getElementById("conservation").value;
     const previous = document.getElementById("previous").value;
 
@@ -270,8 +300,8 @@ function runPDCheck() {
         issues.push("The height looks above the usual 4m threshold.");
     }
 
-    if (boundary < 2 && height > 3) {
-        issues.push("If the building is within 2m of a boundary, the usual 3m height check becomes important.");
+    if (boundary <= 2 && eaves > 3) {
+        issues.push("Within 2m of a boundary, eaves must not exceed 3m under this householder allowance.");
     }
 
     let status = "";
@@ -279,15 +309,15 @@ function runPDCheck() {
     let nextStep = "";
 
     if (issues.length === 0) {
-        status = "Likely permitted development";
-        result = "Your project appears to fit within the common permitted development checks used in this tool.";
+        status = "No issue in these measurements";
+        result = "These limited measurements do not flag an issue. This does not establish that permitted development applies; the remaining conditions still need checking.";
         nextStep = "Now confirm the exact measurements, local restrictions and any previous extensions before relying on the result.";
     } else if (issues.length <= 2) {
         status = "Check required";
         result = issues.join("<br>");
         nextStep = "Open the matching project guide and compare the local authority layer before moving forward.";
     } else {
-        status = "Likely requires planning permission";
+        status = "Several checks need attention";
         result = issues.join("<br>");
         nextStep = "Treat the formal planning route as likely unless more detailed local guidance shows a cleaner answer.";
     }

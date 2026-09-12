@@ -6,14 +6,14 @@
   // bearer tokens, webhook secrets or service credentials here.
   // Keep secrets only in the receiving backend or workflow tool.
   window.UKPG_LEAD_CONFIG = {
-    enabled: true,
+    enabled: false,
     // Production example after deploying the separate receiver:
     // endpoint: "https://YOUR-WORKER.your-subdomain.workers.dev/leads",
     endpoint: "",
     method: "POST",
     provider: "generic",
     // Used only for the fallback mailto link when endpoint is blank.
-    owner_email: "",
+    owner_email: "guidance@ukplanningguide.co.uk",
     // Keep this as a local path so redirects remain on ukplanningguide.co.uk.
     success_redirect: "/planning-help/thank-you/",
     request_timeout_ms: 10000,

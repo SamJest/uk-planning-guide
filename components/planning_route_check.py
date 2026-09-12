@@ -208,6 +208,16 @@ def render_planning_route_check_tool() -> str:
 <legend>3. Where is the property?</legend>
 <div class="form-grid">
 <div class="form-field">
+<label for="route-jurisdiction">Planning jurisdiction *</label>
+<select id="route-jurisdiction" name="jurisdiction" required>
+<option value="">Select the property's nation</option>
+<option value="england">England</option>
+<option value="wales">Wales</option>
+<option value="scotland">Scotland</option>
+<option value="northern-ireland">Northern Ireland (not yet covered)</option>
+</select>
+</div>
+<div class="form-field">
 <label for="route-location">Postcode or town *</label>
 <input id="route-location" name="postcode_or_town" type="text" autocomplete="postal-code" required>
 </div>
@@ -265,8 +275,8 @@ def render_planning_route_check_tool() -> str:
 <section id="planning-route-result" class="route-result-panel" aria-live="polite" hidden></section>
 <section id="planning-route-help" class="route-help-panel" hidden></section>
 </div>
-<script src="/assets/js/lead-config.js"></script>
-<script src="/assets/js/planning-route-check.js"></script>
+<script src="/assets/js/lead-config.js" defer></script>
+<script src="/assets/js/planning-route-check.js" defer></script>
 """
 
 

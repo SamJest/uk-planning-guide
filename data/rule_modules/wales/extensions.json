@@ -1,0 +1,35 @@
+{
+  "jurisdiction": "wales",
+  "project_type": "extension",
+  "verification": "source_checked",
+  "checked_at": "2026-09-11",
+  "official_sources": [
+    {
+      "url": "https://www.gov.wales/planning-permission-extensions",
+      "title": "Welsh Government: Planning permission for extensions",
+      "checked_at": "2026-09-11"
+    }
+  ],
+  "permitted_development": "Welsh extension rights have separate rear and side limits. These are summary checks for houses, subject to all Welsh conditions.",
+  "baseline_label": "Wales extension baseline",
+  "rules": {
+    "depth_rules": {
+      "title": "Extension projection and boundaries",
+      "intro": "Welsh extension rights have separate rear and side limits. These are summary checks for houses, subject to all Welsh conditions.",
+      "rules": [
+        "Single-storey rear projection is limited to 4m, for detached, semi-detached and terraced houses alike.",
+        "For rear extensions of more than one storey, projection is limited to 4m at ground floor and 3m on upper floors; the extended rear wall must be at least 10.5m from the rear boundary.",
+        "Multi-storey side extensions must be at least 10.5m from a side boundary, with at least 1m setback from the principal elevation."
+      ]
+    },
+    "height_rules": {
+      "title": "Other limits and restrictions",
+      "rules": [
+        "Single-storey rear and side extensions are limited to 4m height. Within 2m of a boundary, eaves are limited to 3m and overall height to 4m.",
+        "Side extensions cannot be closer to a highway than the existing side wall, or 10.5m from the highway, whichever is nearer.",
+        "Check width, materials, windows and protected-area restrictions; multi-storey rear and side extensions are excluded on designated land."
+      ]
+    }
+  },
+  "restrictions": {}
+}
