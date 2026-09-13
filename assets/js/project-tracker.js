@@ -654,6 +654,20 @@
     });
   });
 
+  window.UKPGProject = {
+    savePage: saveCurrentPage,
+    exportSummary: function () {
+      const blob = new Blob([buildSummaryText()], {type: "text/plain;charset=utf-8"});
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "uk-planning-project-summary.txt";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    }
+  };
   renderPanel();
   renderWorkspacePage();
 })();

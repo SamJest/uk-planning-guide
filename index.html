@@ -31,7 +31,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260327">
 <link rel="manifest" href="/assets/site.webmanifest?v=20260327">
 <meta name="theme-color" content="#f3eee5">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://ukplanningguide.co.uk/#website", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}}, {"@type": "WebPage", "name": "UK Planning Permission Guide: projects, councils and tools", "url": "https://ukplanningguide.co.uk/", "description": "Check project guides, local authority pages, planning rule hubs and tools to see what usually applies, what changes it locally and what to check next.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "CollectionPage", "headline": "UK Planning Permission Guide: projects, councils and tools", "description": "Check project guides, local authority pages, planning rule hubs and tools to see what usually applies, what changes it locally and what to check next.", "url": "https://ukplanningguide.co.uk/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk#sam-jones", "email": "guidance@ukplanningguide.co.uk"}, "reviewedBy": {"@type": "Person", "name": "UK Planning Guide Editorial Review Desk", "description": "Review layer responsible for official-source context, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.", "url": "https://ukplanningguide.co.uk#lead-reviewer", "email": "guidance@ukplanningguide.co.uk"}}, {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/#contract-page", "url": "https://ukplanningguide.co.uk/", "dateModified": "2026-07-04"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://ukplanningguide.co.uk/#website", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}}, {"@type": "WebPage", "name": "UK Planning Permission Guide: projects, councils and tools", "url": "https://ukplanningguide.co.uk/", "description": "Check project guides, local authority pages, planning rule hubs and tools to see what usually applies, what changes it locally and what to check next.", "isPartOf": {"@type": "WebSite", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ukplanningguide.co.uk/"}]}, {"@type": "Organization", "@id": "https://ukplanningguide.co.uk/#organization", "name": "UK Planning Guide", "url": "https://ukplanningguide.co.uk/", "email": "guidance@ukplanningguide.co.uk", "logo": {"@type": "ImageObject", "url": "https://ukplanningguide.co.uk/assets/images/logo-main.png"}, "description": "Answer-first planning guidance for homeowners, small developers and property researchers who need to know what usually applies before they commit to drawings, consultants or applications."}, {"@type": "CollectionPage", "headline": "UK Planning Permission Guide: projects, councils and tools", "description": "Check project guides, local authority pages, planning rule hubs and tools to see what usually applies, what changes it locally and what to check next.", "url": "https://ukplanningguide.co.uk/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/"}, "dateModified": "2026-04-11", "publisher": {"@id": "https://ukplanningguide.co.uk/#organization"}, "author": {"@type": "Person", "name": "Sam Jones", "description": "Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.", "url": "https://ukplanningguide.co.uk#sam-jones", "email": "guidance@ukplanningguide.co.uk"}}, {"@type": "WebPage", "@id": "https://ukplanningguide.co.uk/#contract-page", "url": "https://ukplanningguide.co.uk/", "dateModified": "2026-07-04"}]}</script>
 <style>
 :root{
 --ink:#1f2937;
@@ -1982,9 +1982,9 @@ max-width:none;
 <p>Independent publisher behind UK Planning Guide, focused on turning planning rules, local authority sources and early-stage project risk into practical plain-English guidance.</p>
 </div>
 <div class="answer-card">
-<h3>Reviewed by</h3>
-<p><strong>UK Planning Guide Editorial Review Desk</strong><br>Editorial review and source checking</p>
-<p>Review layer responsible for official-source context, escalation wording and checks that pages stay clear about what is national guidance, what is local context and what still needs formal confirmation.</p>
+<h3>Editorial process</h3>
+<p><strong>UK Planning Guide editorial process</strong><br>Editorial review and source checking</p>
+<p>The publisher&#x27;s process for distinguishing national guidance, local sources and questions requiring formal confirmation. This is not a separate independent human review service.</p>
 </div>
 <div class="answer-card">
 <h3>Official sources</h3>
@@ -2742,17 +2742,39 @@ max-width:none;
     });
   }
 
-  document.querySelectorAll("form[data-static-submit='redirect']").forEach(function (form) {
+  document.querySelectorAll("form[data-static-submit]").forEach(function (form) {
     form.addEventListener("submit", function (event) {
-      const successUrl = form.getAttribute("data-success-url") || form.getAttribute("action");
-      if (!successUrl) {
-        return;
-      }
       event.preventDefault();
       if (typeof form.reportValidity === "function" && !form.reportValidity()) {
         return;
       }
-      window.location.assign(successUrl);
+      const email = form.getAttribute("data-email-to") || "guidance@ukplanningguide.co.uk";
+      const lines = Array.from(new FormData(form).entries()).map(function (entry) {
+        const field = form.elements.namedItem(entry[0]);
+        const label = field && field.labels && field.labels[0] ? field.labels[0].textContent.trim() : entry[0];
+        return label + ": " + entry[1];
+      });
+      const summary = lines.join("\n\n");
+      let panel = form.querySelector("[data-email-draft]");
+      if (!panel) {
+        panel = document.createElement("section");
+        panel.setAttribute("data-email-draft", "true");
+        panel.setAttribute("aria-live", "polite");
+        form.appendChild(panel);
+      }
+      panel.replaceChildren();
+      const note = document.createElement("p");
+      note.textContent = "Your email is ready to review. Nothing has been sent yet. Open your email app and send the draft, or copy the details below to " + email + ".";
+      const link = document.createElement("a");
+      link.className = "btn";
+      link.textContent = "Open email draft";
+      link.href = "mailto:" + email + "?subject=" + encodeURIComponent("UK Planning Guide enquiry") + "&body=" + encodeURIComponent(summary);
+      const text = document.createElement("textarea");
+      text.readOnly = true;
+      text.rows = 10;
+      text.setAttribute("aria-label", "Email enquiry summary");
+      text.value = summary;
+      panel.append(note,link,text);
     });
   });
 
@@ -2879,20 +2901,10 @@ max-width:none;
       emitGaEvent("route_check_start", context);
     }
     if (eventName === "summary_saved" || eventName === "council_pack_downloaded") {
-      try {
-        const saved = JSON.parse(safeStorageGet("ukpg:planning-workspace:v1") || "{}");
-        saved.saved_pages = Array.isArray(saved.saved_pages) ? saved.saved_pages : [];
-        saved.saved_pages.unshift({
-          title: (document.querySelector("h1") || {}).textContent || document.title || "Planning guide",
-          path: context.source_path,
-          country: context.country,
-          project_type: context.project_type,
-          council: context.council,
-          saved_at: new Date().toISOString()
-        });
-        saved.saved_pages = saved.saved_pages.slice(0, 20);
-        safeStorageSet("ukpg:planning-workspace:v1", JSON.stringify(saved));
-      } catch (error) {}
+      if (window.UKPGProject) {
+        if (eventName === "summary_saved") window.UKPGProject.savePage(node);
+        else window.UKPGProject.exportSummary();
+      }
     }
   }
 
