@@ -1,0 +1,7 @@
+UK PLANNING GUIDE REBUILD — ACTUAL REPOSITORY WORK REQUIRED
+
+I'm working in my EXISTING UKPlanningGuide.co.uk repository. The full instructions are in CODEX_MASTER_PROMPT.md in the attached SEO pack (when present). Read and follow it, plus AGENTS.md and docs/00_DUPLICATES_ARE_NOT_ALLOWED.md. If the pack files are not available, use the instructions I paste next from CODEX_MASTER_PROMPT.md; do not halt.
+
+Owner requirement: I DO NOT want tens of thousands of unindexed near-duplicate pages. Stop producing redundant HTML at the generator level. One useful canonical indexable page per genuine search intent, with verified local planning facts and properly scoped four-nation law. Preserve existing traffic/backlinks/tools. Never bulk noindex or redirect based only on automated similarity. Merge useful duplicate content; use real 301 only where the deployed host can return it; report remaining legacy 200 duplicate shells as unresolved.
+
+Start NOW with the repository/build audit. Then implement correct data/template rules, a reviewed small duplicate migration pilot, comprehensive source-backed content and CI gates. Make real code changes, tests and reviewable commits or PRs, not just another plan. Report actual baseline and after counts and clear blockers. Do not replace the existing site or use new paid services.

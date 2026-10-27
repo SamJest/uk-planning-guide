@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UK Planning Guide verified planning claim record",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "jurisdiction",
+    "topic",
+    "claim",
+    "evidence_status"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "jurisdiction": {
+      "enum": [
+        "england",
+        "wales",
+        "scotland",
+        "northern-ireland",
+        "uk",
+        "not-applicable"
+      ]
+    },
+    "authority_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "project": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "topic": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "source_title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_publisher": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_published": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "source_effective": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "verified_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "evidence_status": {
+      "enum": [
+        "verified_primary",
+        "verified_secondary",
+        "unverified",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

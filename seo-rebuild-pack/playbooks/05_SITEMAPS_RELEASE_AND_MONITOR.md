@@ -1,0 +1,3 @@
+**Codex Cloud task 5 — release gates and GSC tracking.**
+
+Regenerate sitemap from canonical indexable 200 HTML sources only, and compare against built-site manifest. Audit robots, canonical, redirects, source dates, internal graph, broken links and noindex. Use network crawler only when available; report NOT RUN otherwise. Validate semantic/mobile HTML and existing planning tools. Output previous/new URL maps, protected URLs, tests, unresolved problems and evidence backlog. Stage sitewide migration only after small pilot confirms actual response codes. Prepare weekly GSC table comparing current against 23 Oct baseline; don't claim indexing immediately on release.

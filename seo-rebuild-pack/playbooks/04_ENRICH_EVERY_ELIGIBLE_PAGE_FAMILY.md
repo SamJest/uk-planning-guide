@@ -1,0 +1,3 @@
+**Codex Cloud task 4 — comprehensive useful content for all retained families.**
+
+Take prior inventory and evidence source registry; enrich templates and council data systematically, starting with high-opportunity GSC pages. Ensure each emitted indexable page serves an independent question. Fully satisfy content contract for each page family; use diagrams and calculators only where useful and accurate. Council-specific assertions require real government/council sources. Source-deficient pages go into RESEARCH queue, not fabricated content. Refactor generators so fixes cover all instances without verbatim filler. Protect clicked pages and preserve function. Roll out country- and family-wise with tests, report exact improved/pending counts.

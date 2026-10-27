@@ -1,0 +1,218 @@
+{
+  "created": "2026-10-27",
+  "package": "UK Planning Guide SEO rebuild for Codex Cloud",
+  "sitewide_crawl_performed": false,
+  "tests": "6/6 Python unit tests pass on synthetic test pages",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "a8282c6157745bb33eff403b6e3b8893430a7f5a6141477a8da0ec670b32d3c3",
+      "bytes": 2389
+    },
+    {
+      "path": "CHANGELOG_AND_PACKAGE_CHECKS.md",
+      "sha256": "edc789347dfbd4d93b876a837e581f2dc7941a23f2fdbad9949f429e3575dbaf",
+      "bytes": 1259
+    },
+    {
+      "path": "CODEX_MASTER_PROMPT.md",
+      "sha256": "2b2c24082201471b9c4252d023db96591aa46a34c17d94156fb0eacf7d65feba",
+      "bytes": 16170
+    },
+    {
+      "path": "MOBILE_START_PROMPT.txt",
+      "sha256": "822ed18a971e1b07b1b4932a911bc6f1565ce66362b2597819f09ae3f085de7b",
+      "bytes": 1328
+    },
+    {
+      "path": "README_START_HERE.md",
+      "sha256": "335ab26af65044aeca6950a7adcfab9d71bd08e6ec3f061c09c77895d9a846e9",
+      "bytes": 7988
+    },
+    {
+      "path": "data/audit_previous/CODEX_IMPLEMENTATION_BRIEF.md",
+      "sha256": "5eedd6466b02c997f745974295c9148b7dd32843020d62d2f8f11f071b133c6a",
+      "bytes": 4517
+    },
+    {
+      "path": "data/audit_previous/READ_ME_AUDIT.md",
+      "sha256": "78085567a6ce29f82fc25f70cc15821b945138faba21e80ab37e4aafe482d71e",
+      "bytes": 10293
+    },
+    {
+      "path": "data/gsc/coverage_2026-10-27.zip",
+      "sha256": "6ccd665bf7a8ea7957953196f138597cf9ac3694a7800c2b4274410716bfb1fa",
+      "bytes": 1422
+    },
+    {
+      "path": "data/gsc/gsc_1000_page_triage_for_codex.csv",
+      "sha256": "f18ecc6e13adae372c8fe55b53658f7e15b383b5577664caebb8a2dba4d0d462",
+      "bytes": 256017
+    },
+    {
+      "path": "data/gsc/measured_metrics.json",
+      "sha256": "644fa25755e4039db6ddaf3724cdae044927c5831f5849ac175471cb4d81d5dd",
+      "bytes": 963
+    },
+    {
+      "path": "data/gsc/performance_2026-10-27.zip",
+      "sha256": "13edee1fd925a54149b4b7532c216412d2471c71d435f403fff1787e78b2aa81",
+      "bytes": 28103
+    },
+    {
+      "path": "data/gsc/prioritised_fix_plan.csv",
+      "sha256": "1cb28492986f9af34c9bb816c2079685e41f87215fdfd5de3b97966f5c20943d",
+      "bytes": 3426
+    },
+    {
+      "path": "data/gsc/search_console_1000_pages_ranked.csv",
+      "sha256": "b7c07f530ea3353b60a6343fb15d5144e3998691262e521376533c565b63b7a1",
+      "bytes": 147698
+    },
+    {
+      "path": "data/gsc/search_console_300_queries_by_impressions.csv",
+      "sha256": "e51895da32852080aa81d00816b22eb2de960b719d1581a03d755a5d06c78870",
+      "bytes": 13386
+    },
+    {
+      "path": "data/gsc/search_console_page_families.csv",
+      "sha256": "59b8fc6300620dbf542329aef8f890f62ab67b82e357310a3b40a67897208be3",
+      "bytes": 1453
+    },
+    {
+      "path": "data/templates/evidence_registry_example.json",
+      "sha256": "0d121e33c57eae45862f3b8a8d6f6dea69a2eeafb8eaef761504b1f0f124b5ad",
+      "bytes": 504
+    },
+    {
+      "path": "data/templates/migration_decisions_example.csv",
+      "sha256": "d65ad3d5711d7e5553ea75baecbf78b9cab1155790813afab18aff135e97eb5e",
+      "bytes": 582
+    },
+    {
+      "path": "data/templates/page_registry_example.csv",
+      "sha256": "af4a281e8c4a9113a97422547f980252dc0fbbbeaa2598c59f8ecfb052f89fa0",
+      "bytes": 505
+    },
+    {
+      "path": "docs/00_DUPLICATES_ARE_NOT_ALLOWED.md",
+      "sha256": "203ebac2aa449a5c80d7a49e2d177b4961421e3350fd87a5fe603789c3d5737d",
+      "bytes": 7078
+    },
+    {
+      "path": "docs/01_CONTENT_INFORMATION_ARCHITECTURE.md",
+      "sha256": "996394365321917d450c1456b66a5b9c256a0261cc5b25ec48886538a32ad9ca",
+      "bytes": 6469
+    },
+    {
+      "path": "docs/02_CANONICAL_URL_AND_MIGRATION.md",
+      "sha256": "7fbc7e12d8260e74873da01f0ee2ff4907754fe45a5ca188314706d70af42768",
+      "bytes": 2440
+    },
+    {
+      "path": "docs/03_RESEARCH_AND_LEGAL_SAFETY.md",
+      "sha256": "c4904077d95e22fab3afbd2ed95adfc1f6029229fd89ae4cf1d120ac986acb81",
+      "bytes": 2271
+    },
+    {
+      "path": "docs/04_DEFINITION_OF_DONE_AND_METRICS.md",
+      "sha256": "420c0c95d6663b6c6c5a415c5db3c7205d5783a2f40f69b42e1108134ce8c133",
+      "bytes": 2415
+    },
+    {
+      "path": "docs/05_REAL_URLS_AND_GSC_TRIAGE.md",
+      "sha256": "d45d5acb5f1a91a92438b400a4e0d2344d97a89da8fb62c0b7f0d9dc4c6f1ed0",
+      "bytes": 2840
+    },
+    {
+      "path": "docs/06_TECHNICAL_SEO_AND_CI.md",
+      "sha256": "30fac88203febeae84f4e5237528e9c9d9f06449197debd09eb6e1fbbacf4f85",
+      "bytes": 3147
+    },
+    {
+      "path": "playbooks/01_BASELINE_INVENTORY.md",
+      "sha256": "ccb2d178a626c6b78c9dd0c733005e8c3951afee37cb066a4311264abffab25a",
+      "bytes": 789
+    },
+    {
+      "path": "playbooks/02_CORRECTNESS_AND_RESEARCH.md",
+      "sha256": "e4f3d6b9948024e5d6c7ae256403e75996806c5f99855abab4491c49ea1a11a7",
+      "bytes": 601
+    },
+    {
+      "path": "playbooks/03_DEDUP_GENERATION_AND_MIGRATION.md",
+      "sha256": "02a3e7a4e35f12dbc126b11991a8282eacb6d680c605ee30a838b860744e6cc9",
+      "bytes": 851
+    },
+    {
+      "path": "playbooks/04_ENRICH_EVERY_ELIGIBLE_PAGE_FAMILY.md",
+      "sha256": "f3dce7323f2434219a02e138e016816f973ac776e6bb7e3f1accf2d2c24fc910",
+      "bytes": 751
+    },
+    {
+      "path": "playbooks/05_SITEMAPS_RELEASE_AND_MONITOR.md",
+      "sha256": "33d7976d64018ee3178732b1021a034a5d086db5c437614eb7fc57eb79fb3b3c",
+      "bytes": 674
+    },
+    {
+      "path": "schemas/evidence_registry.schema.json",
+      "sha256": "90cba8d13b2570579618bdf799c25f555d0ba41f39c9d99451e1039a89442cb1",
+      "bytes": 1762
+    },
+    {
+      "path": "scripts/audit_static_build.py",
+      "sha256": "dd8638a79567d58f2569a4ddeb6316482860293f453fcc6c46557cd6244b0b3c",
+      "bytes": 13199
+    },
+    {
+      "path": "scripts/build_priority_queue.py",
+      "sha256": "a7aefdef19a9e1ef0f284551438d68d2bcec5589dae511f3d1e982a1f0e2c718",
+      "bytes": 2456
+    },
+    {
+      "path": "scripts/check_migration_decisions.py",
+      "sha256": "589c66a5e5fbaff25d2645d84d6cfddb3a29158e62613346f56706cf6341944f",
+      "bytes": 2444
+    },
+    {
+      "path": "scripts/compare_builds.py",
+      "sha256": "8cbb07a12356ee72f54d1a10d8d5ef162999deb8e90e98587e594ea44df5ac86",
+      "bytes": 2420
+    },
+    {
+      "path": "scripts/crawl_live_site.py",
+      "sha256": "f94f10993c3c76217dc9969f3970f99a6278ed68fa75b31819e1783d32825101",
+      "bytes": 12465
+    },
+    {
+      "path": "scripts/crawl_requirements.txt",
+      "sha256": "9b4e4462259200c9cacef83f48e42d35e374b1a62da9b1a8560e84809db80cff",
+      "bytes": 42
+    },
+    {
+      "path": "scripts/enforce_release_gate.py",
+      "sha256": "d6c9061453b5d19dde66698f471b1ea630fa20c69516c881df49296d9c66c594",
+      "bytes": 2652
+    },
+    {
+      "path": "scripts/inspect_content_smells.py",
+      "sha256": "06b1266353751e262b80f38fca5d90894ad90547567712659c65dda339d679a9",
+      "bytes": 2827
+    },
+    {
+      "path": "scripts/validate_evidence.py",
+      "sha256": "a55481a105b8f06eb5a90cfce2205266f44bc0e9618cde9d131c23dd84d633a4",
+      "bytes": 2371
+    },
+    {
+      "path": "scripts/validate_page_registry.py",
+      "sha256": "256c9c482ed20086fc85c57da4de8ab7982084e9d79ddf59bd12965bdc98eba6",
+      "bytes": 3284
+    },
+    {
+      "path": "tests/test_pack.py",
+      "sha256": "c5c25450a7aa1ade6b7c4b0836b1767cfaddb0e6ecde460e1b9bbc763df272b6",
+      "bytes": 4443
+    }
+  ]
+}
