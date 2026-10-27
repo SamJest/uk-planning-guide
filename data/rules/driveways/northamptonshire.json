@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Northamptonshire, the usual householder route for a driveway is strongest where the works stay within the plot and surface-water run-off is handled properly. Frontage parking areas over 5 square metres generally need permeable surfacing or drainage to a porous area, and a new vehicular crossing remains a separate highways matter.",
+    "rules": {
+      "height_rules": "Across Northamptonshire, height only becomes important on driveway schemes when the project relies on engineering works such as retaining walls, built-up levels or steep ramps. Those elements are often what move the proposal beyond the simplest householder route.",
+      "depth_rules": "Across Northamptonshire, there is no formula for driveway depth, but a shallow layout can still be refused in practice if it leaves vehicles hanging over the footway or creates poor manoeuvring and runoff problems.",
+      "boundary_rules": "Across Northamptonshire, a driveway is not only about the surface within the plot: the relationship with the road boundary, visibility splays and any altered opening can change the permission route altogether.",
+      "roof_rules": "Across Northamptonshire, driveways have no roof-specific permitted development rule. If the scheme also adds a car port, canopy or garage-style cover, that structure is assessed separately from the surfacing.",
+      "materials_rules": "Across Northamptonshire, choose materials with drainage in mind, not only appearance. For front driveway areas over 5 square metres, the normal householder route usually depends on permeability or on-site discharge to a porous area within the curtilage."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "north-northamptonshire",
+      "last_verified": "2026-01",
+      "permitted_development": "In North Northamptonshire, the usual householder route for a driveway is strongest where the works stay within the plot and surface-water run-off is handled properly. Frontage parking areas over 5 square metres generally need permeable surfacing or drainage to a porous area, and a new vehicular crossing remains a separate highways matter.",
+      "rules": {
+        "height_rules": "Height only becomes important on driveway schemes when the project relies on engineering works such as retaining walls, built-up levels or steep ramps. Those elements are often what move the proposal beyond the simplest householder route.",
+        "depth_rules": "There is no formula for driveway depth, but a shallow layout can still be refused in practice if it leaves vehicles hanging over the footway or creates poor manoeuvring and runoff problems.",
+        "boundary_rules": "A driveway is not only about the surface within the plot: the relationship with the road boundary, visibility splays and any altered opening can change the permission route altogether.",
+        "roof_rules": "Driveways have no roof-specific permitted development rule. If the scheme also adds a car port, canopy or garage-style cover, that structure is assessed separately from the surfacing.",
+        "materials_rules": "Choose materials with drainage in mind, not only appearance. For front driveway areas over 5 square metres, the normal householder route usually depends on permeability or on-site discharge to a porous area within the curtilage."
+      },
+      "restrictions": {
+        "conservation_area": "Driveway works in conservation areas are usually judged as much on the loss of historic frontage character as on the paving material itself.",
+        "listed_building": "Listed building consent may be needed where driveway works alter the setting or fabric of a listed building, including boundary features and historic surfacing.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions or planning conditions can remove normal householder rights for hard surfacing, frontage parking or boundary alterations."
+      }
+    },
+    {
+      "town_slug": "west-northamptonshire",
+      "last_verified": "2026-01",
+      "permitted_development": "For homes in West Northamptonshire, driveway surfacing is often permitted development, but the easy route usually depends on drainage. If the area in front of the house and facing the highway exceeds 5 square metres, it should be permeable or direct run-off to a permeable part of the curtilage, and any dropped kerb is dealt with separately.",
+      "rules": {
+        "height_rules": "A driveway does not have a simple national height limit, but raised platforms, retaining edges and stepped level changes can still turn a straightforward surfacing job into a planning issue.",
+        "depth_rules": "There is no formula for driveway depth, but a shallow layout can still be refused in practice if it leaves vehicles hanging over the footway or creates poor manoeuvring and runoff problems.",
+        "boundary_rules": "The surfacing can be permitted development while the boundary and access works are not. Enlarging the entrance, cutting back walls or crossing the public footway often needs a separate highways check and sometimes planning permission as well.",
+        "roof_rules": "There is no roof allowance for a driveway in itself. Any canopy, covered bay or car-port element proposed with the parking area needs to be checked as a separate structure.",
+        "materials_rules": "For front-of-house surfaces over 5 square metres, use permeable materials or drain run-off to a porous area within the curtilage. Permeable block paving, porous asphalt, resin-bound systems designed for infiltration or gravel with a suitable sub-base are usually easier to justify than impermeable paving draining to the highway."
+      },
+      "restrictions": {
+        "conservation_area": "A new or enlarged driveway in a conservation area often gets closer scrutiny if it replaces soft landscaping or alters a traditional frontage.",
+        "listed_building": "Listed building consent may be needed where driveway works alter the setting or fabric of a listed building, including boundary features and historic surfacing.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 directions or planning conditions bite, a driveway that would usually fall within householder rights can still need planning permission."
+      }
+    }
+  ]
+}

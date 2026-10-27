@@ -1,0 +1,1303 @@
+{
+    "county_slug":  "essex",
+    "county_name":  "Essex",
+    "shared_official_sources":  [
+                                    {
+                                        "title":  "Planning Portal: do you need planning permission?",
+                                        "url":  "https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission",
+                                        "category":  "planning_portal",
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  30
+                                    },
+                                    {
+                                        "title":  "Planning Portal: householder planning consent",
+                                        "url":  "https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent",
+                                        "category":  "householder_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  15
+                                    },
+                                    {
+                                        "title":  "Planning Portal: permitted development rights",
+                                        "url":  "https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/",
+                                        "category":  "permitted_development_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  10
+                                    },
+                                    {
+                                        "title":  "GOV.UK: making a planning application",
+                                        "url":  "https://www.gov.uk/guidance/making-an-application",
+                                        "category":  "validation_requirements",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  20
+                                    },
+                                    {
+                                        "title":  "GOV.UK: before submitting an application",
+                                        "url":  "https://www.gov.uk/guidance/before-submitting-an-application",
+                                        "category":  "pre_application_advice",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  25
+                                    },
+                                    {
+                                        "title":  "Historic England: living in a conservation area",
+                                        "url":  "https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/",
+                                        "category":  "conservation_area",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Historic England: conservation area planning advice",
+                                        "url":  "https://historicengland.org.uk/advice/planning/conservation-areas/",
+                                        "category":  "heritage",
+                                        "page_families":  [
+                                                              "council",
+                                                              "scenario"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "listed-buildings",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  28
+                                    },
+                                    {
+                                        "title":  "Historic England: what are listed buildings?",
+                                        "url":  "https://historicengland.org.uk/listing/what-is-designation/listed-buildings/",
+                                        "category":  "listed_buildings",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "listed-buildings",
+                                                               "conservation-areas"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    }
+                                ],
+    "councils":  [
+                     {
+                         "town_slug":  "basildon",
+                         "town_name":  "Basildon",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Local List of Validation Requirements for Planning Applications",
+                                                      "url":  "https://www.basildon.gov.uk/media/7449/Local-List-of-Validation-Requirements-for-Planning-Applications-July-2019/pdf/Basildon_Council_-_Local_List_of_Validation_Requirements_for_Planning_Applications_-_July_2019.pdf?m=1564584304237",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning applications - Pre-Planning Application Advice",
+                                                      "url":  "https://www.basildon.gov.uk/article/3616/Planning-applications-Pre-Planning-Application-Advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Emerging Local Plan",
+                                                      "url":  "https://www.basildon.gov.uk/emerginglocalplan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "braintree",
+                         "town_name":  "Braintree",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Local validation list",
+                                                      "url":  "https://www.braintree.gov.uk/planning-building-control/local-validation-list",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.braintree.gov.uk/planning-building-control/pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Braintree District Local Plan 2033",
+                                                      "url":  "https://www.braintree.gov.uk/planning-building-control/local-plan-2033",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "brentwood",
+                         "town_name":  "Brentwood",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation List December 2024",
+                                                      "url":  "https://www.brentwood.gov.uk/media/829",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice service",
+                                                      "url":  "https://www.brentwood.gov.uk/pre-application-advice-service",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan",
+                                                      "url":  "https://www.brentwood.gov.uk/adopted-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "castle-point",
+                         "town_name":  "Castle Point",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Application Checklists",
+                                                      "url":  "https://www.castlepoint.gov.uk/application-checklists",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre Application Meetings and Advice",
+                                                      "url":  "https://www.castlepoint.gov.uk/pre-application-meetings-and-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Castle Point Plan",
+                                                      "url":  "https://www.castlepoint.gov.uk/castle-point-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "chelmsford",
+                         "town_name":  "Chelmsford",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation List February 2024",
+                                                      "url":  "https://www.chelmsford.gov.uk/media/gdyak1jg/local-validation-list-february-2024.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Request planning advice",
+                                                      "url":  "https://www.chelmsford.gov.uk/planning-and-building-control/planning-advice-and-permissions/request-planning-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan",
+                                                      "url":  "https://www.chelmsford.gov.uk/planning-and-building-control/planning-policy-and-local-plan/adopted-local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "colchester",
+                         "town_name":  "Colchester",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Scheme of Local Validation",
+                                                      "url":  "https://www.colchester.gov.uk/scheme-of-local-validation/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.new.colchester.gov.uk/planning/apply/pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Colchester Local Plan",
+                                                      "url":  "https://www.colchester.gov.uk/local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "epping-forest",
+                         "town_name":  "Epping Forest",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Planning application validation requirements",
+                                                      "url":  "https://www.eppingforestdc.gov.uk/planning-and-building/planning-application-validation-requirements/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Apply for pre and post application advice",
+                                                      "url":  "https://www.eppingforestdc.gov.uk/planning-and-building/apply-for-pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan March 2023",
+                                                      "url":  "https://www.eppingforestdc.gov.uk/planning-and-building/planning-policy/adopted-local-plan-march-2023/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "harlow",
+                         "town_name":  "Harlow",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Make a planning application",
+                                                      "url":  "https://www.harlow.gov.uk/planning-and-building-control/planning-permission/make-planning-application",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Contains links to Harlow\u0027s main and householder validation checklists.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Request planning advice",
+                                                      "url":  "https://www.harlow.gov.uk/planning-and-building-control/planning-permission/request-planning-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan",
+                                                      "url":  "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "maldon",
+                         "town_name":  "Maldon",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Planning Validation Checklist 2022",
+                                                      "url":  "https://www.maldon.gov.uk/downloads/download/9319/planning_validation_checklist_2022",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.maldon.gov.uk/info/20046/development_management/9227/pre-application_advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Service currently limited while a wider review is ongoing; page states major development, listed building and protected tree enquiries remain covered.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Maldon District Local Development Plan",
+                                                      "url":  "https://www.maldon.gov.uk/homepage/7031/emerging_local_plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "rochford",
+                         "town_name":  "Rochford",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "How to prepare a valid planning application",
+                                                      "url":  "https://www.rochford.gov.uk/how-to-prepare-a-valid-planning-application",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Advice",
+                                                      "url":  "https://www.rochford.gov.uk/pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "The Rochford District Local Plan",
+                                                      "url":  "https://www.rochford.gov.uk/the-rochford-district-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Essex Design Guide",
+                                                      "url":  "https://www.essexdesignguide.co.uk/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County-wide design guidance commonly referenced across Essex planning authorities.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Highways planning advice",
+                                                      "url":  "https://www.essex.gov.uk/planning-land-and-recycling/planning-and-development/planning-advice-and-guidance/highways-planning",
+                                                      "category":  "highways",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "County highways authority guidance for Essex districts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for or extend a vehicle crossing or dropped kerb",
+                                                      "url":  "https://www.essexhighways.org/applications/vehicle-crossings-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "County highways authority source for vehicle crossings in Essex.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "tendring",
+                         "town_name":  "Tendring",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: Common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Validation \u0026 the Local Validation List",
+                                                      "url":  "https://www.tendringdc.gov.uk/content/local-validation-list",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Live validation hub with the council\u0027s current local validation list and related submission requirements.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Service",
+                                                      "url":  "https://www.tendringdc.gov.uk/content/new-pre-application-service",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Current Tendring pre-application service page, refreshed after the 2024 service review.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Tendring District Local Plan",
+                                                      "url":  "https://www.tendringdc.gov.uk/content/localplan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Adopted local plan page with the current plan and linked review material.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Areas",
+                                                      "url":  "https://www.tendringdc.gov.uk/content/conservation-areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Listed Buildings",
+                                                      "url":  "https://www.tendringdc.gov.uk/content/listed-buildings",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "uttlesford",
+                         "town_name":  "Uttlesford",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: Common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning application forms and checklists",
+                                                      "url":  "https://www.uttlesford.gov.uk/planning-application-forms-and-checklists",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Front door to Uttlesford\u0027s current application checklists and validation material.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning pre-application advice",
+                                                      "url":  "https://www.uttlesford.gov.uk/planning-pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan 2021 - 2041",
+                                                      "url":  "https://www.uttlesford.gov.uk/article/10132/Local-Plan-2021-2041",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Adopted local plan page following formal adoption in March 2026.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.uttlesford.gov.uk/conservation-areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Article 4 directions",
+                                                      "url":  "https://www.uttlesford.gov.uk/article/4901/Article-4-directions",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Listed buildings",
+                                                      "url":  "https://www.uttlesford.gov.uk/listed-buildings",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     }
+                 ]
+}

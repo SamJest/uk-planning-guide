@@ -1,0 +1,49 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Shropshire, window and door work is usually simplest on the planning permission route when it stays close to like-for-like replacement and does not materially alter the size, position, appearance or privacy impact of existing openings. Village character, detached frontages and stronger building individuality can make proportions and detailing more important than homeowners often expect.",
+    "rules": {
+      "height_rules": "Changing the height of openings or creating new upper-level windows is usually much more sensitive than routine replacement joinery.",
+      "depth_rules": "Projection, reveal depth and grouped opening changes can affect whether the work still reads as simple replacement rather than an elevation redesign.",
+      "boundary_rules": "Side-facing upper-floor windows, new front openings and privacy impacts often become the key local pressure points for this kind of work.",
+      "roof_rules": "If the project includes rooflights or roof-facing windows, it should be checked against the separate roof alteration route rather than treated as standard joinery replacement.",
+      "materials_rules": "Frame profile, colour, material and detailing can all matter where the building has a stronger architectural rhythm or a more sensitive setting."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "shropshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Shropshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Shropshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Shropshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Shropshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Shropshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Shropshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Shropshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Shropshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "telford-and-wrekin",
+      "last_verified": "2026-03",
+      "permitted_development": "In Telford and Wrekin, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Telford and Wrekin, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Telford and Wrekin feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Telford and Wrekin.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Telford and Wrekin should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Telford and Wrekin where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Telford and Wrekin often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Telford and Wrekin usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    }
+  ]
+}

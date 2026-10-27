@@ -1,0 +1,117 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Gloucestershire, HMO proposals usually need an early planning permission check because local policy, shared-housing concentration and Article 4 coverage often matter more than any simple fallback route. The strongest HMO route usually comes from treating policy, concentration, amenity and the supporting physical works as one joined-up planning question.",
+    "rules": {
+      "height_rules": "For HMOs, the planning issue is usually intensity of occupation and local policy rather than building height alone, although physical enlargement can add a second planning layer.",
+      "depth_rules": "Layout, garden amenity space, refuse storage and any extension or conversion project linked to the HMO can all change the planning route across Gloucestershire.",
+      "boundary_rules": "Neighbour amenity, parking pressure, servicing and local shared-housing concentration are recurring pressure points for HMO proposals in Gloucestershire.",
+      "roof_rules": "Roof rooms, dormers and upper-floor reconfiguration often need to be reviewed alongside the change of use rather than as a separate afterthought.",
+      "materials_rules": "Frontage appearance, cycle storage, bin arrangements and entrance treatment can influence how an HMO proposal is judged even where the main use change sits inside the building."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "cheltenham",
+      "last_verified": "2026-03",
+      "permitted_development": "In Cheltenham, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Cheltenham, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Cheltenham.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Cheltenham.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Cheltenham usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Cheltenham so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Cheltenham can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Cheltenham usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Cheltenham, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "cotswold",
+      "last_verified": "2026-03",
+      "permitted_development": "In Cotswold, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Cotswold, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Cotswold.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Cotswold.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Cotswold usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Cotswold so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Cotswold can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Cotswold usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Cotswold, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "forest-of-dean",
+      "last_verified": "2026-03",
+      "permitted_development": "In Forest of Dean, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Forest of Dean, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Forest of Dean.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Forest of Dean.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Forest of Dean usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Forest of Dean so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Forest of Dean can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Forest of Dean usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Forest of Dean, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "gloucester",
+      "last_verified": "2026-03",
+      "permitted_development": "In Gloucester, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Gloucester, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Gloucester.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Gloucester.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Gloucester usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Gloucester so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Gloucester can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Gloucester usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Gloucester, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "stroud",
+      "last_verified": "2026-03",
+      "permitted_development": "In Stroud, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Stroud, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Stroud.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Stroud.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Stroud usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Stroud so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Stroud can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Stroud usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Stroud, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "tewkesbury",
+      "last_verified": "2026-03",
+      "permitted_development": "In Tewkesbury, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Tewkesbury, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Tewkesbury.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Tewkesbury.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Tewkesbury usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Tewkesbury so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Tewkesbury can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Tewkesbury usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Tewkesbury, because they can remove the simpler fallback route for change of use."
+      }
+    }
+  ]
+}

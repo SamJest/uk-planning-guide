@@ -1,0 +1,63 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Bedfordshire, domestic solar panels are usually easiest on the planning permission route when they sit close to the roof or wall, stay visually secondary to the building and avoid awkward heritage or frontage impacts. The route is usually strongest when the array, roof plane and supporting equipment feel integrated rather than layered onto the building afterward.",
+    "rules": {
+      "height_rules": "Solar panels are usually lowest risk when the array and mounting system do not add noticeable height or make the building visually bulkier.",
+      "depth_rules": "Projection from the roof or wall matters because deeper frames and freestanding equipment can quickly move the installation away from a routine domestic appearance.",
+      "boundary_rules": "Boundary-facing arrays, visible side elevations and garden-based equipment usually deserve a closer amenity and visual check across Bedfordshire.",
+      "roof_rules": "The easiest solar schemes usually follow the roof plane cleanly and avoid sensitive, highly visible or heritage-affected roof slopes.",
+      "materials_rules": "Panels, inverters and associated equipment should be designed as one tidy appearance-led package rather than as separate add-ons scattered around the building."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "bedford",
+      "last_verified": "2026-03",
+      "permitted_development": "In Bedford, solar panels are usually easiest to keep off the formal planning permission route when they sit close to the roof or wall, stay visually secondary to the building and avoid awkward heritage or frontage impacts. The route usually gets harder where the most efficient panel layout is also the most visually exposed roof slope or frontage.",
+      "rules": {
+        "height_rules": "In Bedford, the planning route usually gets harder where solar panels rely on raised frames, extra height, freestanding arrays or associated equipment that makes the installation feel noticeably bulkier.",
+        "depth_rules": "Projection from the roof or wall matters in Bedford because deeper frames and freestanding arrays are usually more visually sensitive than a tight roof-mounted scheme.",
+        "boundary_rules": "Boundary-facing arrays, side elevations and garden equipment often deserve the earliest visual and neighbour check in Bedford.",
+        "roof_rules": "Roof-mounted panels in Bedford are usually easiest where they follow the roof slope cleanly and avoid highly visible or heritage-sensitive roof surfaces.",
+        "materials_rules": "A tidy appearance and finish for panels and ancillary kit usually helps a solar scheme in Bedford far more than visibly cluttered cabling, boxes or mismatched equipment."
+      },
+      "restrictions": {
+        "conservation_area": "Solar panels in conservation areas within Bedford often need a closer design review where they affect visible roof slopes, walls or the wider character of the area.",
+        "listed_building": "Solar works to listed buildings or buildings in their curtilage in Bedford usually need a more careful planning and heritage consent check."
+      }
+    },
+    {
+      "town_slug": "central-bedfordshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Central Bedfordshire, solar panels are usually easiest to keep off the formal planning permission route when they sit close to the roof or wall, stay visually secondary to the building and avoid awkward heritage or frontage impacts. The route usually gets harder where the most efficient panel layout is also the most visually exposed roof slope or frontage.",
+      "rules": {
+        "height_rules": "In Central Bedfordshire, the planning route usually gets harder where solar panels rely on raised frames, extra height, freestanding arrays or associated equipment that makes the installation feel noticeably bulkier.",
+        "depth_rules": "Projection from the roof or wall matters in Central Bedfordshire because deeper frames and freestanding arrays are usually more visually sensitive than a tight roof-mounted scheme.",
+        "boundary_rules": "Boundary-facing arrays, side elevations and garden equipment often deserve the earliest visual and neighbour check in Central Bedfordshire.",
+        "roof_rules": "Roof-mounted panels in Central Bedfordshire are usually easiest where they follow the roof slope cleanly and avoid highly visible or heritage-sensitive roof surfaces.",
+        "materials_rules": "A tidy appearance and finish for panels and ancillary kit usually helps a solar scheme in Central Bedfordshire far more than visibly cluttered cabling, boxes or mismatched equipment."
+      },
+      "restrictions": {
+        "conservation_area": "Solar panels in conservation areas within Central Bedfordshire often need a closer design review where they affect visible roof slopes, walls or the wider character of the area.",
+        "listed_building": "Solar works to listed buildings or buildings in their curtilage in Central Bedfordshire usually need a more careful planning and heritage consent check."
+      }
+    },
+    {
+      "town_slug": "luton",
+      "last_verified": "2026-03",
+      "permitted_development": "In Luton, solar panels are usually easiest to keep off the formal planning permission route when they sit close to the roof or wall, stay visually secondary to the building and avoid awkward heritage or frontage impacts. Schemes are generally safer where the mounting depth, cabling and inverter positions all support a clean overall appearance.",
+      "rules": {
+        "height_rules": "In Luton, the planning route usually gets harder where solar panels rely on raised frames, extra height, freestanding arrays or associated equipment that makes the installation feel noticeably bulkier.",
+        "depth_rules": "Projection from the roof or wall matters in Luton because deeper frames and freestanding arrays are usually more visually sensitive than a tight roof-mounted scheme.",
+        "boundary_rules": "Boundary-facing arrays, side elevations and garden equipment often deserve the earliest visual and neighbour check in Luton.",
+        "roof_rules": "Roof-mounted panels in Luton are usually easiest where they follow the roof slope cleanly and avoid highly visible or heritage-sensitive roof surfaces.",
+        "materials_rules": "A tidy appearance and finish for panels and ancillary kit usually helps a solar scheme in Luton far more than visibly cluttered cabling, boxes or mismatched equipment."
+      },
+      "restrictions": {
+        "conservation_area": "Solar panels in conservation areas within Luton often need a closer design review where they affect visible roof slopes, walls or the wider character of the area.",
+        "listed_building": "Solar works to listed buildings or buildings in their curtilage in Luton usually need a more careful planning and heritage consent check."
+      }
+    }
+  ]
+}

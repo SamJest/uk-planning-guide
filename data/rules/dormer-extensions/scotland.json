@@ -1,0 +1,559 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A dormer extension can be permitted development in Scotland where it stays below the existing roof height, is more than 0.3m from the roof edges, does not face the road-facing principal or side elevation and does not exceed the width limit.",
+    "rules": {
+      "height_rules": "The dormer should not exceed the height of the existing roof.",
+      "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+      "boundary_rules": "The dormer should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+      "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+      "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Keep the roof change subordinate to the house and established streetscape. Edinburgh guidance should be checked before changing prominent roof form or external detail.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "Edinburgh guidance should be treated as stricter in practice: houses in conservation areas should be assumed to need planning permission for extensions and dormers.",
+        "listed_building": "If you live in a listed building in Edinburgh, review the council's listed building guidance before starting work. Listed building consent will usually be needed for character-affecting changes."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland the roof-enlargement route is tighter than in England. A dormer extension only stays within PD where the dormer remains below the existing roof height, clear of the roof edges and off the road-facing principal or side elevation.",
+      "rules": {
+        "height_rules": "Keep the dormer below the existing roof height and highest point.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "Boundary clearance matters in two ways in Scotland: keep the roof enlargement at least 10m from the boundary it fronts and more than 0.3m back from the roof edges.",
+        "roof_rules": "Do not place the dormer forward of a wall forming the principal elevation or a side elevation that fronts a road. No verandas, balconies or raised platforms.",
+        "materials_rules": "Choose finishes and detailing that tie the new roof work back to the existing house so the enlargement does not look top heavy."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no permitted development rights for roof enlargements in a conservation area. Check with the planning authority before assuming a loft or dormer scheme can proceed without permission.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension may be PD in Scotland, but only where the dormer keeps within the Scottish roof-edge, width and boundary rules and does not read as a dominant new upper storey.",
+      "rules": {
+        "height_rules": "The dormer should read as a contained roof alteration, not as a higher new storey above the house.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "A Scottish roof enlargement should not crowd either the front boundary or the roof margins. Keep at least 10m from the boundary it fronts and more than 0.3m from the roof edges.",
+        "roof_rules": "Keep the roof form subordinate and avoid assuming that visually stronger alterations will escape closer scrutiny in the National Park.",
+        "materials_rules": "Use materials that closely relate to the existing roof and walls so the alteration reads as part of the house rather than a separate cap."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland these householder rights do not apply in conservation areas. Within the Cairngorms, early checking is especially sensible for more sensitive or visually prominent proposals.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and proposals in the Cairngorms often benefit from early heritage advice."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A dormer extension can be permitted development in Scotland where the dormer stays below the existing roof height, remains more than 0.3m from the roof edges, avoids front-facing enlargement and stays within the Scottish width and front-boundary limits.",
+      "rules": {
+        "height_rules": "The dormer should not exceed the height of the existing roof.",
+        "depth_rules": "Depth is judged through the Scottish roof-enlargement limits rather than a simple metre allowance. A dormer that projects too far, grows too wide or reads as a full extra storey will usually leave the permitted development route.",
+        "boundary_rules": "The development should be at least 10m from the boundary it fronts and more than 0.3m from any edge of the roof plane.",
+        "roof_rules": "Keep the roof form subordinate and avoid assuming that visually prominent exterior changes will remain informal in the National Park.",
+        "materials_rules": "Use roof materials and detailing that sit appropriately with the existing house."
+      },
+      "restrictions": {
+        "conservation_area": "Loch Lomond & The Trossachs states that householders in conservation areas need planning permission for exterior alterations, including extensions, roofs, windows, doors, fences and walls.",
+        "listed_building": "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and National Park heritage guidance should be checked before starting work."
+      }
+    }
+  ]
+}

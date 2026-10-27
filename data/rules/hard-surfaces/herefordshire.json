@@ -1,0 +1,31 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Herefordshire, hard surfacing is usually lowest risk on the planning permission route when drainage is handled properly, level changes stay modest and the work does not turn a soft frontage into a dominant engineered parking area. Level changes, runoff and the shift from soft landscaping to engineered parking space often matter more on wider plots than the paving product alone.",
+    "rules": {
+      "height_rules": "Raised surfacing, retaining features and height or level changes can matter as much as the paving finish itself when councils assess hard-surface schemes in Herefordshire.",
+      "depth_rules": "Surface coverage, front garden drainage and overall project extent are usually the deciding issues for hard surfacing across Herefordshire, especially where large impermeable areas are proposed.",
+      "boundary_rules": "Frontage position, highway relationship and any linked access changes are often what make a hard-surfacing scheme more sensitive in Herefordshire.",
+      "roof_rules": "For hard-surface projects, the design equivalent of a roof check is usually the drainage fall and discharge strategy rather than any vertical structure.",
+      "materials_rules": "Permeable, visually restrained finishes are usually easier to justify than broad impermeable paving that removes planting and dominates the frontage."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "herefordshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Patios, paths and other hard surfaces can usually be laid without a planning application, but front-of-house surfacing over 5 square metres must normally handle water through permeable construction or on-site drainage.",
+      "rules": {
+        "height_rules": "There is no simple householder height limit for paving itself. The planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+        "depth_rules": "Front impermeable surfacing without suitable on-site drainage will often need planning permission.",
+        "boundary_rules": "Driveway surfacing inside the plot and the access across the boundary are not always the same consent route. New or widened vehicle crossings usually need highway authority approval.",
+        "roof_rules": "A driveway or paved area does not automatically authorise a roof above it. Once a car port or canopy is added, the structure needs checking under the separate rules for buildings or attached alterations.",
+        "materials_rules": "The most planning-friendly hard surfaces are those designed around sustainable drainage from the start, rather than relying on water shedding across the frontage."
+      },
+      "restrictions": {
+        "conservation_area": "Hard surfacing in conservation areas within Herefordshire often faces a closer review where it changes the look of a visible frontage or removes established soft landscaping.",
+        "listed_building": "Works to the setting of a listed building in Herefordshire, including resurfacing and level changes, can need a more careful planning and heritage review."
+      }
+    }
+  ]
+}

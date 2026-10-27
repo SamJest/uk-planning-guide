@@ -1,0 +1,559 @@
+{
+    "defaults":  {
+                     "last_verified":  "2026-04",
+                     "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused.",
+                     "rules":  {
+                                   "height_rules":  "Any part close to a boundary is tightly constrained, and upper-storey enlargement is much more restricted than simple single-storey rear work.",
+                                   "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                   "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces.",
+                                   "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                   "materials_rules":  "External materials should match or complement the house."
+                               }
+                 },
+    "rules":  [
+                  {
+                      "town_slug":  "aberdeen-city",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                      "rules":  {
+                                    "height_rules":  "In Aberdeen City, the safest wraparound roof is one that steps down clearly from the main house and stays low on the side return; a single bulky roof form tends to make the whole L-shape look overdeveloped.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "aberdeenshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Aberdeenshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "angus",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Angus, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "argyll-and-bute",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Argyll and Bute, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "city-of-edinburgh",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. In Edinburgh, only straightforward house projects outside conservation areas and away from listed buildings should be treated as low-risk.",
+                      "rules":  {
+                                    "height_rules":  "In City of Edinburgh, the safest wraparound roof is one that steps down clearly from the main house and stays low on the side return; a single bulky roof form tends to make the whole L-shape look overdeveloped.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Keep the proposal subordinate to the house and established streetscape. Edinburgh guidance should be checked before changing prominent roof form or external detail.",
+                                    "materials_rules":  "Use materials and detailing that sit appropriately with the existing house and Edinburgh\u0027s wider townscape, especially on traditional streets."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Edinburgh guidance should be treated as stricter in practice: houses in conservation areas should be assumed to need planning permission for extensions and dormers.",
+                                           "listed_building":  "If you live in a listed building in Edinburgh, review the council\u0027s listed building guidance before starting work. Listed building consent will usually be needed for character-affecting changes."
+                                       }
+                  },
+                  {
+                      "town_slug":  "clackmannanshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Clackmannanshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "comhairle-nan-eilean-siar",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Comhairle nan Eilean Siar, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "dumfries-and-galloway",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Dumfries and Galloway, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "dundee-city",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                      "rules":  {
+                                    "height_rules":  "In Dundee City, the safest wraparound roof is one that steps down clearly from the main house and stays low on the side return; a single bulky roof form tends to make the whole L-shape look overdeveloped.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-ayrshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In East Ayrshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-dunbartonshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In East Dunbartonshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-lothian",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In East Lothian, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "east-renfrewshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In East Renfrewshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "falkirk",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Falkirk, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "fife",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Fife, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "glasgow-city",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                      "rules":  {
+                                    "height_rules":  "In Glasgow City, the safest wraparound roof is one that steps down clearly from the main house and stays low on the side return; a single bulky roof form tends to make the whole L-shape look overdeveloped.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "highland",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Highland, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "inverclyde",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Inverclyde, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "midlothian",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Midlothian, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "moray",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Moray, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-ayrshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In North Ayrshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "north-lanarkshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In North Lanarkshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "orkney-islands",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Orkney Islands, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "perth-and-kinross",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                      "rules":  {
+                                    "height_rules":  "In Perth and Kinross, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On tighter plots and in terraced or corner-plot streets, neighbour impact and street-scene fit are often the real deciding factors."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "renfrewshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Renfrewshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "scottish-borders",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Scottish Borders, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "shetland-islands",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Shetland Islands, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-ayrshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In South Ayrshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "south-lanarkshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In South Lanarkshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "stirling",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In Stirling, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "west-dunbartonshire",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In West Dunbartonshire, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "west-lothian",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                      "rules":  {
+                                    "height_rules":  "In West Lothian, stepped roof forms matter more than headline measurements, because broad plots can still make a wraparound extension look like a second house wing if the roof rises too confidently.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot.",
+                                    "roof_rules":  "Roof form should stay subordinate and avoid creating a dominant side or rear mass.",
+                                    "materials_rules":  "External materials should match or complement the house. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Wraparound extensions in Scottish conservation areas should be assumed to need close planning scrutiny.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required for works affecting character, and planning permission may also be needed."
+                                       }
+                  },
+                  {
+                      "town_slug":  "cairngorms-national-park",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. In the Cairngorms, sensitive proposals should still be checked early because National Park planning scrutiny can be stronger.",
+                      "rules":  {
+                                    "height_rules":  "In Cairngorms National Park, the roof needs to break down into clearly subservient pieces; one dominant wraparound roof quickly reads as too assertive in a protected landscape.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. In a national park setting, design restraint, landscape impact and heritage character are usually given exceptional weight.",
+                                    "roof_rules":  "Keep the roof form subordinate and avoid assuming that visually stronger alterations will escape closer scrutiny in the National Park.",
+                                    "materials_rules":  "Use materials and detailing that sit comfortably with the existing house and the National Park setting."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "In Scotland these householder rights do not apply in conservation areas. Within the Cairngorms, early checking is especially sensible for more sensitive or visually prominent proposals.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and proposals in the Cairngorms often benefit from early heritage advice."
+                                       }
+                  },
+                  {
+                      "town_slug":  "loch-lomond-and-the-trossachs-national-park",
+                      "last_verified":  "2026-04",
+                      "permitted_development":  "A wraparound extension in Scotland will usually need planning permission. Scottish householder permitted development for extensions is mainly rear-focused. In Loch Lomond \u0026 The Trossachs, conservation-area controls inside the Park remove many of the normal fall-back assumptions for exterior alterations.",
+                      "rules":  {
+                                    "height_rules":  "In Loch Lomond and the Trossachs National Park, the roof needs to break down into clearly subservient pieces; one dominant wraparound roof quickly reads as too assertive in a protected landscape.",
+                                    "depth_rules":  "Rear extension limits in Scotland do not automatically make a wraparound extension permitted. Once side projection becomes material, planning permission is commonly required.",
+                                    "boundary_rules":  "Boundary distance, road-facing elevations and accumulated enlargement of the house all need checking. Do not assume a wraparound design can be split into separate permitted pieces. In a national park setting, design restraint, landscape impact and heritage character are usually given exceptional weight.",
+                                    "roof_rules":  "Keep the roof form subordinate and avoid assuming that visually prominent exterior changes will remain informal in the National Park.",
+                                    "materials_rules":  "Use materials and detailing that respect the existing house and traditional Park character."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Loch Lomond \u0026 The Trossachs states that householders in conservation areas need planning permission for exterior alterations, including extensions, roofs, windows, doors, fences and walls.",
+                                           "listed_building":  "Do not rely on permitted development for a listed building or its curtilage. Listed building consent is usually required, and National Park heritage guidance should be checked before starting work."
+                                       }
+                  }
+              ]
+}

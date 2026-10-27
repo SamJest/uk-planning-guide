@@ -1,0 +1,593 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Scotland, HMO proposals usually need an early planning permission check because local policy, shared-housing concentration and Article 4 coverage often matter more than any simple fallback route. The strongest HMO route usually comes from treating policy, concentration, amenity and the supporting physical works as one joined-up planning question.",
+    "rules": {
+      "height_rules": "For HMOs, the planning issue is usually intensity of occupation and local policy rather than building height alone, although physical enlargement can add a second planning layer.",
+      "depth_rules": "Layout, garden amenity space, refuse storage and any extension or conversion project linked to the HMO can all change the planning route across Scotland.",
+      "boundary_rules": "Neighbour amenity, parking pressure, servicing and local shared-housing concentration are recurring pressure points for HMO proposals in Scotland.",
+      "roof_rules": "Roof rooms, dormers and upper-floor reconfiguration often need to be reviewed alongside the change of use rather than as a separate afterthought.",
+      "materials_rules": "Frontage appearance, cycle storage, bin arrangements and entrance treatment can influence how an HMO proposal is judged even where the main use change sits inside the building."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Aberdeen City, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Aberdeen City, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Aberdeen City.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Aberdeen City.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Aberdeen City usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Aberdeen City so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Aberdeen City can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Aberdeen City usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Aberdeen City, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Aberdeenshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Aberdeenshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Aberdeenshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Aberdeenshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Aberdeenshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Aberdeenshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Aberdeenshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Aberdeenshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Aberdeenshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-03",
+      "permitted_development": "In Angus, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Angus, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Angus.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Angus.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Angus usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Angus so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Angus can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Angus usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Angus, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-03",
+      "permitted_development": "In Argyll and Bute, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Argyll and Bute, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Argyll and Bute.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Argyll and Bute.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Argyll and Bute usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Argyll and Bute so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Argyll and Bute can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Argyll and Bute usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Argyll and Bute, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-03",
+      "permitted_development": "In City of Edinburgh, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In City of Edinburgh, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in City of Edinburgh.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in City of Edinburgh.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in City of Edinburgh usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in City of Edinburgh so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within City of Edinburgh can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in City of Edinburgh usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in City of Edinburgh, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Clackmannanshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Clackmannanshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Clackmannanshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Clackmannanshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Clackmannanshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Clackmannanshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Clackmannanshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Clackmannanshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Clackmannanshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-03",
+      "permitted_development": "In Comhairle nan Eilean Siar, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Comhairle nan Eilean Siar, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Comhairle nan Eilean Siar.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Comhairle nan Eilean Siar.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Comhairle nan Eilean Siar usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Comhairle nan Eilean Siar so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Comhairle nan Eilean Siar can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Comhairle nan Eilean Siar usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Comhairle nan Eilean Siar, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-03",
+      "permitted_development": "In Dumfries and Galloway, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Dumfries and Galloway, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Dumfries and Galloway.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Dumfries and Galloway.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Dumfries and Galloway usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Dumfries and Galloway so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Dumfries and Galloway can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Dumfries and Galloway usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Dumfries and Galloway, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Dundee City, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Dundee City, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Dundee City.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Dundee City.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Dundee City usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Dundee City so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Dundee City can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Dundee City usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Dundee City, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Ayrshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In East Ayrshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in East Ayrshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in East Ayrshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in East Ayrshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in East Ayrshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within East Ayrshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in East Ayrshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in East Ayrshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Dunbartonshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In East Dunbartonshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in East Dunbartonshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in East Dunbartonshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in East Dunbartonshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in East Dunbartonshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within East Dunbartonshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in East Dunbartonshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in East Dunbartonshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Lothian, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In East Lothian, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in East Lothian.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in East Lothian.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in East Lothian usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in East Lothian so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within East Lothian can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in East Lothian usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in East Lothian, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Renfrewshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In East Renfrewshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in East Renfrewshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in East Renfrewshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in East Renfrewshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in East Renfrewshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within East Renfrewshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in East Renfrewshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in East Renfrewshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-03",
+      "permitted_development": "In Falkirk, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Falkirk, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Falkirk.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Falkirk.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Falkirk usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Falkirk so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Falkirk can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Falkirk usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Falkirk, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-03",
+      "permitted_development": "In Fife, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Fife, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Fife.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Fife.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Fife usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Fife so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Fife can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Fife usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Fife, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Glasgow City, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Glasgow City, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Glasgow City.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Glasgow City.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Glasgow City usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Glasgow City so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Glasgow City can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Glasgow City usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Glasgow City, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-03",
+      "permitted_development": "In Highland, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Highland, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Highland.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Highland.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Highland usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Highland so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Highland can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Highland usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Highland, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-03",
+      "permitted_development": "In Inverclyde, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Inverclyde, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Inverclyde.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Inverclyde.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Inverclyde usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Inverclyde so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Inverclyde can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Inverclyde usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Inverclyde, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In Midlothian, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Midlothian, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Midlothian.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Midlothian.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Midlothian usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Midlothian so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Midlothian can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Midlothian usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Midlothian, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-03",
+      "permitted_development": "In Moray, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Moray, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Moray.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Moray.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Moray usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Moray so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Moray can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Moray usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Moray, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In North Ayrshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In North Ayrshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in North Ayrshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in North Ayrshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in North Ayrshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in North Ayrshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within North Ayrshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in North Ayrshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in North Ayrshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In North Lanarkshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In North Lanarkshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in North Lanarkshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in North Lanarkshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in North Lanarkshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in North Lanarkshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within North Lanarkshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in North Lanarkshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in North Lanarkshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-03",
+      "permitted_development": "In Orkney Islands, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Orkney Islands, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Orkney Islands.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Orkney Islands.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Orkney Islands usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Orkney Islands so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Orkney Islands can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Orkney Islands usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Orkney Islands, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-03",
+      "permitted_development": "In Perth and Kinross, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Perth and Kinross, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Perth and Kinross.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Perth and Kinross.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Perth and Kinross usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Perth and Kinross so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Perth and Kinross can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Perth and Kinross usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Perth and Kinross, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Renfrewshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Renfrewshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Renfrewshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Renfrewshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Renfrewshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Renfrewshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Renfrewshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Renfrewshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Renfrewshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-03",
+      "permitted_development": "In Scottish Borders, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Scottish Borders, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Scottish Borders.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Scottish Borders.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Scottish Borders usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Scottish Borders so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Scottish Borders can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Scottish Borders usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Scottish Borders, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-03",
+      "permitted_development": "In Shetland Islands, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Shetland Islands, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Shetland Islands.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Shetland Islands.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Shetland Islands usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Shetland Islands so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Shetland Islands can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Shetland Islands usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Shetland Islands, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In South Ayrshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In South Ayrshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in South Ayrshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in South Ayrshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in South Ayrshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in South Ayrshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within South Ayrshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in South Ayrshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in South Ayrshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In South Lanarkshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In South Lanarkshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in South Lanarkshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in South Lanarkshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in South Lanarkshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in South Lanarkshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within South Lanarkshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in South Lanarkshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in South Lanarkshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-03",
+      "permitted_development": "In Stirling, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Stirling, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Stirling.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Stirling.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Stirling usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Stirling so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Stirling can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Stirling usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Stirling, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In West Dunbartonshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In West Dunbartonshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in West Dunbartonshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in West Dunbartonshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in West Dunbartonshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in West Dunbartonshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within West Dunbartonshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in West Dunbartonshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in West Dunbartonshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In West Lothian, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In West Lothian, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in West Lothian.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in West Lothian.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in West Lothian usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in West Lothian so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within West Lothian can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in West Lothian usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in West Lothian, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-03",
+      "permitted_development": "In Cairngorms National Park, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Cairngorms National Park, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Cairngorms National Park.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Cairngorms National Park.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Cairngorms National Park usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Cairngorms National Park so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Cairngorms National Park can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Cairngorms National Park usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Cairngorms National Park, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-03",
+      "permitted_development": "In Loch Lomond and The Trossachs National Park, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Loch Lomond and The Trossachs National Park, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Loch Lomond and The Trossachs National Park.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Loch Lomond and The Trossachs National Park.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Loch Lomond and The Trossachs National Park usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Loch Lomond and The Trossachs National Park so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Loch Lomond and The Trossachs National Park can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Loch Lomond and The Trossachs National Park usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Loch Lomond and The Trossachs National Park, because they can remove the simpler fallback route for change of use."
+      }
+    }
+  ]
+}

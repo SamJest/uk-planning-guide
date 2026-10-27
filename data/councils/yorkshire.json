@@ -1,0 +1,1908 @@
+{
+    "county_slug":  "yorkshire",
+    "county_name":  "Yorkshire",
+    "shared_official_sources":  [
+                                    {
+                                        "title":  "Planning Portal: do you need planning permission?",
+                                        "url":  "https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission",
+                                        "category":  "planning_portal",
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  30
+                                    },
+                                    {
+                                        "title":  "Planning Portal: householder planning consent",
+                                        "url":  "https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent",
+                                        "category":  "householder_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  15
+                                    },
+                                    {
+                                        "title":  "Planning Portal: permitted development rights",
+                                        "url":  "https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/",
+                                        "category":  "permitted_development_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  10
+                                    },
+                                    {
+                                        "title":  "GOV.UK: making a planning application",
+                                        "url":  "https://www.gov.uk/guidance/making-an-application",
+                                        "category":  "validation_requirements",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  20
+                                    },
+                                    {
+                                        "title":  "GOV.UK: before submitting an application",
+                                        "url":  "https://www.gov.uk/guidance/before-submitting-an-application",
+                                        "category":  "pre_application_advice",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  25
+                                    },
+                                    {
+                                        "title":  "Historic England: living in a conservation area",
+                                        "url":  "https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/",
+                                        "category":  "conservation_area",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Historic England: conservation area planning advice",
+                                        "url":  "https://historicengland.org.uk/advice/planning/conservation-areas/",
+                                        "category":  "heritage",
+                                        "page_families":  [
+                                                              "council",
+                                                              "scenario"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "listed-buildings",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  28
+                                    },
+                                    {
+                                        "title":  "Historic England: what are listed buildings?",
+                                        "url":  "https://historicengland.org.uk/listing/what-is-designation/listed-buildings/",
+                                        "category":  "listed_buildings",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "listed-buildings",
+                                                               "conservation-areas"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    }
+                                ],
+    "councils":  [
+                     {
+                         "town_slug":  "barnsley",
+                         "town_name":  "Barnsley",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Apply for planning permission",
+                                                      "url":  "https://www.barnsley.gov.uk/services/planning-and-buildings/apply-for-planning-permission/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "2026 Local validation list",
+                                                      "url":  "https://www.barnsley.gov.uk/media/0qpll0xy/2026-local-validation-list.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application planning advice for major and minor developments",
+                                                      "url":  "https://www.barnsley.gov.uk/services/planning-and-buildings/pre-application-planning-advice/pre-application-planning-advice-for-major-and-minor-developments/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Barnsley\u0027s Local Plan",
+                                                      "url":  "https://www.barnsley.gov.uk/services/planning-and-buildings/local-planning-and-development/local-plan/barnsleys-local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.barnsley.gov.uk/services/conservation/conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed building consent",
+                                                      "url":  "https://www.barnsley.gov.uk/services/conservation/listed-building-consent/",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Tree Preservation Orders (TPO)",
+                                                      "url":  "https://www.barnsley.gov.uk/services/parks-and-open-spaces/tree-preservation-orders/",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Planning enforcement policy 2023",
+                                                      "url":  "https://www.barnsley.gov.uk/media/uscfyxba/planning-enforcement-policy-2023.pdf",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Dropped kerbs",
+                                                      "url":  "https://www.barnsley.gov.uk/services/roads-travel-and-parking/parking/dropped-kerbs/",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "bradford",
+                         "town_name":  "Bradford",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Make a planning application",
+                                                      "url":  "https://www.bradford.gov.uk/planning-and-building-control/planning-applications/make-a-planning-application/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning application information requirements",
+                                                      "url":  "https://www.bradford.gov.uk/planning-and-building-control/planning-applications/planning-application-forms/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Authority page for national and local information requirements and application forms.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice for residential and commercial developments",
+                                                      "url":  "https://www.bradford.gov.uk/planning-and-building-control/planning-application-and-building-regulations-advice/pre-application-advice-for-residential-and-commercial-developments/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan",
+                                                      "url":  "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "List of Conservation Areas",
+                                                      "url":  "https://www.bradford.gov.uk/environment/conservation-areas/list-of-conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Do I need listed building consent?",
+                                                      "url":  "https://www.bradford.gov.uk/planning-and-building-control/planning-application-and-building-regulations-advice/do-i-need-listed-building-consent/",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Trees and Tree Preservation Orders",
+                                                      "url":  "https://www.bradford.gov.uk/planning-and-building-control/trees-and-tree-preservation-orders/trees-and-tree-preservation-orders/",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "About planning enforcement",
+                                                      "url":  "https://www.bradford.gov.uk/planning-and-building-control/planning-enforcement/about-planning-enforcement/",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Dropped kerbs and crossovers",
+                                                      "url":  "https://www.bradford.gov.uk/transport-and-travel/highways/dropped-kerbs-and-crossovers/",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "calderdale",
+                         "town_name":  "Calderdale",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Apply for planning permission",
+                                                      "url":  "https://new.calderdale.gov.uk/planning-and-building-control/apply-planning-permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Authority planning application page linking to Planning Portal submission and process guidance.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Validation Requirements for Planning Applications",
+                                                      "url":  "https://new.calderdale.gov.uk/planning-and-building-control/apply-planning-permission/validation-requirements",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning Services fees",
+                                                      "url":  "https://new.calderdale.gov.uk/planning-and-building-control/planning-services-fees",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Best live authority page found giving current pre-application advice fee categories and related planning service routes.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan",
+                                                      "url":  "https://new.calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning policy guidance",
+                                                      "url":  "https://new.calderdale.gov.uk/planning-and-building-control/planning-policy/guidance",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Conservation",
+                                                      "url":  "https://new.calderdale.gov.uk/planning-and-building-control/conservation",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "notes":  "Authority conservation hub covering conservation areas and listed building controls.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Search for listed buildings",
+                                                      "url":  "https://new.calderdale.gov.uk/dio/search-listed-buildings",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Trees and hedges",
+                                                      "url":  "https://new.calderdale.gov.uk/planning-and-building-control/trees-and-hedges",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Enforcing planning rules",
+                                                      "url":  "https://new.calderdale.gov.uk/planning-and-building-control/enforcing-planning-rules",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Dropped crossings or kerbs",
+                                                      "url":  "https://new.calderdale.gov.uk/streets-and-transport/roads-and-highways-maintenance/streetworks/dropped-crossings",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "doncaster",
+                         "town_name":  "Doncaster",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "How do I apply for planning permission?",
+                                                      "url":  "https://www.doncaster.gov.uk/services/planning/how-do-i-apply-for-planning-permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation Requirements Main Document",
+                                                      "url":  "https://www.doncaster.gov.uk/Documents/DocumentView/Stream/Media/Default/Planning/Documents/DM%20Planning/Local%20Validation%20Requirements%20Final.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning - Pre Application",
+                                                      "url":  "https://www.doncaster.gov.uk/doitonline/planning-pre-application",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan",
+                                                      "url":  "https://www.doncaster.gov.uk/services/planning/local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Supplementary Planning Documents and Interim Planning Position Statements",
+                                                      "url":  "https://www.doncaster.gov.uk/services/planning/ldf-supplementary-planning-documents",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Article 4 Direction - Local Heritage List",
+                                                      "url":  "https://www.doncaster.gov.uk/services/planning/article-4-direction-local-heritage-list",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed buildings in Doncaster",
+                                                      "url":  "https://www.doncaster.gov.uk/services/planning/listed-buildings-in-doncaster",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Design and conservation",
+                                                      "url":  "https://www.doncaster.gov.uk/services/planning/design-and-conservation",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Planning enforcement",
+                                                      "url":  "https://www.doncaster.gov.uk/services/planning/planning-enforcement",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Dropped kerbs",
+                                                      "url":  "https://www.doncaster.gov.uk/services/transport-streets-parking/dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "kirklees",
+                         "town_name":  "Kirklees",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning and development",
+                                                      "url":  "https://www.kirklees.gov.uk/beta/planning-and-development.aspx",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Authority planning hub covering application, planning portal and pre-application routes.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Validation Requirements for the Submission of Planning Applications",
+                                                      "url":  "https://www.kirklees.gov.uk/beta/planning-applications/pdf/validation-requirements-submission-of-planning-applications.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Get pre-application planning advice",
+                                                      "url":  "https://www.kirklees.gov.uk/beta/planning-applications/get-pre-application-planning-advice.aspx",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Kirklees Development Plan",
+                                                      "url":  "https://www.kirklees.gov.uk/localplan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Supplementary Planning Documents (SPDs)",
+                                                      "url":  "https://www.kirklees.gov.uk/beta/planning-policy/adopted-supplementary-planning-documents.aspx",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Conservation area maps and appraisals",
+                                                      "url":  "https://www.kirklees.gov.uk/beta/trees-listing-and-conservation/conservation-area-maps.aspx",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Find out if a building is listed",
+                                                      "url":  "https://www.kirklees.gov.uk/beta/trees-listing-and-conservation/find-out-if-listed-building.aspx",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Tree preservation orders",
+                                                      "url":  "https://www.kirklees.gov.uk/beta/trees-listing-and-conservation/tree-preservation-orders.aspx",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Development Management Compliance Strategy",
+                                                      "url":  "https://www.kirklees.gov.uk/beta/planning-enforcement/pdf/development-management-compliance-strategy.pdf",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "leeds",
+                         "town_name":  "Leeds",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning permission",
+                                                      "url":  "https://www.leeds.gov.uk/planning/planning-permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Main authority planning permission hub for Leeds, linking to whether permission is needed and how to apply.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Apply for planning permission",
+                                                      "url":  "https://www.leeds.gov.uk/planning/planning-permission/find-out-if-you-need-planning-permission/apply-for-planning-permission",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Reused because this live authority application page sets out the supporting documentation and validation requirements for a valid planning application.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application enquiry service",
+                                                      "url":  "https://www.leeds.gov.uk/planning/planning-permission/pre-application-enquiry-service",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan",
+                                                      "url":  "https://www.leeds.gov.uk/planning/planning-policy/adopted-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Supplementary planning documents and guidance",
+                                                      "url":  "https://www.leeds.gov.uk/planning/planning-policy/supplementary-planning-documents-and-guidance",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Areas",
+                                                      "url":  "https://www.leeds.gov.uk/planning/conservation-protection-and-heritage/conservation-area",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed buildings",
+                                                      "url":  "https://www.leeds.gov.uk/planning/conservation-protection-and-heritage/listed-buildings",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Houses in multiple occupation - article 4 direction",
+                                                      "url":  "https://www.leeds.gov.uk/planning/planning-policy/supplementary-planning-documents-and-guidance/houses-in-multiple-occupation-article-4-direction",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Tree works and preservation overview",
+                                                      "url":  "https://www.leeds.gov.uk/planning/conservation-protection-and-heritage/tree-works-and-preservation",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Leeds Enforcement Plan for planning",
+                                                      "url":  "https://www.leeds.gov.uk/plans-and-strategies/leeds-enforcement-plan",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Disabled parking bays, vehicle crossings and dropped kerbs",
+                                                      "url":  "https://www.leeds.gov.uk/parking-roads-and-travel/blue-badge-parking-and-applications/disabled-parking-bays-vehicle-crossings-and-dropped-kerbs",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "rotherham",
+                         "town_name":  "Rotherham",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning applications",
+                                                      "url":  "https://www.rotherham.gov.uk/planning-applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Main authority planning applications hub for Rotherham.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local validation list",
+                                                      "url":  "https://moderngov.rotherham.gov.uk/mgConvert2PDF.aspx?ID=154033",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Advice on planning applications",
+                                                      "url":  "https://www.rotherham.gov.uk/planning-applications/get-advice-planning-proposals/3",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "A guide to the Local Plan",
+                                                      "url":  "https://www.rotherham.gov.uk/planning-development/guide-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Built Heritage and Archaeology",
+                                                      "url":  "https://www.rotherham.gov.uk/conservation-regeneration/built-heritage-archaeology-2",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "notes":  "Best live authority heritage page found for conservation area guidance and heritage contacts.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Apply to work on protected trees",
+                                                      "url":  "https://www.rotherham.gov.uk/conservation-regeneration/apply-work-protected-trees/2",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Planning enforcement plan",
+                                                      "url":  "https://www.rotherham.gov.uk/downloads/download/185/planning-enforcement-plan",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Apply for a dropped kerb on a council or private owned property",
+                                                      "url":  "https://www.rotherham.gov.uk/parking/apply-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "sheffield",
+                         "town_name":  "Sheffield",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Apply for planning permission",
+                                                      "url":  "https://www.sheffield.gov.uk/planning-development/applications-advice/apply",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local planning application requirements",
+                                                      "url":  "https://www.sheffield.gov.uk/planning-development/local-planning-guidance",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Make a pre-application enquiry",
+                                                      "url":  "https://www.sheffield.gov.uk/planning-development/applications-advice/pre-application-enquiry",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Sheffield Local Plan",
+                                                      "url":  "https://www.sheffield.gov.uk/planning-development/sheffield-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Official authority page covering the adopted Sheffield Local Plan and the emerging draft plan.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.sheffield.gov.uk/planning-development/conservation-design/conservation-areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed buildings, registered parks and gardens",
+                                                      "url":  "https://www.sheffield.gov.uk/planning-development/listed-building-gardens",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Planning permission for houses in multiple occupation",
+                                                      "url":  "https://www.sheffield.gov.uk/planning-development/planning-permission-hmo",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Tree Preservation Orders",
+                                                      "url":  "https://www.sheffield.gov.uk/planning-development/conservation-design/make-application-works-trees/tree-preservation-orders",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Sheffield Local Enforcement Plan",
+                                                      "url":  "https://www.sheffield.gov.uk/sites/default/files/docs/planning-and-development/report-planning-issues/Local%20Enforcement%20Plan%20November%202020.pdf",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Request a dropped kerb",
+                                                      "url":  "https://www.sheffield.gov.uk/parking/request-adjustments/request-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "wakefield",
+                         "town_name":  "Wakefield",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "How to apply for planning permission",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/planning-applications-and-advice/making-an-application/how-to-apply-for-planning-permission/",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "What to consider when making a planning application",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/planning-applications-and-advice/making-an-application/what-to-consider",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "notes":  "Authority guidance page covering the information and checks to consider before submitting a valid application.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application planning advice",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/planning-applications-and-advice/help-with-a-planning-application/pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Wakefield District Local Plan",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/planning-policy/wakefield-district-local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Wakefield District Residential Design Guide",
+                                                      "url":  "https://mg.wakefield.gov.uk/documents/s88494/RDG%20Part%202%20FINAL.pdf",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/heritage-conservation-and-tree-preservation/conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed buildings and the local list",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/heritage-conservation-and-tree-preservation/listed-buildings",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Article 4 Directions - Conservation Areas",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/planning-applications-and-advice/help-with-a-planning-application/article-4-direction-for-smaller-houses-in-multiple-occupation",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Protected trees",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/heritage-conservation-and-tree-preservation/tree-preservation-orders",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "What is Planning Enforcement and what action can be taken?",
+                                                      "url":  "https://www.wakefield.gov.uk/planning/enforcement/what-is-planning-enforcement-and-what-action-can-be-taken/",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Kerb crossing, kerb lowering and access requests",
+                                                      "url":  "https://www.wakefield.gov.uk/roads-and-travel/roads/highway-maintenance/kerb-crossing-kerb-lowering-and-access-requests",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "york",
+                         "town_name":  "York",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "How to make a planning application",
+                                                      "url":  "https://www.york.gov.uk/planning-applications/make-planning-application",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application planning advice",
+                                                      "url":  "https://www.york.gov.uk/planning-advice-guidance/pre-application-planning-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan",
+                                                      "url":  "https://www.york.gov.uk/planning-policy/adopted-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.york.gov.uk/ConservationAreas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Listed buildings",
+                                                      "url":  "https://www.york.gov.uk/conservation-listed-buildings/listed-buildings",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Article 4 Direction in relation to Houses in Multiple Occupation (HMO)",
+                                                      "url":  "https://www.york.gov.uk/private-landlords-tenants/article-4-direction-relation-houses-multiple-occupation-hmo",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "hmos"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Dropped kerbs and vehicle access",
+                                                      "url":  "https://www.york.gov.uk/pavements-1/dropped-kerbs-vehicle-access",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Trees in conservation areas or with Tree Preservation Orders",
+                                                      "url":  "https://www.york.gov.uk/trees-hedgerows/trees-conservation-areas",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "east-riding-of-yorkshire",
+                         "town_name":  "East Riding of Yorkshire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Applying for planning permission and prior approvals",
+                                                      "url":  "https://www.eastriding.gov.uk/planning-permission-and-building-control/applications-for-planning-and-building-control/householder-planning-and-building-control-applications/applying-for-planning-permission-and-prior-approvals/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application planning advice",
+                                                      "url":  "https://www.eastriding.gov.uk/url/pre-application-planning-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning policy and the East Riding Local Plan",
+                                                      "url":  "https://www.eastriding.gov.uk/planning-permission-and-building-control/planning-policy-and-the-local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "A householder\u0027s guide to planning permission and building control",
+                                                      "url":  "https://www.eastriding.gov.uk/planning-permission-and-building-control/applications-for-planning-and-building-control/householder-planning-and-building-control-applications/a-householders-guide-to-planning-permission-and-building-control/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "East Riding Design Code",
+                                                      "url":  "https://www.eastriding.gov.uk/url/east-riding-design-code/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "hull",
+                         "town_name":  "Hull",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Validation Checklist 2024",
+                                                      "url":  "https://www.hull.gov.uk/downloads/file/3598/validation-checklist",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning pre-application advice",
+                                                      "url":  "https://www.hull.gov.uk/planning-applications/planning-pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan",
+                                                      "url":  "https://www.hull.gov.uk/strategies-policies-plans-performance/local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.hull.gov.uk/building-standards-regulations/conservation-areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "SPD10 Trees",
+                                                      "url":  "https://www.hull.gov.uk/downloads/file/3997/spd10-trees",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "north-yorkshire",
+                         "town_name":  "North Yorkshire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Find out if you need planning permission and apply",
+                                                      "url":  "https://www.northyorks.gov.uk/planning-and-conservation/find-out-if-you-need-planning-permission-and-apply",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main North Yorkshire planning applications hub and gateway into area-specific planning services.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Find out if you need planning permission and apply in your area",
+                                                      "url":  "https://www.northyorks.gov.uk/planning-and-conservation/find-out-if-you-need-planning-permission-and-apply/find-out-if-you-need-planning-permission-and-apply-your-area",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current area-wide gateway page for development management services following local government reorganisation.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "The North Yorkshire Local Plan",
+                                                      "url":  "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/north-yorkshire-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "North Yorkshire Council\u0027s new unitary local plan page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning policy in your local area",
+                                                      "url":  "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area",
+                                                      "category":  "other_official",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Official planning policy page for area-specific local plan and planning policy material across the North Yorkshire council area.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas and listed buildings",
+                                                      "url":  "https://www.northyorks.gov.uk/environment-and-neighbourhoods/conservation/conservation-areas-and-listed-buildings",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas",
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Planning enforcement in your area",
+                                                      "url":  "https://www.northyorks.gov.uk/planning-and-conservation/planning-enforcement/planning-enforcement-your-area",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Find out if you need planning permission and apply for minerals and waste or council planning",
+                                                      "url":  "https://www.northyorks.gov.uk/planning-and-conservation/find-out-if-you-need-planning-permission-and-apply/find-out-if-you-need-planning-permission-and-apply-minerals-and-waste-or-council-planning",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current North Yorkshire Council page setting out its pre-application planning advice offer for minerals, waste and council applications; local development services are otherwise routed by area.",
+                                                      "last_reviewed":  "2026-04-11",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Validation requirements for planning and other applications submitted under the Town and Country Planning Acts",
+                                                      "url":  "https://www.northyorks.gov.uk/sites/default/files/2023-07/Application%20validation%20requirements%20-%20accessible_1.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Validation requirements PDF currently linked from North Yorkshire Council\u0027s minerals, waste and council planning applications page.",
+                                                      "last_reviewed":  "2026-04-11",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "middlesbrough",
+                         "town_name":  "Middlesbrough",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Planning application validation checklist",
+                                                      "url":  "https://www.middlesbrough.gov.uk/media/nbafjkb1/planning-application-validation_checklist.pdf",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.middlesbrough.gov.uk/planning-and-development/pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning policy",
+                                                      "url":  "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Official planning policy hub covering the current statutory development plan documents and the emerging replacement local plan.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Confirmed Article 4 Direction",
+                                                      "url":  "https://www.middlesbrough.gov.uk/media/sqllakvb/article-4-hmos-notice-of-confirmation-may-2024.pdf",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "hmos"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "redcar-and-cleveland",
+                         "town_name":  "Redcar and Cleveland",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Planning forms and validation checklist",
+                                                      "url":  "https://www.redcar-cleveland.gov.uk/planning/apply-for-a-planning-permission/planning-forms-and-validation-checklist",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Advice",
+                                                      "url":  "https://planning.redcar-cleveland.gov.uk/Planning/PreApp/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Redcar and Cleveland local plan",
+                                                      "url":  "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Do I need planning permissions?",
+                                                      "url":  "https://www.redcar-cleveland.gov.uk/planning/do-i-need-planning-permissions",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "stockton-on-tees",
+                         "town_name":  "Stockton-on-Tees",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal - Do you need permission?",
+                                                      "url":  "https://www.planningportal.co.uk/permission",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  12
+                                                  },
+                                                  {
+                                                      "title":  "Apply for planning permission",
+                                                      "url":  "https://www.stockton.gov.uk/article/1770/Apply-for-planning-permission",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Get advice before submitting your planning application",
+                                                      "url":  "https://www.stockton.gov.uk/article/1771/Get-advice-before-submitting-your-planning-application",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Stockton-on-Tees Borough Council Local Plan 2019",
+                                                      "url":  "https://www.stockton.gov.uk/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Design Guide Supplementary Planning Document",
+                                                      "url":  "https://www.stockton.gov.uk/media/3986/Local-Design-Guide-March-2023/pdf/Local_Design_Guide_SPD_-_March_2023_-_DP_accessible.pdf?m=1681731488610",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Householder extensions and alterations",
+                                                      "url":  "https://www.stockton.gov.uk/media/3037/Supplementary-Planning-Document-Householder-extensions-and-alterations/pdf/Supplementary_Planning_Document_-_Householder_extensions_and_alterations.pdf?m=1646149948157",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     }
+                 ]
+}

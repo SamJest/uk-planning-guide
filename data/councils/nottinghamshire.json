@@ -1,0 +1,839 @@
+{
+    "county_slug":  "nottinghamshire",
+    "county_name":  "Nottinghamshire",
+    "shared_official_sources":  [
+                                    {
+                                        "title":  "Planning Portal: do you need planning permission?",
+                                        "url":  "https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission",
+                                        "category":  "planning_portal",
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  30
+                                    },
+                                    {
+                                        "title":  "Planning Portal: householder planning consent",
+                                        "url":  "https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent",
+                                        "category":  "householder_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  15
+                                    },
+                                    {
+                                        "title":  "Planning Portal: permitted development rights",
+                                        "url":  "https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/",
+                                        "category":  "permitted_development_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  10
+                                    },
+                                    {
+                                        "title":  "GOV.UK: making a planning application",
+                                        "url":  "https://www.gov.uk/guidance/making-an-application",
+                                        "category":  "validation_requirements",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  20
+                                    },
+                                    {
+                                        "title":  "GOV.UK: before submitting an application",
+                                        "url":  "https://www.gov.uk/guidance/before-submitting-an-application",
+                                        "category":  "pre_application_advice",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  25
+                                    },
+                                    {
+                                        "title":  "Historic England: living in a conservation area",
+                                        "url":  "https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/",
+                                        "category":  "conservation_area",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Historic England: conservation area planning advice",
+                                        "url":  "https://historicengland.org.uk/advice/planning/conservation-areas/",
+                                        "category":  "heritage",
+                                        "page_families":  [
+                                                              "council",
+                                                              "scenario"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "listed-buildings",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  28
+                                    },
+                                    {
+                                        "title":  "Historic England: what are listed buildings?",
+                                        "url":  "https://historicengland.org.uk/listing/what-is-designation/listed-buildings/",
+                                        "category":  "listed_buildings",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "listed-buildings",
+                                                               "conservation-areas"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    }
+                                ],
+    "councils":  [
+                     {
+                         "town_slug":  "ashfield",
+                         "town_name":  "Ashfield",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Apply for planning permission in Ashfield",
+                                                      "url":  "https://www.ashfield.gov.uk/planning-and-building-control/planning-applications/apply-for-permission/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official application page with adopted validation lists for householder, full/major and miscellaneous applications.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application planning advice",
+                                                      "url":  "https://www.ashfield.gov.uk/planning-and-building-control/planning-applications/pre-application-planning-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Current development plan",
+                                                      "url":  "https://www.ashfield.gov.uk/planning-and-building-control/local-plan/current-development-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Official statutory development plan page for Ashfield while the new local plan progresses.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Report a breach of planning control",
+                                                      "url":  "https://www.ashfield.gov.uk/planning-and-building-control/report-a-breach-of-planning-control/",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "bassetlaw",
+                         "town_name":  "Bassetlaw",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation Requirement",
+                                                      "url":  "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-applications/development-management/local-validation-requirement/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Advice",
+                                                      "url":  "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-applications/pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Bassetlaw Local Plan 2020-2038",
+                                                      "url":  "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Planning Enforcement",
+                                                      "url":  "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-applications/development-management/planning-enforcement/",
+                                                      "category":  "enforcement",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Protected trees and hedgerows guidance",
+                                                      "url":  "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-applications/protected-trees-and-hedgerows/protected-trees-and-hedgerows-guidance/",
+                                                      "category":  "trees",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "broxtowe",
+                         "town_name":  "Broxtowe",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Validation Requirements",
+                                                      "url":  "https://www.broxtowe.gov.uk/for-you/planning/submit-a-planning-application/validation-requirements/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning advice charges \u0026 service levels",
+                                                      "url":  "https://www.broxtowe.gov.uk/media/5allurpd/enquiry-fee-sheet.pdf",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official Broxtowe pre-application advice service levels and fee sheet.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Part 2 Local Plan",
+                                                      "url":  "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Detailed local plan policies and site allocations used in development management.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Supplementary Planning Documents (SPDs)",
+                                                      "url":  "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/supplementary-planning-documents-spds/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official supplementary planning documents and masterplans used as material considerations.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  },
+                                                  {
+                                                      "title":  "Request a dropped kerb",
+                                                      "url":  "https://www.nottinghamshire.gov.uk/transport/roads/request-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Nottinghamshire County Council is the highway authority for Broxtowe.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "gedling",
+                         "town_name":  "Gedling",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Local requirements list",
+                                                      "url":  "https://www.gedling.gov.uk/planning-and-building-control/planning/development-management-and-planning-applications/submit-planning-application/local-requirements-list",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Get pre-application advice (optional, paid service)",
+                                                      "url":  "https://www.gedling.gov.uk/step-by-step/do-i-need-planning-permission-step-step/get-pre-application-advice-optional-paid-service",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Planning Document (Part 2 Local Plan)",
+                                                      "url":  "https://www.gedling.gov.uk/planning-and-building-control/planning/planning-policy/adopted-plan-and-local-policy-documents/local-planning-document-part-2-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Design code",
+                                                      "url":  "https://www.gedling.gov.uk/planning-and-building-control/planning/development-management-and-planning-applications/submit-planning-application/design-code",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Request a dropped kerb",
+                                                      "url":  "https://www.nottinghamshire.gov.uk/transport/roads/request-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Nottinghamshire County Council is the highway authority for Gedling.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "mansfield",
+                         "town_name":  "Mansfield",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Applications for planning permission",
+                                                      "url":  "https://www.mansfield.gov.uk/planning-permission/apply-planning-permission-2",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Official application page linking to the council scheme of validation.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.mansfield.gov.uk/planning-permission/pre-application-advice-1",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan 2013-2033",
+                                                      "url":  "https://www.mansfield.gov.uk/local-plan/adopted-local-plan-2013-2033",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Request a dropped kerb",
+                                                      "url":  "https://www.nottinghamshire.gov.uk/transport/roads/request-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Nottinghamshire County Council is the highway authority for Mansfield.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "newark-and-sherwood",
+                         "town_name":  "Newark and Sherwood",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Validation checklists",
+                                                      "url":  "https://www.newark-sherwooddc.gov.uk/validationchecklists/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Our pre application service",
+                                                      "url":  "https://www.newark-sherwooddc.gov.uk/pre-applicationadvice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Amended core strategy DPD",
+                                                      "url":  "https://www.newark-sherwooddc.gov.uk/amendedcorestrategy/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Current strategic development plan document for the district.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Allocations and development management DPD",
+                                                      "url":  "https://www.newark-sherwooddc.gov.uk/adm/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Use alongside the Amended Core Strategy for allocations and development management policies.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Heritage assets and planning",
+                                                      "url":  "https://www.newark-sherwooddc.gov.uk/heritageassetsandplanning/",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings",
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Request a dropped kerb",
+                                                      "url":  "https://www.nottinghamshire.gov.uk/transport/roads/request-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Nottinghamshire County Council is the highway authority for Newark and Sherwood.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "rushcliffe",
+                         "town_name":  "Rushcliffe",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "What do I need to provide?",
+                                                      "url":  "https://www.rushcliffe.gov.uk/planning-growth/planning/apply-for-planning-permission/what-do-i-need-to-provide/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1,
+                                                      "notes":  "A better live anchor than a loose checklist file because it catches the supporting material applicants actually miss."
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Advice",
+                                                      "url":  "https://www.rushcliffe.gov.uk/planning-growth/planning/pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan",
+                                                      "url":  "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "About Conservation Areas",
+                                                      "url":  "https://www.rushcliffe.gov.uk/planning-growth/conservation/conservation-areas/about-conservation-areas/",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Listed Buildings",
+                                                      "url":  "https://www.rushcliffe.gov.uk/planning-growth/conservation/listed-buildings/",
+                                                      "category":  "listed_buildings",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "nottingham",
+                         "town_name":  "Nottingham",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Do I need Planning permission?",
+                                                      "url":  "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-applications/do-i-need-planning-permission/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2,
+                                                      "notes":  "Worth keeping because Nottingham has local wrinkles, especially around shared houses, that trip people up fast."
+                                                  },
+                                                  {
+                                                      "title":  "Information needed with Planning Applications",
+                                                      "url":  "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-applications/apply-for-planning-permission/information-needed-with-planning-applications/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning and Pre-application Advice",
+                                                      "url":  "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-applications/apply-for-planning-permission/planning-and-pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "The Local Plan and Planning Policy",
+                                                      "url":  "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-policy/the-local-plan-and-planning-policy/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Areas and Listed Buildings",
+                                                      "url":  "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-policy/conservation-areas-and-listed-buildings/",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas",
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Restrictions on HMO and permitted development (Article 4)",
+                                                      "url":  "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-applications/do-i-need-planning-permission/restrictions-on-hmo-and-permitted-development/",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "hmos"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     }
+                 ]
+}

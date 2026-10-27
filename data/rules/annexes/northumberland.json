@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A true self-contained annexe in England should not be assumed to be permitted development and will often need planning permission. Some ancillary family accommodation can be achieved through normal extension rules or a detached Class E building, but the use must stay genuinely subordinate to the main house rather than becoming a second dwelling.",
+    "rules": {
+      "height_rules": "Where a detached ancillary building relies on Class E, keep it single storey with eaves up to 2.5m, up to 4m overall for a dual-pitched roof, up to 3m for any other roof and no more than 2.5m overall within 2m of a boundary.",
+      "depth_rules": "There is no separate annexe depth allowance. Attached accommodation has to fit within the normal extension rules, while detached space has to stay within the curtilage and 50% coverage limits and still read as ancillary rather than a second home.",
+      "boundary_rules": "Boundary siting matters both for the Class E height cap and for whether the building still reads as subordinate. On designated land, side locations can lose permitted development rights, and listed-building curtilages need full planning permission for outbuildings.",
+      "roof_rules": "If the proposal relies on Class E, keep the detached building single storey and visually subordinate. Roof terraces, balconies and overtly house-like upper-storey forms usually move annexe proposals outside the ordinary householder route.",
+      "materials_rules": "If annexe accommodation is allowed, materials, servicing, entrances and internal facilities should reinforce the link with the main dwelling rather than suggest a freestanding new house. A fully independent layout is far more likely to need permission."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "A true self-contained annexe is not normally covered by the ordinary outbuilding right. The simpler Class E route only helps where the building remains clearly incidental and tied to the main house rather than operating as a separate dwelling. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A building that exceeds the normal Class E height envelope will usually need planning permission.",
+        "depth_rules": "Large or prominent footprint can require permission even where the height appears compliant.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A bulky or badly positioned roof can cause an outbuilding to exceed the normal Class E limits or lose its subordinate character.",
+        "materials_rules": "A restrained material palette helps, but the real issue is that the building must still read as ancillary to the main house rather than a separate home."
+      },
+      "restrictions": {
+        "conservation_area": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "listed_building": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "article4_applies": true,
+        "article4_notes": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes."
+      }
+    }
+  ]
+}

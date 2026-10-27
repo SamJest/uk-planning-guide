@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Buckinghamshire, for a house, the usual planning route for a driveway is easiest where the work is just hard surfacing inside the plot and run-off from any front area over 5 square metres is dealt with on site. Permission issues often arise from the access, walls or drainage details rather than the parking space alone. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Buckinghamshire, the planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+      "depth_rules": "Across Buckinghamshire, front impermeable surfacing without suitable on-site drainage will often need planning permission.",
+      "boundary_rules": "Across Buckinghamshire, driveway surfacing inside the plot and the access across the boundary are not always the same consent route. New or widened vehicle crossings usually need highway authority approval.",
+      "roof_rules": "Across Buckinghamshire, a driveway or paved area does not automatically authorise a roof above it. Once a car port or canopy is added, the structure needs checking under the separate rules for buildings or attached alterations.",
+      "materials_rules": "Across Buckinghamshire, the safest material strategy is to manage water within the property. Broad impermeable paving on a front garden is far more likely to trigger planning issues than a permeable or properly drained surface."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "buckinghamshire",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house, the usual planning route for a driveway is easiest where the work is just hard surfacing inside the plot and run-off from any front area over 5 square metres is dealt with on site. Permission issues often arise from the access, walls or drainage details rather than the parking space alone. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+        "depth_rules": "Front impermeable surfacing without suitable on-site drainage will often need planning permission.",
+        "boundary_rules": "Driveway surfacing inside the plot and the access across the boundary are not always the same consent route. New or widened vehicle crossings usually need highway authority approval.",
+        "roof_rules": "A driveway or paved area does not automatically authorise a roof above it. Once a car port or canopy is added, the structure needs checking under the separate rules for buildings or attached alterations.",
+        "materials_rules": "The safest material strategy is to manage water within the property. Broad impermeable paving on a front garden is far more likely to trigger planning issues than a permeable or properly drained surface."
+      },
+      "restrictions": {
+        "conservation_area": "Driveway works in conservation areas are usually judged as much on the loss of historic frontage character as on the paving material itself.",
+        "listed_building": "If the proposal serves a listed building, removing walls, gates, paving or other curtilage features can trigger listed building consent as well as planning checks.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 directions or planning conditions bite, a driveway that would usually fall within householder rights can still need planning permission."
+      }
+    },
+    {
+      "town_slug": "milton-keynes",
+      "last_verified": "2026-04",
+      "permitted_development": "A house driveway is usually treated as permitted development where the surfacing stays within the curtilage and front areas over 5 square metres are porous or drain to a porous area within the site. A new crossover or vehicle access is a separate highways consent route. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+        "depth_rules": "The main national control is drainage rather than projection from the house. Shallow or awkward parking layouts can still fail in practice if they leave vehicles overhanging the footway or create poor manoeuvring.",
+        "boundary_rules": "Driveway surfacing inside the plot and the access across the boundary are not always the same consent route. New or widened vehicle crossings usually need highway authority approval.",
+        "roof_rules": "A driveway or paved area does not automatically authorise a roof above it. Once a car port or canopy is added, the structure needs checking under the separate rules for buildings or attached alterations.",
+        "materials_rules": "Choose the material around drainage first. For front driveway areas over 5 square metres, permeable surfacing or on-site discharge to a porous area is normally what keeps the work within the simpler route."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status makes driveway schemes more sensitive where front gardens, walls, railings or traditional paving contribute to the street scene.",
+        "listed_building": "Driveway works affecting a listed building, its curtilage, or historic boundary structures can need listed building consent as well as any planning or highway approval.",
+        "article4_applies": false,
+        "article4_notes": "Driveway works are not always protected by normal householder rights: Article 4 controls and earlier planning conditions can require an application for surfacing or boundary changes."
+      }
+    }
+  ]
+}

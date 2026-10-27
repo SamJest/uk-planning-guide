@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ukplanningguide.co.uk/schemas/source-record.schema.json",
+  "title": "UK Planning Guide source record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_id",
+    "authority_id",
+    "jurisdiction",
+    "source_type",
+    "title",
+    "url",
+    "publisher",
+    "last_checked_at",
+    "status",
+    "page_families"
+  ],
+  "properties": {
+    "source_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "authority_id": {"type": ["string", "null"]},
+    "jurisdiction": {"enum": ["england", "wales", "scotland", "northern-ireland", "uk"]},
+    "source_type": {
+      "enum": [
+        "article_4",
+        "local_plan",
+        "validation_list",
+        "pre_app",
+        "fees",
+        "application_search",
+        "conservation_map",
+        "committee",
+        "national_legislation",
+        "official_guidance",
+        "design_guide",
+        "highways",
+        "planning_portal",
+        "editorial_method"
+      ]
+    },
+    "title": {"type": "string", "minLength": 1},
+    "url": {"type": "string", "pattern": "^https://"},
+    "publisher": {"type": "string", "minLength": 1},
+    "last_checked_at": {"type": "string", "format": "date"},
+    "status": {"enum": ["active", "redirected", "unavailable", "unverified"]},
+    "page_families": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,290 @@
+{
+    "county_slug":  "cornwall",
+    "county_name":  "Cornwall",
+    "shared_official_sources":  [
+                                    {
+                                        "title":  "Planning Portal: do you need planning permission?",
+                                        "url":  "https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission",
+                                        "category":  "planning_portal",
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  30
+                                    },
+                                    {
+                                        "title":  "Planning Portal: householder planning consent",
+                                        "url":  "https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent",
+                                        "category":  "householder_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  15
+                                    },
+                                    {
+                                        "title":  "Planning Portal: permitted development rights",
+                                        "url":  "https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/",
+                                        "category":  "permitted_development_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  10
+                                    },
+                                    {
+                                        "title":  "GOV.UK: making a planning application",
+                                        "url":  "https://www.gov.uk/guidance/making-an-application",
+                                        "category":  "validation_requirements",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  20
+                                    },
+                                    {
+                                        "title":  "GOV.UK: before submitting an application",
+                                        "url":  "https://www.gov.uk/guidance/before-submitting-an-application",
+                                        "category":  "pre_application_advice",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  25
+                                    },
+                                    {
+                                        "title":  "Historic England: living in a conservation area",
+                                        "url":  "https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/",
+                                        "category":  "conservation_area",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Historic England: conservation area planning advice",
+                                        "url":  "https://historicengland.org.uk/advice/planning/conservation-areas/",
+                                        "category":  "heritage",
+                                        "page_families":  [
+                                                              "council",
+                                                              "scenario"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "listed-buildings",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  28
+                                    },
+                                    {
+                                        "title":  "Historic England: what are listed buildings?",
+                                        "url":  "https://historicengland.org.uk/listing/what-is-designation/listed-buildings/",
+                                        "category":  "listed_buildings",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "listed-buildings",
+                                                               "conservation-areas"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    }
+                                ],
+    "councils":  [
+                     {
+                         "town_slug":  "cornwall",
+                         "town_name":  "Cornwall",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: Common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Validation - Planning applications",
+                                                      "url":  "https://www.cornwall.gov.uk/planning-and-building-control/planning-applications/validation/",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Cornwall\u0027s main validation page, with links to the validation guide and supporting guidance.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.cornwall.gov.uk/planning-and-building-control/planning-advice-and-guidance/pre-application-advice/",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "The Cornwall Local Plan",
+                                                      "url":  "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Design",
+                                                      "url":  "https://www.cornwall.gov.uk/planning-and-building-control/design/",
+                                                      "category":  "design_guide",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Home of the Cornwall Design Guide and related design material.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Advice for works to historic buildings",
+                                                      "url":  "https://www.cornwall.gov.uk/planning-and-building-control/conservation-and-planning/advice-for-works-to-historic-buildings/",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings",
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Apply to install a new dropped kerb or alter an existing access",
+                                                      "url":  "https://www.cornwall.gov.uk/transport-parking-and-streets/street-works/apply-to-install-a-new-dropped-kerb-or-alter-an-existing-access/",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "isles-of-scilly",
+                         "town_name":  "Isles of Scilly",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: Common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning",
+                                                      "url":  "https://www.scilly.gov.uk/planning",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Front door for planning advice, applications and local requirement pages on the islands.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation Checklists for Planning Applications",
+                                                      "url":  "https://www.scilly.gov.uk/planning/planning-applications/planning-application-process/make-planning-application/local",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-Application Planning Advice (New Chargeable Service)",
+                                                      "url":  "https://www.scilly.gov.uk/planning/pre-application-planning-advice-new-chargeable-service",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan (2015 - 2030)",
+                                                      "url":  "https://www.scilly.gov.uk/planning/planning-policy/local-plan-2015-2030",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  }
+                                              ]
+                     }
+                 ]
+}

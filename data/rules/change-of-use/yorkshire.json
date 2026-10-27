@@ -1,0 +1,303 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Yorkshire, change of use turns on the lawful existing use, the proposed use class and whether any specific permitted development route applies. In practice, frontage works, servicing, hours, noise and activity levels usually matter as much as the class label itself.",
+    "rules": {
+      "height_rules": "There is no automatic height allowance for change of use. Any new storey, plant, flue, lift overrun or rooftop equipment is separate operational development and needs its own assessment.",
+      "depth_rules": "There is no fixed depth allowance. Rear additions, yards, seating areas, storage compounds or service bays are separate planning questions from the use change itself.",
+      "boundary_rules": "Across Yorkshire, the harder boundary issues are usually noise, servicing, odour, parking, deliveries, waste storage and the intensity of comings and goings near neighbouring occupiers.",
+      "roof_rules": "A use change does not automatically carry roof plant, vents, extraction kit or terraces with it. Those elements are assessed in their own right and can be the deciding issue for neighbours and design.",
+      "materials_rules": "Any external alterations such as shutters, signage, cladding, vents or changed openings should be judged as part of the wider street scene rather than as a minor afterthought to the use change."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "barnsley",
+      "last_verified": "2026-01",
+      "permitted_development": "For change of use, the real legal question is what the current lawful use is, what the proposed use will be and whether any specific permitted development class bridges the gap. In Barnsley, the use class may be the legal start point, but the real planning argument usually sits in frontage treatment, servicing and hours.",
+      "rules": {
+        "height_rules": "Change of use brings no built-in height allowance, so any extra plant, flues, rooftop structures or added floors have to be justified separately. In Barnsley, the practical difficulty is often not the use change but the rooftop kit that comes with it.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "At the site edge, change of use cases are usually decided by activity and amenity rather than by measurements alone. In Barnsley, bin storage, servicing and neighbour amenity at shared boundaries often carry more weight than internal layout changes.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually pushes the focus onto street presence, heritage impact and how any servicing or plant will appear in the public realm.",
+        "listed_building": "For a listed building, the use class analysis is only part of the answer. Any works affecting character usually need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "Even where no local control is flagged here, Article 4 directions can still withdraw certain change-of-use rights on named streets, centres or conservation areas."
+      }
+    },
+    {
+      "town_slug": "bradford",
+      "last_verified": "2026-01",
+      "permitted_development": "For change of use, the real legal question is what the current lawful use is, what the proposed use will be and whether any specific permitted development class bridges the gap. In Bradford, frontage changes, extraction, deliveries and hours of operation are usually the issues that make or break the proposal.",
+      "rules": {
+        "height_rules": "Height is not the issue in the same way it is for householder work: any rooftop kit, extra bulk or new storey stands on its own planning footing. In Bradford, extraction risers, condensers and screens often become the design issue that turns a simple use change into a fuller planning exercise.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "Boundary impact often matters more than the paper use class. Noise, waste, servicing, parking, smell and comings and goings are usually the live issues. In Bradford, shared boundaries are often where an apparently straightforward centre use starts to cause real amenity friction.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, frontage changes, plant, servicing and activity levels are often assessed just as closely as the use-class question itself.",
+        "listed_building": "For a listed building, the use class analysis is only part of the answer. Any works affecting character usually need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "A specific Article 4 direction can still switch off the simpler change-of-use route for the exact property or area."
+      }
+    },
+    {
+      "town_slug": "calderdale",
+      "last_verified": "2026-01",
+      "permitted_development": "Change of use is not governed by a broad householder-style right. The starting point is the lawful existing use, the proposed class and any specific permitted route that genuinely applies. In Calderdale, parking pressure, servicing and the sheer intensity of day-to-day activity usually matter more than the label attached to the use.",
+      "rules": {
+        "height_rules": "There is no automatic height envelope for change of use. New plant, flues, roof equipment or added storeys are assessed separately. In Calderdale, added roof bulk or plant is often where an otherwise workable use change starts to generate real amenity problems.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "At the site edge, change of use cases are usually decided by activity and amenity rather than by measurements alone. In Calderdale, the boundary test is usually operational: can neighbours live with the movement and pressure created by the new use?",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "In a conservation area, the proposal is usually judged not only on use class but on whether the resulting frontage and activity respect the character of the place.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "Even where no local control is flagged here, Article 4 directions can still withdraw certain change-of-use rights on named streets, centres or conservation areas."
+      }
+    },
+    {
+      "town_slug": "doncaster",
+      "last_verified": "2026-01",
+      "permitted_development": "For change of use, the real legal question is what the current lawful use is, what the proposed use will be and whether any specific permitted development class bridges the gap. In Doncaster, mixed-use streets tend to sharpen the focus on shutters, plant, servicing and how late the activity runs.",
+      "rules": {
+        "height_rules": "There is no automatic height envelope for change of use. New plant, flues, roof equipment or added storeys are assessed separately. In Doncaster, the practical difficulty is often not the use change but the rooftop kit that comes with it.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "For boundaries, the practical test is usually operational rather than dimensional: who arrives, when, where things are stored and what neighbours experience at the edge of the site. In Doncaster, bin storage, servicing and neighbour amenity at shared boundaries often carry more weight than internal layout changes.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "In a conservation area, the proposal is usually judged not only on use class but on whether the resulting frontage and activity respect the character of the place.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "Even where no local control is flagged here, Article 4 directions can still withdraw certain change-of-use rights on named streets, centres or conservation areas."
+      }
+    },
+    {
+      "town_slug": "kirklees",
+      "last_verified": "2026-01",
+      "permitted_development": "A change of use only benefits from permitted development where a specific route exists for that exact move; there is no general fallback just because the building itself stays standing. In Kirklees, frontage changes, extraction, deliveries and hours of operation are usually the issues that make or break the proposal.",
+      "rules": {
+        "height_rules": "Change of use brings no built-in height allowance, so any extra plant, flues, rooftop structures or added floors have to be justified separately. In Kirklees, rooftop plant and flues can trigger a separate design and amenity assessment even where the use change itself has a permitted route.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "At the site edge, change of use cases are usually decided by activity and amenity rather than by measurements alone. In Kirklees, shared boundaries are often where an apparently straightforward centre use starts to cause real amenity friction.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, frontage changes, plant, servicing and activity levels are often assessed just as closely as the use-class question itself.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "A specific Article 4 direction can still switch off the simpler change-of-use route for the exact property or area."
+      }
+    },
+    {
+      "town_slug": "leeds",
+      "last_verified": "2026-01",
+      "permitted_development": "A change of use only benefits from permitted development where a specific route exists for that exact move; there is no general fallback just because the building itself stays standing. In Leeds, mixed-use streets tend to sharpen the focus on shutters, plant, servicing and how late the activity runs.",
+      "rules": {
+        "height_rules": "Height is not the issue in the same way it is for householder work: any rooftop kit, extra bulk or new storey stands on its own planning footing. In Leeds, the practical difficulty is often not the use change but the rooftop kit that comes with it.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "For boundaries, the practical test is usually operational rather than dimensional: who arrives, when, where things are stored and what neighbours experience at the edge of the site. In Leeds, the practical pressure points are usually where bins, deliveries and late movements sit against someone else's wall or yard.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually pushes the focus onto street presence, heritage impact and how any servicing or plant will appear in the public realm.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove an otherwise available change-of-use route in selected centres or neighbourhoods, so the exact site designation should be checked first."
+      }
+    },
+    {
+      "town_slug": "rotherham",
+      "last_verified": "2026-01",
+      "permitted_development": "For change of use, the real legal question is what the current lawful use is, what the proposed use will be and whether any specific permitted development class bridges the gap. In Rotherham, the use class may be the legal start point, but the real planning argument usually sits in frontage treatment, servicing and hours.",
+      "rules": {
+        "height_rules": "There is no automatic height envelope for change of use. New plant, flues, roof equipment or added storeys are assessed separately. In Rotherham, rooftop plant and flues can trigger a separate design and amenity assessment even where the use change itself has a permitted route.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "At the site edge, change of use cases are usually decided by activity and amenity rather than by measurements alone. In Rotherham, bin storage, servicing and neighbour amenity at shared boundaries often carry more weight than internal layout changes.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, frontage changes, plant, servicing and activity levels are often assessed just as closely as the use-class question itself.",
+        "listed_building": "For a listed building, the use class analysis is only part of the answer. Any works affecting character usually need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove an otherwise available change-of-use route in selected centres or neighbourhoods, so the exact site designation should be checked first."
+      }
+    },
+    {
+      "town_slug": "sheffield",
+      "last_verified": "2026-01",
+      "permitted_development": "For change of use, the real legal question is what the current lawful use is, what the proposed use will be and whether any specific permitted development class bridges the gap. In Sheffield, mixed-use streets tend to sharpen the focus on shutters, plant, servicing and how late the activity runs.",
+      "rules": {
+        "height_rules": "There is no automatic height envelope for change of use. New plant, flues, roof equipment or added storeys are assessed separately. In Sheffield, extraction risers, condensers and screens often become the design issue that turns a simple use change into a fuller planning exercise.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "At the site edge, change of use cases are usually decided by activity and amenity rather than by measurements alone. In Sheffield, bin storage, servicing and neighbour amenity at shared boundaries often carry more weight than internal layout changes.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "In a conservation area, the proposal is usually judged not only on use class but on whether the resulting frontage and activity respect the character of the place.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "A specific Article 4 direction can still switch off the simpler change-of-use route for the exact property or area."
+      }
+    },
+    {
+      "town_slug": "wakefield",
+      "last_verified": "2026-01",
+      "permitted_development": "A change of use only benefits from permitted development where a specific route exists for that exact move; there is no general fallback just because the building itself stays standing. In Wakefield, mixed-use streets tend to sharpen the focus on shutters, plant, servicing and how late the activity runs.",
+      "rules": {
+        "height_rules": "Change of use brings no built-in height allowance, so any extra plant, flues, rooftop structures or added floors have to be justified separately. In Wakefield, extraction risers, condensers and screens often become the design issue that turns a simple use change into a fuller planning exercise.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "For boundaries, the practical test is usually operational rather than dimensional: who arrives, when, where things are stored and what neighbours experience at the edge of the site. In Wakefield, bin storage, servicing and neighbour amenity at shared boundaries often carry more weight than internal layout changes.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually pushes the focus onto street presence, heritage impact and how any servicing or plant will appear in the public realm.",
+        "listed_building": "For a listed building, the use class analysis is only part of the answer. Any works affecting character usually need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "Even where no local control is flagged here, Article 4 directions can still withdraw certain change-of-use rights on named streets, centres or conservation areas."
+      }
+    },
+    {
+      "town_slug": "york",
+      "last_verified": "2026-01",
+      "permitted_development": "A change of use only benefits from permitted development where a specific route exists for that exact move; there is no general fallback just because the building itself stays standing. In York, frontage changes, extraction, deliveries and hours of operation are usually the issues that make or break the proposal.",
+      "rules": {
+        "height_rules": "Height is not the issue in the same way it is for householder work: any rooftop kit, extra bulk or new storey stands on its own planning footing. In York, rooftop plant and flues can trigger a separate design and amenity assessment even where the use change itself has a permitted route.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "For boundaries, the practical test is usually operational rather than dimensional: who arrives, when, where things are stored and what neighbours experience at the edge of the site. In York, shared boundaries are often where an apparently straightforward centre use starts to cause real amenity friction.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually pushes the focus onto street presence, heritage impact and how any servicing or plant will appear in the public realm.",
+        "listed_building": "For a listed building, the use class analysis is only part of the answer. Any works affecting character usually need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "Even where no local control is flagged here, Article 4 directions can still withdraw certain change-of-use rights on named streets, centres or conservation areas."
+      }
+    },
+    {
+      "town_slug": "east-riding-of-yorkshire",
+      "last_verified": "2026-01",
+      "permitted_development": "Change of use is not governed by a broad householder-style right. The starting point is the lawful existing use, the proposed class and any specific permitted route that genuinely applies. In East Riding of Yorkshire, the hard planning question is often not the class move itself but whether the site can absorb the activity that comes with it.",
+      "rules": {
+        "height_rules": "Height is not the issue in the same way it is for householder work: any rooftop kit, extra bulk or new storey stands on its own planning footing. In East Riding of Yorkshire, any new plant or roof bulk is usually judged against nearby housing rather than against the use-change principle itself.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "At the site edge, change of use cases are usually decided by activity and amenity rather than by measurements alone. In East Riding of Yorkshire, the harder boundary issues are usually parking, comings and goings, noise and overlooking from the changed use.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually pushes the focus onto street presence, heritage impact and how any servicing or plant will appear in the public realm.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove an otherwise available change-of-use route in selected centres or neighbourhoods, so the exact site designation should be checked first."
+      }
+    },
+    {
+      "town_slug": "hull",
+      "last_verified": "2026-01",
+      "permitted_development": "A change of use only benefits from permitted development where a specific route exists for that exact move; there is no general fallback just because the building itself stays standing. In Hull, the use class may be the legal start point, but the real planning argument usually sits in frontage treatment, servicing and hours.",
+      "rules": {
+        "height_rules": "Change of use brings no built-in height allowance, so any extra plant, flues, rooftop structures or added floors have to be justified separately. In Hull, rooftop plant and flues can trigger a separate design and amenity assessment even where the use change itself has a permitted route.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "Boundary impact often matters more than the paper use class. Noise, waste, servicing, parking, smell and comings and goings are usually the live issues. In Hull, shared boundaries are often where an apparently straightforward centre use starts to cause real amenity friction.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually pushes the focus onto street presence, heritage impact and how any servicing or plant will appear in the public realm.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "A specific Article 4 direction can still switch off the simpler change-of-use route for the exact property or area."
+      }
+    },
+    {
+      "town_slug": "north-yorkshire",
+      "last_verified": "2026-01",
+      "permitted_development": "A change of use only benefits from permitted development where a specific route exists for that exact move; there is no general fallback just because the building itself stays standing. In North Yorkshire, parking pressure, servicing and the sheer intensity of day-to-day activity usually matter more than the label attached to the use.",
+      "rules": {
+        "height_rules": "Change of use brings no built-in height allowance, so any extra plant, flues, rooftop structures or added floors have to be justified separately. In North Yorkshire, added roof bulk or plant is often where an otherwise workable use change starts to generate real amenity problems.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "At the site edge, change of use cases are usually decided by activity and amenity rather than by measurements alone. In North Yorkshire, the boundary test is usually operational: can neighbours live with the movement and pressure created by the new use?",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "In a conservation area, the proposal is usually judged not only on use class but on whether the resulting frontage and activity respect the character of the place.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove an otherwise available change-of-use route in selected centres or neighbourhoods, so the exact site designation should be checked first."
+      }
+    },
+    {
+      "town_slug": "middlesbrough",
+      "last_verified": "2026-01",
+      "permitted_development": "Change of use is not governed by a broad householder-style right. The starting point is the lawful existing use, the proposed class and any specific permitted route that genuinely applies. In Middlesbrough, frontage changes, extraction, deliveries and hours of operation are usually the issues that make or break the proposal.",
+      "rules": {
+        "height_rules": "Change of use brings no built-in height allowance, so any extra plant, flues, rooftop structures or added floors have to be justified separately. In Middlesbrough, rooftop plant and flues can trigger a separate design and amenity assessment even where the use change itself has a permitted route.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "Boundary impact often matters more than the paper use class. Noise, waste, servicing, parking, smell and comings and goings are usually the live issues. In Middlesbrough, the practical pressure points are usually where bins, deliveries and late movements sit against someone else's wall or yard.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually pushes the focus onto street presence, heritage impact and how any servicing or plant will appear in the public realm.",
+        "listed_building": "A listed building can still require listed building consent even if the use change itself has a planning route; the heritage works are judged separately.",
+        "article4_applies": false,
+        "article4_notes": "Even where no local control is flagged here, Article 4 directions can still withdraw certain change-of-use rights on named streets, centres or conservation areas."
+      }
+    },
+    {
+      "town_slug": "redcar-and-cleveland",
+      "last_verified": "2026-01",
+      "permitted_development": "For change of use, the real legal question is what the current lawful use is, what the proposed use will be and whether any specific permitted development class bridges the gap. In Redcar and Cleveland, seasonal trading patterns and mixed residential edges often make activity levels more important than the paper use class.",
+      "rules": {
+        "height_rules": "There is no automatic height envelope for change of use. New plant, flues, roof equipment or added storeys are assessed separately. In Redcar and Cleveland, external plant, flues or roof equipment can be especially exposed on open frontages and seafront-side plots.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "Boundary impact often matters more than the paper use class. Noise, waste, servicing, parking, smell and comings and goings are usually the live issues. In Redcar and Cleveland, servicing, waste storage and late activity close to housing are often the key boundary questions.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "In a conservation area, the proposal is usually judged not only on use class but on whether the resulting frontage and activity respect the character of the place.",
+        "listed_building": "Changing the use of a listed building does not remove the need for listed building consent where internal or external works affect special character.",
+        "article4_applies": false,
+        "article4_notes": "Even where no local control is flagged here, Article 4 directions can still withdraw certain change-of-use rights on named streets, centres or conservation areas."
+      }
+    },
+    {
+      "town_slug": "stockton-on-tees",
+      "last_verified": "2026-01",
+      "permitted_development": "Change of use is not governed by a broad householder-style right. The starting point is the lawful existing use, the proposed class and any specific permitted route that genuinely applies. In Stockton on Tees, the use class may be the legal start point, but the real planning argument usually sits in frontage treatment, servicing and hours.",
+      "rules": {
+        "height_rules": "There is no automatic height envelope for change of use. New plant, flues, roof equipment or added storeys are assessed separately. In Stockton on Tees, the practical difficulty is often not the use change but the rooftop kit that comes with it.",
+        "depth_rules": "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+        "boundary_rules": "Boundary impact often matters more than the paper use class. Noise, waste, servicing, parking, smell and comings and goings are usually the live issues. In Stockton on Tees, the practical pressure points are usually where bins, deliveries and late movements sit against someone else's wall or yard.",
+        "roof_rules": "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+        "materials_rules": "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+      },
+      "restrictions": {
+        "conservation_area": "In a conservation area, the proposal is usually judged not only on use class but on whether the resulting frontage and activity respect the character of the place.",
+        "listed_building": "For a listed building, the use class analysis is only part of the answer. Any works affecting character usually need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove an otherwise available change-of-use route in selected centres or neighbourhoods, so the exact site designation should be checked first."
+      }
+    }
+  ]
+}

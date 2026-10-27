@@ -1,0 +1,377 @@
+{
+    "county_slug":  "bedfordshire",
+    "county_name":  "Bedfordshire",
+    "shared_official_sources":  [
+                                    {
+                                        "title":  "Planning Portal: do you need planning permission?",
+                                        "url":  "https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission",
+                                        "category":  "planning_portal",
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  30
+                                    },
+                                    {
+                                        "title":  "Planning Portal: householder planning consent",
+                                        "url":  "https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent",
+                                        "category":  "householder_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  15
+                                    },
+                                    {
+                                        "title":  "Planning Portal: permitted development rights",
+                                        "url":  "https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/",
+                                        "category":  "permitted_development_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  10
+                                    },
+                                    {
+                                        "title":  "GOV.UK: making a planning application",
+                                        "url":  "https://www.gov.uk/guidance/making-an-application",
+                                        "category":  "validation_requirements",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  20
+                                    },
+                                    {
+                                        "title":  "GOV.UK: before submitting an application",
+                                        "url":  "https://www.gov.uk/guidance/before-submitting-an-application",
+                                        "category":  "pre_application_advice",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  25
+                                    },
+                                    {
+                                        "title":  "Historic England: living in a conservation area",
+                                        "url":  "https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/",
+                                        "category":  "conservation_area",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Historic England: conservation area planning advice",
+                                        "url":  "https://historicengland.org.uk/advice/planning/conservation-areas/",
+                                        "category":  "heritage",
+                                        "page_families":  [
+                                                              "council",
+                                                              "scenario"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "listed-buildings",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  28
+                                    },
+                                    {
+                                        "title":  "Historic England: what are listed buildings?",
+                                        "url":  "https://historicengland.org.uk/listing/what-is-designation/listed-buildings/",
+                                        "category":  "listed_buildings",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "listed-buildings",
+                                                               "conservation-areas"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    }
+                                ],
+    "councils":  [
+                     {
+                         "town_slug":  "bedford",
+                         "town_name":  "Bedford",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: Common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Do I need planning permission?",
+                                                      "url":  "https://www.bedford.gov.uk/planning-and-building-control/planning-guidance/do-i-need-planning-permission",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Applicant and agent planning information and guidance",
+                                                      "url":  "https://www.bedford.gov.uk/planning-and-building-control/planning-applications/applicant-and-agent-planning-information-and-guidance",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Request for Pre-Application and Other Planning Advice",
+                                                      "url":  "https://www.bedford.gov.uk/files/request-pre-application-and-other-planning-advice.pdf/download?inline=",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan 2030 - Overview",
+                                                      "url":  "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2030/local-plan-2030-overview",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Historic areas and buildings",
+                                                      "url":  "https://www.bedford.gov.uk/planning-and-building-control/conservation-and-heritage/historic-areas-and-buildings",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas",
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "central-bedfordshire",
+                         "town_name":  "Central Bedfordshire",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: Common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "What you need for a planning application - advice for a homeowner",
+                                                      "url":  "https://www.centralbedfordshire.gov.uk/info/368/make_sure_you_have_everything_you_need_to_make_an_application/2004/what_you_need_for_a_planning_application_-_advice_for_a_homeowner",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Homeowner pre-application planning advice",
+                                                      "url":  "https://www.centralbedfordshire.gov.uk/info/189/how_to_apply_for_planning_permission/1384/planning_advice_%E2%80%93_homeowner",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Local Plan",
+                                                      "url":  "https://www.centralbedfordshire.gov.uk/info/153/central_bedfordshire_local_plan_2015_to_2035/1034/adopted_local_plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Archaeology, Heritage \u0026 Conservation",
+                                                      "url":  "https://www.centralbedfordshire.gov.uk/info/50/environmental_issues/289/archaeology_heritage_and_conservation",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas",
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Article 4 directions",
+                                                      "url":  "https://www.centralbedfordshire.gov.uk/info/189/how_to_apply_for_planning_permission/1383/article_4_directions",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "luton",
+                         "town_name":  "Luton",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal: Common projects",
+                                                      "url":  "https://www.planningportal.co.uk/permission/common-projects",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning application forms, biodiversity and validation guidance - Dealing with invalid applications",
+                                                      "url":  "https://www.luton.gov.uk/planning-building-control/planning/get-planning-permission/planning-application-forms-biodiversity-validation-guidance/dealing-invalid-applications",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application service",
+                                                      "url":  "https://www.luton.gov.uk/planning-building-control/planning/get-planning-permission/step-by-step/planning-application-engagement-process-step-step/pre-application-service",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Plan 2011 to 2031",
+                                                      "url":  "https://www.luton.gov.uk/planning-building-control/planning/luton-local-plan/local-plan-2011-2031",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Supporting evidence Article 4 direction",
+                                                      "url":  "https://m.luton.gov.uk/Page/Show/Environment/Planning/article4/Pages/Article4-evidence.aspx",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Conservation area appraisals and management plans",
+                                                      "url":  "https://m.luton.gov.uk/Page/Show/Environment/Planning/Conservation%2C%20design%20and%20trees/Pages/Conservation-area-appraisals-and-management-plans.aspx",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  5
+                                                  }
+                                              ]
+                     }
+                 ]
+}

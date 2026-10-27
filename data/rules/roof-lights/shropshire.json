@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Shropshire, a modest roof-light on a house is usually permitted development if it projects no more than 150mm from the existing roof slope, does not exceed the height of the existing roof and the property still benefits from normal householder rights. Planning permission becomes more likely where the work is on a listed building, in a controlled area or tied to a wider roof enlargement.",
+    "rules": {
+      "height_rules": "Across Shropshire, height control for a roof-light is simple but strict: the proposal should not rise above the existing roof. The more flush and subordinate the unit appears, the easier the scheme is to keep within the normal householder route.",
+      "depth_rules": "Across Shropshire, depth is controlled by projection from the roof plane rather than by the size of the opening alone. Once the unit projects more than 150mm, the straightforward householder route is usually lost.",
+      "boundary_rules": "Across Shropshire, roof-lights do not have a normal setback rule, but side-facing windows can still affect neighbours. Obscure glazing and a 1.7 metre minimum level to any opening part are the usual privacy conditions.",
+      "roof_rules": "Across Shropshire, the proposal should read as a modest alteration to the existing roof rather than a new roof form in its own right. Roof terraces and larger enlargements are separate development types with stricter rules.",
+      "materials_rules": "Across Shropshire, choose a roof-light that feels recessive rather than attention-seeking. Simple frame colours, tidy flashings and detailing that works with the existing roof covering generally give the strongest planning outcome."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "shropshire",
+      "last_verified": "2026-01",
+      "permitted_development": "In Shropshire, a modest roof-light on a house is usually permitted development if it projects no more than 150mm from the existing roof slope, does not exceed the height of the existing roof and the property still benefits from normal householder rights. Planning permission becomes more likely where the work is on a listed building, in a controlled area or tied to a wider roof enlargement.",
+      "rules": {
+        "height_rules": "Height control for a roof-light is simple but strict: the proposal should not rise above the existing roof. The more flush and subordinate the unit appears, the easier the scheme is to keep within the normal householder route.",
+        "depth_rules": "Depth is controlled by projection from the roof plane rather than by the size of the opening alone. Once the unit projects more than 150mm, the straightforward householder route is usually lost.",
+        "boundary_rules": "Roof-lights do not have a normal setback rule, but side-facing windows can still affect neighbours. Obscure glazing and a 1.7 metre minimum level to any opening part are the usual privacy conditions.",
+        "roof_rules": "The proposal should read as a modest alteration to the existing roof rather than a new roof form in its own right. Roof terraces and larger enlargements are separate development types with stricter rules.",
+        "materials_rules": "Choose a roof-light that feels recessive rather than attention-seeking. Simple frame colours, tidy flashings and detailing that works with the existing roof covering generally give the strongest planning outcome."
+      },
+      "restrictions": {
+        "conservation_area": "A roof-light in a conservation area is usually easiest to justify when it is discreetly placed and does not disrupt an established roof form.",
+        "listed_building": "Roof-lights in listed buildings are commonly treated as heritage works because the roof covering, structure and external appearance all contribute to significance.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or earlier planning condition can take away the normal roof-light permitted development route, particularly on prominent roof slopes."
+      }
+    },
+    {
+      "town_slug": "telford-and-wrekin",
+      "last_verified": "2026-01",
+      "permitted_development": "In Telford and Wrekin, a modest roof-light on a house is usually permitted development if it projects no more than 150mm from the existing roof slope, does not exceed the height of the existing roof and the property still benefits from normal householder rights. Planning permission becomes more likely where the work is on a listed building, in a controlled area or tied to a wider roof enlargement.",
+      "rules": {
+        "height_rules": "The roof-light should not make any part of the roof higher than it is now. A low-profile installation that leaves the original roof form dominant is generally the strongest option.",
+        "depth_rules": "Projection is one of the key measurable limits: no more than 150mm from the existing roof plane. If the proposal is too bulky, it can move out of the simple roof-light category and into a fuller planning assessment.",
+        "boundary_rules": "If the proposal creates a side-facing window, it should be obscure-glazed and any opening part should have its lowest edge at least 1.7 metres above the floor level of the room. Privacy and visible road-facing roof slopes deserve the earliest check.",
+        "roof_rules": "Think of a roof-light as a small insertion into the existing slope, not as a way to reshape the roof. Larger additions, terraces and platforms are outside the ordinary roof-light allowance.",
+        "materials_rules": "Use flashings, frame colours and glazing details that sit quietly within the existing roof. The closer the finish is to the host roof covering and the less bulky the frame, the easier it is to keep the alteration visually subordinate."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status makes roof-lights more sensitive on visible elevations, particularly where a simple modern unit would cut across a traditional roof pattern.",
+        "listed_building": "A listed building roof usually needs a heritage-led approach: even a small roof-light can require consent if it affects the historic fabric or appearance.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions or roof-specific planning conditions can remove the usual householder right to add roof-lights, especially on visible elevations or in heritage areas."
+      }
+    }
+  ]
+}

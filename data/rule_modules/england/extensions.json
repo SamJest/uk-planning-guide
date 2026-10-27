@@ -1,0 +1,35 @@
+{
+  "jurisdiction": "england",
+  "project_type": "extension",
+  "verification": "source_checked",
+  "checked_at": "2026-09-11",
+  "official_sources": [
+    {
+      "url": "https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance/permitted-development-rights-for-householders-technical-guidance",
+      "title": "GOV.UK: Householder permitted development technical guidance",
+      "checked_at": "2026-09-11"
+    }
+  ],
+  "permitted_development": "England's Class A extension rights depend on the house, siting and all applicable limits and conditions.",
+  "baseline_label": "England extension baseline",
+  "rules": {
+    "depth_rules": {
+      "title": "Extension projection and boundaries",
+      "intro": "England's Class A extension rights depend on the house, siting and all applicable limits and conditions.",
+      "rules": [
+        "Ordinary single-storey rear limits are 4m for detached houses and 3m for other houses.",
+        "The larger rear-extension route allows up to 8m detached or 6m other houses, subject to neighbour consultation / prior approval and the remaining conditions.",
+        "A multi-storey rear extension is limited to 3m projection and must be at least 7m from the opposite curtilage boundary."
+      ]
+    },
+    "height_rules": {
+      "title": "Other limits and restrictions",
+      "rules": [
+        "Single-storey extensions have a 4m overall height limit; eaves within 2m of a boundary are limited to 3m.",
+        "Side extensions under Class A must be single storey and no wider than half the original house.",
+        "Check designated-land restrictions, prior extensions, materials and whether rights have been removed."
+      ]
+    }
+  },
+  "restrictions": {}
+}

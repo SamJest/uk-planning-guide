@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Converting an existing residential cellar or basement in England is unlikely to need planning permission where the work stays internal, does not create a separate dwelling and does not materially alter the exterior. New excavation, lightwells or other visible external works can change that answer.",
+    "rules": {
+      "height_rules": "There is no separate basement height allowance. The planning issue is usually whether visible guards, railings, lightwell walls or linked above-ground structures become prominent externally.",
+      "depth_rules": "There is no standalone permitted development depth right for basement excavation. Digging down to create a new basement or materially enlarge one usually needs its own planning assessment, especially where the outside of the property changes.",
+      "boundary_rules": "Boundary-sensitive basement work needs careful review where it introduces lightwells, retaining walls, railings, drainage changes or substantial excavation close to adjoining structures.",
+      "roof_rules": "If the scheme also includes a rear extension, roof terrace, plant or roof alteration, those elements need their own planning assessment. A purely internal basement conversion does not usually create a separate roof issue.",
+      "materials_rules": "Visible elements such as front lightwell walls, railings, grilles, doors and paving should be designed as part of the existing house rather than as an awkward add-on. Heritage settings usually need the most restrained detailing."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "A straightforward basement conversion is often not a full planning matter if it reuses existing space and avoids significant external works. Excavation, front lightwells and creating a separate dwelling are the usual triggers for an application. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "There is no single conversion height formula. The real issue is usually whether the project changes the scale or visible envelope of the building.",
+        "depth_rules": "Conversion that extends beyond the existing building envelope usually needs a fuller planning check.",
+        "boundary_rules": "A conversion can look internal on paper but still become planning-sensitive at the frontage and boundaries if it introduces new openings, lightwells, entrances or parking loss.",
+        "roof_rules": "A conversion may be straightforward while linked roof work is not. Each associated roof change needs its own check under the appropriate rules.",
+        "materials_rules": "Materials matter most where the conversion introduces a visible lightwell, new railings, altered windows or external grilles."
+      },
+      "restrictions": {
+        "conservation_area": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "listed_building": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "article4_applies": true,
+        "article4_notes": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes."
+      }
+    }
+  ]
+}

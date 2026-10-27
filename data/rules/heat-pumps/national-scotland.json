@@ -1,0 +1,27 @@
+{
+  "jurisdiction": "scotland",
+  "project_type": "heat-pumps",
+  "availability": "available",
+  "verification": "source_checked",
+  "checked_at": "2026-09-12",
+  "official_sources": [
+    {
+      "url": "https://www.gov.scot/publications/circular-1-2024-householder-permitted-development-rights/pages/6/",
+      "title": "Scottish heat-pump checks",
+      "checked_at": "2026-09-12"
+    }
+  ],
+  "baseline_label": "Scotland project guidance",
+  "permitted_development": "Scottish domestic heat-pump guidance distinguishes air, ground and water source equipment.",
+  "rules": {
+    "project_guidance": {
+      "title": "Scottish heat-pump checks",
+      "intro": "Use this starting point with the full official guidance and the planning history for your address.",
+      "rules": [
+        "Scottish domestic heat-pump guidance distinguishes air, ground and water source equipment.",
+        "Air-source installations must satisfy their siting, MCS, use and protected-area conditions."
+      ]
+    }
+  },
+  "restrictions": {}
+}

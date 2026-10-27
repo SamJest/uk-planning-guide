@@ -1,0 +1,665 @@
+{
+    "county_slug":  "suffolk",
+    "county_name":  "Suffolk",
+    "shared_official_sources":  [
+                                    {
+                                        "title":  "Planning Portal: do you need planning permission?",
+                                        "url":  "https://www.planningportal.co.uk/permission/home-improvement/getting-started/do-you-need-planning-permission",
+                                        "category":  "planning_portal",
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  30
+                                    },
+                                    {
+                                        "title":  "Planning Portal: householder planning consent",
+                                        "url":  "https://www.planningportal.co.uk/planning/planning-applications/consent-types/householder-planning-consent",
+                                        "category":  "householder_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  15
+                                    },
+                                    {
+                                        "title":  "Planning Portal: permitted development rights",
+                                        "url":  "https://www.planningportal.co.uk/permission/responsibilities/planning-permission/permitted-development-rights/",
+                                        "category":  "permitted_development_guidance",
+                                        "page_families":  [
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  10
+                                    },
+                                    {
+                                        "title":  "GOV.UK: making a planning application",
+                                        "url":  "https://www.gov.uk/guidance/making-an-application",
+                                        "category":  "validation_requirements",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  20
+                                    },
+                                    {
+                                        "title":  "GOV.UK: before submitting an application",
+                                        "url":  "https://www.gov.uk/guidance/before-submitting-an-application",
+                                        "category":  "pre_application_advice",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  25
+                                    },
+                                    {
+                                        "title":  "Historic England: living in a conservation area",
+                                        "url":  "https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/",
+                                        "category":  "conservation_area",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    },
+                                    {
+                                        "title":  "Historic England: conservation area planning advice",
+                                        "url":  "https://historicengland.org.uk/advice/planning/conservation-areas/",
+                                        "category":  "heritage",
+                                        "page_families":  [
+                                                              "council",
+                                                              "scenario"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "conservation-areas",
+                                                               "listed-buildings",
+                                                               "article-4"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  28
+                                    },
+                                    {
+                                        "title":  "Historic England: what are listed buildings?",
+                                        "url":  "https://historicengland.org.uk/listing/what-is-designation/listed-buildings/",
+                                        "category":  "listed_buildings",
+                                        "page_families":  [
+                                                              "council",
+                                                              "project",
+                                                              "scenario",
+                                                              "local-search"
+                                                          ],
+                                        "scenario_slugs":  [
+                                                               "listed-buildings",
+                                                               "conservation-areas"
+                                                           ],
+                                        "last_reviewed":  "2026-04-05",
+                                        "priority":  12
+                                    }
+                                ],
+    "councils":  [
+                     {
+                         "town_slug":  "babergh",
+                         "town_name":  "Babergh",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Apply for planning permission",
+                                                      "url":  "https://www.babergh.gov.uk/apply-for-planning-permission",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main Babergh page for submitting planning applications and related fees through the shared planning service.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Validation requirements",
+                                                      "url":  "https://www.babergh.gov.uk/w/validation-requirements",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Current Babergh/Mid Suffolk joint local validation requirements page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.babergh.gov.uk/pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "New Joint Local Plan",
+                                                      "url":  "https://www.babergh.gov.uk/joint-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Joint Babergh and Mid Suffolk local plan page, including adopted Part 1 and review materials.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Listed buildings and conservation areas",
+                                                      "url":  "https://www.babergh.gov.uk/listed-buildings-and-conservation-areas",
+                                                      "category":  "heritage",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "listed-buildings",
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Apply and pay for a new dropped kerb/ vehicle access",
+                                                      "url":  "https://www.suffolk.gov.uk/roads-and-transport/parking/apply-and-pay-for-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Suffolk County Council is the highway authority for domestic vehicle access crossings in Babergh.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "east-suffolk",
+                         "town_name":  "East Suffolk",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "How to submit a planning application",
+                                                      "url":  "https://www.eastsuffolk.gov.uk/planning-and-building-control/planning-applications/planning-and-building-control/planning/what",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main East Suffolk guide to where to apply, what to submit and how the formal process works.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation",
+                                                      "url":  "https://www.eastsuffolk.gov.uk/planning-and-building-control/planning-applications-and-enforcement/local-validation",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Current East Suffolk Local Validation List and Guidance page, effective from 1 May 2024.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice service",
+                                                      "url":  "https://www.eastsuffolk.gov.uk/planning-and-building-control/planning-applications/pre-application-advice-service",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Local plans",
+                                                      "url":  "https://www.eastsuffolk.gov.uk/planning-and-building-control/planning-policy-and-local-plans/local-plans",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Article 4 Directions",
+                                                      "url":  "https://www.eastsuffolk.gov.uk/planning-and-building-control/heritage/article-4-directions",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4",
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Apply and pay for a new dropped kerb/ vehicle access",
+                                                      "url":  "https://www.suffolk.gov.uk/roads-and-transport/parking/apply-and-pay-for-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Suffolk County Council is the highway authority for domestic vehicle access crossings in East Suffolk.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "mid-suffolk",
+                         "town_name":  "Mid Suffolk",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Apply for planning permission",
+                                                      "url":  "https://www.midsuffolk.gov.uk/apply-for-planning-permission",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main Mid Suffolk page for submitting planning applications and related fees through the shared planning service.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Validation requirements",
+                                                      "url":  "https://www.midsuffolk.gov.uk/w/validation-requirements",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Current Babergh/Mid Suffolk joint local validation requirements page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.midsuffolk.gov.uk/pre-application-advice",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "New Joint Local Plan",
+                                                      "url":  "https://www.midsuffolk.gov.uk/joint-local-plan",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "notes":  "Joint Babergh and Mid Suffolk local plan page, including adopted Part 1 and review materials.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation Area appraisals",
+                                                      "url":  "https://midsuffolk.gov.uk/w/conservation-area-appraisals",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Apply and pay for a new dropped kerb/ vehicle access",
+                                                      "url":  "https://www.suffolk.gov.uk/roads-and-transport/parking/apply-and-pay-for-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Suffolk County Council is the highway authority for domestic vehicle access crossings in Mid Suffolk.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "west-suffolk",
+                         "town_name":  "West Suffolk",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Planning applications one-stop-shop",
+                                                      "url":  "https://www.westsuffolk.gov.uk/planning/planning_applications/",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Main West Suffolk applications hub covering how to apply, validation requirements and public access.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Making a planning application",
+                                                      "url":  "https://www.westsuffolk.gov.uk/planning/planning_applications/chooseplanningapp.cfm",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Current West Suffolk application page that signposts the authority\u0027s live validation requirements by application type.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Pre-application advice",
+                                                      "url":  "https://www.westsuffolk.gov.uk/planning/planning_applications/pre-application-advice.cfm",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "West Suffolk Development Plan",
+                                                      "url":  "https://www.westsuffolk.gov.uk/planning/Planning_Policies/local_plans/west-suffolk-local-plan-and-neighbourhood-plans.cfm",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Buildings conservation and Article 4 Directions",
+                                                      "url":  "https://www.westsuffolk.gov.uk/planning/conservation/",
+                                                      "category":  "article_4",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "article-4",
+                                                                             "conservation-areas",
+                                                                             "listed-buildings"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Apply and pay for a new dropped kerb/ vehicle access",
+                                                      "url":  "https://www.suffolk.gov.uk/roads-and-transport/parking/apply-and-pay-for-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Suffolk County Council is the highway authority for domestic vehicle access crossings in West Suffolk.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     },
+                     {
+                         "town_slug":  "ipswich",
+                         "town_name":  "Ipswich",
+                         "official_sources":  [
+                                                  {
+                                                      "title":  "Planning Portal applications",
+                                                      "url":  "https://www.planningportal.co.uk/applications",
+                                                      "category":  "planning_portal",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project"
+                                                                        ],
+                                                      "notes":  "National official planning application service used across England.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  10
+                                                  },
+                                                  {
+                                                      "title":  "Applying for planning permission",
+                                                      "url":  "https://www.ipswich.gov.uk/planning-and-building-control/development-management/applying-planning-permission",
+                                                      "category":  "householder_guidance",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Council guidance on applying online via Planning Portal or using downloadable forms.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Local Validation List",
+                                                      "url":  "https://www.ipswich.gov.uk/localvalidationlist",
+                                                      "category":  "validation_requirements",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "notes":  "Current adopted Ipswich Borough Council Local Validation List page.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  1
+                                                  },
+                                                  {
+                                                      "title":  "Planning application fees and pre-application charging",
+                                                      "url":  "https://www.ipswich.gov.uk/planning-and-building-control/planning-guidance/planning-application-fees-and-pre-application",
+                                                      "category":  "pre_application_advice",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  3
+                                                  },
+                                                  {
+                                                      "title":  "Adopted Ipswich Local Plan Review 2018-2036",
+                                                      "url":  "https://www.ipswich.gov.uk/planning-and-building-control/planning-policy/ipswich-local-plan/adopted-ipswich-local-plan-review",
+                                                      "category":  "local_plan",
+                                                      "page_families":  [
+                                                                            "council",
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  2
+                                                  },
+                                                  {
+                                                      "title":  "Conservation areas",
+                                                      "url":  "https://www.ipswich.gov.uk/planning-and-building-control/conservation-and-urban-design/conservation-areas",
+                                                      "category":  "conservation_area",
+                                                      "page_families":  [
+                                                                            "scenario",
+                                                                            "project",
+                                                                            "local-search"
+                                                                        ],
+                                                      "scenario_slugs":  [
+                                                                             "conservation-areas"
+                                                                         ],
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  },
+                                                  {
+                                                      "title":  "Apply and pay for a new dropped kerb/ vehicle access",
+                                                      "url":  "https://www.suffolk.gov.uk/roads-and-transport/parking/apply-and-pay-for-a-dropped-kerb",
+                                                      "category":  "dropped_kerb_or_vehicle_access",
+                                                      "page_families":  [
+                                                                            "project",
+                                                                            "scenario",
+                                                                            "local-search"
+                                                                        ],
+                                                      "project_slugs":  [
+                                                                            "dropped-kerbs",
+                                                                            "driveways",
+                                                                            "hard-surfaces"
+                                                                        ],
+                                                      "notes":  "Suffolk County Council is the highway authority for domestic vehicle access crossings in Ipswich.",
+                                                      "last_reviewed":  "2026-04-05",
+                                                      "active":  true,
+                                                      "priority":  4
+                                                  }
+                                              ]
+                     }
+                 ]
+}

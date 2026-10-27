@@ -1,0 +1,21 @@
+name = "ukpg-planning-lead-worker"
+main = "src/worker.js"
+compatibility_date = "2026-05-11"
+
+# Copy this file to wrangler.toml before deploying. Do not commit real account
+# IDs, database IDs, webhook URLs, webhook secrets or owner email addresses.
+
+[vars]
+ALLOWED_ORIGINS = "https://ukplanningguide.co.uk,https://www.ukplanningguide.co.uk"
+RATE_LIMIT_PER_HOUR = "12"
+
+# Set these with `wrangler secret put` instead of writing real values here:
+# HASH_SALT
+# NOTIFY_WEBHOOK_URL
+# NOTIFY_WEBHOOK_SECRET
+# OWNER_EMAIL
+
+[[d1_databases]]
+binding = "LEADS_DB"
+database_name = "ukpg-planning-leads"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"

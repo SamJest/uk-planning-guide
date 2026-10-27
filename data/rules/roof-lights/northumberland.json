@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Northumberland, a modest rooflight is usually on the simpler planning route if it sits close to the roof slope, does not exceed the existing ridge and avoids creating a problematic side-facing opening. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Northumberland, the main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+      "depth_rules": "Across Northumberland, bulky or heavily projecting rooflight designs may fall outside the ordinary householder route.",
+      "boundary_rules": "Across Northumberland, side-facing roof windows should be obscure-glazed. Opening parts should normally be kept at least 1.7 metres above the floor of the room served.",
+      "roof_rules": "Across Northumberland, flush or low-profile units generally sit comfortably within the category of a roof alteration, while bulkier structures begin to resemble dormers or other roof additions.",
+      "materials_rules": "Across Northumberland, choose a rooflight and flashing detail that look integrated with the roof rather than bolted on. Low-profile frames and restrained external finishes are usually easiest to justify."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "A modest rooflight is usually on the simpler planning route if it sits close to the roof slope, does not exceed the existing ridge and avoids creating a problematic side-facing opening. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+        "depth_rules": "Bulky or heavily projecting rooflight designs may fall outside the ordinary householder route.",
+        "boundary_rules": "Side-facing roof windows should be obscure-glazed. Opening parts should normally be kept at least 1.7 metres above the floor of the room served.",
+        "roof_rules": "Flush or low-profile units generally sit comfortably within the category of a roof alteration, while bulkier structures begin to resemble dormers or other roof additions.",
+        "materials_rules": "Choose a rooflight and flashing detail that look integrated with the roof rather than bolted on. Low-profile frames and restrained external finishes are usually easiest to justify."
+      },
+      "restrictions": {
+        "conservation_area": "Roof-lights on prominent roof slopes in conservation areas often face a closer design review, especially where they would affect a traditional roofscape or visible frontage.",
+        "listed_building": "Roof-lights in listed buildings are commonly treated as heritage works because the roof covering, structure and external appearance all contribute to significance.",
+        "article4_applies": true,
+        "article4_notes": "Roof-specific planning conditions and Article 4 directions are a common reason why an otherwise modest roof-light still needs planning permission."
+      }
+    }
+  ]
+}

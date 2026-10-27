@@ -1,0 +1,28 @@
+{
+  "jurisdiction": "wales",
+  "project_type": "heat-pumps",
+  "availability": "available",
+  "verification": "source_checked",
+  "checked_at": "2026-09-12",
+  "official_sources": [
+    {
+      "url": "https://www.gov.wales/planning-permission-heat-pumps",
+      "title": "Welsh domestic heat-pump checks",
+      "checked_at": "2026-09-12"
+    }
+  ],
+  "baseline_label": "Wales project guidance",
+  "permitted_development": "Use the Welsh air-source heat-pump requirements updated on 1 June 2026.",
+  "rules": {
+    "project_guidance": {
+      "title": "Welsh domestic heat-pump checks",
+      "intro": "Use this starting point with the full official guidance and the planning history for your address.",
+      "rules": [
+        "Use the Welsh air-source heat-pump requirements updated on 1 June 2026.",
+        "The allowance is up to two units for detached homes or one for other homes, with an outdoor compressor volume no greater than 1.5 cubic metres.",
+        "Check MCS 020(a), roof and highway siting, listed-building and conservation restrictions, and the permitted heating use."
+      ]
+    }
+  },
+  "restrictions": {}
+}

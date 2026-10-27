@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Wiltshire, rooflights and similar roof alterations can usually rely on householder permitted development where they do not project more than 150 millimetres from the existing roof plane and do not rise above the highest part of the roof. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Wiltshire, the main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+      "depth_rules": "Across Wiltshire, projection rather than room depth is the real test. A modest stand-off helps the rooflight remain clearly within the category of a minor roof alteration.",
+      "boundary_rules": "Across Wiltshire, a rooflight has very little footprint impact, but it can still create neighbour-privacy issues where it produces a direct side-facing view.",
+      "roof_rules": "Across Wiltshire, a proposal that enlarges the roof rather than simply alters it should be assessed under the appropriate roof-extension rules instead.",
+      "materials_rules": "Across Wiltshire, material appearance matters most on prominent elevations. A discreet rooflight with well-matched flashing and modest frame lines is generally the least contentious option."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "wiltshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Rooflights and similar roof alterations can usually rely on householder permitted development where they do not project more than 150 millimetres from the existing roof plane and do not rise above the highest part of the roof. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+        "depth_rules": "Projection rather than room depth is the real test. A modest stand-off helps the rooflight remain clearly within the category of a minor roof alteration.",
+        "boundary_rules": "A rooflight has very little footprint impact, but it can still create neighbour-privacy issues where it produces a direct side-facing view.",
+        "roof_rules": "A proposal that enlarges the roof rather than simply alters it should be assessed under the appropriate roof-extension rules instead.",
+        "materials_rules": "Material appearance matters most on prominent elevations. A discreet rooflight with well-matched flashing and modest frame lines is generally the least contentious option."
+      },
+      "restrictions": {
+        "conservation_area": "A roof-light in a conservation area is usually easiest to justify when it is discreetly placed and does not disrupt an established roof form.",
+        "listed_building": "Roof-lights in listed buildings are commonly treated as heritage works because the roof covering, structure and external appearance all contribute to significance.",
+        "article4_applies": false,
+        "article4_notes": "A local Article 4 direction or earlier planning condition can take away the normal roof-light permitted development route, particularly on prominent roof slopes."
+      }
+    },
+    {
+      "town_slug": "swindon",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary rooflight route is usually available where the change is just an alteration to the existing roof, the projection stays to 150 millimetres or less and the work does not enlarge the roof beyond the permitted class. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The main dimensional test is how closely the rooflight follows the existing roof slope and whether it remains below the ridge.",
+        "depth_rules": "Bulky or heavily projecting rooflight designs may fall outside the ordinary householder route.",
+        "boundary_rules": "Side-facing roof windows that do not address privacy properly can require permission or redesign.",
+        "roof_rules": "A proposal that enlarges the roof rather than simply alters it should be assessed under the appropriate roof-extension rules instead.",
+        "materials_rules": "Material appearance matters most on prominent elevations. A discreet rooflight with well-matched flashing and modest frame lines is generally the least contentious option."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even small roof-lights can need closer scrutiny if they are proposed on prominent slopes or on buildings with a consistent historic roofscape.",
+        "listed_building": "Roof-lights in listed buildings are commonly treated as heritage works because the roof covering, structure and external appearance all contribute to significance.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the standard roof-light allowance survives everywhere: Article 4 controls and site-specific conditions can require an application for visible roof changes."
+      }
+    }
+  ]
+}

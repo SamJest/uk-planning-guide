@@ -1,0 +1,100 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Warwickshire, HMO proposals usually need an early planning permission check because local policy, shared-housing concentration and Article 4 coverage often matter more than any simple fallback route. The strongest HMO route usually comes from treating policy, concentration, amenity and the supporting physical works as one joined-up planning question.",
+    "rules": {
+      "height_rules": "For HMOs, the planning issue is usually intensity of occupation and local policy rather than building height alone, although physical enlargement can add a second planning layer.",
+      "depth_rules": "Layout, garden amenity space, refuse storage and any extension or conversion project linked to the HMO can all change the planning route across Warwickshire.",
+      "boundary_rules": "Neighbour amenity, parking pressure, servicing and local shared-housing concentration are recurring pressure points for HMO proposals in Warwickshire.",
+      "roof_rules": "Roof rooms, dormers and upper-floor reconfiguration often need to be reviewed alongside the change of use rather than as a separate afterthought.",
+      "materials_rules": "Frontage appearance, cycle storage, bin arrangements and entrance treatment can influence how an HMO proposal is judged even where the main use change sits inside the building."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "north-warwickshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In North Warwickshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In North Warwickshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in North Warwickshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in North Warwickshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in North Warwickshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in North Warwickshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within North Warwickshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in North Warwickshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in North Warwickshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "nuneaton-and-bedworth",
+      "last_verified": "2026-03",
+      "permitted_development": "In Nuneaton and Bedworth, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The hardest cases often combine a change of use with extra rooms, pressure on parking and no convincing response to local concentration concerns.",
+      "rules": {
+        "height_rules": "In Nuneaton and Bedworth, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Nuneaton and Bedworth.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Nuneaton and Bedworth.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Nuneaton and Bedworth usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Nuneaton and Bedworth so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Nuneaton and Bedworth can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Nuneaton and Bedworth usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Nuneaton and Bedworth, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "rugby",
+      "last_verified": "2026-03",
+      "permitted_development": "In Rugby, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Rugby, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Rugby.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Rugby.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Rugby usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Rugby so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Rugby can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Rugby usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Rugby, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "stratford-on-avon",
+      "last_verified": "2026-03",
+      "permitted_development": "In Stratford-on-Avon, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Stratford-on-Avon, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Stratford-on-Avon.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Stratford-on-Avon.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Stratford-on-Avon usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Stratford-on-Avon so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Stratford-on-Avon can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Stratford-on-Avon usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Stratford-on-Avon, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "warwick",
+      "last_verified": "2026-03",
+      "permitted_development": "In Warwick, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Warwick, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Warwick.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Warwick.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Warwick usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Warwick so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Warwick can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Warwick usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Warwick, because they can remove the simpler fallback route for change of use."
+      }
+    }
+  ]
+}

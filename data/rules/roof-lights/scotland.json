@@ -1,0 +1,559 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+    "rules": {
+      "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+      "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+      "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+      "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+      "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "Roof design matters through visual impact: modest rooflights are easier to support than raised or highly reflective units.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Edinburgh, conservation area controls and site-specific planning conditions often make visible external work more sensitive than the national baseline. Check planning permission, listed building consent and building warrant requirements together.",
+        "listed_building": "Edinburgh householders should assume listed building consent may be needed for internal or external works affecting character, alongside any planning permission or building warrant requirements."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "Scottish guidance turns more on visual effect than a single projection number, so shallow stand-off from the roof slope is usually safest.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "Scottish guidance turns more on visual effect than a single projection number, so shallow stand-off from the roof slope is usually safest.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "Roof design matters through visual impact: modest rooflights are easier to support than raised or highly reflective units.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "Scottish guidance turns more on visual effect than a single projection number, so shallow stand-off from the roof slope is usually safest.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Roof design matters through visual impact: modest rooflights are easier to support than raised or highly reflective units.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "Scottish guidance turns more on visual effect than a single projection number, so shallow stand-off from the roof slope is usually safest.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "Scottish guidance turns more on visual effect than a single projection number, so shallow stand-off from the roof slope is usually safest.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+      "rules": {
+        "height_rules": "Height is judged through appearance rather than a fixed English-style projection rule in the Scottish guidance used here.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "Scottish guidance turns more on visual effect than a single projection number, so shallow stand-off from the roof slope is usually safest.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "The safer Scottish route is a rooflight that stays low-profile and well integrated with the existing roof covering.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "A rooflight near a boundary is usually assessed through privacy and visual impact rather than size alone.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, a modest rooflight may not need planning permission where it does not materially affect the external appearance of the house, but creating a new opening is more sensitive than a like-for-like replacement and heritage controls remain important.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "Scottish guidance turns more on visual effect than a single projection number, so shallow stand-off from the roof slope is usually safest.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A rooflight in Scotland is most likely to stay outside a planning application where the change remains modest in visual terms and does not create a more prominent roof alteration that materially affects the appearance of the house.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "Roof design matters through visual impact: modest rooflights are easier to support than raised or highly reflective units.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Keep the alteration clearly within the character of the existing roof. Scottish planning risk increases once the rooflight starts reading as a bulky enlargement.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "Roof design matters through visual impact: modest rooflights are easier to support than raised or highly reflective units.",
+        "materials_rules": "Scottish rooflight schemes are easiest to support when the external finish looks integrated with the existing roof covering and does not draw attention unnecessarily."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "Boundary and privacy issues usually arise where a new opening creates side views towards neighbouring property.",
+        "roof_rules": "Roof design matters through visual impact: modest rooflights are easier to support than raised or highly reflective units.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "There is no standalone Scottish rooflight height allowance; the practical control is whether the alteration remains visually modest.",
+        "depth_rules": "Projection should stay modest so the rooflight reads as a minor alteration rather than a roof enlargement.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "Roof design matters through visual impact: modest rooflights are easier to support than raised or highly reflective units.",
+        "materials_rules": "Use subdued frame colours and flashing details that sit comfortably with the existing roof, especially on prominent slopes and in conservation areas."
+      },
+      "restrictions": {
+        "conservation_area": "In Cairngorms National Park, conservation area and cultural heritage controls should be checked early with the relevant planning authority before relying on permitted development.",
+        "listed_building": "In Cairngorms National Park, listed buildings and other cultural heritage interests can require special consent before other permissions are considered."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish planning rules do not give a dedicated rooflight formula in the same way as England, so the usual question is whether the alteration materially affects the building’s external appearance and whether any heritage designation removes the simpler route.",
+      "rules": {
+        "height_rules": "The safest Scottish approach is a low-profile rooflight that stays visually secondary to the existing roof.",
+        "depth_rules": "There is no extension-style depth allowance for Scottish rooflights; keep the projection restrained and clearly subordinate to the roof plane.",
+        "boundary_rules": "The main Scottish boundary concern is overlooking from a new opening rather than footprint. Side-facing placements should be handled carefully.",
+        "roof_rules": "Roof design matters through visual impact: modest rooflights are easier to support than raised or highly reflective units.",
+        "materials_rules": "Material appearance should be restrained so the rooflight blends with the roof rather than becoming a dominant feature."
+      },
+      "restrictions": {
+        "conservation_area": "In Loch Lomond and The Trossachs National Park, householders in conservation areas normally need planning permission for external alterations and works affecting the exterior of their property.",
+        "listed_building": "In Loch Lomond and The Trossachs National Park, listed building consent is required for works, internal or external, that affect the character of a listed property."
+      }
+    }
+  ]
+}

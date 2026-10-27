@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Planning permission is not usually required in England for an internal garage conversion where the work stays within the existing building and does not materially enlarge it. That answer can change where parking-retention conditions, external alterations or the creation of a separate dwelling are involved.",
+    "rules": {
+      "height_rules": "A straightforward internal conversion does not create a new householder height allowance. If the project raises the roof, adds an upper floor or rebuilds the garage, that external work needs to be assessed separately.",
+      "depth_rules": "The simplest route is a conversion wholly within the existing garage shell. Once the proposal projects outward, extends the footprint or enlarges the garage envelope, it moves into extension rules or a separate planning assessment.",
+      "boundary_rules": "Check whether an earlier permission required the garage or parking space to be retained. Highway-facing changes, new windows close to neighbours and estate or Article 4 controls can also make the planning answer more site-specific.",
+      "roof_rules": "If the conversion also changes the roof, separate roof or extension rules apply. A basic internal fit-out behind the existing roofline does not itself create a new roof planning allowance.",
+      "materials_rules": "Where the garage door is infilled, the new wall, window and detailing should look intentional and tie into the main house. Heritage controls and visible frontage changes usually call for the closest material match."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-04",
+      "permitted_development": "The simple route for a garage conversion normally depends on it being an internal alteration to the existing building. Once the scheme enlarges the structure, creates a new unit or materially changes the outside, planning permission becomes more likely. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "There is no single conversion height formula. The real issue is usually whether the project changes the scale or visible envelope of the building.",
+        "depth_rules": "Depth becomes important only when the project goes beyond internal alteration and starts creating new space through excavation, extension or other external works.",
+        "boundary_rules": "Boundary issues often come from external openings, excavation, parking loss or access changes. The simpler route is strongest where outside changes remain modest.",
+        "roof_rules": "Associated roof alterations should not be assumed to fall within the same route as the main conversion.",
+        "materials_rules": "Use matching or closely complementary materials so the converted garage feels integrated with the main house rather than obviously altered."
+      },
+      "restrictions": {
+        "conservation_area": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "listed_building": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "article4_applies": true,
+        "article4_notes": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A true self-contained annexe in England should not be assumed to be permitted development and will often need planning permission. Some ancillary family accommodation can be achieved through normal extension rules or a detached Class E building, but the use must stay genuinely subordinate to the main house rather than becoming a second dwelling.",
+    "rules": {
+      "height_rules": "Where a detached ancillary building relies on Class E, keep it single storey with eaves up to 2.5m, up to 4m overall for a dual-pitched roof, up to 3m for any other roof and no more than 2.5m overall within 2m of a boundary.",
+      "depth_rules": "There is no separate annexe depth allowance. Attached accommodation has to fit within the normal extension rules, while detached space has to stay within the curtilage and 50% coverage limits and still read as ancillary rather than a second home.",
+      "boundary_rules": "Boundary siting matters both for the Class E height cap and for whether the building still reads as subordinate. On designated land, side locations can lose permitted development rights, and listed-building curtilages need full planning permission for outbuildings.",
+      "roof_rules": "If the proposal relies on Class E, keep the detached building single storey and visually subordinate. Roof terraces, balconies and overtly house-like upper-storey forms usually move annexe proposals outside the ordinary householder route.",
+      "materials_rules": "If annexe accommodation is allowed, materials, servicing, entrances and internal facilities should reinforce the link with the main dwelling rather than suggest a freestanding new house. A fully independent layout is far more likely to need permission."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "buckinghamshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Annexe proposals need caution: a detached building can sometimes use the normal outbuilding rules where the use stays ancillary to the house, but once it becomes self-contained living accommodation planning permission is usually needed.",
+      "rules": {
+        "height_rules": "A building that exceeds the normal Class E height envelope will usually need planning permission.",
+        "depth_rules": "The building should stay within the residential curtilage and behind the principal elevation. Combined additions and outbuildings should not cover more than 50% of the land around the original house.",
+        "boundary_rules": "Many outbuilding schemes fail not because the idea is unacceptable, but because the siting is too close to a boundary for the chosen size and roof form.",
+        "roof_rules": "Roof shape directly affects the available height under the normal outbuilding rules, so roof form and siting need to be designed together.",
+        "materials_rules": "A restrained material palette helps, but the real issue is that the building must still read as ancillary to the main house rather than a separate home."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Request advice from specialists in Archaeology, conservation and listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "milton-keynes",
+      "last_verified": "2026-04",
+      "permitted_development": "The planning answer for an annexe usually turns on use as much as size. A modest ancillary building may sit within the ordinary outbuilding rules, but a separate residential unit does not.",
+      "rules": {
+        "height_rules": "Height is often the decisive outbuilding test because it determines whether the detached building still reads as modest and subordinate.",
+        "depth_rules": "Outbuildings are not judged by a simple projection rule. The more useful checks are siting within the curtilage, remaining behind the principal elevation and staying within the 50% coverage limit.",
+        "boundary_rules": "Within 2 metres of a boundary, the overall height limit drops to 2.5 metres. Boundary-hugging buildings are more likely to raise dominance and neighbour-impact issues.",
+        "roof_rules": "A dual-pitched roof can reach up to 4 metres overall. Other roof forms are limited to 3 metres overall.",
+        "materials_rules": "Keep the specification domestic and subordinate, and avoid a layout or servicing package that makes the building read as an independent home."
+      },
+      "restrictions": {
+        "conservation_area": "Read about Milton Keynes' heritage and find information about conservation areas and listed buildings",
+        "listed_building": "Read about Milton Keynes' heritage and find information about conservation areas and listed buildings",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    }
+  ]
+}

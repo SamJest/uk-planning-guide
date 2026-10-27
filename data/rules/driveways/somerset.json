@@ -1,0 +1,69 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Somerset, for a house, the usual planning route for a driveway is easiest where the work is just hard surfacing inside the plot and run-off from any front area over 5 square metres is dealt with on site. Permission issues often arise from the access, walls or drainage details rather than the parking space alone. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Somerset, the planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+      "depth_rules": "Across Somerset, there is no extension-style depth allowance for a driveway or paved area. Front areas over 5 square metres should be permeable or drain to a porous area within the curtilage.",
+      "boundary_rules": "Across Somerset, separate highway approval is commonly needed for a new or altered vehicular access.",
+      "roof_rules": "Across Somerset, covered parking or shelter features should not be assumed to fall within the same route as the paving.",
+      "materials_rules": "Across Somerset, material choice matters most on run-off. Gravel, permeable block paving, porous asphalt or a layout that drains into soft ground are usually easier to justify than impermeable paving that sheds water towards the road."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "somerset",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house, the usual planning route for a driveway is easiest where the work is just hard surfacing inside the plot and run-off from any front area over 5 square metres is dealt with on site. Permission issues often arise from the access, walls or drainage details rather than the parking space alone. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+        "depth_rules": "There is no extension-style depth allowance for a driveway or paved area. Front areas over 5 square metres should be permeable or drain to a porous area within the curtilage.",
+        "boundary_rules": "Separate highway approval is commonly needed for a new or altered vehicular access.",
+        "roof_rules": "Covered parking or shelter features should not be assumed to fall within the same route as the paving.",
+        "materials_rules": "Material choice matters most on run-off. Gravel, permeable block paving, porous asphalt or a layout that drains into soft ground are usually easier to justify than impermeable paving that sheds water towards the road."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, removing planting or historic front-boundary features to create parking can trigger a closer review even where the surfacing itself seems minor.",
+        "listed_building": "If the proposal serves a listed building, removing walls, gates, paving or other curtilage features can trigger listed building consent as well as planning checks.",
+        "article4_applies": true,
+        "article4_notes": "Driveway works are not always protected by normal householder rights: Article 4 controls and earlier planning conditions can require an application for surfacing or boundary changes."
+      }
+    },
+    {
+      "town_slug": "bath-and-north-east-somerset",
+      "last_verified": "2026-04",
+      "permitted_development": "Driveway surfacing at a house can often proceed without a planning application, provided the front-of-house area over 5 square metres is permeable or drains to soft ground within the curtilage. Crossing the pavement or verge still needs the highway authority to agree it separately. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "The planning question usually comes from the engineered works that support it, such as retaining walls, terracing, ramps or raised hardstanding.",
+        "depth_rules": "The main national control is drainage rather than projection from the house. Shallow or awkward parking layouts can still fail in practice if they leave vehicles overhanging the footway or create poor manoeuvring.",
+        "boundary_rules": "Separate highway approval is commonly needed for a new or altered vehicular access.",
+        "roof_rules": "The surface itself has no roof allowance. Car ports, canopies and shelters are separate development types.",
+        "materials_rules": "Choose the material around drainage first. For front driveway areas over 5 square metres, permeable surfacing or on-site discharge to a porous area is normally what keeps the work within the simpler route."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status makes driveway schemes more sensitive where front gardens, walls, railings or traditional paving contribute to the street scene.",
+        "listed_building": "If the proposal serves a listed building, removing walls, gates, paving or other curtilage features can trigger listed building consent as well as planning checks.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 directions or planning conditions bite, a driveway that would usually fall within householder rights can still need planning permission."
+      }
+    },
+    {
+      "town_slug": "north-somerset",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house, the usual planning route for a driveway is easiest where the work is just hard surfacing inside the plot and run-off from any front area over 5 square metres is dealt with on site. Permission issues often arise from the access, walls or drainage details rather than the parking space alone. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "Retaining or terracing works may need planning permission even where the surfacing material itself would not.",
+        "depth_rules": "Front impermeable surfacing without suitable on-site drainage will often need planning permission.",
+        "boundary_rules": "The road boundary often decides the real answer. A paved area inside the site can be acceptable while the associated wall removal, widened opening or vehicle crossover is not.",
+        "roof_rules": "A driveway or paved area does not automatically authorise a roof above it. Once a car port or canopy is added, the structure needs checking under the separate rules for buildings or attached alterations.",
+        "materials_rules": "Material choice matters most on run-off. Gravel, permeable block paving, porous asphalt or a layout that drains into soft ground are usually easier to justify than impermeable paving that sheds water towards the road."
+      },
+      "restrictions": {
+        "conservation_area": "A new or enlarged driveway in a conservation area often gets closer scrutiny if it replaces soft landscaping or alters a traditional frontage.",
+        "listed_building": "Listed building consent may be needed where driveway works alter the setting or fabric of a listed building, including boundary features and historic surfacing.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 directions or planning conditions bite, a driveway that would usually fall within householder rights can still need planning permission."
+      }
+    }
+  ]
+}

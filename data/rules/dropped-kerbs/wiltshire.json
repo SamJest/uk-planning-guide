@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Wiltshire, creating a new vehicular access usually starts with highway consent rather than a normal householder application. Lowering the kerb and strengthening the footway are public-highway works, and planning permission may still be required if the site fronts a classified road, the property is split into flats, or the proposal depends on larger engineering or boundary changes.",
+    "rules": {
+      "height_rules": "Across Wiltshire, dropped-kerb work is controlled more by highway geometry than by a simple height limit. The council will care about levels, gradients and whether boundary features need to come down to maintain visibility.",
+      "depth_rules": "Across Wiltshire, no fixed national depth rule applies, but the site should be deep enough for a vehicle to stand within the property once it has crossed the footway. If the car would overhang the pavement, the access is far less likely to be acceptable.",
+      "boundary_rules": "Across Wiltshire, the highway crossing remains public land, so approval can turn on visibility, drainage, kerb alignment, utilities and street obstacles rather than on the private driveway alone. Front walls, hedges and gate positions often have to be designed as part of the same access package.",
+      "roof_rules": "Across Wiltshire, there is no separate roof rule for a dropped kerb. The practical equivalent is whether the access works also introduce other structures, such as a covered entrance, taller gate piers or retaining features, which need to be assessed on their own terms.",
+      "materials_rules": "Across Wiltshire, materials matter differently here than on a normal householder project. The authority will usually control the kerb and footway construction, while the private driveway behind it should be robust, well-drained and suitable for repeated vehicle loading."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "wiltshire",
+      "last_verified": "2026-01",
+      "permitted_development": "In Wiltshire, creating a new vehicular access usually starts with highway consent rather than a normal householder application. Lowering the kerb and strengthening the footway are public-highway works, and planning permission may still be required if the site fronts a classified road, the property is split into flats, or the proposal depends on larger engineering or boundary changes.",
+      "rules": {
+        "height_rules": "Dropped-kerb work is controlled more by highway geometry than by a simple height limit. The council will care about levels, gradients and whether boundary features need to come down to maintain visibility.",
+        "depth_rules": "No fixed national depth rule applies, but the site should be deep enough for a vehicle to stand within the property once it has crossed the footway. If the car would overhang the pavement, the access is far less likely to be acceptable.",
+        "boundary_rules": "The highway crossing remains public land, so approval can turn on visibility, drainage, kerb alignment, utilities and street obstacles rather than on the private driveway alone. Front walls, hedges and gate positions often have to be designed as part of the same access package.",
+        "roof_rules": "There is no separate roof rule for a dropped kerb. The practical equivalent is whether the access works also introduce other structures, such as a covered entrance, taller gate piers or retaining features, which need to be assessed on their own terms.",
+        "materials_rules": "Materials matter differently here than on a normal householder project. The authority will usually control the kerb and footway construction, while the private driveway behind it should be robust, well-drained and suitable for repeated vehicle loading."
+      },
+      "restrictions": {
+        "conservation_area": "Within a conservation area, access works that disturb original walls, railings, kerb lines or planting often receive a more detailed planning and heritage check.",
+        "listed_building": "Works to form an access for a listed building often need a heritage check as well as highways approval, especially where original frontage features are affected.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 controls or planning conditions apply, the ordinary householder fallback for access-related works may be removed, so both planning and highways should be checked together."
+      }
+    },
+    {
+      "town_slug": "swindon",
+      "last_verified": "2026-01",
+      "permitted_development": "For homes in Swindon, a dropped kerb is normally more of a highways process than a pure planning matter because the work crosses public footway or verge. Planning permission can still enter the picture where the access is onto a classified road, where householder rights do not apply, or where the frontage changes go beyond a simple crossover.",
+      "rules": {
+        "height_rules": "A dropped kerb does not have its own building-height rule. What matters is whether the level changes, gradients and any reduction in walls or hedges still produce a safe and workable access.",
+        "depth_rules": "There is no set depth allowance, but the council will expect enough space behind the crossing for safe parking and manoeuvring. An access that leaves vehicles projecting onto the public footway is usually difficult to justify.",
+        "boundary_rules": "A dropped kerb is not just an opening in your wall: it affects the public highway, so street furniture, utilities, trees, drainage and visibility can all shape the answer. Boundary alterations often need to be planned alongside the crossing rather than afterwards.",
+        "roof_rules": "Roof form is not part of a dropped-kerb assessment, but do not ignore linked structures. If the scheme also adds a canopy, car-port edge, gateway feature or retaining work, those pieces are not automatically covered by the crossing approval.",
+        "materials_rules": "For a dropped kerb, the public-highway build-up is normally specified by the council rather than by the homeowner. On the private side of the boundary, choose surfacing that drains well and will not break up or rut under regular vehicle use."
+      },
+      "restrictions": {
+        "conservation_area": "A dropped kerb in a conservation area often needs fuller scrutiny if the proposal affects established front boundaries, historic paving or the character of the street.",
+        "listed_building": "Works to form an access for a listed building often need a heritage check as well as highways approval, especially where original frontage features are affected.",
+        "article4_applies": false,
+        "article4_notes": "Where Article 4 controls or planning conditions apply, the ordinary householder fallback for access-related works may be removed, so both planning and highways should be checked together."
+      }
+    }
+  ]
+}

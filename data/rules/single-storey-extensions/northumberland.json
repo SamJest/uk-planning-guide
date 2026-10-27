@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A single-storey extension can often be permitted development in England, but the answer depends on whether it is rear or side facing, how close it is to boundaries, whether it stays behind the principal elevation and whether the enlarged house remains within the Class A limits. On deeper rural plots, the harder issues are often prominence in open views, out-of-scale massing and how the addition reads from lanes or public footpaths.",
+    "rules": {
+      "height_rules": "Single-storey extensions should usually stay within the 4m overall height limit, with eaves no higher than 3m if any part is within 2m of a boundary.",
+      "depth_rules": "Rear projection is the main depth test: standard limits are 3m for semis and terraces and 4m for detached houses, with the prior-approval route allowing 6m or 8m in some cases. Side extensions should stay proportionate and no more than half the width of the original house.",
+      "boundary_rules": "Near-boundary siting is where many single-storey schemes fail. Even where permitted development may apply, overbearing bulk, daylight loss and awkward relationships with side paths or rear fences still matter. On deeper rural plots, the harder issues are often prominence in open views, out-of-scale massing and how the addition reads from lanes or public footpaths.",
+      "roof_rules": "Keep the roof subordinate to the existing dwelling and avoid balconies or raised platforms. Lean-to and low-pitch forms are often easier to keep within the height limits than tall gables near a boundary.",
+      "materials_rules": "External materials should be similar in appearance to the existing house, with simple detailing that keeps the extension clearly secondary to the original building. On deeper rural plots, the harder issues are often prominence in open views, out-of-scale massing and how the addition reads from lanes or public footpaths."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "northumberland",
+      "last_verified": "2026-01",
+      "permitted_development": "A single-storey extension can still fall within Class A in England, but in parts of this authority Article 4 or heritage controls may narrow that fallback route. Even where rights remain, the normal rear or side limits still apply.",
+      "rules": {
+        "height_rules": "The same Class A height rules still apply in sensitive streets: up to 4m overall, with eaves capped at 3m where any part sits within 2m of a boundary.",
+        "depth_rules": "Rear projection is the main depth test: standard limits are tighter for semis and terraces than for detached houses, while side extensions must stay proportionate to the original house rather than simply using spare garden width.",
+        "boundary_rules": "In tighter or heritage-sensitive streets, councils often look especially hard at boundary bulk, side paths and loss of light even where a PD argument is being made.",
+        "roof_rules": "Keep the roof subordinate to the existing dwelling and avoid balconies or raised platforms. Lean-to and low-pitch forms are often easier to keep within the height limits than tall gables near a boundary.",
+        "materials_rules": "Close material matching is especially important in heritage-sensitive settings so the extension stays visually secondary to the original house."
+      },
+      "restrictions": {
+        "conservation_area": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "listed_building": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes.",
+        "article4_applies": true,
+        "article4_notes": "Planning rules for listed buildings, conservation areas, Article 4, AONB and protected landscapes."
+      }
+    }
+  ]
+}

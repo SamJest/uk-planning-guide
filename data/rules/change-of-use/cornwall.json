@@ -1,0 +1,51 @@
+{
+    "defaults":  {
+                     "last_verified":  "2026-04",
+                     "permitted_development":  "A change of use in England depends on the lawful existing use, the proposed use class and any specific permitted development route, not on a general householder right. Many proposals still need planning permission, prior approval or both, especially where external works, servicing or intensified activity are involved. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+                     "rules":  {
+                                   "height_rules":  "There is no automatic height allowance for change of use. Any extra storey, plant, flue, lift overrun or roof equipment is separate operational development and must be assessed in its own right.",
+                                   "depth_rules":  "There is no fixed depth allowance. Rear additions, storage yards, outdoor seating, service areas and enlarged floorspace are separate planning issues from the use change itself.",
+                                   "boundary_rules":  "Boundary effects often decide the outcome: noise, servicing, odour, overlooking, waste storage, deliveries, parking and customer activity can all matter more than the internal use label. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny.",
+                                   "roof_rules":  "New vents, extract systems, plant screens, condensers or roof terraces are not automatically covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+                                   "materials_rules":  "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit both the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+                               }
+                 },
+    "rules":  [
+                  {
+                      "town_slug":  "cornwall",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Cornwall, the use class analysis is only part of the answer; seasonal peaks, servicing and evening activity often matter as much as the label attached to the proposed use.",
+                      "rules":  {
+                                    "height_rules":  "In Cornwall, vents, condensers and roof kit need separate scrutiny because they are visible over longer distances and often behave more aggressively in exposed coastal conditions.",
+                                    "depth_rules":  "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+                                    "boundary_rules":  "In Cornwall, shared edges are often where seasonal intensity, servicing pressure and later activity become most obvious, so boundary management is a practical planning issue rather than a formality.",
+                                    "roof_rules":  "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+                                    "materials_rules":  "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Within a conservation area, a change of use is more likely to be assessed alongside frontage changes, servicing, signage and heritage impact, even where the use-class point seems simple.",
+                                           "listed_building":  "Changing the use of a listed building does not remove the need for listed building consent for internal or external works affecting its special character.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove the usual change-of-use fallback route in selected centres or neighbourhoods, so check the property\u0027s designation before relying on permitted development."
+                                       }
+                  },
+                  {
+                      "town_slug":  "isles-of-scilly",
+                      "last_verified":  "2026-01",
+                      "permitted_development":  "In Isles of Scilly, the use class analysis is only part of the answer; seasonal peaks, servicing and evening activity often matter as much as the label attached to the proposed use.",
+                      "rules":  {
+                                    "height_rules":  "In Isles of Scilly, vents, condensers and roof kit need separate scrutiny because they are visible over longer distances and often behave more aggressively in exposed coastal conditions.",
+                                    "depth_rules":  "There is no fixed depth allowance. Rear extensions, outdoor seating, storage yards, service bays or enlarged floorspace are separate planning issues from the use change itself.",
+                                    "boundary_rules":  "In Isles of Scilly, shared edges are often where seasonal intensity, servicing pressure and later activity become most obvious, so boundary management is a practical planning issue rather than a formality.",
+                                    "roof_rules":  "New extract systems, vents, condensers, plant screens or roof terraces are not covered just because the use changes. They need their own planning assessment and can be decisive for neighbours.",
+                                    "materials_rules":  "External alterations such as shopfront changes, shutters, signage, cladding or new openings are assessed separately and should fit the host building and the wider street scene. In visitor-heavy coastal areas, parking pressure, seasonal use and disturbance to nearby homes often attract closer scrutiny."
+                                },
+                      "restrictions":  {
+                                           "conservation_area":  "Within a conservation area, a change of use is more likely to be assessed alongside frontage changes, servicing, signage and heritage impact, even where the use-class point seems simple.",
+                                           "listed_building":  "Changing the use of a listed building does not remove the need for listed building consent for internal or external works affecting its special character.",
+                                           "article4_applies":  false,
+                                           "article4_notes":  "Article 4 directions can remove the usual change-of-use fallback route in selected centres or neighbourhoods, so check the property\u0027s designation before relying on permitted development."
+                                       }
+                  }
+              ]
+}

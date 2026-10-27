@@ -1,0 +1,66 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Bedfordshire, HMO proposals usually need an early planning permission check because local policy, shared-housing concentration and Article 4 coverage often matter more than any simple fallback route. The strongest HMO route usually comes from treating policy, concentration, amenity and the supporting physical works as one joined-up planning question.",
+    "rules": {
+      "height_rules": "For HMOs, the planning issue is usually intensity of occupation and local policy rather than building height alone, although physical enlargement can add a second planning layer.",
+      "depth_rules": "Layout, garden amenity space, refuse storage and any extension or conversion project linked to the HMO can all change the planning route across Bedfordshire.",
+      "boundary_rules": "Neighbour amenity, parking pressure, servicing and local shared-housing concentration are recurring pressure points for HMO proposals in Bedfordshire.",
+      "roof_rules": "Roof rooms, dormers and upper-floor reconfiguration often need to be reviewed alongside the change of use rather than as a separate afterthought.",
+      "materials_rules": "Frontage appearance, cycle storage, bin arrangements and entrance treatment can influence how an HMO proposal is judged even where the main use change sits inside the building."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "bedford",
+      "last_verified": "2026-03",
+      "permitted_development": "In Bedford, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Bedford, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Bedford.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Bedford.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Bedford usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Bedford so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Bedford can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Bedford usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Bedford, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "central-bedfordshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Central Bedfordshire, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. The route usually gets harder when refuse, bike storage and comings-and-goings have clearly been left as afterthoughts rather than planned parts of the scheme.",
+      "rules": {
+        "height_rules": "In Central Bedfordshire, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Central Bedfordshire.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Central Bedfordshire.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Central Bedfordshire usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Central Bedfordshire so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Central Bedfordshire can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Central Bedfordshire usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Central Bedfordshire, because they can remove the simpler fallback route for change of use."
+      }
+    },
+    {
+      "town_slug": "luton",
+      "last_verified": "2026-03",
+      "permitted_development": "In Luton, an HMO proposal usually needs an early planning permission check because local policy, concentration and any Article 4 coverage often matter more than a simple fallback route. Schemes are normally safer where the council can see a coherent story on layout quality, neighbour amenity and how the property will actually operate day to day.",
+      "rules": {
+        "height_rules": "In Luton, HMO proposals are normally judged on intensity of occupation, bedroom mix and policy context rather than height alone, unless the building is also being enlarged.",
+        "depth_rules": "Layout quality, garden amenity space and the supporting project works needed to make the HMO function properly are often central planning issues in Luton.",
+        "boundary_rules": "Neighbour amenity, parking, refuse and the wider concentration of HMOs are usually the first local pressure points to review in Luton.",
+        "roof_rules": "Roof rooms, dormers or enlarged upper floors linked to an HMO in Luton usually need to be checked as part of one joined-up planning package.",
+        "materials_rules": "Frontage appearance, bin stores and entrance arrangements should be handled carefully in Luton so the scheme looks managed rather than visually disruptive."
+      },
+      "restrictions": {
+        "conservation_area": "HMO proposals in conservation areas within Luton can face an added design review where external changes, refuse storage or frontage alterations are proposed.",
+        "listed_building": "Listed buildings in Luton usually need a more careful heritage and consent review before physical works linked to an HMO scheme are assumed to be acceptable.",
+        "article4_notes": "Article 4 directions are one of the first checks for HMO proposals in Luton, because they can remove the simpler fallback route for change of use."
+      }
+    }
+  ]
+}

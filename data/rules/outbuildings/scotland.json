@@ -1,0 +1,593 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+    "rules": {
+      "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+      "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+      "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+      "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+      "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Edinburgh, conservation area controls and site-specific planning conditions often make visible external work more sensitive than the national baseline. Check planning permission, listed building consent and building warrant requirements together.",
+        "listed_building": "Edinburgh householders should assume listed building consent may be needed for internal or external works affecting character, alongside any planning permission or building warrant requirements.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, many sheds, detached garages and similar garden buildings can be permitted development where they remain ancillary to the house, are not used as a dwelling, stay within the garden ground limits and comply with the national siting and height rules.",
+      "rules": {
+        "height_rules": "Keep the building modest in scale. The main Scottish Class 3A limits are eaves up to 3m, up to 4m overall and no more than 2.5m overall for any part within 1m of the boundary.",
+        "depth_rules": "There is no separate depth allowance. The key Scottish tests are whether the building remains within the curtilage, stays behind a principal or side elevation fronting a road and leaves at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Boundary and road-facing siting are central in Scotland. The building cannot be forward of a principal elevation or a side elevation fronting a road, and anything within 1m of the boundary should stay at or below 2.5m overall.",
+        "roof_rules": "A simple single-storey roof is usually safest. The ordinary ancillary-building route is for a modest detached structure, not a house-like two-storey form or a terrace-style roof arrangement.",
+        "materials_rules": "The building should read as ancillary to the dwellinghouse and not as a separate residence. Conservation area and listed-building limits can reduce the size of what is allowed, so visible materials should stay restrained."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish householder permitted development can often cover a detached ancillary building where it stays incidental to the dwellinghouse, remains within the curtilage and follows the Class 3A limits. It does not allow a separate dwelling.",
+      "rules": {
+        "height_rules": "A detached ancillary building in Scotland should normally stay within the Class 3A height envelope: eaves no more than 3m, an overall maximum of 4m and a 2.5m overall cap where any part sits within 1m of the curtilage boundary.",
+        "depth_rules": "Outbuildings in Scotland are not controlled by a standalone depth figure. What matters is curtilage position, not building forward of an elevation fronting a road and keeping at least half of the relevant curtilage undeveloped.",
+        "boundary_rules": "Most Scottish boundary issues come from proximity and prominence. Keep the building out of road-facing forward positions and design around the 2.5m overall cap for any part within 1m of the boundary.",
+        "roof_rules": "Keep the roof low-key and subordinate. Scottish householder rights for ancillary buildings work best for a modest single-storey structure rather than upper-storey or terrace-style accommodation.",
+        "materials_rules": "Materials should help the structure read as a subordinate domestic outbuilding rather than a new house. In Scottish conservation areas and listed settings, the visible finish usually needs the most care."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland, conservation area status can narrow normal householder permitted development rights for visible external work. Check local authority guidance before relying on national allowances.",
+        "listed_building": "Listed building consent is required in Scotland for demolition, extension or material alteration of a listed building, inside or out, where character is affected.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Cairngorms National Park, conservation area and cultural heritage controls should be checked early with the relevant planning authority before relying on permitted development.",
+        "listed_building": "In Cairngorms National Park, listed buildings and other cultural heritage interests can require special consent before other permissions are considered.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "A Scottish outbuilding can often use the normal householder route if it is ancillary to the dwellinghouse, stays within the relevant curtilage limits and remains clearly short of self-contained residential use.",
+      "rules": {
+        "height_rules": "The usual Scottish outbuilding benchmark is eaves up to 3m, an overall height up to 4m and no more than 2.5m overall if any part of the building is within 1m of the boundary.",
+        "depth_rules": "Rather than a fixed projection limit, Scottish Class 3A focuses on where the building sits in the curtilage, whether it fronts a road and whether more than half of the relevant curtilage would remain undeveloped.",
+        "boundary_rules": "The most important Scottish siting checks are road-facing position and boundary proximity. A building close to the boundary should be designed around the 2.5m overall cap and should not project into a forward road-facing position.",
+        "roof_rules": "Roof form matters because it can make the structure read like a second dwelling. A simple, subordinate single-storey roof is much safer than a dominant or house-like design.",
+        "materials_rules": "A Scottish ancillary building can use modern or traditional finishes, but it should still look subordinate to the dwellinghouse and not operate as self-contained accommodation."
+      },
+      "restrictions": {
+        "conservation_area": "In Loch Lomond and The Trossachs National Park, householders in conservation areas normally need planning permission for external alterations and works affecting the exterior of their property.",
+        "listed_building": "In Loch Lomond and The Trossachs National Park, listed building consent is required for works, internal or external, that affect the character of a listed property.",
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    }
+  ]
+}

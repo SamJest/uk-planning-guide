@@ -1,0 +1,213 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Surrey, a new or altered boundary treatment can rely on permitted development up to 1 metre by the highway and 2 metres in other positions. The important exceptions are heritage curtilages, Article 4 areas and schemes that increase an already excessive height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Surrey, a boundary treatment above the relevant height limit will normally need planning permission.",
+      "depth_rules": "Across Surrey, boundary can still need permission because of its position and visual impact even though there is no formal depth limit.",
+      "boundary_rules": "Across Surrey, front and corner boundaries usually face the tightest control. Rear boundaries are generally less constrained than road-facing ones.",
+      "roof_rules": "Across Surrey, canopies or roofed gate features need their own planning check.",
+      "materials_rules": "Across Surrey, there is no prescribed material palette for ordinary fences and walls, but prominent frontages are easiest to justify when the boundary treatment fits the surrounding street character."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "elmbridge",
+      "last_verified": "2026-04",
+      "permitted_development": "In most straightforward house cases, a new or altered boundary treatment can rely on permitted development up to 1 metre by the highway and 2 metres in other positions. The important exceptions are heritage curtilages, Article 4 areas and schemes that increase an already excessive height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A boundary treatment above the relevant height limit will normally need planning permission.",
+        "depth_rules": "Boundary can still need permission because of its position and visual impact even though there is no formal depth limit.",
+        "boundary_rules": "Front and corner boundaries usually face the tightest control. Rear boundaries are generally less constrained than road-facing ones.",
+        "roof_rules": "Canopies or roofed gate features need their own planning check.",
+        "materials_rules": "There is no prescribed material palette for ordinary fences and walls, but prominent frontages are easiest to justify when the boundary treatment fits the surrounding street character."
+      },
+      "restrictions": {
+        "conservation_area": "A fence or wall in a conservation area may need more than a simple height check, especially if demolition of an older boundary is part of the scheme.",
+        "listed_building": "If the property is listed, or the boundary adjoins listed curtilage structures, changing the enclosure can need listed building consent as well as planning review.",
+        "article4_applies": false,
+        "article4_notes": "A planning condition or Article 4 direction can override the standard boundary limits, so even a straightforward replacement fence may need consent."
+      }
+    },
+    {
+      "town_slug": "epsom-and-ewell",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary householder route for a fence, wall or gate usually depends on the height and its relationship to the road: 1 metre by a vehicular highway, 2 metres elsewhere. Listed-building settings and removed rights can change that answer quickly. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Boundary can still need permission because of its position and visual impact even though there is no formal depth limit.",
+        "boundary_rules": "Front and corner boundaries often need more careful design than enclosed rear-garden boundaries.",
+        "roof_rules": "Canopies or roofed gate features need their own planning check.",
+        "materials_rules": "There is no prescribed material palette for ordinary fences and walls, but prominent frontages are easiest to justify when the boundary treatment fits the surrounding street character."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "Historic boundary walls and railings are often part of a listed building's significance, so replacement or removal can need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "A planning condition or Article 4 direction can override the standard boundary limits, so even a straightforward replacement fence may need consent."
+      }
+    },
+    {
+      "town_slug": "guildford",
+      "last_verified": "2026-04",
+      "permitted_development": "In most straightforward house cases, a new or altered boundary treatment can rely on permitted development up to 1 metre by the highway and 2 metres in other positions. The important exceptions are heritage curtilages, Article 4 areas and schemes that increase an already excessive height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Boundary can still need permission because of its position and visual impact even though there is no formal depth limit.",
+        "boundary_rules": "Front and corner boundaries usually face the tightest control. Rear boundaries are generally less constrained than road-facing ones.",
+        "roof_rules": "Canopies or roofed gate features need their own planning check.",
+        "materials_rules": "National planning rules focus on height and siting rather than a fixed material list, but visible front boundaries should still use finishes that suit the house and street. Heritage areas are more demanding on detail."
+      },
+      "restrictions": {
+        "conservation_area": "Boundary works in conservation areas are more sensitive because removal as well as replacement can affect the character and appearance of the area.",
+        "listed_building": "Historic boundary walls and railings are often part of a listed building's significance, so replacement or removal can need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "A planning condition or Article 4 direction can override the standard boundary limits, so even a straightforward replacement fence may need consent."
+      }
+    },
+    {
+      "town_slug": "mole-valley",
+      "last_verified": "2026-04",
+      "permitted_development": "Boundary walls, fences and gates are usually permitted development if they stay no higher than 1 metre next to a highway used by vehicles and no higher than 2 metres elsewhere, or if an already-higher boundary is altered without increasing its height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "A boundary treatment above the relevant height limit will normally need planning permission.",
+        "depth_rules": "Means of enclosure are not controlled by an extension-style depth formula. Height, siting and visual effect do the main planning work.",
+        "boundary_rules": "Front and corner boundaries often need more careful design than enclosed rear-garden boundaries.",
+        "roof_rules": "A simple gate or wall is one thing; a roofed gate feature can be quite another. Covered entrance elements should not be assumed to sit within the same fallback.",
+        "materials_rules": "National planning rules focus on height and siting rather than a fixed material list, but visible front boundaries should still use finishes that suit the house and street. Heritage areas are more demanding on detail."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "If the property is listed, or the boundary adjoins listed curtilage structures, changing the enclosure can need listed building consent as well as planning review.",
+        "article4_applies": false,
+        "article4_notes": "A planning condition or Article 4 direction can override the standard boundary limits, so even a straightforward replacement fence may need consent."
+      }
+    },
+    {
+      "town_slug": "reigate-and-banstead",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary householder route for a fence, wall or gate usually depends on the height and its relationship to the road: 1 metre by a vehicular highway, 2 metres elsewhere. Listed-building settings and removed rights can change that answer quickly. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Means of enclosure are not controlled by an extension-style depth formula. Height, siting and visual effect do the main planning work.",
+        "boundary_rules": "Front and corner boundaries often need more careful design than enclosed rear-garden boundaries.",
+        "roof_rules": "Ordinary boundary rules do not create a roof allowance. Gate canopies or covered entrance features should be checked separately.",
+        "materials_rules": "There is no prescribed material palette for ordinary fences and walls, but prominent frontages are easiest to justify when the boundary treatment fits the surrounding street character."
+      },
+      "restrictions": {
+        "conservation_area": "Boundary works in conservation areas are more sensitive because removal as well as replacement can affect the character and appearance of the area.",
+        "listed_building": "If the property is listed, or the boundary adjoins listed curtilage structures, changing the enclosure can need listed building consent as well as planning review.",
+        "article4_applies": false,
+        "article4_notes": "A planning condition or Article 4 direction can override the standard boundary limits, so even a straightforward replacement fence may need consent."
+      }
+    },
+    {
+      "town_slug": "runnymede",
+      "last_verified": "2026-04",
+      "permitted_development": "In most straightforward house cases, a new or altered boundary treatment can rely on permitted development up to 1 metre by the highway and 2 metres in other positions. The important exceptions are heritage curtilages, Article 4 areas and schemes that increase an already excessive height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "A wall or fence is not assessed like an extension. The key issues are usually where it sits and how high it is, rather than how thick it is.",
+        "boundary_rules": "The same boundary treatment can be acceptable in one position and need permission in another once it fronts a road or sits on a prominent corner.",
+        "roof_rules": "A simple gate or wall is one thing; a roofed gate feature can be quite another. Covered entrance elements should not be assumed to sit within the same fallback.",
+        "materials_rules": "Material choice is usually a design issue rather than a standalone permitted-development test, although listed-building and conservation-area contexts can make inappropriate boundary finishes much harder to defend."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "Historic boundary walls and railings are often part of a listed building's significance, so replacement or removal can need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions and site-specific conditions are a common reason why an otherwise modest boundary change still needs planning permission."
+      }
+    },
+    {
+      "town_slug": "spelthorne",
+      "last_verified": "2026-04",
+      "permitted_development": "Boundary walls, fences and gates are usually permitted development if they stay no higher than 1 metre next to a highway used by vehicles and no higher than 2 metres elsewhere, or if an already-higher boundary is altered without increasing its height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Boundary can still need permission because of its position and visual impact even though there is no formal depth limit.",
+        "boundary_rules": "Front and corner boundaries usually face the tightest control. Rear boundaries are generally less constrained than road-facing ones.",
+        "roof_rules": "A simple gate or wall is one thing; a roofed gate feature can be quite another. Covered entrance elements should not be assumed to sit within the same fallback.",
+        "materials_rules": "National planning rules focus on height and siting rather than a fixed material list, but visible front boundaries should still use finishes that suit the house and street. Heritage areas are more demanding on detail."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "Boundary works to or around a listed building can require listed building consent, especially where historic walls, railings, piers or gates are being altered or removed.",
+        "article4_applies": true,
+        "article4_notes": "A planning condition or Article 4 direction can override the standard boundary limits, so even a straightforward replacement fence may need consent."
+      }
+    },
+    {
+      "town_slug": "surrey-heath",
+      "last_verified": "2026-04",
+      "permitted_development": "Boundary walls, fences and gates are usually permitted development if they stay no higher than 1 metre next to a highway used by vehicles and no higher than 2 metres elsewhere, or if an already-higher boundary is altered without increasing its height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Means of enclosure are not controlled by an extension-style depth formula. Height, siting and visual effect do the main planning work.",
+        "boundary_rules": "Front and corner boundaries usually face the tightest control. Rear boundaries are generally less constrained than road-facing ones.",
+        "roof_rules": "A simple gate or wall is one thing; a roofed gate feature can be quite another. Covered entrance elements should not be assumed to sit within the same fallback.",
+        "materials_rules": "There is no prescribed material palette for ordinary fences and walls, but prominent frontages are easiest to justify when the boundary treatment fits the surrounding street character."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "Historic boundary walls and railings are often part of a listed building's significance, so replacement or removal can need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "Normal enclosure rights can be withdrawn by Article 4 directions or by conditions on the property, which is why front-boundary work sometimes still needs an application."
+      }
+    },
+    {
+      "town_slug": "tandridge",
+      "last_verified": "2026-04",
+      "permitted_development": "In most straightforward house cases, a new or altered boundary treatment can rely on permitted development up to 1 metre by the highway and 2 metres in other positions. The important exceptions are heritage curtilages, Article 4 areas and schemes that increase an already excessive height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "A wall or fence is not assessed like an extension. The key issues are usually where it sits and how high it is, rather than how thick it is.",
+        "boundary_rules": "The same boundary treatment can be acceptable in one position and need permission in another once it fronts a road or sits on a prominent corner.",
+        "roof_rules": "Canopies or roofed gate features need their own planning check.",
+        "materials_rules": "There is no prescribed material palette for ordinary fences and walls, but prominent frontages are easiest to justify when the boundary treatment fits the surrounding street character."
+      },
+      "restrictions": {
+        "conservation_area": "In conservation areas, even modest boundary changes can need fuller scrutiny where an existing wall, railing or gate helps define the street scene.",
+        "listed_building": "Boundary works to or around a listed building can require listed building consent, especially where historic walls, railings, piers or gates are being altered or removed.",
+        "article4_applies": false,
+        "article4_notes": "Normal enclosure rights can be withdrawn by Article 4 directions or by conditions on the property, which is why front-boundary work sometimes still needs an application."
+      }
+    },
+    {
+      "town_slug": "waverley",
+      "last_verified": "2026-04",
+      "permitted_development": "Boundary walls, fences and gates are usually permitted development if they stay no higher than 1 metre next to a highway used by vehicles and no higher than 2 metres elsewhere, or if an already-higher boundary is altered without increasing its height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Means of enclosure are not controlled by an extension-style depth formula. Height, siting and visual effect do the main planning work.",
+        "boundary_rules": "The same boundary treatment can be acceptable in one position and need permission in another once it fronts a road or sits on a prominent corner.",
+        "roof_rules": "Ordinary boundary rules do not create a roof allowance. Gate canopies or covered entrance features should be checked separately.",
+        "materials_rules": "Material choice is usually a design issue rather than a standalone permitted-development test, although listed-building and conservation-area contexts can make inappropriate boundary finishes much harder to defend."
+      },
+      "restrictions": {
+        "conservation_area": "A fence or wall in a conservation area may need more than a simple height check, especially if demolition of an older boundary is part of the scheme.",
+        "listed_building": "Listed building controls can apply to fences, gates and walls where they form part of the building's curtilage or historic setting.",
+        "article4_applies": false,
+        "article4_notes": "Do not rely on the normal 1 metre or 2 metre rule where Article 4 controls or earlier planning conditions remove those householder rights."
+      }
+    },
+    {
+      "town_slug": "woking",
+      "last_verified": "2026-04",
+      "permitted_development": "The ordinary householder route for a fence, wall or gate usually depends on the height and its relationship to the road: 1 metre by a vehicular highway, 2 metres elsewhere. Listed-building settings and removed rights can change that answer quickly. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Means of enclosure are not controlled by an extension-style depth formula. Height, siting and visual effect do the main planning work.",
+        "boundary_rules": "Front and corner boundaries often need more careful design than enclosed rear-garden boundaries.",
+        "roof_rules": "A simple gate or wall is one thing; a roofed gate feature can be quite another. Covered entrance elements should not be assumed to sit within the same fallback.",
+        "materials_rules": "National planning rules focus on height and siting rather than a fixed material list, but visible front boundaries should still use finishes that suit the house and street. Heritage areas are more demanding on detail."
+      },
+      "restrictions": {
+        "conservation_area": "A fence or wall in a conservation area may need more than a simple height check, especially if demolition of an older boundary is part of the scheme.",
+        "listed_building": "Historic boundary walls and railings are often part of a listed building's significance, so replacement or removal can need listed building consent.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions and site-specific conditions are a common reason why an otherwise modest boundary change still needs planning permission."
+      }
+    }
+  ]
+}

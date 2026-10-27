@@ -1,0 +1,559 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+    "rules": {
+      "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+      "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+      "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+      "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+      "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Most Scottish fence and wall questions come back to the same split: 1 metre in the road-facing zone and 2 metres elsewhere.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Most Scottish fence and wall questions come back to the same split: 1 metre in the road-facing zone and 2 metres elsewhere.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Most Scottish fence and wall questions come back to the same split: 1 metre in the road-facing zone and 2 metres elsewhere.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Most Scottish fence and wall questions come back to the same split: 1 metre in the road-facing zone and 2 metres elsewhere.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Most Scottish fence and wall questions come back to the same split: 1 metre in the road-facing zone and 2 metres elsewhere.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Material choice is mainly a character issue rather than a separate Scottish height test, but poor frontage materials can still undermine an otherwise acceptable enclosure."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Most Scottish fence and wall questions come back to the same split: 1 metre in the road-facing zone and 2 metres elsewhere.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "A fence or wall can fall within Scottish permitted development on one boundary and exceed it on another once the road-facing rule is engaged.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-04",
+      "permitted_development": "In Scotland, gates, fences, walls and other means of enclosure usually benefit from permitted development up to 2 metres high, or only 1 metre where they front a road or come forward of the principal or side elevation nearest a road.",
+      "rules": {
+        "height_rules": "Most Scottish fence and wall questions come back to the same split: 1 metre in the road-facing zone and 2 metres elsewhere.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "There is no separate Scottish depth allowance for fences and walls. Height and position, especially in relation to roads, do the main planning work.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "There is no separate Scottish roof allowance for a means of enclosure. Covered gate features or canopies should be considered separately.",
+        "materials_rules": "There is no fixed Scottish material list for fences and walls, though conservation areas and listed-building settings will usually expect a more sensitive boundary treatment."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-04",
+      "permitted_development": "Scottish permitted development can usually cover an ordinary boundary treatment where it stays at 2 metres or less, dropping to 1 metre in road-facing positions.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "Height is the main Scottish planning control for this type of work. Road-facing positions are capped at 1 metre; other positions usually go to 2 metres.",
+        "depth_rules": "Depth is not the core Scottish control here; siting, road-facing prominence and overall height matter far more.",
+        "boundary_rules": "The boundary relationship with the road usually decides the answer. Front and corner plots in Scotland are subject to much tighter enclosure limits than enclosed garden positions.",
+        "roof_rules": "Roof form is not part of the normal enclosure right in Scotland. If the proposal adds a canopy or covered entrance element, treat that as a separate issue.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-04",
+      "permitted_development": "For a house in Scotland, the normal boundary rule is 2 metres high in general positions and 1 metre where the enclosure fronts a road or projects in front of the main road-facing elevations.",
+      "rules": {
+        "height_rules": "The usual Scottish height limits are 2 metres generally and 1 metre where the enclosure fronts a road or sits forward of the principal elevation or side elevation nearest a road.",
+        "depth_rules": "Enclosures are not assessed by projection in the same way as extensions. Once height and road relationship are known, thickness is rarely the deciding issue.",
+        "boundary_rules": "Road-facing boundary positions are the sensitive Scottish cases. A wall that is fine in a rear garden can need permission if it comes forward of the principal elevation or fronts the road.",
+        "roof_rules": "A wall or gate does not get a roof entitlement of its own. Scottish planning risk rises once a boundary feature becomes a covered structure.",
+        "materials_rules": "Scottish national guidance focuses on height and siting rather than prescribing materials, but prominent front boundaries are easiest to support when the finish suits the house and street."
+      },
+      "restrictions": {
+        "conservation_area": "In Scotland there are no normal householder permitted development rights for new fences, walls and gates in a conservation area.",
+        "listed_building": "There are no normal householder permitted development rights for boundary works within the curtilage of a listed building, and listed building consent may also be required."
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A rear extension can be permitted development in England if it stays within the Class A depth, height and curtilage limits for the house. Larger single-storey rear additions can sometimes go further, but only through the prior-approval route. On exposed coastal or estuary sites, visual prominence, roof profile and weathering of materials can carry more weight than on a routine inland plot.",
+    "rules": {
+      "height_rules": "Single-storey rear extensions should stay within the 4m overall height limit, with eaves no higher than 3m if any part is within 2m of a boundary. Two-storey rear work must not exceed the existing house height or eaves.",
+      "depth_rules": "Standard single-storey rear extensions can usually project up to 3m on a semi-detached or terraced house and 4m on a detached house. The larger home extension route can extend that to 6m or 8m with prior approval. Two-storey rear extensions should normally project no more than 3m.",
+      "boundary_rules": "Where any part sits within 2m of a boundary, eaves height becomes especially sensitive, and two-storey rear extensions also need enough rear-boundary separation to avoid overbearing and overlooking problems. On exposed coastal or estuary sites, visual prominence, roof profile and weathering of materials can carry more weight than on a routine inland plot.",
+      "roof_rules": "The roof should remain subordinate to the original house. Balconies, verandas and raised platforms are not part of the normal rear-extension permitted development route.",
+      "materials_rules": "External materials should be similar in appearance to the existing house so the extension reads as a planned addition rather than an unrelated rear block. On exposed coastal or estuary sites, visual prominence, roof profile and weathering of materials can carry more weight than on a routine inland plot."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "cornwall",
+      "last_verified": "2026-01",
+      "permitted_development": "A rear extension can be permitted development in England if it stays within the Class A depth, height and curtilage limits for the house. Larger single-storey rear additions can sometimes go further, but only through the prior-approval route.",
+      "rules": {
+        "height_rules": "Single-storey rear extensions should stay within the 4m overall height limit, with eaves no higher than 3m if any part is within 2m of a boundary. Two-storey rear work must not exceed the existing house height or eaves.",
+        "depth_rules": "Standard single-storey rear extensions can usually project up to 3m on a semi or terraced house and 4m on a detached house, with the larger home extension prior-approval route going further in some cases. Two-storey rear extensions are much tighter and should normally project no more than 3m.",
+        "boundary_rules": "Where any part sits within 2m of a boundary, eaves height becomes especially sensitive, and two-storey rear extensions also need enough rear-boundary separation to avoid overbearing and overlooking problems.",
+        "roof_rules": "The roof should remain subordinate to the original house. Balconies, verandas and raised platforms are not part of the normal rear-extension permitted development route.",
+        "materials_rules": "External materials should be similar in appearance to the existing house so the extension reads as a planned addition rather than an unrelated rear block."
+      },
+      "restrictions": {
+        "conservation_area": "Extensions in a conservation area often need a tighter design and siting assessment, especially on visible elevations or where the scheme would alter roof form, frontage or the rhythm of the street.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the usual householder fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    },
+    {
+      "town_slug": "isles-of-scilly",
+      "last_verified": "2026-01",
+      "permitted_development": "The usual England route for a rear extension is Class A permitted development, but it only works where the scheme stays within the rear depth, height and site-coverage limits for the original house. Bigger single-storey extensions rely on prior approval.",
+      "rules": {
+        "height_rules": "Height control bites hardest at the eaves near the fence. Single-storey rear work should stay within 4m overall and 3m eaves where it comes within 2m of a boundary, while two-storey work must stay below the existing roof and eaves line.",
+        "depth_rules": "Standard single-storey rear extensions can usually project up to 3m on a semi or terraced house and 4m on a detached house, with the larger home extension prior-approval route going further in some cases. Two-storey rear extensions are much tighter and should normally project no more than 3m.",
+        "boundary_rules": "Running close to the fence quickly triggers the 3m eaves rule, and upper-storey rear windows need enough distance from the back boundary to avoid overbearing and overlooking.",
+        "roof_rules": "The roof should remain subordinate to the original house. Balconies, verandas and raised platforms are not part of the normal rear-extension permitted development route.",
+        "materials_rules": "Match brick, render, tiles and openings closely to the existing house so the rear extension feels integrated rather than tacked on."
+      },
+      "restrictions": {
+        "conservation_area": "Extensions in a conservation area often need a tighter design and siting assessment, especially on visible elevations or where the scheme would alter roof form, frontage or the rhythm of the street.",
+        "listed_building": "Do not rely on standard householder permitted development rights for a listed building. Listed building consent is usually required for works affecting character, and planning permission may also be needed.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove the usual householder fallback route in selected streets or heritage areas, so check the property's designation before relying on permitted development."
+      }
+    }
+  ]
+}

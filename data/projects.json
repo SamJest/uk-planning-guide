@@ -1,0 +1,201 @@
+{
+  "projects": [
+    {
+      "slug": "garden-rooms",
+      "title": "Garden Room Planning Permission",
+      "short_name": "Garden Room",
+      "type": "outbuilding",
+      "description": "Permitted development rules, height limits and local restrictions for garden rooms and outbuildings."
+    },
+    {
+      "slug": "loft-conversions",
+      "title": "Loft Conversion Planning Permission",
+      "short_name": "Loft Conversion",
+      "type": "loft",
+      "description": "Permitted development rules, volume limits and local planning restrictions for loft conversions."
+    },
+    {
+      "slug": "dormer-extensions",
+      "title": "Dormer Extension Planning Permission",
+      "short_name": "Dormer Extension",
+      "type": "loft",
+      "description": "Permitted development rules, volume limits and local planning restrictions for dormer extensions."
+    },
+    {
+      "slug": "house-extensions",
+      "title": "House Extension Planning Permission",
+      "short_name": "House Extension",
+      "type": "extension",
+      "description": "Permitted development rules, size limits and local planning restrictions for house extensions."
+    },
+    {
+      "slug": "single-storey-extensions",
+      "title": "Single Storey Extension Planning Permission",
+      "short_name": "Single Storey Extension",
+      "type": "extension",
+      "description": "Permitted development rules, depth limits and local planning restrictions for single storey house extensions."
+    },
+    {
+      "slug": "two-storey-extensions",
+      "title": "Two Storey Extension Planning Permission",
+      "short_name": "Two Storey Extension",
+      "type": "extension",
+      "description": "Permitted development rules, height and depth limits and local planning restrictions for two storey house extensions."
+    },
+    {
+      "slug": "rear-extensions",
+      "title": "Rear Extension Planning Permission",
+      "short_name": "Rear Extension",
+      "type": "extension",
+      "description": "Permitted development rules, depth limits and local planning restrictions for rear extensions."
+    },
+    {
+      "slug": "side-extensions",
+      "title": "Side Extension Planning Permission",
+      "short_name": "Side Extension",
+      "type": "extension",
+      "description": "Permitted development rules, width limits and local planning restrictions for side extensions."
+    },
+    {
+      "slug": "wraparound-extensions",
+      "title": "Wraparound Extension Planning Permission",
+      "short_name": "Wraparound Extension",
+      "type": "extension",
+      "description": "Permitted development rules, size limits and local planning restrictions for wraparound extensions."
+    },
+    {
+      "slug": "outbuildings",
+      "title": "Outbuildings Planning Permission",
+      "short_name": "Outbuildings",
+      "type": "outbuilding",
+      "description": "Permitted development rules, height limits and local planning restrictions for sheds, garages and other outbuildings."
+    },
+    {
+      "slug": "garages",
+      "title": "Garage Planning Permission",
+      "short_name": "Garage",
+      "type": "outbuilding",
+      "description": "Planning permission rules, permitted development limits and local restrictions for detached garages and standalone domestic garages."
+    },
+    {
+      "slug": "garage-conversions",
+      "title": "Garage Conversion Planning Permission",
+      "short_name": "Garage Conversion",
+      "type": "conversion",
+      "description": "Permitted development rules and local planning restrictions for converting garages into living space."
+    },
+    {
+      "slug": "porches",
+      "title": "Porch Planning Permission",
+      "short_name": "Porch",
+      "type": "extension",
+      "description": "Permitted development rules, size limits and local planning restrictions for building a porch."
+    },
+
+    {
+      "slug": "basement-conversions",
+      "title": "Basement Conversion Planning Permission",
+      "short_name": "Basement Conversion",
+      "type": "conversion",
+      "description": "Permitted development rules and planning restrictions for converting or extending basements."
+    },
+    {
+      "slug": "annexes",
+      "title": "Annexe Planning Permission",
+      "short_name": "Annexe",
+      "type": "outbuilding",
+      "description": "Permitted development rules and planning restrictions for building a granny annexe or self-contained accommodation."
+    },
+    {
+      "slug": "driveways",
+      "title": "Driveway Planning Permission",
+      "short_name": "Driveway",
+      "type": "external",
+      "description": "Permitted development rules and planning restrictions for creating or replacing driveways and front garden parking."
+    },
+    {
+      "slug": "hard-surfaces",
+      "title": "Hard Surfacing Planning Permission",
+      "short_name": "Hard Surfacing",
+      "type": "external",
+      "description": "Planning permission rules for front gardens, hard surfacing, paving and non-permeable driveway-style surfacing."
+    },
+    {
+      "slug": "dropped-kerbs",
+      "title": "Dropped Kerb Planning Permission",
+      "short_name": "Dropped Kerb",
+      "type": "external",
+      "description": "Planning permission and highways approval rules for installing a dropped kerb for vehicle access."
+    },
+    {
+      "slug": "fences-and-walls",
+      "title": "Fence and Wall Planning Permission",
+      "short_name": "Fences and Walls",
+      "type": "external",
+      "description": "Permitted development rules and height limits for fences, gates and boundary walls."
+    },
+    {
+      "slug": "roof-lights",
+      "title": "Rooflight Planning Permission",
+      "short_name": "Rooflight",
+      "type": "loft",
+      "description": "Permitted development rules and planning restrictions for installing rooflights or Velux windows."
+    },
+    {
+      "slug": "windows-and-doors",
+      "title": "Windows and Doors Planning Permission",
+      "short_name": "Windows and Doors",
+      "type": "external",
+      "description": "Planning permission rules for replacement windows, new openings, doors and appearance changes to a home."
+    },
+    {
+      "slug": "solar-panels",
+      "title": "Solar Panel Planning Permission",
+      "short_name": "Solar Panels",
+      "type": "microgeneration",
+      "description": "Planning permission rules, permitted development checks and local restrictions for roof and wall-mounted solar panels."
+    },
+    {
+      "slug": "heat-pumps",
+      "title": "Heat Pump Planning Permission",
+      "short_name": "Heat Pump",
+      "type": "microgeneration",
+      "description": "Planning permission rules, permitted development checks and local restrictions for air source heat pumps and similar domestic units."
+    },
+    {
+      "slug": "change-of-use",
+      "title": "Change of Use Planning Permission",
+      "short_name": "Change of Use",
+      "type": "change-of-use",
+      "description": "Planning permission rules for changing the use class of a property or building."
+    },
+    {
+      "slug": "hmos",
+      "title": "HMO Planning Permission",
+      "short_name": "HMO",
+      "type": "change-of-use",
+      "description": "Planning permission rules, Article 4 risks and change-of-use checks for houses in multiple occupation."
+    },
+    {
+      "slug": "agricultural-buildings",
+      "title": "Agricultural Building Planning Permission",
+      "short_name": "Agricultural Building",
+      "type": "agricultural",
+      "description": "Permitted development rules and planning restrictions for agricultural buildings and farm structures."
+    },
+    {
+      "slug": "temporary-buildings",
+      "title": "Temporary Building Planning Permission",
+      "short_name": "Temporary Building",
+      "type": "temporary",
+      "description": "Planning permission rules for temporary buildings, structures and site offices."
+    },
+    {
+      "slug": "demolition",
+      "title": "Demolition Planning Permission",
+      "short_name": "Demolition",
+      "type": "demolition",
+      "description": "Planning permission and prior approval requirements for demolishing buildings or structures."
+    }
+  ]
+}

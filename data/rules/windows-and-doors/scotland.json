@@ -1,0 +1,593 @@
+{
+  "defaults": {
+    "last_verified": "2026-03",
+    "permitted_development": "Across Scotland, window and door work is usually simplest on the planning permission route when it stays close to like-for-like replacement and does not materially alter the size, position, appearance or privacy impact of existing openings. The route is usually strongest when the joinery change still reads as part of the original elevation rather than a wider redesign of the frontage.",
+    "rules": {
+      "height_rules": "Changing the height of openings or creating new upper-level windows is usually much more sensitive than routine replacement joinery.",
+      "depth_rules": "Projection, reveal depth and grouped opening changes can affect whether the work still reads as simple replacement rather than an elevation redesign.",
+      "boundary_rules": "Side-facing upper-floor windows, new front openings and privacy impacts often become the key local pressure points for this kind of work.",
+      "roof_rules": "If the project includes rooflights or roof-facing windows, it should be checked against the separate roof alteration route rather than treated as standard joinery replacement.",
+      "materials_rules": "Frame profile, colour, material and detailing can all matter where the building has a stronger architectural rhythm or a more sensitive setting."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "aberdeen-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Aberdeen City, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Aberdeen City, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Aberdeen City feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Aberdeen City.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Aberdeen City should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Aberdeen City where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Aberdeen City often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Aberdeen City usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "aberdeenshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Aberdeenshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Aberdeenshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Aberdeenshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Aberdeenshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Aberdeenshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Aberdeenshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Aberdeenshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Aberdeenshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "angus",
+      "last_verified": "2026-03",
+      "permitted_development": "In Angus, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Angus, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Angus feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Angus.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Angus should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Angus where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Angus often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Angus usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "argyll-and-bute",
+      "last_verified": "2026-03",
+      "permitted_development": "In Argyll and Bute, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Argyll and Bute, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Argyll and Bute feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Argyll and Bute.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Argyll and Bute should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Argyll and Bute where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Argyll and Bute often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Argyll and Bute usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "city-of-edinburgh",
+      "last_verified": "2026-03",
+      "permitted_development": "In City of Edinburgh, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In City of Edinburgh, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in City of Edinburgh feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in City of Edinburgh.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in City of Edinburgh should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in City of Edinburgh where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within City of Edinburgh often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in City of Edinburgh usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "clackmannanshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Clackmannanshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Clackmannanshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Clackmannanshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Clackmannanshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Clackmannanshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Clackmannanshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Clackmannanshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Clackmannanshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "comhairle-nan-eilean-siar",
+      "last_verified": "2026-03",
+      "permitted_development": "In Comhairle nan Eilean Siar, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Comhairle nan Eilean Siar, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Comhairle nan Eilean Siar feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Comhairle nan Eilean Siar.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Comhairle nan Eilean Siar should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Comhairle nan Eilean Siar where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Comhairle nan Eilean Siar often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Comhairle nan Eilean Siar usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "dumfries-and-galloway",
+      "last_verified": "2026-03",
+      "permitted_development": "In Dumfries and Galloway, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Dumfries and Galloway, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Dumfries and Galloway feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Dumfries and Galloway.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Dumfries and Galloway should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Dumfries and Galloway where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Dumfries and Galloway often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Dumfries and Galloway usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "dundee-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Dundee City, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Dundee City, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Dundee City feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Dundee City.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Dundee City should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Dundee City where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Dundee City often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Dundee City usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "east-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Ayrshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In East Ayrshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in East Ayrshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in East Ayrshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in East Ayrshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in East Ayrshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within East Ayrshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in East Ayrshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "east-dunbartonshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Dunbartonshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In East Dunbartonshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in East Dunbartonshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in East Dunbartonshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in East Dunbartonshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in East Dunbartonshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within East Dunbartonshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in East Dunbartonshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "east-lothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Lothian, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In East Lothian, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in East Lothian feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in East Lothian.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in East Lothian should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in East Lothian where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within East Lothian often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in East Lothian usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "east-renfrewshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In East Renfrewshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In East Renfrewshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in East Renfrewshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in East Renfrewshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in East Renfrewshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in East Renfrewshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within East Renfrewshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in East Renfrewshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "falkirk",
+      "last_verified": "2026-03",
+      "permitted_development": "In Falkirk, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Falkirk, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Falkirk feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Falkirk.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Falkirk should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Falkirk where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Falkirk often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Falkirk usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "fife",
+      "last_verified": "2026-03",
+      "permitted_development": "In Fife, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Fife, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Fife feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Fife.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Fife should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Fife where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Fife often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Fife usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "glasgow-city",
+      "last_verified": "2026-03",
+      "permitted_development": "In Glasgow City, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Glasgow City, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Glasgow City feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Glasgow City.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Glasgow City should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Glasgow City where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Glasgow City often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Glasgow City usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "highland",
+      "last_verified": "2026-03",
+      "permitted_development": "In Highland, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Highland, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Highland feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Highland.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Highland should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Highland where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Highland often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Highland usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "inverclyde",
+      "last_verified": "2026-03",
+      "permitted_development": "In Inverclyde, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Inverclyde, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Inverclyde feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Inverclyde.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Inverclyde should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Inverclyde where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Inverclyde often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Inverclyde usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "midlothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In Midlothian, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Midlothian, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Midlothian feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Midlothian.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Midlothian should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Midlothian where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Midlothian often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Midlothian usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "moray",
+      "last_verified": "2026-03",
+      "permitted_development": "In Moray, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Moray, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Moray feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Moray.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Moray should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Moray where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Moray often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Moray usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "north-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In North Ayrshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In North Ayrshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in North Ayrshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in North Ayrshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in North Ayrshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in North Ayrshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within North Ayrshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in North Ayrshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "north-lanarkshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In North Lanarkshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In North Lanarkshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in North Lanarkshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in North Lanarkshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in North Lanarkshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in North Lanarkshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within North Lanarkshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in North Lanarkshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "orkney-islands",
+      "last_verified": "2026-03",
+      "permitted_development": "In Orkney Islands, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Orkney Islands, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Orkney Islands feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Orkney Islands.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Orkney Islands should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Orkney Islands where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Orkney Islands often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Orkney Islands usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "perth-and-kinross",
+      "last_verified": "2026-03",
+      "permitted_development": "In Perth and Kinross, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Perth and Kinross, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Perth and Kinross feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Perth and Kinross.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Perth and Kinross should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Perth and Kinross where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Perth and Kinross often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Perth and Kinross usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "renfrewshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In Renfrewshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In Renfrewshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Renfrewshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Renfrewshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Renfrewshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Renfrewshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Renfrewshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Renfrewshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "scottish-borders",
+      "last_verified": "2026-03",
+      "permitted_development": "In Scottish Borders, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Scottish Borders, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Scottish Borders feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Scottish Borders.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Scottish Borders should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Scottish Borders where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Scottish Borders often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Scottish Borders usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "shetland-islands",
+      "last_verified": "2026-03",
+      "permitted_development": "In Shetland Islands, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In Shetland Islands, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Shetland Islands feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Shetland Islands.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Shetland Islands should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Shetland Islands where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Shetland Islands often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Shetland Islands usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "south-ayrshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In South Ayrshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In South Ayrshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in South Ayrshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in South Ayrshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in South Ayrshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in South Ayrshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within South Ayrshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in South Ayrshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "south-lanarkshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In South Lanarkshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In South Lanarkshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in South Lanarkshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in South Lanarkshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in South Lanarkshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in South Lanarkshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within South Lanarkshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in South Lanarkshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "stirling",
+      "last_verified": "2026-03",
+      "permitted_development": "In Stirling, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Stirling, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Stirling feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Stirling.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Stirling should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Stirling where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Stirling often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Stirling usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "west-dunbartonshire",
+      "last_verified": "2026-03",
+      "permitted_development": "In West Dunbartonshire, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. Schemes are normally safer where proportions, frame profile and visible elevations are treated as one appearance question rather than separate product choices.",
+      "rules": {
+        "height_rules": "In West Dunbartonshire, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in West Dunbartonshire feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in West Dunbartonshire.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in West Dunbartonshire should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in West Dunbartonshire where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within West Dunbartonshire often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in West Dunbartonshire usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "west-lothian",
+      "last_verified": "2026-03",
+      "permitted_development": "In West Lothian, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. A like-for-like replacement rarely causes the same planning pressure as grouped opening changes, taller glazing or a visibly reworked entrance arrangement.",
+      "rules": {
+        "height_rules": "In West Lothian, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in West Lothian feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in West Lothian.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in West Lothian should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in West Lothian where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within West Lothian often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in West Lothian usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "cairngorms-national-park",
+      "last_verified": "2026-03",
+      "permitted_development": "In Cairngorms National Park, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Cairngorms National Park, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Cairngorms National Park feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Cairngorms National Park.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Cairngorms National Park should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Cairngorms National Park where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Cairngorms National Park often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Cairngorms National Park usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    },
+    {
+      "town_slug": "loch-lomond-and-the-trossachs-national-park",
+      "last_verified": "2026-03",
+      "permitted_development": "In Loch Lomond and The Trossachs National Park, window and door work is usually easiest to keep off the formal planning permission route when it stays close to like-for-like replacement and avoids new openings, stronger privacy impacts or a material change to the elevation. The route usually gets harder when one joinery change becomes a wider redesign of the frontage or introduces a new overlooking point toward neighbours.",
+      "rules": {
+        "height_rules": "In Loch Lomond and The Trossachs National Park, new or enlarged openings that change the height of windows and doors are usually more sensitive than straightforward replacement joinery, especially at upper levels or on visible elevations.",
+        "depth_rules": "Projection, bay-style build-outs and grouped opening changes can make window and door work in Loch Lomond and The Trossachs National Park feel more like an elevation redesign than a simple replacement.",
+        "boundary_rules": "Privacy, side-facing upper-floor windows and visually assertive front-elevation changes are common local pressure points in Loch Lomond and The Trossachs National Park.",
+        "roof_rules": "Rooflights or roof-facing openings linked to a joinery project in Loch Lomond and The Trossachs National Park should usually be checked against the separate roof alteration route as well.",
+        "materials_rules": "Frame proportions, colour, material choice and overall appearance usually matter most in Loch Lomond and The Trossachs National Park where the building or street has a stronger character that the new joinery should still respect."
+      },
+      "restrictions": {
+        "conservation_area": "Window and door changes in conservation areas within Loch Lomond and The Trossachs National Park often face tighter design control where they affect visible elevations or traditional detailing.",
+        "listed_building": "Listed buildings in Loch Lomond and The Trossachs National Park usually need listed building consent or a more careful heritage review before window and door changes are assumed to be straightforward.",
+        "article4_notes": "Article 4 directions can matter for visible joinery changes in some areas, particularly where character-based controls remove the simpler fallback route."
+      }
+    }
+  ]
+}

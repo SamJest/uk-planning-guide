@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Cornwall, boundary walls, fences and gates are usually permitted development if they stay no higher than 1 metre next to a highway used by vehicles and no higher than 2 metres elsewhere, or if an already-higher boundary is altered without increasing its height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+    "rules": {
+      "height_rules": "Across Cornwall, for ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+      "depth_rules": "Across Cornwall, means of enclosure are not controlled by an extension-style depth formula. Height, siting and visual effect do the main planning work.",
+      "boundary_rules": "Across Cornwall, the same boundary treatment can be acceptable in one position and need permission in another once it fronts a road or sits on a prominent corner.",
+      "roof_rules": "Across Cornwall, ordinary boundary rules do not create a roof allowance. Gate canopies or covered entrance features should be checked separately.",
+      "materials_rules": "Across Cornwall, national planning rules focus on height and siting rather than a fixed material list, but visible front boundaries should still use finishes that suit the house and street. Heritage areas are more demanding on detail."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "cornwall",
+      "last_verified": "2026-04",
+      "permitted_development": "Boundary walls, fences and gates are usually permitted development if they stay no higher than 1 metre next to a highway used by vehicles and no higher than 2 metres elsewhere, or if an already-higher boundary is altered without increasing its height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Means of enclosure are not controlled by an extension-style depth formula. Height, siting and visual effect do the main planning work.",
+        "boundary_rules": "The same boundary treatment can be acceptable in one position and need permission in another once it fronts a road or sits on a prominent corner.",
+        "roof_rules": "Ordinary boundary rules do not create a roof allowance. Gate canopies or covered entrance features should be checked separately.",
+        "materials_rules": "National planning rules focus on height and siting rather than a fixed material list, but visible front boundaries should still use finishes that suit the house and street. Heritage areas are more demanding on detail."
+      },
+      "restrictions": {
+        "conservation_area": "A fence or wall in a conservation area may need more than a simple height check, especially if demolition of an older boundary is part of the scheme.",
+        "listed_building": "Boundary works to or around a listed building can require listed building consent, especially where historic walls, railings, piers or gates are being altered or removed.",
+        "article4_applies": false,
+        "article4_notes": "Do not rely on the normal 1 metre or 2 metre rule where Article 4 controls or earlier planning conditions remove those householder rights."
+      }
+    },
+    {
+      "town_slug": "isles-of-scilly",
+      "last_verified": "2026-04",
+      "permitted_development": "Boundary walls, fences and gates are usually permitted development if they stay no higher than 1 metre next to a highway used by vehicles and no higher than 2 metres elsewhere, or if an already-higher boundary is altered without increasing its height. That fallback can disappear where an Article 4 direction or an old planning condition has removed the normal householder right.",
+      "rules": {
+        "height_rules": "For ordinary houses, most fence and wall questions come back to the same split between the 1 metre highway-side limit and the 2 metre limit elsewhere.",
+        "depth_rules": "Boundary can still need permission because of its position and visual impact even though there is no formal depth limit.",
+        "boundary_rules": "Front and corner boundaries usually face the tightest control. Rear boundaries are generally less constrained than road-facing ones.",
+        "roof_rules": "Canopies or roofed gate features need their own planning check.",
+        "materials_rules": "National planning rules focus on height and siting rather than a fixed material list, but visible front boundaries should still use finishes that suit the house and street. Heritage areas are more demanding on detail."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status can tighten the position for boundary works, and separate consent may be needed to demolish an existing wall, fence or gate that contributes to the area's character.",
+        "listed_building": "Listed building controls can apply to fences, gates and walls where they form part of the building's curtilage or historic setting.",
+        "article4_applies": false,
+        "article4_notes": "Do not rely on the normal 1 metre or 2 metre rule where Article 4 controls or earlier planning conditions remove those householder rights."
+      }
+    }
+  ]
+}

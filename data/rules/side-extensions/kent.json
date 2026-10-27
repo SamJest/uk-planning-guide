@@ -1,0 +1,231 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "Across Kent, a side extension normally only falls within Class A if it is single storey, stays behind the principal elevation and does not exceed half the width of the original house. Width, parking loss and the effect of the flank wall usually decide whether it still reads as a modest addition.",
+    "rules": {
+      "height_rules": "Across Kent, the usual side-extension fallback is an overall height of up to 4m, with eaves at or below 3m where any part sits within 2m of a boundary. Keeping the side roof low is usually what stops the flank wall becoming visually heavy.",
+      "depth_rules": "There is no separate side-extension depth allowance in the way people often expect. The real test is whether the addition stays clearly subordinate to the original house and does not turn the side elevation into an oversized new wing.",
+      "boundary_rules": "Across Kent, the key boundary checks are width, side-gap character, neighbour outlook and whether the addition creates an overbearing flank wall from the street or adjoining land.",
+      "roof_rules": "Keep the roof clearly secondary to the main house. A simple, low side roof is usually easier to defend than a taller form that competes with the original ridgeline.",
+      "materials_rules": "Materials should match or sit very closely with the existing house so the side addition reads as part of the dwelling rather than a bolt-on block."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "ashford",
+      "last_verified": "2026-01",
+      "permitted_development": "A side extension normally stays within permitted development only if it is single storey, clearly behind the principal elevation and comfortably within half the original-house width. In Ashford, the deciding issue is often whether any side gap still reads as a real break between buildings rather than a narrow strip beside a dominant wall.",
+      "rules": {
+        "height_rules": "The normal side-extension limit remains 4m overall, with eaves at or below 3m wherever any part is within 2m of a boundary. In Ashford, tight spacing means low eaves are often more important than the maximum overall height when neighbour impact is judged on the ground.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "For side extensions, the boundary test is usually about width, remaining side gap and whether the new flank wall feels too assertive from next door or from the street. In Ashford, narrow separations make outlook and dominance the live issues, especially where neighbouring windows, paths or patios sit close to the side wall.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes visible side work more sensitive, especially where openness between buildings forms part of local character.",
+        "listed_building": "If the house is listed, side work should be treated as a heritage proposal first, not as routine permitted development.",
+        "article4_applies": true,
+        "article4_notes": "Local Article 4 restrictions are already in play in this authority, so do not rely on the normal side-extension route without checking the precise property status."
+      }
+    },
+    {
+      "town_slug": "canterbury",
+      "last_verified": "2026-01",
+      "permitted_development": "Class A only covers a side extension if it remains single storey, sits behind the principal elevation and stays within the half-width test. In Canterbury, exposed side plots and corner positions make the street-scene test sharper, so even modest flank work has to stay visually quiet.",
+      "rules": {
+        "height_rules": "Height is usually straightforward on paper: up to 4m overall, and no more than 3m to the eaves where the extension sits close to the boundary. In Canterbury, exposed side elevations carry longer public views, so roof pitch and apparent shoulder height matter just as much as the measured maximum.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "At the boundary, the question is rarely just measurement; it is whether the side wall, width and siting still leave the addition looking subordinate. In Canterbury, the boundary test is often about how much openness is lost at the side of the plot once the extension becomes publicly visible.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "In a conservation area, even a compliant side extension can fail if it closes an important side gap or adds a clumsy flank wall to the street scene.",
+        "listed_building": "If the house is listed, side work should be treated as a heritage proposal first, not as routine permitted development.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    },
+    {
+      "town_slug": "dartford",
+      "last_verified": "2026-01",
+      "permitted_development": "Class A only covers a side extension if it remains single storey, sits behind the principal elevation and stays within the half-width test. In Dartford, the practical sticking point is often whether the extension keeps a workable side route and avoids turning parking or garage use into a squeeze.",
+      "rules": {
+        "height_rules": "Height is usually straightforward on paper: up to 4m overall, and no more than 3m to the eaves where the extension sits close to the boundary. In Dartford, roof restraint at the flank edge often counts for more than headline height because that is what stops the side wall feeling abrupt.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "At the boundary, the question is rarely just measurement; it is whether the side wall, width and siting still leave the addition looking subordinate. In Dartford, side-boundary acceptability usually depends on leaving a usable route beside the house rather than just a nominal strip of land.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes visible side work more sensitive, especially where openness between buildings forms part of local character.",
+        "listed_building": "If the house is listed, side work should be treated as a heritage proposal first, not as routine permitted development.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    },
+    {
+      "town_slug": "dover",
+      "last_verified": "2026-01",
+      "permitted_development": "Class A only covers a side extension if it remains single storey, sits behind the principal elevation and stays within the half-width test. In Dover, exposed side plots and corner positions make the street-scene test sharper, so even modest flank work has to stay visually quiet.",
+      "rules": {
+        "height_rules": "The normal side-extension limit remains 4m overall, with eaves at or below 3m wherever any part is within 2m of a boundary. In Dover, a visible side elevation makes the roof profile part of the street scene, so bulk control matters as much as absolute height.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "Boundary issues for a side extension usually come down to side-gap character, neighbour outlook and whether the new wall reads as a hard edge on the plot. In Dover, the boundary test is often about how much openness is lost at the side of the plot once the extension becomes publicly visible.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "If the building in Dover is in a conservation area, the side addition still has to protect established gaps, visible flank elevations and the wider rhythm of the street.",
+        "listed_building": "For a listed building, do not assume the normal householder fallback applies. Works affecting character usually need listed building consent and may also need planning permission.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    },
+    {
+      "town_slug": "folkestone-and-hythe",
+      "last_verified": "2026-01",
+      "permitted_development": "A side extension normally stays within permitted development only if it is single storey, clearly behind the principal elevation and comfortably within half the original-house width. In Folkestone and Hythe, exposed side plots and corner positions make the street-scene test sharper, so even modest flank work has to stay visually quiet.",
+      "rules": {
+        "height_rules": "The normal side-extension limit remains 4m overall, with eaves at or below 3m wherever any part is within 2m of a boundary. In Folkestone and Hythe, once the side roof is publicly exposed, the shape and lift of the roof can matter as much as whether the scheme technically stays below 4m.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "Boundary issues for a side extension usually come down to side-gap character, neighbour outlook and whether the new wall reads as a hard edge on the plot. In Folkestone and Hythe, even where neighbour distance is acceptable, a side extension can still fail the boundary test if it closes down an open, visible edge.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes visible side work more sensitive, especially where openness between buildings forms part of local character.",
+        "listed_building": "If the house is listed, side work should be treated as a heritage proposal first, not as routine permitted development.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    },
+    {
+      "town_slug": "gravesham",
+      "last_verified": "2026-01",
+      "permitted_development": "The usual side-extension fallback is still Class A, but only where the addition is single storey, behind the main front wall and no more than half the width of the original house. In Gravesham, proposals usually start to unravel when the flank addition wipes out usable side access or leaves parking and garage arrangements working by inches rather than properly.",
+      "rules": {
+        "height_rules": "Height is usually straightforward on paper: up to 4m overall, and no more than 3m to the eaves where the extension sits close to the boundary. In Gravesham, the safest way to control bulk is usually to keep the eaves disciplined so the side wall does not overpower access or parking beside it.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "Boundary issues for a side extension usually come down to side-gap character, neighbour outlook and whether the new wall reads as a hard edge on the plot. In Gravesham, side-boundary acceptability usually depends on leaving a usable route beside the house rather than just a nominal strip of land.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes visible side work more sensitive, especially where openness between buildings forms part of local character.",
+        "listed_building": "If the house is listed, side work should be treated as a heritage proposal first, not as routine permitted development.",
+        "article4_applies": false,
+        "article4_notes": "Do not assume the Class A fallback is universal: an Article 4 direction can still disapply it for the exact property or street."
+      }
+    },
+    {
+      "town_slug": "maidstone",
+      "last_verified": "2026-01",
+      "permitted_development": "Class A only covers a side extension if it remains single storey, sits behind the principal elevation and stays within the half-width test. In Maidstone, the deciding issue is often whether any side gap still reads as a real break between buildings rather than a narrow strip beside a dominant wall.",
+      "rules": {
+        "height_rules": "For height, the standard fallback is still 4m overall, with the familiar 3m eaves limit applying when the side wall comes within 2m of a boundary. In Maidstone, tight spacing means low eaves are often more important than the maximum overall height when neighbour impact is judged on the ground.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "Boundary issues for a side extension usually come down to side-gap character, neighbour outlook and whether the new wall reads as a hard edge on the plot. In Maidstone, the boundary question is usually one of visual pressure: does the new flank wall leave next door feeling hemmed in?",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "If the building in Maidstone is in a conservation area, the side addition still has to protect established gaps, visible flank elevations and the wider rhythm of the street.",
+        "listed_building": "For a listed building, do not assume the normal householder fallback applies. Works affecting character usually need listed building consent and may also need planning permission.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    },
+    {
+      "town_slug": "sevenoaks",
+      "last_verified": "2026-01",
+      "permitted_development": "A side extension normally stays within permitted development only if it is single storey, clearly behind the principal elevation and comfortably within half the original-house width. In Sevenoaks, proposals usually start to unravel when the flank addition wipes out usable side access or leaves parking and garage arrangements working by inches rather than properly.",
+      "rules": {
+        "height_rules": "The normal side-extension limit remains 4m overall, with eaves at or below 3m wherever any part is within 2m of a boundary. In Sevenoaks, roof restraint at the flank edge often counts for more than headline height because that is what stops the side wall feeling abrupt.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "At the boundary, the question is rarely just measurement; it is whether the side wall, width and siting still leave the addition looking subordinate. In Sevenoaks, the practical boundary test is usually whether there is still workable side access and whether the new wall avoids turning the plot edge into a hard barrier.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes visible side work more sensitive, especially where openness between buildings forms part of local character.",
+        "listed_building": "For a listed building, do not assume the normal householder fallback applies. Works affecting character usually need listed building consent and may also need planning permission.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    },
+    {
+      "town_slug": "swale",
+      "last_verified": "2026-01",
+      "permitted_development": "Class A only covers a side extension if it remains single storey, sits behind the principal elevation and stays within the half-width test. In Swale, open side aspects mean a flank addition is read more publicly than on an enclosed suburban plot, which raises the design bar quickly.",
+      "rules": {
+        "height_rules": "Height is usually straightforward on paper: up to 4m overall, and no more than 3m to the eaves where the extension sits close to the boundary. In Swale, once the side roof is publicly exposed, the shape and lift of the roof can matter as much as whether the scheme technically stays below 4m.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "At the boundary, the question is rarely just measurement; it is whether the side wall, width and siting still leave the addition looking subordinate. In Swale, openness at the side boundary and visibility from the street often matter just as much as raw distance to the fence.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "If the building in Swale is in a conservation area, the side addition still has to protect established gaps, visible flank elevations and the wider rhythm of the street.",
+        "listed_building": "Listed buildings sit outside the ordinary side-extension shorthand: once character is affected, listed building consent is usually required and planning permission may be as well.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    },
+    {
+      "town_slug": "thanet",
+      "last_verified": "2026-01",
+      "permitted_development": "The usual side-extension fallback is still Class A, but only where the addition is single storey, behind the main front wall and no more than half the width of the original house. In Thanet, side work on visible or corner plots tends to be judged hard because the addition is part of the public street scene, not just a private side gap.",
+      "rules": {
+        "height_rules": "The normal side-extension limit remains 4m overall, with eaves at or below 3m wherever any part is within 2m of a boundary. In Thanet, exposed side elevations carry longer public views, so roof pitch and apparent shoulder height matter just as much as the measured maximum.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "At the boundary, the question is rarely just measurement; it is whether the side wall, width and siting still leave the addition looking subordinate. In Thanet, openness at the side boundary and visibility from the street often matter just as much as raw distance to the fence.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "If the building in Thanet is in a conservation area, the side addition still has to protect established gaps, visible flank elevations and the wider rhythm of the street.",
+        "listed_building": "If the house is listed, side work should be treated as a heritage proposal first, not as routine permitted development.",
+        "article4_applies": false,
+        "article4_notes": "Even where no Article 4 control is flagged here, local directions can still withdraw side-extension rights on selected properties or areas."
+      }
+    },
+    {
+      "town_slug": "tonbridge-and-malling",
+      "last_verified": "2026-01",
+      "permitted_development": "The usual side-extension fallback is still Class A, but only where the addition is single storey, behind the main front wall and no more than half the width of the original house. In Tonbridge and Malling, measured compliance is rarely enough if the addition closes down access or makes the parking layout look forced and contrived.",
+      "rules": {
+        "height_rules": "The normal side-extension limit remains 4m overall, with eaves at or below 3m wherever any part is within 2m of a boundary. In Tonbridge and Malling, the safest way to control bulk is usually to keep the eaves disciplined so the side wall does not overpower access or parking beside it.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "For side extensions, the boundary test is usually about width, remaining side gap and whether the new flank wall feels too assertive from next door or from the street. In Tonbridge and Malling, boundaries tend to become the issue when access, garage use or parking circulation is squeezed into something that only works on paper.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation area status usually makes visible side work more sensitive, especially where openness between buildings forms part of local character.",
+        "listed_building": "For a listed building, do not assume the normal householder fallback applies. Works affecting character usually need listed building consent and may also need planning permission.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    },
+    {
+      "town_slug": "tunbridge-wells",
+      "last_verified": "2026-01",
+      "permitted_development": "A side extension normally stays within permitted development only if it is single storey, clearly behind the principal elevation and comfortably within half the original-house width. In Tunbridge Wells, proposals usually start to unravel when the flank addition wipes out usable side access or leaves parking and garage arrangements working by inches rather than properly.",
+      "rules": {
+        "height_rules": "The normal side-extension limit remains 4m overall, with eaves at or below 3m wherever any part is within 2m of a boundary. In Tunbridge Wells, the safest way to control bulk is usually to keep the eaves disciplined so the side wall does not overpower access or parking beside it.",
+        "depth_rules": "Depth is judged less by a fixed metre rule than by whether the extension remains clearly subsidiary to the original side wall and does not read as an overlarge flank addition.",
+        "boundary_rules": "Boundary issues for a side extension usually come down to side-gap character, neighbour outlook and whether the new wall reads as a hard edge on the plot. In Tunbridge Wells, the practical boundary test is usually whether there is still workable side access and whether the new wall avoids turning the plot edge into a hard barrier.",
+        "roof_rules": "The roof should stay subordinate to the house and avoid creating a bulky flank mass. On taller side work, matching roof pitch and keeping the addition back from the front are usually critical design points.",
+        "materials_rules": "Use materials that tie the extension back to the original house, especially on prominent flank walls that are visible from the street. On exposed coastal sites, roof profile, external finish and visual impact can carry more weight than on a routine suburban plot."
+      },
+      "restrictions": {
+        "conservation_area": "If the building in Tunbridge Wells is in a conservation area, the side addition still has to protect established gaps, visible flank elevations and the wider rhythm of the street.",
+        "listed_building": "For a listed building, do not assume the normal householder fallback applies. Works affecting character usually need listed building consent and may also need planning permission.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can still remove the ordinary householder fallback on specific streets or heritage areas, so the exact property designation should be checked before relying on Class A."
+      }
+    }
+  ]
+}

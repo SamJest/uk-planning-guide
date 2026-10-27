@@ -23,7 +23,9 @@ def save(path, rows, fields):
 
 def audit(root, output, revision=None):
     output.mkdir(parents=True, exist_ok=True)
-    files = sorted(p for p in root.rglob('*.html') if '.git' not in p.parts and 'seo-rebuild-pack' not in p.parts)
+    # Source templates, dependencies and isolated candidates are not production routes.
+    excluded = {'.git','seo-rebuild-pack','node_modules','artifacts','templates','tests','output','components','reports','backend'}
+    files = sorted(p for p in root.rglob('*.html') if not (set(p.relative_to(root).parts) & excluded))
     urls = {BASE + route(p.relative_to(root)) for p in files}
     sitemap = Counter()
     shard_errors = []

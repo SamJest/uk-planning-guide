@@ -1,0 +1,34 @@
+{
+  "jurisdiction": "scotland",
+  "project_type": "extension",
+  "verification": "source_checked",
+  "checked_at": "2026-09-11",
+  "official_sources": [
+    {
+      "url": "https://www.gov.scot/publications/circular-1-2024-householder-permitted-development-rights/pages/4/",
+      "title": "Scottish Government: Circular 1/2024, householder permitted development",
+      "checked_at": "2026-09-11"
+    }
+  ],
+  "permitted_development": "Scotland uses Class 1A for single-storey ground-floor extensions and Class 1B for ground-floor extensions with more than one storey.",
+  "baseline_label": "Scotland extension baseline",
+  "rules": {
+    "depth_rules": {
+      "title": "Extension projection and boundaries",
+      "intro": "Scotland uses Class 1A for single-storey ground-floor extensions and Class 1B for ground-floor extensions with more than one storey.",
+      "rules": [
+        "For Class 1A, on or within 1m of a boundary, rear projection is limited to 3m for a terrace and 4m for other houses, measured from the relevant rear wall.",
+        "Class 1B does not permit any part of a multi-storey extension within 10m of a curtilage boundary."
+      ]
+    },
+    "height_rules": {
+      "title": "Other limits and restrictions",
+      "rules": [
+        "Class 1A limits overall height to 4m and eaves to 3m. Class 1B cannot exceed the existing house height.",
+        "Check footprint and front/rear curtilage coverage limits, road-facing elevations and all remaining conditions.",
+        "These extension rights do not apply in conservation areas, to flats or to houses created under Class 18B or 22A; listed building consent may also be required."
+      ]
+    }
+  },
+  "restrictions": {}
+}

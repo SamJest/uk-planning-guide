@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ukplanningguide.co.uk/schemas/redirect-record.schema.json",
+  "title": "UK Planning Guide redirect record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_path", "target_path", "status_code", "reason"],
+  "properties": {
+    "source_path": {"type": "string", "pattern": "^/(?:$|.*/$)"},
+    "target_path": {"type": "string", "pattern": "^/(?:$|.*/$)"},
+    "status_code": {"enum": [301, 308, 410]},
+    "reason": {"type": "string", "minLength": 1}
+  }
+}

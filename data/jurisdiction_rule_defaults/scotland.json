@@ -1,0 +1,291 @@
+{
+  "types": {
+    "extension": {
+      "permitted_development": "Householder extensions in Scotland can still benefit from Scottish permitted development rights in some cases, but the Scottish rules have their own limits, flat-and-maisonette restrictions and local authority checks, so an England answer is not a safe baseline.",
+      "rules": {
+        "height_rules": "Height, eaves and roof shape remain core Scottish extension checks, especially near boundaries.",
+        "depth_rules": "Depth should be checked against the Scottish householder rules and the original dwelling, not assumed from another jurisdiction.",
+        "boundary_rules": "Boundaries, road-facing positions and neighbour impact are recurring planning triggers for Scottish extensions.",
+        "roof_rules": "Roof form and visible roof change matter where the extension affects a principal elevation or sensitive slope.",
+        "materials_rules": "Materials and appearance should keep the extension subordinate and sympathetic to the host building."
+      },
+      "restrictions": {
+        "conservation_area": "Conservation areas in Scotland often bring tighter control over visible householder extensions.",
+        "listed_building": "Listed building works in Scotland usually require listed building consent as well as the main planning assessment.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions in Scotland can remove permitted development rights in selected areas, so the local designation should be checked first."
+      }
+    },
+    "loft": {
+      "permitted_development": "Loft work in Scotland can stay within permitted development in some cases, but roof visibility, dormers and rooflights should be checked against the Scottish rules rather than an England-only answer.",
+      "rules": {
+        "height_rules": "Overall roof height and the scale of any added volume are central Scottish loft checks.",
+        "depth_rules": "Dormer depth and projection from the roof plane can change the answer quickly in Scotland.",
+        "boundary_rules": "Boundary-facing openings and overlooking can create a planning issue even where the roof work feels modest.",
+        "roof_rules": "Roof alterations in Scotland are most straightforward when they stay subordinate and well integrated with the existing roof.",
+        "materials_rules": "Roof finish, frame style and detailing matter more where the slope is visible from public views."
+      },
+      "restrictions": {
+        "conservation_area": "Scottish conservation areas often tighten the route for visible roof alterations and dormers.",
+        "listed_building": "Listed building status in Scotland can add a separate consent route for loft and roof work.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions can remove roof-related permitted development rights in parts of Scotland."
+      }
+    },
+    "outbuilding": {
+      "permitted_development": "Outbuildings in Scotland can sometimes remain within permitted development if they stay incidental to the house, but siting, height, use and local authority context still decide the real route.",
+      "rules": {
+        "height_rules": "Height and eaves height are usually the first Scottish checks for garages, garden rooms and other outbuildings.",
+        "depth_rules": "Footprint and site coverage matter because a very large outbuilding can stop looking incidental.",
+        "boundary_rules": "Boundary-hugging outbuildings in Scotland usually need the closest review for neighbour impact and dominance.",
+        "roof_rules": "Roof form should stay subordinate and should not make the building look like a separate dwelling.",
+        "materials_rules": "Materials should support a domestic incidental use and a sympathetic appearance beside the house."
+      },
+      "restrictions": {
+        "conservation_area": "Outbuildings in Scottish conservation areas can face tighter control where they are visible or alter setting and character.",
+        "listed_building": "Listed buildings and their setting in Scotland usually require a more careful heritage review for new outbuildings.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions in Scotland can remove the simpler outbuilding route in selected locations."
+      }
+    },
+    "conversion": {
+      "permitted_development": "Conversions in Scotland can stay simpler where the external changes are modest, but excavation, parking change, enlarged openings and supporting works often decide whether planning permission is needed.",
+      "rules": {
+        "height_rules": "Visible scale changes, enlarged openings and added structures can move a Scottish conversion beyond the simplest route.",
+        "depth_rules": "Excavation depth, enlarged footprints and supporting structures matter for conversions that extend beyond a straightforward internal alteration.",
+        "boundary_rules": "Boundary impact, neighbour amenity and parking loss can all influence the planning answer for conversion work in Scotland.",
+        "roof_rules": "Roof changes tied to the conversion should be checked separately where extra rooms or roof openings are proposed.",
+        "materials_rules": "Materials and frontage treatment should make the conversion feel integrated with the building rather than obviously reworked."
+      },
+      "restrictions": {
+        "conservation_area": "Conversions in Scottish conservation areas often face closer control where the external appearance changes.",
+        "listed_building": "Listed building status in Scotland can add a separate consent route to conversion proposals.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions in Scotland can remove fallback rights that might otherwise simplify a conversion route."
+      }
+    },
+    "external": {
+      "permitted_development": "External works in Scotland can sometimes stay outside the full planning route, but frontage changes, hard surfacing, new openings and highway-facing alterations should be checked against Scottish rules and local authority guidance.",
+      "rules": {
+        "height_rules": "Height still matters for walls, gates and any external feature that starts to dominate the frontage or boundary.",
+        "depth_rules": "Projection, area of coverage and frontage spread can all change the answer for Scottish external works.",
+        "boundary_rules": "Boundary position, road visibility and neighbour impact are among the most common planning triggers for external changes in Scotland.",
+        "roof_rules": "Roof-facing alterations, canopies or visible attached elements should be checked where the work affects the main elevation or roof plane.",
+        "materials_rules": "Materials and appearance matter strongly for visible external changes in Scotland, especially on principal elevations."
+      },
+      "restrictions": {
+        "conservation_area": "External alterations in Scottish conservation areas often face tighter design control on visible elevations and frontages.",
+        "listed_building": "Listed building settings in Scotland can make apparently simple external works much more sensitive.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions in Scotland can remove permitted development rights for visible external changes in particular locations."
+      }
+    },
+    "microgeneration": {
+      "permitted_development": "Solar panels and heat pumps in Scotland can sometimes fall within permitted development, but the Scottish route still depends on siting, appearance, amenity impact and any heritage or park authority controls.",
+      "rules": {
+        "height_rules": "The size of the equipment and how far it stands off the building are important Scottish microgeneration checks.",
+        "depth_rules": "Projection from roofs or walls and the amount of external equipment can change whether the route stays simple.",
+        "boundary_rules": "Neighbour amenity, noise and visible siting near boundaries are recurring planning pressure points for Scottish microgeneration schemes.",
+        "roof_rules": "Roof-mounted energy equipment in Scotland is usually easiest when it follows the roof plane and avoids prominent heritage-sensitive slopes.",
+        "materials_rules": "The visual appearance of panels, units, screens and associated equipment should be as restrained as possible."
+      },
+      "restrictions": {
+        "conservation_area": "Microgeneration equipment in Scottish conservation areas often needs a closer review where it is visible from public views.",
+        "listed_building": "Listed building controls in Scotland can substantially tighten the route for solar and heat pump installations.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions in Scotland can remove permitted development rights for microgeneration equipment in selected areas."
+      }
+    },
+    "change-of-use": {
+      "permitted_development": "Change-of-use questions in Scotland often depend on the exact existing use, the proposed use and any local Article 4 direction or policy overlay, so the local authority context is central before you rely on a generic route.",
+      "rules": {
+        "height_rules": "The issue is usually the scale and intensity of the new use rather than height alone, but linked building changes still matter.",
+        "depth_rules": "Supporting works, servicing changes and intensification of the site can all affect the route for a Scottish change-of-use proposal.",
+        "boundary_rules": "Neighbour amenity, parking, servicing and local concentrations of similar uses are common pressure points for change of use in Scotland.",
+        "roof_rules": "Roof enlargements or extra rooms linked to the new use should be checked as a separate physical planning issue too.",
+        "materials_rules": "Frontage treatment, storage, refuse and access arrangements often shape how a Scottish change-of-use proposal is viewed locally."
+      },
+      "restrictions": {
+        "conservation_area": "Change-of-use proposals in Scottish conservation areas can face an added character and appearance review.",
+        "listed_building": "Listed buildings in Scotland can require listed building consent for physical changes linked to a change of use.",
+        "article4_applies": true,
+        "article4_notes": "Article 4 directions are a frequent reason why a Scottish change-of-use route is less straightforward than expected."
+      }
+    },
+    "agricultural": {
+      "permitted_development": "Agricultural buildings in Scotland can benefit from agricultural permitted development in some cases, but scale, prior approval, siting and wider site sensitivity often decide the real route.",
+      "rules": {
+        "height_rules": "Overall height and the visual impact of rural structures remain central Scottish agricultural planning checks.",
+        "depth_rules": "Site area, footprint and how the building sits within the wider holding can all affect whether the proposal remains proportionate.",
+        "boundary_rules": "Boundaries, nearby dwellings, roads and protected landscapes can all make the route more sensitive in Scotland.",
+        "roof_rules": "Roof pitch and bulk should support the agricultural use without creating unnecessary visual prominence.",
+        "materials_rules": "Materials should suit the agricultural context and the visual sensitivity of the surrounding area."
+      },
+      "restrictions": {
+        "conservation_area": "Agricultural proposals in or near Scottish conservation areas and other sensitive landscapes often need a more careful review.",
+        "listed_building": "Listed buildings and heritage assets in rural Scotland can affect the siting and appearance of agricultural structures.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions in Scotland can remove fallback rights in selected heritage-sensitive locations."
+      }
+    },
+    "temporary": {
+      "permitted_development": "Temporary buildings in Scotland are still judged on duration, use, appearance and local impact, so the route is not always as simple as the word temporary suggests.",
+      "rules": {
+        "height_rules": "Height, bulk and visual prominence still matter for temporary structures in Scotland, especially on exposed or visible sites.",
+        "depth_rules": "The footprint, duration and intensity of use all influence whether a temporary structure remains acceptable.",
+        "boundary_rules": "Boundary impact, servicing and the relationship to roads or neighbours can change the route quickly for temporary buildings in Scotland.",
+        "roof_rules": "Roof form and weatherproofing details should keep the structure practical without making it feel permanent.",
+        "materials_rules": "Materials and finishes should match the temporary purpose and avoid unnecessary visual harm."
+      },
+      "restrictions": {
+        "conservation_area": "Temporary structures in Scottish conservation areas can face closer control where they affect visible character.",
+        "listed_building": "Listed buildings and sensitive settings in Scotland can make even temporary structures much more restricted.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions in Scotland can remove fallback rights for temporary structures in specific areas."
+      }
+    },
+    "demolition": {
+      "permitted_development": "Demolition in Scotland often needs a fuller planning, heritage or prior approval check than people expect, especially where the building sits in a sensitive area.",
+      "rules": {
+        "height_rules": "The size and prominence of the structure being removed influence how carefully demolition is regulated in Scotland.",
+        "depth_rules": "The extent of the demolition and what follows it on the site can change the route materially.",
+        "boundary_rules": "Boundary impact, neighbour amenity and the relationship to nearby streets are key demolition considerations in Scotland.",
+        "roof_rules": "Roof removal can trigger the same caution as wider demolition where the structure is prominent or heritage-sensitive.",
+        "materials_rules": "Salvage, site treatment and the appearance of the cleared site can all matter in the local authority review."
+      },
+      "restrictions": {
+        "conservation_area": "Demolition in Scottish conservation areas is usually tightly controlled.",
+        "listed_building": "Listed building demolition in Scotland faces a separate and much stricter consent route.",
+        "article4_applies": false,
+        "article4_notes": "Article 4 directions in Scotland can remove simpler demolition routes in designated areas."
+      }
+    }
+  },
+  "projects": {
+    "house-extensions": {
+      "permitted_development": "House extensions in Scotland can sometimes stay within permitted development, but the Scottish route should be checked carefully for depth, height, road-facing siting and any local restriction before you rely on a simple householder answer.",
+      "rules": {
+        "depth_rules": "For a Scottish house extension, depth is one of the first checks that can move the proposal away from the simpler route.",
+        "boundary_rules": "Boundary position, road-facing siting and neighbour relationship often decide how straightforward a Scottish house extension really is."
+      }
+    },
+    "single-storey-extensions": {
+      "permitted_development": "Single-storey extensions in Scotland can sometimes stay within permitted development, but depth, boundary height, frontage position and local restrictions should all be checked against the Scottish route before you rely on the simpler answer.",
+      "rules": {
+        "depth_rules": "Single-storey extension depth in Scotland should be checked carefully against the original dwelling and any road-facing or side-position limits."
+      }
+    },
+    "rear-extensions": {
+      "permitted_development": "Rear extensions in Scotland can often stay on the simpler route where depth, height and siting remain modest, but the Scottish householder limits should be checked directly rather than assumed from an England-only rule of thumb.",
+      "rules": {
+        "depth_rules": "Rear extension depth is one of the main Scottish tripwires, especially where the projection starts to dominate the garden side of the house."
+      }
+    },
+    "side-extensions": {
+      "permitted_development": "Side extensions in Scotland can become planning-sensitive quickly where width, road-facing position or visual prominence make the extension feel less subordinate to the original house.",
+      "rules": {
+        "boundary_rules": "Road-facing siting and side-boundary relationships are among the most important Scottish checks for side extensions."
+      }
+    },
+    "wraparound-extensions": {
+      "permitted_development": "Wraparound extensions in Scotland often need a closer check because combining side and rear additions can move the project beyond the simplest householder route more quickly than a modest rear extension alone.",
+      "rules": {
+        "depth_rules": "The combined footprint and projection should be checked carefully where a Scottish wraparound design starts to look materially larger than a straightforward rear extension.",
+        "boundary_rules": "Side-return siting, neighbour impact and visibility can all push a Scottish wraparound scheme into a more cautious route."
+      }
+    },
+    "two-storey-extensions": {
+      "permitted_development": "Two-storey extensions in Scotland usually need the closest review because height, depth, neighbour impact and design dominance all become more important once the proposal affects both floors.",
+      "rules": {
+        "height_rules": "Overall height and eaves relationship matter strongly for Scottish two-storey extensions, especially near boundaries.",
+        "depth_rules": "Projection from the original rear wall should be checked carefully before assuming a Scottish two-storey extension stays on the simpler route."
+      }
+    },
+    "porches": {
+      "permitted_development": "Porches in Scotland can often stay within the simpler route where size, height and distance from roads remain modest, but visible frontage changes should still be checked carefully against the Scottish rules.",
+      "rules": {
+        "boundary_rules": "Road-facing siting and frontage impact are among the most important Scottish planning checks for porches."
+      }
+    },
+    "dormer-extensions": {
+      "permitted_development": "Dormer extensions in Scotland can remain within the simpler route in some cases, but roof visibility, scale and design fit should be checked carefully against Scottish roof alteration rules before relying on that answer.",
+      "rules": {
+        "roof_rules": "Dormer size, roof-plane relationship and visibility from public views are among the most important Scottish checks for a dormer extension."
+      }
+    },
+    "loft-conversions": {
+      "permitted_development": "Loft conversions in Scotland can stay within the simpler route in some cases, but roof visibility, added volume, dormers and local authority context should all be checked against the Scottish rules first.",
+      "rules": {
+        "roof_rules": "For a Scottish loft conversion, roof shape, visible dormers and the relationship to the existing roof are among the most important planning checks."
+      }
+    },
+    "roof-lights": {
+      "permitted_development": "Rooflights in Scotland are often simplest where they sit flush enough with the roof and avoid a sensitive principal elevation, but visible roof slopes should still be checked carefully.",
+      "rules": {
+        "roof_rules": "Rooflights on visible Scottish roof slopes should be checked for appearance, projection and heritage sensitivity before work starts."
+      }
+    },
+    "garden-rooms": {
+      "permitted_development": "Garden rooms in Scotland can stay within permitted development where they remain clearly incidental, subordinate and modestly sited, but height, use and boundary position still decide the real route.",
+      "rules": {
+        "height_rules": "Garden room height and eaves height are usually the first Scottish planning checks for a domestic garden building.",
+        "boundary_rules": "Boundary siting and neighbour impact are often the reasons a Scottish garden room needs a closer look."
+      }
+    },
+    "outbuildings": {
+      "permitted_development": "Outbuildings in Scotland can remain within permitted development where they stay clearly incidental to the house, but height, use, boundary position and visual impact still decide whether the route remains straightforward.",
+      "rules": {
+        "height_rules": "Outbuilding height and eaves relationship are often the first Scottish checks before a domestic building still looks comfortably incidental.",
+        "boundary_rules": "Boundary siting and neighbour impact are among the most common reasons an outbuilding in Scotland needs a closer review."
+      }
+    },
+    "annexes": {
+      "permitted_development": "Annexes in Scotland usually need the closest caution because self-contained or sleeping accommodation can stop looking incidental to the house even where the building form itself seems straightforward.",
+      "rules": {
+        "boundary_rules": "The real Scottish annexe question is often use and independence, not just the size of the building beside the boundary."
+      }
+    },
+    "dropped-kerbs": {
+      "permitted_development": "Dropped kerbs in Scotland usually need a roads authority or crossover consent route as well as a planning check where the frontage layout or wider works change how vehicles use the site.",
+      "rules": {
+        "boundary_rules": "Visibility, road safety, parking layout and the position of the crossover are usually the key Scottish checks for a dropped kerb."
+      }
+    },
+    "garages": {
+      "permitted_development": "Detached garages in Scotland can sometimes stay within the simpler householder route, but siting, incidental use and any new vehicle access should still be checked carefully against the Scottish rules.",
+      "rules": {
+        "boundary_rules": "For a detached garage in Scotland, incidental domestic use, boundary siting and any linked access change are often the practical planning tripwires."
+      }
+    },
+    "hard-surfaces": {
+      "permitted_development": "Hard surfacing in Scotland often turns on drainage and whether a front garden scheme stays permeable enough to avoid a fuller planning route.",
+      "rules": {
+        "depth_rules": "Front garden paving in Scotland should be checked for drainage, permeability and how much soft landscaping is being lost."
+      }
+    },
+    "windows-and-doors": {
+      "permitted_development": "Replacement windows and doors in Scotland are often simplest on a like-for-like basis, while new openings or stronger appearance changes should be checked more carefully.",
+      "rules": {
+        "materials_rules": "Frame design, material and the look of visible elevations matter strongly for windows and doors in Scotland."
+      }
+    },
+    "solar-panels": {
+      "permitted_development": "Solar panels in Scotland can often remain permitted development for a house, but siting, appearance and heritage controls still matter before you rely on the simpler route.",
+      "rules": {
+        "roof_rules": "Roof-mounted solar panels in Scotland are usually easiest where they sit close to the roof plane and avoid prominent heritage-sensitive slopes."
+      }
+    },
+    "heat-pumps": {
+      "permitted_development": "Heat pumps in Scotland can sometimes stay within permitted development, but boundary siting, noise and screening should be checked before work starts.",
+      "rules": {
+        "boundary_rules": "Noise and neighbour impact are often the deciding Scottish planning issues for a domestic heat pump."
+      }
+    },
+    "hmos": {
+      "permitted_development": "HMO proposals in Scotland are strongly shaped by local policy and Article 4 coverage, so the local authority position is usually essential before relying on a generic change-of-use answer.",
+      "rules": {
+        "boundary_rules": "For a Scottish HMO proposal, amenity, concentration, access and local policy response are often more important than the physical works alone."
+      }
+    }
+  }
+}

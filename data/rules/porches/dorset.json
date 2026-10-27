@@ -1,0 +1,51 @@
+{
+  "defaults": {
+    "last_verified": "2026-04",
+    "permitted_development": "A modest porch on a house in England is usually permitted development where the external ground-floor area does not exceed 3 square metres, no part is more than 3m above ground level and no part is within 2m of the highway boundary. Local conditions or Article 4 directions can still remove that fallback.",
+    "rules": {
+      "height_rules": "The key height limit is 3m overall, measured in the same way as a house extension. There is no extra allowance for a pitched, vaulted or feature porch roof once it exceeds that height.",
+      "depth_rules": "There is no separate projection allowance. The main size test is the external ground-floor area, which should not exceed 3 square metres including wall thickness.",
+      "boundary_rules": "No part of the porch should be within 2m of any boundary between the dwellinghouse and the highway. On tight front plots this setback test is often the deciding issue.",
+      "roof_rules": "There is no separate roof allowance beyond the 3 square metre footprint and 3m height cap. Any porch roof design has to sit within those same limits.",
+      "materials_rules": "Use materials that match or complement the host house so the porch reads as part of the entrance rather than a bolt-on box. Heritage settings often call for the closest material match and more restrained detailing."
+    }
+  },
+  "rules": [
+    {
+      "town_slug": "dorset",
+      "last_verified": "2026-04",
+      "permitted_development": "The normal porch route is quite tight: up to 3 square metres externally, up to 3 metres high and set at least 2 metres back from the highway boundary. Anything larger is treated more like an extension.",
+      "rules": {
+        "height_rules": "A porch above 3 metres in height will normally require planning permission.",
+        "depth_rules": "Porches are controlled by external footprint rather than by a simple projection away from the front wall.",
+        "boundary_rules": "No part of the porch should be within 2 metres of any boundary between the dwellinghouse and the highway. This includes roads, pavements and other adjoining highways.",
+        "roof_rules": "Flat and pitched porch roofs are both possible if the whole structure stays within the normal caps. A decorative roof does not create extra planning allowance.",
+        "materials_rules": "Because a porch is usually prominent from the street, material matching and restrained detailing often matter as much as the size limits."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    },
+    {
+      "town_slug": "bournemouth-christchurch-and-poole",
+      "last_verified": "2026-04",
+      "permitted_development": "The normal porch route is quite tight: up to 3 square metres externally, up to 3 metres high and set at least 2 metres back from the highway boundary. Anything larger is treated more like an extension.",
+      "rules": {
+        "height_rules": "A porch that looks modest in footprint can still lose the benefit of the ordinary route if it becomes too tall.",
+        "depth_rules": "Porch with an external ground-floor area above 3 square metres will normally need planning permission.",
+        "boundary_rules": "No part of the porch should be within 2 metres of any boundary between the dwellinghouse and the highway. This includes roads, pavements and other adjoining highways.",
+        "roof_rules": "Roof designs that make the porch exceed the standard height or footprint limits will normally need planning permission.",
+        "materials_rules": "Use materials that sit naturally with the existing house, especially on the front elevation where the porch is usually read as part of the main entrance composition."
+      },
+      "restrictions": {
+        "conservation_area": "Additional planning restrictions may apply in conservation areas.",
+        "listed_building": "Listed building consent is required for works affecting listed buildings.",
+        "article4_applies": false,
+        "article4_notes": "No borough-wide Article 4 note is recorded here, but site-specific directions or planning conditions can still remove permitted development rights on particular properties."
+      }
+    }
+  ]
+}
