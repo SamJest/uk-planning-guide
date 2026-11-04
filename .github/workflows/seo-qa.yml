@@ -44,6 +44,7 @@ jobs:
         with:
           name: canary-performance-${{ github.sha }}
           retention-days: 7
+          include-hidden-files: true
           if-no-files-found: warn
           path: |
             .lighthouseci/*.json

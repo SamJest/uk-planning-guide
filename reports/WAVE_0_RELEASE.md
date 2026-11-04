@@ -2,6 +2,8 @@
 
 3 November 2026. **NOT DEPLOYED.** [PR #18](https://github.com/SamJest/uk-planning-guide/pull/18).
 
+**4 November follow-up:** the historical Windows performance blocker below has been investigated. The unchanged budgets now pass on Linux CI and are enforced on future pushes. See [performance follow-up](WAVE_0_PERFORMANCE_FOLLOWUP.md) for current results, limitations and review readiness. The original measurements below are retained as historical evidence.
+
 ## Branch reconciliation and publication boundary
 
 - Observed remote main: `bb01d67fc58f21400dffbf449604ee05d561abbc`.
