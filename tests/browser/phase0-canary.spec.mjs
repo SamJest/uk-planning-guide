@@ -96,8 +96,24 @@ test('custom 404 provides an accessible recovery route without indexation signal
   });
 });
 
-test('analytics bootstrap is present without sending a test hit', async ({ page }) => {
+test('preview disables analytics before loading the preserved bootstrap', async ({ page }) => {
+  let loaderRequests = 0;
+  const collectionRequests = [];
+  await page.route('https://www.google-analytics.com/**', route => {
+    collectionRequests.push(route.request().url());
+    return route.fulfill({ status: 204 });
+  });
+  await page.route('https://www.googletagmanager.com/**', route => {
+    loaderRequests++;
+    return route.fulfill({
+      contentType: 'application/javascript',
+      body: `window.__analyticsOptOutAtLoad = window['ga-disable-G-GXRZWRNWD7'];
+        if (!window.__analyticsOptOutAtLoad) fetch('https://www.google-analytics.com/g/collect');`
+    });
+  });
   await page.goto('/');
-  const html = await page.content();
-  expect(html).toContain('G-GXRZWRNWD7');
+  expect(loaderRequests).toBe(1);
+  expect(await page.evaluate(() => window.__analyticsOptOutAtLoad)).toBe(true);
+  expect(collectionRequests).toEqual([]);
+  await expect(page.locator('script[src*="googletagmanager.com/gtag/js"]')).toHaveCount(1);
 });
