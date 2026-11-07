@@ -1,0 +1,682 @@
+{
+  "date": "2026-11-04",
+  "production_deployed": false,
+  "implementation_sha": "9be4d2a793460671b501b99bbeffbc7574efc3ad",
+  "ci_run": "https://github.com/SamJest/uk-planning-guide/actions/runs/41893693679",
+  "ci_artifact_id": 13353369727,
+  "all_ci_steps_succeeded": true,
+  "release_decision": "GO for Wave 0 owner review; no merge/deploy or later wave started",
+  "thresholds_changed": false,
+  "production_corpus_diff_exit": 0,
+  "local_source_fingerprint": "dd5c5ea94298ceed16771aeae797d8fd26f6c8e6e3c98b4e8c73cda7de291749",
+  "linux_ci_lighthouse": [
+    {
+      "url": "http://127.0.0.1:8768/",
+      "fetch_time": "2026-11-04T19:09:31.390Z",
+      "performance": 1,
+      "accessibility": 0.98,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1805.5579,
+      "tbt_ms": 52,
+      "cls": 0,
+      "google_loader_status": 200,
+      "google_loader_transfer_bytes": 181664,
+      "collection_requests": 0,
+      "warnings": [],
+      "lighthouse_version": "12.6.1",
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2449,
+        "credits": {
+          "axe-core": "4.12.1"
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8768/england/councils/colchester/",
+      "fetch_time": "2026-11-04T19:09:44.003Z",
+      "performance": 1,
+      "accessibility": 1,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1804.1934,
+      "tbt_ms": 42.5,
+      "cls": 0,
+      "google_loader_status": 200,
+      "google_loader_transfer_bytes": 181664,
+      "collection_requests": 0,
+      "warnings": [],
+      "lighthouse_version": "12.6.1",
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2491.5,
+        "credits": {
+          "axe-core": "4.12.1"
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8768/england/tools/planning-route-check/",
+      "fetch_time": "2026-11-04T19:10:19.449Z",
+      "performance": 0.99,
+      "accessibility": 1,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1955.1576,
+      "tbt_ms": 50,
+      "cls": 0,
+      "google_loader_status": 200,
+      "google_loader_transfer_bytes": 181664,
+      "collection_requests": 0,
+      "warnings": [],
+      "lighthouse_version": "12.6.1",
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2486.5,
+        "credits": {
+          "axe-core": "4.12.1"
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8768/scotland/projects/garden-rooms/city-of-edinburgh/",
+      "fetch_time": "2026-11-04T19:10:07.541Z",
+      "performance": 0.99,
+      "accessibility": 1,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1955.8686,
+      "tbt_ms": 49,
+      "cls": 0,
+      "google_loader_status": 200,
+      "google_loader_transfer_bytes": 181664,
+      "collection_requests": 0,
+      "warnings": [],
+      "lighthouse_version": "12.6.1",
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2477,
+        "credits": {
+          "axe-core": "4.12.1"
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/",
+      "fetch_time": "2026-11-04T19:09:55.620Z",
+      "performance": 0.99,
+      "accessibility": 1,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1958.3833,
+      "tbt_ms": 48.5,
+      "cls": 0,
+      "google_loader_status": 200,
+      "google_loader_transfer_bytes": 181664,
+      "collection_requests": 0,
+      "warnings": [],
+      "lighthouse_version": "12.6.1",
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2475.5,
+        "credits": {
+          "axe-core": "4.12.1"
+        }
+      }
+    }
+  ],
+  "matched_comparison": {
+    "output_parity": {
+      "base_sha": "36e47c3596b3d09ad2ede389a8bf4df7460ebfaa",
+      "candidate_code_parent": "729ccb465414b93ac7fe9ccec9df68569e857607",
+      "html_pages": {
+        "recovery": 39,
+        "candidate": 39
+      },
+      "files": {
+        "recovery": 77,
+        "candidate": 77
+      },
+      "changed_files": [],
+      "manifest_sha256": {
+        "recovery": "b95f470ad731845aedef8978f6e4f49e1b6f1ee7b3006ef85c543a8869f892ba",
+        "candidate": "b95f470ad731845aedef8978f6e4f49e1b6f1ee7b3006ef85c543a8869f892ba"
+      },
+      "excluded": [
+        "BUILD-MANIFEST.json: provenance-only source fingerprint differs"
+      ]
+    },
+    "exit_codes": {
+      "recovery": 1,
+      "candidate": 1
+    },
+    "runs": {
+      "recovery": [
+        {
+          "url": "http://127.0.0.1:8768/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.7,
+          "lcp_ms": 2240.9880000000003,
+          "tbt_ms": 2605.9579999999996,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 1062,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 879,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 417,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 335,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 203.00000000000023,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 169,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 144,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 71,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 51,
+              "attribution": "first-party/unattributed"
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:8768/england/councils/colchester/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.92,
+          "lcp_ms": 3003.677,
+          "tbt_ms": 178,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 230,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 170,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 166,
+              "attribution": "Google tag"
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.9,
+          "lcp_ms": 2969.9610000000002,
+          "tbt_ms": 230,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 160,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 144,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 143,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 132,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 50,
+              "attribution": "first-party/unattributed"
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:8768/scotland/projects/garden-rooms/city-of-edinburgh/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.97,
+          "lcp_ms": 1820.7910000000002,
+          "tbt_ms": 174.0000000000001,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 160,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 142,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 133,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 123.00000000000011,
+              "attribution": "first-party/unattributed"
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:8768/england/tools/planning-route-check/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.97,
+          "lcp_ms": 1822.19,
+          "tbt_ms": 160.5,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 152,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 145,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 135,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 112,
+              "attribution": "first-party/unattributed"
+            }
+          ]
+        }
+      ],
+      "candidate": [
+        {
+          "url": "http://127.0.0.1:8768/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.99,
+          "lcp_ms": 1672.55,
+          "tbt_ms": 80,
+          "cls": 0.03416034903955338,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 160,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 145,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 115,
+              "attribution": "Google tag"
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:8768/england/councils/colchester/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.99,
+          "lcp_ms": 1854.684,
+          "tbt_ms": 104.5,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 156,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 153,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 153,
+              "attribution": "Google tag"
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.92,
+          "lcp_ms": 2970.9604999999992,
+          "tbt_ms": 172.4999999999999,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 144,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 126,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 121,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 90.99999999999989,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 52,
+              "attribution": "first-party/unattributed"
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:8768/scotland/projects/garden-rooms/city-of-edinburgh/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.98,
+          "lcp_ms": 1809.549,
+          "tbt_ms": 143.52649999999994,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 140,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 130,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 113,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 102,
+              "attribution": "first-party/unattributed"
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:8768/england/tools/planning-route-check/",
+          "lighthouse_version": "12.6.1",
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+          "performance": 0.92,
+          "lcp_ms": 3179.504,
+          "tbt_ms": 140,
+          "cls": 0,
+          "ga_loader_requests": 1,
+          "analytics_collection_requests": 0,
+          "long_tasks": [
+            {
+              "duration_ms": 214,
+              "attribution": "first-party/unattributed"
+            },
+            {
+              "duration_ms": 153,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 122,
+              "attribution": "Google tag"
+            },
+            {
+              "duration_ms": 51,
+              "attribution": "first-party/unattributed"
+            }
+          ]
+        }
+      ]
+    },
+    "recovery_failed_assertions": [
+      {
+        "name": "minScore",
+        "expected": 0.8,
+        "actual": 0.7,
+        "values": [
+          0.7
+        ],
+        "operator": ">=",
+        "passed": false,
+        "auditProperty": "performance",
+        "auditId": "categories",
+        "level": "error",
+        "url": "http://127.0.0.1:8768/"
+      },
+      {
+        "name": "maxNumericValue",
+        "expected": 300,
+        "actual": 2605.9579999999996,
+        "values": [
+          2605.9579999999996
+        ],
+        "operator": "<=",
+        "passed": false,
+        "auditId": "total-blocking-time",
+        "level": "error",
+        "url": "http://127.0.0.1:8768/",
+        "auditTitle": "Total Blocking Time",
+        "auditDocumentationLink": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/"
+      },
+      {
+        "name": "maxNumericValue",
+        "expected": 2500,
+        "actual": 3003.677,
+        "values": [
+          3003.677
+        ],
+        "operator": "<=",
+        "passed": false,
+        "auditId": "largest-contentful-paint",
+        "level": "error",
+        "url": "http://127.0.0.1:8768/england/councils/colchester/",
+        "auditTitle": "Largest Contentful Paint",
+        "auditDocumentationLink": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/"
+      },
+      {
+        "name": "maxNumericValue",
+        "expected": 2500,
+        "actual": 2969.9610000000002,
+        "values": [
+          2969.9610000000002
+        ],
+        "operator": "<=",
+        "passed": false,
+        "auditId": "largest-contentful-paint",
+        "level": "error",
+        "url": "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/",
+        "auditTitle": "Largest Contentful Paint",
+        "auditDocumentationLink": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/"
+      }
+    ],
+    "candidate_failed_assertions": [
+      {
+        "name": "maxNumericValue",
+        "expected": 2500,
+        "actual": 2970.9604999999992,
+        "values": [
+          2970.9604999999992
+        ],
+        "operator": "<=",
+        "passed": false,
+        "auditId": "largest-contentful-paint",
+        "level": "error",
+        "url": "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/",
+        "auditTitle": "Largest Contentful Paint",
+        "auditDocumentationLink": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/"
+      },
+      {
+        "name": "maxNumericValue",
+        "expected": 2500,
+        "actual": 3179.504,
+        "values": [
+          3179.504
+        ],
+        "operator": "<=",
+        "passed": false,
+        "auditId": "largest-contentful-paint",
+        "level": "error",
+        "url": "http://127.0.0.1:8768/england/tools/planning-route-check/",
+        "auditTitle": "Largest Contentful Paint",
+        "auditDocumentationLink": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/"
+      }
+    ]
+  },
+  "rejected_prototype": {
+    "async-paired": {
+      "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/": {
+        "samples": [
+          {
+            "lcp_ms": 1983.717,
+            "tbt_ms": 113
+          },
+          {
+            "lcp_ms": 1825.136,
+            "tbt_ms": 190.5255000000002
+          },
+          {
+            "lcp_ms": 1820.9070000000002,
+            "tbt_ms": 179.6215000000003
+          }
+        ],
+        "median_lcp_ms": 1825.136,
+        "median_tbt_ms": 179.6215000000003
+      },
+      "http://127.0.0.1:8768/england/tools/planning-route-check/": {
+        "samples": [
+          {
+            "lcp_ms": 3180.3959999999997,
+            "tbt_ms": 155.4999999999999
+          },
+          {
+            "lcp_ms": 3243.741,
+            "tbt_ms": 144.5000000000001
+          },
+          {
+            "lcp_ms": 3123.7039999999997,
+            "tbt_ms": 138
+          }
+        ],
+        "median_lcp_ms": 3180.3959999999997,
+        "median_tbt_ms": 144.5000000000001
+      }
+    },
+    "defer-paired": {
+      "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/": {
+        "samples": [
+          {
+            "lcp_ms": 2043.1620000000003,
+            "tbt_ms": 140.5000000000001
+          },
+          {
+            "lcp_ms": 1822.7399999999998,
+            "tbt_ms": 201.46399999999983
+          },
+          {
+            "lcp_ms": 1812.636,
+            "tbt_ms": 188.0915
+          }
+        ],
+        "median_lcp_ms": 1822.7399999999998,
+        "median_tbt_ms": 188.0915
+      },
+      "http://127.0.0.1:8768/england/tools/planning-route-check/": {
+        "samples": [
+          {
+            "lcp_ms": 3309.8720000000003,
+            "tbt_ms": 150
+          },
+          {
+            "lcp_ms": 3303.8989999999994,
+            "tbt_ms": 217
+          },
+          {
+            "lcp_ms": 3361.61,
+            "tbt_ms": 200
+          }
+        ],
+        "median_lcp_ms": 3309.8720000000003,
+        "median_tbt_ms": 200
+      }
+    }
+  },
+  "local_final_passed": {
+    "python": 78,
+    "pack": 6,
+    "node": 4,
+    "tool_smoke": 28,
+    "production_browser": 26,
+    "canary_browser": 54
+  },
+  "final_skips": 0,
+  "limitations": [
+    "Opted-out preview profile; collection-enabled production not benchmarked.",
+    "Windows timings and blocked-Google diagnostic are not a passing release profile.",
+    "No field Core Web Vitals, production HTTP release or new legal verification claimed."
+  ],
+  "local_logs_sha256": {
+    "async-paired.log": "c0e337cfa65aa222cfe0d6bad6f3cc90e311f6730fc5789293e773be273e524c",
+    "candidate-build.log": "6b4cc032d4acde6bfddd9b27ffe6109fe2bd0b69edbd54abf6fd4a1ff4ae3bda",
+    "candidate-lighthouse.log": "125b6894deff9472e0118f510dd8d51599c82ea5df7f7c0ea5969d89279048d5",
+    "ci-linux.log": "8e3e50a5c691a84d690c00f22c06b67ebb14afcceb30f6c55b01169e27aa909f",
+    "defer-paired.log": "47ad1f8b6994d9f0cec73e4831d9e222ce31bc3bca95487078f7d7e0767fe5ed",
+    "final-build.log": "650d47533e3baa0b30e4210affbca1ba8eabf11ee4b066fb24b4d7fda8a55fdb",
+    "final-canary-browser.log": "c0c6a8aba07e81e08d4a1bd21e42345c866d78c34028cbaa5d1c0f01f15bc4e8",
+    "final-hmo.log": "67b4606d6fa38d272ea3cf833cdcff95dd9eb2433a1601a3e7c208f3455eb436",
+    "final-journeys.log": "f80d14499973df39ff2e8204351b3d454f187822f74532c850a8e652b1b3bb32",
+    "final-node.log": "3f7921a2204cb2a1c3153734b0beac88fadc958641f5ffca5adc7b5dd11c482b",
+    "final-pack.log": "6b0e734d2b4ab1f324c049d75e04d11477684c4a23eb7c5df8d14c020ec1c975",
+    "final-pilot.log": "cecb7eab90ba5a6ad904fb436b09fc445f1c5490e2cd63d0119b5db4c6e7141e",
+    "final-python.log": "fa294ed626b23193329723fd85d386bc2de9947fc76ed60242a655536d139f6a",
+    "final-release.log": "3bd6e852c020cf55f89d86175096e71257ffa09c3d0b4fc70dc82cee4d881893",
+    "final-tool-smoke.log": "5273efe4120581022ef25ab2a5222b5d06653e1588f6fdd8e7b65bc9b511ba47",
+    "first-party-diagnostic.log": "5e804b9f18144ba78cb1123fa9a5d8200fdf87d0edbe240f5f16d6bd1f677f79",
+    "recovery-build.log": "937acb1869b7ef7352e9dab5844ed95ea5dbb0e2af98528fc4b6db1094cedd07",
+    "recovery-lighthouse.log": "6cf4feeac54b671c32ed5a7a6bfb99d0acc80dd55ef30cd997da0dd5bf01bf33"
+  }
+}

@@ -1,4 +1,4 @@
-// Local production-style static preview: compression, MIME types and real 404s.
+// Local static preview: compression, MIME types, real 404s, no live GA hits.
 const http = require('node:http');
 const fs = require('node:fs/promises');
 const path = require('node:path');
@@ -31,6 +31,14 @@ function createSiteServer(directory) {
       let body = await fs.readFile(file);
       const type = types[path.extname(file)] || 'application/octet-stream';
       const headers = {'Content-Type':type,'Vary':'Accept-Encoding','X-Content-Type-Options':'nosniff'};
+      if (type.startsWith('text/html') && body.includes('G-GXRZWRNWD7')) {
+        // Keep the real loader in performance measurements, but
+        // opt this preview out of sending test visits to the production property.
+        // https://developers.google.com/tag-platform/security/guides/privacy
+        const optOut = '<script>window["ga-disable-G-GXRZWRNWD7"]=true;</script>';
+        body = Buffer.from(body.toString('utf8').replace(/<head(?:\s[^>]*)?>/i, '$&' + optOut));
+        headers['X-UKPG-Preview-Analytics'] = 'disabled';
+      }
       if(/\bgzip\b/.test(req.headers['accept-encoding'] || '') && /text|json|xml|svg/.test(type)) {
         body = await gzip(body); headers['Content-Encoding'] = 'gzip';
       }

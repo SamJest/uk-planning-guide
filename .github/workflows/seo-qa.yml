@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Preservation tests compare real historical production pages.
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -30,3 +33,20 @@ jobs:
         run: |
           node scripts/serve_site.cjs . 8765 &
           npx playwright test tests/browser/production-journeys.spec.mjs tests/browser/research-improvements.spec.mjs --workers=2
+          npx playwright test tests/browser/phase0-canary.spec.mjs --grep "preview disables analytics" --workers=2
+      - name: Lighthouse canary budgets
+        run: |
+          export CHROME_PATH="$(node -e "process.stdout.write(require('playwright').chromium.executablePath())")"
+          npx lhci autorun --collect.settings.chromeFlags="--no-sandbox"
+      - name: Upload canary performance evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: canary-performance-${{ github.sha }}
+          retention-days: 7
+          include-hidden-files: true
+          if-no-files-found: warn
+          path: |
+            .lighthouseci/*.json
+            reports/phase-0/lighthouse/
+            reports/phase-0/canary-test-report.json
