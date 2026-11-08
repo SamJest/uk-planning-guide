@@ -66,6 +66,11 @@ def validate_source_record(record: dict) -> None:
         raise ContractError(f"Source {source_id} needs a title and publisher")
     if not isinstance(record["page_families"], list) or not record["page_families"]:
         raise ContractError(f"Source {source_id} needs supported page families")
+    from utils.content_contracts import JURISDICTIONS
+    if record['jurisdiction'] not in JURISDICTIONS:
+        raise ContractError(f'Source {source_id} has an unknown jurisdiction')
+    from utils.claim_evidence import validate_source_propositions
+    validate_source_propositions(record)
 
 
 @lru_cache(maxsize=1)
@@ -101,7 +106,10 @@ def sources_for_page(record: dict, *, active_only: bool = False) -> list[dict]:
 
 def validate_page_source_links() -> None:
     registry = source_registry_by_id()
-    for page in load_page_records():
+    from utils.claim_evidence import validate_evidence_migration, validate_record_evidence
+    pages = load_page_records()
+    validate_evidence_migration(pages)
+    for page in pages:
         route = page["route_path"]
         missing = sorted(set(page["source_ids"]) - set(registry))
         if missing:
@@ -125,6 +133,7 @@ def validate_page_source_links() -> None:
                 raise ContractError(f"Indexable local page needs three active local sources: {route}")
             if len(page["unique_local_facts"]) < 5:
                 raise ContractError(f"Indexable local page needs five local facts: {route}")
+        validate_record_evidence(page, registry)
 
 
 def clear_source_caches() -> None:

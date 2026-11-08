@@ -115,7 +115,7 @@ def build_official_sources_block(
     for source in sources:
         meta_bits = [source_category_label(source.category)]
         if source.last_reviewed:
-            meta_bits.append(f"Last reviewed {_format_last_reviewed(source.last_reviewed)}")
+            meta_bits.append(f"Historical link record {_format_last_reviewed(source.last_reviewed)}")
         reason = _source_reason(
             source,
             page_family=page_family,

@@ -9,7 +9,15 @@
     "publisher": "Planning Portal",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["national_guide", "project_guide", "rule_guide", "local_project", "local_rule", "tool", "workflow"]
+    "page_families": [
+      "national_guide",
+      "project_guide",
+      "rule_guide",
+      "local_project",
+      "local_rule",
+      "tool",
+      "workflow"
+    ]
   },
   {
     "source_id": "govuk-when-permission-required",
@@ -21,7 +29,15 @@
     "publisher": "GOV.UK",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["national_guide", "project_guide", "rule_guide", "local_project", "local_rule", "tool", "workflow"]
+    "page_families": [
+      "national_guide",
+      "project_guide",
+      "rule_guide",
+      "local_project",
+      "local_rule",
+      "tool",
+      "workflow"
+    ]
   },
   {
     "source_id": "govuk-permitted-development-rights",
@@ -33,7 +49,14 @@
     "publisher": "GOV.UK",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["national_guide", "project_guide", "rule_guide", "local_project", "local_rule", "tool"]
+    "page_families": [
+      "national_guide",
+      "project_guide",
+      "rule_guide",
+      "local_project",
+      "local_rule",
+      "tool"
+    ]
   },
   {
     "source_id": "planning-aid-article-4",
@@ -45,7 +68,11 @@
     "publisher": "GOV.UK",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["rule_guide", "local_rule", "local_project"]
+    "page_families": [
+      "rule_guide",
+      "local_rule",
+      "local_project"
+    ]
   },
   {
     "source_id": "colchester-validation",
@@ -55,9 +82,75 @@
     "title": "Planning application supporting information",
     "url": "https://www.new.colchester.gov.uk/planning/apply/what-you-need",
     "publisher": "Colchester City Council",
-    "last_checked_at": "2026-09-06",
+    "last_checked_at": "2026-11-07",
     "status": "active",
-    "page_families": ["authority_profile", "local_project", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_project",
+      "local_rule"
+    ],
+    "propositions": [
+      {
+        "proposition_id": "colchester-validation-route",
+        "text": "Colchester publishes local validation and supporting-information guidance.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "colchester",
+          "project_ids": [],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Opening supporting-information and submission sections",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "colchester-validation-lists",
+        "text": "The supporting-information page links both local and national validation lists.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "colchester",
+          "project_ids": [],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Before-submission section",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "colchester-scaled-plans",
+        "text": "The supporting-information guidance asks for plans drawn to scale.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "colchester",
+          "project_ids": [],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Application requirements",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      }
+    ]
   },
   {
     "source_id": "colchester-pre-app",
@@ -67,9 +160,55 @@
     "title": "Pre-application advice",
     "url": "https://www.new.colchester.gov.uk/planning/apply/pre-application-advice",
     "publisher": "Colchester City Council",
-    "last_checked_at": "2026-07-04",
+    "last_checked_at": "2026-11-07",
     "status": "active",
-    "page_families": ["authority_profile", "local_project", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_project",
+      "local_rule"
+    ],
+    "propositions": [
+      {
+        "proposition_id": "colchester-preapp-route",
+        "text": "Colchester publishes an application route for pre-application advice.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "colchester",
+          "project_ids": [],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Pre-application section",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "colchester-preapp-plans",
+        "text": "The pre-application guidance lists site, layout and elevation information to submit.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "colchester",
+          "project_ids": [],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Pre-application submission list",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      }
+    ]
   },
   {
     "source_id": "colchester-local-plan",
@@ -79,9 +218,76 @@
     "title": "Colchester Local Plan",
     "url": "https://www.new.colchester.gov.uk/colchester-local-plan",
     "publisher": "Colchester City Council",
-    "last_checked_at": "2026-07-04",
+    "last_checked_at": "2026-11-07",
     "status": "active",
-    "page_families": ["authority_profile", "local_project", "local_rule", "data_report"]
+    "page_families": [
+      "authority_profile",
+      "local_project",
+      "local_rule",
+      "data_report"
+    ],
+    "propositions": [
+      {
+        "proposition_id": "colchester-plan-separation",
+        "text": "Colchester distinguishes adopted-plan information from its new-plan work.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "colchester",
+          "project_ids": [],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Adopted and new-plan sections",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "colchester-adopted-new-plans",
+        "text": "The plan gateway provides separate routes for the adopted plan and emerging new plan.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "colchester",
+          "project_ids": [],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Adopted and new-plan sections",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "colchester-policy-map-link",
+        "text": "The plan gateway links an interactive adopted-policy map.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "colchester",
+          "project_ids": [],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Opening interactive-map link",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      }
+    ]
   },
   {
     "source_id": "essex-design-guide",
@@ -93,7 +299,10 @@
     "publisher": "Essex County Council",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["authority_profile", "local_project"]
+    "page_families": [
+      "authority_profile",
+      "local_project"
+    ]
   },
   {
     "source_id": "essex-highways-planning",
@@ -105,7 +314,10 @@
     "publisher": "Essex County Council",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["authority_profile", "local_project"]
+    "page_families": [
+      "authority_profile",
+      "local_project"
+    ]
   },
   {
     "source_id": "cardiff-planning-application",
@@ -117,11 +329,14 @@
     "publisher": "Cardiff Council",
     "last_checked_at": "2026-07-04",
     "status": "active",
-    "page_families": ["authority_profile", "local_project"]
+    "page_families": [
+      "authority_profile",
+      "local_project"
+    ]
   },
   {
     "source_id": "wales-validation-requirements",
-    "authority_id": "cardiff",
+    "authority_id": null,
     "jurisdiction": "wales",
     "source_type": "validation_list",
     "title": "Planning applications: lists of validation requirements",
@@ -129,7 +344,11 @@
     "publisher": "Welsh Government",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["local_project", "authority_profile", "data_report"]
+    "page_families": [
+      "local_project",
+      "authority_profile",
+      "data_report"
+    ]
   },
   {
     "source_id": "cardiff-pre-app",
@@ -141,7 +360,11 @@
     "publisher": "Cardiff Council",
     "last_checked_at": "2026-07-04",
     "status": "active",
-    "page_families": ["local_project", "authority_profile", "data_report"]
+    "page_families": [
+      "local_project",
+      "authority_profile",
+      "data_report"
+    ]
   },
   {
     "source_id": "cardiff-local-development-plan",
@@ -153,7 +376,11 @@
     "publisher": "Cardiff Council",
     "last_checked_at": "2026-07-04",
     "status": "active",
-    "page_families": ["local_project", "authority_profile", "data_report"]
+    "page_families": [
+      "local_project",
+      "authority_profile",
+      "data_report"
+    ]
   },
   {
     "source_id": "cardiff-vehicle-crossovers",
@@ -163,13 +390,149 @@
     "title": "Dropped kerbs and vehicle crossovers",
     "url": "https://www.cardiff.gov.uk/vehiclecrossovers",
     "publisher": "Cardiff Council",
-    "last_checked_at": "2026-07-04",
+    "last_checked_at": "2026-11-07",
     "status": "active",
-    "page_families": ["local_project"]
+    "page_families": [
+      "local_project"
+    ],
+    "propositions": [
+      {
+        "proposition_id": "cardiff-crossover-service",
+        "text": "Cardiff publishes a vehicle-crossover application service with planning checks listed separately.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "wales",
+          "authority_id": "cardiff",
+          "project_ids": [
+            "dropped-kerbs"
+          ],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Application route and terms item 6",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "cardiff-crossover-application",
+        "text": "Cardiff publishes a dedicated vehicle-crossover application route.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "wales",
+          "authority_id": "cardiff",
+          "project_ids": [
+            "dropped-kerbs"
+          ],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Application section",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "cardiff-crossover-extension",
+        "text": "The crossover guidance says an extension to an existing crossover also needs an application.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "wales",
+          "authority_id": "cardiff",
+          "project_ids": [
+            "dropped-kerbs"
+          ],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Opening existing-crossover paragraph",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "cardiff-individual-assessment",
+        "text": "The council says each crossover site is assessed individually against its current standards.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "wales",
+          "authority_id": "cardiff",
+          "project_ids": [
+            "dropped-kerbs"
+          ],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Terms item 1",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "cardiff-approval-quotation",
+        "text": "The council describes inspection, approval and a construction quotation as separate stages.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "wales",
+          "authority_id": "cardiff",
+          "project_ids": [
+            "dropped-kerbs"
+          ],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Next-stage section",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "cardiff-classified-road-check",
+        "text": "The crossover guidance identifies a separate planning check for classified roads.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "wales",
+          "authority_id": "cardiff",
+          "project_ids": [
+            "dropped-kerbs"
+          ],
+          "rule_ids": []
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Terms item 6 and classified-road note",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      }
+    ]
   },
   {
     "source_id": "scotland-eplanning",
-    "authority_id": "city-of-edinburgh",
+    "authority_id": null,
     "jurisdiction": "scotland",
     "source_type": "planning_portal",
     "title": "Scotland's online planning applications service",
@@ -177,7 +540,11 @@
     "publisher": "Scottish Government",
     "last_checked_at": "2026-07-04",
     "status": "active",
-    "page_families": ["project_guide", "local_project", "authority_profile"]
+    "page_families": [
+      "project_guide",
+      "local_project",
+      "authority_profile"
+    ]
   },
   {
     "source_id": "edinburgh-apply-planning",
@@ -189,7 +556,10 @@
     "publisher": "The City of Edinburgh Council",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["local_project", "authority_profile"]
+    "page_families": [
+      "local_project",
+      "authority_profile"
+    ]
   },
   {
     "source_id": "edinburgh-pre-app",
@@ -201,7 +571,10 @@
     "publisher": "The City of Edinburgh Council",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["local_project", "authority_profile"]
+    "page_families": [
+      "local_project",
+      "authority_profile"
+    ]
   },
   {
     "source_id": "edinburgh-city-plan-2030",
@@ -213,19 +586,75 @@
     "publisher": "The City of Edinburgh Council",
     "last_checked_at": "2026-04-05",
     "status": "active",
-    "page_families": ["local_project", "authority_profile", "data_report"]
+    "page_families": [
+      "local_project",
+      "authority_profile",
+      "data_report"
+    ]
   },
   {
     "source_id": "north-yorks-planning-advice",
     "authority_id": "north-yorkshire",
     "jurisdiction": "england",
     "source_type": "pre_app",
-    "title": "Find out if you need planning permission and apply for minerals and waste or council planning",
-    "url": "https://www.northyorks.gov.uk/planning-and-conservation/find-out-if-you-need-planning-permission-and-apply/find-out-if-you-need-planning-permission-and-apply-minerals-and-waste-or-council-planning",
+    "title": "Find out if you need planning permission and apply in your area",
+    "url": "https://www.northyorks.gov.uk/planning-and-conservation/find-out-if-you-need-planning-permission-and-apply/find-out-if-you-need-planning-permission-and-apply-your-area",
     "publisher": "North Yorkshire Council",
-    "last_checked_at": "2026-09-05",
+    "last_checked_at": "2026-11-07",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ],
+    "previous_urls": [
+      "https://www.northyorks.gov.uk/planning-and-conservation/find-out-if-you-need-planning-permission-and-apply/find-out-if-you-need-planning-permission-and-apply-minerals-and-waste-or-council-planning"
+    ],
+    "propositions": [
+      {
+        "proposition_id": "north-yorks-area-routing",
+        "text": "North Yorkshire Council provides area-based guidance for planning-permission enquiries and applications.",
+        "kind": "service_information",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "north-yorkshire",
+          "project_ids": [],
+          "rule_ids": [
+            "permitted-development"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Service description and area selector",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "north-yorks-local-area-service",
+        "text": "The council uses an area selector to direct home-improvement planning enquiries to the relevant service.",
+        "kind": "planning_scope",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "north-yorkshire",
+          "project_ids": [],
+          "rule_ids": [
+            "permitted-development"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Area-based service selector",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      }
+    ]
   },
   {
     "source_id": "north-yorks-planning-policy",
@@ -237,7 +666,10 @@
     "publisher": "North Yorkshire Council",
     "last_checked_at": "2026-09-05",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ]
   },
   {
     "source_id": "north-yorks-local-plan",
@@ -247,9 +679,102 @@
     "title": "The North Yorkshire Local Plan",
     "url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/north-yorkshire-local-plan",
     "publisher": "North Yorkshire Council",
-    "last_checked_at": "2026-09-05",
+    "last_checked_at": "2026-11-07",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ],
+    "propositions": [
+      {
+        "proposition_id": "north-yorks-plan-coverage",
+        "text": "The emerging North Yorkshire Local Plan excludes the North York Moors and Yorkshire Dales National Parks.",
+        "kind": "planning_scope",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "north-yorkshire",
+          "project_ids": [],
+          "rule_ids": [
+            "permitted-development"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Opening plan-area description",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "north-yorks-council-formation",
+        "text": "The local-plan page records that North Yorkshire Council was created in April 2023.",
+        "kind": "planning_scope",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "north-yorkshire",
+          "project_ids": [],
+          "rule_ids": [
+            "permitted-development"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Opening council-formation paragraph",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "north-yorks-future-adoption",
+        "text": "The council says the new plan will replace existing local plans when it is adopted.",
+        "kind": "planning_scope",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "north-yorkshire",
+          "project_ids": [],
+          "rule_ids": [
+            "permitted-development"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Opening adoption paragraph",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "north-yorks-existing-plan-links",
+        "text": "Existing local-plan information is linked separately from the emerging plan.",
+        "kind": "planning_scope",
+        "scope": {
+          "jurisdiction": "england",
+          "authority_id": "north-yorkshire",
+          "project_ids": [],
+          "rule_ids": [
+            "permitted-development"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": null,
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Existing local-plan link in opening section",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      }
+    ]
   },
   {
     "source_id": "glasgow-conservation-policy",
@@ -261,7 +786,10 @@
     "publisher": "Glasgow City Council",
     "last_checked_at": "2026-09-05",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ]
   },
   {
     "source_id": "glasgow-conservation-review",
@@ -271,9 +799,146 @@
     "title": "Conservation area character appraisals review programme",
     "url": "https://onlineservices.glasgow.gov.uk/CouncillorsandCommittees/viewSelectedDocument.asp?c=P62AFQDN812U81NT81",
     "publisher": "Glasgow City Council",
-    "last_checked_at": "2026-09-05",
+    "last_checked_at": "2026-11-07",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ],
+    "propositions": [
+      {
+        "proposition_id": "glasgow-report-context",
+        "text": "The March 2024 council report describes character appraisals as inputs to conservation-area development management.",
+        "kind": "historical_context",
+        "scope": {
+          "jurisdiction": "scotland",
+          "authority_id": "glasgow-city",
+          "project_ids": [],
+          "rule_ids": [
+            "conservation-areas"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": "2024-03-05",
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Report dated 5 March 2024, sections 1.2 and 2",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "glasgow-historical-count",
+        "text": "The March 2024 report recorded 25 conservation areas; this is not a current boundary check.",
+        "kind": "historical_context",
+        "scope": {
+          "jurisdiction": "scotland",
+          "authority_id": "glasgow-city",
+          "project_ids": [],
+          "rule_ids": [
+            "conservation-areas"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": "2024-03-05",
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Section 2.1",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "glasgow-historical-appraisals",
+        "text": "The March 2024 report described appraisal documents dating from 2005 to 2021.",
+        "kind": "historical_context",
+        "scope": {
+          "jurisdiction": "scotland",
+          "authority_id": "glasgow-city",
+          "project_ids": [],
+          "rule_ids": [
+            "conservation-areas"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": "2024-03-05",
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Section 2.1",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "glasgow-appraisal-function",
+        "text": "The March 2024 report explains that appraisals inform development-management decisions.",
+        "kind": "historical_context",
+        "scope": {
+          "jurisdiction": "scotland",
+          "authority_id": "glasgow-city",
+          "project_ids": [],
+          "rule_ids": [
+            "conservation-areas"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": "2024-03-05",
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Section 1.2",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "glasgow-review-priorities",
+        "text": "The March 2024 report lists appraisal age and development-pressure indicators among its review priorities.",
+        "kind": "historical_context",
+        "scope": {
+          "jurisdiction": "scotland",
+          "authority_id": "glasgow-city",
+          "project_ids": [],
+          "rule_ids": [
+            "conservation-areas"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": "2024-03-05",
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Section 2.2",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      },
+      {
+        "proposition_id": "glasgow-review-programme",
+        "text": "The March 2024 report proposed a resource-dependent review programme for 2024 to 2027.",
+        "kind": "historical_context",
+        "scope": {
+          "jurisdiction": "scotland",
+          "authority_id": "glasgow-city",
+          "project_ids": [],
+          "rule_ids": [
+            "conservation-areas"
+          ]
+        },
+        "checked_at": "2026-11-07",
+        "as_of": "2024-03-05",
+        "effective_from": null,
+        "effective_to": null,
+        "locator": "Section 3.1",
+        "checked_by": "codex-source-check",
+        "verification_status": "verified",
+        "capture_kind": "web-read-bundle",
+        "capture_sha256": "66058c9085228baa88fd1ba42778939f721ee314b0ff4e84018b17db04761d91"
+      }
+    ]
   },
   {
     "source_id": "glasgow-conservation-review-minute",
@@ -285,7 +950,10 @@
     "publisher": "Glasgow City Council",
     "last_checked_at": "2026-09-05",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ]
   },
   {
     "source_id": "sheffield-validation",
@@ -297,7 +965,10 @@
     "publisher": "Sheffield City Council",
     "last_checked_at": "2026-09-05",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ]
   },
   {
     "source_id": "sheffield-apply",
@@ -309,7 +980,10 @@
     "publisher": "Sheffield City Council",
     "last_checked_at": "2026-09-05",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ]
   },
   {
     "source_id": "sheffield-decisions",
@@ -321,6 +995,9 @@
     "publisher": "Sheffield City Council",
     "last_checked_at": "2026-09-05",
     "status": "active",
-    "page_families": ["authority_profile", "local_rule"]
+    "page_families": [
+      "authority_profile",
+      "local_rule"
+    ]
   }
 ]

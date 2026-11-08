@@ -17,9 +17,25 @@
     "page_families"
   ],
   "properties": {
-    "source_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
-    "authority_id": {"type": ["string", "null"]},
-    "jurisdiction": {"enum": ["england", "wales", "scotland", "northern-ireland", "uk"]},
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "authority_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "jurisdiction": {
+      "enum": [
+        "england",
+        "wales",
+        "scotland",
+        "northern-ireland",
+        "uk"
+      ]
+    },
     "source_type": {
       "enum": [
         "article_4",
@@ -38,11 +54,210 @@
         "editorial_method"
       ]
     },
-    "title": {"type": "string", "minLength": 1},
-    "url": {"type": "string", "pattern": "^https://"},
-    "publisher": {"type": "string", "minLength": 1},
-    "last_checked_at": {"type": "string", "format": "date"},
-    "status": {"enum": ["active", "redirected", "unavailable", "unverified"]},
-    "page_families": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1
+    },
+    "last_checked_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "redirected",
+        "unavailable",
+        "unverified"
+      ]
+    },
+    "page_families": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "propositions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "proposition_id",
+          "text",
+          "kind",
+          "scope",
+          "checked_at",
+          "checked_by",
+          "locator",
+          "verification_status",
+          "capture_kind",
+          "capture_sha256",
+          "as_of",
+          "effective_from",
+          "effective_to"
+        ],
+        "properties": {
+          "proposition_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "service_information",
+              "planning_scope",
+              "historical_context",
+              "national_rule",
+              "local_policy",
+              "article4_applicability"
+            ]
+          },
+          "scope": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "jurisdiction",
+              "authority_id",
+              "project_ids",
+              "rule_ids"
+            ],
+            "properties": {
+              "jurisdiction": {
+                "enum": [
+                  "england",
+                  "wales",
+                  "scotland",
+                  "northern-ireland"
+                ]
+              },
+              "authority_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "project_ids": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "rule_ids": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "checked_by": {
+            "const": "codex-source-check"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verification_status": {
+            "enum": [
+              "verified",
+              "unverified"
+            ]
+          },
+          "capture_kind": {
+            "enum": [
+              "web-read-bundle",
+              "http-body"
+            ]
+          },
+          "capture_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "as_of": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "effective_from": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "effective_to": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "property_scope": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "status",
+              "direction_url",
+              "map_url",
+              "withdrawn_rights",
+              "match_record_id"
+            ],
+            "properties": {
+              "status": {
+                "const": "verified"
+              },
+              "direction_url": {
+                "type": "string",
+                "pattern": "^https://"
+              },
+              "map_url": {
+                "type": "string",
+                "pattern": "^https://"
+              },
+              "withdrawn_rights": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "match_record_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "previous_urls": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^https://"
+      }
+    }
   }
 }

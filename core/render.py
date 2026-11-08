@@ -76,6 +76,10 @@ def _render_contract_trust_strip(record: dict) -> str:
     from utils.trust_status import trust_status
     state = trust_status(record)
     verified = _display_date(record.get("verified_at")) if state.verification == "verified" else "Not yet verified"
+    if state.verification == 'historical':
+        verified = f"Historical record: {_display_date(record.get('verified_at'))}; claims not rechecked"
+    evidence_read = (f'<span><strong>Evidence read</strong>{escape(_display_date(record["evidence_checked_at"]))}</span>'
+                     if record.get('evidence_version') == 1 else '')
     confidence = f"<span><strong>Confidence</strong>{escape(state.confidence.title())}</span>" if state.confidence else ""
     return (
         '<div class="page-trust-strip" data-nosnippet data-contract-trust="true">'
@@ -85,7 +89,8 @@ def _render_contract_trust_strip(record: dict) -> str:
         "</div>"
         '<div class="page-trust-strip-items">'
         f"<span><strong>Content updated</strong>{escape(_display_date(record['content_updated_at']))}</span>"
-        f"<span><strong>Sources checked</strong>{escape(verified)}</span>"
+        f"<span><strong>Context verification</strong>{escape(verified)}</span>"
+        f"{evidence_read}"
         f"{confidence}"
         "<span><strong>Important</strong>General planning information, not legal advice or formal approval.</span>"
         "</div>"
@@ -94,10 +99,15 @@ def _render_contract_trust_strip(record: dict) -> str:
 
 
 def _render_contract_source_panel(record: dict) -> str:
+    from utils.claim_evidence import validate_record_evidence
+    from utils.source_registry import source_registry_by_id
+    validate_record_evidence(record, source_registry_by_id())
     sources = sources_for_page(record)
     source_lookup = {source["source_id"]: source for source in sources}
     claim_items = []
     for claim in record.get("claims", []):
+        status = claim.get('evidence_status', 'unverified')
+        label = 'Evidence checked.' if status == 'verified' else 'Not rechecked.' if record.get('evidence_version') != 1 else 'Not verified.'
         links = []
         for source_id in claim.get("source_ids", []):
             source = source_lookup.get(source_id)
@@ -105,11 +115,12 @@ def _render_contract_source_panel(record: dict) -> str:
                 continue
             links.append(
                 f'<a href="{escape(source["url"], quote=True)}" data-source-id="{escape(source_id, quote=True)}">'
-                f'{escape(source["title"])}</a>'
+                f'{escape(source["title"])}</a> '
             )
         claim_items.append(
-            '<li data-claim-id="{claim_id}"><span>{text}</span><span class="claim-sources">{sources}</span></li>'.format(
+            '<li data-claim-id="{claim_id}" data-evidence-status="{status}"><span><strong>{label}</strong> {text}</span><span class="claim-sources">{sources}</span></li>'.format(
                 claim_id=escape(claim["claim_id"], quote=True),
+                status=escape(status, quote=True), label=label,
                 text=escape(claim["text"]),
                 sources="; ".join(links),
             )
@@ -119,7 +130,7 @@ def _render_contract_source_panel(record: dict) -> str:
     for source in sources:
         source_items.append(
             '<li><a href="{url}" data-source-id="{source_id}">{title}</a>'
-            '<span>{publisher} · checked {checked} · {status}</span></li>'.format(
+            ' <span>{publisher} · source record date {checked} · recorded link state {status}</span></li>'.format(
                 url=escape(source["url"], quote=True),
                 source_id=escape(source["source_id"], quote=True),
                 title=escape(source["title"]),
@@ -130,12 +141,14 @@ def _render_contract_source_panel(record: dict) -> str:
         )
     fact_items = []
     for fact in record.get("unique_local_facts", []):
+        status = fact.get('evidence_status', 'unverified')
+        label = 'Evidence checked.' if status == 'verified' else 'Not rechecked.'
         evidence = []
         for source_id in fact.get("source_ids", []):
             source = source_lookup.get(source_id)
             if source:
-                evidence.append(f'<a href="{escape(source["url"], quote=True)}">{escape(source["title"])}</a> (checked {escape(_display_date(source["last_checked_at"]))})')
-        fact_items.append(f'<li data-local-fact="true">{escape(fact["fact"])} <span>{"; ".join(evidence)}</span></li>')
+                evidence.append(f'<a href="{escape(source["url"], quote=True)}">{escape(source["title"])}</a> (source record {escape(_display_date(source["last_checked_at"]))})')
+        fact_items.append(f'<li data-local-fact="true" data-evidence-status="{escape(status, quote=True)}"><strong>{label}</strong> {escape(fact["fact"])} <span>{"; ".join(evidence)}</span></li>')
     if not claim_items and not source_items and not fact_items:
         return ""
     claims = f'<h3>Traceable claims</h3><ul class="claim-list">{"".join(claim_items)}</ul>' if claim_items else ""
@@ -146,7 +159,7 @@ def _render_contract_source_panel(record: dict) -> str:
         '<span class="eyebrow">Sources and review</span>'
         '<h2>What this page is based on</h2>'
         f"{claims}{facts}{source_list}"
-        '<p class="section-lead">Source verification dates are separate from the page content-update date.</p>'
+        '<p class="section-lead">Evidence-check dates record when cited material was read, separately from editorial updates and legal effective dates. Checked context does not establish permission or designation coverage at an address.</p>'
         "</section>"
     )
 

@@ -8,7 +8,7 @@ import re
 import xml.etree.ElementTree as ET
 
 from core.paths import ROOT
-from utils.content_contracts import BASE_URL, load_page_records, normalize_path, page_records_by_route
+from utils.content_contracts import BASE_URL, load_page_records, normalize_path, page_records_by_route, render_record_for_path
 from utils.content_integrity import lint_rendered_html
 from utils.url_registry import load_canary_routes, load_redirects
 from utils.build_provenance import source_fingerprint
@@ -131,7 +131,10 @@ def validate_phase0_canary(output_dir: Path, *, baseline_dir: Path | None = None
         if record["index_status"] == "noindex" and absolute in sitemap_urls:
             add_error(route, "noindex-in-sitemap", "Noindex canary route appears in a sitemap.")
 
-        if record["content_updated_at"] not in html:
+        # Aliases render the canonical record's content; their route/indexation
+        # contract remains separate. Check the actual content owner's date.
+        content_record = render_record_for_path(route) or record
+        if content_record["content_updated_at"] not in html:
             add_error(route, "date-mismatch", "Substantive update date is absent from rendered metadata.")
         if record["source_ids"] and 'data-page-source-panel="true"' not in html:
             add_error(route, "missing-source-panel", "Source-linked record rendered without the source panel.")

@@ -155,7 +155,8 @@ def validate_page_record(record: dict) -> None:
         if not claim["claim_id"] or claim["claim_id"] in known_claim_ids:
             raise ContractError(f"{route} has an empty or duplicate claim_id")
         known_claim_ids.add(claim["claim_id"])
-        if not str(claim["text"]).strip() or not claim["source_ids"]:
+        unresolved = record.get('evidence_version') == 1 and claim.get('evidence_status') == 'unverified'
+        if not str(claim["text"]).strip() or not claim["source_ids"] and not unresolved:
             raise ContractError(f"{route} claim {claim['claim_id']} needs text and sources")
         if not set(claim["source_ids"]).issubset(set(record["source_ids"])):
             raise ContractError(f"{route} claim {claim['claim_id']} references undeclared sources")
@@ -168,6 +169,8 @@ def validate_page_record(record: dict) -> None:
             raise ContractError(f"{route} local facts need text and sources")
         if not set(fact["source_ids"]).issubset(set(record["source_ids"])):
             raise ContractError(f"{route} local fact references undeclared sources")
+    from utils.claim_evidence import validate_page_evidence_shape
+    validate_page_evidence_shape(record)
 
 
 @lru_cache(maxsize=1)
