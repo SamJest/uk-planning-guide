@@ -13,6 +13,7 @@ jobs:
           python-version: '3.12'
       - run: pip install lxml==6.1.1 beautifulsoup4==4.14.2
       - run: python3 build_site.py --validation-baseline .
+      - run: python3 scripts/check_wave1_evidence.py
       - run: python3 scripts/repair_pilot.py --check
       - run: python3 -m unittest discover -s tests -v
       - run: python3 scripts/check_release.py
@@ -34,6 +35,8 @@ jobs:
           node scripts/serve_site.cjs . 8765 &
           npx playwright test tests/browser/production-journeys.spec.mjs tests/browser/research-improvements.spec.mjs --workers=2
           npx playwright test tests/browser/phase0-canary.spec.mjs --grep "preview disables analytics" --workers=2
+      - name: Wave 1 source cohort accessibility and responsive reading
+        run: npx playwright test tests/browser/wave1-evidence.spec.mjs --workers=2
       - name: Lighthouse canary budgets
         run: |
           export CHROME_PATH="$(node -e "process.stdout.write(require('playwright').chromium.executablePath())")"
@@ -50,3 +53,4 @@ jobs:
             .lighthouseci/*.json
             reports/phase-0/lighthouse/
             reports/phase-0/canary-test-report.json
+            reports/phase-0/playwright-report.json

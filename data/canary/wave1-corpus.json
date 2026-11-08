@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "baseline_sha": "d1332c69ccf76b7ff9b19e79b7724104b4777090",
+  "primary_routes": [
+    "/permitted-development/north-yorkshire/",
+    "/conservation-areas/glasgow-city/",
+    "/wales/projects/dropped-kerbs/cardiff/",
+    "/england/councils/colchester/",
+    "/england/rules/article-4/colchester/"
+  ],
+  "qa_corpus": [
+    {
+      "route_path": "/permitted-development/north-yorkshire/",
+      "public_path": "/permitted-development/north-yorkshire/",
+      "tier": "primary",
+      "jurisdiction": "england",
+      "page_family": "local_rule",
+      "gsc_sample_clicks": 5.0,
+      "public_sha256": "de11b52171508052aee71e2864cdc2f497f9176dc174321e2374409118ac472e",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/permitted-development/north-yorkshire/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/permitted-development/north-yorkshire/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/conservation-areas/glasgow-city/",
+      "public_path": "/conservation-areas/glasgow-city/",
+      "tier": "primary",
+      "jurisdiction": "scotland",
+      "page_family": "local_rule",
+      "gsc_sample_clicks": null,
+      "public_sha256": "543ff0af7f5ef437c20bfb4f4331ef6fb3203055c34e380a3745248c0068e304",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/conservation-areas/glasgow-city/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/conservation-areas/glasgow-city/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/wales/projects/dropped-kerbs/cardiff/",
+      "public_path": "/wales/projects/dropped-kerbs/cardiff/",
+      "tier": "primary",
+      "jurisdiction": "wales",
+      "page_family": "local_project",
+      "gsc_sample_clicks": null,
+      "public_sha256": "0c4b2abb52f4bf5a2e06226b28365f7917cb99ebf0d320935b941a7e5ec65b2e",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/wales/projects/dropped-kerbs/cardiff/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/wales/projects/dropped-kerbs/cardiff/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/councils/colchester/",
+      "public_path": "/england/councils/colchester/",
+      "tier": "primary",
+      "jurisdiction": "england",
+      "page_family": "authority_profile",
+      "gsc_sample_clicks": 1.0,
+      "public_sha256": "ea3d6d1ab648219ecaa75402d4a7568fe5e84b824d298d02d94747d986bd8ce5",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/councils/colchester/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/councils/colchester/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/rules/article-4/colchester/",
+      "public_path": "/england/rules/article-4/colchester/",
+      "tier": "primary",
+      "jurisdiction": "england",
+      "page_family": "local_rule",
+      "gsc_sample_clicks": null,
+      "public_sha256": "119e86fab4a78bc7b0760464f9ed026112dfb209e00e23e2592fddd40f281394",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/rules/article-4/colchester/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/rules/article-4/colchester/",
+      "index_status": "noindex"
+    },
+    {
+      "route_path": "/",
+      "public_path": "/",
+      "tier": "regression",
+      "jurisdiction": "uk",
+      "page_family": "national_guide",
+      "gsc_sample_clicks": 2.0,
+      "public_sha256": "fa941379addd375dd7b81d542db3905f150d6cfc14072668bdb2de152d84289c",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/rules/planning-permission/",
+      "public_path": "/england/rules/planning-permission/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "national_guide",
+      "gsc_sample_clicks": null,
+      "public_sha256": "7e0ce2df37cf34b55f5e21498920eec08ad82b44b068b4aafb3ffed3dc924c47",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/rules/planning-permission/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/rules/planning-permission/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/rules/permitted-development/",
+      "public_path": "/england/rules/permitted-development/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "national_guide",
+      "gsc_sample_clicks": null,
+      "public_sha256": "9e7d3562294242b9053e2b573b3aea545587260ae4feb5fc0861f92bd049c4f5",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/rules/permitted-development/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/rules/permitted-development/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/projects/garden-rooms/",
+      "public_path": "/england/projects/garden-rooms/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "project_guide",
+      "gsc_sample_clicks": null,
+      "public_sha256": "d45779740144121dc2e1ffcf784f5d7f6d411e9ee4c06d2d8af5de1a57ef6d30",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/projects/garden-rooms/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/projects/garden-rooms/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/scotland/projects/garden-rooms/city-of-edinburgh/",
+      "public_path": "/scotland/projects/garden-rooms/city-of-edinburgh/",
+      "tier": "regression",
+      "jurisdiction": "scotland",
+      "page_family": "local_project",
+      "gsc_sample_clicks": null,
+      "public_sha256": "e93137a59ab5b6235fe69073da5fbb8832967ccdb1a185f02af30af9c2bd5d70",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/scotland/projects/garden-rooms/city-of-edinburgh/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/scotland/projects/garden-rooms/city-of-edinburgh/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/rules/height-limits/",
+      "public_path": "/england/rules/height-limits/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "rule_guide",
+      "gsc_sample_clicks": null,
+      "public_sha256": "4fb3f87e9d3b3a64efee8a1e68401f389f733846be8ec05f2f8054d6c36df4a3",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/rules/height-limits/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/rules/height-limits/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/rules/article-4/",
+      "public_path": "/england/rules/article-4/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "rule_guide",
+      "gsc_sample_clicks": null,
+      "public_sha256": "5787163eb3f63b2a3f791cbe8274c07837a0dbddaa8aa094f5bd2347ee7f01e0",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/rules/article-4/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/rules/article-4/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/rules/conservation-areas/",
+      "public_path": "/england/rules/conservation-areas/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "rule_guide",
+      "gsc_sample_clicks": null,
+      "public_sha256": "0ffcdab19efc3a43a51e38c3b774067087b1caffb8774b0770c038faf01bf7dd",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/rules/conservation-areas/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/rules/conservation-areas/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/projects/garden-rooms/colchester/",
+      "public_path": "/england/projects/garden-rooms/colchester/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "local_project",
+      "gsc_sample_clicks": null,
+      "public_sha256": "49d5d2ffc8ec2eadfaeeff78137feb88035bad8eabfb335b62ca101d93896004",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/projects/garden-rooms/colchester/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/projects/garden-rooms/colchester/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/england/tools/planning-route-check/",
+      "public_path": "/england/tools/planning-route-check/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "tool",
+      "gsc_sample_clicks": null,
+      "public_sha256": "b2aa94ce0a38351cd3a6e83537b2ac621a7db8dd0d602ccc3571a0c28ae0aa4f",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/england/tools/planning-route-check/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/lead-config.js",
+        "/assets/js/planning-route-check.js",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/england/tools/planning-route-check/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/workflows/house-extension-planning/",
+      "public_path": "/workflows/house-extension-planning/",
+      "tier": "regression",
+      "jurisdiction": "uk",
+      "page_family": "workflow",
+      "gsc_sample_clicks": null,
+      "public_sha256": "aeb3e20a125614ed0f15ee5f71da8ba83cb39f7977de29fa8e6d297264effee1",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/workflows/house-extension-planning/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/workflows/house-extension-planning/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/my-planning-project/",
+      "public_path": "/my-planning-project/",
+      "tier": "regression",
+      "jurisdiction": "uk",
+      "page_family": "tool",
+      "gsc_sample_clicks": null,
+      "public_sha256": "99bf687e6e6503c57ad0a59584b8185457e18cd05cb1e9807bfa7a0f42c93859",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/my-planning-project/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/my-planning-project/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/downloads/",
+      "public_path": "/downloads/",
+      "tier": "regression",
+      "jurisdiction": "uk",
+      "page_family": "national_guide",
+      "gsc_sample_clicks": null,
+      "public_sha256": "4f11533592fa9d5c7e846be618f9d9e954ac986df8a1151f168f0a4bec9afd78",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/downloads/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/downloads/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/planning-faq/",
+      "public_path": "/planning-faq/",
+      "tier": "regression",
+      "jurisdiction": "uk",
+      "page_family": "national_guide",
+      "gsc_sample_clicks": null,
+      "public_sha256": "22f3091eab2a00f3e5d34eec2f24cca25c57d4474167721ecc1c47fcb78640e4",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/planning-faq/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/planning-faq/",
+      "index_status": "index"
+    },
+    {
+      "route_path": "/councils/sheffield/",
+      "public_path": "/councils/sheffield/",
+      "tier": "regression",
+      "jurisdiction": "england",
+      "page_family": "authority_profile",
+      "gsc_sample_clicks": 0.0,
+      "public_sha256": "4e321fe0a327bd36ff95a8c25e4718f0b5638beb1a47f3c7088240be2420fbae",
+      "public_canonical": [
+        "https://ukplanningguide.co.uk/councils/sheffield/"
+      ],
+      "public_script_srcs": [
+        "https://www.googletagmanager.com/gtag/js?id=G-GXRZWRNWD7",
+        "/assets/js/project-tracker.js"
+      ],
+      "public_form_actions": [],
+      "canonical_path": "/councils/sheffield/",
+      "index_status": "index"
+    }
+  ],
+  "legacy_record_sha256": {
+    "/": "5092b29c87abfe8c4ecbc0541f661b2dfc8cff38471eff7187b2e04be8f0355d",
+    "/england/rules/planning-permission/": "e0f79efb137e65e7b0873a0ac98fd0f6abbe176a9aa1368dd633dcfa54cc9e08",
+    "/england/rules/permitted-development/": "49b7ad33879de587ebacdc10b41cff9d1db8f0e835ed08ba8e22557d09c4df62",
+    "/england/projects/garden-rooms/": "1a33d9038f3516478a7fcce3553217a5b85ead8cebb04f589adb93a9147c8a31",
+    "/scotland/projects/garden-rooms/city-of-edinburgh/": "3077dc7cd9c2cbd0dc3a0b4818c8617573d3136adfb5f6e99038f23c2a3a08df",
+    "/england/rules/height-limits/": "eed9305a39feb7e99208ca42c5808574b0e5b4733325525708ff086838f6bd05",
+    "/england/rules/article-4/": "6d535ee319a8680c2c8d746ad96a5aa0bd77067da04871e74241f2d0130b533a",
+    "/england/rules/conservation-areas/": "908603e6fdf96d29dd4a7eb5cdaf7e2b9c750635537e23c8c9f3e37fc23f0707",
+    "/england/projects/garden-rooms/colchester/": "ab0e3841b89eb5b1041910f9d56f639988b886ee6fe79e3dfc46d2ed5d0f5e81",
+    "/england/tools/planning-route-check/": "72b732efde7843db30020e84c0f00672abf4ab837be5deefea594f1a1414a0eb",
+    "/workflows/house-extension-planning/": "291ed64bef6bef385c3c19d9c4ccc0cc65bd24313c78cccd97f29679f134f08d",
+    "/my-planning-project/": "f310f13870d87ae2b44d2182a523568bd349af0bfe4f69d26c310562c603a233",
+    "/downloads/": "dd0412764fe6b8ab1dcca4625e6301b0f3b8ce57e361af9363118543d88b3ec1",
+    "/planning-faq/": "fc482f612b8ef898228ed80e31fe4138e101b033a7624ee2dd66daf9ef13082e",
+    "/updates/phase-0-integrity-repair/": "7ea6dae9591419a3ff08f409ed97f4e8c236a5a9c5ec44ea00b3290fe6bb545a",
+    "/england/data/council-profile-database/": "290ae20ff9380515854ae7e4ba9daf5b0353c2e2d8b80858ccee498d8b354c9e",
+    "/councils/colchester/": "d8f6c3435cdd07e4d3528cebe2895b9b854a7242c258444b140e045b8df69d76",
+    "/councils/sheffield/": "4f1c8bd4bd02050b3afb1e2cdce0ebeef66f55241dddba63d1596069e4623202",
+    "/tools/": "b2aea920cde5f79198c8815767605f6161ce3e3f9d1fbdf17f9ee87daa77eb28"
+  },
+  "legacy_note": "Unchanged records remain historical, not a claim-level verification pass.",
+  "public_hash_normalization": "LF: Git checkout line endings normalized; publishing-tree changes independently forbidden"
+}

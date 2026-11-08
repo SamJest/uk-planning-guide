@@ -66,11 +66,11 @@ def _generate_source_backed_local_rule_page(
         raise ContractError(f"Source-backed local-rule page lacks three official sources: {legacy_path}")
 
     claims = "".join(
-        f'<li data-claim-id="{escape(claim["claim_id"], quote=True)}">{escape(claim["text"])}</li>'
+        f'<li data-claim-id="{escape(claim["claim_id"], quote=True)}" data-evidence-status="{claim.get("evidence_status", "unverified")}"><strong>{"Evidence checked." if claim.get("evidence_status") == "verified" else "Not verified."}</strong> {escape(claim["text"])}</li>'
         for claim in (record or {}).get("claims", [])
     )
     facts = "".join(
-        f'<li data-local-fact="true">{escape(fact["fact"])}</li>'
+        f'<li data-local-fact="true" data-evidence-status="{fact.get("evidence_status", "unverified")}"><strong>{"Evidence checked." if fact.get("evidence_status") == "verified" else "Not rechecked."}</strong> {escape(fact["fact"])}</li>'
         for fact in (record or {}).get("unique_local_facts", [])
     )
     if not facts:
