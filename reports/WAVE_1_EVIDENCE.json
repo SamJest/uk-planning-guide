@@ -152,7 +152,7 @@
       768,
       1440
     ],
-    "linux_ci": "pending",
+    "linux_ci": "passed; every job step succeeded; no skipped downstream gates",
     "local_status": "passed"
   },
   "next_pr": "Owner review of the source cohort and Linux evidence, then a bounded next-wave usability PR; publication, URL migrations, external services and spending remain approval gated.",
@@ -307,5 +307,70 @@
   "ci_initial_failed_run": "https://github.com/SamJest/uk-planning-guide/actions/runs/42526414663",
   "ci_initial_failure": "New cohort browser step reused the production server; fixed by a separate canary port; assertions retained.",
   "pr": "https://github.com/SamJest/uk-planning-guide/pull/19",
-  "tested_code_sha": "a3e715b36f2b6af668d8730b47c6b82c525eeba4"
+  "tested_code_sha": "a50f86f7c177ad5e271eb4eaabea59bbac8d0428",
+  "ci_passing_run": "https://github.com/SamJest/uk-planning-guide/actions/runs/42528400892",
+  "ci_passing_push_run": "https://github.com/SamJest/uk-planning-guide/actions/runs/42528396462",
+  "ci_artifact": {
+    "id": 13635964644,
+    "sha256": "ebb23b19bfcac6cd758f17eddb2d58a22495c7ff48050168d14e3656c2a48ca7",
+    "expires_at": "2026-11-15T22:09:32Z"
+  },
+  "lighthouse": [
+    {
+      "url": "http://127.0.0.1:8768/",
+      "performance": 1,
+      "accessibility": 0.98,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1802.6515,
+      "tbt_ms": 42,
+      "cls": 0,
+      "sha256": "e4936c4dcf96fde72f2046ba91820e0a943cd1a14f42ee0651120563c0abc0f6"
+    },
+    {
+      "url": "http://127.0.0.1:8768/england/councils/colchester/",
+      "performance": 1,
+      "accessibility": 1,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1805.5524,
+      "tbt_ms": 46.5,
+      "cls": 0,
+      "sha256": "d600a4eff89a24f4eb6cff6de1050e753f4ddeaa93ae9cba394541e2f1a9ed9d"
+    },
+    {
+      "url": "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/",
+      "performance": 1,
+      "accessibility": 1,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1808.5528,
+      "tbt_ms": 43,
+      "cls": 0,
+      "sha256": "723563ec0db5275a111a65521a2b10e5c6ddcc4ddbf8dda5dd19614953dd5516"
+    },
+    {
+      "url": "http://127.0.0.1:8768/scotland/projects/garden-rooms/city-of-edinburgh/",
+      "performance": 0.99,
+      "accessibility": 1,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1953.9386,
+      "tbt_ms": 47.5,
+      "cls": 0,
+      "sha256": "d4971b2c07e73321c7c1ee4643a4f124ca463c1315a118b7b7946d782341312b"
+    },
+    {
+      "url": "http://127.0.0.1:8768/england/tools/planning-route-check/",
+      "performance": 0.99,
+      "accessibility": 1,
+      "best_practices": 1,
+      "seo": 1,
+      "lcp_ms": 1956.1942,
+      "tbt_ms": 51,
+      "cls": 0,
+      "sha256": "094f34fefbeecdd52d10538e5d5fe5f1fc4700242330a5ca3aa84f76b6610b64"
+    }
+  ],
+  "release_decision": "Ready for owner review of source-only Wave 1; no merge, full-site publication or later wave authorized by these test results."
 }

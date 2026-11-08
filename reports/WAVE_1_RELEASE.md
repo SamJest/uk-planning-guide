@@ -1,6 +1,6 @@
 # Wave 1 — bounded claim evidence canary
 
-Prepared 8 November 2026. **Not deployed.** Targets the recovery branch, not main.
+Prepared 8 November 2026. **Not deployed.** [PR #19](https://github.com/SamJest/uk-planning-guide/pull/19) targets the recovery branch, not main.
 
 ## Publication boundary
 
@@ -43,7 +43,9 @@ Welsh national validation guidance and Scottish ePlanning were corrected to nati
 
 The full inventory's summary, pages, protected URLs, sitemap violations and broken-link reports are byte-identical to the Wave 0 after-inventory. The existing 3,986 local-evidence gaps remain unresolved outside this bounded source canary.
 
-Local checks passed: fresh isolated build (11/11 stages); 95 Python tests with no skips; six pack tests; pilot/release/HMO checks; JavaScript syntax; four Node tests; 28 tool smokes; 26 production/research browser checks; all 64 canary browser checks. Full inventory and Linux CI results are recorded in the evidence JSON when complete. Windows sandbox permission failures were retried outside the sandbox; they are not successful test results. Performance thresholds remain unchanged, with Linux CI the established authoritative Lighthouse profile.
+Local checks passed: fresh isolated build (11/11 stages); 95 Python tests with no skips; six pack tests; pilot/release/HMO checks; JavaScript syntax; four Node tests; 28 tool smokes; 26 production/research browser checks; all 64 canary browser checks. The full inventory and both corrected Linux runs passed. Windows sandbox permission failures were retried outside the sandbox; they are not successful test results. Performance thresholds remain unchanged, with Linux CI the established authoritative Lighthouse profile.
+
+[PR Linux CI 42528400892](https://github.com/SamJest/uk-planning-guide/actions/runs/42528400892) and [push CI 42528396462](https://github.com/SamJest/uk-planning-guide/actions/runs/42528396462) passed on implementation `a50f86f7c177ad5e271eb4eaabea59bbac8d0428`, with every job step successful and no downstream gate skipped. The five-page Lighthouse profile scored 0.99–1.00 performance, 1.80–1.96s LCP, 42–51ms TBT and zero CLS. These are opted-out preview lab results, not field Core Web Vitals or a production speed claim. Raw reports are retained locally and in CI artifact 13635964644 (seven-day retention). Subsequent evidence-only edits do not change the tested implementation.
 
 The [initial Linux run](https://github.com/SamJest/uk-planning-guide/actions/runs/42526414663) passed the build, evidence preservation, all Python/Node/tool gates and production browser checks. The new cohort browser step mistakenly reused the still-running production server on port 8765 and correctly failed its claim assertions; Lighthouse was therefore skipped. The workflow now explicitly serves the canary on port 8766. The failed run is retained as evidence, not represented as passing or fixed by weakening an assertion.
 
