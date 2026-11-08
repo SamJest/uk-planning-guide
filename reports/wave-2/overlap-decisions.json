@@ -1,0 +1,848 @@
+[
+  {
+    "decision_id": "local-search-vs-hmo-milton-keynes",
+    "source": {
+      "url": "https://ukplanningguide.co.uk/local-search/hmo-article-4-milton-keynes/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/local-search/hmo-article-4-milton-keynes/",
+      "static_file_exists": true,
+      "static_lf_sha256": "e03d5a2ab0850bb9b7c9590a0ea3419f5085584fb9f5f80912249e12e57b3939",
+      "canonical": [
+        "https://ukplanningguide.co.uk/local-search/hmo-article-4-milton-keynes/"
+      ],
+      "robots": [],
+      "h1": [
+        "Milton Keynes HMO Article 4 Areas"
+      ],
+      "inbound_static_count": 3,
+      "in_sitemap_count": 1,
+      "sample_metrics": {
+        "clicks": 0.0,
+        "impressions": 1187.0
+      },
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/local-search/hmo-article-4-milton-keynes/",
+        "observed_at": "2026-11-08T22:58:00.828549+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/local-search/hmo-article-4-milton-keynes/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "e03d5a2ab0850bb9b7c9590a0ea3419f5085584fb9f5f80912249e12e57b3939",
+        "capture_stem": "372ac0115259e8fc1f8e",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": true,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/local-search/hmo-article-4-milton-keynes/"
+        ],
+        "robots": [],
+        "h1": [
+          "Milton Keynes HMO Article 4 Areas"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "target": {
+      "url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+      "static_file_exists": true,
+      "static_lf_sha256": "278df68d30eca288076796ea96874d5faf3525f83118e7cadd8a3923427b673a",
+      "canonical": [
+        "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/"
+      ],
+      "robots": [],
+      "h1": [
+        "HMO in Milton Keynes: Article 4 rules"
+      ],
+      "inbound_static_count": 16,
+      "in_sitemap_count": 1,
+      "sample_metrics": null,
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+        "observed_at": "2026-11-08T22:58:00.871270+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "622c8332070bc1cdde3e2698335da3510bb953336f2849f21f5eb6d236584876",
+        "capture_stem": "e10b9737d45a9b9e9792",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": false,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/"
+        ],
+        "robots": [],
+        "h1": [
+          "HMO in Milton Keynes: Article 4 rules"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "intent_hypothesis": "HMO/Article 4 search landing versus HMO rule guide. Query coverage, authority evidence and unique value need review.",
+    "outcome": "unknown",
+    "overlap": {
+      "token_sequence_ratio": 0.2043,
+      "corpus": "unmerged recovery checkout",
+      "live_token_sequence_ratio": 0.2107,
+      "interpretation": "candidate signals only, never retirement evidence"
+    },
+    "unique_content": {
+      "source_samples": [
+        "For HMO Article 4 searches in Milton Keynes, answer the coverage question first: whether the exact property, use and area are inside the direction is what decides whether the simpler route can still b",
+        "If the build type is already clear in Milton Keynes, jump straight to the project guide below and use this page only to decide whether the authority context still changes the route."
+      ],
+      "target_samples": [
+        "Use this page when Article 4 in Milton Keynes may be removing the fallback route people usually assume is still there. Start here to reduce the guesswork, then verify the factor that would be hardest ",
+        "Start here if article 4 restrictions are the controlling issue, then move to the main hmo page or the council guide if the answer still depends on wider local context."
+      ],
+      "live_source_samples": [
+        "For HMO Article 4 searches in Milton Keynes, answer the coverage question first: whether the exact property, use and area are inside the direction is what decides whether the simpler route can still b",
+        "If the build type is already clear in Milton Keynes, jump straight to the project guide below and use this page only to decide whether the authority context still changes the route."
+      ],
+      "live_target_samples": [
+        "Use this page when Article 4 in Milton Keynes may be removing the fallback route people usually assume is still there. Start here to reduce the guesswork, then verify the factor that would be hardest ",
+        "Start here if article 4 restrictions are the controlling issue, then move to the main hmo page or the council guide if the answer still depends on wider local context."
+      ],
+      "factual_distinctness": "not independently verified; differing text/headings are not proof of unique facts"
+    },
+    "cohort_6_12_months": "unknown",
+    "backlinks": "unknown",
+    "owner": "SamJest",
+    "approval": null,
+    "http_migration_test": "No migration implemented; current observations shown per route.",
+    "rollback_map": {
+      "from_url": "https://ukplanningguide.co.uk/local-search/hmo-article-4-milton-keynes/",
+      "to_url": null,
+      "action": "retain-current-behavior"
+    },
+    "actionable_migration": false
+  },
+  {
+    "decision_id": "hmo-vs-general-article4-milton-keynes",
+    "source": {
+      "url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+      "static_file_exists": true,
+      "static_lf_sha256": "278df68d30eca288076796ea96874d5faf3525f83118e7cadd8a3923427b673a",
+      "canonical": [
+        "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/"
+      ],
+      "robots": [],
+      "h1": [
+        "HMO in Milton Keynes: Article 4 rules"
+      ],
+      "inbound_static_count": 16,
+      "in_sitemap_count": 1,
+      "sample_metrics": null,
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+        "observed_at": "2026-11-08T22:58:00.871270+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "622c8332070bc1cdde3e2698335da3510bb953336f2849f21f5eb6d236584876",
+        "capture_stem": "e10b9737d45a9b9e9792",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": false,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/"
+        ],
+        "robots": [],
+        "h1": [
+          "HMO in Milton Keynes: Article 4 rules"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "target": {
+      "url": "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+      "static_file_exists": true,
+      "static_lf_sha256": "ce623eddd2cc0d5454f4e781599746d02c1ab138f89996a04a5f8f948eb570d2",
+      "canonical": [
+        "https://ukplanningguide.co.uk/article-4/milton-keynes/"
+      ],
+      "robots": [],
+      "h1": [
+        "Article 4 Restrictions in Milton Keynes"
+      ],
+      "inbound_static_count": 33,
+      "in_sitemap_count": 1,
+      "sample_metrics": null,
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+        "observed_at": "2026-11-08T22:58:00.919454+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "12ac5082b0ce037c944dd41ebcd0428fbab90226e9b25e8897b953ae33a5549b",
+        "capture_stem": "80611ae2ca4ac232a56b",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": false,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/article-4/milton-keynes/"
+        ],
+        "robots": [],
+        "h1": [
+          "Article 4 Restrictions in Milton Keynes"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "intent_hypothesis": "HMO change-of-use question and general permitted-development restrictions may differ; shared keywords do not prove equivalence.",
+    "outcome": "unknown",
+    "overlap": {
+      "token_sequence_ratio": 0.1418,
+      "corpus": "unmerged recovery checkout",
+      "live_token_sequence_ratio": 0.1546,
+      "interpretation": "candidate signals only, never retirement evidence"
+    },
+    "unique_content": {
+      "source_samples": [
+        "Use this page when Article 4 in Milton Keynes may be removing the fallback route people usually assume is still there. Start here to reduce the guesswork, then verify the factor that would be hardest ",
+        "Start here if article 4 restrictions are the controlling issue, then move to the main hmo page or the council guide if the answer still depends on wider local context."
+      ],
+      "target_samples": [
+        "Quick answer:  No direction boundary or effective date has been verified for this page. A council-wide Article 4 search result is not evidence that a particular property or development right is affect",
+        "Independent information from UK Planning Guide. This is not official council advice or confirmation of a lawful development right. Editorial correction: 27 October 2026; local source verification rema"
+      ],
+      "live_source_samples": [
+        "Use this page when Article 4 in Milton Keynes may be removing the fallback route people usually assume is still there. Start here to reduce the guesswork, then verify the factor that would be hardest ",
+        "Start here if article 4 restrictions are the controlling issue, then move to the main hmo page or the council guide if the answer still depends on wider local context."
+      ],
+      "live_target_samples": [
+        "This page checks the local rule itself without assuming any particular project.",
+        "Where the exact designation is not verified, treat the result as unresolved and check the property with the authority before relying on permitted development."
+      ],
+      "factual_distinctness": "not independently verified; differing text/headings are not proof of unique facts"
+    },
+    "cohort_6_12_months": "unknown",
+    "backlinks": "unknown",
+    "owner": "SamJest",
+    "approval": null,
+    "http_migration_test": "No migration implemented; current observations shown per route.",
+    "rollback_map": {
+      "from_url": "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+      "to_url": null,
+      "action": "retain-current-behavior"
+    },
+    "actionable_migration": false
+  },
+  {
+    "decision_id": "authority-vs-rule-milton-keynes",
+    "source": {
+      "url": "https://ukplanningguide.co.uk/councils/milton-keynes/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/councils/milton-keynes/",
+      "static_file_exists": true,
+      "static_lf_sha256": "76ba1bcd55aef621480a13caeab9ff2c804600500677abf23f686b9d2362f295",
+      "canonical": [
+        "https://ukplanningguide.co.uk/councils/milton-keynes/"
+      ],
+      "robots": [],
+      "h1": [
+        "Milton Keynes planning information"
+      ],
+      "inbound_static_count": 156,
+      "in_sitemap_count": 1,
+      "sample_metrics": null,
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/councils/milton-keynes/",
+        "observed_at": "2026-11-08T22:58:01.320517+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/councils/milton-keynes/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "76ba1bcd55aef621480a13caeab9ff2c804600500677abf23f686b9d2362f295",
+        "capture_stem": "f102e5d0b33edc5ee71a",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": true,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/councils/milton-keynes/"
+        ],
+        "robots": [],
+        "h1": [
+          "Milton Keynes planning information"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "target": {
+      "url": "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+      "static_file_exists": true,
+      "static_lf_sha256": "ce623eddd2cc0d5454f4e781599746d02c1ab138f89996a04a5f8f948eb570d2",
+      "canonical": [
+        "https://ukplanningguide.co.uk/article-4/milton-keynes/"
+      ],
+      "robots": [],
+      "h1": [
+        "Article 4 Restrictions in Milton Keynes"
+      ],
+      "inbound_static_count": 33,
+      "in_sitemap_count": 1,
+      "sample_metrics": null,
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+        "observed_at": "2026-11-08T22:58:00.919454+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "12ac5082b0ce037c944dd41ebcd0428fbab90226e9b25e8897b953ae33a5549b",
+        "capture_stem": "80611ae2ca4ac232a56b",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": false,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/article-4/milton-keynes/"
+        ],
+        "robots": [],
+        "h1": [
+          "Article 4 Restrictions in Milton Keynes"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "intent_hypothesis": "Authority services and an Article 4 question have different roles. No consolidation on the basis of common place names.",
+    "outcome": "keep",
+    "overlap": {
+      "token_sequence_ratio": 0.4424,
+      "corpus": "unmerged recovery checkout",
+      "live_token_sequence_ratio": 0.518,
+      "interpretation": "candidate signals only, never retirement evidence"
+    },
+    "unique_content": {
+      "source_samples": [
+        "Start with the authority's application, validation, policy and advice services. Choose a project only when you are ready to narrow the question.",
+        "Confirm the current submission route and document requirements before preparing an application."
+      ],
+      "target_samples": [
+        "Quick answer:  No direction boundary or effective date has been verified for this page. A council-wide Article 4 search result is not evidence that a particular property or development right is affect",
+        "Independent information from UK Planning Guide. This is not official council advice or confirmation of a lawful development right. Editorial correction: 27 October 2026; local source verification rema"
+      ],
+      "live_source_samples": [
+        "Start with the authority's application, validation, policy and advice services. Choose a project only when you are ready to narrow the question.",
+        "Confirm the current submission route and document requirements before preparing an application."
+      ],
+      "live_target_samples": [
+        "This page checks the local rule itself without assuming any particular project.",
+        "Where the exact designation is not verified, treat the result as unresolved and check the property with the authority before relying on permitted development."
+      ],
+      "factual_distinctness": "not independently verified; differing text/headings are not proof of unique facts"
+    },
+    "cohort_6_12_months": "unknown",
+    "backlinks": "unknown",
+    "owner": "SamJest",
+    "approval": null,
+    "http_migration_test": "No migration implemented; current observations shown per route.",
+    "rollback_map": {
+      "from_url": "https://ukplanningguide.co.uk/councils/milton-keynes/",
+      "to_url": null,
+      "action": "retain-current-behavior"
+    },
+    "actionable_migration": false
+  },
+  {
+    "decision_id": "council-country-alias-colchester",
+    "source": {
+      "url": "https://ukplanningguide.co.uk/councils/colchester/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/councils/colchester/",
+      "static_file_exists": true,
+      "static_lf_sha256": "c4d2ac8237f3d8b93453817d9f49c0e14a768b0718da7eee63a2beda70202768",
+      "canonical": [
+        "https://ukplanningguide.co.uk/england/councils/colchester/"
+      ],
+      "robots": [
+        "noindex, follow"
+      ],
+      "h1": [
+        "Colchester planning information"
+      ],
+      "inbound_static_count": 87,
+      "in_sitemap_count": 0,
+      "sample_metrics": null,
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/councils/colchester/",
+        "observed_at": "2026-11-08T22:58:01.376266+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/councils/colchester/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "c4d2ac8237f3d8b93453817d9f49c0e14a768b0718da7eee63a2beda70202768",
+        "capture_stem": "863bc46b91d9468f6e29",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": true,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/england/councils/colchester/"
+        ],
+        "robots": [
+          "noindex, follow"
+        ],
+        "h1": [
+          "Colchester planning information"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "target": {
+      "url": "https://ukplanningguide.co.uk/england/councils/colchester/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/england/councils/colchester/",
+      "static_file_exists": true,
+      "static_lf_sha256": "ea3d6d1ab648219ecaa75402d4a7568fe5e84b824d298d02d94747d986bd8ce5",
+      "canonical": [
+        "https://ukplanningguide.co.uk/england/councils/colchester/"
+      ],
+      "robots": [],
+      "h1": [
+        "Colchester planning information"
+      ],
+      "inbound_static_count": 3,
+      "in_sitemap_count": 1,
+      "sample_metrics": {
+        "clicks": 1.0,
+        "impressions": 103.0
+      },
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/england/councils/colchester/",
+        "observed_at": "2026-11-08T22:58:01.400367+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/england/councils/colchester/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "ea3d6d1ab648219ecaa75402d4a7568fe5e84b824d298d02d94747d986bd8ce5",
+        "capture_stem": "54be84d0ca1dd5ac5b13",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": true,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/england/councils/colchester/"
+        ],
+        "robots": [],
+        "h1": [
+          "Colchester planning information"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "intent_hypothesis": "Retain the existing bridge behavior pending a separately approved hosting/migration decision; a canonical hint is not an HTTP 301.",
+    "outcome": "keep",
+    "overlap": {
+      "token_sequence_ratio": 1.0,
+      "corpus": "unmerged recovery checkout",
+      "live_token_sequence_ratio": 1.0,
+      "interpretation": "candidate signals only, never retirement evidence"
+    },
+    "unique_content": {
+      "source_samples": [],
+      "target_samples": [],
+      "live_source_samples": [],
+      "live_target_samples": [],
+      "factual_distinctness": "not independently verified; differing text/headings are not proof of unique facts"
+    },
+    "cohort_6_12_months": "unknown",
+    "backlinks": "unknown",
+    "owner": "SamJest",
+    "approval": null,
+    "http_migration_test": "No migration implemented; current observations shown per route.",
+    "rollback_map": {
+      "from_url": "https://ukplanningguide.co.uk/councils/colchester/",
+      "to_url": null,
+      "action": "retain-current-behavior"
+    },
+    "actionable_migration": false
+  },
+  {
+    "decision_id": "rule-country-alias-colchester",
+    "source": {
+      "url": "https://ukplanningguide.co.uk/article-4/colchester/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/article-4/colchester/",
+      "static_file_exists": true,
+      "static_lf_sha256": "119e86fab4a78bc7b0760464f9ed026112dfb209e00e23e2592fddd40f281394",
+      "canonical": [
+        "https://ukplanningguide.co.uk/england/rules/article-4/colchester/"
+      ],
+      "robots": [
+        "noindex, follow"
+      ],
+      "h1": [
+        "Article 4 Restrictions in Colchester"
+      ],
+      "inbound_static_count": 34,
+      "in_sitemap_count": 0,
+      "sample_metrics": {
+        "clicks": 2.0,
+        "impressions": 7.0
+      },
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/article-4/colchester/",
+        "observed_at": "2026-11-08T22:58:01.468800+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/article-4/colchester/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "119e86fab4a78bc7b0760464f9ed026112dfb209e00e23e2592fddd40f281394",
+        "capture_stem": "8075f7e127d03a3cdafa",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": true,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/england/rules/article-4/colchester/"
+        ],
+        "robots": [
+          "noindex, follow"
+        ],
+        "h1": [
+          "Article 4 Restrictions in Colchester"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "target": {
+      "url": "https://ukplanningguide.co.uk/england/rules/article-4/colchester/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/england/rules/article-4/colchester/",
+      "static_file_exists": true,
+      "static_lf_sha256": "119e86fab4a78bc7b0760464f9ed026112dfb209e00e23e2592fddd40f281394",
+      "canonical": [
+        "https://ukplanningguide.co.uk/england/rules/article-4/colchester/"
+      ],
+      "robots": [
+        "noindex, follow"
+      ],
+      "h1": [
+        "Article 4 Restrictions in Colchester"
+      ],
+      "inbound_static_count": 2,
+      "in_sitemap_count": 0,
+      "sample_metrics": null,
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/england/rules/article-4/colchester/",
+        "observed_at": "2026-11-08T22:58:01.836586+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/england/rules/article-4/colchester/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "119e86fab4a78bc7b0760464f9ed026112dfb209e00e23e2592fddd40f281394",
+        "capture_stem": "4a75abe59015d1b43645",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": true,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/england/rules/article-4/colchester/"
+        ],
+        "robots": [
+          "noindex, follow"
+        ],
+        "h1": [
+          "Article 4 Restrictions in Colchester"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "intent_hypothesis": "Inspect existing canonical/noindex policy and query demand before any change. Neither equivalent HTTP redirects nor legal applicability are assumed.",
+    "outcome": "unknown",
+    "overlap": {
+      "token_sequence_ratio": 1.0,
+      "corpus": "unmerged recovery checkout",
+      "live_token_sequence_ratio": 1.0,
+      "interpretation": "candidate signals only, never retirement evidence"
+    },
+    "unique_content": {
+      "source_samples": [],
+      "target_samples": [],
+      "live_source_samples": [],
+      "live_target_samples": [],
+      "factual_distinctness": "not independently verified; differing text/headings are not proof of unique facts"
+    },
+    "cohort_6_12_months": "unknown",
+    "backlinks": "unknown",
+    "owner": "SamJest",
+    "approval": null,
+    "http_migration_test": "No migration implemented; current observations shown per route.",
+    "rollback_map": {
+      "from_url": "https://ukplanningguide.co.uk/article-4/colchester/",
+      "to_url": null,
+      "action": "retain-current-behavior"
+    },
+    "actionable_migration": false
+  },
+  {
+    "decision_id": "hmo-vs-general-article4-tamworth",
+    "source": {
+      "url": "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/",
+      "static_file_exists": true,
+      "static_lf_sha256": "c1e241ad25dd2c075809930a2cdfd80128bdeebfdca62aa06bf506eee4c9a2a8",
+      "canonical": [
+        "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/"
+      ],
+      "robots": [],
+      "h1": [
+        "HMO in Tamworth: Article 4 rules"
+      ],
+      "inbound_static_count": 14,
+      "in_sitemap_count": 1,
+      "sample_metrics": {
+        "clicks": 0.0,
+        "impressions": 1383.0
+      },
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/",
+        "observed_at": "2026-11-08T22:58:01.838601+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "4c67df1889856302d113e0e4e9a15109385816064f061a759c2d4a38dc30d14e",
+        "capture_stem": "a62fe68cd72329fab52c",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": false,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/"
+        ],
+        "robots": [],
+        "h1": [
+          "HMO in Tamworth: Article 4 rules"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "target": {
+      "url": "https://ukplanningguide.co.uk/article-4/tamworth/",
+      "normalized_static_url": "https://ukplanningguide.co.uk/article-4/tamworth/",
+      "static_file_exists": true,
+      "static_lf_sha256": "2dc2e22b5223a4e5c1cb2a87a542ad8cc6931f4b8df627f4a19e9b62b48079f2",
+      "canonical": [
+        "https://ukplanningguide.co.uk/article-4/tamworth/"
+      ],
+      "robots": [],
+      "h1": [
+        "Article 4 Restrictions in Tamworth"
+      ],
+      "inbound_static_count": 32,
+      "in_sitemap_count": 1,
+      "sample_metrics": null,
+      "sample_coverage": "dated ranked export only; absent row is unknown, not zero; no 6/12-month cohort or query data supplied",
+      "backlinks": "unknown",
+      "historical_http_status": "unknown; prior static inventory is not HTTP evidence",
+      "current_http": {
+        "url": "https://ukplanningguide.co.uk/article-4/tamworth/",
+        "observed_at": "2026-11-08T22:58:01.859669+00:00",
+        "method": "GET",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://ukplanningguide.co.uk/article-4/tamworth/",
+        "redirect_count": 0,
+        "content_type": "text/html; charset=utf-8",
+        "body_sha256": "2dc2e22b5223a4e5c1cb2a87a542ad8cc6931f4b8df627f4a19e9b62b48079f2",
+        "capture_stem": "0cf57532754272d82d97",
+        "error": null,
+        "header_chain": [
+          "HTTP/1.1 200 OK"
+        ]
+      },
+      "owner": "SamJest (decision not approved)",
+      "approval": null,
+      "live_static_lf_match": true,
+      "live_metadata": {
+        "canonical": [
+          "https://ukplanningguide.co.uk/article-4/tamworth/"
+        ],
+        "robots": [],
+        "h1": [
+          "Article 4 Restrictions in Tamworth"
+        ]
+      },
+      "rollback": "No migration to reverse; retain the exact public files, canonical/robots flags and XML; revert governance PR only.",
+      "redirect_capability": "Observed slash normalization does not demonstrate arbitrary content-migration redirects.",
+      "actionable_migration": false
+    },
+    "intent_hypothesis": "HMO-specific decisions and the general rule page require distinct factual evidence before an equivalence decision.",
+    "outcome": "unknown",
+    "overlap": {
+      "token_sequence_ratio": 0.1225,
+      "corpus": "unmerged recovery checkout",
+      "live_token_sequence_ratio": 0.1511,
+      "interpretation": "candidate signals only, never retirement evidence"
+    },
+    "unique_content": {
+      "source_samples": [
+        "Quick answer:  The relevant question is the proposed HMO use and whether an applicable Article 4 direction removes the right being relied on. This page has not verified a Tamworth direction or propert",
+        "Independent information from UK Planning Guide. This is not official council advice or confirmation of a lawful development right. Editorial correction: 27 October 2026; local source verification rema"
+      ],
+      "target_samples": [
+        "This page checks the local rule itself without assuming any particular project.",
+        "Where the exact designation is not verified, treat the result as unresolved and check the property with the authority before relying on permitted development."
+      ],
+      "live_source_samples": [
+        "Use this page when Article 4 in Tamworth may be removing the fallback route people usually assume is still there. Use this as a practical sorting step before you decide whether a certificate, pre-app ",
+        "Start here if article 4 restrictions are the controlling issue, then move to the main hmo page or the council guide if the answer still depends on wider local context."
+      ],
+      "live_target_samples": [
+        "This page checks the local rule itself without assuming any particular project.",
+        "Where the exact designation is not verified, treat the result as unresolved and check the property with the authority before relying on permitted development."
+      ],
+      "factual_distinctness": "not independently verified; differing text/headings are not proof of unique facts"
+    },
+    "cohort_6_12_months": "unknown",
+    "backlinks": "unknown",
+    "owner": "SamJest",
+    "approval": null,
+    "http_migration_test": "No migration implemented; current observations shown per route.",
+    "rollback_map": {
+      "from_url": "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/",
+      "to_url": null,
+      "action": "retain-current-behavior"
+    },
+    "actionable_migration": false
+  }
+]

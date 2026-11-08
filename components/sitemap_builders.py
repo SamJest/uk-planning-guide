@@ -205,16 +205,8 @@ def collect_urls() -> List[str]:
 
 
 def validate_sitemap_urls(urls: List[str]):
-    seen = set()
-
-    for url in urls:
-        if not url.startswith(BASE_URL):
-            raise ValueError(f"Malformed URL: {url}")
-
-        if url in seen:
-            raise ValueError(f"Duplicate URL detected: {url}")
-
-        seen.add(url)
+    from utils.sitemap_integrity import validate_targets
+    validate_targets(urls, OUTPUT_FOLDER, BASE_URL)
 
 
 def group_urls_by_section(urls: List[str]) -> Dict[str, List[str]]:
