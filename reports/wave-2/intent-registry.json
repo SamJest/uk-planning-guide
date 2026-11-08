@@ -1,0 +1,338 @@
+[
+  {
+    "route_path": "/",
+    "canonical_path": "/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "uk",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "national-rule-guidance:",
+      "role": "national_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/conservation-areas/glasgow-city/",
+    "canonical_path": "/conservation-areas/glasgow-city/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "scotland",
+      "authority_id": "glasgow-city",
+      "project_id": null,
+      "rule_topic": "conservation-areas",
+      "user_question": "rule-applicability",
+      "role": "local_rule"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/councils/colchester/",
+    "canonical_path": "/england/councils/colchester/",
+    "index_status": "noindex",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": "colchester",
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "authority-planning-services",
+      "role": "authority_profile"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/councils/sheffield/",
+    "canonical_path": "/councils/sheffield/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": "sheffield",
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "authority-planning-services",
+      "role": "authority_profile"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/downloads/",
+    "canonical_path": "/downloads/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "uk",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "national-rule-guidance:downloads",
+      "role": "national_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/councils/colchester/",
+    "canonical_path": "/england/councils/colchester/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": "colchester",
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "authority-planning-services",
+      "role": "authority_profile"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/data/council-profile-database/",
+    "canonical_path": "/england/data/council-profile-database/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "dataset-analysis:council-profile-evidence",
+      "role": "data_report"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/projects/garden-rooms/",
+    "canonical_path": "/england/projects/garden-rooms/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": null,
+      "project_id": "garden-rooms",
+      "rule_topic": null,
+      "user_question": "proposal-permission-route",
+      "role": "project_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/projects/garden-rooms/colchester/",
+    "canonical_path": "/england/projects/garden-rooms/colchester/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": "colchester",
+      "project_id": "garden-rooms",
+      "rule_topic": null,
+      "user_question": "proposal-permission-route",
+      "role": "local_project"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/rules/article-4/",
+    "canonical_path": "/england/rules/article-4/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": "article-4",
+      "user_question": "rule-applicability",
+      "role": "rule_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/rules/article-4/colchester/",
+    "canonical_path": "/england/rules/article-4/colchester/",
+    "index_status": "noindex",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": "colchester",
+      "project_id": null,
+      "rule_topic": "article-4",
+      "user_question": "rule-applicability",
+      "role": "local_rule"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/rules/conservation-areas/",
+    "canonical_path": "/england/rules/conservation-areas/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": "conservation-areas",
+      "user_question": "rule-applicability",
+      "role": "rule_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/rules/height-limits/",
+    "canonical_path": "/england/rules/height-limits/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": "height-limits",
+      "user_question": "rule-applicability",
+      "role": "rule_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/rules/permitted-development/",
+    "canonical_path": "/england/rules/permitted-development/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": "permitted-development",
+      "user_question": "national-rule-guidance",
+      "role": "national_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/rules/planning-permission/",
+    "canonical_path": "/england/rules/planning-permission/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": "planning-permission",
+      "user_question": "national-rule-guidance",
+      "role": "national_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/england/tools/planning-route-check/",
+    "canonical_path": "/england/tools/planning-route-check/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "interactive-task:planning-route-check",
+      "role": "tool"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/my-planning-project/",
+    "canonical_path": "/my-planning-project/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "uk",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "interactive-task:saved-project-workspace",
+      "role": "tool"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/permitted-development/north-yorkshire/",
+    "canonical_path": "/permitted-development/north-yorkshire/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "england",
+      "authority_id": "north-yorkshire",
+      "project_id": null,
+      "rule_topic": "permitted-development",
+      "user_question": "rule-applicability",
+      "role": "local_rule"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/planning-faq/",
+    "canonical_path": "/planning-faq/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "uk",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "national-rule-guidance:planning-faq",
+      "role": "national_guide"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/scotland/projects/garden-rooms/city-of-edinburgh/",
+    "canonical_path": "/scotland/projects/garden-rooms/city-of-edinburgh/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "scotland",
+      "authority_id": "city-of-edinburgh",
+      "project_id": "garden-rooms",
+      "rule_topic": null,
+      "user_question": "proposal-permission-route",
+      "role": "local_project"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/tools/",
+    "canonical_path": "/tools/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "uk",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "interactive-task:tools-directory",
+      "role": "tool"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/updates/phase-0-integrity-repair/",
+    "canonical_path": "/updates/phase-0-integrity-repair/",
+    "index_status": "noindex",
+    "intent": {
+      "jurisdiction": "uk",
+      "authority_id": null,
+      "project_id": null,
+      "rule_topic": null,
+      "user_question": "dated-news:phase-zero-integrity-repair",
+      "role": "news"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/wales/projects/dropped-kerbs/cardiff/",
+    "canonical_path": "/wales/projects/dropped-kerbs/cardiff/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "wales",
+      "authority_id": "cardiff",
+      "project_id": "dropped-kerbs",
+      "rule_topic": null,
+      "user_question": "proposal-permission-route",
+      "role": "local_project"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  },
+  {
+    "route_path": "/workflows/house-extension-planning/",
+    "canonical_path": "/workflows/house-extension-planning/",
+    "index_status": "index",
+    "intent": {
+      "jurisdiction": "uk",
+      "authority_id": null,
+      "project_id": "house-extensions",
+      "rule_topic": null,
+      "user_question": "process-steps:house-extension-planning",
+      "role": "workflow"
+    },
+    "scope": "contracted-generation-only; existing public pages require separate review"
+  }
+]

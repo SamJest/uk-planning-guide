@@ -1,0 +1,65 @@
+{
+  "wave": 2,
+  "prepared_at": "2026-11-08",
+  "baseline_sha": "6f2a9db4ea76d73b2a1e2af1ea9f131578212790",
+  "production_deployed": false,
+  "new_migrations": 0,
+  "new_retirements": 0,
+  "public_urls_changed": [],
+  "candidate": {
+    "files_before": 78,
+    "files_after": 78,
+    "html_before": 39,
+    "html_after": 39,
+    "added": [],
+    "removed": [],
+    "changed": [
+      "BUILD-MANIFEST.json"
+    ],
+    "raw_byte_changed": [
+      "BUILD-MANIFEST.json"
+    ]
+  },
+  "public_corpus": {
+    "html": 35220,
+    "sitemap_urls": 35195,
+    "basis": "Passing Wave 1 full inventory; current publishing-tree changes forbidden by the preservation gate."
+  },
+  "raw_sample": {
+    "clicked": 975,
+    "exact_static_spellings": 954,
+    "nonexact_spellings": 21,
+    "nonexact_observed_http_301_to_200": 21
+  },
+  "contracted_records": 24,
+  "self_canonical_indexable_intents": 21,
+  "public_unique_intents": "not established",
+  "review_pairs": 6,
+  "confirmed_merges": 0,
+  "approved_retirements": 0,
+  "tests": {
+    "pack": 6,
+    "node": 4,
+    "tool_smokes": 28,
+    "production_browser": 26,
+    "canary_browser": 64,
+    "linux_ci": "pending",
+    "python": 111,
+    "python_skipped": 0,
+    "local_status": "passed"
+  },
+  "limitations": [
+    "No backlinks, query cohorts or 6/12-month landing data supplied.",
+    "HTTP observations are historical GET captures, not changes made by this PR.",
+    "No independent fact-equivalence review or arbitrary content-migration redirect capability demonstrated.",
+    "PR depends on unmerged Wave 1 PR #19; no production merge/deploy authorized."
+  ],
+  "source_fingerprint": "a82014cdf3cd872ee673868be002c4d241b33527099c42f04d49cbb31da18e8d",
+  "live_vs_recovery_body_differences": [
+    "https://ukplanningguide.co.uk/article-4/milton-keynes/",
+    "https://ukplanningguide.co.uk/hmos/buckinghamshire/milton-keynes/article-4/",
+    "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/"
+  ],
+  "http_capture_count": 31,
+  "http_observation_sha256": "f94a82a51a9e03962fff2942775fb643a13369da7e7163ae11c571d1dc3f7d72"
+}

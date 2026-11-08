@@ -198,19 +198,8 @@ def validate_distinct_intents(records):
     create an additional canonical intent. This covers contracted generation,
     not a retrospective proof of distinctness for all legacy production pages.
     """
-    seen = {}
-    for record in records:
-        if record['index_status'] != 'index' or record['route_path'] != record['canonical_path']:
-            continue
-        if record['page_family'] in {'tool','workflow','news','data_report'}:
-            continue
-        key = tuple(record.get(field) for field in ('page_family','jurisdiction','authority_id','project_id','rule_id'))
-        if not any(record.get(field) for field in ('authority_id','project_id','rule_id')):
-            # Home/download hubs have distinct site functions, not legal-topic identity.
-            key += (record.get('intent_id') or record['route_path'],)
-        if key in seen:
-            raise ContractError(f'Duplicate canonical intent: {seen[key]} and {record["route_path"]}')
-        seen[key] = record['route_path']
+    from utils.intent_registry import validate_new_intents
+    validate_new_intents(records)
 
 
 @lru_cache(maxsize=1)

@@ -39,7 +39,7 @@ def load_redirects() -> tuple[dict, ...]:
         raise ContractError("data/canary/redirects.json must contain a list")
     sources: set[str] = set()
     for record in payload:
-        required = {"source_path", "target_path", "status_code", "reason"}
+        required = {"source_path", "target_path", "status_code", "delivery_mode", "reason"}
         if not isinstance(record, dict) or required - set(record):
             raise ContractError("Invalid redirect record")
         source = normalize_path(record["source_path"])
@@ -50,6 +50,8 @@ def load_redirects() -> tuple[dict, ...]:
             raise ContractError(f"Duplicate redirect source: {source}")
         if record["status_code"] not in {301, 308, 410}:
             raise ContractError(f"Unsupported redirect status on {source}")
+        if record['delivery_mode'] not in {'legacy_200_bridge', 'planned_http_redirect'}:
+            raise ContractError(f'Redirect delivery must be explicitly planned or a static bridge: {source}')
         record["source_path"] = source
         record["target_path"] = target
         sources.add(source)
@@ -82,6 +84,8 @@ def url_registry() -> dict[str, dict]:
                 "content_updated_at": None,
                 "page_family": "redirect",
             }
+        registry[redirect['source_path']]['delivery_mode'] = redirect['delivery_mode']
+        registry[redirect['source_path']]['planned_status_code'] = redirect['status_code']
     return registry
 
 
