@@ -1,6 +1,6 @@
 # Wave 2 — intent governance and protected URL diagnosis
 
-Prepared 8 November 2026. **Not deployed.** Depends on unmerged Wave 1 PR #19. This is a separate, review-only source change; neither PR is merged automatically.
+Prepared 8 November 2026. **Not deployed.** [PR #20](https://github.com/SamJest/uk-planning-guide/pull/20) depends on unmerged Wave 1 PR #19. This is a separate, review-only source change; neither PR is merged automatically.
 
 ## Outcome
 
@@ -42,6 +42,10 @@ The full public-corpus baseline is the passing Wave 1 inventory; this wave's pre
 
 ## Validation and release boundary
 
-See `WAVE_2_EVIDENCE.json` for actual check status, logs/SHAs and CI links. Local fresh build and all 111 Python tests passed with zero skips. Existing pack, Node, tool, browser, pilot/HMO/release and Lighthouse gates are retained without lowered thresholds. Review-only cards do not constitute approval to merge, deploy, retire a route, issue a new redirect, change canonicals or noindex pages.
+See `WAVE_2_EVIDENCE.json` for actual check status, logs/SHAs and CI links. Local checks passed: fresh build, all 111 Python tests with zero skips, six pack tests, four Node tests, 28 tool smokes, 26 production/research browser journeys, 64 canary checks, both evidence gates, the 27-row migration-decision gate and pilot/HMO/release checks. No screenshot baseline changed.
+
+[PR CI 42535644428](https://github.com/SamJest/uk-planning-guide/actions/runs/42535644428) and [push CI 42535135507](https://github.com/SamJest/uk-planning-guide/actions/runs/42535135507) passed on implementation `68f45ef9d3bc22f085866e8efb3cb86a99f89172`. Every job step succeeded; no downstream gate was skipped. The unchanged five-page Lighthouse budgets passed: performance 0.99–1.00, LCP 1.81–1.96s, TBT 41.5–50ms, CLS 0–0.0342. These are preview lab measurements, not field Core Web Vitals or a production speed improvement. CI artifact 13638743472 retains raw reports for seven days; local evidence retains a copy. Subsequent evidence-only edits do not alter the tested implementation.
+
+Review-only cards do not constitute approval to merge, deploy, retire a route, issue a new redirect, change canonicals or noindex pages.
 
 Rollback is reverting this source-only governance PR; no production recovery is needed. Review Wave 1 before the dependent Wave 2 PR, then approve any later work separately. The next pack wave is the route-check → guide → local check → save/export journey, with five realistic mobile/desktop tasks. The previously proposed compact mobile trust/source presentation belongs with those UX improvements after this governance step, not ahead of it.

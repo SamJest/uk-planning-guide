@@ -43,7 +43,7 @@
     "tool_smokes": 28,
     "production_browser": 26,
     "canary_browser": 64,
-    "linux_ci": "pending",
+    "linux_ci": "passed",
     "python": 111,
     "python_skipped": 0,
     "local_status": "passed"
@@ -61,5 +61,55 @@
     "https://ukplanningguide.co.uk/hmos/staffordshire/tamworth/article-4/"
   ],
   "http_capture_count": 31,
-  "http_observation_sha256": "f94a82a51a9e03962fff2942775fb643a13369da7e7163ae11c571d1dc3f7d72"
+  "http_observation_sha256": "f94a82a51a9e03962fff2942775fb643a13369da7e7163ae11c571d1dc3f7d72",
+  "pr": "https://github.com/SamJest/uk-planning-guide/pull/20",
+  "tested_code_sha": "68f45ef9d3bc22f085866e8efb3cb86a99f89172",
+  "ci_run": "https://github.com/SamJest/uk-planning-guide/actions/runs/42535644428",
+  "ci_push_run": "https://github.com/SamJest/uk-planning-guide/actions/runs/42535135507",
+  "ci_all_steps_succeeded": true,
+  "ci_downstream_skipped": 0,
+  "ci_artifact_id": 13638743472,
+  "lighthouse": [
+    {
+      "url": "http://127.0.0.1:8768/",
+      "performance": 1,
+      "lcp_ms": 1809.3829,
+      "tbt_ms": 49,
+      "cls": 0.03416034903955338,
+      "sha256": "2ad20fe82800f0ac023c31d0b16f1a50444cd40cda4ff6401715acdfef479774"
+    },
+    {
+      "url": "http://127.0.0.1:8768/england/councils/colchester/",
+      "performance": 1,
+      "lcp_ms": 1805.0851,
+      "tbt_ms": 49.5,
+      "cls": 0,
+      "sha256": "fac13b1340aa4a5ee88b746815a749c5a1462931d469ae78610f696843600947"
+    },
+    {
+      "url": "http://127.0.0.1:8768/wales/projects/dropped-kerbs/cardiff/",
+      "performance": 0.99,
+      "lcp_ms": 1959.2166,
+      "tbt_ms": 49,
+      "cls": 0,
+      "sha256": "01e843bf6402f207b6dab55af75b803d17143613621966f97acf786389b86d04"
+    },
+    {
+      "url": "http://127.0.0.1:8768/scotland/projects/garden-rooms/city-of-edinburgh/",
+      "performance": 0.99,
+      "lcp_ms": 1952.4039,
+      "tbt_ms": 41.5,
+      "cls": 0,
+      "sha256": "7f3c5fc55ae3205beefa46e1faa672d5b936227e89205e183d3bf4ab9ca40b74"
+    },
+    {
+      "url": "http://127.0.0.1:8768/england/tools/planning-route-check/",
+      "performance": 0.99,
+      "lcp_ms": 1956.6012,
+      "tbt_ms": 50,
+      "cls": 0,
+      "sha256": "ecc7e84eec434cffba9be2b4696f748421dae6c625c3d1c5fe225a60a1c4d87a"
+    }
+  ],
+  "release_decision": "Ready for owner review, dependent on PR #19. No merge, deployment, retirement or URL migration authorized by these test results."
 }
