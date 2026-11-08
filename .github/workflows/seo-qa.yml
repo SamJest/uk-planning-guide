@@ -36,7 +36,12 @@ jobs:
           npx playwright test tests/browser/production-journeys.spec.mjs tests/browser/research-improvements.spec.mjs --workers=2
           npx playwright test tests/browser/phase0-canary.spec.mjs --grep "preview disables analytics" --workers=2
       - name: Wave 1 source cohort accessibility and responsive reading
-        run: npx playwright test tests/browser/wave1-evidence.spec.mjs --workers=2
+        env:
+          UKPG_BASE_URL: http://127.0.0.1:8766
+        run: |
+          # The production preview from the previous step remains on 8765.
+          node scripts/serve_site.cjs artifacts/phase-0-canary-site 8766 &
+          npx playwright test tests/browser/wave1-evidence.spec.mjs --workers=2
       - name: Lighthouse canary budgets
         run: |
           export CHROME_PATH="$(node -e "process.stdout.write(require('playwright').chromium.executablePath())")"

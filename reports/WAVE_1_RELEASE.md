@@ -39,8 +39,13 @@ Welsh national validation guidance and Scottish ePlanning were corrected to nati
 | Public URLs changed / migrated / newly noindexed | 0 | 0 |
 | Clicked URLs / exact matches / unresolved variants | 975 / 954 / 21 | 975 / 954 / 21 |
 | Main Python regression tests | 78 | 95 |
+| Public HTML / sitemap URLs | 35,220 / 35,195 | 35,220 / 35,195 |
+
+The full inventory's summary, pages, protected URLs, sitemap violations and broken-link reports are byte-identical to the Wave 0 after-inventory. The existing 3,986 local-evidence gaps remain unresolved outside this bounded source canary.
 
 Local checks passed: fresh isolated build (11/11 stages); 95 Python tests with no skips; six pack tests; pilot/release/HMO checks; JavaScript syntax; four Node tests; 28 tool smokes; 26 production/research browser checks; all 64 canary browser checks. Full inventory and Linux CI results are recorded in the evidence JSON when complete. Windows sandbox permission failures were retried outside the sandbox; they are not successful test results. Performance thresholds remain unchanged, with Linux CI the established authoritative Lighthouse profile.
+
+The [initial Linux run](https://github.com/SamJest/uk-planning-guide/actions/runs/42526414663) passed the build, evidence preservation, all Python/Node/tool gates and production browser checks. The new cohort browser step mistakenly reused the still-running production server on port 8765 and correctly failed its claim assertions; Lighthouse was therefore skipped. The workflow now explicitly serves the canary on port 8766. The failed run is retained as evidence, not represented as passing or fixed by weakening an assertion.
 
 Six deliberately changed Windows desktop/mobile snapshot baselines were inspected before updating; the existing 1% tolerance was retained. The five source canaries have before/after screenshots at 360, 768 and 1440 pixels, plus automated 320-pixel reflow, keyboard and axe checks. No production screenshot baseline was regenerated. The PR diff contains the six reviewed snapshots; local review images and logs are in the evidence archive.
 
