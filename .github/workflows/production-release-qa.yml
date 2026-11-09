@@ -1,0 +1,81 @@
+name: Production release QA
+on: [push, pull_request]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install lxml==6.1.1 beautifulsoup4==4.14.2
+      - name: Verify immutable tested source and prepare QA worktree
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 -c "import json; r=json.load(open('.github/releases/2026-11-09.json')); print(r['tested_source_sha'])" > source-sha.txt
+          gh api repos/SamJest/uk-planning-guide/actions/runs/42536975424 > source-ci-run.json
+          gh api repos/SamJest/uk-planning-guide/actions/runs/42536975424/jobs > source-ci-jobs.json
+          python3 -c "import json; r=json.load(open('source-ci-run.json')); j=json.load(open('source-ci-jobs.json')); s=open('source-sha.txt').read().strip(); assert r['head_sha']==s and r['conclusion']=='success'; assert all(x['conclusion']=='success' and all(y['conclusion']=='success' for y in x['steps']) for x in j['jobs'])"
+          git worktree add --detach .qa-source "$(cat source-sha.txt)"
+      - name: Build source-bound canary against the complete production candidate
+        working-directory: .qa-source
+        run: python3 build_site.py --validation-baseline ..
+      - name: Full release hashes, contracts, links, sitemaps and protected URLs
+        run: python3 .github/scripts/verify_production_release.py --source .qa-source
+      - name: Existing source and preservation gates
+        working-directory: .qa-source
+        run: |
+          python3 scripts/check_wave1_evidence.py
+          python3 scripts/check_wave2_governance.py
+          python3 seo-rebuild-pack/scripts/check_migration_decisions.py --input reports/wave-2/migration-decisions.csv
+          python3 scripts/repair_pilot.py --check
+          python3 -m unittest discover -s tests -v
+          python3 scripts/check_release.py
+          python3 scripts/repair_hmo_summaries.py --check
+          python3 -m unittest discover -s seo-rebuild-pack/tests -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: .qa-source/package-lock.json
+      - working-directory: .qa-source
+        run: npm ci
+      - name: JavaScript, Node and full-candidate tool checks
+        working-directory: .qa-source
+        run: |
+          for script in ../assets/js/*.js; do node --check "$script" || exit 1; done
+          node --test tests/planning_route_jurisdiction.test.cjs tests/static_preview.test.cjs backend/planning-lead-worker/test/worker.test.js
+          UKPG_OUTPUT_DIR=.. node scripts/tool_smoke_test.js
+          npx playwright install --with-deps chromium
+      - name: Full-candidate desktop and mobile journeys and evidence accessibility
+        working-directory: .qa-source
+        env:
+          UKPG_BASE_URL: http://127.0.0.1:8765
+        run: |
+          node scripts/serve_site.cjs .. 8765 &
+          npx playwright test tests/browser/production-journeys.spec.mjs tests/browser/research-improvements.spec.mjs tests/browser/wave1-evidence.spec.mjs --workers=2
+          npx playwright test tests/browser/phase0-canary.spec.mjs --grep "preview disables analytics" --workers=2
+      - name: Unchanged Lighthouse budgets on the complete candidate
+        working-directory: .qa-source
+        run: |
+          export CHROME_PATH="$(node -e "process.stdout.write(require('playwright').chromium.executablePath())")"
+          npx lhci autorun --collect.startServerCommand="node scripts/serve_site.cjs .. 8768" --collect.settings.chromeFlags="--no-sandbox"
+      - name: Retain production release evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-release-${{ github.sha }}
+          retention-days: 14
+          include-hidden-files: true
+          path: |
+            release-qa-result.json
+            source-ci-*.json
+            .qa-source/.lighthouseci/*.json
+            .qa-source/reports/phase-0/lighthouse/
+            .qa-source/reports/phase-0/playwright-report.json
