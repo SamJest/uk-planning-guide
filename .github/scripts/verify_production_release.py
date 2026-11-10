@@ -4,6 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import io
 import json
+import re
 from pathlib import Path
 import subprocess
 import sys
@@ -69,12 +70,22 @@ def main(source,index=False):
         new=(ROOT/path).read_bytes()
         assert (sha(old) if old is not None else None)==record['before_sha256'], 'Baseline hash mismatch: '+path
         assert sha(new)==record['after_sha256'], 'Candidate hash mismatch: '+path
-        expected=source/path if record['kind']=='recovered-reviewed-content' else source/'artifacts/phase-0-canary-site'/path
+        expected=source/path if record['kind'].startswith('recovered-reviewed-content') or record['kind']=='substantive-survey-lastmod' else source/'artifacts/phase-0-canary-site'/path
         expected_bytes=expected.read_bytes().replace(b'\r\n',b'\n')
-        if record['kind']=='source-checked-canary-with-preserved-checklist':
+        if record['kind'].startswith('source-checked-canary-with-preserved-checklist'):
             assert path in {'garden-rooms/index.html','england/projects/garden-rooms/index.html'}
             expected_bytes=expected_bytes.replace(b'</h1>',b'</h1>'+render_checklist('garden-rooms').encode(),1)
             assert new.count(b'id="project-evidence-checklist"')==1
+        if record['kind'].endswith('-editorial-date'):
+            assert b'Preparation guidance added 27 October 2026' in expected_bytes
+            text=expected_bytes.decode('utf-8')
+            text=re.sub(r'("dateModified":\s*")[^"]+(")',r'\g<1>2026-10-27\2',text)
+            text=re.sub(r'(Content updated</strong>)\s*[^<]+',r'\g<1>27 October 2026',text)
+            expected_bytes=text.encode('utf-8')
+        if record['kind']=='substantive-survey-lastmod':
+            pattern=rb'(<loc>https://ukplanningguide.co.uk/england/projects/garden-rooms/</loc>\s*<lastmod>)[^<]+(</lastmod>)'
+            expected_bytes,count=re.subn(pattern,rb'\g<1>2026-10-27\2',expected_bytes)
+            assert count==1
         assert sha(expected_bytes)==record['after_sha256'], 'Published bytes differ from the tested source: '+path
         if path.endswith('.html'):
             assert old is not None
