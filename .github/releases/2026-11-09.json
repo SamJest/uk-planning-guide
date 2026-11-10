@@ -1,0 +1,2188 @@
+{
+  "production_base": "bb01d67fc58f21400dffbf449604ee05d561abbc",
+  "tested_source_sha": "52f01cb1c1b6aed369d60eb581e34e585aa7435b",
+  "source_ci_run": 42536975424,
+  "authorization": "Owner requested the improved version online on 9 November 2026; publish only after full release gates pass.",
+  "html_before": 35220,
+  "html_after": 35220,
+  "sitemap_urls_before": 35195,
+  "sitemap_urls_after": 35195,
+  "changes": [
+    {
+      "path": "article-4/cardiff/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "5751abfa246a0f815ae6b06bf0e4efadf9fb56dea468e3a0a5ee2248e1232ac3",
+      "after_sha256": "a1caedfec538c91a3e4059582f3bd7bc49c31265bc496110ab686f4764c45ad0"
+    },
+    {
+      "path": "article-4/colchester/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "119e86fab4a78bc7b0760464f9ed026112dfb209e00e23e2592fddd40f281394",
+      "after_sha256": "b45776bc486c80573b57686b86685314fd481abf64e533121eb91bf638deebd9"
+    },
+    {
+      "path": "article-4/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "ce8f02a28cdae77f8394ebd12d28e674dc9d95e69b24ae97e5966fdd6a7e52f7",
+      "after_sha256": "21460343827300acc0e44141c8def74a7c8c20e6aa6e576d9bd5eaefbb66f976"
+    },
+    {
+      "path": "article-4/milton-keynes/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "12ac5082b0ce037c944dd41ebcd0428fbab90226e9b25e8897b953ae33a5549b",
+      "after_sha256": "ce623eddd2cc0d5454f4e781599746d02c1ab138f89996a04a5f8f948eb570d2"
+    },
+    {
+      "path": "conservation-areas/glasgow-city/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "543ff0af7f5ef437c20bfb4f4331ef6fb3203055c34e380a3745248c0068e304",
+      "after_sha256": "7077cdbec143502f954a5a40bb726c4a35eeb3f3b720275c5b4d6e3bcedfebb5"
+    },
+    {
+      "path": "conservation-areas/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "5b916d7d477212fcafad7ae41840fe95d16f7016120addae9a680e4acaeedd38",
+      "after_sha256": "ba8a57d76076e137811d4e2e172da2afb72c16aa7e5b11ac3a29d609d6680330"
+    },
+    {
+      "path": "councils/colchester/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "c4d2ac8237f3d8b93453817d9f49c0e14a768b0718da7eee63a2beda70202768",
+      "after_sha256": "f235bf4fc114a74abdca80061f03e063d64d0a567833c6ba45b6999460e0c488"
+    },
+    {
+      "path": "councils/sheffield/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "4e321fe0a327bd36ff95a8c25e4718f0b5638beb1a47f3c7088240be2420fbae",
+      "after_sha256": "745e081a4d318aeb5d848d6172d51a83c1c2e140a0daf012468c07b9db6a18ae"
+    },
+    {
+      "path": "downloads/driveways-survey.txt",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": null,
+      "after_sha256": "564e2330ce49710e80e3d803830a5dc7a8d065e279a09c4553e690649ab9abab"
+    },
+    {
+      "path": "downloads/fences-and-walls-survey.txt",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": null,
+      "after_sha256": "b6c777881314f169bc1423b40da5d4bc6354d7938b81637d635d7653604d4778"
+    },
+    {
+      "path": "downloads/garden-rooms-survey.txt",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": null,
+      "after_sha256": "949090006d1a44cf0304e9b329decacd37050f2453401bb820efbf6901171076"
+    },
+    {
+      "path": "downloads/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "4f11533592fa9d5c7e846be618f9d9e954ac986df8a1151f168f0a4bec9afd78",
+      "after_sha256": "3af4ef0a96d949620562bcf547f2b13586a9e3efaeefa5a5c4ba896f744d3ee7"
+    },
+    {
+      "path": "downloads/solar-panels-survey.txt",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": null,
+      "after_sha256": "e5ccd7754457594292dbe31421b10037b1bbc9884583cd86741e23aef76b36e5"
+    },
+    {
+      "path": "driveways/index.html",
+      "kind": "recovered-reviewed-content-editorial-date",
+      "before_sha256": "ea5c334e28c886ba312538b938e3874b27d69a4f7faffa2f2408272b09886687",
+      "after_sha256": "b98744e9adc3c51f609e801c3ffd254ad18f9aa42f83942150e8774faddaf7da",
+      "editorial_date": "2026-10-27"
+    },
+    {
+      "path": "dropped-kerbs/wales/cardiff/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "0c4b2abb52f4bf5a2e06226b28365f7917cb99ebf0d320935b941a7e5ec65b2e",
+      "after_sha256": "6132089e605613f0c42e00ebc0c43b40502f3b487b7536923335ed52a3d44d42"
+    },
+    {
+      "path": "england/councils/colchester/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "ea3d6d1ab648219ecaa75402d4a7568fe5e84b824d298d02d94747d986bd8ce5",
+      "after_sha256": "44a05217112e6037dd2008a815ec6689c471fa5a6bc0028f73f0464e6b8589e0"
+    },
+    {
+      "path": "england/data/council-profile-database/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "4894da0e0ea1ad5a621ba018e69966756dd020b1350739d848299a5f439dce34",
+      "after_sha256": "8e4234f29d399607cc525533a70ee66b090485a8ebb16b506343c227436eec67"
+    },
+    {
+      "path": "england/projects/garden-rooms/colchester/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "49d5d2ffc8ec2eadfaeeff78137feb88035bad8eabfb335b62ca101d93896004",
+      "after_sha256": "c6c1034749c36fd1007fe1f7a3e60b30b1bc75819f0b435ce1451c3e7fc2b6ce"
+    },
+    {
+      "path": "england/projects/garden-rooms/index.html",
+      "kind": "source-checked-canary-with-preserved-checklist-editorial-date",
+      "before_sha256": "d45779740144121dc2e1ffcf784f5d7f6d411e9ee4c06d2d8af5de1a57ef6d30",
+      "after_sha256": "ef4afdd3192408c9b89fca1f5b3c9e7fa681eaacc5fba27ad347faa7ea1c84e0",
+      "editorial_date": "2026-10-27"
+    },
+    {
+      "path": "england/rules/article-4/colchester/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "119e86fab4a78bc7b0760464f9ed026112dfb209e00e23e2592fddd40f281394",
+      "after_sha256": "b45776bc486c80573b57686b86685314fd481abf64e533121eb91bf638deebd9"
+    },
+    {
+      "path": "england/rules/article-4/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "5787163eb3f63b2a3f791cbe8274c07837a0dbddaa8aa094f5bd2347ee7f01e0",
+      "after_sha256": "513a3604f1b08328768b22c221278c88d907f5acf22646bcf3fc611da3c3aa16"
+    },
+    {
+      "path": "england/rules/conservation-areas/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "0ffcdab19efc3a43a51e38c3b774067087b1caffb8774b0770c038faf01bf7dd",
+      "after_sha256": "d01c32aec597fbfb83b2fb9c3d2a35a45185d75353d06da64feb8d1005e31100"
+    },
+    {
+      "path": "england/rules/height-limits/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "4fb3f87e9d3b3a64efee8a1e68401f389f733846be8ec05f2f8054d6c36df4a3",
+      "after_sha256": "fd6507343696fc099bd4a0c4f8faa1603469584426d784fb97dc89ffe4578a01"
+    },
+    {
+      "path": "england/rules/permitted-development/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "9e7d3562294242b9053e2b573b3aea545587260ae4feb5fc0861f92bd049c4f5",
+      "after_sha256": "5f816f5fc4a5930f2c95d148c8e06cfdf65d75213d941477b70d25f7a7ec037e"
+    },
+    {
+      "path": "england/rules/planning-permission/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "7e0ce2df37cf34b55f5e21498920eec08ad82b44b068b4aafb3ffed3dc924c47",
+      "after_sha256": "ddc16547e5b900499fd0da4508c0ab6ce6111b72b2bf6e14991cdd9c29317caa"
+    },
+    {
+      "path": "england/tools/planning-route-check/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "b2aa94ce0a38351cd3a6e83537b2ac621a7db8dd0d602ccc3571a0c28ae0aa4f",
+      "after_sha256": "87403e0273ee481bd83a56bb0bec05ed7de4651a6981a8aae37d63c08900372d"
+    },
+    {
+      "path": "fences-and-walls/index.html",
+      "kind": "recovered-reviewed-content-editorial-date",
+      "before_sha256": "61880eda90cac7286fdadf7ad4f0b0504a7818e193c1f8bbdde28c104db79689",
+      "after_sha256": "f6db1bbf9257124c98b6f799aa226e83fd74c58641fc9864233a50a1f465a6c5",
+      "editorial_date": "2026-10-27"
+    },
+    {
+      "path": "garden-rooms/essex/colchester/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "49d5d2ffc8ec2eadfaeeff78137feb88035bad8eabfb335b62ca101d93896004",
+      "after_sha256": "c6c1034749c36fd1007fe1f7a3e60b30b1bc75819f0b435ce1451c3e7fc2b6ce"
+    },
+    {
+      "path": "garden-rooms/index.html",
+      "kind": "source-checked-canary-with-preserved-checklist-editorial-date",
+      "before_sha256": "c963f574122a3c07941f17c07402dca1cf1a8a98b07a2c06d19a18d82f5ae905",
+      "after_sha256": "2a267bd82d88b5e694452146ca44d3f7a895a9410e27c498fb7f82271575779d",
+      "editorial_date": "2026-10-27"
+    },
+    {
+      "path": "garden-rooms/scotland/city-of-edinburgh/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "e93137a59ab5b6235fe69073da5fbb8832967ccdb1a185f02af30af9c2bd5d70",
+      "after_sha256": "69661609c8d7d63ab0c013b3fa90ffa80f2b267d42f5f900c4df3898a4c8c1be"
+    },
+    {
+      "path": "height-limits/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "7cf751ce7a6f4fc655a82b6ecae9b228c5e9213078e91f78e09734b9176fbd1f",
+      "after_sha256": "9f69071cb8d68f548b16b7c562bfe1c5189af0d0c01cc55b5c4f6cc8b56dbc13"
+    },
+    {
+      "path": "hmos/bedfordshire/bedford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8155ab1d85fbb8d8792a5cd568caef3ba2a9d381c5153f24bcc446c1dd945ce5",
+      "after_sha256": "506a33b6dea6692a9a55b13ae554f5abd30e4b87a52b6c2f294ceaba01595dc2"
+    },
+    {
+      "path": "hmos/bedfordshire/central-bedfordshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c6b5eed6ad280101cd41c276a70af0590eeabcda6750e9d04436cf63105a4587",
+      "after_sha256": "de7ecfc0ab9e9181a5033e7481474d0cca4a0018f8d73f8924fb23dd473c9bc7"
+    },
+    {
+      "path": "hmos/bedfordshire/luton/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "94b3854e8e83a026ec287d741a259d53b090c2f2472bcc9b80ff4eede29f11b3",
+      "after_sha256": "579cac6ba41e1c44395becbc19ab9ab2b9c346024b175a43bb9b2e8946c345fd"
+    },
+    {
+      "path": "hmos/berkshire/bracknell-forest/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2ac6b54d82b22b9fb873acf415afb55db5652630dfe604f03345d5b44a82f5ee",
+      "after_sha256": "f90360cbb2027350cb3ebeae77d45dc00a7de4c68c0e7e059e1e3e4c8c9bb913"
+    },
+    {
+      "path": "hmos/berkshire/reading/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "38defdea194297650dea10881c427c8e0d53fde7e5584937f68e5adb1e4b9b81",
+      "after_sha256": "7187f968c87ba34aac65bc034835d96d0a9add3ad48fa0f18a5e10d41444d235"
+    },
+    {
+      "path": "hmos/berkshire/slough/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "fcf966d46f41f780acc44da21a65427a3956768e4355574d1a8c9f98defae951",
+      "after_sha256": "cdf40ed2dcf86627048d31dd35445f93489004fc3c06ad26a236721bd9e41af3"
+    },
+    {
+      "path": "hmos/berkshire/west-berkshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f9de0251b350fbe00057370d6ff8a874fff7bc42945e220468f8f56120b1319d",
+      "after_sha256": "0c9de4311c61c1271be45ecf07e6f4fde61a1eeff6a031971e9ef7604dd65f9a"
+    },
+    {
+      "path": "hmos/berkshire/windsor-and-maidenhead/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "da5f7d22b8e8382de60dc11cc0cf17bdfe885752a2a7e5ce607a84829197b458",
+      "after_sha256": "9b383c06690bf4f6a7882a4a0fbf99ab762e4886d3aaf2ee165e7b1c92ee2515"
+    },
+    {
+      "path": "hmos/berkshire/wokingham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "46e8f5a65a7662d51c27bb9c6bef3cf7b527e7636298bd3772c025eb54693e39",
+      "after_sha256": "5125accbfbe551445e8978f5509881ffddef301ccdb2aff49ff62f38dc14f20b"
+    },
+    {
+      "path": "hmos/buckinghamshire/buckinghamshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2a3e8bc55293582f2a505c21e8984ff274b2d62a267579c52f8f078a5e448990",
+      "after_sha256": "fc21548ae38ecd2caf5afcbe236d50ad7007ca1e86699c35aa2ecadf35ef9176"
+    },
+    {
+      "path": "hmos/buckinghamshire/milton-keynes/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "622c8332070bc1cdde3e2698335da3510bb953336f2849f21f5eb6d236584876",
+      "after_sha256": "278df68d30eca288076796ea96874d5faf3525f83118e7cadd8a3923427b673a"
+    },
+    {
+      "path": "hmos/cambridgeshire/cambridge/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d30be92c50fbb1a9dc0985f8e35560fa5e485f2e1400107ef94b910e2b2c089d",
+      "after_sha256": "e675ca3d532d4dcffbb3f41ffa2086d94741612c99311eaa98844b5b21e5df3a"
+    },
+    {
+      "path": "hmos/cambridgeshire/east-cambridgeshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1702a83af0a7ecaffa2c731a7f1f03912d0e2b5a4c24707fdadb7ffd65ccf2d5",
+      "after_sha256": "58d0a8ded4612667864fbce0cce5a20170d71b402e0df724250ba1c775fd63fe"
+    },
+    {
+      "path": "hmos/cambridgeshire/fenland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "99e5791cb2b57f03c4099baad69718cffe405465847279b996e6b35805c61a0d",
+      "after_sha256": "03525b08050d8cc56563fb8530029d6f5c7fe5946a65322ca951dede39b0769a"
+    },
+    {
+      "path": "hmos/cambridgeshire/huntingdonshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "9a5d310d12f9f01baa3f6333c059aad1e506e17d513fcdd9bf7cbb5ac35d6fff",
+      "after_sha256": "3361fed922e18bf9d6761e5505d38e93cf3afb5e5e81312f1db5339c0351c3cf"
+    },
+    {
+      "path": "hmos/cambridgeshire/peterborough/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0d232459bfa4cd544f93fe59d76ca71f9856cd841590debf99b73176ae7e07e0",
+      "after_sha256": "1fcc7f64c2573cc26d11ec3767e543c402c5e1c05a8e36070d311b3581034ecf"
+    },
+    {
+      "path": "hmos/cambridgeshire/south-cambridgeshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "804305917869f9aae880d388a787ca5632ccc107fef63faa3993f761b00e3d44",
+      "after_sha256": "f2a27ef2847b49cfc6a234c642f492d3d77205438b6814bfb702bf9e51d247c4"
+    },
+    {
+      "path": "hmos/cornwall/cornwall/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "71aefdbade42b89a1fa363be157373ef3743cd3ea0cc83f38df88a5d8c7db940",
+      "after_sha256": "76adfeb6f62423430414acdab61b78f572037746d80e4d5e588a7b31656e858b"
+    },
+    {
+      "path": "hmos/cornwall/isles-of-scilly/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "39129489d9ba08b371fcf3f82d9d2f4d1e4464baad2c14485e5071072a0a3643",
+      "after_sha256": "b4893b2406b36e1eb1e35a5bc24775417d79e8771a5d525905eb2d56e8766608"
+    },
+    {
+      "path": "hmos/county-durham/darlington/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ae183d54d6870b6bfeb983a176644c5375a227a411d0050b9588cadaf2fb8c27",
+      "after_sha256": "b9ab8ab2c7770910cba289a7582312de2327b7a6462c760819ce1573cbb3be85"
+    },
+    {
+      "path": "hmos/county-durham/durham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "36753b7a188fb56ba4bca327feb9b6cf6f557af408fb333544e7df9d2580ce59",
+      "after_sha256": "a3c57893604fc08225119eb99ce61f6faba5a90e8ccc7df6d84e347855e32d38"
+    },
+    {
+      "path": "hmos/cumbria/cumberland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "82736b85da0882f696a870fe410f22a6ed2f22c29988c737185065a6bcbad739",
+      "after_sha256": "2b5a075e0ccf78d0ad325f9cdf20284a321933d340a17914f920dc34b75fb0dd"
+    },
+    {
+      "path": "hmos/cumbria/westmorland-and-furness/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "19324a17198de31684b10ecf04dd4436c84d3fa9472d0acba39e93e81a439ae3",
+      "after_sha256": "863d71ebfd30827a5087608df3664802b2401d41c67d1c308f61586a51df1450"
+    },
+    {
+      "path": "hmos/derbyshire/amber-valley/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2c949ee047c49d293a0ff15971014cb698b7831d46213625ea0c19fcdb4293f4",
+      "after_sha256": "8c63764b2478129d30322929669590f5745365815b4d5dbe1be5f6b977a1476d"
+    },
+    {
+      "path": "hmos/derbyshire/bolsover/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "76be431cee3c5ab8c6d96193db41931926e7ad3a05a54aeff1ea939a9ca47462",
+      "after_sha256": "ee491f2c6fc0ba54064b5f7965f97d0783c553101f16401382ab38d404b1d5fc"
+    },
+    {
+      "path": "hmos/derbyshire/chesterfield/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "e965f398b41f76761dac9d2c3c91cc8827c9ddf255762186ccebe1e0e159bee9",
+      "after_sha256": "8512073fb88d8a58cbe0778e684bb91cf8a575260be4629c1ae9058f766df13a"
+    },
+    {
+      "path": "hmos/derbyshire/derby/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bcfe64dd89fb84b3d9471553abfe01029180d873bdf6d86626f18c716e84f3db",
+      "after_sha256": "532c2a7a42b8aa19e008fd38d622d0a0958e2b9c26b801ea2ac00eb4394d9573"
+    },
+    {
+      "path": "hmos/derbyshire/derbyshire-dales/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "864709c0ff2342675894b375f3826de5dbfc5c2f203d89ba840a34d41b1ffa94",
+      "after_sha256": "bce2793632fccf213152030ebf7a1d3be7a214469cdcba53a8ed8c1050f5d60b"
+    },
+    {
+      "path": "hmos/derbyshire/erewash/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ce20eeb4ccebd684dbe11c11bdfa52c4b3c4a2aecf3655637efbc9a47e6ed030",
+      "after_sha256": "bfe5037f28c57d97d0465ea7af2d9aa09d2dbd34281c0c56d3975a6138b1788a"
+    },
+    {
+      "path": "hmos/derbyshire/high-peak/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "113f952612e63714469bd05a17387f0d824176105e17889a54761aa7e9abb954",
+      "after_sha256": "76d534346800dd7297e19a661f9334e3cbd8e79377053b9ea12084da51695965"
+    },
+    {
+      "path": "hmos/derbyshire/north-east-derbyshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "178358360e6811e4c17d998ccfc7d669b3fc0e4e12f61c14e156811bc9e746e2",
+      "after_sha256": "95f3dcffcb3dbcbba6315aa60bb593e9b24c3fc7710f1aaa99e8aa206c2ec9e3"
+    },
+    {
+      "path": "hmos/derbyshire/south-derbyshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b36eedb44e3c79306f151434158eff521e96d157dfc4ac83707213754f4655e8",
+      "after_sha256": "a6b849ae15c0568380e0f2670b70ebaf26b5c226e8b4eebb952b2173077f7fa9"
+    },
+    {
+      "path": "hmos/devon/east-devon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c449a8f0f6912b83479004e33c6db04b60f27813c948afe2c190b60afca2938e",
+      "after_sha256": "57381d2c0fd7422845a5531e8185c33a8b2363119bc3e48374d5a0064bd43d93"
+    },
+    {
+      "path": "hmos/devon/exeter/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "7d0f06534b82a8ae3e890c1353875cb05792eeb4f63d3c1a785a51f9c44c471f",
+      "after_sha256": "6b5e5aadf4158cea5ad5b0c576577b3560830cbf8acbc693a7d2606c78f1ab92"
+    },
+    {
+      "path": "hmos/devon/mid-devon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "4a5a26bf16750851205f5582c0feb4ba64f51c3061ddef5fbe69b8beb0c5bb29",
+      "after_sha256": "e83132807d572df54c3ebc6f0e2c1da91594e263f9133622e9c2145bf1f59c80"
+    },
+    {
+      "path": "hmos/devon/north-devon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c5c4339833681b4007f2467a92700c14092de4665158c46bd9eb4e2f43e81a40",
+      "after_sha256": "be286fe7bc5538372d3e6edb763caa4e6bbf6691a43a6f5400fcb34a76066d47"
+    },
+    {
+      "path": "hmos/devon/plymouth/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b72fbf38d674a7fea9cc0e77e3ac05edc10cbf81d5aeed445cd2231f445e3291",
+      "after_sha256": "0cbe18d25a3d22e5cbfe471e27f228e7e145583f662e7597333aa3400e8928c2"
+    },
+    {
+      "path": "hmos/devon/south-hams/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "19b3d6fcff49f80f6a94ea0b7ac00c898dd9ef3bed508d795f7d79c36e8907be",
+      "after_sha256": "94c1c3005226e14ec566ecda1b6cae4528eca93098284d753f19e44a3e77b9f2"
+    },
+    {
+      "path": "hmos/devon/teignbridge/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6331971f1fa43d00c7c7e90c9ddaf96bf1805f1d3259785d74eab69979a8ba25",
+      "after_sha256": "55e0d60fb61d1f7904cc78f9b33566c9c7931774f9379e917c0d57c887e81643"
+    },
+    {
+      "path": "hmos/devon/torbay/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0d05d40f76676df6afca5e5d8e52366145839299158724af3a1c59bb260c87fc",
+      "after_sha256": "79b84676065d212ef7fd13b9e563f757dbe6a4f4a8fd86f0b561f1a045aeed25"
+    },
+    {
+      "path": "hmos/devon/torridge/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8b5d7e3231dfcfaf3d3357d2d418e39df3a27a2dc3a9fd033c6ec22b58516710",
+      "after_sha256": "6cb469fa9c8259a71dece71deba2c7a7019947a830c77cf8b9ab5b4a6bdeb99f"
+    },
+    {
+      "path": "hmos/devon/west-devon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "182d1ca43cd2b6bc4fde3da3b543caca2bd0ff4124774d1d860cc4a34598235a",
+      "after_sha256": "d442ca388143c42b0ef19f7ce83d3e4fa274ad5753a935296bb0a1b91afd7fee"
+    },
+    {
+      "path": "hmos/dorset/bournemouth-christchurch-and-poole/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "801654e6756ff725e0ee3bd33084209a0af09053b92f0352f98788d95246a866",
+      "after_sha256": "4a7fc720f485f838c5930a7a924ebd2b57a3e23f69c3a5b5a1c4c6cc206cb724"
+    },
+    {
+      "path": "hmos/dorset/dorset/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "05dbca2401b21e251aacb9931c1f0109a7b956944922b4e32f808ee4eea9398b",
+      "after_sha256": "66a5b376d3831158938df02390d78adea9326fecabde3415cbbb0fa08b6fa4c8"
+    },
+    {
+      "path": "hmos/east-sussex/brighton-and-hove/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "353c6e7f18527bfe2252126fd30a0ba3e161accebd265412b549bb5dd23b07ff",
+      "after_sha256": "d61fc808b185fac106cb44a500073a68ba259f8b5dcfe2a1d1ad5609837ebc3b"
+    },
+    {
+      "path": "hmos/east-sussex/eastbourne/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f0444fa286c0e92bb24c4f5b4a134bbfafc1ae3ed63a0e59a8ecfa57c22a4280",
+      "after_sha256": "108f02b7def313cfc79957aeeb3447edbc85ffb8e7c71ad20fa90063f4e66ef4"
+    },
+    {
+      "path": "hmos/east-sussex/hastings/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bf7268bc328718f631bc368862472e36c1ad279e83f703dbf445be3b0d59d820",
+      "after_sha256": "d9a59c3305a7b99afbcc0bc9399e1c0a35da6ae77f7b241c4d22fa11d21f9ca8"
+    },
+    {
+      "path": "hmos/east-sussex/lewes/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bd34da92143a09607779f99fe478b5bd977572e9a2cab13f8b90ebc136a79b25",
+      "after_sha256": "0ae932b3265ff1d8a59e03a215e9ce3906eb76278c726472e9e0f6dc8b035a2f"
+    },
+    {
+      "path": "hmos/east-sussex/rother/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "af2ec066b80658d00d05b440a1f9cc8e251f4824c04ccfc0f8ce061aad77fe82",
+      "after_sha256": "d7897d251a186b11d5b6f616403515af5326677f376576b6d6402202abbef087"
+    },
+    {
+      "path": "hmos/east-sussex/wealden/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8d82806f6d457100f75e1d848107a1a83bfc75be7444c456373d2a072730f9e6",
+      "after_sha256": "d5ad0948be03abd883ffaaee956d49a790a611d60a3ccad81861bbea29421c50"
+    },
+    {
+      "path": "hmos/essex/basildon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "dcafaef48659d037b8d49716d8749fe55c436a955642871c7c5cad69e865723e",
+      "after_sha256": "80b9cc9e3467ec901cd6610a18632f283b4bf6f3acdd2a4bf4e97245cc66c35f"
+    },
+    {
+      "path": "hmos/essex/braintree/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a583f284124d65d63f43fef71c99fd2111c994797e8d7fdb947323f617d516a5",
+      "after_sha256": "f68bce1a112ad4acc03c66ac3daa58b4c39728f5f80682ec84a55d205c17a73a"
+    },
+    {
+      "path": "hmos/essex/brentwood/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c902bc3564056d98b46b51a6399c5fc43b193fd5cc4eef0a0449aba6b6a34b05",
+      "after_sha256": "e8e3af37c116cf645f1af15891a0f78abd8f8609b09b7e6e17b36ef8a9d1fe08"
+    },
+    {
+      "path": "hmos/essex/castle-point/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "65fa1782928b9f6133b2d97f24c315497c8ec795ad8b07036052ba59983bfed3",
+      "after_sha256": "9ceb8c02eff7268441e14c8aff0c60a8758fbe8f5d192a4cf4588028d1d07def"
+    },
+    {
+      "path": "hmos/essex/chelmsford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0aec278c2f3a4505598a55a64aad6f9f84338a52ab0f5667b1ee2d29aea8f67c",
+      "after_sha256": "87e07bea70e49fd8a744ff32c6160c5e51d9bc469db36fb940a978bce9c4647a"
+    },
+    {
+      "path": "hmos/essex/colchester/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8418fd6e164bd6b1fe89b681076dc420caf23e81dc433357b6ef6b0776986ac5",
+      "after_sha256": "8085ed78f7a0589929bae342d7c7fde4065ceef851a19ad59a1ca07b6bea4957"
+    },
+    {
+      "path": "hmos/essex/epping-forest/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "7efc833c773432dfef3c45cf9db80cdfa179e680729b36cf9d2e218ab35d978c",
+      "after_sha256": "0cc788220e3b212343f832f42b17aa96e5aea19e06ce4cc4f51697619159daba"
+    },
+    {
+      "path": "hmos/essex/harlow/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "13714ef74f44f6df8958ef44f7bd5b0e8aa7d4f38d66cbfbd3590ea3683dab1f",
+      "after_sha256": "cb70b9a2400ac51f5118a205a6292d002242c3afa9e3e9933845e2b7d3c819a4"
+    },
+    {
+      "path": "hmos/essex/maldon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b2e016789b73bb44786d9f4c86a96aa1c80ddf90f36969386e462bec365f15ee",
+      "after_sha256": "5824327701885e50e3e4a6dcfed8ff1d381c54059c9bbd7654278bca89bcbc81"
+    },
+    {
+      "path": "hmos/essex/rochford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b83994afee04a1a253d56169f2900b86f049f08be3c3696bca1510aeb1109002",
+      "after_sha256": "855b912c003cf53dadc85b9c59a2d203153212e64b3a107d6414f6ccc2230c2a"
+    },
+    {
+      "path": "hmos/essex/tendring/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b4de90e6875c185ac3ca8720b6f9cb5513cfb62382dc76894945f5fcf52d8084",
+      "after_sha256": "23ec92225c329ff380e83f7c9f0292532fa9419e45cdea0ca63335c97963b85d"
+    },
+    {
+      "path": "hmos/essex/uttlesford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "7cd8df31eca42a24145c0a49b59d6679e71c78ef4e3bfc2b730752a0ca214853",
+      "after_sha256": "b3c282fc5de23ee9c9af2a0ec15585274fbf7da12bf02db0f3b94d816ac14592"
+    },
+    {
+      "path": "hmos/gloucestershire/cheltenham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "32a518e728f78a153799187fb7f6d017f3ca803d6d05f1cdcf27294988ccced5",
+      "after_sha256": "3f41442381bdb8e318f2df605a9e0a1b465fc8344f57888d846a4f2ff65082b8"
+    },
+    {
+      "path": "hmos/gloucestershire/cotswold/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6fed0500de6263fc200d577259545e82b49a8b68b74d7cbeca513276af913b4d",
+      "after_sha256": "e5433f43da7b5944a29a4b6ac50d88dd4d501b12117fb0d8aa0ebd4944d62898"
+    },
+    {
+      "path": "hmos/gloucestershire/forest-of-dean/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "dfc91df04042c133eb4a7814e3e1dfca9c269215a968d11506aeb13123f063aa",
+      "after_sha256": "e50f51d7e688fb61e8b2ca33dcd1979c1e8ce1f9d8e216c6bb16d1a0627a4840"
+    },
+    {
+      "path": "hmos/gloucestershire/gloucester/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "e6f8434339a6979415a1d0e8690b0aca8631c9441f132cc9e7856844fd3f3c14",
+      "after_sha256": "a3299e85e147b9f6195cc1bc57da49eee24bec505ffc5e0d8096230188b228d3"
+    },
+    {
+      "path": "hmos/gloucestershire/stroud/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0665e43dcc3691954bad3f69dba6e4737fa93c0ab73575b6cc1ef42834b765b0",
+      "after_sha256": "0ded2aa739ddc6e82bae257e7675dcfb7940610637a406a292ff456248d11eb8"
+    },
+    {
+      "path": "hmos/gloucestershire/tewkesbury/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "11c56a125a493cd3284cdc51ec68cfcc29c4e2eb0fd70933004d3f135549546b",
+      "after_sha256": "47177d5ef776384659a77cee1edcb3304dcb6fd8ed32ac678b84d1ea58255a63"
+    },
+    {
+      "path": "hmos/greater-london/barking-and-dagenham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "dfa167703b3c40f56b456c2f0c6b40f89bcc1082c0f1e85d8e40031e760defb9",
+      "after_sha256": "38c8dd49d3bad65b4f64a7590ab626f48f3c3c0669a076394dddf83d0e2f1ca9"
+    },
+    {
+      "path": "hmos/greater-london/barnet/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "5343510704a05e020a4cb86156cb76626831438f363176b4e8e1c3fef4d39b7e",
+      "after_sha256": "d11b1844634223f0c24d46dc6314861641b7df5422005fa99799b508c608406c"
+    },
+    {
+      "path": "hmos/greater-london/bexley/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "9d2af591095492f2591c6a3ffb11428c8b504c638f459a6b7c96803949f22760",
+      "after_sha256": "e8256394aed9763ab2beb482d8b155832a0f93effa423b4ec76e9f68e7d1e27e"
+    },
+    {
+      "path": "hmos/greater-london/brent/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "56f6192b5658e00e5a82f8ee6bb8d5d8cd013042df73ad4aaeebc48eb9ade480",
+      "after_sha256": "bd80695ee37808feb3a2a3846a4ac5d874f752bb79303ce42eca2d4821cbd84c"
+    },
+    {
+      "path": "hmos/greater-london/bromley/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "869b6f9802402ed5cd73fc328547a59764b392d5a76d6cf3f29ad88a5ba4dca3",
+      "after_sha256": "1e82ddf35375af7d4049bd96ab899f039554915ede2092dd373d1c1139e661b1"
+    },
+    {
+      "path": "hmos/greater-london/camden/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "28e4ac8dd2313090e57616e1459520302ac8d49b333cf20b3827329e94ed0d54",
+      "after_sha256": "056ca73c8cdb1f6f2a4ca87743a922b2ac25263cc193a83347db022c8c8295a2"
+    },
+    {
+      "path": "hmos/greater-london/city-of-london/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b679940e3fed2dd703ca26d9d7e685cc1966441242116fbdbd5e243d5f0cd922",
+      "after_sha256": "b85a5975c607b7f85dfb7253a9783510288fc97814c6b50e17a09df267f5117e"
+    },
+    {
+      "path": "hmos/greater-london/croydon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a6ede0991c825cfe409f0c4cb9968b945220f07c87b5ff884b6a2ebc1c3bc647",
+      "after_sha256": "f8b4881cc58cbc5a08addc0a25dc40a2340194789579815925f542c5136a1596"
+    },
+    {
+      "path": "hmos/greater-london/ealing/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b1a963b186e81e303247bc519561c9dbe5ed82073ba922b562451096a70938b3",
+      "after_sha256": "4ebd9f9134d5b7ad0d002514a23e126996ff51bfe83fbeeb602548378db06f2d"
+    },
+    {
+      "path": "hmos/greater-london/enfield/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2e155987427ad89175c1db3ea1fae367b67051d11cbcf8db582bb1c439ca7b28",
+      "after_sha256": "486b2317118512b73d1b3c75fb59c50791ce3efd9f4fc4a727f75b75749fb54a"
+    },
+    {
+      "path": "hmos/greater-london/greenwich/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "96f320f9ff703e5225004e635e29a3d147498f5859f5973ca4fb14206ab6ffb5",
+      "after_sha256": "b9ca1a576b32a275263cf185e61136a3089546bf2c0a7ff5cbc4da17b7edf3ff"
+    },
+    {
+      "path": "hmos/greater-london/hackney/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f867ea14c6896dd94d6aa52e7371a5186bada322cc4a8aa2c46087180ac2b840",
+      "after_sha256": "5961485aa5d8b5188f6770bb3c31a91eb7ca7b67480aff60beb6636f994d8bfd"
+    },
+    {
+      "path": "hmos/greater-london/hammersmith-and-fulham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a3717ef75448a9ab6a7253f55b54d53fc717ff34b84288f391fd732ff1059196",
+      "after_sha256": "8c53130ab9c162682ed7abeff0c0ba09867d978f42f4d0bee280b9c14ab3fa89"
+    },
+    {
+      "path": "hmos/greater-london/haringey/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "96f9f6a79cacc99b3586708fc47b855e1f31863efb28706cdda347f34d1a771e",
+      "after_sha256": "0b3f434549e2941aa6aa2cabf4386f60c2b0bc20edc7d279a95f693eb97868fa"
+    },
+    {
+      "path": "hmos/greater-london/harrow/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "90f2a040c73594ad075e059fbacdb23138d743c6b7d048751816be980b4c4be4",
+      "after_sha256": "ff964734c91508ad26f7708998d0ddcb1066ef7e796ecded74d4bc4df6fbdc14"
+    },
+    {
+      "path": "hmos/greater-london/havering/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d88326b1daae266ab9a512e3ff90898409a60f5432ab500088a5a3a7a89a8743",
+      "after_sha256": "9cae48a354aa877a5ee25516d68febf85155573b192e25480031d87bacc31f03"
+    },
+    {
+      "path": "hmos/greater-london/hillingdon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "997e0d239c6493dd26237edf6ee390bb01a1cc3b9caec38fbec1aa57d2341d35",
+      "after_sha256": "9dedd166d25023cc97e14cd798638f8d76b824c8d7bf180708d818c4066358e4"
+    },
+    {
+      "path": "hmos/greater-london/hounslow/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0146ee5aafe7fec0c7c3831679ffe5d82817116a0ec34f16f068e4a834c4623c",
+      "after_sha256": "254e9d710962b8f99e3e14e4518d62b4fbc0cb32137558655229972227822d39"
+    },
+    {
+      "path": "hmos/greater-london/islington/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "3e902e20365de04de2638ece2b61ffd2b43497d6a7f33edcbdda685b41e29575",
+      "after_sha256": "e049bb9801723cf099fd6ed256a20fd541a3a8ca351f11ffb384a48b45ff1171"
+    },
+    {
+      "path": "hmos/greater-london/kensington-and-chelsea/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "e5a467ca3d045ba8c67a6a1970fdc997e02ec6b7215f142fdddbbcbd1e8f0f4c",
+      "after_sha256": "307045d4a5f8bca7255ceb0be588bdea2af7584177452843791c17df4d5901e1"
+    },
+    {
+      "path": "hmos/greater-london/kingston-upon-thames/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "088c73c36d40a6016568a2fe0113a70c3b8d5a1e55a101fcd6b6e4b154e2c3de",
+      "after_sha256": "4cbdf7327d614104c8c6627d7617da7adf8501c4cded73b712db2b4c6743c096"
+    },
+    {
+      "path": "hmos/greater-london/lambeth/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "fd21cd3849e1fbc244d7a67a7ed28a8da053d0146e88b4b909ecdecdb283c84e",
+      "after_sha256": "6e939702f90b72546f313578b1becd1366499d81829589d0182836815d9bf1ae"
+    },
+    {
+      "path": "hmos/greater-london/lewisham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "76974f352f04f4ed263bcecb0804dc4088354b1b562d6881f1f2f0f1f3572aa2",
+      "after_sha256": "335eadbc80bfd05de76a6d9630cae952608ccaa6c3e5336f7b644ad2dc811e7f"
+    },
+    {
+      "path": "hmos/greater-london/merton/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ab3d57416bdd80efa886acb07cc9c41a6212ebfd702cc816c49a9eb37d7937df",
+      "after_sha256": "6fb7328f5d773a045c8982502ee60c0f09c0fe67381ee9539f0215df372c1bca"
+    },
+    {
+      "path": "hmos/greater-london/newham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "493dd3340331722c53e121a791fc3bb544286cae010bf03288756383287088c1",
+      "after_sha256": "903019e85e1d0b5462b58960c6db12985e7aedabd18d25d32e558b143e2abe09"
+    },
+    {
+      "path": "hmos/greater-london/redbridge/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "60f03cfb348f85854d4bf86b334f04c2e4c0c56845d6f9e0428d7b4ee4a4ab40",
+      "after_sha256": "7189a7091a83d67810672b50eeb49cfc4a55015e663bce0dbac181ab8c3b5b51"
+    },
+    {
+      "path": "hmos/greater-london/richmond-upon-thames/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "824f2a80b96cd7ba52c733ef713f45e45ec04644f85bd690fffc5914a02a6a28",
+      "after_sha256": "59894128e5e71f9a2eb9925db1ca46cc23ff3c96cef79f06ae5acc65d86c157f"
+    },
+    {
+      "path": "hmos/greater-london/southwark/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c80bce693d1f0f399db966a790841d065eea45526a04e0d3046b10932029e757",
+      "after_sha256": "9c92c3ebdf7e43bfa06cc38ea0775e615814bafeed5252302e3d043586d39187"
+    },
+    {
+      "path": "hmos/greater-london/sutton/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f909846d5a8ece9bb4db2ed32b792ccdbbb38628294cbfc1d646ec41f9c4837f",
+      "after_sha256": "3d10d4de495af6fcb0be78363995eef288157bd9f99d5bdb3c617c0eaf9c5d38"
+    },
+    {
+      "path": "hmos/greater-london/tower-hamlets/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "270adc6b7484ce9de5634fe480d8636c89e2bee12aff5131d6e24e5cec814211",
+      "after_sha256": "09e2a86ee69c26e500b23c3b3f4dc00f723942f8c6a9563b5a5a34c59a134c03"
+    },
+    {
+      "path": "hmos/greater-london/waltham-forest/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b59b3a7b4c6ed9913b9ca8619f28178680b6b191c9e14afd67a047c83f030e7a",
+      "after_sha256": "d6c643abd56aa4bfa3fd0a4bcad428d2d45d4d283daa17cd2ad4dcffccda6554"
+    },
+    {
+      "path": "hmos/greater-london/wandsworth/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f65e8de05f4ac1c5e72e66ed9fa8a5aae2e4b8885e65202fe63c132f898b40ae",
+      "after_sha256": "be4076bd15d981659844e30b760ffe888aa3607d6b9b5ade2231d04f0436668d"
+    },
+    {
+      "path": "hmos/greater-london/westminster/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "9355a36e31c1773b1e6ed380f7c39f610c6413732bc2dffc0f6093e7e5c515fd",
+      "after_sha256": "beafd89aac9acf0c8e277b98ac00791e0af486d4028ff29e3912079b4238370a"
+    },
+    {
+      "path": "hmos/hampshire/basingstoke-and-deane/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "e7c67c29a3c73ea481afe1b5143c08d8768fb9ef76297800a6999a9a3484e365",
+      "after_sha256": "c6051cd673d6b87de1a22abf05f755243431b1123def0f6597ac671e22af6165"
+    },
+    {
+      "path": "hmos/hampshire/east-hampshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "3e342d6dd8c52e22c5d4a6c55cba9a98f52262a6e48d55fc950d6c46d7e88447",
+      "after_sha256": "dadf6b10e85a6735f44e4a6b545ac297224277df6a58622d20c8962b2614223a"
+    },
+    {
+      "path": "hmos/hampshire/eastleigh/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "5f8a7758f624da218ab1fdb5c18b4b68d64968e956a347e74a1399677e2c8c53",
+      "after_sha256": "29cdbcefb97dbf8da5e21160d484ae0f8918ac72b6a8083089c50280e23d87af"
+    },
+    {
+      "path": "hmos/hampshire/fareham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b84eedc6306a146caaf2f15d1427f087ce55237cdaa89e3583c39a3a093b4e17",
+      "after_sha256": "edc0482e6b28cef448ecfede674e9c5c7c903ec55dd23ffae7338527f9c61cd7"
+    },
+    {
+      "path": "hmos/hampshire/gosport/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b0a5f3fcc29ee95a2653059eef6185c408ae1605155dbc3dab0d11d3584c71b3",
+      "after_sha256": "4970c0a9b03ee040771a3e77eb3d5bd2c2724b48ebc68149cdca4064648f33b4"
+    },
+    {
+      "path": "hmos/hampshire/hart/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "5dc805f29c1c6a21a275dd66c9726ade571d36740c71847e31e4d97c8368b13d",
+      "after_sha256": "337d57ead515f144f27f31ee7acf02f0e314df82a7916bc162938ecc53863dac"
+    },
+    {
+      "path": "hmos/hampshire/havant/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "46044930c2567cd4da4243631be231dedce0ed230b9a63e6190a1881af974edd",
+      "after_sha256": "89381261306d3a679e2485de1c8d7a02815a4618ad89b31686ab0f65f314f264"
+    },
+    {
+      "path": "hmos/hampshire/new-forest/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "cf8c79290b8b468e1f85e576313248e38e47f3a998bdff8d5904c52e32353ffa",
+      "after_sha256": "83f8b21afed9aefb7299f09d1c780d9e4dfe94517e78b002bbf69219facc96d3"
+    },
+    {
+      "path": "hmos/hampshire/portsmouth/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "10fea507e1ce072eefab234d66038e24185f887e0e20f632fe07a6746b00c0e8",
+      "after_sha256": "9141ffb5c263aecc7b5d083e8ea56f379df374b78797a13e098379400bb4a2fa"
+    },
+    {
+      "path": "hmos/hampshire/rushmoor/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d34dda252b68b75085ad70437fc08304f88b26346697519c2d3048a38c4b2622",
+      "after_sha256": "63b1b7558baaf0bca2a8c6212a92ca30531c4e52b05ffc905d3479e30617e6a9"
+    },
+    {
+      "path": "hmos/hampshire/southampton/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2802f6816294a5179e2b6922f21b79859f1f17106c1159830812cb601457cd95",
+      "after_sha256": "4ab254a6191561a3925b0fdf063a4f9950a2024ab661a7fe84942b107bd7354e"
+    },
+    {
+      "path": "hmos/hampshire/test-valley/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8fa0e40fd0689d6dfea2627275cac6dcbc89e78fcdd2830913c342f2f41a8c9c",
+      "after_sha256": "8a072ed73df0d8c4f374e2e45ee3e862a8265ce9413f984ec03840baa18342d1"
+    },
+    {
+      "path": "hmos/hampshire/winchester/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d4afdff31369463b9e26012f96242991171d656b8dcf5ac4ead57626f5557ae3",
+      "after_sha256": "7ad69773d3522b5a72969fd746e4535354aedfdd38715d211e138244385c813b"
+    },
+    {
+      "path": "hmos/herefordshire/herefordshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "802c8de67cfcf456bbdf0cec1482b2c5dd4ff89bbca3843d052491f69b2c37e4",
+      "after_sha256": "fc1ca456c60b9634e61516641f5a9c43181170031cc5cf2afe311790e8493013"
+    },
+    {
+      "path": "hmos/hertfordshire/broxbourne/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "25986055c477583d77712021738632f36819c628a85f103ef21cb54496f97f5d",
+      "after_sha256": "a078a4353c5ae9956d653f3a15866e51614aa2d4b6c3bd99264d5a81b692ce00"
+    },
+    {
+      "path": "hmos/hertfordshire/dacorum/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "158842fd6f0bd68b93b621ae56cc637cbb94659e0d23f712313cc8326bccdd38",
+      "after_sha256": "3da0c4ee9445782b50c756918c5e8864dcdfcfc9acc3b9f005e9500efca3db13"
+    },
+    {
+      "path": "hmos/hertfordshire/east-hertfordshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "089e128778519ec154b889583346bdedf902e9028ac9d7a3cbbe239e32c07210",
+      "after_sha256": "4abfc138d2665d404cd4a214b3aff997f3b3ccdce91484d3fe6a420d847d5270"
+    },
+    {
+      "path": "hmos/hertfordshire/hertsmere/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "253a98d3f2dfd15d6dd20d964cd1fd456e7e740029a3cca31d5cb0cede9259a1",
+      "after_sha256": "0caa89e8fb69328f53059489c5850f6d46d7fb466f0606f9ed033b1dcf2e24f0"
+    },
+    {
+      "path": "hmos/hertfordshire/north-hertfordshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f738ea5d8d4a4ff5c868475227517eabaf0fd9f3736756c52f92fd3b20c6512e",
+      "after_sha256": "3fecbd00e8403ac41955d9b5703c42842e4aab1fcd07825947f53399d860c192"
+    },
+    {
+      "path": "hmos/hertfordshire/st-albans/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "4714c724b56e4ebbaa431021cedbcc291601727939eb26257f4a5adc25708c76",
+      "after_sha256": "14954c84b1b09145be244493d9c395015af9029721acac356a0c1b8c0f0fc05e"
+    },
+    {
+      "path": "hmos/hertfordshire/stevenage/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "67c4b1794969a05c1fcb3aa4e90be62c1b642d6d77c235c2dce0bf0dcd656c8b",
+      "after_sha256": "1b0d4aae01fb69b1310539858dc6f93efe5fb1c53edf4798805c14c8ea44f78b"
+    },
+    {
+      "path": "hmos/hertfordshire/three-rivers/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a48b627c8702c581586a684e56acb3710ea775ef97aaab9b9ea89b570765dbcb",
+      "after_sha256": "4760775ed1a370f906c747210366a176499494ab20bbe50ba8b90e47067658d8"
+    },
+    {
+      "path": "hmos/hertfordshire/watford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "38f1b07f83e00fe5d400003274f176ed5f5458ae600a7c4a81ee6246ed18f7d9",
+      "after_sha256": "174f5591416a07345d4039ecf3adc5642e7e8b0a33603236f59dfef7e1b85c52"
+    },
+    {
+      "path": "hmos/hertfordshire/welwyn-hatfield/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "55d99deb0cfdef74f6cb988121400d1de7ee6eec13434e91cafbabd33ac022de",
+      "after_sha256": "f7924538c98b616de64db9d77adae643c43bbc07d635668037c6a234f8df1bf3"
+    },
+    {
+      "path": "hmos/kent/ashford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1acb7be4cd6264d17e3f9efa3dd7d8e1c1f3c627e4deab2f219f04c662ae0d84",
+      "after_sha256": "dd44f3f70667d159821bfbdc31c6005ab5afc50dba0f38ce377f0785f440803e"
+    },
+    {
+      "path": "hmos/kent/canterbury/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "9c53eeffdf4677cc2ad2bb4d2c225d068ebe8c2e3babdc7011eda2f5375ece3d",
+      "after_sha256": "bb59099186f0914bba932c54376d5cd7f88f8b58575f5bd624277f59d6332c3c"
+    },
+    {
+      "path": "hmos/kent/dartford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "17132e9267c10b4ca7e0394c55e4347dd010f9f244cc0a13e6b58bef2ad797a1",
+      "after_sha256": "980edba8fffd318e4657c658a5e2ac10a34a6e7ee17e53cd4f8181312c93c244"
+    },
+    {
+      "path": "hmos/kent/dover/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "69b2da3a1cbb7689b95c37a9a9a1c1c35c9e0f9d189a93ab7a32639b0265f78f",
+      "after_sha256": "e1a5f3394378045f8b2cd5314e24e7f47ac4af8929e156a9f32878114f0686a3"
+    },
+    {
+      "path": "hmos/kent/folkestone-and-hythe/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "119a39192c6ad08393f1623c0983676e5128c51e6e95386275ffc3495aab00a3",
+      "after_sha256": "32388e10c6c61ab85495e393bc7ec1d727031cb17f7471ee29873a57f928fd4c"
+    },
+    {
+      "path": "hmos/kent/gravesham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "dd1a7d3f9bd54396b2196d62f027c662005699c803796fc7fea819c163ed0c30",
+      "after_sha256": "0e5dee77c3966033bb7a4f242525759c1cec87fe4c3bc209d25a2ebf6d43cc4d"
+    },
+    {
+      "path": "hmos/kent/maidstone/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "62d0cc9b1a050dfdc7d8a8db3866f696d8bee79fbb77e4c1d4f809f959e87250",
+      "after_sha256": "6eb19704e38043498ddaacef3680bd655ab0d05dee21cd47ff44361382bdd868"
+    },
+    {
+      "path": "hmos/kent/sevenoaks/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b45623dc09a12239adf265f8dcad6c92d6f7995b211e6b46977fd5b14f1dd125",
+      "after_sha256": "afcc27053851db32a5a577f4c0be56ac86085391a248f1a1e63268e913d4c4e3"
+    },
+    {
+      "path": "hmos/kent/swale/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "eba3b1279499a5433cb10ab5372b3e3fb41b86069245afa07f15fb847c3098bf",
+      "after_sha256": "ad175a2f30d0db0de60878738793ec2605dce26c041965e92a72c6a44489a217"
+    },
+    {
+      "path": "hmos/kent/thanet/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a2ed16835ea0e79e7703b29367375044701c7680637d90f41a66b792cd05d080",
+      "after_sha256": "7bf25e5e249e9ed82687e13a7321ef03154eee8d9744979df352000163d2ff66"
+    },
+    {
+      "path": "hmos/kent/tonbridge-and-malling/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6d777f32e910598d29167020366fdf7e46d7c4207288a401960b7f7556fdc108",
+      "after_sha256": "b256dd2b6232b96ed284ca236c032f56eb208a501a89c5d62d8c42e4827aed69"
+    },
+    {
+      "path": "hmos/kent/tunbridge-wells/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "77f74817cf126c5de4e4700929e2b19afb4e12fae852a070b14380f13387a708",
+      "after_sha256": "1477640920690487508da320d0c1f665ad990c4414917fa36d4e8fd92172ba81"
+    },
+    {
+      "path": "hmos/leicestershire/blaby/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8d24f4ce1205a2fd734fbe8266bc9684439e58e8fb67b8ce59e89eb5194f46cc",
+      "after_sha256": "dbfd0677d3e90a4ab792702b56e7854e9edcf692f42486ef65bbd75297c0ca4e"
+    },
+    {
+      "path": "hmos/leicestershire/charnwood/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c42fba5881bcc89732ea829411dc9d61d31932b4ae7f6359c3f114e39be84487",
+      "after_sha256": "8cc946c503b652e6ea166a0fc44e76f901c66fab7d3d3f4be3c6ab10e39cea30"
+    },
+    {
+      "path": "hmos/leicestershire/harborough/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bb5691806f863bedb44ac8f1ac74885f0e880be7ce32c6047bf318f1c9ace839",
+      "after_sha256": "e7f1ccb8b53791a7a05000776ed76463d14a598e5a59b3fabdf13709fbc2dda1"
+    },
+    {
+      "path": "hmos/leicestershire/hinckley-and-bosworth/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c7c717aecd99ff52c3e17d2100eeca1d480f79d2fee71e4d4b0077a78f9523f2",
+      "after_sha256": "e8e01abf64e74b02203d1bfb8adae3be4f78e0e28fd5f2134bc046c2f939e1ce"
+    },
+    {
+      "path": "hmos/leicestershire/leicester/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "051913d4937e52a0681c8c57c399625ea5c39ca3066c9442b5aee5ca0c60a001",
+      "after_sha256": "2024235430cf66080e7c6a2acdf17d1227e78ee847cd63431650edc2fc1fdc6e"
+    },
+    {
+      "path": "hmos/leicestershire/melton/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "14d48edaaf9f5f5ade783810298929fa455d1cfa82a3458510e591854d7bda6a",
+      "after_sha256": "23f743e9a7fab164aab8c8bb2e96bf8ed6ede8b6363ddaa9e575be668f9338f2"
+    },
+    {
+      "path": "hmos/leicestershire/north-west-leicestershire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "7bdad308fd39069b0aa44605a926f5dd4b2804b918a03c67687363349b6fafcc",
+      "after_sha256": "c77c3227949f649dd124d24f4900467b737fd01a9a3795bf87af0f41a38f8ffc"
+    },
+    {
+      "path": "hmos/leicestershire/oadby-and-wigston/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6c48fa9a7e873534ae66524f6e76ab065f50747dae4652cafe2d14dfd01cfd7c",
+      "after_sha256": "107f70cdab81fdfd35a00d544d452801bd27930ea9dfdd87c04bab75f6418700"
+    },
+    {
+      "path": "hmos/lincolnshire/boston/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "47bb7a90d8711fd30d704ad2a69c1eaffe9609223ca6d29c5013d5238abfa60b",
+      "after_sha256": "cced9c3ad531a1bc8adf2198caed8e6f82608f49ce0642ea97ffc3e457f7318f"
+    },
+    {
+      "path": "hmos/lincolnshire/east-lindsey/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c94c91958fb3d0f23e29752c9247af89ec3a571b24e2bb245ccc17a0653981c1",
+      "after_sha256": "3cd27dcfcab3a26289b956d723425ce247d28429972209f56fb78f0cfb711a41"
+    },
+    {
+      "path": "hmos/lincolnshire/lincoln/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "97992b1e433d19a48b56bba79382a9677113546b1774b091941512a8ad5dac60",
+      "after_sha256": "fc3c46c0efbfc37b1b1a52a512eb2bea5d44dc94e846b58bb2970ae6cf765ac8"
+    },
+    {
+      "path": "hmos/lincolnshire/north-east-lincolnshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0dbd0ebda2888f96befdac091ded5e8324b2ac9a0988e7d3eb6c8033e471021c",
+      "after_sha256": "b6852c0167fcbf0badbaa6a8b78ba438507d148a246d6f24f45f25cb62be71db"
+    },
+    {
+      "path": "hmos/lincolnshire/north-kesteven/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "231e3f77c3eb17d30f17366ac7f02f23148b9cb22470a158a500a4907cf19c11",
+      "after_sha256": "4d4e122d199a9a600d9979d529af373992566cd71c71332b0eac0bfc71393097"
+    },
+    {
+      "path": "hmos/lincolnshire/north-lincolnshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "fe5810f69011c5e861b3685f0cff4b5e9d8bfcc1dcb65fc66513c1fe9f36dfd9",
+      "after_sha256": "e57b70119ddb92c65d49f86f036262411c83f3bc95905a7e5b5be5d7b0cd394a"
+    },
+    {
+      "path": "hmos/lincolnshire/south-holland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a7b5aafd7e392348249a8f4bd065e51a31963fad53fdb8200d04457e86ebfd29",
+      "after_sha256": "84662959503c91aee8bdf3971b5ac3a1f306f998eb949a69c1b773439a935d55"
+    },
+    {
+      "path": "hmos/lincolnshire/south-kesteven/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "75a941ddf4c2db6cb8518d94f18b079da403efcefba34cd90d12b668f78f0f77",
+      "after_sha256": "15178d4ff9899a1ca9480fbe4440524ed51260e9bf63b5e717ad5d07ca47a26c"
+    },
+    {
+      "path": "hmos/lincolnshire/west-lindsey/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f0affd47bbcd5e84322e2c9b94f1b2a21be843a0170da22298909d3411818fd2",
+      "after_sha256": "db27a446f52259e39ecc7b6989e39fbfd58121f1d1faed66a9359cd42387f656"
+    },
+    {
+      "path": "hmos/norfolk/breckland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ba9065edfc5538f96177f736d64563688622e315d5d99fb4bcbfc134dd7464d0",
+      "after_sha256": "0733a765159d86218fc2a2f95beb9bf5f5ff818a9a3b49a4e03ba3ac0d07b91b"
+    },
+    {
+      "path": "hmos/norfolk/broadland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "19a305532619521e18be35efc7b4dad1673c9fdfb40264663b9af3c3182dd1ee",
+      "after_sha256": "a7a5802be5b6720f7eef1b7f6bf838eed021fb34237ffe5f567a501a823f214d"
+    },
+    {
+      "path": "hmos/norfolk/great-yarmouth/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d7135e6f4cac0ce42a7370772e51d565e1cc845c37fbd13443c60572a5b47cac",
+      "after_sha256": "ca225ddd2d15eb18d809df180ad3cb6b8debe89ebfc82b54c91678daa176bdb6"
+    },
+    {
+      "path": "hmos/norfolk/kings-lynn-and-west-norfolk/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "e650d1db2dde73c8e60ee74a484e474eaf63e622237653acbea7e55e66b1f3b1",
+      "after_sha256": "ac210d16854f1693252a17e616e54f4a7adfb3ca10eff0e11e45491042b84613"
+    },
+    {
+      "path": "hmos/norfolk/north-norfolk/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "31b64068b0fe7479b2ce999ef7d180f8e46408cd8484a975994dfd63409099de",
+      "after_sha256": "7a6bc88e09fe626fa1545f66a6f7ad1a652c95d6fbf38391448c04a2333231df"
+    },
+    {
+      "path": "hmos/norfolk/norwich/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "77332fa46f17ba9fc831e653e45bdd82d13877ff70947aa023da81fb7cb954c0",
+      "after_sha256": "691bbd4f631949c43c44a2426918da4ba762ac91d2b58d224ecd904c1831b878"
+    },
+    {
+      "path": "hmos/norfolk/south-norfolk/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "05d96f1d9231692fc81775618d5a3e53d06ec3e513aaedf83c0e20270cf17aff",
+      "after_sha256": "7c0672c9858de2e75ebe156c2feb816b0d429a10a5faafecc8899f73a2c1c4c5"
+    },
+    {
+      "path": "hmos/northamptonshire/north-northamptonshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "912464a33cd95eda1fd0d25f4e4d1c8d8e640414a64cfbddb3901d270ea9b14d",
+      "after_sha256": "58a543abf765eb317f4e62f9522d35db619cf5534d8a0984385513747d3be2c2"
+    },
+    {
+      "path": "hmos/northamptonshire/west-northamptonshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b68a831b9476a1e4bbe50c0606b46f681adcb9b2ae3a8ff29c3ad76fe3a72404",
+      "after_sha256": "7f59d37464016595e88025ed46059ce1509a678bb9ae89852f5c2b7b1982a9a9"
+    },
+    {
+      "path": "hmos/northumberland/northumberland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0eea3c723da60a69626362c4309e5a63194f0f8dbf8d82edd25e2a75f4ef217c",
+      "after_sha256": "02c3cc13f11ab54a758ba7eab057ae491165cc1d0df0bdb46f8b51611a919753"
+    },
+    {
+      "path": "hmos/nottinghamshire/ashfield/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a96726cbf5686b92e93db20afd67f4d339c471d26f086403ade541b06fd5022a",
+      "after_sha256": "3f9e2b30b61a94e1aaa12a6819e353946e5584be379a41e8eeb62cb764cf8891"
+    },
+    {
+      "path": "hmos/nottinghamshire/bassetlaw/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a49c15b09a60d0b806a5db5d2f5987ed8bf089358759ef858a7e330327e6d158",
+      "after_sha256": "49846f8c668ddd0c8139445f8393496d6feb1f0a97990751705e4c1a4715d55f"
+    },
+    {
+      "path": "hmos/nottinghamshire/broxtowe/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2ef8938f70e64cab8b3520820b85565c7a2e4e64e6c70ecf84603e3ddbf0b2a5",
+      "after_sha256": "d520f062f308553125bebe06b3b80096479764f9e6fc01fb3af72983aa6b5ffb"
+    },
+    {
+      "path": "hmos/nottinghamshire/gedling/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f99e558fa916f26ea51e61a357bff51ff4921dd67b7f3198d7895926c5d77ae5",
+      "after_sha256": "83fd7b43e1bb7051a3b77715b9385c8f3616cf5c805493fdfd13a54da7834aa7"
+    },
+    {
+      "path": "hmos/nottinghamshire/mansfield/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "369d3c468fa84e3fbf77fc5641480e580f460e2a29d88cf23f550219624848ea",
+      "after_sha256": "a502f18095042d172e842d341b958851d5ddc626cd45555b9619ba0a5007150f"
+    },
+    {
+      "path": "hmos/nottinghamshire/newark-and-sherwood/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1d98aec135494baaf8179a028b3d01899bedd6274b84314df634e3c45f01a4be",
+      "after_sha256": "e2c40b0d52f4ef518ea7e1c0faa1163d9dab18830439a678ee398f8e64b61003"
+    },
+    {
+      "path": "hmos/nottinghamshire/nottingham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2b3431a0d0b3f340b2f97a90cee51178ebc4e5c1ce30dc9db350fe712760a345",
+      "after_sha256": "feeebbe724b54b406c489910b9dad0811bf8ef30ff8e5a80a59ad1363167feb8"
+    },
+    {
+      "path": "hmos/nottinghamshire/rushcliffe/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ecead633c0175b4160d2afad945943befd64401952e853e20fba5ee6a01d0044",
+      "after_sha256": "7430b7935779686f82c89364d89449fa24789a4e3c71b48650c3d6b75d5ac6de"
+    },
+    {
+      "path": "hmos/oxfordshire/cherwell/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c0722bd9a11b26e81fe32ffc53a5cd265f9beccbed8d4c344dbdb689058ff9a4",
+      "after_sha256": "8cc9ab10060fca73a955189f2cb7b634529aae1d038758209aa62a3411e0d8c3"
+    },
+    {
+      "path": "hmos/oxfordshire/oxford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d2a099eab1369fab6e62ba81b23e4674d8f84b79fae6481f843c69e3f8774922",
+      "after_sha256": "c24b8d85e9b56e7229b2dc97e600c24a6748e771459fe7280427ae42f26cfe63"
+    },
+    {
+      "path": "hmos/oxfordshire/south-oxfordshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "430aa6c0a6e3140392bed5e1f06be5424e2590e8ec86b6eb2528e6e7b3d43a32",
+      "after_sha256": "4a4d4d1e6ae8a9bc8f52899134ce31c5a4f84446b97d5b676dee085d66d7d14a"
+    },
+    {
+      "path": "hmos/oxfordshire/vale-of-white-horse/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c0b24cce02ed3f17dae5764542b1f0b3800cbfe809ec18c7c5e45cf0863f6524",
+      "after_sha256": "ca4e7c3a12a80a731810caec7dd4067cbd9acbb63db5411b6fa61952b9cd616b"
+    },
+    {
+      "path": "hmos/oxfordshire/west-oxfordshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "505a6124f815c587b7a6b9c0b0bd05590de6ef7b7a7f922095e605dec75a226f",
+      "after_sha256": "3a409621591008d912815bbca69e9953eba6b10d22628b504dbdcb5784dfdffc"
+    },
+    {
+      "path": "hmos/scotland/aberdeen-city/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f04d50b50e63c1a0cee39a208648fe1f473d9f40fd4288e2c5e465c2a2a32e56",
+      "after_sha256": "b4dc353b956c161c89c9ebb01a11519c9c5da4ff3b07eb4291c6bb054e7a37ed"
+    },
+    {
+      "path": "hmos/scotland/aberdeenshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b83d2687a99ab7166208b82f5510ea536f2acdc0e475574f11b909227d90a228",
+      "after_sha256": "093df37139c97676f9fee047380852dbd5b59e4d24d81b9dc8b341819d9fb5eb"
+    },
+    {
+      "path": "hmos/scotland/angus/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "40e5bc27504216fe1f69bfce047f2d5565491d8de3a0079624fc6e61dcd0336c",
+      "after_sha256": "6aed6e6114ad68937ec80d627015703d32a77e0f243662ef1476ec5fc4e9df98"
+    },
+    {
+      "path": "hmos/scotland/argyll-and-bute/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "4dbbde91752ad109ac9eb348186a292794b32d58b8261082b4e854096513b863",
+      "after_sha256": "32710b447c350c00486956783007fda163a50eefdda9e2e7ac00b48d9fe774fb"
+    },
+    {
+      "path": "hmos/scotland/cairngorms-national-park/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "93f928c0cfdf2e80a7ed803e40cd0a47ba85116860221f6d64d52d2053a4a33f",
+      "after_sha256": "e325a2a21b3a064ccb98d0664584df982cacb61f7be3386456e054f69feff532"
+    },
+    {
+      "path": "hmos/scotland/city-of-edinburgh/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "fedddb773274fc26f18ad7a40b1af7ea89df179991890346591d372f3e595a31",
+      "after_sha256": "8809b60c6ced84924921fdd79ba90a621330700f37c7f8fee48bfbcbc3dfae6d"
+    },
+    {
+      "path": "hmos/scotland/clackmannanshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "81c7e5fcfd2a9d1479c140feaabb1cfdc4474088685b66c08512fbdc8364860a",
+      "after_sha256": "bfbc33610850249dde43c0ea8ca08180787547d9d076f90d8cb3e24d5b6f96a0"
+    },
+    {
+      "path": "hmos/scotland/comhairle-nan-eilean-siar/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bde87c6c6f08b27e43f94bd473e57bc2d527d64d02387d592d8f1097796d450c",
+      "after_sha256": "e906515047c1b97bc91350257616d6c10c1f234fb2df9c653cd56154280b719b"
+    },
+    {
+      "path": "hmos/scotland/dumfries-and-galloway/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c3313ce14d8ae61d529e5dea6a36865a12dae4b3dafac00e906c3372b05478da",
+      "after_sha256": "756d7f477b67d330ab17174694a43fa73358823c403b453d9fca417488c90a92"
+    },
+    {
+      "path": "hmos/scotland/dundee-city/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "dca4aa355d6a71af879d7cd53687f17191e229d492d77bd38435d193122841fd",
+      "after_sha256": "ef05caefed1fb1c8145624d32fb359b026eb6eaa3f3882475b7a9bd2901e351f"
+    },
+    {
+      "path": "hmos/scotland/east-ayrshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0918b85f6520f18e807f013cafef7658f571d8fc9d398910d6cc6c21ecdc5bc8",
+      "after_sha256": "ca521d2710713b62a4d689f9df2fbf62ebc2d29b3b2ccf6a7d9e3556069259b8"
+    },
+    {
+      "path": "hmos/scotland/east-dunbartonshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bb48aabd677905747f21a33792b12a917134b26026217ccf9ff4a404994b518e",
+      "after_sha256": "2217c0141acc36cc0ada5b8e44befd75f3ff58099af1f23fb89d1a9acc186736"
+    },
+    {
+      "path": "hmos/scotland/east-lothian/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "c0684fd2c4f8d9924dc1e7eb60dd097d7254b52605d8aa35e60a2c48303bc676",
+      "after_sha256": "2e9c0dbe6eba3b8318de4f3692b97c70f7c90d35969b1ce2933938a77550858f"
+    },
+    {
+      "path": "hmos/scotland/east-renfrewshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a6ff9c311f2616d126718c364fca16b0767980c263919a78c13806f878b190de",
+      "after_sha256": "bc15a63d25ae8e9b336af1c534662bac9973d4be376a3af45005e20d8f5b1607"
+    },
+    {
+      "path": "hmos/scotland/falkirk/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "afb76234ce4467995001b88a020b3574f468ef1209698194a14ea1717324519f",
+      "after_sha256": "ffd9667c0408e5d57c2e33b23bf54ae92f6bfa14f9a0be8762fba89ccb1b03f9"
+    },
+    {
+      "path": "hmos/scotland/fife/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "4cfd4b03dfba694d0c28e967582e85b780687bf5e0e2c2d4ccae527ada970c9f",
+      "after_sha256": "ec986016de2f263643ab4fb8de6bec879877d5eb4f47fdae58340395c631491c"
+    },
+    {
+      "path": "hmos/scotland/glasgow-city/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6783832a2ecbd02888bbed605b53d8229471765085c7db402af6a0a4b8f0afc0",
+      "after_sha256": "aa17565ae49f5bcbd38c5c7dfe2e71e2f54c6b66e34bd0cf1a2770e4d751bec0"
+    },
+    {
+      "path": "hmos/scotland/highland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8fea59565447d176bae782a14f0a8a52dafd5bfc1cf07b3ac036f34db97bdda8",
+      "after_sha256": "d7813afc1903e14b5a707d7981d2f4d906fce9b5a0c5838866d578a2593352ec"
+    },
+    {
+      "path": "hmos/scotland/inverclyde/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "49123c6bcd8e9b163b4a1e41acc1db715205278ca28d44740fbce4f87799774c",
+      "after_sha256": "c30803f7365e058fa3f8d05ad2b03b2d74651dbb3eba8f31411eb45f5253c2bc"
+    },
+    {
+      "path": "hmos/scotland/loch-lomond-and-the-trossachs-national-park/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0716cb28ba1f0e2e4287a3f010e3e843ee4bfbab296115dc8cbe9ccc47a51e98",
+      "after_sha256": "b454530e2ed75755f3e5fdaeb290d43547c88f1b1145318842ff062a604f82f1"
+    },
+    {
+      "path": "hmos/scotland/midlothian/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1bb7032c7bcbb2607402ec1a8a3bdbcea40fc43c0e7eab6658c9c7fa0c50b4ca",
+      "after_sha256": "ec2f47d6c4e348f891af784543743a24ebef716b42d08c88526110aa8b550eeb"
+    },
+    {
+      "path": "hmos/scotland/moray/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "9fb7c82633fc0a5e1400969deb633c7642d054e8e21552a686ffd72a63622eee",
+      "after_sha256": "d382f927a4d64e932970c1489d741cd64f1479ef4c2bedab2e258ff6c73c7027"
+    },
+    {
+      "path": "hmos/scotland/north-ayrshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ab95d802e778a5354b3bd16cba36ebb2032355dafdb6e292395cadd37a6ae1ef",
+      "after_sha256": "a80f37c8e6aad36536aa059d6bfcaf616f0e7894899756b619fb3bbf7e21ab16"
+    },
+    {
+      "path": "hmos/scotland/north-lanarkshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "78794f1ddb0e767f9d2a2dc62df7b13f3816b0ee870a9bd518a1cf7f7cd8366e",
+      "after_sha256": "c6facd0a253c62485a108257a0accd5248a370bb0830228b482b926926d225d5"
+    },
+    {
+      "path": "hmos/scotland/orkney-islands/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "3cf51b39a77794b9db56e23467b220e88c92f5ae7a4b089d8a5b8a71e77e97e7",
+      "after_sha256": "c6cb6deafc810483f82224ab057f18d00cf7740fa2c96915db901b42a9e0b2de"
+    },
+    {
+      "path": "hmos/scotland/perth-and-kinross/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d64c39ea52b65c00c60cca0537ceacd1bbd175952daec02192936911b73e1edf",
+      "after_sha256": "c776ec3a28295a535df789693eae36a133174bbae2d65532628cb7e1c6702530"
+    },
+    {
+      "path": "hmos/scotland/renfrewshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ea8c2a39757cee3e39f05e70376933a84c133e8ccb38bd166250d9164aa52ad7",
+      "after_sha256": "34d0b6ad73d86001a9e7b870247abe6fde766f2efacf3c13f7b7948167a2b99b"
+    },
+    {
+      "path": "hmos/scotland/scottish-borders/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "e0f79f52d1d870e3b0cacfba92c3c7fa5a6ec31215c1789b9553ecce97da2210",
+      "after_sha256": "56555ade50f33f8b96b2aa6df37ecf61e41f24c23fb2530ea55deed37fb7f902"
+    },
+    {
+      "path": "hmos/scotland/shetland-islands/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "022a747067188989f4085d0407302266806bfae5c4ee217acb961082d74e2303",
+      "after_sha256": "150fa13480995dc0f3f918bc711790e3b33a3f85bed540ec63b4d89f81a7f4e7"
+    },
+    {
+      "path": "hmos/scotland/south-ayrshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "db47fb8340299cb5104a468244f896a6399eadb61f16b9cd98fe75690eba17f6",
+      "after_sha256": "6d21a568ee85c467611ef93da63ff0ea00c5d1eb692979e08175960dcc6adf4f"
+    },
+    {
+      "path": "hmos/scotland/south-lanarkshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "5df7c050a2d8967bfe41e3fdcd060f67ceb3940892cdef435067f0d286240b59",
+      "after_sha256": "76f38dc07953498448bb7f6174b5a499308408229ba740a5c369a142a0e36b1a"
+    },
+    {
+      "path": "hmos/scotland/stirling/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "4646abaad2e82eb8d87eca6a845189b44b0f701688b3f3ef5ed67fcaf71a5b18",
+      "after_sha256": "6f46e4fecb7c0d7a27e04ccac086be4f83ef722b523358f51f4ee2c1fa7d951f"
+    },
+    {
+      "path": "hmos/scotland/west-dunbartonshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "01c61610f08659881c4bbc0b6c61cbf1b4e705243e3fb82b93f2be1b966b8f68",
+      "after_sha256": "a2f3ea06d568c1b321206afc65ff1e94eda5ed6bb0cc56eaac368f69c77e159d"
+    },
+    {
+      "path": "hmos/scotland/west-lothian/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "f2e8efd83d2f883db15bb515930df24c5332b5c9cd0c7935f4ca22d3d0832fdb",
+      "after_sha256": "d078422ea9d930cd5c08a31525e477fac7e7ac203ed47d6342a04f38f544a6d8"
+    },
+    {
+      "path": "hmos/shropshire/shropshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6841cea2b219068e1f7928f6bb94857cd0777c0ea354ce9518e1bf8a59d7ab1a",
+      "after_sha256": "d7d56339e8572f44bdb592bef8eaa352f543980043fc06b69fa0eb3312abe275"
+    },
+    {
+      "path": "hmos/shropshire/telford-and-wrekin/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "48852e467484ee6383649728a7baffef2f2ff04a8d809a886906ba63cf5b929e",
+      "after_sha256": "1d32d91ab765bb6f6ae4ca0fba965673ddc32125660d829485555dbf863530b3"
+    },
+    {
+      "path": "hmos/somerset/bath-and-north-east-somerset/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bc57a09c70640944614348e66f1cf2127eab7d05b8385eb8da16877df6d9ea9c",
+      "after_sha256": "7e2c072f4e32c77ebefbcfd157d0a455ba0bcefe5b66cb2dd8ba638d3e50a504"
+    },
+    {
+      "path": "hmos/somerset/north-somerset/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "21f51e2be234f915d2bbc9e8fa72c8db1ae34c40c8588c008db987edcad5fcdd",
+      "after_sha256": "c85f4b470051e832b2be8e781b242918480555d1aa5669ae4486e072e6daaeec"
+    },
+    {
+      "path": "hmos/somerset/somerset/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "431a4285c33c187a0e53d7393707cde683249ff3146cbaeca702fbe272429626",
+      "after_sha256": "7e91f917ab902f7b716adf5306ccd80994240d4f22aa561a786faadd983cb02b"
+    },
+    {
+      "path": "hmos/staffordshire/cannock-chase/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bd2394fc61e203f4734c6726dbab67e862b6a9dd1e63fe6a4dc9597a7a2d1ebe",
+      "after_sha256": "e324360aef8314a009a8dd706d85ab8b658643d4e22b2a2f176ed13888e1016b"
+    },
+    {
+      "path": "hmos/staffordshire/east-staffordshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "da871d0d86a3f7a399d6f5703946863717f8685226400a8a49b9aa9e8ad94e58",
+      "after_sha256": "23592d67b8e83b12a7d7c7cbb7a959b3d8913970843cacf7c5ca1a40e116c424"
+    },
+    {
+      "path": "hmos/staffordshire/lichfield/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "66a5dadd42f09331d1709abbcb6192fb601d2d81932ee169f5d907c7181394fa",
+      "after_sha256": "412e6d166842cd64932184242d32cd94603f5a869f7817172bef7c0d01ecbf4e"
+    },
+    {
+      "path": "hmos/staffordshire/newcastle-under-lyme/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "38ad5fc47d6116c0d703c28942fcd12a320681db0f1e40d3bb3ce0355c864a61",
+      "after_sha256": "31f139b400e564a7b5ee253dda0e88f04e70952f2ec4172c07e5f5f2971c40d6"
+    },
+    {
+      "path": "hmos/staffordshire/south-staffordshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6ea9dd0ca8ed6ce5aa1991ecf6a3f7d130f42cda3fa0266b5ef1adf4873c4b9b",
+      "after_sha256": "4e0d225dd7e62613af5ef5fccfcba23b840f7a9a45718f29e602870e5a83b3b3"
+    },
+    {
+      "path": "hmos/staffordshire/stafford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "724d92194706c1f95dcd651e7e542b26f8148f0aefe5746451bb78b35a70301b",
+      "after_sha256": "dd9ad27404f5e7752bacd8f383b3cc65cb286385980bdc3a44088b364286f02c"
+    },
+    {
+      "path": "hmos/staffordshire/staffordshire-moorlands/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b9ded18ae85a6bc9dd7e5415b630dc5fb70ae79752a33cd99ef474f987369f87",
+      "after_sha256": "10e777db3dabf55d8127629d693b9eb4ddfa1f464a753b848f5bf672782bf8ad"
+    },
+    {
+      "path": "hmos/staffordshire/stoke-on-trent/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bd4dfd63a12ebb0ff7fc12a449802626ddfc286604cf9f28a6bd476b4fae6988",
+      "after_sha256": "183a8dc7e59b31e00a5132e225e398dc93d7682ac4c9a6b2281b113d7e2a34c6"
+    },
+    {
+      "path": "hmos/staffordshire/tamworth/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "4c67df1889856302d113e0e4e9a15109385816064f061a759c2d4a38dc30d14e",
+      "after_sha256": "c1e241ad25dd2c075809930a2cdfd80128bdeebfdca62aa06bf506eee4c9a2a8"
+    },
+    {
+      "path": "hmos/suffolk/babergh/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d0cb37d50aa1dc16035a6dcbf569814e305af635c226840a6def380a6d7f5832",
+      "after_sha256": "04d5c552bdf5ce44f49b683a4de1c5725403c4f843feb528243bfac12421ed69"
+    },
+    {
+      "path": "hmos/suffolk/east-suffolk/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1068653135b4a4521c7f66fd22e28aae7a174c0816bc6309ab88b6b88da75ec5",
+      "after_sha256": "e6dfe0415c2da774950704cb6a43c599f0851240a136b19ff1e6097c937e586d"
+    },
+    {
+      "path": "hmos/suffolk/ipswich/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6a63944479d48c8141cf5ff0de6823ef4e652930ab465a3de251cbd4b427dda2",
+      "after_sha256": "b6be39ff651a7a788e2f8698c6f4e04cb455dbfe5cdadb92dfbf05256493328a"
+    },
+    {
+      "path": "hmos/suffolk/mid-suffolk/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a031589b24213152836e8ca2df94fc0af9088047fb06ce83a81b90909011162b",
+      "after_sha256": "44f5f0efb88461f9bf58560217da33f6470b68c6c21c4183d39e10bbff1799af"
+    },
+    {
+      "path": "hmos/suffolk/west-suffolk/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ba644b98a8c2d447d54bda1c0699bcbfe194fc38280caf431906d0d116ad9ced",
+      "after_sha256": "084bbb3c8792d1cbbc7464266505c010e32876b85b2f0d6d20016b91669013e5"
+    },
+    {
+      "path": "hmos/surrey/elmbridge/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2146cb2568d002fd59de755434fbb50d4eb81d24cf16a72061c58b31a7b485c4",
+      "after_sha256": "97cfe3feefb8423ee85be2bfe786c3641fafb27da2ed19939309e1e23ab3371c"
+    },
+    {
+      "path": "hmos/surrey/epsom-and-ewell/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "5e63d7506060345c12872f40976657834da033e064bc80fd3a0995b6fddd9d03",
+      "after_sha256": "9f7b815647c6af987a70debd4ddaff33a8979a1b0f32e377d2503a7b5f89f44b"
+    },
+    {
+      "path": "hmos/surrey/guildford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "289725ece44e104a9cbc797fc238572824bb8204588b537638116f0f43a2291f",
+      "after_sha256": "247bd5155ace5579cb587c86af972903499cbbd6e3ffa5193834d402c7f87f17"
+    },
+    {
+      "path": "hmos/surrey/mole-valley/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1eb3d1bc4d2c0b7e045bd642cab851c6a1b442e5c2da7b7be083abdc6ea820ba",
+      "after_sha256": "6405e920202e115e7048a2916ae6b7bcab0315f344f11c513a894f47c29be5eb"
+    },
+    {
+      "path": "hmos/surrey/reigate-and-banstead/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "73e2cc7b0206f9b6d0f00bdb2d871e0bc8101792d9b23272eb85c16aa3ad20a6",
+      "after_sha256": "8227f24d127acf1e10138e5e6fe21348d0315bf9246c7e9ebdda958b95c7e2d6"
+    },
+    {
+      "path": "hmos/surrey/runnymede/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "25233ef9813c17d036c00829d22368c7abf2dc5c7b99443d7ad329240fcc9197",
+      "after_sha256": "5c3dd33c3b6e5f6a7e295fa6e4f9cb45d3f4e4c7c3297e13b7a114a999c384dc"
+    },
+    {
+      "path": "hmos/surrey/spelthorne/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "cb4be85c97490a75e530e4c5c15e2649457afd447607182068d82af6cbb41bfa",
+      "after_sha256": "3b73da370a69fa06daf3d7a3214343b5811399c337616d2f28bb608a8e96c11c"
+    },
+    {
+      "path": "hmos/surrey/surrey-heath/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d0edd98203976cc924aa0f7cdc6041f4aecd7cba024845450ba9af472cf3c8ad",
+      "after_sha256": "aee70e1bbaeea989ef0e07bd79653f8c50e9f01c295b2aae3c26c3ed29576e00"
+    },
+    {
+      "path": "hmos/surrey/tandridge/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "414950fa37ac5630267bad4df41082f729dd36a3fa94b35395803c689ce15c6f",
+      "after_sha256": "6b4a30572901c5003e3c1061690bc7fbacdb71453fe5a4c58bc7a2b34f88e6a9"
+    },
+    {
+      "path": "hmos/surrey/waverley/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "89b3df6e41823eede166628ab1731959df904e9db00119092213e07e783f4bad",
+      "after_sha256": "0efd17bcd3e10f7c97c3119ba1b27120538e0f16021d83d9cb36ff8c614d1087"
+    },
+    {
+      "path": "hmos/surrey/woking/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "e8dd2b781c6d13d93cfd6f2283e889018230642a6e2ace6b01dd7540dfe195c3",
+      "after_sha256": "05ceb6d8a1189360fd8ffc10d4a9136cec6ce4b6a386b3b91d6c8c02d0579397"
+    },
+    {
+      "path": "hmos/tyne-and-wear/gateshead/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8ff8134772122f6e117dd437328ea8dd00cd584060f15b3f561902d6f7e65b7c",
+      "after_sha256": "331018a791cc59ca18a7253b287a1244261e824bdcd1fba6b4150d32327646c3"
+    },
+    {
+      "path": "hmos/tyne-and-wear/newcastle-upon-tyne/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "4f64787f22ee446cc8dd98bc154fa9c7ba5a42e960f84a040f5dc5ebcffcbf3c",
+      "after_sha256": "31451b1adfd8f3bfb77a16db97094dff28bdc80d07529677cf08f00bac60465c"
+    },
+    {
+      "path": "hmos/tyne-and-wear/north-tyneside/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8dd88ae3e17c264566e298016ac37a6e3c8a5bdef0e61f402f094582fb3d2c8d",
+      "after_sha256": "48858fd5f2971c9bb6103c5d8111e36b94fe5eb3b030222d7851f8ae1c607ce4"
+    },
+    {
+      "path": "hmos/tyne-and-wear/south-tyneside/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1417ab9b755a791acb44753d72112b2686b842c45a2928df8854421d5cf03eee",
+      "after_sha256": "fbd813b7121764c265f7594d40ab098431f94bd305447c970cb4da025db219b5"
+    },
+    {
+      "path": "hmos/tyne-and-wear/sunderland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "835019cb01ddc5d23e5541579759bc1e0a4a83b71dfef1611e724cd4854b8707",
+      "after_sha256": "5bd83f0fdf9260ec8c73cf0d1635869f1dc7536434a40d6f973c40f20458924e"
+    },
+    {
+      "path": "hmos/wales/bannau-brycheiniog-national-park/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "42ef80c9ecacad024c8a5a0260de93aa66f87a3d0039837e3f26c2cf996b8ab1",
+      "after_sha256": "1fbc0f5c223c495b8b9be7143ccd1695dff3ed27ad461aa6a644bb15215db466"
+    },
+    {
+      "path": "hmos/wales/blaenau-gwent/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "dd14aed9e606b2edb28637a12184e66ea59f624d62f61a099f41ff22ab4047d6",
+      "after_sha256": "905f748e4b2fabcec5eefadc41398849f3f7683ae3c0b16923d6485f600e87a9"
+    },
+    {
+      "path": "hmos/wales/bridgend/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "5cb39b48f9bfa0265238863023b02730807a02312929cc48c5bd0bf8ba0b13a9",
+      "after_sha256": "b8090fed7665b59dc0f3aee4a1461ef7a92be759ae1461c548c2fdc9b5e40f35"
+    },
+    {
+      "path": "hmos/wales/caerphilly/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "3b50bfa640e80df5f79c308af5b80fd593b114caa6d9e8d33236155ac5480678",
+      "after_sha256": "7eba077e8c57516b54af787a960b61183202c4c7917be5c0800b56f1bd0e1029"
+    },
+    {
+      "path": "hmos/wales/cardiff/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "245919ecb308cfa5f3562d8b2a43ef8dc4e122966536ab7e0555528144ac7fba",
+      "after_sha256": "36332584bfc051de9da01f858a84e50e5e97adf29de3bdfcb68d8d17285eee57"
+    },
+    {
+      "path": "hmos/wales/carmarthenshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "2a573677206875e71e97ffdabd979e9e345189318cf04f285387c8c4385b0e56",
+      "after_sha256": "80af80f2f842d058a5133004a582d619f0e5e6a29195cb335a7cd4889c83a819"
+    },
+    {
+      "path": "hmos/wales/ceredigion/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "6f1fb3b17df8b78d3efdb930263d5e6c2194c93782ab0cf00d8b406fda0e21db",
+      "after_sha256": "9d997b27d6a5583bcf1a59d4d69f1b6c33f79901dce94d0f9d7529fef8fb6b9f"
+    },
+    {
+      "path": "hmos/wales/conwy/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "54a92edeea2ce43448de59fd5aa27639cf926a0a3aff8dae3cf77738fece0c10",
+      "after_sha256": "7da6ecb4f6d774f42df76871e83feac7e98753a27f2119e7051b704debba7322"
+    },
+    {
+      "path": "hmos/wales/denbighshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "9b12dbfbca208928d1e94e0511385d9b9d950fbd367e5b1c7fb8b203f2d31868",
+      "after_sha256": "a7a45d7e60e45618a5b27458935bf94ed84743a748b097ade1bf70dafb8172b0"
+    },
+    {
+      "path": "hmos/wales/eryri-national-park/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b28d815392b7e57d97774acf5badf7e44f5419a690eb3297771f047d4caf6e9b",
+      "after_sha256": "e1ca0e1f8ec4890ded2fa90ae227042b51e9ff7406bfc7da0d9b58f845b906af"
+    },
+    {
+      "path": "hmos/wales/flintshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ff85baf2aa7b4368459f78886caad43ff454e348c1d30da4e6e7aa55f84d6f6e",
+      "after_sha256": "1505792143665a0aaa5e19230654f8f881179f84b81f487f32676d8c8bbe72ea"
+    },
+    {
+      "path": "hmos/wales/gwynedd/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b5c350c73fa60ca8ed4ffa7043ea9c57798070d2aff16ddba19142042ad0894e",
+      "after_sha256": "50ab30d3753507582fc5a76419d33d315c4cdf9299c68cee42678ab50e257436"
+    },
+    {
+      "path": "hmos/wales/isle-of-anglesey/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0725731bdf1fdf024bce7937c78978e507e4836fde51fcdcb73e207ac06a1f21",
+      "after_sha256": "5c9f71a38f1f906ee9fc9de97c917c4ca474614555b0d12584242a4d10197ac7"
+    },
+    {
+      "path": "hmos/wales/merthyr-tydfil/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1f43ed7f68df8acfa9fce63a80783cf849c398c6d0c76fdee39f6ce2b62a76a7",
+      "after_sha256": "c5ebe9a26574147e04ab18cbc9cad5d1b76eb9635697b48bb28cbca21d2fbda0"
+    },
+    {
+      "path": "hmos/wales/monmouthshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "fd160e33d03f943e789c3783d18d4a5cff1c070c6ff9583439bf9bd71f23d0a7",
+      "after_sha256": "56bb1b1f1ca9e6114c1d9c463908e28fc31746baf04b406c2098d13404e3e137"
+    },
+    {
+      "path": "hmos/wales/neath-port-talbot/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "00f9974ad6198ce60df93ad76e09db44767869a678455e0db9e0be1d9e703fc2",
+      "after_sha256": "62776f35baef175525a522c8696c879b6c89747543fc300ba5684c96dfbd0d35"
+    },
+    {
+      "path": "hmos/wales/newport/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "811d72967f55bbb0302a28ac17fc2a077ef1413212284f5e63f7659b29859f60",
+      "after_sha256": "95e673084b234aec90187f7d29aade716f93c7634952a9d742a01cbfcbef6ec8"
+    },
+    {
+      "path": "hmos/wales/pembrokeshire-coast-national-park/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "943991aab637d9a7d12ae056dcf4bec7870d3526daa75fee4f255ca8eed62398",
+      "after_sha256": "5dd12cdcbbebdf538dade0c94bd969f1753324815e10227805c1a22fdd97342a"
+    },
+    {
+      "path": "hmos/wales/pembrokeshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "3650c92b6abe31b1a105446b89be926ea0c4b3fc29b4b5ef6309e75e9cf96570",
+      "after_sha256": "17ddc6d859c72a91706462661efcd8ba337cff48c0332ab7b85afc5991f55545"
+    },
+    {
+      "path": "hmos/wales/powys/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "11f00b3bc55dc0354e77a487db7800cc50a28784dc7c157cdd3708b7d8c8d7e3",
+      "after_sha256": "d2b8b68f0682511e5935a630a6580ec0dfa2e29177a8f9bed4985d4ac381e73f"
+    },
+    {
+      "path": "hmos/wales/rhondda-cynon-taf/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "13edd141577fd74b5f97f743ec32f0b6fbb83b8ce95cb5059aa683b89b1a16b6",
+      "after_sha256": "728b212fe250dda887fda9409f1d517b0c857629dd171c8c89fe34446f602fee"
+    },
+    {
+      "path": "hmos/wales/swansea/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1959ada3a5186cc08a128d11d0c0f58c2e080912c224a3fe81d913c66d1069af",
+      "after_sha256": "35d777ecbff942ea2f44d77eb982648bd4c1b287a05115172e11e89b7a37f89c"
+    },
+    {
+      "path": "hmos/wales/torfaen/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "919e0203af11a3aff5edbab04027e5e226ae46ed001fde162a48b91f6326380b",
+      "after_sha256": "3087f0eb89f0fd1ea34b5d3fd6909871470fa2b960f674b0c10990d800fffc2a"
+    },
+    {
+      "path": "hmos/wales/vale-of-glamorgan/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "05b5fad4889ee0076d043a1b7ceea84b173d52d3873da91be310721da2b7e7a3",
+      "after_sha256": "397c1fe0604323160d4de6807510801ea72887016d5454259396eee94567a7de"
+    },
+    {
+      "path": "hmos/wales/wrexham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d830bc0d769e983d839d8a878e6e4372c32f81a4cce2e7f48685df1ed4e07df8",
+      "after_sha256": "f16a005ab25b76ec6cd69427cccb90957991c2917c3bf05d4ee1f35a7f607270"
+    },
+    {
+      "path": "hmos/warwickshire/north-warwickshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "07d13fe71bea83f702b622576a27a5f5d83d08f03c8d567a7abadda65bdd5cc4",
+      "after_sha256": "79f5531d567fbc7a5c518ea7010df234a3f8646dceaf558a60b168d72c0290d0"
+    },
+    {
+      "path": "hmos/warwickshire/nuneaton-and-bedworth/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "057bf81a2b68a302c6fc50d5caa1ba96722c9c1d691872d619cc73fb5d35d0c3",
+      "after_sha256": "1779dd054ce89e9b63005ab11a9a32c65c3ddd650c8c1ac667f9a08fba9415d1"
+    },
+    {
+      "path": "hmos/warwickshire/rugby/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "0a6ed4430d72365fa461d4a60b174ddd7a4e7e25d6a219ab452923059bcb6e72",
+      "after_sha256": "cabb2f704eac01c151f9ff6f05e4081fbf456e2b92766f902f1c0981991b0bf2"
+    },
+    {
+      "path": "hmos/warwickshire/stratford-on-avon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "eca235137098fdd896776ee9ad31838644160176980c800880e3c282ae63b3f7",
+      "after_sha256": "637a2069249492516ee9468291a59167641968552dc9786427e6fb990489a0a6"
+    },
+    {
+      "path": "hmos/warwickshire/warwick/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "3bbd220864a2a339d00ec2b4d791330a517c648d013ac0db7ae6813957b6c325",
+      "after_sha256": "d54763e2f22a16ceac09d493ea6213abd55709007996e82d08cd73f5cd698e04"
+    },
+    {
+      "path": "hmos/west-sussex/adur/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "bceeeb2d91a3fdff2aa6e83753151897711e0a6046487c4bdf8ddb15607ff5fb",
+      "after_sha256": "90a880fa8d18c223aea9dd968fde70e05047d95721378a8bbb06b1c90c60419a"
+    },
+    {
+      "path": "hmos/west-sussex/arun/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "890678a67cf1651ebbb96f6054db03785c8c3e273b75f0c493ab0fced8fa9b64",
+      "after_sha256": "f3277fcff004ead468815febaffa1f8e3d3f67e08e06c99f9f8277c4cfe504b4"
+    },
+    {
+      "path": "hmos/west-sussex/chichester/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "223d421e62e2369d4d1b732f048a40fb220c52311ec12b28d40b36b84b5013e7",
+      "after_sha256": "f89f1edccc3824f462c10c9de85577f7823ca6448f708741ede6752fa2a46ca0"
+    },
+    {
+      "path": "hmos/west-sussex/crawley/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "fb6c1d1ef42d2366d81845d6ef25e7703c28f0eb645f7303767bf33408d1554c",
+      "after_sha256": "5db57e11d6dd413d884e273b3c2ba012b1d4fa45671bcb51a3d30ace069afc3f"
+    },
+    {
+      "path": "hmos/west-sussex/horsham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ae426364d6a484d852144507fd512daffd5f9afa106d0638c5a58592db039fd2",
+      "after_sha256": "1e066afed15d60da4813a475f9a6886893b4fa5436e20e267e2bfe0b7c721125"
+    },
+    {
+      "path": "hmos/west-sussex/mid-sussex/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "72cb00ef730da80cc82e1a8eb7383cb28a1f96a4f54780eaddb0a83cc6923b81",
+      "after_sha256": "20c391ecab9fb2e7bd7a89d1f5f189b881676230f8997d852d0bcfa4ba77ee9a"
+    },
+    {
+      "path": "hmos/west-sussex/worthing/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "215d02df16209a8e728478802e53257b271b07d6babdaf960bdbbdd93c247678",
+      "after_sha256": "12d7ad8bbf6cb900af9fb66395d53d7186d9c8c9cc5c213562e0ff5e3aa4066e"
+    },
+    {
+      "path": "hmos/wiltshire/swindon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "b0098ea2e3366a69883363dec6b26617bf42d5d54a8b1edde786e7e1c90a0f87",
+      "after_sha256": "6dba665daebda1ff9f1b3dbc9976f610131a4aa511446a07296d567d64a3ef23"
+    },
+    {
+      "path": "hmos/wiltshire/wiltshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "053e0fc2653b85ea9d935afafb44ab52cb925a0b319e76d60bee02ff4be55f12",
+      "after_sha256": "6313e343326046c9f4acf5869f221fd1df238d9c434496cce746d31af89c6cba"
+    },
+    {
+      "path": "hmos/worcestershire/bromsgrove/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "dd86e8f7c2a116d15b24303ae78e0e0a749da7a816fd16e6dabb3981545d5b23",
+      "after_sha256": "c7b56d54c324742c1986f2ed1786c1e577e3e8c048d4187b08692cd809c18eaa"
+    },
+    {
+      "path": "hmos/worcestershire/malvern-hills/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "154d4f9f799edb621c21a24b93748fd15c4e360ba87d16b007937c45c6dbfe40",
+      "after_sha256": "11a1c8ccadd3f41de240157b52bcab3e5678ab7cc7eda92f2247869d113787aa"
+    },
+    {
+      "path": "hmos/worcestershire/redditch/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "aa276d4acbb09c7d68babc035dc59f3654b59f636d70e96c5452a8da8b47b65f",
+      "after_sha256": "b69728b20d6cf4fdfa7251532ac9e2e38a3ef7e72b3f69e32e496f9cd9d0d0da"
+    },
+    {
+      "path": "hmos/worcestershire/worcester/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "cc66402fe2d933d867e7a42a0d372ef6a8463e544acf7b9064ad23ea61eb8180",
+      "after_sha256": "6d44affd927c26b9a506425ac8cc9cf97253230b3d25f3c9fe584d22451d4a06"
+    },
+    {
+      "path": "hmos/worcestershire/wychavon/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "38feb985e14459da67126d65261be2289d6729e25f87d130637e4bcde5045358",
+      "after_sha256": "88ba233be480d18db9cc1a4f6990759a4b62ff4dde0a4bc6cbf66a19e3e0fee0"
+    },
+    {
+      "path": "hmos/worcestershire/wyre-forest/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "9d29ba9433930f3e2cac0de39a6830b33a471439dabf80d614d254b90727bbc1",
+      "after_sha256": "91a7d92a63d6c51573b62a877aefc7ca2a16648b41c9d7aa33dff0293ef21964"
+    },
+    {
+      "path": "hmos/yorkshire/barnsley/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "727c6680f09ab487af3c374548796f0fbdca2fbbe48e400fd08cb76e9a157469",
+      "after_sha256": "284c1ca371063cc5a80ebfa458b584cc37cd90673419fd56c52b51443ad87f53"
+    },
+    {
+      "path": "hmos/yorkshire/bradford/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "844f46b45331f2a260bce0622331014b089a6d71415be95041fb7c4e7304232a",
+      "after_sha256": "f7ea0c660bbc634056b2fcf6b9e0b16e10210facb7711b15e890a55d8d0f4011"
+    },
+    {
+      "path": "hmos/yorkshire/calderdale/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "d8821b2602ce87a0cb0e8572d649bf64020b99d0b579c6a2ddbc1c05af958688",
+      "after_sha256": "aefe3cbf86c597b4c800cfda420099e7e27d1edb6e437818fc93ab50c320ea88"
+    },
+    {
+      "path": "hmos/yorkshire/doncaster/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "560e8eb144ad278aeb7215d531cc4c44a9b9c6ac0dd524b051ab578a595290ef",
+      "after_sha256": "8270c6a93403fae95fe9eefb89a58c4375ac70e469ffd4134c218b0011d63e04"
+    },
+    {
+      "path": "hmos/yorkshire/east-riding-of-yorkshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "645e7f81260c0f008169486d8e42d23a42bb3adb86b9fe622d878c37fc27b621",
+      "after_sha256": "155b43400ecc7eab6e5de34bf9816fe78044327c1fac0f96481ebb5a6c16955c"
+    },
+    {
+      "path": "hmos/yorkshire/hull/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "66553d4cb9ab7739c3179a5a9ab29fd0706591f5e88d3a272f153d701baff9c1",
+      "after_sha256": "caab680bfe224e882bd94aacba219a06174799a4021e5f1ff346665a916cd23c"
+    },
+    {
+      "path": "hmos/yorkshire/kirklees/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ba8feb322f24575a14cbd0c564e85d848183a418d9ac8455ca6c8e0f1596d653",
+      "after_sha256": "367e00f6ae92a6299525c11b0bfcbc17146f38ca1b0b5d5c8f661cf1bebf6475"
+    },
+    {
+      "path": "hmos/yorkshire/leeds/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "1ccadf77ad7df3ecad61316f57c179e3d41350ea8437cc6ccc58feb9deb03968",
+      "after_sha256": "355d344a2bafdff24b9ce19072bf845ef51874f035a248d1f0e3b75f6374246e"
+    },
+    {
+      "path": "hmos/yorkshire/middlesbrough/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "3be653e96677d07b72571876c035842c06b3962ed9dc46a17422eb2477539075",
+      "after_sha256": "243f6dc84b8d9545f830454b7793ed26db0304faf2cb5346fed417db7bed3294"
+    },
+    {
+      "path": "hmos/yorkshire/north-yorkshire/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "18340c30717a6e66f3ab348790bedc3da62001c70cf25fdc7e28981057eca5e2",
+      "after_sha256": "d25a0a25cb6af94a90008d642bd84939c4cdc7821aaba5c50cc5c4357043fe62"
+    },
+    {
+      "path": "hmos/yorkshire/redcar-and-cleveland/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "ce32d425262b37f168f21a66a7f9c8df74be6085f291fb7d5696f1caff2d41d3",
+      "after_sha256": "bb387461f29442f71e3294ec57e42673b8c83d07d1473909ab46f7e9cb355a74"
+    },
+    {
+      "path": "hmos/yorkshire/rotherham/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "5a5cd3ec0c23c6167fe1b4e1f8288486a21f83449c7e2392210214cbeb9df4c8",
+      "after_sha256": "af85fd35c460ab2cd398013f8364094998178e7c9b088eb9a8e3fc02d43ada3d"
+    },
+    {
+      "path": "hmos/yorkshire/sheffield/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "e1b70f5d80b6ac45dba7f0a8aa0f8537d49a006ee55fc90545092ab25b278f3a",
+      "after_sha256": "49a7978b3af6d5b323f71910031e9565ff80a48aa71dd197f7a2bbd1eaec0554"
+    },
+    {
+      "path": "hmos/yorkshire/stockton-on-tees/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8fcb01d8c96f409bc4e402e8eafb222245a2a3cd1944211370cbc32129c2819a",
+      "after_sha256": "4c775b57742e638ee9e0605a8b53673e9c27aa9de83e1c57f42b4b11f781b8e4"
+    },
+    {
+      "path": "hmos/yorkshire/wakefield/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "82f38d8b06fed045605c977f990462d2f0cd719aed09360b6b0727436e720071",
+      "after_sha256": "e9f3c3cf701667e15c4f89d038ed258c55488870247984394f5a556d6a9812aa"
+    },
+    {
+      "path": "hmos/yorkshire/york/article-4/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "66cf13601334c22ef815dced707056b7932b02480fe30e49a153eeba535bc28e",
+      "after_sha256": "87e8e65012024aa2afb9eadbdb0bc1ea62fac18c2aa2287041ec70686ea0afae"
+    },
+    {
+      "path": "maximum-height/lambeth/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "a6ea0489c11a4b6183e87aade937e392a243f2ac10886c162fb890c129826c99",
+      "after_sha256": "ac8012f5f05fea48c80e86ae210ce0419bf8e3e2f730a17d1b3d8f077c04a68a"
+    },
+    {
+      "path": "my-planning-project/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "99bf687e6e6503c57ad0a59584b8185457e18cd05cb1e9807bfa7a0f42c93859",
+      "after_sha256": "c3ab4809c158c44caa4dfa840be133535eaa007ae80f16e0e2196bbcdffe8072"
+    },
+    {
+      "path": "permitted-development/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "effd3528272f3a246a64b3bd9058df25599f5c4964f2e91cb5f0e7f648632225",
+      "after_sha256": "d22dd29d817f3d36c07d730a73299d1e8b3bc4817acd1bd46b4812280318da9f"
+    },
+    {
+      "path": "permitted-development/north-yorkshire/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "de11b52171508052aee71e2864cdc2f497f9176dc174321e2374409118ac472e",
+      "after_sha256": "3bd5220c815df95beb13d26f8d59aaf825079a50bac9ce0e7e8f9d17a138149f"
+    },
+    {
+      "path": "personalised-planning-guidance/request/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "26b0b0de6af302dd41e6d154e3d7cc8dfcd6444e0acca2bccce11b608ee35e3b",
+      "after_sha256": "27c5acd222cb7902defccaddd469779dc709943346bd5d83782907ebbc430258"
+    },
+    {
+      "path": "planning-faq/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "22f3091eab2a00f3e5d34eec2f24cca25c57d4474167721ecc1c47fcb78640e4",
+      "after_sha256": "814f71554704e113ddf90b291104bcac25d08b8619472ecddb14af91a5cee0c4"
+    },
+    {
+      "path": "planning-permission/flintshire/index.html",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "68f89d8728fa6612daa0693bc1b0a6a4f63d38fe9ae32847512eed1725f4addc",
+      "after_sha256": "f9a3181791f2299d258096909e04f56b6a0336d4b0b8cff416d780278d20edf9"
+    },
+    {
+      "path": "planning-permission/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "dd3720b5feddbe5a3f1eb89dc88018cf59aaa257f3cdf3d1e9cd5d491be3f168",
+      "after_sha256": "f7a4eeb0dfad54be05c69aa7030aaebf9567f2b3c1e0eadde5251f4f7fb10756"
+    },
+    {
+      "path": "scotland/projects/garden-rooms/city-of-edinburgh/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "e93137a59ab5b6235fe69073da5fbb8832967ccdb1a185f02af30af9c2bd5d70",
+      "after_sha256": "69661609c8d7d63ab0c013b3fa90ffa80f2b267d42f5f900c4df3898a4c8c1be"
+    },
+    {
+      "path": "sitemaps/sitemap-england-projects-1.xml",
+      "kind": "substantive-survey-lastmod",
+      "before_sha256": "c7c7f3b41d9cd52ffa4c14893539b9957363369102ec5d65474a6904629214e3",
+      "after_sha256": "9e3ec5643ff8b868e4d01b7d6c51a2c565cab02c14f7f904df6200febb23737d"
+    },
+    {
+      "path": "sitemaps/sitemap-project-scenario-pages-2.xml",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "185a22bec9a0430f16260566af6f8d2f2b72571ff3291741600be5a31414c498",
+      "after_sha256": "a2cf4c7662a94dcce076ec04b9cf65a753bec700f22f36b3c445309fa1d1baef"
+    },
+    {
+      "path": "sitemaps/sitemap-project-scenario-pages-3.xml",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "241f01c4b85249316275d66e60bf5bd27fa26da008c7642983bcf8805c0d1bc5",
+      "after_sha256": "01808b774e8dce3c40061851ebd074bf895f178e22e7c1f8ba5274a937629853"
+    },
+    {
+      "path": "sitemaps/sitemap-projects-1.xml",
+      "kind": "recovered-reviewed-content",
+      "before_sha256": "8dba8f51aaf7d7843f2b157952e220116e6e7922196839f352012d83ee2a2140",
+      "after_sha256": "04299d0ad6662afb2157fe19b71c2cc872ba9993693c35fffab1ca38e9f29959"
+    },
+    {
+      "path": "solar-panels/index.html",
+      "kind": "recovered-reviewed-content-editorial-date",
+      "before_sha256": "517ede80923e37acb3d7f58cbb0f8faf1658bab063d7ce71e3fe791b443f70a0",
+      "after_sha256": "bc9e2d57aa7f1982b02409bf67871263db5e1afee221ba4be29f589cea4f33a1",
+      "editorial_date": "2026-10-27"
+    },
+    {
+      "path": "tools/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "6994585a6d39e21771111f1651ce6b42663cbcaae2ecae58d80d75acf4240add",
+      "after_sha256": "ca23952236d27f1afd9058099495f733bc1feece3aa9ad02a6f3e649fac6e54c"
+    },
+    {
+      "path": "tools/permitted-development-calculator/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "93b467c3440b06a3c7c97cc503b4dff35a0f1cfd8d13d9653af782f0dbcb3170",
+      "after_sha256": "40f2e5d664b57ab15faf55fa54d6f49eeafe8eb39838e41b5e6ab908b3182f4a"
+    },
+    {
+      "path": "tools/planning-decision-tool/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "de4f92fcb9f1cddc65e316780bf6c627fb4a53b4a6f1d3af60a77314b14364cb",
+      "after_sha256": "94c1550203a982149acd99a99a8514836c4d6b9209760b15f3ec23cefb804de3"
+    },
+    {
+      "path": "tools/planning-route-check/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "4a519668a55a79728b3099268f8ef10f018fc77d6332b2d26bdd9cacfcafe7dc",
+      "after_sha256": "f84dc0cf4f34a4dc2d5c864a96a17f72128b21ce9a89e78bdba26330deae94a4"
+    },
+    {
+      "path": "updates/phase-0-integrity-repair/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "82d55c33e8ae55dc7eeffa296fc7139a03fc250f34c5462db356eb948676474b",
+      "after_sha256": "dd348a2992dc7d78cdbb278013f4d74f4e88e35a6a3fb7b7d668bc8a5308ead6"
+    },
+    {
+      "path": "wales/projects/dropped-kerbs/cardiff/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "0c4b2abb52f4bf5a2e06226b28365f7917cb99ebf0d320935b941a7e5ec65b2e",
+      "after_sha256": "6132089e605613f0c42e00ebc0c43b40502f3b487b7536923335ed52a3d44d42"
+    },
+    {
+      "path": "workflows/house-extension-planning/index.html",
+      "kind": "source-checked-canary",
+      "before_sha256": "aeb3e20a125614ed0f15ee5f71da8ba83cb39f7977de29fa8e6d297264effee1",
+      "after_sha256": "7ad73effe523bccc637afcc460317a4dbbdb040847074ea4fa54d2f734e759a7"
+    }
+  ],
+  "new_urls": [
+    "/downloads/driveways-survey.txt",
+    "/downloads/fences-and-walls-survey.txt",
+    "/downloads/garden-rooms-survey.txt",
+    "/downloads/solar-panels-survey.txt"
+  ],
+  "deleted_urls": [],
+  "new_redirects": [],
+  "metadata_files": [
+    ".github/releases/2026-11-09.json",
+    ".github/releases/protected-urls.json",
+    ".github/scripts/verify_production_release.py",
+    ".github/workflows/production-release-qa.yml",
+    "RELEASE_2026-11-09.md"
+  ],
+  "rollback": "Revert the single production publication merge commit with git revert -m 1; do not reset or force-push.",
+  "homepage": "Preserved byte-for-byte; a generated month-label refresh is deliberately excluded."
+}
